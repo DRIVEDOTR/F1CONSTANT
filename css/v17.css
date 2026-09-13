@@ -1,4 +1,0 @@
-/* V17 — les cartes de niveau expliquent leur véritable périmètre. */
-.quiz-levels button span{line-height:1.35}
-.quiz-levels button[data-quiz-level="expert"] span{max-width:220px}
-@media(max-width:650px){.quiz-levels{grid-template-columns:1fr}.quiz-levels button{min-height:86px}.quiz-levels button[data-quiz-level="expert"] span{max-width:none}}
