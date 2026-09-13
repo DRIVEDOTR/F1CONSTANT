@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <title>F1 CONSTANT</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">F1</div>
+        <div>
+          <div class="brand-title">CONSTANT</div>
+          <div class="brand-subtitle">Racing Atlas</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <button class="nav-btn active" data-view="home">
+          <span class="nav-icon">⌂</span><span>Accueil</span>
+        </button>
+        <button class="nav-btn" data-view="circuits">
+          <span class="nav-icon">◉</span><span>Circuits</span>
+        </button>
+        <button class="nav-btn" data-view="drivers">
+          <span class="nav-icon">◈</span><span>Pilotes</span>
+        </button>
+        <button class="nav-btn" data-view="teams">
+          <span class="nav-icon">▰</span><span>Écuries</span>
+        </button>
+        <button class="nav-btn" data-view="historic-teams">
+          <span class="nav-icon">◫</span><span>Écuries de légende</span>
+        </button>
+        <button class="nav-btn" data-view="managers">
+          <span class="nav-icon">◆</span><span>Managers</span>
+        </button>
+        <button class="nav-btn" data-view="legends">
+          <span class="nav-icon">♛</span><span>Légendes</span>
+        </button>
+        <button class="nav-btn" data-view="quiz">
+          <span class="nav-icon">★</span><span>Challenge GP F1</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span class="status-dot"></span>
+        <span>Saison 2026</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+        <div>
+          <p class="eyebrow">F1 CONSTANT</p>
+          <h1 id="pageTitle">Le monde de la Formule 1</h1>
+        </div>
+        <div class="season-chip">2026</div>
+      </header>
+
+      <section class="view active" id="view-home">
+        <div class="hero">
+          <div class="hero-copy">
+            <h2>Circuits, pilotes, écuries, managers, légendes et challenge.</h2>
+          </div>
+          <div class="home-standings" aria-label="Classements du championnat 2026">
+            <div class="standings-toolbar"><div><strong>Championnat 2026</strong><small id="standingsStatus" role="status" aria-live="polite">Chargement des classements…</small></div><button id="refreshStandings" class="refresh-standings" aria-label="Actualiser les deux classements" title="Actualiser les classements"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10a8 8 0 0 0-14-4L3 9m0-6v6h6M4 14a8 8 0 0 0 14 4l3-3m0 6v-6h-6"/></svg></button></div>
+            <div class="standings-panels">
+              <section class="standings-card"><h3>Pilotes</h3><div class="standings-scroll" tabindex="0" aria-label="Classement complet des pilotes"><table><thead><tr><th scope="col">Position</th><th scope="col">Pilote</th><th scope="col">Points</th></tr></thead><tbody id="driverStandingsBody"></tbody></table></div></section>
+              <section class="standings-card"><h3>Constructeurs</h3><div class="standings-scroll" tabindex="0" aria-label="Classement complet des constructeurs"><table><thead><tr><th scope="col">Position</th><th scope="col">Écurie</th><th scope="col">Points</th></tr></thead><tbody id="constructorStandingsBody"></tbody></table></div></section>
+            </div>
+            <p class="standings-note">Actualisation à l’ouverture et toutes les 15 minutes en ligne. Les dernières données sont conservées sur cet appareil. <a id="standingsSource" href="https://github.com/f1db/f1db" target="_blank" rel="noopener">Source : F1DB ↗</a></p>
+          </div>
+        </div>
+
+        <div class="quick-grid">
+          <article class="quick-card" data-jump="circuits">
+            <h3>Circuits</h3><p>Tracés fidèles, secteurs, Overtake, Speed Trap, virages et stands.</p>
+          </article>
+          <article class="quick-card" data-jump="drivers">
+            <h3>Pilotes</h3><p>Fiches pilotes, numéro, nationalité et écurie.</p>
+          </article>
+          <article class="quick-card" data-jump="teams">
+            <h3>Écuries</h3><p>Identité, pilotes, moteur et historique.</p>
+          </article>
+          <article class="quick-card" data-jump="historic-teams">
+            <h3>Écuries de légende</h3><p>176 constructeurs historiques, de 1950 à 2024.</p>
+          </article>
+          <article class="quick-card" data-jump="managers">
+            <h3>Managers</h3><p>Responsables d’écurie et identité visuelle.</p>
+          </article>
+          <article class="quick-card" data-jump="legends">
+            <h3>Légendes</h3><p>61 anciens pilotes qui ont marqué 75 ans de Formule 1.</p>
+          </article>
+          <article class="quick-card" data-jump="quiz">
+            <h3>Challenge GP F1</h3><p>Amateur, Expert ou Pro : 10 questions par partie, 300 questions à explorer.</p>
+          </article>
+        </div>
+      </section>
+
+      
+      
+      
+      <section class="view" id="view-circuits">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ATLAS DES CIRCUITS · SAISON 2026</p>
+            <h2 id="circuitPageTitle">Circuit Gilles‑Villeneuve</h2>
+          </div>
+          <div class="country-badge" id="circuitCountryBadge">🇨🇦 Canada · Montréal</div>
+        </div>
+
+        <div class="atlas-toolbar">
+          <div class="circuit-search-wrap">
+            <span>⌕</span>
+            <input id="circuitSearch" type="search" placeholder="Rechercher un circuit, une ville ou un pays…" autocomplete="off">
+          </div>
+          <div class="atlas-counter"><strong id="circuitCount">23</strong> circuits 2026</div>
+        </div>
+
+        <div class="circuit-roster" id="circuitRoster" aria-label="Circuits de la saison 2026"></div>
+
+        <div class="circuit-layout atlas-layout">
+          <article class="track-card atlas-card">
+            <div class="track-card-header">
+              <div>
+                <p class="eyebrow" id="circuitRoundLabel">MANCHE 05 · CANADA</p>
+                <h3 id="circuitName">Circuit Gilles‑Villeneuve</h3>
+                <p class="circuit-city" id="circuitCity">Montréal</p>
+              </div>
+              <div class="track-actions">
+                <button class="ghost-btn" id="prevCircuit">← Précédent</button>
+                <button class="ghost-btn" id="nextCircuit">Suivant →</button>
+              </div>
+            </div>
+
+            <div class="data-status loading" id="dataStatus">
+              <span class="status-led"></span>
+              <div>
+                <strong id="dataStatusTitle">Chargement</strong>
+                <span id="dataStatusText">Vérification des données 2026…</span>
+              </div>
+            </div>
+
+            <div class="layer-controls" id="layerControls">
+              <button class="layer-btn active" data-layer="sectors"><i class="swatch sectors-swatch"></i>Secteurs</button>
+              <button class="layer-btn active" data-layer="turns"><i class="swatch turns-swatch"></i>Virages</button>
+              <button class="layer-btn active" data-layer="overtake"><i class="swatch overtake-swatch"></i>Overtake</button>
+              <button class="layer-btn active" data-layer="speed"><i class="swatch speed-swatch"></i>Speed Trap</button>
+              <button class="layer-btn active" data-layer="pits"><i class="swatch pits-swatch"></i>Stands</button>
+              <button class="layer-btn reset" id="toggleAllLayers">Tout masquer</button>
+            </div>
+
+            <div class="map-zoom-controls"><small>Vue d’ensemble · + pour les détails</small><button id="mapZoomOut" aria-label="Réduire le circuit">−</button><span id="mapZoomValue">100 %</span><button id="mapZoomIn" aria-label="Agrandir le circuit">+</button></div>
+            <div class="track-stage atlas-stage v4-stage">
+              <img id="circuitSvgImage"
+                   class="circuit-svg-image fallback-track"
+                   alt="Tracé du Circuit Gilles-Villeneuve"
+                   decoding="async">
+              <svg id="telemetryMap" class="telemetry-map" viewBox="0 0 1000 700" role="img" aria-label="Carte interactive du circuit"></svg>
+              <div class="track-loading" id="trackLoading">Chargement du tracé…</div>
+
+              <div class="track-identity" id="trackIdentity">
+                <span class="track-flag" id="trackFlag">🇨🇦</span>
+                <span class="track-identity-copy"><strong id="trackIdentityCity">Montréal</strong><small id="trackIdentityCountry">Canada</small></span>
+              </div>
+              <div class="ot-popover" id="otPopover" hidden>
+                <button id="otPopoverClose" aria-label="Fermer">×</button>
+                <strong id="otPopoverTitle">Overtake</strong>
+                <p id="otPopoverText"></p>
+              </div>
+            </div>
+
+            <div class="color-key">
+              <span><i style="background:var(--sector-1)"></i>S1</span>
+              <span><i style="background:var(--sector-2)"></i>S2</span>
+              <span><i style="background:var(--sector-3)"></i>S3</span>
+              <span><i style="background:var(--turn-blue)"></i>Virages</span>
+              <span><i style="background:var(--speed-brown)"></i>Speed Trap</span>
+              <span><i style="background:var(--pit-black)"></i>Stands</span>
+              <span><i style="background:linear-gradient(90deg,#111 0 50%,#fff 50% 100%)"></i>Ligne de départ</span>
+            </div>
+            <div class="map-export-actions"><span id="mapExportStatus" role="status" aria-live="polite">L’export conserve les éléments visibles de la carte.</span><button id="exportCircuitJpeg" class="jpeg-download">JPEG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 19h16"/></svg></button></div>
+
+            <p class="diagram-note" id="diagramNote">
+              Les couches sont affichées uniquement lorsqu'elles peuvent être appuyées sur des données 2026. La ligne de départ est maintenant ajoutée quand la géométrie X/Y est disponible. Le DRS a été retiré de l’interface.
+              Une couche non vérifiée reste désactivée : aucun repère n'est inventé.
+            </p>
+          </article>
+
+          
+          <aside class="stats-card circuit-info-card">
+            <p class="eyebrow">CIRCUIT SÉLECTIONNÉ</p>
+            <div class="round-number" id="roundNumber">05</div>
+            <h3 id="infoCircuitName">Circuit Gilles‑Villeneuve</h3>
+
+            <dl class="stats-list">
+              <div><dt>Pays</dt><dd id="infoCountry">Canada</dd></div>
+              <div><dt>Ville</dt><dd id="infoCity">Montréal</dd></div>
+              <div><dt>Manche 2026</dt><dd id="infoRound">5 / 23</dd></div>
+              <div><dt>Mode de carte</dt><dd id="infoFormat">Télémétrie 2026</dd></div>
+            </dl>
+
+            <div class="f1-stats-grid">
+              <div class="f1-stat span-2">
+                <span>Longueur du circuit</span>
+                <strong id="statLength">—</strong>
+              </div>
+              <div class="f1-stat">
+                <span>Premier Grand Prix</span>
+                <strong id="statFirstGp">—</strong>
+              </div>
+              <div class="f1-stat">
+                <span>Nombre de tours</span>
+                <strong id="statLaps">—</strong>
+              </div>
+              <div class="f1-stat span-2">
+                <span>Record du tour en course</span>
+                <strong id="statFastestLap">—</strong>
+                <small id="statFastestLapDetail">—</small>
+              </div>
+              <div class="f1-stat span-2">
+                <span>Distance du Grand Prix</span>
+                <strong id="statRaceDistance">—</strong>
+              </div>
+            </div>
+
+            <a class="official-circuit-link" id="officialCircuitLink" href="#" target="_blank" rel="noopener">
+              Voir la fiche officielle Formula1.com ↗
+            </a>
+
+            <div class="layer-source-box">
+              <strong>État des couches</strong>
+              <div class="source-row"><span>Secteurs</span><b id="sourceSectors">—</b></div>
+              <div class="source-row"><span>Virages</span><b id="sourceTurns">—</b></div>
+              <div class="source-row"><span>Overtake</span><b id="sourceOvertake">—</b></div>
+              <div class="source-row"><span>Speed Trap</span><b id="sourceSpeed">—</b></div>
+              <div class="source-row"><span>Stands</span><b id="sourcePits">—</b></div>
+              <div class="source-row"><span>Ligne de départ</span><b id="sourceStart">—</b></div>
+            </div>
+
+            <div class="overtake-info-card" id="overtakeInfoCard">
+              <strong>Overtake 2026</strong>
+              <div class="ot-explainer-row">
+                <span class="ot-pill detect">OT D</span>
+                <div>
+                  <b>Détection Overtake</b>
+                  <p>Vérification de l'écart avec la voiture devant.</p>
+                  <small id="otDetectionPosition">Position : —</small>
+                </div>
+              </div>
+              <div class="ot-explainer-row">
+                <span class="ot-pill activate">OT A</span>
+                <div>
+                  <b>Activation Overtake</b>
+                  <p>À partir d'ici, l'Overtake peut être utilisé si le pilote est éligible.</p>
+                  <small id="otActivationPosition">Position : —</small>
+                </div>
+              </div>
+              <div class="ot-source-status" id="otSourceStatus">Données 2026 : vérification en cours.</div>
+            </div>
+
+            <div class="info-box">
+              <strong>Code couleur de Constant</strong>
+              <p><b class="text-s1">S1 rouge</b> · <b class="text-s2">S2 orange</b> · <b class="text-s3">S3 rose</b></p>
+              <p><b class="text-aero">Overtake vert</b> · <b class="text-pit">Stands noirs</b></p>
+              <p><b class="text-turn">Virages bleus</b> · <b class="text-speed">Speed Trap marron</b></p>
+            </div>
+
+            <div class="info-box subtle">
+              <strong>Principe d'exactitude</strong>
+              <p>Les données détaillées ne sont ajoutées que lorsqu’elles sont vérifiables. Les champs absents restent non renseignés.</p>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+      
+      
+      <section class="view drivers-view" id="view-drivers">
+        <div id="driversListPanel">
+          <div class="section-heading drivers-heading">
+            <div>
+              <p class="eyebrow">PILOTES · SAISON 2026</p>
+              <h2>Les 22 pilotes</h2>
+            </div>
+            <div class="drivers-source">Pilotes en combinaison · visuels officiels 2026 Formula1.com</div>
+          </div>
+
+          <div class="drivers-toolbar">
+            <div class="driver-search-wrap">
+              <span>⌕</span>
+              <input id="driverSearch" type="search" placeholder="Rechercher un pilote ou une écurie…" autocomplete="off">
+            </div>
+            <div class="drivers-counter"><strong id="driverCount">22</strong> pilotes</div>
+          </div>
+
+          <div class="drivers-grid" id="driversGrid"></div>
+
+          <p class="drivers-note">
+            Un clic sur un pilote ouvre sa fiche directement dans F1-CONSTANT.
+          </p>
+        </div>
+
+        <div class="detail-panel" id="driverDetailPanel" hidden>
+          <button class="detail-back" id="driverDetailBack">← Retour aux pilotes</button>
+          <div class="driver-detail-hero" id="driverDetailHero">
+            <div class="driver-detail-copy">
+              <p class="eyebrow">FICHE PILOTE · 2026</p>
+              <h2 id="driverDetailName">Pilote</h2>
+              <button class="driver-detail-team team-profile-link" id="driverDetailTeam" type="button">Écurie</button>
+              <div class="driver-detail-number" id="driverDetailNumber">00</div>
+              <div class="driver-detail-country" id="driverDetailCountry">🇫🇷 Pays</div>
+            </div>
+            <div class="driver-detail-image-wrap">
+              <div class="driver-detail-number-bg" id="driverDetailNumberBg">00</div>
+              <img id="driverDetailImage" alt="">
+            </div>
+          </div>
+
+          <p id="driverPhotoCredit" class="photo-credit"></p>
+          <div class="detail-grid">
+            <button class="detail-card detail-card-link" id="driverInfoTeamCard" type="button">
+              <span>Écurie</span>
+              <strong id="driverInfoTeam">—</strong>
+              <small>Ouvrir la fiche →</small>
+            </button>
+            <div class="detail-card">
+              <span>Numéro</span>
+              <strong id="driverInfoNumber">—</strong>
+            </div>
+            <div class="detail-card">
+              <span>Nationalité</span>
+              <strong id="driverInfoCountry">—</strong>
+            </div>
+            <div class="detail-card">
+              <span>Saison</span>
+              <strong>2026</strong>
+            </div>
+          </div>
+
+          <div class="career-stats-grid">
+            <div class="career-stat"><span>Victoires GP</span><strong id="driverStatWins">—</strong></div>
+            <div class="career-stat"><span>Pole positions</span><strong id="driverStatPoles">—</strong></div>
+            <div class="career-stat"><span>Titres mondiaux</span><strong id="driverStatTitles">—</strong></div>
+            <div class="career-stat"><span>Podiums</span><strong id="driverStatPodiums">—</strong></div>
+            <div class="career-stat"><span>Départs en GP</span><strong id="driverStatStarts">—</strong></div>
+            <div class="career-stat"><span>Points carrière</span><strong id="driverStatPoints">—</strong></div>
+          </div>
+
+          <div class="driver-measurements"><div><span>Taille publiée</span><strong id="driverHeight">—</strong></div><div><span>Poids indicatif</span><strong id="driverWeight">—</strong></div><small>Valeurs publiées, susceptibles de varier. <a href="https://racingnews365.com/height-weight-f1-drivers" target="_blank" rel="noopener">RacingNews365, tableau 2026 · consulté le 12/09/2026 ↗</a></small></div><div class="profile-story-grid">
+            <article class="story-card">
+              <p class="eyebrow">BIOGRAPHIE</p>
+              <div class="bio-meta">
+                <span><b>Naissance :</b> <span id="driverDob">—</span></span>
+                <span><b>Lieu :</b> <span id="driverBirthPlace">—</span></span>
+              </div>
+              <p id="driverBio">—</p>
+            </article>
+            <article class="story-card highlight-story">
+              <p class="eyebrow">À RETENIR</p>
+              <p id="driverFact">—</p>
+              <small>Palmarès arrêté au 6 septembre 2026 · hors sprints</small>
+            </article>
+          </div>
+
+          <div class="career-teams-block"><strong>Toutes les écuries de sa carrière en F1</strong><div id="driverCareerTeams" class="career-team-chips"></div></div>
+
+          <div class="championship-years"><strong>Années des titres mondiaux</strong><div id="driverTitleYears"></div></div>
+<section class="career-events-section">
+            <div class="career-events-head">
+              <div>
+                <p class="eyebrow">PALMARÈS DÉTAILLÉ</p>
+                <h3>Où et quand ?</h3>
+              </div>
+              <span class="live-data-chip">Archives complètes · 06/09/2026</span>
+            </div>
+            <div class="career-events-grid">
+              <article class="career-event-card">
+                <div class="career-event-title"><span>🏁</span><strong>Victoires en Grand Prix</strong></div>
+                <div class="career-event-list" id="driverWinsHistory"><p class="history-loading">Chargement des victoires…</p></div>
+              </article>
+              <article class="career-event-card">
+                <div class="career-event-title"><span>⏱️</span><strong>Pole positions</strong></div>
+                <div class="career-event-list" id="driverPolesHistory"><p class="history-loading">Chargement des poles…</p></div>
+              </article>
+<article class="career-event-card podium-history"><div class="career-event-title"><span>🏆</span><strong>Tous les podiums · 1re, 2e et 3e places</strong></div><div class="career-event-list" id="driverPodiumsHistory"></div></article>
+            </div>
+            
+          <p class="history-source-note">Palmarès du championnat du monde, à jour au 6 septembre 2026. Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB, 6 septembre 2026 ↗</a></p></section>
+
+        </div>
+      </section>
+
+      
+      <section class="view teams-view" id="view-teams">
+        <div id="teamsListPanel">
+          <div class="section-heading teams-heading">
+            <div>
+              <p class="eyebrow">ÉCURIES · SAISON 2026</p>
+              <h2>Les 11 écuries</h2>
+            </div>
+            <div class="drivers-source">Palmarès par constructeur · 06/09/2026</div>
+          </div>
+
+          <div class="drivers-toolbar">
+            <div class="driver-search-wrap">
+              <span>⌕</span>
+              <input id="teamSearch" type="search" placeholder="Rechercher une écurie, un pilote, un moteur…" autocomplete="off">
+            </div>
+            <div class="drivers-counter"><strong id="teamCount">11</strong> écuries</div>
+          </div>
+
+          <div class="teams-grid" id="teamsGrid"></div>
+
+          <p class="drivers-note">
+            Un clic sur une écurie ouvre sa fiche détaillée directement dans F1-CONSTANT.
+          </p>
+        </div>
+
+        <div class="detail-panel" id="teamDetailPanel" hidden>
+          <button class="detail-back" id="teamDetailBack">← Retour aux écuries</button>
+
+          <div class="team-detail-hero" id="teamDetailHero">
+            <div class="team-detail-copy">
+              <p class="eyebrow">FICHE ÉCURIE · 2026</p>
+              <h2 id="teamDetailName">Écurie</h2>
+              <div class="team-detail-country" id="teamDetailCountry">🏁 Pays</div>
+              <div class="team-detail-fullname" id="teamDetailFullName">Nom complet</div>
+              <div class="team-season-chip" id="teamSeasonChip">P1 · 0 pts</div>
+            </div>
+            <div class="team-detail-car-wrap">
+              <div class="team-detail-chassis-bg" id="teamDetailChassisBg">F1</div>
+              <img id="teamDetailCar" alt="">
+            </div>
+          </div>
+
+          <div class="detail-grid team-profile-grid">
+            <div class="detail-card"><span>Pays de l’écurie</span><strong id="teamInfoCountry">—</strong></div>
+            <div class="detail-card"><span>Base</span><strong id="teamInfoBase">—</strong></div>
+            <div class="detail-card"><span>Team Chief</span><strong id="teamInfoChief">—</strong></div>
+            <div class="detail-card"><span>Technical Chief</span><strong id="teamInfoTechnical">—</strong></div>
+            <div class="detail-card"><span>Châssis</span><strong id="teamInfoChassis">—</strong></div>
+            <div class="detail-card"><span>Power Unit</span><strong id="teamInfoPower">—</strong></div>
+            <div class="detail-card"><span>Réserve</span><strong id="teamInfoReserve">—</strong></div>
+            <div class="detail-card"><span>Première participation</span><strong id="teamInfoFirstEntry">—</strong></div>
+            <div class="detail-card"><span>Titres constructeurs</span><strong id="teamInfoTitles">—</strong></div>
+          </div>
+
+          <div class="career-stats-grid team-career-stats">
+            <div class="career-stat"><span>Victoires GP</span><strong id="teamStatWins">—</strong></div>
+            <div class="career-stat"><span>Pole positions</span><strong id="teamStatPoles">—</strong></div>
+            <div class="career-stat"><span>Titres constructeurs</span><strong id="teamStatTitles">—</strong></div>
+          </div>
+
+          <div class="profile-story-grid">
+            <article class="story-card">
+              <p class="eyebrow">HISTOIRE & IDENTITÉ</p>
+              <p id="teamHistory">—</p><p id="teamScope" class="team-scope"></p>
+            </article>
+            <article class="story-card highlight-story">
+              <p class="eyebrow">À RETENIR</p>
+              <p id="teamFact">—</p>
+              <button class="internal-link-btn compact" id="teamToManagerBtn">Voir le manager →</button>
+            </article>
+          </div>
+
+          <div class="championship-years"><strong>Années des titres mondiaux</strong><div id="teamTitleYears"></div></div>
+<section class="career-events-section">
+            <div class="career-events-head">
+              <div>
+                <p class="eyebrow">PALMARÈS DÉTAILLÉ</p>
+                <h3>Victoires & poles — lieux et dates</h3>
+              </div>
+              <span class="live-data-chip">Archives complètes · 06/09/2026</span>
+            </div>
+            <div class="career-events-grid">
+              <article class="career-event-card">
+                <div class="career-event-title"><span>🏁</span><strong>Victoires en Grand Prix</strong></div>
+                <div class="career-event-list" id="teamWinsHistory"><p class="history-loading">Chargement des victoires…</p></div>
+              </article>
+              <article class="career-event-card">
+                <div class="career-event-title"><span>⏱️</span><strong>Pole positions</strong></div>
+                <div class="career-event-list" id="teamPolesHistory"><p class="history-loading">Chargement des poles…</p></div>
+              </article>
+            </div>
+            
+          <p class="history-source-note">Palmarès du championnat du monde, à jour au 6 septembre 2026. Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB, 6 septembre 2026 ↗</a></p></section>
+
+          <div class="team-drivers-section">
+            <p class="eyebrow">PILOTES 2026</p>
+            <div class="team-drivers-mini" id="teamDriversMini"></div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="view historic-teams-view" id="view-historic-teams">
+        <div id="historicTeamsListPanel">
+          <div class="section-heading historic-teams-heading">
+            <div>
+              <p class="eyebrow">CHAMPIONNAT DU MONDE · 1950–2026</p>
+              <h2>Les écuries de légende</h2>
+            </div>
+            <div class="drivers-source">176 anciennes identités de constructeur · archives F1DB</div>
+          </div>
+
+          <div class="historic-era-strip" id="historicEraStrip" aria-label="Évolution de la Formule 1"></div>
+
+          <div class="historic-toolbar">
+            <div class="driver-search-wrap">
+              <span>⌕</span>
+              <input id="historicTeamSearch" type="search" placeholder="Rechercher une écurie, un pays ou une année…" autocomplete="off">
+            </div>
+            <label>Époque
+              <select id="historicTeamEra"><option value="">Toutes les époques</option></select>
+            </label>
+            <label>Classement
+              <select id="historicTeamSort">
+                <option value="first">Première apparition</option>
+                <option value="wins">Victoires</option>
+                <option value="titles">Titres</option>
+                <option value="name">Nom</option>
+              </select>
+            </label>
+            <div class="drivers-counter"><strong id="historicTeamCount">176</strong> écuries</div>
+          </div>
+
+          <p class="historic-identity-disclaimer"><strong>Identités visuelles :</strong> pour ne pas inventer de logos officiels, les cartes utilisent des emblèmes typographiques éditoriaux. Les noms et statistiques, eux, correspondent aux identités de constructeur enregistrées dans le championnat.</p>
+          <div class="historic-teams-grid" id="historicTeamsGrid"></div>
+          <p class="historic-scope-note">Le catalogue recense les constructeurs ayant pris part au championnat du monde, hors les onze identités engagées en 2026. Les emblèmes sont des repères typographiques éditoriaux, et non des logos officiels. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB v2026.13.0 ↗</a></p>
+        </div>
+
+        <div class="detail-panel" id="historicTeamDetailPanel" hidden>
+          <button class="detail-back" id="historicTeamDetailBack">← Retour aux écuries de légende</button>
+          <div class="historic-detail-hero" id="historicTeamDetailHero">
+            <div class="historic-detail-mark" id="historicTeamDetailMark" aria-hidden="true">F1</div>
+            <div class="historic-detail-copy">
+              <p class="eyebrow">CONSTRUCTEUR HISTORIQUE</p>
+              <h2 id="historicTeamDetailName">Écurie</h2>
+              <p id="historicTeamDetailFullName">Nom complet</p>
+              <div id="historicTeamDetailCountry" class="historic-detail-country">Pays</div>
+            </div>
+            <div class="historic-detail-era"><strong id="historicTeamDetailYears">1950</strong><span id="historicTeamDetailEra">Moteur avant</span></div>
+          </div>
+
+          <div class="career-stats-grid historic-career-stats">
+            <div class="career-stat"><span>Titres constructeurs</span><strong id="historicStatTitles">0</strong></div>
+            <div class="career-stat"><span>Victoires GP</span><strong id="historicStatWins">0</strong></div>
+            <div class="career-stat"><span>Podiums</span><strong id="historicStatPodiums">0</strong></div>
+            <div class="career-stat"><span>Pole positions</span><strong id="historicStatPoles">0</strong></div>
+            <div class="career-stat"><span>Départs</span><strong id="historicStatStarts">0</strong></div>
+            <div class="career-stat"><span>Saisons</span><strong id="historicStatSeasons">0</strong></div>
+          </div>
+
+          <div class="historic-detail-grid">
+            <article class="story-card"><p class="eyebrow">REPÈRES</p><dl class="historic-facts"><div><dt>Première apparition</dt><dd id="historicFirstYear">—</dd></div><div><dt>Dernière apparition</dt><dd id="historicLastYear">—</dd></div><div><dt>Meilleur classement</dt><dd id="historicBestChampionship">—</dd></div><div><dt>Meilleur résultat</dt><dd id="historicBestRace">—</dd></div></dl></article>
+            <article class="story-card highlight-story"><p class="eyebrow">ÉVOLUTION TECHNIQUE</p><h3 id="historicEvolution">—</h3><p>Cette étiquette situe la première apparition de l’écurie dans l’évolution générale des monoplaces. Elle ne décrit pas chaque voiture engagée par le constructeur.</p></article>
+          </div>
+
+          <section class="historic-seasons-card">
+            <div><p class="eyebrow">SAISONS DISPUTÉES</p><h3 id="historicSeasonRange">—</h3></div>
+            <div class="historic-years" id="historicYears"></div>
+          </section>
+          <p class="historic-scope-note">Les statistiques sont attribuées à cette identité de constructeur dans la base F1DB. Elles ne fusionnent pas automatiquement les changements de nom ou de propriétaire.</p>
+        </div>
+      </section>
+
+      
+      <section class="view managers-view" id="view-managers">
+        <div id="managersListPanel">
+          <div class="section-heading managers-heading">
+            <div>
+              <p class="eyebrow">MANAGERS · SAISON 2026</p>
+              <h2>Les patrons du paddock</h2>
+            </div>
+            <div class="drivers-source">Direction des 11 écuries · mise à jour août/septembre 2026</div>
+          </div>
+
+          <div class="drivers-toolbar">
+            <div class="driver-search-wrap">
+              <span>⌕</span>
+              <input id="managerSearch" type="search" placeholder="Rechercher un manager ou une écurie…" autocomplete="off">
+            </div>
+            <div class="drivers-counter"><strong id="managerCount">11</strong> équipes dirigeantes</div>
+          </div>
+
+          <div class="managers-grid" id="managersGrid"></div>
+        </div>
+
+        <div class="detail-panel" id="managerDetailPanel" hidden>
+          <button class="detail-back" id="managerDetailBack">← Retour aux managers</button>
+
+          <div class="manager-detail-hero" id="managerDetailHero">
+            <div class="manager-detail-copy">
+              <p class="eyebrow">DIRECTION · 2026</p>
+              <h2 id="managerDetailName">Manager</h2>
+              <button class="manager-detail-team team-profile-link" id="managerDetailTeam" type="button">Écurie</button>
+              <div class="manager-role-chip" id="managerDetailRole">Team Principal</div>
+            </div>
+            <div class="manager-detail-media">
+              <div class="manager-initials-bg" id="managerInitialsBg">TP</div>
+              <img id="managerDetailImage" alt="">
+            </div>
+          </div>
+
+          <div class="detail-grid manager-info-grid">
+            <button class="detail-card detail-card-link" id="managerInfoTeamCard" type="button"><span>Écurie</span><strong id="managerInfoTeam">—</strong><small>Ouvrir la fiche →</small></button>
+            <div class="detail-card"><span>Fonction</span><strong id="managerInfoRole">—</strong></div>
+            <div class="detail-card"><span>Nationalité</span><strong id="managerInfoNationality">—</strong></div>
+            <div class="detail-card"><span>En poste depuis</span><strong id="managerInfoSince">—</strong></div>
+          </div>
+
+          <div class="profile-story-grid manager-story-grid">
+            <article class="story-card">
+              <p class="eyebrow">PARCOURS</p>
+              <p id="managerBio">—</p>
+            </article>
+            <article class="story-card highlight-story">
+              <p class="eyebrow">REPÈRES</p>
+              <ul class="manager-highlights" id="managerHighlights"></ul>
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+      
+      <section class="view legends-view" id="view-legends">
+        <div id="legendsListPanel">
+          <div class="section-heading legends-heading">
+            <div>
+              <p class="eyebrow">75 ANS DE FORMULE 1</p>
+              <h2>Les Légendes</h2>
+            </div>
+            <div class="drivers-source">61 anciens pilotes qui ont marqué l’histoire de la F1</div>
+          </div>
+
+          <div class="drivers-toolbar">
+            <div class="driver-search-wrap">
+              <span>⌕</span>
+              <input id="legendSearch" type="search" placeholder="Rechercher une légende, un pays, une époque…" autocomplete="off">
+            </div>
+            <div class="drivers-counter"><strong id="legendCount">61</strong> légendes</div>
+          </div>
+
+          <div class="legends-grid" id="legendsGrid"></div>
+          <p class="drivers-note">
+            Sélection éditoriale F1-CONSTANT couvrant les années 1950 à 2020 : champions du monde, grands vainqueurs et pilotes devenus iconiques.
+          </p>
+        </div>
+
+        <div class="detail-panel" id="legendDetailPanel" hidden>
+          <button class="detail-back" id="legendDetailBack">← Retour aux légendes</button>
+
+          <div class="legend-detail-hero" id="legendDetailHero">
+            <div class="legend-detail-copy">
+              <p class="eyebrow">LÉGENDE F1</p>
+              <h2 id="legendDetailName">Pilote</h2>
+              <div class="legend-detail-era" id="legendDetailEra">1950–1960</div>
+              <div class="legend-detail-country" id="legendDetailCountry">🇫🇷 France</div>
+            </div>
+            <div class="legend-detail-number-bg" id="legendDetailTitlesBg">1×</div><img id="legendDetailImage" class="legend-detail-photo" alt="" hidden>
+          </div>
+
+          <div class="career-stats-grid legend-career-stats">
+            <div class="career-stat"><span>Titres mondiaux</span><strong id="legendStatTitles">—</strong></div>
+            <div class="career-stat"><span>Victoires GP</span><strong id="legendStatWins">—</strong></div>
+            <div class="career-stat"><span>Pole positions</span><strong id="legendStatPoles">—</strong></div>
+          </div>
+
+          <article class="story-card legend-story">
+            <p class="eyebrow">POURQUOI IL A MARQUÉ LA F1</p>
+            <p id="legendFact">—</p><p id="legendBio"></p><p id="legendPhotoCredit" class="photo-credit"></p>
+          </article>
+
+          <div class="career-teams-block"><strong>Toutes les écuries de sa carrière en F1</strong><div id="legendCareerTeams" class="career-team-chips"></div></div>
+
+          <div class="championship-years"><strong>Années des titres mondiaux</strong><div id="legendTitleYears"></div></div>
+<section class="career-events-section">
+            <div class="career-events-head">
+              <div>
+                <p class="eyebrow">ARCHIVES</p>
+                <h3>Victoires & poles — lieux et dates</h3>
+              </div>
+              <span class="live-data-chip">Archives complètes · 06/09/2026</span>
+            </div>
+            <div class="career-events-grid">
+              <article class="career-event-card">
+                <div class="career-event-title"><span>🏁</span><strong>Victoires en Grand Prix</strong></div>
+                <div class="career-event-list" id="legendWinsHistory"><p class="history-loading">Chargement des victoires…</p></div>
+              </article>
+              <article class="career-event-card">
+                <div class="career-event-title"><span>⏱️</span><strong>Pole positions</strong></div>
+                <div class="career-event-list" id="legendPolesHistory"><p class="history-loading">Chargement des poles…</p></div>
+              </article>
+<article class="career-event-card podium-history"><div class="career-event-title"><span>🏆</span><strong>Tous les podiums · 1re, 2e et 3e places</strong></div><div class="career-event-list" id="legendPodiumsHistory"></div></article>
+            </div>
+          <p class="history-source-note">Palmarès du championnat du monde, à jour au 6 septembre 2026. Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB, 6 septembre 2026 ↗</a></p></section>
+        </div>
+      </section>
+
+      <section class="view quiz-view" id="view-quiz">
+        <div class="quiz-shell">
+          <div class="quiz-intro" id="quizIntro">
+            <div class="quiz-brand-badge">CHALLENGE</div>
+            <p class="eyebrow">F1-CONSTANT</p>
+            <h2>Challenge GP F1</h2>
+            <p class="quiz-lead">
+              300 questions en réserve. Amateur et Expert proposent 3 réponses ; Pro en propose 4. Une seule bonne réponse.
+              À chaque nouvelle partie, le challenge change.
+            </p>
+
+            <div class="quiz-levels" role="group" aria-label="Niveau du challenge">
+              <button data-quiz-level="amateur" class="selected" aria-pressed="true"><strong>Amateur</strong><span>3 réponses · période 2016–2026</span></button>
+              <button data-quiz-level="expert" aria-pressed="false"><strong>Expert</strong><span>3 réponses · toute l’histoire, sans anciennes écuries</span></button>
+              <button data-quiz-level="pro" aria-pressed="false"><strong>Pro</strong><span>4 réponses · toutes les catégories</span></button>
+            </div>
+            <p class="quiz-date">Statistiques arrêtées au GP d’Italie du 6 septembre 2026. Victoires de Grand Prix, hors sprints.</p>
+            <div class="quiz-rules">
+              <div class="quiz-rule gold"><strong>8–10</strong><span>LA PÔLE POSITION</span></div>
+              <div class="quiz-rule silver"><strong>6–7</strong><span>2e marche</span></div>
+              <div class="quiz-rule bronze"><strong>4–5</strong><span>3e marche</span></div>
+              <div class="quiz-rule loser"><strong>1–3</strong><span>Retour aux stands… en douceur</span></div>
+              <div class="quiz-rule zero"><strong>0</strong><span>Panne totale spectaculaire</span></div>
+            </div>
+
+            <button class="quiz-start-btn" id="quizStartBtn">Lancer le Challenge →</button>
+          </div>
+
+          <div class="quiz-game" id="quizGame" hidden>
+            <div class="quiz-topline">
+              <div><span>QUESTION</span> <strong id="quizProgress">1 / 10</strong></div>
+              <div><span>SCORE</span> <strong id="quizScore">0</strong></div>
+            </div>
+            <div class="quiz-progress-bar"><span id="quizProgressFill"></span></div>
+            <div class="quiz-category" id="quizCategory">Pilotes</div>
+            <h3 id="quizQuestion">Question</h3>
+            <div class="quiz-options" id="quizOptions"></div>
+            <div class="quiz-feedback" id="quizFeedback" hidden></div>
+            <button class="quiz-next-btn" id="quizNextBtn" hidden>Question suivante →</button>
+          </div>
+
+          <div class="quiz-result" id="quizResult" hidden>
+            <div class="podium-stage" id="podiumStage">
+              <div class="podium-beam beam-left"></div><div class="podium-beam beam-right"></div>
+              <div class="podium-step p2"><div class="podium-character"><i class="result-helmet silver-helmet"></i></div><span>2</span><small>ARGENT</small></div>
+              <div class="podium-step p1"><div class="podium-character winner-character"><i class="result-helmet gold-helmet"></i><b class="winner-cup">🏆</b></div><span>1</span><small>POLE</small></div>
+              <div class="podium-step p3"><div class="podium-character"><i class="result-helmet bronze-helmet"></i></div><span>3</span><small>BRONZE</small></div>
+              <div class="podium-flash"></div>
+            </div>
+            <div class="loser-visual" id="loserVisual" hidden>
+              <div class="pit-return-scene"><div class="pit-board">BOX<br>BOX!</div><div class="fun-car">🏎️<i>💨</i></div><div class="pit-crew">🧑‍🔧 🔧 🛞 🧑‍🔧</div><strong>Retour express aux stands !</strong><small>Les mécaniciens avaient justement besoin de s’entraîner.</small></div>
+              <div class="zero-crash-scene"><div class="smoke-cloud">☁️</div><div class="wreck-body">🏎️</div><i class="broken-wheel wheel-a">🛞</i><i class="broken-wheel wheel-b">🛞</i><i class="broken-piece piece-a">🔩</i><i class="broken-piece piece-b">⚙️</i><i class="broken-piece piece-c">🧰</i><div class="engine-smoke">💨💨</div><strong>ZÉRO SUR DIX : PANNE TOTALE !</strong><small>Moteur cassé, roues envolées… direction les stands sur la dépanneuse.</small></div>
+            </div>
+            <div class="quiz-result-copy">
+              <p class="eyebrow">RÉSULTAT</p>
+              <h2 id="quizResultTitle">Podium !</h2>
+              <div class="quiz-final-score"><strong id="quizFinalScore">0</strong><span>/ 10</span></div>
+              <p id="quizResultText"></p>
+              <button class="quiz-start-btn" id="quizReplayBtn">Nouveau Challenge →</button><button class="detail-back" id="quizChangeLevel">Changer de niveau</button>
+            </div>
+            <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="assets/site.js"></script>
+</body>
+</html>
