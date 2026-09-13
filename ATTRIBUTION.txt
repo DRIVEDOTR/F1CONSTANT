@@ -1,0 +1,81 @@
+F1 CONSTANT V12 — ATTRIBUTIONS
+
+Current credits: DATA_SOURCES.md and PHOTO_CREDITS.md supersede the
+historical notes below. Career archives are now local F1DB v2026.13.0,
+CC BY 4.0, Marcel Overdijk and contributors, transformed into French lists.
+Circuit SVGs adapted from Jules Roy, CC BY 4.0.
+Sepang reference: Will Pittenger, Sepang.svg, CC BY-SA 3.0.
+The adapted Sepang annotation is distributed under CC BY-SA 3.0.
+Current-driver main portraits: loaded remotely from media.formula1.com and
+not redistributed. Driver fallback and legend photographs: individual
+authors and licences in PHOTO_CREDITS.md; local files retained under their
+original licences. Challenge V12: 300 questions, 100 per level.
+
+HISTORICAL ATTRIBUTIONS RETAINED FOR THE EARLIER ASSETS
+F1 CONSTANT V4
+
+Circuit layouts:
+julesr0y/f1-circuits-svg
+License: CC BY 4.0
+https://github.com/julesr0y/f1-circuits-svg
+
+2026 telemetry and circuit-corner data:
+TracingInsights/2026
+https://github.com/TracingInsights/2026
+Data reference:
+https://github.com/TracingInsights/2026/blob/main/DATA_REFERENCE.md
+
+Circuit sporting references:
+FIA Formula One World Championship — 2026 Competition Notes / Circuit Maps
+https://www.fia.com/documents
+
+The Canada screenshot in /references was supplied by the user and is retained as a visual validation reference.
+
+
+F1 CONSTANT V7
+Circuit facts and current 2026 driver roster:
+Formula1.com official website
+https://www.formula1.com/en/racing/2026
+https://www.formula1.com/en/drivers
+
+Driver portraits:
+Loaded remotely from media.formula1.com.
+They are not redistributed as local files in this ZIP and remain subject to Formula One's terms.
+
+
+F1 CONSTANT V8
+2026 team profile data, team standings, driver line-up:
+Formula1.com official website.
+
+Driver portraits and team car images:
+Loaded remotely from media.formula1.com and not stored locally.
+
+
+F1 CONSTANT V9
+Driver career statistics and biography source:
+Formula1.com driver profiles, accessed for snapshot dated 12 September 2026.
+
+Team all-time statistics and profiles:
+Formula1.com team pages.
+Williams historical constructor title count cross-checked with Formula1.com historical editorial and Williams Racing official history.
+
+2026 managers / leadership:
+Formula1.com article "Who are the 2026 Team Principals?", published 27 August 2026.
+
+Manager photography:
+Loaded remotely from media.formula1.com and not stored locally.
+
+Quiz:
+Original F1-CONSTANT question bank derived from the factual data in the site.
+
+
+F1 CONSTANT V10
+Detailed historical race-win and qualifying-pole event lists:
+Jolpica F1 API / Ergast-compatible endpoints
+https://github.com/jolpica/jolpica-f1
+
+Historical legends selection and contextual facts:
+Formula1.com historical features, including F1 75 anniversary editorial material.
+
+Quiz:
+200-question F1-CONSTANT generated pool, with answer-position randomization at runtime.
