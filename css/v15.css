@@ -1,0 +1,18 @@
+/* Un même dégradé d'écurie : intense en bas à gauche, très clair en haut à droite. */
+.driver-card{
+  background:linear-gradient(to top right,var(--team-a) 0%,var(--team-a) 12%,var(--team-b) 42%,#fff 130%);
+}
+.driver-card::before{
+  background:linear-gradient(90deg,rgba(5,12,24,.34),transparent 56%),linear-gradient(to top,rgba(5,12,24,.62),rgba(5,12,24,.04) 56%,transparent 78%);
+}
+#view-home .standings-card tr{
+  background:linear-gradient(to top right,var(--team-a) 0%,var(--team-a) 12%,var(--team-b) 42%,#fff 130%);
+}
+#view-home .standings-card td{color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.45)}
+#view-home .standings-card td:last-child{color:#121b28;text-shadow:0 1px 2px rgba(255,255,255,.7)}
+#view-home .standings-card tr:hover{filter:saturate(1.1) brightness(1.03)}
+.track-stage .track-identity{right:12px;top:6px;width:270px;min-height:96px;padding:14px 20px;border-radius:25px;gap:18px}
+.track-stage .track-identity .track-flag img{width:72px;height:53px;border-radius:0;box-shadow:none}
+.track-stage .track-identity strong{font-size:1.55rem!important;letter-spacing:-.02em}
+.track-stage .track-identity small{font-size:1.05rem!important;color:#7c8798;margin-top:4px}
+@media(max-width:700px){.track-stage .track-identity{right:6px;top:4px;min-width:156px;min-height:52px;padding:7px 10px;border-radius:14px;gap:9px}.track-stage .track-identity .track-flag img{width:42px;height:31px}.track-stage .track-identity strong{font-size:.95rem!important}.track-stage .track-identity small{font-size:.7rem!important;margin-top:2px}}
