@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d12">
   <title>F1 CONSTANT</title>
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/site.css?v=19">
 </head>
 <body>
   <div class="app-shell">
@@ -40,6 +40,7 @@
         <button class="nav-btn" data-view="legends">
           <span class="nav-icon">♛</span><span>Légendes</span>
         </button>
+        <button class="nav-btn" data-view="archives"><span class="nav-icon">▤</span><span>Saisons &amp; résultats</span></button>
         <button class="nav-btn" data-view="quiz">
           <span class="nav-icon">★</span><span>Challenge GP F1</span>
         </button>
@@ -76,7 +77,8 @@
           </div>
         </div>
 
-        <div class="quick-grid">
+        <section class="home-qualifying" aria-label="Qualifications"><div class="qual-header"><div><p class="eyebrow">LE RENDEZ-VOUS DU WEEK-END</p><h3 id="qualTitle">Qualifications</h3></div><button class="qual-refresh" id="qualRefresh" aria-label="Actualiser les qualifications">↻ Actualiser</button></div><div class="qual-subbar"><label>Grand Prix <select id="qualRace"></select></label><span class="qual-state" id="qualStatus" role="status"></span></div><div id="qualBody" class="qual-body"></div><p class="qual-note">Résultats Q1, Q2 et Q3 après publication, actualisés à l’ouverture et toutes les deux minutes sur l’accueil. Le chronométrage en direct et la phase en cours ne sont pas disponibles. La grille de départ peut changer après pénalités. <a href="https://github.com/jolpica/jolpica-f1" target="_blank" rel="noopener">Source : Jolpica</a></p></section>
+        <div class="quick-grid"><article class="quick-card" data-jump="archives"><h3>Saisons &amp; résultats</h3><p>Depuis 1950 : classements complets et podiums de chaque Grand Prix.</p></article>
           <article class="quick-card" data-jump="circuits">
             <h3>Circuits</h3><p>Tracés fidèles, secteurs, Overtake, Speed Trap, virages et stands.</p>
           </article>
@@ -530,7 +532,7 @@
             <div class="drivers-counter"><strong id="historicTeamCount">176</strong> écuries</div>
           </div>
 
-          <p class="historic-identity-disclaimer"><strong>Identités visuelles :</strong> pour ne pas inventer de logos officiels, les cartes utilisent des emblèmes typographiques éditoriaux. Les noms et statistiques, eux, correspondent aux identités de constructeur enregistrées dans le championnat.</p>
+          <p class="historic-identity-disclaimer">Photos et logos documentés lorsqu’ils sont disponibles ; un monogramme identifie les autres écuries. Les modèles photographiés sont indiqués sur chaque image.</p>
           <div class="historic-teams-grid" id="historicTeamsGrid"></div>
           <p class="historic-scope-note">Le catalogue recense les constructeurs ayant pris part au championnat du monde, hors les onze identités engagées en 2026. Les emblèmes sont des repères typographiques éditoriaux, et non des logos officiels. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB v2026.13.0 ↗</a></p>
         </div>
@@ -548,7 +550,7 @@
             <div class="historic-detail-era"><strong id="historicTeamDetailYears">1950</strong><span id="historicTeamDetailEra">Moteur avant</span></div>
           </div>
 
-          <div class="career-stats-grid historic-career-stats">
+          <div id="historicTeamGallery" class="historic-media-gallery"></div><div class="career-stats-grid historic-career-stats">
             <div class="career-stat"><span>Titres constructeurs</span><strong id="historicStatTitles">0</strong></div>
             <div class="career-stat"><span>Victoires GP</span><strong id="historicStatWins">0</strong></div>
             <div class="career-stat"><span>Podiums</span><strong id="historicStatPodiums">0</strong></div>
@@ -768,8 +770,9 @@
           </div>
         </div>
       </section>
-    </main>
+    <section class="view" id="view-archives"><p class="eyebrow">LA MÉMOIRE DU CHAMPIONNAT</p><h2 class="archive-season-title">Saison <span id="archiveSelectedYear">2026</span></h2><p id="archiveStatus" class="archive-status"></p><div class="archives-toolbar"><button id="archivePreviousYear" aria-label="Saison précédente">←</button><label>Choisir une saison<select id="archiveYear"></select></label><button id="archiveNextYear" aria-label="Saison suivante">→</button><div class="archive-tabs" role="tablist"><button role="tab" data-archive-tab="standings">Classements</button><button role="tab" data-archive-tab="races">Grands Prix &amp; podiums</button></div></div><div id="archiveStandingsPanel"><div id="archiveChampions" class="archive-champions"></div><div class="archive-standings-grid"><section class="archive-panel"><div class="archive-panel-head"><h3>Pilotes</h3><span id="archiveDriversCount"></span></div><div class="archive-table-scroll"><table class="archive-table"><thead><tr><th>Position</th><th>Pilote / écurie</th><th>Points</th></tr></thead><tbody id="archiveDriverRows"></tbody></table></div></section><section class="archive-panel"><div class="archive-panel-head"><h3>Constructeurs</h3><span id="archiveTeamsCount"></span></div><p class="archive-empty" id="archiveNoConstructors">Le championnat des constructeurs débute en 1958.</p><div class="archive-table-scroll" id="archiveConstructorTable"><table class="archive-table"><thead><tr><th>Position</th><th>Écurie / moteur</th><th>Points</th></tr></thead><tbody id="archiveConstructorRows"></tbody></table></div></section></div><p class="archive-source">Points retenus au championnat selon le règlement de chaque année. NC : non classé ; DSQ / EX : exclusion. Les associations constructeur–moteur restent distinctes lorsqu’elles étaient classées séparément.</p></div><div id="archiveRacesPanel" hidden><div class="archive-race-toolbar"><input id="archiveRaceSearch" type="search" aria-label="Rechercher un Grand Prix" placeholder="Rechercher un Grand Prix, une ville…"><span id="archiveRaceCount"></span></div><div id="archiveRaceList" class="archive-race-list"></div></div><p class="archive-source">Archives consultables hors connexion. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB · 6 septembre 2026</a>. La saison 2026 est provisoire ; les classements de l’accueil sont actualisés séparément.</p></section>
+</main>
   </div>
-  <script src="assets/site.js"></script>
+  <script src="assets/site.js?v=19"></script>
 </body>
 </html>
