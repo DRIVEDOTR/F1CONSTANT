@@ -1,1 +1,33 @@
-
+name: Actualites F1
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/f1-news.yml'
+      - 'scripts/update-news.py'
+permissions:
+  contents: write
+concurrency:
+  group: f1-news-archive
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Collecter et conserver les titres
+        run: python3 scripts/update-news.py
+      - name: Enregistrer la collecte
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/f1-news.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualiser les titres F1 et leur historique'
+            git push
+          fi
