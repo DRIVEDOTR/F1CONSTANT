@@ -2,6 +2,7 @@
 Existing entries survive feed expiry and outages. No artificial publication dates.
 """
 import concurrent.futures, datetime as dt, email.utils, hashlib, html, json, re
+from news_enrich import enrich
 import pathlib, unicodedata, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -24,7 +25,7 @@ def categories(title):
 
 def collect(feed, now):
     name, url, lang = feed
-    req = urllib.request.Request(url, headers={'User-Agent':'F1Constant/21 RSS reader (+https://drivedotr.github.io/F1CONSTANT/)'})
+    req = urllib.request.Request(url, headers={'User-Agent':'F1Constant/22 RSS reader (+https://drivedotr.github.io/F1CONSTANT/)'})
     with urllib.request.urlopen(req, timeout=25) as res:
         raw = res.read(3_000_001)
     if len(raw) > 3_000_000: raise ValueError('Feed too large')
@@ -50,7 +51,7 @@ def collect(feed, now):
         canonical = urllib.parse.urlunsplit((split.scheme, split.netloc, split.path, '', ''))
         items.append({'id':hashlib.sha256(canonical.encode()).hexdigest()[:20], 'title':title,
                       'url':canonical, 'source':name, 'language':lang,
-                      'publishedAt':published.isoformat(), 'topics':categories(title)})
+                      'publishedAt':published.isoformat(), 'topics':categories(title), '_sourceIntro':plain(item.findtext('description')).replace('Continuez de lire','')[:3000]})
     if not items: raise ValueError('No dated, valid news entries returned')
     return items
 
@@ -66,6 +67,9 @@ def main():
                 items = job.result()
                 for a in items:
                     a['firstSeenAt'] = articles.get(a['id'],{}).get('firstSeenAt',now.isoformat())
+                    previous = articles.get(a['id'], {})
+                    if previous.get('title') == a['title']:
+                        a = {**previous, **a}
                     articles[a['id']] = a
                 statuses.append({'name':feed[0], 'url':feed[1], 'ok':True, 'count':len(items), 'checkedAt':now.isoformat()})
                 successes += 1
@@ -74,7 +78,9 @@ def main():
                 print('Feed unavailable:',feed[0],type(e).__name__)
     # Fail the workflow without overwriting the last valid collection on total failure.
     if not successes: raise RuntimeError('All sources failed; previous archive preserved')
-    result = {'version':1, 'startedAt':old.get('startedAt',now.isoformat()),
+    summary_status = enrich(list(articles.values()))
+    for article in articles.values(): article.pop('_sourceIntro', None)
+    result = {**old, 'version':2, 'summaryStatus':summary_status, 'startedAt':old.get('startedAt',now.isoformat()),
               'collectedAt':now.isoformat(), 'sources':statuses,
               'articles':sorted(articles.values(),key=lambda a:a['publishedAt'],reverse=True)}
     DEST.parent.mkdir(parents=True,exist_ok=True)
