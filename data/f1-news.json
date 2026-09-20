@@ -1,24 +1,36 @@
 {
   "version": 1,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-19T16:32:51.567260+00:00",
+  "collectedAt": "2026-09-20T08:00:53.234665+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 48,
-      "checkedAt": "2026-09-19T16:32:51.567260+00:00"
+      "count": 49,
+      "checkedAt": "2026-09-20T08:00:53.234665+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-09-19T16:32:51.567260+00:00"
+      "checkedAt": "2026-09-20T08:00:53.234665+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "6739c176a61e959b13d7",
+      "title": "Mercedes a démarré le développement pour 2027 \"il y a un moment\"",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-demarre-developpement-2027-quelque-temps/10856863/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-20T06:24:48+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-20T08:00:53.234665+00:00"
+    },
     {
       "id": "6f88471d05ba31282dd4",
       "title": "Vettel serait ravi de voir Antonelli battre son record de précocité",
