@@ -1,24 +1,53 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-20T08:49:56.989939+00:00",
+  "collectedAt": "2026-09-20T12:37:40.629709+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-20T08:49:56.989939+00:00"
+      "checkedAt": "2026-09-20T12:37:40.629709+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-09-20T08:49:56.989939+00:00"
+      "checkedAt": "2026-09-20T12:37:40.629709+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "32093a8d6b5a62cf84d3",
+      "title": "Pourquoi Norris ne croit pas à la théorie de Russell sur le style de pilotage",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-norris-croit-pas-theorie-russell-style-pilotage/10856769/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-20T10:15:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-20T12:37:40.629709+00:00"
+    },
+    {
+      "id": "6e4732942960782e1b4a",
+      "title": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-grand-prix-azerbaidjan-samedi-course/10856105/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-20T09:46:21+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
+      "summaryFr": "Le rendez-vous de Bakou est programmé du 24 au 26 septembre 2026. Sa particularité est de se conclure un samedi, avant les dernières étapes de la saison hors d’Europe.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
+    },
     {
       "id": "6739c176a61e959b13d7",
       "title": "Mercedes a démarré le développement pour 2027 \"il y a un moment\"",
@@ -155,23 +184,6 @@
       "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
       "titleFr": "\"Je ne profitais plus de ma vie\" : Tsunoda revient sur son passage chez Red Bull",
       "summaryFr": "Tsunoda décrit les difficultés personnelles associées à son passage chez Red Bull. Son témoignage s’inscrit dans une série de récits d’anciens équipiers de Verstappen sur la pression ressentie dans ce baquet.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
-    },
-    {
-      "id": "6e4732942960782e1b4a",
-      "title": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
-      "url": "https://fr.motorsport.com/f1/news/pourquoi-grand-prix-azerbaidjan-samedi-course/10856105/",
-      "source": "Motorsport.com France",
-      "language": "fr",
-      "publishedAt": "2026-09-18T06:18:31+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
-      "summaryFr": "Le rendez-vous de Bakou est programmé du 24 au 26 septembre 2026. Sa particularité est de se conclure un samedi, avant les dernières étapes de la saison hors d’Europe.",
       "summaryScope": "introduction",
       "summaryMethod": "prepared",
       "summaryAt": "2026-09-20T08:26:06.899606+00:00"
