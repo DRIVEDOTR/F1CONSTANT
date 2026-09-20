@@ -1,21 +1,21 @@
 {
-  "version": 1,
+  "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-20T08:06:57.544331+00:00",
+  "collectedAt": "2026-09-20T08:26:06.964043+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-20T08:06:57.544331+00:00"
+      "checkedAt": "2026-09-20T08:26:06.964043+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-09-20T08:06:57.544331+00:00"
+      "checkedAt": "2026-09-20T08:26:06.964043+00:00"
     }
   ],
   "articles": [
@@ -29,7 +29,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-20T08:00:53.234665+00:00"
+      "firstSeenAt": "2026-09-20T08:26:06.964043+00:00",
+      "titleFr": "Mercedes travaille déjà sur sa monoplace 2027",
+      "summaryFr": "Mercedes indique avoir déjà engagé le développement de sa prochaine voiture. Son avance au championnat constructeurs après le Grand Prix d’Espagne lui permet d’aborder cette transition avec davantage de sérénité.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.964043+00:00"
     },
     {
       "id": "6f88471d05ba31282dd4",
@@ -41,7 +46,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vettel serait ravi de voir Antonelli battre son record de précocité",
+      "summaryFr": "Sebastian Vettel accueille favorablement la possibilité de voir Kimi Antonelli devenir le plus jeune champion du monde. Le succès de l’Italien en Espagne renforce ses chances, mais son titre n’est pas encore acquis.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "9b48b7c2403a948c9aa8",
@@ -54,7 +64,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Tsunoda révèle pourquoi il n'a pas réussi à dompter la Red Bull en 2025",
+      "summaryFr": "Yuki Tsunoda revient sur une saison 2025 difficile chez Red Bull. Il avait terminé dix-septième du championnat alors que son équipier Max Verstappen disputait les premières places.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "c89661ece70c3af7c74c",
@@ -67,7 +82,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "McLaren doit aider Piastri à ne plus \"réfléchir\" au volant des F1 2026",
+      "summaryFr": "Andrea Stella estime que Piastri n’a pas encore trouvé les automatismes nécessaires avec les monoplaces 2026. McLaren cherche à l’aider dans cette adaptation, qui contribue selon son directeur à l’écart avec Norris.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "c773f7a01f8c2117a3b7",
@@ -79,7 +99,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi Ferrari ne compte pas encore se tourner vers sa F1 2027",
+      "summaryFr": "Frédéric Vasseur entend poursuivre les évolutions de la SF-26. Ferrari ne souhaite pas encore consacrer l’ensemble de ses efforts à 2027, malgré une situation devenue moins favorable au championnat.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "f5b7e5b2721829ea9107",
@@ -91,7 +116,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les propriétaires de Cadillac F1 face à une action en justice",
+      "summaryFr": "Selon Motorsport.com, Mark Walter, actionnaire de Cadillac F1, est visé par une procédure collective concernant ses activités d’assurance. Il s’agit d’allégations portées dans une plainte, et non d’une condamnation établie dans cette information.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "c83834e08c6ffdf0cdf5",
@@ -104,7 +134,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Mercedes ouvert à une révision de l'ADUO sur fond de discussion Alonso-FIA",
+      "summaryFr": "Toto Wolff considère que Honda doit pouvoir bénéficier d’un soutien réglementaire plus important pour rattraper son retard. Le débat intervient dans le contexte des échanges entre Fernando Alonso et la FIA sur les règles techniques.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "103a9e8170faee720cb0",
@@ -117,7 +152,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "\"Je ne profitais plus de ma vie\" : Tsunoda revient sur son passage chez Red Bull",
+      "summaryFr": "Tsunoda décrit les difficultés personnelles associées à son passage chez Red Bull. Son témoignage s’inscrit dans une série de récits d’anciens équipiers de Verstappen sur la pression ressentie dans ce baquet.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "6e4732942960782e1b4a",
@@ -129,7 +169,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
+      "summaryFr": "Le rendez-vous de Bakou est programmé du 24 au 26 septembre 2026. Sa particularité est de se conclure un samedi, avant les dernières étapes de la saison hors d’Europe.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "e04b4166712707d45de8",
@@ -141,7 +186,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
     },
     {
       "id": "e5a8ff8065c4b1d715a4",
@@ -153,7 +204,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Verstappen s'est surpris lui-même par sa performance lors du \"Max vs 100\"",
+      "summaryFr": "Verstappen dit avoir fait mieux qu’il ne l’espérait lors du défi de karting organisé à Silverstone. Il y affrontait cent amateurs en s’élançant derrière l’ensemble du peloton.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "d5b69595122c24d3da86",
@@ -165,7 +221,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Lewis Hamilton dément fermement une rumeur venue d'Italie",
+      "summaryFr": "Hamilton conteste des informations de la presse italienne selon lesquelles il demanderait le remplacement de collaborateurs chez Ferrari. Il s’agit d’un démenti du pilote, et non de l’annonce d’un changement dans l’équipe.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "a40f1dead06ba36be8fd",
@@ -177,7 +238,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Gérard Lopez bientôt jugé dans un procès lié à Lotus F1",
+      "summaryFr": "L’ancien dirigeant de Lotus F1, Gérard Lopez, doit comparaître dans une affaire liée à cette période. L’annonce d’un procès ne préjuge pas de son issue ni d’une éventuelle culpabilité.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "a6d469f6931d55c9e1c4",
@@ -189,7 +255,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Verstappen bat cent amateurs en karting",
+      "summaryFr": "À Silverstone, Max Verstappen a remporté un défi face à cent pilotes amateurs. Il avait pris le départ depuis la dernière position.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "d1726c9edb18a79425aa",
@@ -201,7 +272,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi Haas reste désavantagée malgré le plafond budgétaire en F1",
+      "summaryFr": "Ayao Komatsu souligne que le plafond des dépenses ne garantit pas à toutes les équipes des moyens équivalents. Haas cherche davantage de financements pour pouvoir atteindre le niveau de dépenses autorisé.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "4b38d87ebf3e836dcd6b",
@@ -213,7 +289,13 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Mike Elliott rejoint la direction technique d’Alpine",
+      "summaryFr": "La BBC annonce l’arrivée de Mike Elliott chez Alpine comme responsable technique en chef. Il a auparavant exercé des responsabilités de conception chez Mercedes.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "588a25bd3a108dd59e49",
@@ -226,7 +308,12 @@
         "ecuries",
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Alpine F1 recrute l'ancien directeur technique de Mercedes",
+      "summaryFr": "Alpine a annoncé le recrutement de Mike Elliott pour superviser les activités techniques et d’ingénierie à Enstone. Le Britannique retrouve un site où il a déjà travaillé.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "4a1854697245f00083d3",
@@ -238,7 +325,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Ferrari et Racing Bulls en piste à Imola pour des essais Pirelli",
+      "summaryFr": "Ferrari et Racing Bulls ont poursuivi leur programme à Imola après le Grand Prix d’Espagne. Ces essais servent au développement des pneumatiques Pirelli.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "4ebecb4e9fba64bbfe26",
@@ -250,7 +342,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Une main sur le trophée : Antonelli et les chiffres d'un sacre annoncé",
+      "summaryFr": "Après quatorze Grands Prix, Antonelli dispose d’une avance importante sur ses poursuivants. L’article examine ce que cet écart signifie pour la course au titre, sans annoncer un sacre déjà remporté.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "3e27c2dca1ec3ad5ed8d",
@@ -262,7 +359,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Cent adversaires dépassés en quatorze tours pour Verstappen",
+      "summaryFr": "Verstappen a remonté un peloton de cent amateurs lors d’une course de démonstration en karting à Silverstone. La BBC indique qu’il lui a fallu quatorze tours pour les dépasser.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Jack Skelton"
     },
     {
       "id": "a48414d0cf69343618ad",
@@ -274,7 +377,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pas de clash F1 / Le Mans en 2027 : une ouverture pour Norris ou Verstappen ?",
+      "summaryFr": "Le calendrier F1 annoncé pour 2027 évite un chevauchement avec les 24 Heures du Mans. Cette organisation pourrait faciliter une participation de pilotes de F1, sans confirmer l’engagement de Norris ou de Verstappen.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "d5f9f91dad168d836bdb",
@@ -286,7 +394,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Parti dernier, Verstappen remporte son défi face à 100 pilotes de karting",
+      "summaryFr": "Verstappen a remporté le défi « Max vs 100 » du 16 septembre à Silverstone. Parti derrière les cent autres participants, il a remonté un plateau mêlant amateurs, sportifs et créateurs de contenu.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "2064ed26eb214ae91a9c",
@@ -298,7 +411,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi la victoire d'Antonelli n'est pas qu'une histoire de chance",
+      "summaryFr": "L’intervention de la voiture de sécurité virtuelle a joué en faveur d’Antonelli en Espagne. L’article revient sur une course que Norris semblait jusque-là en mesure de gagner.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "359954fbe69c21ddcd3a",
@@ -310,7 +428,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi McLaren ne blâme pas la direction de course pour sa victoire perdue en Espagne",
+      "summaryFr": "McLaren ne tient pas la direction de course pour responsable de sa victoire manquée à Madrid. Le moment du déclenchement de la voiture de sécurité virtuelle a défavorisé Norris, pourtant parti en pole position.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "fec1f41a14594560669c",
@@ -323,7 +446,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Mercedes assume la stratégie à deux arrêts de Russell au GP d'Espagne",
+      "summaryFr": "Mercedes défend son choix stratégique pour Russell en Espagne. Contrairement aux autres pilotes des équipes de pointe, il a effectué deux arrêts après avoir débuté l’épreuve en pneus durs.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "648b10240d7f752a7306",
@@ -335,7 +463,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Comment la F1 justifie l'augmentation du nombre de sprints",
+      "summaryFr": "La F1 explique le passage à dix sprints en 2027 par l’intérêt que suscite ce format auprès de ses différents publics. Le programme annoncé compte vingt-quatre Grands Prix.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "1d63e653b875b7ca2283",
@@ -347,7 +480,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Dix courses sprint annoncées pour 2027",
+      "summaryFr": "La Formule 1 prévoit de porter de six à dix le nombre de sprints la saison prochaine. Monaco figure parmi les rendez-vous concernés par cette extension.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "8e2b9f351c46317bf1b9",
@@ -359,7 +498,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "La F1 dévoile le calendrier 2027, Monaco parmi les 10 sprints",
+      "summaryFr": "Le calendrier 2027 annoncé par la F1 comprend vingt-quatre Grands Prix et dix sprints. Monaco doit accueillir pour la première fois une course de ce format.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "2a67de0d068a6416621f",
@@ -371,7 +515,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Max Verstappen vs 100 pilotes : où, quand et comment ?",
+      "summaryFr": "Avant l’événement, Red Bull présentait un défi réunissant Verstappen et cent concurrents de profils variés à Silverstone. Le pilote devait tenter de remonter tout le peloton en partant dernier.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "3087611a4c011ea88db1",
@@ -383,7 +532,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "\"J'ai failli m'endormir\" : les pilotes réagissent au premier GP du Madring",
+      "summaryFr": "Plusieurs pilotes ont exprimé leur frustration devant les faibles possibilités de dépassement au Madring. Verstappen avait déjà critiqué cet aspect du tracé avant la course.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "3947759961434aad3b17",
@@ -395,7 +549,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Il y a 25 ans : le Grand Prix que Schumacher ne voulait pas courir",
+      "summaryFr": "L’article revient sur le Grand Prix d’Italie 2001, disputé peu après les attentats du 11 septembre. Il rappelle le climat particulier de ce week-end et les réticences de Schumacher à courir.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "cc4516eb1a502e12f54a",
@@ -407,7 +566,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Honda calme les ardeurs après le discours de Ben Sulayem : Pas de \"solution miracle\"",
+      "summaryFr": "Honda tempère les attentes après un nouveau rendez-vous difficile pour Aston Martin en Espagne. Les évolutions déjà introduites ne suffisent pas à résoudre les problèmes de compétitivité de l’ensemble.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "05b30f0fc65221cfd3bd",
@@ -419,7 +583,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Comment le VSC a fait basculer le GP d'Espagne de Lando Norris",
+      "summaryFr": "Norris venait de dépasser l’entrée des stands lorsque la neutralisation virtuelle a commencé à Madrid. Ce décalage dans le timing a bouleversé sa course et favorisé Antonelli.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "56ae85240c7df602c67b",
@@ -431,7 +600,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Ocon piégé par l'absence de dégradation au Madring : \"On méritait les points\"",
+      "summaryFr": "Ocon a terminé juste hors des points au Madring. La faible usure des pneus, moins importante qu’anticipé, a contrarié sa stratégie malgré les positions gagnées au départ.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "15d41c3f7ec1a17b5a6d",
@@ -443,7 +617,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "\"Neige\" et frustration : Gasly repart bredouille de Madrid",
+      "summaryFr": "Gasly a terminé douzième à Madrid après s’être élancé quatorzième. Le timing de la neutralisation virtuelle a notamment pénalisé sa stratégie de départ en pneus durs.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "5c2a01271742f56b391b",
@@ -455,7 +634,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Sebastian Vettel et Valtteri Bottas alignés pour la Race Of Champions 2027",
+      "summaryFr": "Vettel et Bottas figurent parmi les pilotes annoncés pour la Race Of Champions 2027. L’épreuve doit se tenir à Wellington, en Nouvelle-Zélande, les 9 et 10 janvier.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "0e220fb6edd9972f9d22",
@@ -467,7 +651,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les questions des lecteurs après le premier GP au Madring",
+      "summaryFr": "Andrew Benson répond aux interrogations des lecteurs de BBC Sport après le Grand Prix d’Espagne. Le nouveau circuit de Madrid fait partie des sujets mis en avant.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
     },
     {
       "id": "415363fa8292c364a02c",
@@ -479,7 +669,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Colapinto révèle comment il a appris de Gasly à Monza pour briller au Madring",
+      "summaryFr": "Colapinto explique avoir tiré des enseignements de la performance de Gasly à Monza. Son équipier y avait obtenu la pole, tandis qu’il avait lui-même terminé huitième des qualifications.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "80cb6822ef31fbb10c79",
@@ -493,7 +688,12 @@
         "ecuries",
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Norris a testé l'Hypercar de McLaren pour les 24 Heures du Mans",
+      "summaryFr": "Après le Grand Prix d’Espagne, Norris a rejoint au Portugal le programme d’endurance de McLaren. Il y a essayé le prototype préparé pour l’arrivée du constructeur en Hypercar.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "1b6a0a21d470de372591",
@@ -505,7 +705,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Verstappen persuadé qu'il avait raison dans l'incident avec Hamilton au Madring",
+      "summaryFr": "Deuxième à Madrid, Verstappen estime avoir obtenu le maximum du week-end. Il défend également sa lecture de l’incident avec Hamilton évoqué dans l’article.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "16276a35833a2cc742ef",
@@ -517,7 +722,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Des modifications envisagées pour le circuit de Madrid",
+      "summaryFr": "Les organisateurs prévoient de revoir certains éléments du nouveau tracé madrilène. Cette démarche intervient après les critiques formulées à l’issue de son premier Grand Prix.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "1ab68cd18c257fd84a6a",
@@ -529,7 +740,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "La F2 muscle son programme à Bakou, un indice pour le calendrier F1 ?",
+      "summaryFr": "La F2 a annoncé un programme exceptionnellement étoffé à Bakou. Motorsport.com y voit une possible indication sur les incertitudes entourant la fin du calendrier F1, sans présenter cette interprétation comme une décision officielle.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "605dec29a6a2e88c69e4",
@@ -541,7 +757,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Sainz accuse Alonso d'avoir \"comme d'habitude\" provoqué une pénalité",
+      "summaryFr": "Sainz et Alonso se sont opposés en piste lors du premier Grand Prix au Madring. Sainz reproche à son compatriote son rôle dans un incident ayant conduit à une pénalité.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "dd654439a05dbec4ac02",
@@ -553,7 +774,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le Grand Prix d'Espagne promet des changements sur le Madring après les critiques",
+      "summaryFr": "Les organisateurs du GP d’Espagne envisagent de modifier le Madring pour faciliter les dépassements en 2027. Ils indiquent avoir déjà reçu des recommandations de la FIA.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "caee2136b356a88feadf",
@@ -565,7 +791,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Russell proche du K.-O. dans la course au titre",
+      "summaryFr": "La nouvelle défaite de Russell face à Antonelli en Espagne réduit encore ses perspectives au championnat. L’article juge sa remontée très improbable, sans déclarer le titre mathématiquement joué.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "a3b39f10d3568d2cac35",
@@ -577,7 +808,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Honda réorganise la direction de son programme moteur F1",
+      "summaryFr": "La BBC rapporte un changement de responsables dans le programme moteur de Honda. Cette réorganisation intervient après un début de saison jugé décevant pour son retour officiel.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "08c2923b015ca5c081d1",
@@ -589,7 +826,12 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les excuses de Grosjean à McLaren après des propos polémiques et infondés",
+      "summaryFr": "Romain Grosjean a présenté ses excuses à McLaren et à Zak Brown. Elles font suite à ses commentaires critiques pendant le Grand Prix d’Espagne sur les déclarations du patron de l’écurie.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "dcb691b0bf866bf6a095",
@@ -601,7 +843,12 @@
       "topics": [
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Honda change de patron pour son moteur F1",
+      "summaryFr": "Honda change la direction de son projet moteur dans un contexte de difficultés avec Aston Martin. L’évolution introduite durant la saison a apporté un progrès, mais pas le redressement espéré.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "9d924c07079b4a19e756",
@@ -614,7 +861,13 @@
         "pilotes",
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Norris et le débat sur la voiture de sécurité virtuelle",
+      "summaryFr": "Norris attribue sa victoire manquée en Espagne au moment particulièrement défavorable de la neutralisation virtuelle. La BBC examine cet épisode et la question d’une éventuelle évolution des règles.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "a2433a81df2b395807f6",
@@ -626,7 +879,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les pilotes du GP d’Espagne évalués par la BBC",
+      "summaryFr": "Harry Benjamin propose son appréciation des performances à Madrid. Antonelli et Colapinto figurent parmi les pilotes mis en avant dans cette analyse, qui relève du jugement du commentateur.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Harry Benjamin"
     },
     {
       "id": "b79662abee4c56cd5335",
@@ -639,7 +898,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Red Bull justifie la décision d'obliger Verstappen à laisser passer Hamilton",
+      "summaryFr": "Red Bull défend l’instruction donnée à Verstappen de restituer des positions en début de course. Laurent Mekies estime qu’un scénario sans cette restitution n’aurait pas rendu une victoire particulièrement réaliste.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "4dccd622857e62969e96",
@@ -651,7 +915,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Lando Norris critique un VSC \"injuste\" qui lui a coûté la victoire",
+      "summaryFr": "Norris critique les effets du timing de la neutralisation virtuelle en Espagne. Il avait construit une avance en tête de course avant que cet épisode ne bouleverse la lutte pour la victoire.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "6744719f0111603ab786",
@@ -663,7 +932,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Antonelli reconnaît une victoire chanceuse : \"Lando aurait dû gagner\"",
+      "summaryFr": "Antonelli reconnaît que la neutralisation virtuelle l’a aidé à battre Norris. Le pilote Mercedes considère que son adversaire semblait auparavant le mieux placé pour gagner.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "d05b5c94b4b2191f6a61",
@@ -676,7 +950,13 @@
         "pilotes",
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Antonelli gagne en Espagne, Norris pénalisé par le timing du VSC",
+      "summaryFr": "Antonelli a remporté le Grand Prix d’Espagne pour Mercedes. Norris, sur McLaren, a perdu l’avantage à la suite d’une neutralisation virtuelle intervenue à un moment défavorable pour lui.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "238ec4a9ab9779866847",
@@ -688,7 +968,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Championnat - Antonelli file tout droit vers le titre",
+      "summaryFr": "Antonelli accroît son avance au championnat grâce à sa victoire en Espagne. Russell a terminé cinquième, tandis que Hamilton a abandonné sur un problème de freins.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "fbf4a675b276e5b5fa10",
@@ -700,7 +985,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Tous les résultats et classements du Grand Prix d'Espagne F1 2026",
+      "summaryFr": "Cette page rassemble les résultats du Grand Prix d’Espagne et les classements associés. Elle permet de consulter les positions et les points plutôt qu’un simple récit de la victoire.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "61b43e35f1c6831b240c",
@@ -712,7 +1002,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Antonelli remporte un GP pas fou au Madring, Norris piégé par le VSC",
+      "summaryFr": "Antonelli a gagné à Madrid devant Verstappen et Norris. Ce dernier menait largement avant de perdre l’avantage lors de l’intervention de la voiture de sécurité virtuelle.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "c5ee56cfe6c3e6bda6fc",
@@ -724,7 +1019,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Hamilton explique son premier abandon de 2026 à Madrid",
+      "summaryFr": "Hamilton a abandonné en Espagne après l’apparition d’un problème de freinage sur sa Ferrari. Il s’agit de son premier abandon de la saison 2026.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "9cc4d4d19b58af7cab61",
@@ -736,7 +1036,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vasseur pointe une erreur de Hamilton dans le dernier tour des qualifs",
+      "summaryFr": "Vasseur estime qu’une erreur de Hamilton lors de son ultime tentative a compromis sa possibilité d’obtenir la pole en Espagne. Le pilote Ferrari avait commencé cette dernière séquence en tête du classement provisoire.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "7dff0875b421cbf52a6d",
@@ -748,7 +1053,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Alonso détruit encore les F1 2026 : \"Ça ne peut pas continuer comme ça jusqu'en 2031\"",
+      "summaryFr": "Après son élimination en Q1 à domicile, Alonso a de nouveau critiqué les caractéristiques des F1 2026. Il estime qu’elles limitent la capacité du pilote à faire la différence dans certaines portions du circuit.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "04d6b3bf928233b2e950",
@@ -760,7 +1070,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "La pole offre une occasion à Norris à Madrid",
+      "summaryFr": "La BBC considère que Norris dispose d’une chance de victoire malgré une McLaren qui ne serait pas la plus rapide. La difficulté attendue pour dépasser renforce, dans cette analyse d’avant-course, l’intérêt de sa pole position.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "39350b1d1dc75ffde339",
@@ -772,7 +1088,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Norris décroche la pole position à Madrid",
+      "summaryFr": "Norris a placé sa McLaren en tête des qualifications du Grand Prix d’Espagne. Antonelli et Verstappen le suivent dans le classement de cette séance.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "d443c1c3e312b360679c",
@@ -784,7 +1106,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Russell exprime des réserves sur les risques du Madring",
+      "summaryFr": "Après l’accident d’Arvid Lindblad aux essais du vendredi, Russell a exprimé ses inquiétudes au sujet du nouveau circuit madrilène. Il s’agit de l’évaluation du pilote rapportée par la BBC.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "0ac58e901a551d306b5a",
@@ -796,7 +1124,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le président de la FIA souhaite voir Alonso redevenir compétitif",
+      "summaryFr": "Mohammed Ben Sulayem estime qu’un départ d’Alonso dans sa situation sportive actuelle serait regrettable. Cette prise de position ne constitue pas une annonce sur la carrière du pilote.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "5fa253a09ab6a8c7d756",
@@ -808,7 +1142,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Hamilton et Leclerc disent avoir réglé la controverse de Monza",
+      "summaryFr": "Hamilton affirme que le différend évoqué après le Grand Prix d’Italie a été apaisé avec Leclerc. L’information rapporte la position du pilote Ferrari sur leur relation.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "ead5363bc276821f5284",
@@ -820,7 +1160,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Pourquoi la F1 s’installe à Madrid",
+      "summaryFr": "La BBC explore les raisons de l’arrivée du championnat dans la capitale espagnole. Le rôle du parc d’expositions situé en périphérie fait partie des éléments présentés.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Matt Warwick"
     },
     {
       "id": "2b34e24bc9af869f0c0c",
@@ -832,7 +1178,13 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Robin Räikkönen intègre le programme de Red Bull",
+      "summaryFr": "Le fils de Kimi Räikkönen, âgé de onze ans, rejoint le dispositif de formation des pilotes de Red Bull. Cette intégration concerne son parcours de développement, pas un baquet en Formule 1.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Ben Collins"
     },
     {
       "id": "8a341ffdec99b3d20fcf",
@@ -844,7 +1196,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "La fédération ukrainienne demande des sanctions sportives",
+      "summaryFr": "L’autorité ukrainienne du sport automobile sollicite une intervention de la FIA contre son homologue russe. Elle invoque l’ouverture de bureaux dans des territoires ukrainiens occupés.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "7835fc278178518712c8",
@@ -857,7 +1215,13 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Verstappen évoque son contrat et sa vision de la F1",
+      "summaryFr": "Dans un entretien à BBC Sport, Verstappen aborde notamment son nouveau contrat chez Red Bull. Le pilote répond également à des questions plus larges sur sa situation et la discipline.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "10c70b075d9a4fd4d86d",
@@ -869,7 +1233,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le duel Russell–Antonelli au centre des questions après Monza",
+      "summaryFr": "Andrew Benson répond aux lecteurs après le Grand Prix d’Italie. La comparaison entre Russell et Antonelli figure parmi les thèmes de cet échange.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
     },
     {
       "id": "d818a56b9b523e78d4c7",
@@ -881,7 +1251,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Ecclestone rapporte un contrôle à son arrivée au Portugal",
+      "summaryFr": "Bernie Ecclestone dit avoir été arrêté par des agents à l’aéroport alors qu’il transportait un fusil. Il indique qu’il comptait l’utiliser lors d’une compétition de tir sportif.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Keifer MacDonald"
     },
     {
       "id": "adc19b7346f364a6d3fd",
@@ -893,7 +1269,12 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Antonelli : un talent exceptionnel ?",
+      "summaryFr": "Rebecca Clancy et Alex Lynn discutent du potentiel d’Antonelli après sa victoire à Monza. Cette émission présente leurs appréciations, plutôt qu’une mesure objective de son rang dans l’histoire de la F1.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "2b8da9c395a2ff8ce661",
@@ -905,7 +1286,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "La BBC analyse la victoire d’Antonelli à Monza",
+      "summaryFr": "La BBC met en avant la performance d’Antonelli au Grand Prix d’Italie. Son analyse souligne également les conséquences de ce résultat sur les chances de titre de Russell.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "4150aa15bea875e6c7cf",
@@ -917,7 +1304,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Antonelli gagne à Monza après un départ en dix-neuvième position",
+      "summaryFr": "Antonelli a remporté le Grand Prix d’Italie au terme d’une remontée depuis la dix-neuvième place. La BBC décrit une épreuve marquée par de nombreux incidents.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "9bcc9f88a04c095d7c66",
@@ -929,7 +1322,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les performances de Monza évaluées par la BBC",
+      "summaryFr": "Harry Benjamin attribue ses appréciations aux pilotes après le Grand Prix d’Italie. Antonelli et Gasly sont particulièrement mis en avant dans ce bilan du commentateur.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Harry Benjamin"
     },
     {
       "id": "301f4fc463d9e74e730c",
@@ -942,7 +1341,59 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Antonelli et Ferrari : les choix des supporters italiens",
+      "summaryFr": "La BBC interroge des supporters à Monza sur leurs préférences. Le reportage explore la place d’Antonelli dans un pays traditionnellement très attaché à Ferrari.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Lorraine McKenna"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/aston-martin-confirme-progres-points-alonso-zandvoort/10848999/",
+      "title": "Aston Martin confirme ses progrès avec les points d'Alonso à Zandvoort",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "ec573393cb7b8e8637c3",
+      "publishedAt": "2026-08-25T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "published",
+      "authorName": "Téha Courbon",
+      "titleFr": "Aston Martin confirme ses progrès avec les points d'Alonso à Zandvoort",
+      "summaryFr": "Alonso est remonté de la dix-huitième à la neuvième place à Zandvoort avec une stratégie à un arrêt. Ce résultat apporte des points à Aston Martin, sans effacer les difficultés persistantes liées à son moteur.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/mercedes-confirme-penalite-antonelli-monza/10848899/",
+      "title": "Mercedes confirme la pénalité d'Antonelli à Monza",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "ed722fcf3df0c3ac67ea",
+      "publishedAt": "2026-08-24T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "published",
+      "authorName": "Basile Davoine",
+      "titleFr": "Mercedes confirme la pénalité d'Antonelli à Monza",
+      "summaryFr": "Mercedes annonce un ensemble moteur neuf pour Antonelli à Monza, au prix d’un départ en fond de grille. L’équipe considère le circuit italien comme le lieu le moins défavorable pour absorber cette pénalité.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ]
     },
     {
       "id": "2e8d312727ac53364177",
@@ -954,7 +1405,13 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le parcours d’Antonelli, de l’enfance au sommet du championnat",
+      "summaryFr": "La BBC retrace les débuts d’Antonelli à partir, notamment, du témoignage de son père. Celui-ci décrit un intérêt et des aptitudes pour la conduite apparus très tôt.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
     },
     {
       "id": "c8517ee434542ffbcd05",
@@ -966,7 +1423,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Zandvoort et le Grand Prix des Pays-Bas en images",
+      "summaryFr": "La BBC propose une sélection photographique du rendez-vous néerlandais. Elle accompagne les préparatifs du dernier accueil annoncé de la F1 à Zandvoort.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Alan Jewell"
     },
     {
       "id": "f3ba4dd33f5f6080de3a",
@@ -978,7 +1441,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Davantage de sprints : quels bénéfices pour la F1 ?",
+      "summaryFr": "Harry Benjamin et Becky Evans discutent des effets possibles d’un plus grand nombre de week-ends sprint. L’échange porte sur les pilotes comme sur les spectateurs, et ne constitue pas à lui seul une décision réglementaire.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "f004aa95b01bea64e934",
@@ -991,7 +1459,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les pronostics de mi-saison de la BBC",
+      "summaryFr": "L’équipe du podcast Chequered Flag imagine plusieurs scénarios pour la seconde partie du championnat. Les hypothèses évoquées, notamment autour de Verstappen et McLaren, sont des pronostics et non des transferts annoncés.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "d29974f0544161435816",
@@ -1003,7 +1476,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Une fin de saison européenne envisagée sous conditions",
+      "summaryFr": "Le podcast de la BBC discute d’une déclaration de Stefano Domenicali concernant les dernières courses. Une finale européenne y est envisagée si les épreuves du Qatar ou d’Abu Dhabi ne peuvent pas se tenir.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "ef0cc6ef990fbf188468",
@@ -1015,7 +1493,35 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le bilan de la première moitié de saison selon Andrew Benson",
+      "summaryFr": "Le correspondant F1 de la BBC propose cinq enseignements tirés du début du championnat 2026. Ce contenu est une analyse rétrospective de cette première partie de saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/aston-martin-devoile-16-evolutions-aero-budapest/10841293/",
+      "title": "Aston Martin dévoile 16 évolutions aéro à Budapest !",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "b4aa1f773be4d48b272a",
+      "publishedAt": "2026-07-24T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Aston Martin dévoile 16 évolutions aéro à Budapest !",
+      "summaryFr": "Aston Martin apporte seize modifications aérodynamiques en Hongrie, constituant une refonte importante de l’AMR26. L’aileron avant, les écopes de freins et plusieurs zones du plancher sont notamment concernés.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries",
+        "voitures"
+      ]
     },
     {
       "id": "457c8d94d8e37621cc80",
@@ -1027,7 +1533,35 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Un père raconte le Grand Prix de Grande-Bretagne avec son fils autiste",
+      "summaryFr": "Un témoignage décrit la visite d’un père et de son fils passionné de F1 à Silverstone. Il souligne les dispositions qui ont rendu cette sortie possible pour leur famille.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Brendon Mitchell"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/leclerc-remporte-course-maitrisee-couteau-entre-dents/10836614/",
+      "title": "Leclerc remporte une course maîtrisée \"le couteau entre les dents\"",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "aa0a3cc21093b512e4b6",
+      "publishedAt": "2026-07-05T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Téha Courbon",
+      "titleFr": "Leclerc remporte une course maîtrisée \"le couteau entre les dents\"",
+      "summaryFr": "Leclerc a remporté le Grand Prix de Grande-Bretagne après avoir pris la tête dès le départ. Antonelli l’a ensuite menacé avant de rencontrer un problème technique, tandis que Vasseur a salué la prestation de son pilote.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "voitures"
+      ]
     },
     {
       "id": "68485c2a1bcee1a910a7",
@@ -1039,7 +1573,57 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Norris revient sur le prix de sa conquête du titre 2025",
+      "summaryFr": "Dans un entretien à la BBC, Norris met en perspective ses difficultés actuelles avec les efforts consentis pour devenir champion. Il évoque aussi l’environnement que pourrait représenter McLaren pour Verstappen.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Andrew Benson"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/red-bull-devoile-gros-package-evolutions-autriche/10833418/",
+      "title": "Red Bull dévoile son gros package d'évolutions à domicile",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "f85b73c1511e5cc08821",
+      "publishedAt": "2026-06-26T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Red Bull dévoile son gros package d'évolutions à domicile",
+      "summaryFr": "Red Bull introduit sept évolutions à l’occasion du Grand Prix d’Autriche. Les modifications touchent notamment le refroidissement, le plancher et l’arrière de la monoplace, avec des objectifs de fiabilité et de performance aérodynamique.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/commissaires-verdict-alpine-gasly-podium-monaco/10829151/",
+      "title": "Les pénalités de Gasly annulées, Alpine retrouve le podium !",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "b6caeb8b6bc6015df266",
+      "publishedAt": "2026-06-12T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Les pénalités de Gasly annulées, Alpine retrouve le podium !",
+      "summaryFr": "Les commissaires ont annulé les deux sanctions infligées à Gasly à Monaco après réexamen des données. Cette décision lui rend sa place sur le podium et replace Hadjar au quatrième rang à ce stade du classement.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ]
     },
     {
       "id": "7c0655e8f32e7a56f461",
@@ -1051,7 +1635,99 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Monaco à travers les photographies de son histoire",
+      "summaryFr": "La BBC rassemble des images du Grand Prix de Monaco depuis la première saison du championnat du monde, en 1950. Il s’agit d’un retour visuel sur l’histoire de l’épreuve.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Alan Jewell"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/mercedes-mclaren-nombreuses-evolutions-ferrari-canada/10822932/",
+      "title": "Mercedes et McLaren dévoilent de nombreuses évolutions, Ferrari sans nouveautés",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "5252a2ff43df1bbb71b7",
+      "publishedAt": "2026-05-22T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "published",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Mercedes et McLaren dévoilent de nombreuses évolutions, Ferrari sans nouveautés",
+      "summaryFr": "Mercedes et McLaren arrivent au Canada avec plusieurs nouveautés aérodynamiques. Ferrari conserve pour ce rendez-vous son ensemble introduit à Miami, tandis que Mercedes présente son premier grand lot d’évolutions de la saison.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/red-bull-excuses-verstappen-tarder-regler-probleme/10818404/",
+      "title": "Red Bull présente des excuses à Verstappen après avoir tardé à régler un problème",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "8e5bd0ad6f139f98262e",
+      "publishedAt": "2026-05-05T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "published",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Red Bull présente des excuses à Verstappen après avoir tardé à régler un problème",
+      "summaryFr": "Red Bull a finalement corrigé un défaut de direction dont Verstappen se plaignait depuis les essais hivernaux. Pierre Waché explique que la recherche de la cause a nécessité plusieurs tentatives et reconnaît le retard pris.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/audi-annonce-mcnish-binotto-nouveau-role/10815031/",
+      "title": "Audi F1 annonce l'arrivée de McNish et un nouveau rôle pour Binotto !",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "2ac49dbc1e609d3a8a98",
+      "publishedAt": "2026-04-24T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Audi F1 annonce l'arrivée de McNish et un nouveau rôle pour Binotto !",
+      "summaryFr": "Audi confie à Allan McNish la direction de la compétition après le départ de Jonathan Wheatley. Il doit coordonner les opérations sur les circuits à partir de Miami, dans une organisation où le rôle de Binotto évolue également.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/changements-f1-reglement-2026-gp-miami/10814165/",
+      "title": "Voici les changements décidés par la F1 pour le règlement 2026",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "1ae2f622ca913e7c9bd6",
+      "publishedAt": "2026-04-21T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Voici les changements décidés par la F1 pour le règlement 2026",
+      "summaryFr": "La FIA a annoncé des ajustements destinés notamment à améliorer la gestion de l’énergie, pour une application majoritaire dès Miami. Les changements concernant les départs doivent d’abord être expérimentés puis évalués.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "voitures"
+      ]
     },
     {
       "id": "933cf214aa46a8471686",
@@ -1063,7 +1739,77 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le coût du parcours vers la Formule 1",
+      "summaryFr": "La BBC examine les contraintes financières rencontrées dans les catégories menant à la F1. Le sujet s’appuie sur l’expérience de deux pilotes ayant tenté cette progression.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Sophie Trifonoff"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/fia-changement-derniere-minute-recuperation-energie-suzuka/10808065/",
+      "title": "La FIA annonce un changement de dernière minute sur la récupération d'énergie au Japon",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "1f04dc2de484bd5694a9",
+      "publishedAt": "2026-03-26T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "published",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "La FIA annonce un changement de dernière minute sur la récupération d'énergie au Japon",
+      "summaryFr": "La FIA a abaissé de neuf à huit mégajoules la récupération d’énergie autorisée par tour en qualifications à Suzuka. Cette mesure vise à réduire les ralentissements liés à la recharge de la batterie.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/f1-annule-gp-bahrein-arabie-saoudite/10804784/",
+      "title": "C'est officiel : la F1 annule les Grands Prix de Bahreïn et d'Arabie saoudite",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "e8e49b11c61584deda70",
+      "publishedAt": "2026-03-14T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "C'est officiel : la F1 annule les Grands Prix de Bahreïn et d'Arabie saoudite",
+      "summaryFr": "La Formule 1 a confirmé que les Grands Prix de Bahreïn et d’Arabie saoudite prévus en avril ne se tiendraient pas. L’annonce intervient dans le contexte de la guerre au Moyen-Orient.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "competition"
+      ]
+    },
+    {
+      "id": "025ef49929b44cc6a459",
+      "url": "https://fr.motorsport.com/f1/news/russell-mercedes-eteindre-ferrari-gp-australie/10803237/",
+      "title": "Russell gagne le Grand Prix d’Australie 2026",
+      "titleFr": "Russell gagne le Grand Prix d’Australie 2026",
+      "summaryFr": "Russell a remporté la course d’ouverture devant Antonelli et Leclerc. Ferrari a contesté la tête de course en début d’épreuve, tandis que Piastri, accidenté avant le départ, n’a pas pu courir.",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "authorName": "Fabien Gaillard",
+      "publishedAt": "2026-03-08T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ]
     },
     {
       "id": "19825a8a7a5150574c74",
@@ -1075,7 +1821,13 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le nouveau nom du virage 6 en Australie expliqué",
+      "summaryFr": "La rubrique pédagogique de la BBC revient sur le changement de nom du sixième virage du Grand Prix d’Australie. L’introduction disponible annonce ce sujet sans en détailler les raisons.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Tasnim Chowdhury"
     },
     {
       "id": "045ccb7b2aaaec31d066",
@@ -1087,7 +1839,13 @@
       "topics": [
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Les pneumatiques utilisés en F1 en 2026",
+      "summaryFr": "La BBC propose une présentation des différentes catégories de pneumatiques en Formule 1. L’introduction disponible ne précise pas le détail des composés.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Tasnim Chowdhury"
     },
     {
       "id": "dc4308117316b5a16163",
@@ -1099,7 +1857,125 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Que signifie le « sandbagging » en F1 ?",
+      "summaryFr": "La rubrique pédagogique de la BBC traite de la notion de « sandbagging ». L’introduction accessible annonce une explication du terme sans en développer le contenu.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "Tasnim Chowdhury"
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/aston-martin-devoile-livree-amr26-newey/10795987/",
+      "title": "Dans la douleur, Aston Martin dévoile la livrée de l'AMR26 de Newey",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "238c919202cf3d393d5c",
+      "publishedAt": "2026-02-10T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Téha Courbon et Fabien Gaillard",
+      "titleFr": "Dans la douleur, Aston Martin dévoile la livrée de l'AMR26 de Newey",
+      "summaryFr": "Aston Martin a présenté les couleurs de l’AMR26 conçue sous la direction d’Adrian Newey. La diffusion de l’événement a rencontré plusieurs problèmes techniques ; la voiture conserve une dominante verte, complétée de jaune et de noir.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/cadillac-presentation-livree-super-bowl-2026/10795795/",
+      "title": "Cadillac dévoile une livrée asymétrique pour sa première F1 !",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "414519209e31aed9cd33",
+      "publishedAt": "2026-02-09T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Fabien Gaillard",
+      "titleFr": "Cadillac dévoile une livrée asymétrique pour sa première F1 !",
+      "summaryFr": "Cadillac a choisi le Super Bowl pour révéler les couleurs de sa première monoplace de Formule 1. Cette présentation marque une étape dans la préparation de ses débuts au championnat 2026.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/audi-devoile-livree-definitive-2026/10791380/",
+      "title": "Audi dévoile la livrée définitive de ses débuts en F1",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "01adaaaad6013b422712",
+      "publishedAt": "2026-01-26T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Basile Davoine",
+      "titleFr": "Audi dévoile la livrée définitive de ses débuts en F1",
+      "summaryFr": "Audi a présenté à Berlin les couleurs de son arrivée en F1, après la transformation de Sauber. La marque développe son propre moteur et affiche l’ambition de conquérir des titres à l’horizon 2030.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "url": "https://fr.motorsport.com/f1/news/haas-presente-monoplace-2026/10791009/",
+      "title": "Haas F1 présente sa monoplace 2026",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "id": "42ffbceadf13b423ba2e",
+      "publishedAt": "2026-01-26T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "authorName": "Basile Davoine",
+      "titleFr": "Haas F1 présente sa monoplace 2026",
+      "summaryFr": "Haas a révélé la VF-26 destinée à Ocon et Bearman. Les premières images montrent une livrée majoritairement blanche, tandis que l’équipe prépare les essais de Barcelone et l’adaptation au nouveau règlement.",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ]
+    },
+    {
+      "id": "e1e812e03cfa9e469d6d",
+      "url": "https://fr.motorsport.com/f1/news/williams-date-presentation-2026/10788144/",
+      "title": "Williams fixe sa date de présentation 2026",
+      "titleFr": "Williams fixe sa date de présentation 2026",
+      "summaryFr": "Williams prévoit de dévoiler les couleurs de la FW48 le 3 février à Grove, avec Albon et Sainz. La monoplace doit auparavant participer aux essais privés de Barcelone avec une livrée temporaire.",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "authorName": "Basile Davoine",
+      "publishedAt": "2026-01-06T12:00:00+00:00",
+      "datePrecision": "day",
+      "sourceDateKind": "updated",
+      "summaryScope": "article",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "firstSeenAt": "2026-09-20T08:26:06.899606+00:00",
+      "historical": true,
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ]
     },
     {
       "id": "72b1287173863cd7fed9",
@@ -1111,7 +1987,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Quand commence la saison 2026 de F1 ?",
+      "summaryFr": "La BBC propose une fiche consacrée au début du championnat 2026. L’introduction disponible présente le sujet sans détailler les dates du calendrier.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "58029eddbec99a0f115d",
@@ -1124,7 +2005,12 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Quel programme pour Yuki Tsunoda en 2026 ?",
+      "summaryFr": "La rubrique pédagogique de la BBC examine les perspectives de Tsunoda pour la saison 2026. Son introduction ne précise pas les modalités de ce programme.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "4ddc2cf2da1b6c1c6933",
@@ -1136,7 +2022,12 @@
       "topics": [
         "voitures"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Le halo en Formule 1 expliqué",
+      "summaryFr": "La BBC présente le halo et annonce des exemples de son utilité. L’introduction disponible ne développe pas ces situations.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "29ebaedc21b9afefaae3",
@@ -1148,7 +2039,12 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Que sont les « papaya rules » de McLaren ?",
+      "summaryFr": "La BBC consacre une fiche aux règles internes désignées par cette expression chez McLaren. Leur détail n’apparaît pas dans l’introduction disponible.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
       "id": "a7c7af6327734b80c705",
@@ -1160,7 +2056,21 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "La super licence F1 expliquée",
+      "summaryFr": "La BBC propose une présentation de la super licence et du système de points permettant d’y accéder. L’introduction annonce ces thèmes sans préciser les critères chiffrés.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     }
-  ]
+  ],
+  "summaryStatus": {
+    "mode": "not-configured",
+    "message": "Clé de résumé non configurée ; les résumés existants sont conservés."
+  },
+  "historyCoverage": {
+    "from": "2026-01-06",
+    "kind": "selection",
+    "count": 18
+  }
 }
