@@ -1,0 +1,1154 @@
+{
+  "version": 1,
+  "startedAt": "2026-09-19T16:27:22.241264+00:00",
+  "collectedAt": "2026-09-19T16:32:51.567260+00:00",
+  "sources": [
+    {
+      "name": "Motorsport.com France",
+      "url": "https://fr.motorsport.com/rss/f1/news/",
+      "ok": true,
+      "count": 48,
+      "checkedAt": "2026-09-19T16:32:51.567260+00:00"
+    },
+    {
+      "name": "BBC Sport",
+      "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+      "ok": true,
+      "count": 45,
+      "checkedAt": "2026-09-19T16:32:51.567260+00:00"
+    }
+  ],
+  "articles": [
+    {
+      "id": "6f88471d05ba31282dd4",
+      "title": "Vettel serait ravi de voir Antonelli battre son record de précocité",
+      "url": "https://fr.motorsport.com/f1/news/vettel-ravi-antonelli-battre-record-precocite/10856451/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-19T12:30:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "9b48b7c2403a948c9aa8",
+      "title": "Tsunoda révèle pourquoi il n'a pas réussi à dompter la Red Bull en 2025",
+      "url": "https://fr.motorsport.com/f1/news/tsunoda-revele-dompter-red-bull-2025/10856609/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-19T10:54:32+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "c89661ece70c3af7c74c",
+      "title": "McLaren doit aider Piastri à ne plus \"réfléchir\" au volant des F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/stella-mclaren-aider-piastri-pas-reflechir-volant-f1-2026/10856258/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-19T06:40:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "c773f7a01f8c2117a3b7",
+      "title": "Pourquoi Ferrari ne compte pas encore se tourner vers sa F1 2027",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-ferrari-tourner-f1-2027/10856467/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-18T13:05:03+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "f5b7e5b2721829ea9107",
+      "title": "Les propriétaires de Cadillac F1 face à une action en justice",
+      "url": "https://fr.motorsport.com/f1/news/proprietaires-cadillac-f1-action-justice/10856813/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-18T11:20:02+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "c83834e08c6ffdf0cdf5",
+      "title": "Mercedes ouvert à une révision de l'ADUO sur fond de discussion Alonso-FIA",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-revision-aduo-alonso-fia-discussion/10856768/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-18T08:18:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "103a9e8170faee720cb0",
+      "title": "\"Je ne profitais plus de ma vie\" : Tsunoda revient sur son passage chez Red Bull",
+      "url": "https://fr.motorsport.com/f1/news/yuki-tsunoda-revient-passage-red-bull/10856509/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-18T07:04:44+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "6e4732942960782e1b4a",
+      "title": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-grand-prix-azerbaidjan-samedi-course/10856105/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-18T06:18:31+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-18T05:44:50+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "e5a8ff8065c4b1d715a4",
+      "title": "Verstappen s'est surpris lui-même par sa performance lors du \"Max vs 100\"",
+      "url": "https://fr.motorsport.com/general/news/verstappen-surpris-lui-meme-performance-max-vs-100/10856633/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T15:47:34+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d5b69595122c24d3da86",
+      "title": "Lewis Hamilton dément fermement une rumeur venue d'Italie",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-rejette-rumeurs-remplacement-membres-equipe/10856630/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T15:18:36+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "a40f1dead06ba36be8fd",
+      "title": "Gérard Lopez bientôt jugé dans un procès lié à Lotus F1",
+      "url": "https://fr.motorsport.com/f1/news/gerard-lopez-bientot-juge-proces-lotus/10856551/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T13:40:26+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "a6d469f6931d55c9e1c4",
+      "title": "Verstappen easily beats 100 racers in a go-kart",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/ck62m6gd1zveo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-17T13:04:57+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d1726c9edb18a79425aa",
+      "title": "Pourquoi Haas reste désavantagée malgré le plafond budgétaire en F1",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-haas-desavantagee-malgre-plafond-budgetaire-f1/10842975/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T12:06:45+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "4b38d87ebf3e836dcd6b",
+      "title": "Former Mercedes design boss Elliott joins Alpine",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckeq8vj28149o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-17T10:52:29+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "588a25bd3a108dd59e49",
+      "title": "Alpine F1 recrute l'ancien directeur technique de Mercedes",
+      "url": "https://fr.motorsport.com/f1/news/alpine-recrute-ancien-directeur-technique-mercedes/10856481/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T10:22:30+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "4a1854697245f00083d3",
+      "title": "Ferrari et Racing Bulls en piste à Imola pour des essais Pirelli",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-racing-bulls-imola-essais-pirelli/10856449/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T08:38:39+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "4ebecb4e9fba64bbfe26",
+      "title": "Une main sur le trophée : Antonelli et les chiffres d'un sacre annoncé",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-main-trophee-chiffres-sacre-annonce/10856147/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T07:14:12+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "3e27c2dca1ec3ad5ed8d",
+      "title": "Verstappen passes 100 amateur karters in 14 laps in exhibition race",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c50m3k7jk82jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-17T06:12:30+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "a48414d0cf69343618ad",
+      "title": "Pas de clash F1 / Le Mans en 2027 : une ouverture pour Norris ou Verstappen ?",
+      "url": "https://fr.motorsport.com/wec/news/clash-f1-mans-2027-norris-verstappen/10856318/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-17T05:30:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d5f9f91dad168d836bdb",
+      "title": "Parti dernier, Verstappen remporte son défi face à 100 pilotes de karting",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-defi-reussi-karting-100/10856419/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T19:25:34+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "2064ed26eb214ae91a9c",
+      "title": "Pourquoi la victoire d'Antonelli n'est pas qu'une histoire de chance",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-victoire-pas-question-chance-madring/10856360/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T15:43:00+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "359954fbe69c21ddcd3a",
+      "title": "Pourquoi McLaren ne blâme pas la direction de course pour sa victoire perdue en Espagne",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-mclaren-blame-pas-direction-course-victoire-perdue-espagne/10856132/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T14:04:18+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "fec1f41a14594560669c",
+      "title": "Mercedes assume la stratégie à deux arrêts de Russell au GP d'Espagne",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-justifie-strategie-deux-arrets-russell-gp-espagne/10856123/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T13:03:27+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "648b10240d7f752a7306",
+      "title": "Comment la F1 justifie l'augmentation du nombre de sprints",
+      "url": "https://fr.motorsport.com/f1/news/comment-f1-justifie-augmentation-sprints/10856276/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T09:48:15+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "1d63e653b875b7ca2283",
+      "title": "F1 to have 10 sprint races in 2027, including Monaco",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/crz9zvn5lzzpo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-16T09:01:21+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "8e2b9f351c46317bf1b9",
+      "title": "La F1 dévoile le calendrier 2027, Monaco parmi les 10 sprints",
+      "url": "https://fr.motorsport.com/f1/news/calendrier-2027-dix-sprints-monaco-f1/10856256/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T09:00:37+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "2a67de0d068a6416621f",
+      "title": "Max Verstappen vs 100 pilotes : où, quand et comment ?",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-vs-100-pilotes-ou-quand-comment/10856201/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T08:01:35+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "3087611a4c011ea88db1",
+      "title": "\"J'ai failli m'endormir\" : les pilotes réagissent au premier GP du Madring",
+      "url": "https://fr.motorsport.com/f1/news/failli-dormir-pilotes-reagissent-premier-gp-madring/10856080/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T06:40:32+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "3947759961434aad3b17",
+      "title": "Il y a 25 ans : le Grand Prix que Schumacher ne voulait pas courir",
+      "url": "https://fr.motorsport.com/f1/news/monza-schumacher-11-septembre-2001/6668193/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-16T05:30:02+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "cc4516eb1a502e12f54a",
+      "title": "Honda calme les ardeurs après le discours de Ben Sulayem : Pas de \"solution miracle\"",
+      "url": "https://fr.motorsport.com/f1/news/honda-calme-ardeurs-ben-sulayem-solution-miracle/10856085/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-15T16:03:22+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "05b30f0fc65221cfd3bd",
+      "title": "Comment le VSC a fait basculer le GP d'Espagne de Lando Norris",
+      "url": "https://fr.motorsport.com/f1/news/comment-vsc-basculer-gp-espagne-lando-norris/10855997/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-15T14:31:20+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "56ae85240c7df602c67b",
+      "title": "Ocon piégé par l'absence de dégradation au Madring : \"On méritait les points\"",
+      "url": "https://fr.motorsport.com/f1/news/ocon-piege-zero-degradation-meriter-points/10856029/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-15T11:36:44+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "15d41c3f7ec1a17b5a6d",
+      "title": "\"Neige\" et frustration : Gasly repart bredouille de Madrid",
+      "url": "https://fr.motorsport.com/f1/news/gasly-neige-frustration-bredouille-madrid/10856011/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-15T10:40:27+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "5c2a01271742f56b391b",
+      "title": "Sebastian Vettel et Valtteri Bottas alignés pour la Race Of Champions 2027",
+      "url": "https://fr.motorsport.com/f1/news/sebastian-vettel-valtteri-bottas-alignes-race-of-champions-2027/10856010/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-15T07:45:15+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "0e220fb6edd9972f9d22",
+      "title": "How did they get the Madring track so wrong? - F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c4g7pljy4neo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-15T06:49:52+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "415363fa8292c364a02c",
+      "title": "Colapinto révèle comment il a appris de Gasly à Monza pour briller au Madring",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-revele-appris-gasly-monza-madring-alpine/10855875/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-15T06:45:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "80cb6822ef31fbb10c79",
+      "title": "Norris a testé l'Hypercar de McLaren pour les 24 Heures du Mans",
+      "url": "https://fr.motorsport.com/wec/news/norris-test-hypercar-mclaren-24h-mans/10855956/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T18:30:30+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "1b6a0a21d470de372591",
+      "title": "Verstappen persuadé qu'il avait raison dans l'incident avec Hamilton au Madring",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-persuade-raison-incident-hamilton-madring/10855814/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T15:00:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "16276a35833a2cc742ef",
+      "title": "Madrid F1 circuit set for changes after criticism",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckwyzllzdq43o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-14T14:11:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "1ab68cd18c257fd84a6a",
+      "title": "La F2 muscle son programme à Bakou, un indice pour le calendrier F1 ?",
+      "url": "https://fr.motorsport.com/fia-f2/news/f2-muscle-programme-bakou-indice-calendrier-f1/10855853/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T12:59:10+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "605dec29a6a2e88c69e4",
+      "title": "Sainz accuse Alonso d'avoir \"comme d'habitude\" provoqué une pénalité",
+      "url": "https://fr.motorsport.com/f1/news/sainz-accuse-alonso-provoque-penalite-madrid/10855758/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T11:03:06+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "dd654439a05dbec4ac02",
+      "title": "Le Grand Prix d'Espagne promet des changements sur le Madring après les critiques",
+      "url": "https://fr.motorsport.com/f1/news/gp-espagne-promet-changements-madring-critiques/10855765/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T09:57:41+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "caee2136b356a88feadf",
+      "title": "Russell proche du K.-O. dans la course au titre",
+      "url": "https://fr.motorsport.com/f1/news/russell-proche-ko-course-titre-pas-dire-fini/10855540/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T08:43:00+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "a3b39f10d3568d2cac35",
+      "title": "Honda changes F1 design boss after slow start to return",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cpved014n83o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-14T08:39:13+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "08c2923b015ca5c081d1",
+      "title": "Les excuses de Grosjean à McLaren après des propos polémiques et infondés",
+      "url": "https://fr.motorsport.com/f1/news/grosjean-excuses-propos-polemiques-infondes-mclaren/10855730/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T07:25:30+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "dcb691b0bf866bf6a095",
+      "title": "Honda change de patron pour son moteur F1",
+      "url": "https://fr.motorsport.com/f1/news/honda-changement-patron-moteur-aston-martin/10855725/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-14T06:43:54+00:00",
+      "topics": [
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "9d924c07079b4a19e756",
+      "title": "How virtual safety car cost Norris win - and should F1 change rules?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvgyjwxv7y3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-13T19:30:14+00:00",
+      "topics": [
+        "pilotes",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "a2433a81df2b395807f6",
+      "title": "Antonelli impressive and one of Colapinto's best weekends - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/clyjx57nqj9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-13T18:25:05+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "b79662abee4c56cd5335",
+      "title": "Red Bull justifie la décision d'obliger Verstappen à laisser passer Hamilton",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-justifie-decision-verstappen-hamilton-consigne/10855521/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T17:03:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "4dccd622857e62969e96",
+      "title": "Lando Norris critique un VSC \"injuste\" qui lui a coûté la victoire",
+      "url": "https://fr.motorsport.com/f1/news/lando-norris-critique-vsc-injuste-couter-victoire/10855491/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T16:03:51+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "6744719f0111603ab786",
+      "title": "Antonelli reconnaît une victoire chanceuse : \"Lando aurait dû gagner\"",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-reconnait-victoire-chanceuse-norris-gagner/10855468/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T15:31:01+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d05b5c94b4b2191f6a61",
+      "title": "Antonelli wins as Norris loses out under virtual safety car",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5yeln1j175o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-13T15:10:42+00:00",
+      "topics": [
+        "pilotes",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "238ec4a9ab9779866847",
+      "title": "Championnat - Antonelli file tout droit vers le titre",
+      "url": "https://fr.motorsport.com/f1/news/championnat-antonelli-tout-droit-vers-titre/10855353/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T15:01:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "fbf4a675b276e5b5fa10",
+      "title": "Tous les résultats et classements du Grand Prix d'Espagne F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grand-prix-espagne-2026-resultats-classement/10855354/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T14:49:26+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "61b43e35f1c6831b240c",
+      "title": "Antonelli remporte un GP pas fou au Madring, Norris piégé par le VSC",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-vainqueur-gp-pas-fou-madring-norris-piege/10855340/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T14:39:13+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "c5ee56cfe6c3e6bda6fc",
+      "title": "Hamilton explique son premier abandon de 2026 à Madrid",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-explique-premier-abandon-2026-madrid/10855403/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T14:11:44+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "9cc4d4d19b58af7cab61",
+      "title": "Vasseur pointe une erreur de Hamilton dans le dernier tour des qualifs",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-erreur-hamilton-dernier-tour-qualifs-madrid/10855310/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T10:31:09+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "7dff0875b421cbf52a6d",
+      "title": "Alonso détruit encore les F1 2026 : \"Ça ne peut pas continuer comme ça jusqu'en 2031\"",
+      "url": "https://fr.motorsport.com/f1/news/alonso-detruit-f1-2026-pas-continuer-comme-ca/10855262/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-13T10:00:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "04d6b3bf928233b2e950",
+      "title": "Norris' real opportunity after coming from nowhere with 'masterpiece' lap",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5yeljnxyvdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-12T18:26:39+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "39350b1d1dc75ffde339",
+      "title": "Norris takes Madrid pole with 'gorgeous' lap",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c8r60g7nrn6o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-12T17:00:06+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d443c1c3e312b360679c",
+      "title": "New Madrid circuit very high risk, says Russell",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cew9nr2kx20o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-11T18:17:36+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "0ac58e901a551d306b5a",
+      "title": "Alonso cannot leave F1 while uncompetitive - FIA boss",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9w4dz14787o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-11T17:03:48+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "5fa253a09ab6a8c7d756",
+      "title": "Hamilton and Leclerc 'squash' Monza controversy",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg825g59l1o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-10T17:27:04+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "ead5363bc276821f5284",
+      "title": "'It started as a joke, a fantasy' - F1 heads to football-obsessed Madrid",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjw5n195nx8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-10T05:21:13+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "2b34e24bc9af869f0c0c",
+      "title": "Kimi Raikkonen's son Robin, 11, signs for Red Bull",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3v437155e3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-09T13:20:04+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "8a341ffdec99b3d20fcf",
+      "title": "Ukraine federation calls for Russian sanctions by FIA",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5y7k2grx1lo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-09T11:09:07+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "7835fc278178518712c8",
+      "title": "McLaren talks, 'numb' cars and being 'captain of the ship' - Verstappen Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cy4ze023nvro",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-09T05:06:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "10c70b075d9a4fd4d86d",
+      "title": "Russell hindered or just Antonelli brilliance? - F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c8r6e663g1lo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-08T06:42:09+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d818a56b9b523e78d4c7",
+      "title": "Ecclestone stopped by police for taking shotgun into Portugal",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cy9zx52xen2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-07T17:40:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "adc19b7346f364a6d3fd",
+      "title": "Is Antonelli a generational talent?",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/c3057ld9400o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-06T20:24:23+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "2b8da9c395a2ff8ce661",
+      "title": "Antonelli 'walks over water' for win that will go down in F1 folklore",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2my2z365lo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-06T19:53:30+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "4150aa15bea875e6c7cf",
+      "title": "Antonelli takes stunning Monza win from 19th on grid",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/clyl3l325g6o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-06T19:34:53+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "9bcc9f88a04c095d7c66",
+      "title": "Antonelli extraordinary as Gasly has superb weekend - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c8xkgx74xyxo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-06T18:18:12+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "301f4fc463d9e74e730c",
+      "title": "Antonelli 'disrupting rules of fandom' in Ferrari's Italy",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cj03m124lp3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-05T10:37:00+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "2e8d312727ac53364177",
+      "title": "Antonelli - the boy 'born in a garage' who started driving on dad's lap",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c0rdvxdwwwwo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-08-19T06:06:58+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "c8517ee434542ffbcd05",
+      "title": "Dutch GP in pictures as F1 prepares for Zandvoort farewell",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c0l58802270o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-08-17T06:31:36+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "f3ba4dd33f5f6080de3a",
+      "title": "Would more sprint races be a positive change for Formula 1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/c5y3ey5lpydo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-08-13T16:50:45+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "f004aa95b01bea64e934",
+      "title": "'Verstappen to McLaren!' - Mid-season F1 predictions",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cy07p71522po",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-08-06T16:10:36+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "d29974f0544161435816",
+      "title": "'It's highly likely to be Imola' - Will F1 have a European finale?",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/c8en9njp2nxo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-08-06T14:20:48+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "ef0cc6ef990fbf188468",
+      "title": "Five things we've learned from first half of F1 season",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/clyj898j2p0o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-07-29T07:29:19+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "457c8d94d8e37621cc80",
+      "title": "The personal story of a dad who took his autistic son to the British Grand Prix",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c4g7glkj614o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-07-06T16:28:31+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "68485c2a1bcee1a910a7",
+      "title": "Norris 'happy I have the pain of this year for the glory of last'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c36y3p1xj4jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-07-02T07:45:39+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "7c0655e8f32e7a56f461",
+      "title": "Classic Monaco Grand Prix images through the years",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9v3x4m0peko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-06-01T07:14:33+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "933cf214aa46a8471686",
+      "title": "What it's really like to try to make it to F1",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cgld6r0e73go",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-04-17T09:41:19+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "19825a8a7a5150574c74",
+      "title": "Why has Turn Six at Australian GP been renamed?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cn0zxv2vkj2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-03-05T09:21:21+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "045ccb7b2aaaec31d066",
+      "title": "Which tyres will be used in F1 in 2026?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cly9l13qq8po",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-02-28T07:23:26+00:00",
+      "topics": [
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "dc4308117316b5a16163",
+      "title": "What is sandbagging in F1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cg4gzvlnpx7o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-02-17T16:24:15+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "72b1287173863cd7fed9",
+      "title": "When does the 2026 F1 season start?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvgrkmzrxgpo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2025-12-10T13:41:54+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "58029eddbec99a0f115d",
+      "title": "What is next for Red Bull's Yuki Tsunoda?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/clydz0pz0k3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2025-12-03T13:26:18+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "4ddc2cf2da1b6c1c6933",
+      "title": "What is the halo in Formula 1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c7978rxrz7yo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2025-10-22T10:52:14+00:00",
+      "topics": [
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "29ebaedc21b9afefaae3",
+      "title": "What are 'papaya rules' in Formula 1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/crl5ge8dle4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2025-10-10T12:38:58+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
+    {
+      "id": "a7c7af6327734b80c705",
+      "title": "What is a super licence in Formula 1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c1l8v4perrjo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2025-09-10T12:26:30+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    }
+  ]
+}
