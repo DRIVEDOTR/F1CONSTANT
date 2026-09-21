@@ -1,24 +1,62 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-21T06:42:22.401303+00:00",
+  "collectedAt": "2026-09-21T12:36:52.398333+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-21T06:42:22.401303+00:00"
+      "checkedAt": "2026-09-21T12:36:52.398333+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-09-21T06:42:22.401303+00:00"
+      "checkedAt": "2026-09-21T12:36:52.398333+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "c08b0fa242c5002e165e",
+      "title": "Red Bull admet que le mystérieux problème de Verstappen ne sera pas corrigé avant 2027",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-verstappen-probleme-mysterieux-corrige-2027/10857617/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-21T11:15:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+    },
+    {
+      "id": "40b19d14bf3344c01d2b",
+      "title": "Comment Antonelli \"donne des cheveux blancs\" à Wolff et Mercedes",
+      "url": "https://fr.motorsport.com/f1/news/comment-antonelli-done-cheveux-blanc-wolff-mercedes/10856890/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-21T09:40:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+    },
+    {
+      "id": "0d2289b5513c3aa0a765",
+      "title": "How to follow Azerbaijan Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-21T09:37:26+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+    },
     {
       "id": "6e4732942960782e1b4a",
       "title": "Pourquoi le Grand Prix d'Azerbaïdjan a lieu un samedi",
