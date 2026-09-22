@@ -1,24 +1,48 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-22T12:39:18.482909+00:00",
+  "collectedAt": "2026-09-22T18:37:12.381889+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-22T12:39:18.482909+00:00"
+      "checkedAt": "2026-09-22T18:37:12.381889+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-22T12:39:18.482909+00:00"
+      "checkedAt": "2026-09-22T18:37:12.381889+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "d38bf8b95c96b642c69b",
+      "title": "Wolff continue de croire en Russell : \"Les grands pilotes se relèvent\"",
+      "url": "https://fr.motorsport.com/f1/news/wolff-continue-croire-russell-grands-pilotes-relevent/10856847/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-22T16:00:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-22T18:37:12.381889+00:00"
+    },
+    {
+      "id": "842b6af78099a49fca52",
+      "title": "Pourquoi Leclerc n'a pas copié le style de Hamilton malgré ses difficultés",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-leclerc-pas-copier-style-hamilton-malgre-difficultes/10857684/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-22T13:00:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-22T18:37:12.381889+00:00"
+    },
     {
       "id": "4ee777c99982bae3610a",
       "title": "Mercedes prévoit un package d'évolutions pour le GP en Malaisie",
