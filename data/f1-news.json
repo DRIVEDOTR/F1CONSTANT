@@ -1,24 +1,84 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-23T12:39:30.227182+00:00",
+  "collectedAt": "2026-09-23T18:37:25.131118+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-23T12:39:30.227182+00:00"
+      "checkedAt": "2026-09-23T18:37:25.131118+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-23T12:39:30.227182+00:00"
+      "checkedAt": "2026-09-23T18:37:25.131118+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "ccfea76cbe6ec828d71b",
+      "title": "Verstappen écarte une participation aux 24 Heures du Mans 2027",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-rules-out-2027-le-mans-24-hours-bid/10858231/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T15:31:15+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+    },
+    {
+      "id": "c331e4af2774292352f8",
+      "title": "Gasly victime d'attaques sur les réseaux après un incident avec Colapinto à Madrid",
+      "url": "https://fr.motorsport.com/f1/news/gasly-victime-attaques-reseaux-incident-colapinto-madrid/10858204/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T14:31:21+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+    },
+    {
+      "id": "b5dcd9a77a280fc66748",
+      "title": "The moment Antonelli knew he had been transformed as an F1 driver",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmpq03x9x27ro",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-23T14:26:47+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+    },
+    {
+      "id": "86d5a83c4f7ab5c5c4c9",
+      "title": "Pourquoi la F1 n'annule toujours pas les GP du Qatar et d'Abu Dhabi",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-f1-annule-toujours-pas-gp-qatar-abu-dhabi/10858224/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T13:22:27+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+    },
+    {
+      "id": "bf3805801c472e384417",
+      "title": "Alonso réclame des changements après une saison 2026 qui a \"tué\" certains circuits",
+      "url": "https://fr.motorsport.com/f1/news/alonso-reclame-changements-saison-2026-tue-circuits/10858184/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T12:44:44+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+    },
     {
       "id": "0d2289b5513c3aa0a765",
       "title": "How to follow Azerbaijan Grand Prix on the BBC",
