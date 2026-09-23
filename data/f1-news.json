@@ -1,24 +1,124 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-23T06:40:00.706592+00:00",
+  "collectedAt": "2026-09-23T12:39:30.227182+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-23T06:40:00.706592+00:00"
+      "checkedAt": "2026-09-23T12:39:30.227182+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-23T06:40:00.706592+00:00"
+      "checkedAt": "2026-09-23T12:39:30.227182+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "0d2289b5513c3aa0a765",
+      "title": "How to follow Azerbaijan Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-23T12:09:26+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+    },
+    {
+      "id": "9b722ed5bf8a7f060d97",
+      "title": "Moteurs F1 pour 2030 : on connaît les premiers détails",
+      "url": "https://fr.motorsport.com/f1/news/moteurs-f1-2030-premiers-details/10858167/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T11:25:56+00:00",
+      "topics": [
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
+    {
+      "id": "fecb94db91a9786a7304",
+      "title": "Ocon se considère comme \"libre de tout engagement\" pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/ocon-considere-libre-toute-engagement-2027/10858155/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T10:36:40+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
+    {
+      "id": "f5777718dc41b8142ad0",
+      "title": "Prolonger Hadjar, une \"décision facile\" pour Red Bull",
+      "url": "https://fr.motorsport.com/f1/news/prolonger-hadjar-decision-facile-red-bull/10858119/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T09:28:45+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
+    {
+      "id": "9d1a6cf0485b2e32f171",
+      "title": "Red Bull retain Hadjar for 2027 season",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde0j53zz90o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-23T07:55:45+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
+    {
+      "id": "942b8f524552bc484238",
+      "title": "Grille F1 2027 : le point sur les baquets et les contrats",
+      "url": "https://fr.motorsport.com/f1/news/grille-f1-2027-baquets-contrats/10572421/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T07:55:23+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
+    {
+      "id": "d7ac7677e42185def4f7",
+      "title": "Hadjar sera de nouveau l'équipier de Verstappen chez Red Bull en 2027",
+      "url": "https://fr.motorsport.com/f1/news/officiel-hadjar-red-bull-2027-contrat/10858088/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T07:19:23+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
+    {
+      "id": "19bd54a936ba07f8653a",
+      "title": "Quelles étaient les \"autres opportunités\" de Leclerc avant de prolonger chez Ferrari ?",
+      "url": "https://fr.motorsport.com/f1/news/autres-opporutnites-leclerc-prolonger-ferrari/10857957/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-23T06:54:57+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+    },
     {
       "id": "d38bf8b95c96b642c69b",
       "title": "Wolff continue de croire en Russell : \"Les grands pilotes se relèvent\"",
@@ -206,18 +306,6 @@
       "topics": [
         "pilotes",
         "ecuries"
-      ],
-      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
-    },
-    {
-      "id": "0d2289b5513c3aa0a765",
-      "title": "How to follow Azerbaijan Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-21T09:37:26+00:00",
-      "topics": [
-        "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
     },
