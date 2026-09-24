@@ -1,24 +1,85 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-24T06:40:02.420934+00:00",
+  "collectedAt": "2026-09-24T12:40:48.298688+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-24T06:40:02.420934+00:00"
+      "checkedAt": "2026-09-24T12:40:48.298688+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-09-24T06:40:02.420934+00:00"
+      "count": 45,
+      "checkedAt": "2026-09-24T12:40:48.298688+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e5d2f2ad7c0c0a0fe5d9",
+      "title": "La réaction de Verstappen au sprint de Monaco : \"Je participe, c'est tout\"",
+      "url": "https://fr.motorsport.com/f1/news/recation-verstappen-sprint-monaco-f1/10858397/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-24T11:00:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+    },
+    {
+      "id": "3e69a49a8ceae1590b87",
+      "title": "Comment le test Hypercar de Lando Norris l'a aidé en F1",
+      "url": "https://fr.motorsport.com/f1/news/comment-test-hypercar-norris-aide-f1/10858266/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-24T09:51:55+00:00",
+      "topics": [
+        "pilotes",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+    },
+    {
+      "id": "29864febcd66025a2cff",
+      "title": "Russell fastest in Baku as Antonelli stops on track",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwyzqn4w20qo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-24T09:44:53+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+    },
+    {
+      "id": "0c8082c1fcd77c3f4217",
+      "title": "EL1 - Russell en tête d'une séance écourtée pour Antonelli et Hadjar",
+      "url": "https://fr.motorsport.com/f1/news/el1-russell-tete-seance-ecourtee-hadjar-antonelli/10858433/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-24T09:33:05+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+    },
+    {
+      "id": "16ecf30d70195bfcdb70",
+      "title": "Hamilton ne comprend pas le raccourcissement des courses en 2027 : \"Ça n'a aucun sens\"",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-courses-plus-courtes-2027-aucun-sens/10858250/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-24T06:50:33+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+    },
     {
       "id": "ccfea76cbe6ec828d71b",
       "title": "Verstappen écarte une participation aux 24 Heures du Mans 2027",
