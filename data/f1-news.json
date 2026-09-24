@@ -1,24 +1,103 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-24T12:40:48.298688+00:00",
+  "collectedAt": "2026-09-24T18:37:29.896120+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-24T12:40:48.298688+00:00"
+      "checkedAt": "2026-09-24T18:37:29.896120+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-09-24T12:40:48.298688+00:00"
+      "count": 46,
+      "checkedAt": "2026-09-24T18:37:29.896120+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "29864febcd66025a2cff",
+      "title": "McLaren miles off pace in Baku practice - Norris",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwyzqn4w20qo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-24T16:00:32+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+    },
+    {
+      "id": "ff71b3bc368fb0d0e927",
+      "title": "Why is Azerbaijan Grand Prix taking place on a Saturday?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3y0z7wvdel1o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-24T14:53:07+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
+    },
+    {
+      "id": "79cc378d8cb1a3e64e7a",
+      "title": "Jamie Chadwick rejoint Doriane Pin parmi les femmes ayant testé une F1 en 2026",
+      "url": "https://fr.motorsport.com/f1/news/jamie-chadwick-rejoint-doriane-pin-femmes-testes-f1-2026/10858578/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-24T14:18:02+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
+    },
+    {
+      "id": "0d2289b5513c3aa0a765",
+      "title": "How to follow Azerbaijan Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-24T13:56:52+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-24T13:07:11+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
+    },
+    {
+      "id": "db352cceb474564f9f9f",
+      "title": "EL2 - Russell loin devant, Lindblad visite le château",
+      "url": "https://fr.motorsport.com/f1/news/el2-azerbaidjan-mercedes-loin-devant-lindblad-crash/10858518/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-24T13:01:54+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
+    },
     {
       "id": "e5d2f2ad7c0c0a0fe5d9",
       "title": "La réaction de Verstappen au sprint de Monaco : \"Je participe, c'est tout\"",
@@ -41,18 +120,6 @@
       "topics": [
         "pilotes",
         "voitures"
-      ],
-      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
-    },
-    {
-      "id": "29864febcd66025a2cff",
-      "title": "Russell fastest in Baku as Antonelli stops on track",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwyzqn4w20qo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-24T09:44:53+00:00",
-      "topics": [
-        "pilotes"
       ],
       "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
     },
@@ -139,18 +206,6 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
-    },
-    {
-      "id": "0d2289b5513c3aa0a765",
-      "title": "How to follow Azerbaijan Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-23T12:09:26+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
     },
     {
       "id": "9b722ed5bf8a7f060d97",
@@ -593,24 +648,6 @@
       "summaryScope": "introduction",
       "summaryMethod": "prepared",
       "summaryAt": "2026-09-20T08:26:06.899606+00:00"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-18T05:44:50+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
     },
     {
       "id": "e5a8ff8065c4b1d715a4",
