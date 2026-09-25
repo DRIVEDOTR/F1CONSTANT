@@ -1,24 +1,146 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-25T12:40:14.796918+00:00",
+  "collectedAt": "2026-09-25T18:36:58.949185+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-25T12:40:14.796918+00:00"
+      "checkedAt": "2026-09-25T18:36:58.949185+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-09-25T12:40:14.796918+00:00"
+      "count": 46,
+      "checkedAt": "2026-09-25T18:36:58.949185+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "b22c605effae8d4753d0",
+      "title": "Antonelli 'comes back to earth' with qualifying crash",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqd0885k3d28o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-25T16:19:04+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "e0a43b61bd11160e5f63",
+      "title": "Carlos Sainz pénalisé sur la grille de départ à Bakou",
+      "url": "https://fr.motorsport.com/f1/news/carlos-sainz-penalise-grille-depart-bakou/10858993/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T16:02:01+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "5939b560ff3b3ba5d6e3",
+      "title": "Ocon excédé : \"Je ne mérite pas toute la merde qui me tombe dessus\"",
+      "url": "https://fr.motorsport.com/f1/news/ocon-excede-merite-pas-merde-dessus/10858920/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T15:38:22+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "8b5eaaab386e5feffea3",
+      "title": "Russell takes pole in Baku as Antonelli hits wall",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde0wl6rk0ko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-25T15:38:11+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "6f41c865ddae7c98f31b",
+      "title": "Hamilton frustré par la stratégie Ferrari : \"J'essayais de sauver ma peau\"",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-frustre-strategie-ferrari-sauver-peau/10858943/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T15:30:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "0d2289b5513c3aa0a765",
+      "title": "How to follow Azerbaijan Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-25T15:28:57+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+    },
+    {
+      "id": "0c2dd18653fe10f50de4",
+      "title": "Antonelli frustré après son crash à Bakou : \"Je dois faire beaucoup mieux\"",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-frustre-crash-bakou-faire-mieux/10858917/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T14:14:18+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "06d588e43f09aa19aa52",
+      "title": "Hadjar devant Verstappen mais frustré : \"Mercedes, c'est un truc de ouf\"",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-devant-verstappen-frustre-mercedes-bakou/10858892/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T13:58:14+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "df323ed29784d5eb6a85",
+      "title": "La grille de départ du Grand Prix d'Azerbaïdjan F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-gp-azerbaidjan-f1-2026/10858861/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T13:13:33+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
+    {
+      "id": "b458087802cc03349133",
+      "title": "Russell écrase la concurrence pour signer la pole, Antonelli commet une faute inutile",
+      "url": "https://fr.motorsport.com/f1/news/russell-ecrase-concurrence-pole-bakou-antonelli-faute/10858840/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T13:09:06+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+    },
     {
       "id": "1c8fe58fabcc43a0e876",
       "title": "EL3 - Verstappen seul rival des Mercedes, Russell devant Antonelli",
@@ -81,18 +203,6 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
-    },
-    {
-      "id": "0d2289b5513c3aa0a765",
-      "title": "How to follow Azerbaijan Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cdx0elx8pz8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-24T13:56:52+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
     },
     {
       "id": "e04b4166712707d45de8",
