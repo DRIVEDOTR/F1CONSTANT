@@ -1,24 +1,50 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-25T06:40:46.047249+00:00",
+  "collectedAt": "2026-09-25T12:40:14.796918+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-25T06:40:46.047249+00:00"
+      "checkedAt": "2026-09-25T12:40:14.796918+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-09-25T06:40:46.047249+00:00"
+      "count": 45,
+      "checkedAt": "2026-09-25T12:40:14.796918+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "1c8fe58fabcc43a0e876",
+      "title": "EL3 - Verstappen seul rival des Mercedes, Russell devant Antonelli",
+      "url": "https://fr.motorsport.com/f1/news/el3-verstappen-seul-rival-mercedes-russell-devant-antonelli/10858768/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T09:35:24+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-25T12:40:14.796918+00:00"
+    },
+    {
+      "id": "fb7321a01f695382655b",
+      "title": "Cadillac annonce trois recrues techniques majeures, dont un ancien responsable Red Bull",
+      "url": "https://fr.motorsport.com/f1/news/cadillac-annonce-recrues-techniques-majeures-ancien-red-bull/10858769/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-25T08:25:28+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-25T12:40:14.796918+00:00"
+    },
     {
       "id": "29864febcd66025a2cff",
       "title": "McLaren miles off pace in Baku practice - Norris",
