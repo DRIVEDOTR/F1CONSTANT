@@ -1,24 +1,36 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T00:40:06.813528+00:00",
+  "collectedAt": "2026-09-26T06:38:59.418141+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-26T00:40:06.813528+00:00"
+      "checkedAt": "2026-09-26T06:38:59.418141+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-26T00:40:06.813528+00:00"
+      "checkedAt": "2026-09-26T06:38:59.418141+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "394e32d93f52ea4ec436",
+      "title": "Chadwick says driving F1 car 'top of bucket list'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck5ywrn20z3vo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-26T06:09:46+00:00",
+      "topics": [
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-26T06:38:59.418141+00:00"
+    },
     {
       "id": "b22c605effae8d4753d0",
       "title": "Antonelli 'comes back to earth' with qualifying crash",
