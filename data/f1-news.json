@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T21:13:19.875585+00:00",
+  "collectedAt": "2026-09-26T21:16:43.432506+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-26T21:13:19.875585+00:00"
+      "checkedAt": "2026-09-26T21:16:43.432506+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-26T21:13:19.875585+00:00"
+      "checkedAt": "2026-09-26T21:16:43.432506+00:00"
     }
   ],
   "articles": [
@@ -29,7 +29,15 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:16:46.230399+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell remporte le Grand Prix d'Azerbaïjan après une période difficile",
+      "summaryFr": "George Russell a décrit le Grand Prix d'Azerbaïjan comme le week-end le plus dominante de sa carrière. La victoire lui paraît une forme de vindication après une période difficile.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:17:08.572324+00:00"
     },
     {
       "id": "f8ddb8f82cb7abf78281",
@@ -41,7 +49,15 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:17:08.572352+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell parfait et Hadjar excellent sur leur retour",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes lors du Grand Prix d'Azerbaïjan. Russell est jugé parfait, Hadjar excellent. Aucune information sur les voitures, les écuries ou les compétitions.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:17:30.343263+00:00"
     },
     {
       "id": "e49b182badf48ec9a427",
@@ -53,7 +69,15 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:17:30.343288+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar conserve son podium après avertissement en Azerbaïdjan",
+      "summaryFr": "Isack Hadjar a reçu un avertissement des commissaires du Grand Prix d'Azerbaïdjan pour un soupçon d'infraction avant la course, mais conserve son podium. Il était reproché de ne pas avoir respecté les Notes du directeur de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:17:55.403813+00:00"
     },
     {
       "id": "8a7d934be047e7ccf03a",
@@ -63,9 +87,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T15:54:28+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:17:55.403838+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Franco Colapinto pénalisé en Malaisie après erreur au Grand Prix d'Azerbaïdjan",
+      "summaryFr": "Franco Colapinto a été reconnu responsable d'une erreur lors du premier restart du Grand Prix d'Azerbaïdjan 2026. Une sanction sera appliquée à Sepang la semaine prochaine. L'Argentin, en 10e position, a été trop optimiste après l'accident d'Alexander Albon.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:18:23.273100+00:00"
     },
     {
       "id": "7f0c92334b1f5c66904c",
@@ -75,9 +109,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T15:39:08+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:18:23.273126+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Colapinto faute grave en relance : erreur maladroit pour un pilote de son expérience",
+      "summaryFr": "Une erreur de Franco Colapinto lors de la relance après la première voiture de sécurité a perturbé les espoirs d'Alpine. Son équipier Pierre Gasly et Lando Norris ont été touchés par l'accrochage. L'Argentin a reconnu son erreur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:18:50.709391+00:00"
     },
     {
       "id": "14d88379923eca946720",
@@ -87,9 +131,18 @@
       "language": "en",
       "publishedAt": "2026-09-26T15:38:33+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:18:50.709418+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris demande une interdiction à Colapinto après l'accident",
+      "summaryFr": "Le champion du monde Lando Norris demande une interdiction à Franco Colapinto, pilote d'Alpine, pour avoir causé un accident lors d'un restart au Grand Prix d'Azerbaïjan. La rumeur circule sur une sanction, mais aucune décision officielle n'a été prise.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:19:14.381815+00:00"
     },
     {
       "id": "c83a4f6334dbabbaf815",
@@ -99,9 +152,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T14:58:38+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:19:14.381841+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Gasly accuse Colapinto de bourde à Bakou",
+      "summaryFr": "La bourde de Franco Colapinto lors du restart au Grand Prix d'Azerbaïdjan a affecté Pierre Gasly et Lando Norris. L'écurie Alpine est critiquée pour la situation, sans que des sanctions soient annoncées. La rumeur d'une suspension reste sans fondement.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:19:40.093520+00:00"
     },
     {
       "id": "e7a870a9ccb8b81b3988",
@@ -111,9 +174,18 @@
       "language": "fr",
       "publishedAt": "2026-09-26T13:38:44+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:19:40.093550+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon exprime son amertume après un résultat en points",
+      "summaryFr": "Esteban Ocon reste frustré malgré son arrivée en points avec la Haas. Le pilote souligne qu'il mérite mieux, alors que son avenir au sein de l'écurie est remis en question. Aucune confirmation officielle sur son futur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:20:05.162784+00:00"
     },
     {
       "id": "c8b2f765ca15cb62e9e1",
@@ -123,9 +195,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T13:26:06+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:20:05.162810+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris demande une suspension pour Colapinto après l'accrochage de Bakou",
+      "summaryFr": "Lando Norris estime que Franco Colapinto mérite une suspension après avoir provoqué un accrochage avec Pierre Gasly au 36e tour du Grand Prix d'Azerbaïdjan. Le pilote a quitté le circuit toutes roues bloquées et est passé directement au virage 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:20:32.631633+00:00"
     },
     {
       "id": "db61129b1e3172f43e14",
@@ -135,9 +217,19 @@
       "language": "en",
       "publishedAt": "2026-09-26T13:16:13+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:20:32.631656+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell remporte la course malgré un dernier sprint de Verstappen",
+      "summaryFr": "George Russell remporte l'Azerbaïjan Grand Prix en repoussant un dernier effort de Max Verstappen. Deux interruptions dues à un safety car ont marqué la course. Aucun changement de stratégie n'a été annoncé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:20:56.612788+00:00"
     },
     {
       "id": "482216dbcd06ddadaa9c",
@@ -147,9 +239,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T12:56:27+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:20:56.612814+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell ravive légèrement la flamme",
+      "summaryFr": "George Russell remporte le Grand Prix d'Azerbaïdjan, stoppant une période de difficultés face à son coéquipier Kimi Antonelli. Il reprend des points, mais sans grande marge, après une erreur de la veille. Le leader du classement général a sauvé une belle moisson.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:21:23.207409+00:00"
     },
     {
       "id": "acc967068c99e7e32639",
@@ -159,9 +261,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T12:45:49+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
+      "summaryAttemptAt": "2026-09-26T21:21:23.207435+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell résiste à Verstappen pour l'emporter à Bakou, Hadjar sur le podium",
+      "summaryFr": "George Russell remporte le Grand Prix d'Azerbaïdjan 2026 après une course dominée au début, malgré deux Safety Cars. Il doit faire face à Max Verstappen en fin de course. Isack Hadjar complète le podium après une reprise de blessure.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:21:50.520104+00:00"
     },
     {
       "id": "c85af7d6d96dbcecdc0a",
@@ -2860,12 +2972,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "unavailable",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
+    "created": 12,
     "failed": 0,
-    "pending": 65,
-    "checkedAt": "2026-09-26T21:13:20.156717+00:00"
+    "pending": 53,
+    "checkedAt": "2026-09-26T21:21:50.520200+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
