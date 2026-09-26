@@ -1,24 +1,72 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T06:38:59.418141+00:00",
+  "collectedAt": "2026-09-26T12:38:12.249489+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-26T06:38:59.418141+00:00"
+      "checkedAt": "2026-09-26T12:38:12.249489+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-09-26T06:38:59.418141+00:00"
+      "count": 45,
+      "checkedAt": "2026-09-26T12:38:12.249489+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "c85af7d6d96dbcecdc0a",
+      "title": "Lando Norris : \"Je dois tout tenter, quitte à y laisser ma peau\"",
+      "url": "https://fr.motorsport.com/f1/news/norris-tout-tenter-quitte-laisser-peau/10859155/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T08:46:38+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+    },
+    {
+      "id": "27788ea70707dd384ef4",
+      "title": "\"Une occasion bien gâchée\" : pourquoi la performance de Verstappen s'est effondrée en qualifs",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-verstappen-performance-effondree-qualifs-bakou/10859139/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T08:30:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+    },
+    {
+      "id": "d3e9657915bb11381b49",
+      "title": "Le \"plus grand danger\" de Russell à Bakou : Verstappen ou Antonelli ?",
+      "url": "https://fr.motorsport.com/f1/news/grand-danger-russell-bakou-verstappen-antonelli/10858957/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T07:59:09+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+    },
+    {
+      "id": "8ba0b0013b7ea49d2abe",
+      "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP d'Azerbaïdjan",
+      "url": "https://fr.motorsport.com/f1/news/face-a-face-qualifications-2026-gp-azerbaidjan/10859129/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T07:08:37+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+    },
     {
       "id": "394e32d93f52ea4ec436",
       "title": "Chadwick says driving F1 car 'top of bucket list'",
