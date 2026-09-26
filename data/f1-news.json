@@ -1,24 +1,168 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T12:38:12.249489+00:00",
+  "collectedAt": "2026-09-26T18:37:20.913415+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-09-26T12:38:12.249489+00:00"
+      "count": 50,
+      "checkedAt": "2026-09-26T18:37:20.913415+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-09-26T12:38:12.249489+00:00"
+      "count": 46,
+      "checkedAt": "2026-09-26T18:37:20.913415+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "17a5e44696b30eaec9ac",
+      "title": "'Mr Saturday' Russell 'comes through other side after real tough period'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckly558q6jeqo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-26T17:44:04+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "f8ddb8f82cb7abf78281",
+      "title": "Russell faultless and Hadjar excellent on return - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cq3d77zkrme8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-26T17:04:30+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "e49b182badf48ec9a427",
+      "title": "Isack Hadjar conserve son podium au Grand Prix d'Azerbaïdjan",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-conserve-podium-gp-azerbaidjan/10859276/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T16:05:28+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "8a7d934be047e7ccf03a",
+      "title": "Franco Colapinto sera pénalisé en Malaisie après sa grosse erreur",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-penalise-malaisie-grosse-erreur/10859345/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T15:54:28+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "7f0c92334b1f5c66904c",
+      "title": "Briatore tacle la bourde de Colapinto : \"Très maladroit pour un pilote de son expérience\"",
+      "url": "https://fr.motorsport.com/f1/news/briatore-tacle-bourde-colapinto-maladroit-experience/10859330/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T15:39:08+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "14d88379923eca946720",
+      "title": "Norris says Colapinto should be banned after accident",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9vgyyd5n4yjo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-26T15:38:33+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "c83a4f6334dbabbaf815",
+      "title": "Gasly a \"les nerfs\" après la bourde de Colapinto à Bakou",
+      "url": "https://fr.motorsport.com/f1/news/gasly-nerfs-bourde-colapinto-alpine-bakou/10859310/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T14:58:38+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "e7a870a9ccb8b81b3988",
+      "title": "Malgré les points, Ocon ne cache plus son amertume : \"Je mérite mieux que ce qui se passe\"",
+      "url": "https://fr.motorsport.com/f1/news/ocon-malgre-points-amertume-je-merite-mieux/10859249/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T13:38:44+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "c8b2f765ca15cb62e9e1",
+      "title": "Norris appelle la FIA à suspendre Colapinto après l'accident de Bakou",
+      "url": "https://fr.motorsport.com/f1/news/norris-demande-suspension-colapinto-accident-bakou/10859257/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T13:26:06+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "db61129b1e3172f43e14",
+      "title": "Russell wins despite late Verstappen challenge",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck8d33760j63o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-26T13:16:13+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "482216dbcd06ddadaa9c",
+      "title": "Championnat - Russell ravive doucement la flamme",
+      "url": "https://fr.motorsport.com/f1/news/championnat-russell-ravive-doucement-flamme/10859226/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T12:56:27+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
+    {
+      "id": "acc967068c99e7e32639",
+      "title": "Russell résiste à Verstappen pour l'emporter à Bakou, Hadjar sur le podium !",
+      "url": "https://fr.motorsport.com/f1/news/russell-resiste-verstappen-victoire-hadjar-podium-bakou/10859201/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-26T12:45:49+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-26T18:37:20.913415+00:00"
+    },
     {
       "id": "c85af7d6d96dbcecdc0a",
       "title": "Lando Norris : \"Je dois tout tenter, quitte à y laisser ma peau\"",
