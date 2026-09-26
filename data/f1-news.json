@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T18:37:20.913415+00:00",
+  "collectedAt": "2026-09-26T21:13:19.875585+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-26T18:37:20.913415+00:00"
+      "checkedAt": "2026-09-26T21:13:19.875585+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-26T18:37:20.913415+00:00"
+      "checkedAt": "2026-09-26T21:13:19.875585+00:00"
     }
   ],
   "articles": [
@@ -2860,8 +2860,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "not-configured",
-    "message": "Clé de résumé non configurée ; les résumés existants sont conservés."
+    "mode": "unavailable",
+    "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+    "created": 0,
+    "failed": 0,
+    "pending": 65,
+    "checkedAt": "2026-09-26T21:13:20.156717+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
