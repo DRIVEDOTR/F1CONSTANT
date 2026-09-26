@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T21:16:43.432506+00:00",
+  "collectedAt": "2026-09-26T21:22:31.957363+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-26T21:16:43.432506+00:00"
+      "checkedAt": "2026-09-26T21:22:31.957363+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-26T21:16:43.432506+00:00"
+      "checkedAt": "2026-09-26T21:22:31.957363+00:00"
     }
   ],
   "articles": [
@@ -87,9 +87,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T15:54:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:17:55.403838+00:00",
@@ -109,9 +107,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T15:39:08+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:18:23.273126+00:00",
@@ -131,8 +127,7 @@
       "language": "en",
       "publishedAt": "2026-09-26T15:38:33+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:18:50.709418+00:00",
@@ -152,9 +147,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T14:58:38+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:19:14.381841+00:00",
@@ -174,8 +167,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T13:38:44+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:19:40.093550+00:00",
@@ -195,9 +187,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T13:26:06+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:20:05.162810+00:00",
@@ -217,9 +207,7 @@
       "language": "en",
       "publishedAt": "2026-09-26T13:16:13+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:20:32.631656+00:00",
@@ -239,9 +227,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T12:56:27+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:20:56.612814+00:00",
@@ -261,9 +247,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T12:45:49+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T18:37:20.913415+00:00",
       "summaryAttemptAt": "2026-09-26T21:21:23.207435+00:00",
@@ -283,9 +267,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T08:46:38+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
+      "summaryAttemptAt": "2026-09-26T21:22:32.642876+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lando Norris : \"Je dois tout tenter, quitte à y laisser ma peau\"",
+      "summaryFr": "Lando Norris affirme qu'il doit tout donner pour espérer remporter le titre 2026, après une erreur lors des qualifications au Grand Prix d'Azerbaïdjan. Il a accumulé 83 points depuis les évolutions de Hongrie, face à une concurrence croissante avec George Russell.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:23:17.734784+00:00"
     },
     {
       "id": "27788ea70707dd384ef4",
@@ -295,9 +289,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T08:30:02+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
+      "summaryAttemptAt": "2026-09-26T21:23:17.734812+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen accuse un souci moteur pour expliquer sa mauvaise performance en qualifs",
+      "summaryFr": "Max Verstappen estime que le problème thermique de son groupe propulseur a fortement affecté ses performances en qualifs du Grand Prix d'Azerbaïdjan 2026. Il ne précise pas s'il a été confronté à un défaut de la partie thermique du groupe propulseur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:24:06.186357+00:00"
     },
     {
       "id": "d3e9657915bb11381b49",
@@ -307,9 +311,19 @@
       "language": "fr",
       "publishedAt": "2026-09-26T07:59:09+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
+      "summaryAttemptAt": "2026-09-26T21:24:06.186390+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell nomme Verstappen son principal danger à Bakou",
+      "summaryFr": "George Russell a déclaré Max Verstappen comme son principal danger au Grand Prix d'Azerbaïdjan. Il a fait référence à la remontée impressionnante de Kimi Antonelli à Monza, qui a percuté le mur en Q1, endommageant sa suspension avant, sa direction, sa roue et son pneu.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:24:56.243712+00:00"
     },
     {
       "id": "8ba0b0013b7ea49d2abe",
@@ -319,9 +333,18 @@
       "language": "fr",
       "publishedAt": "2026-09-26T07:08:37+00:00",
       "topics": [
-        "competition"
+        "ecuries",
+        "pilotes"
       ],
-      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00"
+      "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
+      "summaryAttemptAt": "2026-09-26T21:24:56.243750+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Qualifications F1 2026 : les comparaisons entre équipiers au GP d'Azerbaïdjan",
+      "summaryFr": "Après chaque séance de qualifications, Motorsport.com publie un bilan interne par écurie entre ses deux pilotes, basé uniquement sur les temps obtenus. Ces données ne prennent pas en compte les pénalités sur la grille. Des problèmes techniques peuvent empêcher un pilote de réaliser un temps représentatif.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:25:45.695856+00:00"
     },
     {
       "id": "394e32d93f52ea4ec436",
@@ -331,9 +354,17 @@
       "language": "en",
       "publishedAt": "2026-09-26T06:09:46+00:00",
       "topics": [
-        "voitures"
+        "pilotes"
       ],
-      "firstSeenAt": "2026-09-26T06:38:59.418141+00:00"
+      "firstSeenAt": "2026-09-26T06:38:59.418141+00:00",
+      "summaryAttemptAt": "2026-09-26T21:25:45.695883+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Chadwick nomme la conduite d'une voiture F1 le sommet de sa carrière",
+      "summaryFr": "Jamie Chadwick affirme que le test d'un véhicule de Formule 1 représente le point culminant de sa carrière en sport automobile.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:26:22.153219+00:00"
     },
     {
       "id": "b22c605effae8d4753d0",
@@ -345,7 +376,15 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-26T21:26:22.153247+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli furieux après son accident en qualification",
+      "summaryFr": "Kimi Antonelli exprime sa colère suite à un crash lors des qualifications au Grand Prix d'Azerbaïjan. Il devra partir du 16e rang du grid.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:26:58.458720+00:00"
     },
     {
       "id": "e0a43b61bd11160e5f63",
@@ -355,9 +394,18 @@
       "language": "fr",
       "publishedAt": "2026-09-25T16:02:01+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-26T21:26:58.458753+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Carlos Sainz pénalisé de cinq places à Bakou",
+      "summaryFr": "Carlos Sainz, qualifié en Q3 et initialement neuvième, reçoit une pénalité de cinq places après avoir été sanctionné pour une infraction sous drapeau jaune lors des qualifications au Grand Prix d'Azerbaïdjan 2026. L'incident s'est produit dans les dernières minutes de la séance, entre les virages 2 et 3.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:27:44.699303+00:00"
     },
     {
       "id": "5939b560ff3b3ba5d6e3",
@@ -367,9 +415,19 @@
       "language": "fr",
       "publishedAt": "2026-09-25T15:38:22+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-26T21:27:44.699334+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon déçu par son résultat en Q2 au GP d'Azerbaïdjan",
+      "summaryFr": "Esteban Ocon a terminé 14e après un passage en Q2 frustrant, à deux dixièmes et demi du Britannique. L'aileron avant et l'aileron arrière de son véhicule ont été critiqués, mais aucune information sur les pneus ou les réglages n'est fournie. Le duo de pilotes de Haas a été mis en lumière par ce résultat.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:28:31.143260+00:00"
     },
     {
       "id": "8b5eaaab386e5feffea3",
@@ -379,9 +437,19 @@
       "language": "en",
       "publishedAt": "2026-09-25T15:38:11+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-26T21:28:31.143282+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell remporte la pole à Baku alors que Antonelli heurte un mur",
+      "summaryFr": "George Russell s'impose en pole position pour Mercedes au Grand Prix d'Azerbaïjan. Son coéquipier, Kimi Antonelli, leader de la championnat, subit un accident sur la piste.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:29:06.855860+00:00"
     },
     {
       "id": "6f41c865ddae7c98f31b",
@@ -392,9 +460,18 @@
       "publishedAt": "2026-09-25T15:30:41+00:00",
       "topics": [
         "pilotes",
-        "ecuries"
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-26T21:29:06.855883+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton frustré par la stratégie Ferrari",
+      "summaryFr": "Lewis Hamilton a exprimé sa frustration face à la stratégie de Ferrari lors des qualifications au Grand Prix d'Azerbaïdjan. Il a indiqué qu'il avait perdu de l'aspiration en raison de la décision de son équipe, après avoir devancé Charles Leclerc de un dixième en Q1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:29:48.559188+00:00"
     },
     {
       "id": "0d2289b5513c3aa0a765",
@@ -406,7 +483,10 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
+      "summaryAttemptAt": "2026-09-26T21:29:48.559210+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
     },
     {
       "id": "0c2dd18653fe10f50de4",
@@ -418,7 +498,15 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-26T21:30:14.855796+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli frustré après son crash à Bakou",
+      "summaryFr": "Kimi Antonelli est frustré après un contact inutile en qualifications à Bakou, qui l'a placé en 16e position. L'Italien a touché le mur intérieur au premier virage sans pression, causant des dégâts irréparables sur ses pneus.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-26T21:30:55.377834+00:00"
     },
     {
       "id": "06d588e43f09aa19aa52",
@@ -2972,12 +3060,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 12,
-    "failed": 0,
-    "pending": 53,
-    "checkedAt": "2026-09-26T21:21:50.520200+00:00"
+    "created": 11,
+    "failed": 1,
+    "pending": 42,
+    "checkedAt": "2026-09-26T21:30:55.377930+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
