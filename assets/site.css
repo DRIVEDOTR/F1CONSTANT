@@ -2931,3 +2931,17 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .historic-media-filter{display:flex;gap:8px;align-items:center;font-size:.85rem;margin:10px 0 18px}
 @media(max-width:1100px){.archive-race-list{grid-template-columns:1fr}.qual-body{grid-template-columns:190px minmax(0,1fr)}}
 @media(max-width:700px){.archive-champions,.archive-standings-grid{grid-template-columns:1fr}.archive-tabs{width:100%;margin:0}.archive-tabs button{flex:1}.archives-toolbar{gap:8px}.archive-race-toolbar{flex-direction:column;align-items:stretch}.archive-race{padding:15px}.archive-podium{gap:6px}.archive-podium-place{padding:10px 7px}.archive-table td,.archive-table th{padding:11px 10px}.qual-body{grid-template-columns:1fr}.qual-pole{border-right:0;border-bottom:1px solid #e4eaf2;padding:17px 22px}.qual-pole h3{font-size:1.3rem;margin:8px 0}.qual-pole strong{font-size:1.2rem}.qual-header{padding:20px}.qual-subbar{padding:13px 16px}.qual-subbar select{width:100%}.qual-state{margin-left:0}.historic-media-gallery{grid-template-columns:1fr}.historic-media-gallery .historic-logo-figure{max-width:320px}.archive-panel-head{padding:17px}.archive-champion{padding:20px}}
+
+/* V28: lisibilité et écuries sur deux colonnes */
+.layer-source-box[hidden],#overtakeInfoCard[hidden]{display:none!important}
+#teamsGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#teamsGrid .team-card{display:flex;flex-direction:column;min-height:0;padding:0}
+#teamsGrid .team-card-copy{width:100%;max-width:none;padding:22px 24px 8px;box-sizing:border-box}
+#teamsGrid .team-card-car{position:relative;inset:auto;width:100%;height:auto;aspect-ratio:2.8/1;display:flex;align-items:center;justify-content:center;margin-top:auto;padding:8px 12px 18px;box-sizing:border-box}
+#teamsGrid .team-card-car img{width:100%;height:100%;object-fit:contain;object-position:center;transform:none}
+#teamsGrid .team-card h3{max-width:none}
+.qual-times td:nth-child(n+3){color:#fff!important;font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap}
+.qual-times .qual-time{display:inline-block;padding:5px 4px;background:#131923;border-radius:5px;color:#fff!important;line-height:1.2;letter-spacing:0}
+.qual-times td[data-session]::before{color:#fff!important;text-shadow:0 1px 3px #000}
+@media(max-width:680px){#teamsGrid{grid-template-columns:1fr;gap:18px}.qual-times .qual-time{padding:5px 2px;font-size:11px}}
+.historic-title-history{background:#fff;border:1px solid #dce3ed;border-radius:20px;padding:24px;margin:22px 0;color:#243449}.historic-title-history h3{margin-top:0}.historic-title-history h4{margin:22px 0 10px}.historic-title-history p{line-height:1.7}.historic-title-history button{border:1px solid #c9d4df;border-radius:7px;padding:5px 10px;margin-right:10px;background:#ecf2f7;color:#233d52;cursor:pointer}.historic-title-note{font-size:12px;color:#526478;line-height:1.7}.historic-remote-fallback{display:flex;min-height:140px;align-items:center;justify-content:center;padding:20px;color:#2d4e68;background:#edf2f7;font-size:13px;text-align:center}.historic-car-photo img[hidden],.historic-media-gallery img[hidden]{display:none}
