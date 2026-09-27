@@ -1,24 +1,127 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-27T06:40:10.398479+00:00",
+  "collectedAt": "2026-09-27T12:39:21.791108+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-27T06:40:10.398479+00:00"
+      "checkedAt": "2026-09-27T12:39:21.791108+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-27T06:40:10.398479+00:00"
+      "checkedAt": "2026-09-27T12:39:21.791108+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "0ac546e65f9119d18418",
+      "title": "Alpine condamne (encore) le harcèlement en ligne après le crash de Bakou",
+      "url": "https://fr.motorsport.com/f1/news/alpine-condamne-harcelement-crash-colapinto-bakou/10859564/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-27T11:45:45+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
+      "summaryAttemptAt": "2026-09-27T12:39:22.246954+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alpine condamne à nouveau le harcèlement en ligne après le crash de Bakou",
+      "summaryFr": "Alpine réagit une fois de plus aux attaques en ligne suite au Grand Prix d'Azerbaïdjan, où un zéro pointé a été enregistré malgré une présence en points. L'erreur de Franco Colapinto au restart a mis hors course Pierre Gasly.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:40:05.619682+00:00"
+    },
+    {
+      "id": "6f1ef8c934d69b2eb173",
+      "title": "Horner a distraction for Ferrari says Vasseur",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvwyz791096jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-27T11:44:25+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
+      "summaryAttemptAt": "2026-09-27T12:40:05.619707+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur accuse Horner de créer une distraction pour Ferrari",
+      "summaryFr": "Le principal de Ferrari, Frederic Vasseur, affirme que Christian Horner, en cherchant un nouveau poste, cause une distraction pour l'équipe. Aucune preuve ne soutient cette affirmation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:40:39.563794+00:00"
+    },
+    {
+      "id": "16833fcd70d2fc41bb26",
+      "title": "Risque zéro pour Antonelli à Bakou : \"Je conduisais comme ma grand-mère\"",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-risque-zero-bakou-conduisais-grand-mere/10859494/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-27T10:40:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
+      "summaryAttemptAt": "2026-09-27T12:40:39.563817+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli sans risque à Bakou : \"Je conduisais comme ma grand-mère\"",
+      "summaryFr": "Kimi Antonelli a terminé dans le mur en qualifications à Bakou, malgré une remontée précédente à Monza. Sa performance reste discrète par rapport à sa victoire au circuit de Monza. Aucun détail sur les causes ou les conséquences de l'incident.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:41:20.859103+00:00"
+    },
+    {
+      "id": "79fa03670670cd38681f",
+      "title": "Pourquoi Lindblad n'a pas été pénalisé pour l'accrochage avec Lawson",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-lindblad-pas-penalise-accrochage-lawson/10859493/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-27T09:40:02+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
+      "summaryAttemptAt": "2026-09-27T12:41:20.859125+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lindblad pas pénalisé après accrochage avec Lawson",
+      "summaryFr": "Un accrochage a eu lieu entre Lindblad et Lawson lors du Grand Prix d'Azerbaïdjan 2026, mais aucun pénalité n'a été appliqué. La situation reste sans explication officielle.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:42:01.260771+00:00"
+    },
+    {
+      "id": "7d916288960bafee8c6b",
+      "title": "\"Monsieur Horner cherche du travail\" : Vasseur répond aux rumeurs chez Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-repond-rumeurs-horner-ferrari/10859486/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-27T06:40:21+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
+      "summaryAttemptAt": "2026-09-27T12:42:01.260793+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur répond aux rumeurs sur Horner chez Ferrari",
+      "summaryFr": "Des spéculations persistent en Italie sur la stabilité des dirigeants de Ferrari après des essais encourageants en 2026. Le directeur technique Vasseur affirme que ces rumeurs ne sont pas fondées. Aucune décision sur le personnel n'est encore prise.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:42:42.564352+00:00"
+    },
     {
       "id": "17a5e44696b30eaec9ac",
       "title": "'Mr Saturday' Russell 'comes through other side after real tough period'",
@@ -761,8 +864,7 @@
       "language": "fr",
       "publishedAt": "2026-09-24T06:50:33+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
       "summaryAttemptAt": "2026-09-27T06:40:11.171626+00:00",
@@ -797,8 +899,7 @@
       "language": "fr",
       "publishedAt": "2026-09-23T14:31:21+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
       "summaryAttemptAt": "2026-09-27T06:41:36.195887+00:00",
@@ -838,7 +939,6 @@
       "language": "fr",
       "publishedAt": "2026-09-23T13:22:27+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
@@ -874,8 +974,7 @@
       "language": "fr",
       "publishedAt": "2026-09-23T11:25:56+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
       "summaryAttemptAt": "2026-09-27T06:44:20.212846+00:00",
@@ -895,8 +994,7 @@
       "language": "fr",
       "publishedAt": "2026-09-23T10:36:40+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
       "summaryAttemptAt": "2026-09-27T06:45:02.356451+00:00",
@@ -958,8 +1056,7 @@
       "language": "fr",
       "publishedAt": "2026-09-23T07:55:23+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "competition"
       ],
       "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
       "summaryAttemptAt": "2026-09-27T06:47:00.221006+00:00",
@@ -1003,7 +1100,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T12:42:42.564376+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc et Ferrari : les rumeurs sur d'autres opportunités avant la prolongation",
+      "summaryFr": "Avant de prolonger son contrat avec Ferrari, Charles Leclerc aurait pu envisager d'autres opportunités. Des rumeurs circulent sur des prétendants auxquels il aurait pu préférer tourner le dos. Le pilote a confirmé avoir un manager pour gérer ces choix.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:43:24.738766+00:00"
     },
     {
       "id": "d38bf8b95c96b642c69b",
@@ -1013,9 +1118,19 @@
       "language": "fr",
       "publishedAt": "2026-09-22T16:00:03+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-22T18:37:12.381889+00:00"
+      "firstSeenAt": "2026-09-22T18:37:12.381889+00:00",
+      "summaryAttemptAt": "2026-09-27T12:43:24.738791+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Wolff continue de croire en Russell : \"Les grands pilotes se relèvent\"",
+      "summaryFr": "Malgré une campagne 2026 difficile, Wolff affirme encore sa confiance en George Russell. Le Britannique a remporté la première course de l'année à Melbourne, mais une deuxième partie de saison brillante ne suffirait probablement pas à sauver la campagne.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:44:06.592057+00:00"
     },
     {
       "id": "842b6af78099a49fca52",
@@ -1025,9 +1140,19 @@
       "language": "fr",
       "publishedAt": "2026-09-22T13:00:02+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "voitures"
       ],
-      "firstSeenAt": "2026-09-22T18:37:12.381889+00:00"
+      "firstSeenAt": "2026-09-22T18:37:12.381889+00:00",
+      "summaryAttemptAt": "2026-09-27T12:44:06.592087+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc abandonne l'imitation de Hamilton en raison des difficultés avec la SF-26",
+      "summaryFr": "Charles Leclerc a indiqué qu'il avait renoncé à copier le style de pilotage de Lewis Hamilton en raison des difficultés rencontrées avec la nouvelle monoplace SF-26. La transition réglementaire a affecté la performance de la voiture, ce qui a limité son ability à adopter un style de conduite similaire.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:44:49.749023+00:00"
     },
     {
       "id": "4ee777c99982bae3610a",
@@ -1038,9 +1163,17 @@
       "publishedAt": "2026-09-22T11:00:02+00:00",
       "topics": [
         "ecuries",
-        "voitures"
+        "competition"
       ],
-      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00"
+      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
+      "summaryAttemptAt": "2026-09-27T12:44:49.749053+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes prévoit un package d'évolutions pour le GP de Bahreïn",
+      "summaryFr": "Mercedes annonce un package d'évolutions à déployer lors du Grand Prix de Bahreïn, en Malaisie. L'écurie espère se replacer en course pour la pole position. Elle est actuellement en tête du classement constructeurs avec 145 points d'avance sur Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:45:32.142208+00:00"
     },
     {
       "id": "6e4732942960782e1b4a",
@@ -1070,7 +1203,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00"
+      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
+      "summaryAttemptAt": "2026-09-27T12:45:32.142229+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar rejoint la course à l'Azerbaïjan après blessure",
+      "summaryFr": "Isack Hadjar reprend la compétition au Grand Prix d'Azerbaïjan après avoir été absent des trois derniers rendez-vous en raison d'une blessure au poignet. Il devrait continuer à courir avec la écurie Red Bull.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:46:07.978262+00:00"
     },
     {
       "id": "60e7334a751c13ad1daf",
@@ -1083,7 +1224,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00"
+      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
+      "summaryAttemptAt": "2026-09-27T12:46:07.978284+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Isack Hadjar rejoint la Red Bull pour le GP d'Azerbaïdjan 2026",
+      "summaryFr": "Red Bull Racing confirme le retour d'Isack Hadjar au volant de la RB22 pour le Grand Prix d'Azerbaïdjan 2026. L'ancien pilote a terminé sa convalescence après une blessure au poignet. Il reprend la compétition sur le circuit urbain de Bakou.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:46:52.233435+00:00"
     },
     {
       "id": "701969ff46fead1df55c",
@@ -1095,7 +1244,15 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00"
+      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
+      "summaryAttemptAt": "2026-09-27T12:46:52.233492+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren présente une identité retravaillée",
+      "summaryFr": "McLaren annonce une évolution de son identité visuelle, sans préciser les détails. Le groupe britannique, fondé par Bruce McLaren, souligne son héritage de plus de 60 ans dans la course automobile et l'industrie automobile.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T12:47:31.702159+00:00"
     },
     {
       "id": "41488c0669d16c797919",
@@ -3230,12 +3387,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 10,
-    "failed": 2,
-    "pending": 21,
-    "checkedAt": "2026-09-27T06:48:28.861022+00:00"
+    "created": 12,
+    "failed": 0,
+    "pending": 14,
+    "checkedAt": "2026-09-27T12:47:31.702263+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
