@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-26T21:22:31.957363+00:00",
+  "collectedAt": "2026-09-27T00:42:06.758972+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-26T21:22:31.957363+00:00"
+      "checkedAt": "2026-09-27T00:42:06.758972+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-26T21:22:31.957363+00:00"
+      "checkedAt": "2026-09-27T00:42:06.758972+00:00"
     }
   ],
   "articles": [
@@ -267,9 +267,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T08:46:38+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
       "summaryAttemptAt": "2026-09-26T21:22:32.642876+00:00",
@@ -289,9 +287,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T08:30:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
       "summaryAttemptAt": "2026-09-26T21:23:17.734812+00:00",
@@ -311,9 +307,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T07:59:09+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
       "summaryAttemptAt": "2026-09-26T21:24:06.186390+00:00",
@@ -333,8 +327,7 @@
       "language": "fr",
       "publishedAt": "2026-09-26T07:08:37+00:00",
       "topics": [
-        "ecuries",
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-09-26T12:38:12.249489+00:00",
       "summaryAttemptAt": "2026-09-26T21:24:56.243750+00:00",
@@ -354,7 +347,7 @@
       "language": "en",
       "publishedAt": "2026-09-26T06:09:46+00:00",
       "topics": [
-        "pilotes"
+        "voitures"
       ],
       "firstSeenAt": "2026-09-26T06:38:59.418141+00:00",
       "summaryAttemptAt": "2026-09-26T21:25:45.695883+00:00",
@@ -394,8 +387,7 @@
       "language": "fr",
       "publishedAt": "2026-09-25T16:02:01+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
       "summaryAttemptAt": "2026-09-26T21:26:58.458753+00:00",
@@ -415,9 +407,7 @@
       "language": "fr",
       "publishedAt": "2026-09-25T15:38:22+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
       "summaryAttemptAt": "2026-09-26T21:27:44.699334+00:00",
@@ -437,9 +427,7 @@
       "language": "en",
       "publishedAt": "2026-09-25T15:38:11+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
       "summaryAttemptAt": "2026-09-26T21:28:31.143282+00:00",
@@ -460,8 +448,7 @@
       "publishedAt": "2026-09-25T15:30:41+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
       "summaryAttemptAt": "2026-09-26T21:29:06.855883+00:00",
@@ -517,9 +504,18 @@
       "publishedAt": "2026-09-25T13:58:14+00:00",
       "topics": [
         "pilotes",
-        "ecuries"
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-27T00:42:07.198462+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar devant Verstappen mais frustré : \"Mercedes, c'est un truc de ouf\"",
+      "summaryFr": "Isack Hadjar part en quatrième position au Grand Prix d'Azerbaïdjan, avec plus d'une demi-seconde d'avance sur Max Verstappen. Son meilleur résultat depuis Melbourne reste un troisième, mais il est frustré face à la performance de son équipier.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:42:50.574801+00:00"
     },
     {
       "id": "df323ed29784d5eb6a85",
@@ -529,9 +525,19 @@
       "language": "fr",
       "publishedAt": "2026-09-25T13:13:33+00:00",
       "topics": [
+        "pilotes",
+        "ecuries",
         "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-27T00:42:50.574826+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Aston Martin en fond de grille au GP d'Azerbaïdjan 2026",
+      "summaryFr": "Les Aston Martin de Fernando Alonso et Lance Stroll sont placés en fond de grille après des changements fréquents de groupe propulseur. Carlos Sainz reçoit une pénalité de cinq places pour non-respect des drapeaux jaunes. Sergio Pérez est sanctionné de trois places pour un pilotage trop lent sur la trajectoire de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:43:33.534036+00:00"
     },
     {
       "id": "b458087802cc03349133",
@@ -541,9 +547,19 @@
       "language": "fr",
       "publishedAt": "2026-09-25T13:09:06+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00"
+      "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
+      "summaryAttemptAt": "2026-09-27T00:43:33.534060+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell prend la pole sans concurrence après faute d'Antonelli",
+      "summaryFr": "George Russell s'est imposé en pole position au Grand Prix d'Azerbaïdjan 2026, devançant Leclerc et Piastri de plus de huit dixièmes. Kimi Antonelli a commis une faute en Q1, laissant Russell seul pour s'imposer. Aucune information sur les réglages de l'aileron avant ou arrière, le fond plat ou le groupe propulseur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:44:19.659018+00:00"
     },
     {
       "id": "1c8fe58fabcc43a0e876",
@@ -554,9 +570,18 @@
       "publishedAt": "2026-09-25T09:35:24+00:00",
       "topics": [
         "pilotes",
-        "ecuries"
+        "ecuries",
+        "voitures"
       ],
-      "firstSeenAt": "2026-09-25T12:40:14.796918+00:00"
+      "firstSeenAt": "2026-09-25T12:40:14.796918+00:00",
+      "summaryAttemptAt": "2026-09-27T00:44:19.659043+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen seul rival des Mercedes, Russell devant Antonelli",
+      "summaryFr": "Les pilotes ont débuté la troisième séance d'essais libres du Grand Prix d'Azerbaïdjan sous un ciel dégagé. Les températures atteignaient 25°C dans l'air et 42°C au sol. Lando Norris a dû regagner son box après un problème détecté sur la MCL40.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:45:04.120929+00:00"
     },
     {
       "id": "fb7321a01f695382655b",
@@ -566,10 +591,17 @@
       "language": "fr",
       "publishedAt": "2026-09-25T08:25:28+00:00",
       "topics": [
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-25T12:40:14.796918+00:00"
+      "firstSeenAt": "2026-09-25T12:40:14.796918+00:00",
+      "summaryAttemptAt": "2026-09-27T00:45:04.120952+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Cadillac recrute trois ingénieurs techniques, dont un ancien responsable de Red Bull",
+      "summaryFr": "L'écurie Cadillac annonce le recrutement de Craig Skinner, ancien designer en chef de Red Bull, ainsi que d'Éric Blandin et Tim Lean. Ce trio devrait accélérer le développement de sa structure technique. Aucune information sur les postes précis ou les projets précis n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:45:45.829677+00:00"
     },
     {
       "id": "29864febcd66025a2cff",
@@ -580,9 +612,18 @@
       "publishedAt": "2026-09-24T16:00:32+00:00",
       "topics": [
         "pilotes",
-        "ecuries"
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
+      "summaryAttemptAt": "2026-09-27T00:45:45.829703+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren \"miles off\" le rythme au premier jour de pratique à Baku",
+      "summaryFr": "Lando Norris affirme que McLaren sont \"miles off\" le rythme après le premier jour de pratique à Baku. L'écurie n'a pas atteint le niveau des concurrents. Aucune information sur les performances spécifiques des voitures ou des pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:46:23.333577+00:00"
     },
     {
       "id": "ff71b3bc368fb0d0e927",
@@ -594,7 +635,10 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
+      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
+      "summaryAttemptAt": "2026-09-27T00:46:23.333602+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
     },
     {
       "id": "79cc378d8cb1a3e64e7a",
@@ -604,9 +648,17 @@
       "language": "fr",
       "publishedAt": "2026-09-24T14:18:02+00:00",
       "topics": [
-        "competition"
+        "pilotes"
       ],
-      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
+      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
+      "summaryAttemptAt": "2026-09-27T00:47:02.304070+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Jamie Chadwick devient la dernière femme à tester une F1 en 2026",
+      "summaryFr": "Jamie Chadwick, âgée de 28 ans, a piloté la FW47 d'ancienne Williams à Portimão pour un programme de tests. Elle est devenue la dernière femme à avoir testé une monoplace de Formule 1 en 2026. Ce test s'est déroulé dans le cadre de son rôle de pilote de développement.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:47:45.519605+00:00"
     },
     {
       "id": "e04b4166712707d45de8",
@@ -634,9 +686,19 @@
       "language": "fr",
       "publishedAt": "2026-09-24T13:01:54+00:00",
       "topics": [
-        "pilotes"
+        "ecuries",
+        "voitures",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00"
+      "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
+      "summaryAttemptAt": "2026-09-27T00:47:45.519631+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen en tête des essais libres à Bakou",
+      "summaryFr": "Max Verstappen a enregistré le premier chrono à Bakou avec des pneus médiums, en 1'44\"492. La séance d'essais libres a été interrompue par un drapeau rouge après seulement une vingtaine de minutes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:48:26.308640+00:00"
     },
     {
       "id": "e5d2f2ad7c0c0a0fe5d9",
@@ -646,9 +708,18 @@
       "language": "fr",
       "publishedAt": "2026-09-24T11:00:02+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
+      "summaryAttemptAt": "2026-09-27T00:48:26.308664+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen répond à la rumeur sur le sprint de Monaco : \"Je participe, c'est tout\"",
+      "summaryFr": "Max Verstappen a répondu à une rumeur sur son engagement au sprint de Monaco en affirmant qu'il participera, mais sans préciser les détails. La F1 a confirmé l'ajout de dix courses sprint, mais les destinations restent controversées.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:49:07.137144+00:00"
     },
     {
       "id": "3e69a49a8ceae1590b87",
@@ -659,9 +730,17 @@
       "publishedAt": "2026-09-24T09:51:55+00:00",
       "topics": [
         "pilotes",
-        "voitures"
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
+      "summaryAttemptAt": "2026-09-27T00:49:07.137165+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris test le Hypercar de McLaren à Portimão",
+      "summaryFr": "Lando Norris a piloté la MCL-HY à Portimão pour un test de 38 tours. Il a ainsi pu s'immerger dans la catégorie d'endurance, sans pour autant que cela influence directement la compétition en Formule 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:49:46.835651+00:00"
     },
     {
       "id": "0c8082c1fcd77c3f4217",
@@ -671,9 +750,19 @@
       "language": "fr",
       "publishedAt": "2026-09-24T09:33:05+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
+      "summaryAttemptAt": "2026-09-27T00:49:46.835673+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell en tête d'une séance écourtée pour Antonelli et Hadjar",
+      "summaryFr": "Pour la première séance d'essais libres au Grand Prix d'Azerbaïdjan, les pilotes ont débuté sous un ciel dégagé avec des températures élevées : 28°C en air et 49°C au sol. La plupart des voitures étaient équipées de pneus durs. Max Verstappen a participé à la séance.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T00:50:31.570782+00:00"
     },
     {
       "id": "16ecf30d70195bfcdb70",
@@ -3064,8 +3153,8 @@
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 11,
     "failed": 1,
-    "pending": 42,
-    "checkedAt": "2026-09-26T21:30:55.377930+00:00"
+    "pending": 31,
+    "checkedAt": "2026-09-27T00:50:31.570894+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
