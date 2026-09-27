@@ -1,24 +1,67 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-27T12:39:21.791108+00:00",
+  "collectedAt": "2026-09-27T18:38:10.187160+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-27T12:39:21.791108+00:00"
+      "checkedAt": "2026-09-27T18:38:10.187160+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-27T12:39:21.791108+00:00"
+      "checkedAt": "2026-09-27T18:38:10.187160+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "23529f8deee4193ec03d",
+      "title": "Suspendre Colapinto ? \"Trop sévère\" selon Russell, Verstappen et Hadjar",
+      "url": "https://fr.motorsport.com/f1/news/suspendre-colapinto-trop-severe-russell-verstappen-hadjar/10859524/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-27T15:10:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-27T18:38:10.187160+00:00",
+      "summaryAttemptAt": "2026-09-27T18:38:10.952648+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell et Verstappen dénoncent une suspension trop sévère pour Colapinto",
+      "summaryFr": "George Russell estime que la suspension proposée après l'erreur de Franco Colapinto aurait été trop sévère. Les pilotes Verstappen et Hadjar partagent cette opinion. L'incident a entraîné l'abandon de Pierre Gasly et de Lando Norris.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T18:38:41.329934+00:00"
+    },
+    {
+      "id": "7d6daf1f3ba940f5ae14",
+      "title": "Lawson ne comprend pas le verdict des commissaires, Lindblad pointe Ocon du doigt",
+      "url": "https://fr.motorsport.com/f1/news/lawson-comprend-pas-verdict-lindblad-pointe-ocon/10859509/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-27T12:45:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-27T18:38:10.187160+00:00",
+      "summaryAttemptAt": "2026-09-27T18:38:41.329965+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lawson dénonce le verdict des commissaires, Lindblad pointe Ocon du doigt",
+      "summaryFr": "Liam Lawson affirme ne pas comprendre que les commissaires n'aient pas sanctionné Arvid Lindblad, son équipier chez Racing Bulls, pour avoir l'envoyé en tête-à-queue lors de la course d'Azerbaïdjan. Une rumeur circule selon laquelle Lindblad aurait pointé Ocon du doigt.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T18:39:12.759762+00:00"
+    },
     {
       "id": "0ac546e65f9119d18418",
       "title": "Alpine condamne (encore) le harcèlement en ligne après le crash de Bakou",
@@ -27,7 +70,6 @@
       "language": "fr",
       "publishedAt": "2026-09-27T11:45:45+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
@@ -48,7 +90,6 @@
       "language": "en",
       "publishedAt": "2026-09-27T11:44:25+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
@@ -89,8 +130,7 @@
       "language": "fr",
       "publishedAt": "2026-09-27T09:40:02+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
       "summaryAttemptAt": "2026-09-27T12:41:20.859125+00:00",
@@ -1118,9 +1158,7 @@
       "language": "fr",
       "publishedAt": "2026-09-22T16:00:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-22T18:37:12.381889+00:00",
       "summaryAttemptAt": "2026-09-27T12:43:24.738791+00:00",
@@ -1140,9 +1178,7 @@
       "language": "fr",
       "publishedAt": "2026-09-22T13:00:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-22T18:37:12.381889+00:00",
       "summaryAttemptAt": "2026-09-27T12:44:06.592087+00:00",
@@ -1163,7 +1199,7 @@
       "publishedAt": "2026-09-22T11:00:02+00:00",
       "topics": [
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
       "summaryAttemptAt": "2026-09-27T12:44:49.749053+00:00",
@@ -1262,9 +1298,17 @@
       "language": "fr",
       "publishedAt": "2026-09-22T06:55:57+00:00",
       "topics": [
-        "competition"
+        "pilotes"
       ],
-      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00"
+      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
+      "summaryAttemptAt": "2026-09-27T18:39:12.759791+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Doriane Pin rêve d'entrer en Formule 1 d'ici cinq ans",
+      "summaryFr": "Doriane Pin a affirmé dans une interview avec Mercedes qu'elle vise de rejoindre la Formule 1 d'ici cinq ans. Elle a exprimé sa conviction sur l'importance des femmes dans la compétition. Aucune information sur les équipes, pilotes ou voitures n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T18:39:41.831703+00:00"
     },
     {
       "id": "0071507e3f4faa2b1230",
@@ -1276,7 +1320,10 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00"
+      "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
+      "summaryAttemptAt": "2026-09-27T18:39:41.831732+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
     },
     {
       "id": "39ce9a2a88b63fa496e3",
@@ -1288,7 +1335,15 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00"
+      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
+      "summaryAttemptAt": "2026-09-27T18:39:59.917748+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "F1 réduit la distance maximale des Grands Prix de 15 km",
+      "summaryFr": "La Fédération de Formule 1 annonce une réduction de la distance maximale des courses de 15 km, passant de 305 km à 290 km à partir de la saison 2027. Cette modification vise à ajuster les conditions de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T18:40:26.116591+00:00"
     },
     {
       "id": "e66c3321474a9305f2b0",
@@ -1300,7 +1355,10 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00"
+      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.116621+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "7aefd9b77858bca24576",
@@ -1312,7 +1370,10 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00"
+      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.170609+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "fc5b876086f650e2caec",
@@ -1324,7 +1385,10 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00"
+      "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.216936+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "c08b0fa242c5002e165e",
@@ -1337,7 +1401,10 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.283195+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "40b19d14bf3344c01d2b",
@@ -1350,7 +1417,10 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00"
+      "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.348461+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "9b7994dc8a029f237751",
@@ -1362,7 +1432,10 @@
       "topics": [
         "competition"
       ],
-      "firstSeenAt": "2026-09-21T06:42:22.401303+00:00"
+      "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.465250+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "32093a8d6b5a62cf84d3",
@@ -1374,7 +1447,10 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-20T12:37:40.629709+00:00"
+      "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
+      "summaryAttemptAt": "2026-09-27T18:40:26.498386+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "6739c176a61e959b13d7",
@@ -3387,12 +3463,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 12,
-    "failed": 0,
-    "pending": 14,
-    "checkedAt": "2026-09-27T12:47:31.702263+00:00"
+    "created": 4,
+    "failed": 8,
+    "pending": 12,
+    "checkedAt": "2026-09-27T18:40:26.565491+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
