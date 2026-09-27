@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-27T00:42:06.758972+00:00",
+  "collectedAt": "2026-09-27T06:40:10.398479+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-27T00:42:06.758972+00:00"
+      "checkedAt": "2026-09-27T06:40:10.398479+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-27T00:42:06.758972+00:00"
+      "checkedAt": "2026-09-27T06:40:10.398479+00:00"
     }
   ],
   "articles": [
@@ -504,8 +504,7 @@
       "publishedAt": "2026-09-25T13:58:14+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
       "summaryAttemptAt": "2026-09-27T00:42:07.198462+00:00",
@@ -525,8 +524,6 @@
       "language": "fr",
       "publishedAt": "2026-09-25T13:13:33+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
@@ -547,9 +544,7 @@
       "language": "fr",
       "publishedAt": "2026-09-25T13:09:06+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-25T18:36:58.949185+00:00",
       "summaryAttemptAt": "2026-09-27T00:43:33.534060+00:00",
@@ -570,8 +565,7 @@
       "publishedAt": "2026-09-25T09:35:24+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-09-25T12:40:14.796918+00:00",
       "summaryAttemptAt": "2026-09-27T00:44:19.659043+00:00",
@@ -591,7 +585,8 @@
       "language": "fr",
       "publishedAt": "2026-09-25T08:25:28+00:00",
       "topics": [
-        "ecuries"
+        "ecuries",
+        "voitures"
       ],
       "firstSeenAt": "2026-09-25T12:40:14.796918+00:00",
       "summaryAttemptAt": "2026-09-27T00:45:04.120952+00:00",
@@ -612,8 +607,7 @@
       "publishedAt": "2026-09-24T16:00:32+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
       "summaryAttemptAt": "2026-09-27T00:45:45.829703+00:00",
@@ -648,7 +642,7 @@
       "language": "fr",
       "publishedAt": "2026-09-24T14:18:02+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
       "summaryAttemptAt": "2026-09-27T00:47:02.304070+00:00",
@@ -686,9 +680,7 @@
       "language": "fr",
       "publishedAt": "2026-09-24T13:01:54+00:00",
       "topics": [
-        "ecuries",
-        "voitures",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
       "summaryAttemptAt": "2026-09-27T00:47:45.519631+00:00",
@@ -708,8 +700,7 @@
       "language": "fr",
       "publishedAt": "2026-09-24T11:00:02+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
       "summaryAttemptAt": "2026-09-27T00:48:26.308664+00:00",
@@ -730,7 +721,7 @@
       "publishedAt": "2026-09-24T09:51:55+00:00",
       "topics": [
         "pilotes",
-        "ecuries"
+        "voitures"
       ],
       "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
       "summaryAttemptAt": "2026-09-27T00:49:07.137165+00:00",
@@ -750,9 +741,7 @@
       "language": "fr",
       "publishedAt": "2026-09-24T09:33:05+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
       "summaryAttemptAt": "2026-09-27T00:49:46.835673+00:00",
@@ -772,9 +761,18 @@
       "language": "fr",
       "publishedAt": "2026-09-24T06:50:33+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00"
+      "firstSeenAt": "2026-09-24T12:40:48.298688+00:00",
+      "summaryAttemptAt": "2026-09-27T06:40:11.171626+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton critique le raccourcissement des courses en 2027",
+      "summaryFr": "Lewis Hamilton exprime son incrédulité face au raccourcissement des courses en 2027, estimant que cela n'a aucun sens. La Commission F1 a validé le projet, mais il reste soumis à l'approbation du Conseil mondial du sport automobile de la FIA.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:40:54.557187+00:00"
     },
     {
       "id": "ccfea76cbe6ec828d71b",
@@ -786,7 +784,10 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
+      "summaryAttemptAt": "2026-09-27T06:40:54.557211+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
     },
     {
       "id": "c331e4af2774292352f8",
@@ -796,9 +797,18 @@
       "language": "fr",
       "publishedAt": "2026-09-23T14:31:21+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
+      "summaryAttemptAt": "2026-09-27T06:41:36.195887+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Gasly victime d'attaques en ligne après incident avec Colapinto à Madrid",
+      "summaryFr": "Pierre Gasly a déclaré avoir subi des attaques sur les réseaux sociaux après un incident avec son équipier Franco Colapinto lors du Grand Prix d'Espagne. L'incident s'est produit en fin de course sur le circuit de Madrid, où Colapinto a rejoint Gasly, alors en possession de pneus usés.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:42:19.628293+00:00"
     },
     {
       "id": "b5dcd9a77a280fc66748",
@@ -810,7 +820,15 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
+      "summaryAttemptAt": "2026-09-27T06:42:19.628317+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli reconnait qu'il continue à trouver son chemin en F1",
+      "summaryFr": "Kimi Antonelli admet qu'après un crash en 2024 qui reste en lui, il continue de s'adapter à la Formule 1. Le pilote affirme qu'il est encore en train de trouver son rythme dans la compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:42:56.740196+00:00"
     },
     {
       "id": "86d5a83c4f7ab5c5c4c9",
@@ -820,9 +838,18 @@
       "language": "fr",
       "publishedAt": "2026-09-23T13:22:27+00:00",
       "topics": [
+        "ecuries",
         "competition"
       ],
-      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
+      "summaryAttemptAt": "2026-09-27T06:42:56.740220+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "F1 envisage l'annulation des GP du Qatar et d'Abu Dhabi à cause du conflit au Moyen-Orient",
+      "summaryFr": "Les Grands Prix du Qatar et d'Abu Dhabi font l'objet d'une discussion sur leur annulation en raison du conflit au Moyen-Orient. Le détenteur des droits commerciaux a mis en place des plans d'urgence, tout en affirmant que ces courses restent encore en jeu.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:43:38.818684+00:00"
     },
     {
       "id": "bf3805801c472e384417",
@@ -834,7 +861,10 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00"
+      "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
+      "summaryAttemptAt": "2026-09-27T06:43:38.818707+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
     },
     {
       "id": "9b722ed5bf8a7f060d97",
@@ -844,9 +874,18 @@
       "language": "fr",
       "publishedAt": "2026-09-23T11:25:56+00:00",
       "topics": [
-        "voitures"
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:44:20.212846+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Moteurs F1 en 2030 : accord sur un système électrique simplifié",
+      "summaryFr": "Les parties prenantes de la Formule 1 ont validé un système électrique plus petit et simplifié pour les moteurs en 2030, en abandonnant l'option d'un moteur atmosphérique en raison des restrictions sonores. Ce nouveau groupe propulseur sera plus compact et répondra aux exigences de silence sur les circuits urbains.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:45:02.356424+00:00"
     },
     {
       "id": "fecb94db91a9786a7304",
@@ -856,9 +895,18 @@
       "language": "fr",
       "publishedAt": "2026-09-23T10:36:40+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:45:02.356451+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon se dit libre de tout engagement pour 2027",
+      "summaryFr": "Esteban Ocon considère qu'il est libre de tout engagement pour la saison 2027, alors que Haas n'a pas encore annoncé ses pilotes. Le Français affiche de meilleures performances ces dernières semaines, sans récompense tangible alors que l'écurie a perdu son rythme.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:45:43.961598+00:00"
     },
     {
       "id": "f5777718dc41b8142ad0",
@@ -871,7 +919,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:45:43.961620+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull prolonge Isack Hadjar pour 2027",
+      "summaryFr": "Red Bull annonce la prolongation d'Isack Hadjar pour la saison 2027, après seulement 14 Grands Prix. La décision est présentée comme facile, malgré le contexte d'un second baquet marqué par le départ de Pierre Gasly.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:46:24.704801+00:00"
     },
     {
       "id": "9d1a6cf0485b2e32f171",
@@ -884,7 +940,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:46:24.704823+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar retenu par Red Bull pour la saison 2027",
+      "summaryFr": "Isack Hadjar restera au sein de Red Bull pour la saison 2027, en tant que co-pilote de Max Verstappen. Ce duo de pilotes devrait continuer à courir dans la compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:47:00.220984+00:00"
     },
     {
       "id": "942b8f524552bc484238",
@@ -894,9 +958,18 @@
       "language": "fr",
       "publishedAt": "2026-09-23T07:55:23+00:00",
       "topics": [
-        "competition"
+        "pilotes",
+        "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:47:00.221006+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille F1 2027 : Verstappen au Red Bull jusqu'en 2030, Alonso reste incertain",
+      "summaryFr": "La prolongation de Max Verstappen chez Red Bull jusqu'en 2030 élimine la principale incertitude pour 2027. L'avenir de Fernando Alonso chez Aston Martin reste flou, car l'Espagnol n'a pas encore tranché s'il quittera ou non la écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:47:44.312376+00:00"
     },
     {
       "id": "d7ac7677e42185def4f7",
@@ -909,7 +982,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00"
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:47:44.312397+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar sera l'équipier de Verstappen chez Red Bull en 2027",
+      "summaryFr": "Red Bull Racing a annoncé que Isack Hadjar sera son équipier pour la saison 2027. L'information a été partagée via une vidéo humoristique, diffusée ce mercredi matin. La déclaration intervient pendant la journée média à Bakou, où se déroule le Grand Prix d'Azerbaïdjan 2026.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:48:28.860878+00:00"
     },
     {
       "id": "19bd54a936ba07f8653a",
@@ -3151,10 +3232,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 11,
-    "failed": 1,
-    "pending": 31,
-    "checkedAt": "2026-09-27T00:50:31.570894+00:00"
+    "created": 10,
+    "failed": 2,
+    "pending": 21,
+    "checkedAt": "2026-09-27T06:48:28.861022+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
