@@ -7493,7 +7493,7 @@ function v30Schedule(){if(!V30.raf&&!document.hidden)V30.raf=requestAnimationFra
 function v30Tick(t){V30.raf=0;const dt=Math.min(.05,V30.last?(t-V30.last)/1000:0);V30.last=t;if(document.hidden||H.tab!=='car'||v30q('#f1Loupe').offsetParent===null){V30.last=0;return;}if(Math.abs(Le.target-Le.aero)>.001)v30AeroAt(Le.aero+(Le.target-Le.aero)*(1-Math.exp(-dt/.4)));if(V30.steerRun)ql(75*Math.sin(t*.00065));if(V30.motorRun){V30.phase+=dt*2.1;v30EngineAt(V30.phase);}v30GearSync();if(V30.pulse){for(const root of [V30.wheel,V30.mini])for(const g of root.children)if(g.userData.id===V30.pulse.id)g.position.z=t<V30.pulse.until?-.009:0;if(t>=V30.pulse.until)V30.pulse=null;}v30Under();ut();if(V30.steerRun||V30.motorRun||H.gearRun||V30.pulse||Math.abs(Le.target-Le.aero)>.001)v30Schedule();else V30.last=0;}
 const v30OldReset=Oa;Oa=function(){v30Close();V30.steerRun=V30.motorRun=false;V30.phase=0;v30OldReset();if(V30.ready){v30EngineAt(0);V30.pulse=null;for(const root of [V30.wheel,V30.mini])for(const g of root.children)g.position.z=0;for(const p of H.gears)p.a.rotation.x=p.b.rotation.x=0;v30AeroAt(0);v30Under();}};
 const v30OldTopic=Sd;Sd=function(topic){V30.steerRun=V30.motorRun=false;if(topic!=='gear')H.gearRun=false;v30Close();v30OldTopic(topic);if(topic==='motor')v30Expose();};
-function v30Init(){V30.ready=true;v30WingBuild('ferrari');v30Wheel();v30Engine();v30EngineAt(0);at.minPolarAngle=.025;at.maxPolarAngle=Math.PI-.025;at.minDistance=.4;at.maxDistance=30;at.addEventListener('change',()=>{v30Under();ut();});const light=It.children.find(o=>o.isDirectionalLight)?.clone();if(light){light.position.set(0,-4,2);light.intensity=1.2;light.castShadow=false;It.add(light);}v30UI();queueMicrotask(v31Init);ql(0);new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))v30Schedule();}).observe(v30q('#labStage'));}
+function v30Init(){V30.ready=true;v30WingBuild('ferrari');v30Wheel();v30Engine();v30EngineAt(0);at.minPolarAngle=.025;at.maxPolarAngle=Math.PI-.025;at.minDistance=.4;at.maxDistance=30;at.addEventListener('change',()=>{v30Under();ut();});const light=It.children.find(o=>o.isDirectionalLight)?.clone();if(light){light.position.set(0,-4,2);light.intensity=1.2;light.castShadow=false;It.add(light);}v30UI();queueMicrotask(()=>{v31Init();init32();});ql(0);new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))v30Schedule();}).observe(v30q('#labStage'));}
 function v30Buttons(parent,items){const div=document.createElement('div');div.className='v28-button-row';for(const [label,fn]of items){const b=document.createElement('button');b.textContent=label;b.onclick=fn;div.append(b);}parent.append(div);return div;}
 function v30UI(){const q=v30q;q('#v28Wing').innerHTML='<option value="ferrari">Ferrari · SF-26, étude 2026</option><option value="redbull">Red Bull · RB22, Miami 2026</option>';q('#v28Wing').onchange=e=>yd(e.target.value);const focus=document.createElement('div');focus.className='v30-focus';q('.lab-views').after(focus);v30Buttons(focus,[['Aileron avant · détail',()=>v30Look('front')],['Aileron arrière · détail',()=>v30Look('rear')],['Sous la voiture',()=>v30Look('under')]]);
 v30Buttons(q('[data-topic="steering"]'),[['▶ Animer gauche / droite',()=>{V30.steerRun=!V30.steerRun;v30Schedule();}]]);q('#v28Steer').oninput=e=>{V30.steerRun=false;ql(e.target.value);};q('#v28SteerCenter').onclick=()=>{V30.steerRun=false;ql(0);};
@@ -7622,6 +7622,184 @@ function v31Init(){
  for(const id of ['v28Steer','v30WheelAngle']){const el=q('#'+id),old=el.oninput;el.oninput=e=>{old(e);v31UpdateButtons();};}
  const center=q('#v28SteerCenter'),oldCenter=center.onclick;center.onclick=e=>{oldCenter(e);v31UpdateButtons();};
  V31.ready=true;v31Choose('explore');
+}
+
+
+/* V32 — visible mechanical chains. Illustrative geometry, not factory CAD. */
+const V32={ready:false,corners:[],travel:[0,0,0,0],spin:[0,0,0,0],suspRun:-1,drive:false,auto:false,elapsed:0,speed:0,rpm:4000,throttle:0,brake:0,diff:0,phase:0,raf:0,last:0,dragMode:false,wing:[]};
+const q32=s=>Zt.querySelector(s),vec32=a=>new L(...a),clamp32=(v,a,b)=>Math.max(a,Math.min(b,v));
+function joint32(g,p,r=.021,color=0xd5b66b){const root=new j.Group;g.add(root);root.position.set(...p);const ball=Fe(root,new j.Sphere(r,20,14),color);ball.material.metalness=.85;ball.material.roughness=.27;const ring=Fe(root,new j.Torus(r*1.12,.004,8,24),0x879dad);ring.rotation.y=Math.PI/2;return root;}
+function rod32(g,a,b,r=.012,color=0x445867){const rod=Wr(g,a,b,r,color);rod.ja=joint32(g,a);rod.jb=joint32(g,b);return rod;}
+function link32(r,a,b){vd(r,a,b);r.ja?.position.set(...a);r.jb?.position.set(...b);}
+function bracket32(g,p){for(const d of [-.035,.035])dr(g,p[0]+d,p[1],p[2],.012,.070,.065,0x324859);Wr(g,[p[0]-.05,p[1],p[2]],[p[0]+.05,p[1],p[2]],.008,0xb9cad4);}
+function part32(id,label,category,desc,detail,source='v32susp'){kt[id]=[label,category,desc,detail,source];return Pa(Ae,id,category==='TRANSMISSION'?'mechanical':'suspension');}
+function solve32(fn,prefer=0){let best=prefer,error=Infinity;for(let a=-.85;a<=.8501;a+=.01){const e=Math.abs(fn(a));if(e<error){best=a;error=e;}}let lo=best-.012,hi=best+.012;for(let k=0;k<22;k++){const a=(lo*2+hi)/3,b=(lo+hi*2)/3;if(Math.abs(fn(a))<Math.abs(fn(b)))hi=b;else lo=a;}return (lo+hi)/2;}
+function suspend32(){
+ const mini=H.cockpitWheel;Ae.car.add(mini);
+ for(const id of ['direction','suspension','dampers','rocker'])ci(Ae,id);
+ Ae.items.direction[0].add(mini);
+ H.suspArms=[];H.springs=[];H.tie=[];
+ const mounting=part32('v32frame','Supports et points d’ancrage au châssis','SUSPENSION','Les articulations intérieures des triangles et les basculeurs sont fixés à des structures résistantes du châssis ou de la transmission.','Les renforts ouverts de cette vue sont une coupe pédagogique, pas le dessin d’une coque réelle.');V32.mounting=mounting;
+ for(const x of [-1.94,-1.46]){Wr(mounting,[x,.17,-.25],[x,.17,.25],.022,0x293943);for(const s of [-1,1])Wr(mounting,[x,.17,s*.25],[x,.54,s*.25],.025,0x293943);}
+ for(const s of [-1,1])for(const y of [.27,.52])Wr(mounting,[-1.95,y,s*.24],[-.64,y,s*.24],.024,0x293943);
+ for(const s of [-1,1])Wr(mounting,[-1.66,.54,s*.24],[-1.66,.62,s*.24],.023,0x354955);
+ const links=part32('v32arms','Triangles et leurs articulations','SUSPENSION','Deux triangles guident chaque porte-moyeu. Les pivots côté châssis définissent des axes fixes ; les articulations extérieures accompagnent le débattement.','Les quatre coins peuvent être manipulés séparément. Le parallélogramme est pédagogique : carrossage, flexures et couplage antiroulis des vraies F1 ne sont pas reproduits.');
+ const uprights=part32('v32upright','Porte-moyeu, roulements et moyeu','SUSPENSION','Le porte-moyeu porte les roulements et relie les triangles, la biellette et la roue. Le moyeu tourne dans ses roulements ; le porte-moyeu ne tourne pas avec le pneu.','À l’avant il pivote pour braquer ; l’étrier suit ce pivot mais ne tourne pas avec le disque.');
+ const rockers=part32('v32rocker','Poussoir, basculeur et amortisseur','SUSPENSION','Le poussoir transmet le mouvement de la roue à un basculeur articulé sur le châssis. Celui-ci comprime le ressort et l’amortisseur.','Le ressort stocke l’énergie ; l’amortisseur dissipe de l’énergie et freine les oscillations. Les ressorts hélicoïdaux visibles illustrent cette fonction, sans représenter toutes les solutions F1.');
+ for(let i=0;i<4;i++){
+  const c=cr[i].mesh.position.clone(),s=Math.sign(c.z),span=Math.abs(c.z)-.07-.24;
+  const k={i,c,s,span,rods:[],rot:0,hub:new j.Group};uprights.add(k.hub);
+  const upright=Wr(k.hub,[0,-.115,-s*.07],[0,.135,-s*.07],.028,0x9ba8b0);
+  Ve(k.hub,0,0,-s*.04,.077,.095,0x87939f);for(const z0 of [-.05,.015]){const ring=Fe(k.hub,new j.Torus(.056,.008,10,30),0xd5b66b);ring.position.z=z0*s;}
+  for(const y of [.245,.495]){
+   const p=[c.x,y-.36,-s*.07];joint32(k.hub,p.map((v,n)=>n===0?0:v));
+   for(const f of [-1,1]){const a=[c.x+f*.24,y+.025,s*.24],b=[c.x,y,c.z-s*.07];const r=rod32(links,a,b,.014,0x303e49);bracket32(links,a);k.rods.push({r,a,y});}
+  }
+  const b=[c.x+.04,.59,s*.24];k.bell=new j.Group;rockers.add(k.bell);k.bell.position.set(...b);k.bellBase=b;
+  const sh=new j.Shape;sh.moveTo(-.09,-.06);sh.lineTo(.1,-.06);sh.lineTo(.045,.14);sh.quadraticCurveTo(-.04,.13,-.09,-.06);sh.closePath();const plate=ui(k.bell,sh,.02,Wt(0xcab06a,.32,.7));plate.rotation.y=Math.PI/2;
+  bracket32(rockers,b);k.pushLocal=[0,-.06,s*.115];k.springLocal=[0,.10,-s*.055];
+  const out=[c.x,.275,c.z-s*.09],tip=vec32(k.pushLocal).add(vec32(b)).toArray();k.push=rod32(rockers,out,tip,.014,0xa9b9c8);k.pushLength=vec32(out).distanceTo(vec32(tip));
+  k.anchor=[c.x+.04,.65,-s*.12];bracket32(rockers,k.anchor);
+  const springTip=vec32(k.springLocal).add(vec32(b)).toArray();k.shock=rod32(rockers,k.anchor,springTip,.012,0xb1c1cd);k.coil=new j.Group;rockers.add(k.coil);
+  Fe(k.coil,new j.Cylinder(.031,.031,.10,24),0x8299a8).position.y=.05;
+  const helix=[];for(let n=0;n<=144;n++){const t=n/144;helix.push([.034*Math.cos(t*16*Math.PI),t,.034*Math.sin(t*16*Math.PI)]);}Ct(k.coil,helix,.004,Wt(0xd4bd7b,.33,.65));
+  V32.corners.push(k);
+ }
+ const rack=part32('v32rack','Pignon, crémaillère et biellettes','SUSPENSION','La colonne fait tourner le pignon. Ses dents déplacent latéralement la crémaillère ; deux biellettes font pivoter les bras de direction et les porte-moyeux avant.','Les extrémités dorées représentent les articulations. Les biellettes conservent leur longueur ; leurs rotules changent d’orientation. Assistance et géométrie sont simplifiées.');
+ const fx=V32.corners[0].c.x;V32.rackX=fx+.17;
+ V32.rack=new j.Group;rack.add(V32.rack);Wr(V32.rack,[V32.rackX,.40,-.33],[V32.rackX,.40,.33],.017,0xced8df);
+ for(let n=0;n<21;n++)dr(V32.rack,V32.rackX-.009,.426,-.15+n*.015,.045,.009,.008,0xd5b66b);
+ for(const s of [-1,1]){bracket32(rack,[V32.rackX,.40,s*.23]);for(let n=0;n<7;n++){const t=Fe(rack,new j.Torus(.03,.004,8,20),0x26353f);t.position.set(V32.rackX,.40,s*(.27+n*.014));}}
+ V32.pinion=_d(rack,V32.rackX-.006,.472,0,.046,18,0xd8bb68);V32.column=rod32(rack,[-.6,.49,0],[V32.rackX-.033,.472,0],.013,0xb8c5cf);V32.column.baseQ=V32.column.mesh.quaternion.clone();dr(V32.column.mesh,.013,0,0,.004,vec32(V32.column.a).distanceTo(vec32(V32.column.b)),.005,0xd5b66b);
+ for(const k of V32.corners.filter(k=>k.c.x<0)){k.steerArm=[.14,.04,-k.s*.07];const outer=vec32(k.steerArm).add(k.c).toArray(),inner=[V32.rackX,.40,k.s*.33];k.tie=rod32(rack,inner,outer,.011,0xc3cdd3);k.tieLength=vec32(inner).distanceTo(vec32(outer));rod32(k.hub,[0,0,-k.s*.07],k.steerArm,.013,0xb7a370);}
+}
+function frame32(group,c,angle,spin,delta){group.rotation.set(0,angle,0);if(spin)group.rotateZ(spin);const rotated=c.clone().applyQuaternion(group.quaternion);group.position.copy(c).add(delta).sub(rotated);}
+function suspensionAt32(){
+ if(!V32.ready)return;const shift=-H.steer*.00047;V32.rack.position.z=shift;V32.pinion.rotation.x=-shift/.046;V32.column.mesh.quaternion.copy(V32.column.baseQ);V32.column.mesh.rotateY(-shift/.046);
+ for(const k of V32.corners){const rise=V32.travel[k.i]*.085;const len=Math.hypot(k.span,.025),span=Math.sqrt(Math.max(.001,len*len-(rise-.025)**2)),delta=new L(0,rise,k.s*(span-k.span));k.delta=delta;
+  const hub=k.c.clone().add(delta);let angle=0;
+  if(k.tie){const inner=[V32.rackX,.40,k.s*.33+shift];angle=solve32(a=>vec32(k.steerArm).applyAxisAngle(new L(0,1,0),a).add(hub).distanceTo(vec32(inner))-k.tieLength);const tip=vec32(k.steerArm).applyAxisAngle(new L(0,1,0),angle).add(hub).toArray();link32(k.tie,inner,tip);}
+  k.rot=angle;k.hub.position.copy(hub);k.hub.rotation.y=angle;
+  for(const {r,a,y}of k.rods)link32(r,a,[k.c.x,y+rise,k.c.z-k.s*.07+delta.z]);
+  const out=[k.c.x,.275+rise,k.c.z-k.s*.09+delta.z];const bellAngle=solve32(a=>vec32(k.pushLocal).applyAxisAngle(new L(1,0,0),a).add(vec32(k.bellBase)).distanceTo(vec32(out))-k.pushLength);k.bell.rotation.x=bellAngle;
+  const tip=vec32(k.pushLocal).applyAxisAngle(new L(1,0,0),bellAngle).add(vec32(k.bellBase)).toArray();link32(k.push,out,tip);
+  const end=vec32(k.springLocal).applyAxisAngle(new L(1,0,0),bellAngle).add(vec32(k.bellBase));link32(k.shock,k.anchor,end.toArray());const d=end.clone().sub(vec32(k.anchor));k.coil.position.set(...k.anchor);k.coil.quaternion.setFromUnitVectors(new L(0,1,0),d.clone().normalize());k.coil.scale.y=d.length();
+  frame32(Le.wheels[k.i].g,k.c,angle,V32.spin[k.i],delta);
+  for(const id of ['brake','pads','caliper']){const g=Ae.items[id]?.[k.i];if(g)frame32(g,k.c,angle,id==='brake'?V32.spin[k.i]:0,delta);}
+  if(k.shaft){link32(k.shaft,[k.c.x,.36,k.s*.16],[hub.x,hub.y,hub.z-k.s*.04]);k.shaft.mesh.rotateY(V32.spin[k.i]);k.cv.position.copy(hub);k.cv.rotation.z=V32.spin[k.i];}
+ }
+}
+const oldSteer32=ql;ql=function(value){oldSteer32(value);suspensionAt32();};
+const oldBump32=Ed;Ed=function(v){if(!V32.ready)return oldBump32(v);V32.travel.fill(Number(v)/100);suspensionAt32();ut();};
+function suspensionView32(){bt('perspective');Ia();for(const id of ['nose','front','floor'])for(const g of Ae.items[id]||[])g.visible=false;at.target.set(-1.48,.4,0);V32.mounting.visible=true;mt.position.set(-3.2,1.95,2.65);at.update();Et('v32rack');xi();}
+// Add bearing carriers and moving links to the two observed rear-wing concepts.
+const oldWing32=v30WingBuild;v30WingBuild=function(style){oldWing32(style);if(V32.ready)wingBuild32();};
+function wingBuild32(){
+ V32.wing=[];Ae.items.front[0].position.x=-.34;
+ const rear=Ae.items.rear[0],f=z.flaps.find(f=>f.id==='rear');if(!f)return;
+ for(const s of [-1,1]){
+  const base=[1.85,1.00,s*.525],pivot=[f.v30base.x,f.v30base.y,s*.525];
+  const bracket=rod32(rear,[1.92,.85,s*.51],base,.019,0x354954);bracket32(rear,base);
+  const arm=rod32(rear,base,pivot,.014,0xd4bf82);const lower=rod32(rear,[base[0]+.09,base[1]-.04,base[2]],[pivot[0]+.09,pivot[1]-.04,pivot[2]],.012,0x9baebb);
+  const carrier=rod32(rear,pivot,[pivot[0]+.09,pivot[1]-.04,pivot[2]],.018,0x8e9fab);
+  const axle=rod32(rear,[pivot[0],pivot[1],s*.49],[pivot[0],pivot[1],s*.563],.014,0xd6e0e6);
+  const drive=rod32(rear,[1.96,.87,s*.52],pivot,.008,0xc6d3dd);
+  V32.wing.push({s,base,arm,lower,carrier,axle,drive,f});
+ }
+ for(const s of [-1,1]){const f=Ae.items.front[0];rod32(f,[-2.01,.31,s*.10],[-2.46,.14,s*.15],.012,0xa9b8c3);}
+ aeroAt32(Le.aero);
+}
+function aeroAt32(u){
+ if(!V32.ready)return;
+ for(const w of V32.wing){const angle=(V30.style==='redbull'?.77:.045)*u,b=w.f.v30base.clone().sub(vec32(w.base));b.z=0;b.applyAxisAngle(new L(0,0,1),angle).add(vec32(w.base));w.f.pivot.position.set(b.x,b.y,0);const p=[b.x,b.y,w.base[2]],p2=[b.x+.09,b.y-.04,w.base[2]];link32(w.arm,w.base,p);link32(w.lower,[w.base[0]+.09,w.base[1]-.04,w.base[2]],p2);link32(w.carrier,p,p2);link32(w.axle,[b.x,b.y,w.s*.49],[b.x,b.y,w.s*.563]);link32(w.drive,[1.96,.87,w.s*.52],p);}
+ // Synchronize existing central actuator after the supported flap path changes.
+ for(const a of z.actuators){const tip=new L(.075,.015,0).applyEuler(a.pivot.rotation).add(a.pivot.position);const d=tip.sub(a.base);a.rod.position.copy(a.base).addScaledVector(d,.5);a.rod.scale.y=d.length();a.rod.quaternion.setFromUnitVectors(new L(0,1,0),d.normalize());}
+}
+const oldAeroAt32=v30AeroAt;v30AeroAt=function(u){oldAeroAt32(u);aeroAt32(u);};
+const oldZr32=zr;zr=function(t){oldZr32(t);aeroAt32(Le.aero);};
+// Wheel commands remain in the wheel view; energy changes no longer force a car camera.
+const oldFr32=fr;fr=function(mode){if(V32.ready&&ei==='wheel'){const saved=z.carReady;z.carReady=false;try{oldFr32(mode);}finally{z.carReady=saved;}return;}oldFr32(mode);};
+const oldCommand32=x_;x_=function(id){if(!V32.ready)return oldCommand32(id);if(id==='shift'||id==='downshift'){wn(clamp32(H.gear+(id==='shift'?1:-1),1,8));V30.pulse={id,until:performance.now()+280};v30Schedule();driveRead32();return;}if(id==='clutch'){H.wheelMessage='PALETTES BASSES · EMBRAYAGE';Hr();q32('#v28WheelRead').textContent=H.wheelMessage;return;}oldCommand32(id);};
+function wheel32(){
+ kt.downshift=['Palette gauche · rapport −','VOLANT','Diminue le rapport engagé, jusqu’à la première.','Les palettes inférieures de ce modèle commandent l’embrayage ; ce ne sont pas des palettes de rétrogradage.','wheel'];
+ const shifts=V30.wheel.children.filter(g=>g.userData.id==='shift');if(shifts[0]){shifts[0].userData.id='downshift';Ae.items.downshift=[shifts[0]];Wi(shifts[0],'−',-.34,.05,-.095,.055,.045,'#ffffff').rotation.y=Math.PI;}
+ if(shifts[1])Wi(shifts[1],'+',.34,.05,-.095,.055,.045,'#ffffff').rotation.y=Math.PI;
+ const cloneShifts=V30.mini.children.filter(g=>g.userData.id==='shift');if(cloneShifts[0])cloneShifts[0].userData.id='downshift';
+ const canvas=lt.domElement;let drag=null;
+ function point(e){const rect=canvas.getBoundingClientRect(),p=V30.wheel.getWorldPosition(new L).project(mt);return Math.atan2(e.clientY-(rect.top+(1-p.y)*rect.height/2),e.clientX-(rect.left+(p.x+1)*rect.width/2));}
+ canvas.addEventListener('pointerdown',e=>{if(!V32.dragMode||ei!=='wheel')return;e.stopImmediatePropagation();V30.steerRun=false;drag={id:e.pointerId,start:point(e),steer:H.steer,sign:V30.wheel.worldToLocal(mt.position.clone()).z>=0?1:-1,x:e.clientX,y:e.clientY};canvas.setPointerCapture(e.pointerId);},true);
+ canvas.addEventListener('pointermove',e=>{if(!drag||e.pointerId!==drag.id)return;e.stopImmediatePropagation();let d=point(e)-drag.start;d=Math.atan2(Math.sin(d),Math.cos(d));ql(drag.steer+drag.sign*d/.0076);ut();},true);
+ canvas.addEventListener('pointerup',e=>{if(!drag||e.pointerId!==drag.id)return;e.stopImmediatePropagation();const tap=Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<6;drag=null;canvas.releasePointerCapture(e.pointerId);if(tap){const rect=canvas.getBoundingClientRect(),ray=new _c;ray.setFromCamera(new ue((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1),mt);for(const hit of ray.intersectObject(Ae.wheel,true)){let o=hit.object;let visible=true;for(let p=o;p;p=p.parent)if(!p.visible)visible=false;if(!visible)continue;while(o&&!o.userData.id)o=o.parent;if(o?.userData.id){Et(o.userData.id);break;}}}},true);
+ canvas.addEventListener('pointercancel',()=>{drag=null;},true);
+}
+function drivetrain32(){
+ const g=part32('v32drive','Du vilebrequin aux roues arrière','TRANSMISSION','Le vilebrequin entraîne l’embrayage, puis l’arbre d’entrée de boîte. Le rapport sélectionné transmet le couple à la sortie, au couple final et au différentiel. Deux demi-arbres rejoignent les moyeux arrière.','Les roues avant roulent sur le sol mais ne reçoivent pas le couple de propulsion. Valeurs, démultiplications et inerties sont illustratives.','v32gear');
+ const diff=part32('v32diff','Différentiel et demi-arbres arrière','TRANSMISSION','Le différentiel transmet le couple aux deux roues arrière en leur permettant des vitesses différentes en virage. Chaque demi-arbre rejoint le moyeu par des articulations.','La coupe montre un principe différentiel simplifié. Elle ne reproduit pas les disques de verrouillage ni la commande d’un différentiel F1 réel.','v32wheel');
+ V32.sideGears=[];V32.satellites=[];V32.diffRoot=new j.Group;diff.add(V32.diffRoot);V32.diffRoot.position.set(1.7,.36,0);
+ const shell=Fe(V32.diffRoot,new j.Sphere(.135,32,20),0x6e8495);shell.scale.z=1.3;shell.material.transparent=true;shell.material.opacity=.14;shell.material.depthWrite=false;
+ V32.crown=new j.Group;V32.diffRoot.add(V32.crown);const crown=_d(V32.crown,0,0,0,.112,32,0xc5b16b);crown.rotation.y=0;
+ for(const s of [-1,1]){const gear=_d(V32.crown,0,0,s*.065,.060,14,0xa1b8c8);gear.rotation.y=0;V32.sideGears.push({g:gear,s});const sat=_d(V32.crown,0,s*.066,0,.036,10,0xd5b66b);sat.rotation.set(Math.PI/2,0,0);V32.satellites.push(sat);}
+ Wr(V32.crown,[0,-.07,0],[0,.07,0],.009,0xc8d8e0);
+ V32.input=new j.Group;g.add(V32.input);V32.input.position.set(.85,.25,0);Wr(V32.input,[0,0,0],[.46,0,0],.019,0xdbc285);for(let n=0;n<5;n++){const mark=Fe(V32.input,new j.Torus(.032,.004,8,24),0xe9bd64);mark.rotation.y=Math.PI/2;mark.position.x=.07+n*.085;}
+ dr(V32.input,.23,.023,0,.36,.006,.009,0xf2ca6b);V32.clutchDiscs=Ae.items.gearbox[0].children.filter(o=>o.geometry?.type==='TorusGeometry');for(const disk of V32.clutchDiscs)dr(disk,.075,0,0,.012,.012,.008,0xbba26b);
+ V32.output=new j.Group;g.add(V32.output);V32.output.position.set(1.66,.455,0);Wr(V32.output,[-.32,0,0],[.31,0,0],.022,0xadbccb);_d(V32.output,.04,0,0,.035,12,0xd7bb65);dr(V32.output,0,.025,0,.5,.006,.010,0xd7bb65);
+ for(const k of V32.corners.filter(k=>k.c.x>0)){
+  k.shaft=rod32(diff,[k.c.x,.36,k.s*.16],[k.c.x,.36,k.c.z-k.s*.04],.020,0xc4cfd8);dr(k.shaft.mesh,.021,0,0,.004,vec32(k.shaft.a).distanceTo(vec32(k.shaft.b)),.006,0xd5b66b);k.cv=new j.Group;diff.add(k.cv);k.cv.position.copy(k.c);
+  for(let n=0;n<7;n++){const boot=Fe(k.cv,new j.Torus(.037+n*.001,.005,8,22),0x2b3c49);boot.position.z=-k.s*(.04+n*.012);}
+  for(let n=0;n<6;n++){const a=n*Math.PI/3;Ve(k.cv,.062*Math.cos(a),.062*Math.sin(a),-k.s*.035,.007,.025,0xc3ced7);}
+ }
+ // Remove the old disconnected axle and differential representation.
+ for(const o of [...Ae.items.gearbox[0].children])if(Math.abs(o.position.x-1.97)<.005&&Math.abs(o.position.y-.33)<.005)Ae.items.gearbox[0].remove(o);
+}
+function driveView32(){bt('perspective');Ia();for(const id of ['floor','airbox','cover'])for(const g of Ae.items[id]||[])g.visible=false;at.target.set(.8,.38,0);mt.position.set(2.7,3.0,3.4);at.update();Et('v32drive');xi();}
+function driveRead32(){if(!V32.ready)return;const q=q32;q('#v32Gear').textContent=H.gear||'N';q('#v32RPM').textContent=Math.round(V32.rpm).toLocaleString('fr-FR');const wheel=V32.speed/.352*60/(2*Math.PI);q('#v32WheelRPM').textContent=Math.round(wheel).toLocaleString('fr-FR');q('#v32Ratio').textContent=H.gear?(H.gears[H.gear-1].ratio*4.4).toFixed(2):'—';q('#v32PedalValue').textContent=Math.round(V32.throttle*100)+' %';q('#v32DrivePlay').textContent=V32.drive?'Ⅱ Pause':'▶ Reprendre';q('#v32DrivePlay').setAttribute('aria-pressed',V32.drive);q('#v32Auto').setAttribute('aria-pressed',V32.auto);q('#v32DriveRead').textContent=H.gear===0?'Point mort : le moteur tourne, aucun rapport ne transmet le couple aux roues.':V32.brake>.1?'Freinage : les roues ralentissent. Rétrograder relève le régime moteur pour une même vitesse.':V32.speed<8?'Départ : l’embrayage transmet progressivement le couple ; sa vitesse d’entrée et de sortie peut différer.':'Embrayage accouplé : monter un rapport réduit le régime moteur à vitesse de roue presque constante.';}
+function driveStep32(dt){
+ if(V32.auto){V32.elapsed+=dt;const t=V32.elapsed;V32.throttle=t<3?t/3*.8:t<25?.8:0;V32.brake=t<25?0:.48;if(t<25&&V32.rpm>10000&&H.gear<8&&t-(V32.lastShift||0)>1.6){wn(H.gear+1);V32.lastShift=t;}if(t>=25&&V32.rpm<6500&&H.gear>1&&t-(V32.lastShift||0)>1.0){wn(H.gear-1);V32.lastShift=t;}if(t>42||t>28&&V32.speed<.1){V32.auto=V32.drive=false;V32.throttle=V32.brake=0;}q32('#v32Throttle').value=V32.throttle*100;q32('#v32Brake').value=V32.brake*100;}
+ const ratio=H.gear?H.gears[H.gear-1].ratio*4.4:0;
+ const coupledRPM=V32.speed/.352*ratio*60/(2*Math.PI);const limiter=coupledRPM<12800?1:0;
+ const accel=(H.gear?V32.throttle*limiter*210*ratio/(800*.352):0)-(.10+.00055*V32.speed*V32.speed)-V32.brake*12;
+ V32.speed=Math.max(0,V32.speed+accel*dt);const omega=V32.speed/.352;V32.rpm=H.gear?Math.max(4000,omega*ratio*60/(2*Math.PI)):4000+V32.throttle*8000;
+ V32.rpm=Math.min(14000,V32.rpm);const slow=.005;V32.phase+=V32.rpm/60*2*Math.PI*dt*slow;V30.phase=V32.phase;v30EngineAt(V32.phase);V32.input.rotation.x=V32.phase;
+ V32.wheelPhase=(V32.wheelPhase||0)+omega*dt*slow;
+ const input=H.gear?V32.wheelPhase*ratio:V32.phase;
+ V32.clutchDiscs.forEach((g,i)=>g.rotation.x=i%2?input:V32.phase);H.gears.forEach(p=>{p.a.rotation.x=input;p.b.rotation.x=-input/p.ratio;});V32.output.rotation.x=-V32.wheelPhase*4.4;V32.crown.rotation.z=V32.wheelPhase;
+ for(const k of V32.corners){const factor=k.c.x>0?1-k.s*V32.diff:1;V32.spin[k.i]+=omega*factor*dt*slow;}
+ for(const {g,s}of V32.sideGears){const k=V32.corners.find(k=>k.c.x>0&&k.s===s);g.rotation.z=V32.spin[k.i]-V32.wheelPhase;}for(const g of V32.satellites)g.rotation.y=(V32.spin[2]-V32.spin[3])*.7;suspensionAt32();v30GearSync();driveRead32();
+}
+function schedule32(){if(!V32.raf)V32.raf=requestAnimationFrame(tick32);}
+function tick32(t){V32.raf=0;const dt=Math.min(.05,V32.last?(t-V32.last)/1000:0);V32.last=t;
+ if(document.hidden||H.tab!=='car'||Zt.offsetParent===null){V32.last=0;return;}
+ if(V32.suspRun>=0){V32.travel[V32.suspRun]=.5-.5*Math.cos(t*.002);q32('[data-v32-travel="'+V32.suspRun+'"]').value=V32.travel[V32.suspRun]*100;suspensionAt32();}
+ if(V32.drive)driveStep32(dt);ut();if(V32.suspRun>=0||V32.drive)schedule32();else V32.last=0;
+}
+const oldReset32=Oa;Oa=function(){if(V32.ready){V32.drive=V32.auto=false;V32.suspRun=-1;V32.travel.fill(0);V32.spin.fill(0);V32.speed=V32.throttle=V32.brake=V32.phase=V32.wheelPhase=V32.diff=0;V32.rpm=4000;V32.dragMode=false;at.enabled=true;}
+ oldReset32();if(V32.ready){suspensionAt32();V32.mounting.visible=['steering','drive'].includes(V31.current);V32.input.rotation.x=V32.output.rotation.x=V32.crown.rotation.z=0;for(const {g}of V32.sideGears)g.rotation.z=0;for(const g of V32.satellites)g.rotation.y=0;V32.clutchDiscs.forEach(g=>g.rotation.x=0);q32('#v32Throttle').value=q32('#v32Brake').value=q32('#v32Diff').value=0;Zt.querySelectorAll('[data-v32-travel]').forEach(r=>r.value=0);driveRead32();wheelMode32(false);suspRead32();}};
+const oldChoose32=v31Choose;v31Choose=function(topic){oldChoose32(topic);if(!V32.ready)return;q32('.lab-views').hidden=q32('.v31-camera').hidden=topic==='wheel';V32.mounting.visible=topic==='steering'||topic==='drive';if(topic==='drive')driveView32();if(topic==='wheel'){q32('#v31Camera').value='perspective';wheelMode32(false);}if(topic==='steering'){Et('v32rack');q32('#v31Info').open=false;}};
+function wheelMode32(on){V32.dragMode=on;at.enabled=!on;q32('#v32Rotate').setAttribute('aria-pressed',on);q32('#v32Orbit').setAttribute('aria-pressed',!on);q32('#v32WheelHint').textContent=on?'Glissez autour du centre du volant pour le tourner. Un simple toucher active une commande.':'Glissez pour regarder le volant sous tous les angles. Utilisez le curseur pour braquer.';}
+function suspRead32(){Zt.querySelectorAll('[data-v32-bounce]').forEach(b=>{b.textContent=V32.suspRun===+b.dataset.v32Bounce?'Ⅱ Pause':'▶ Animer';b.setAttribute('aria-pressed',V32.suspRun===+b.dataset.v32Bounce);});}
+function ui32(){
+ const q=q32,steer=q('[data-topic="steering"]');q('#v28Bump').parentElement.hidden=true;
+ const sec=document.createElement('section');sec.className='v32-susp';sec.innerHTML='<h4>Chaque roue, indépendamment</h4><p>Choisissez une roue. Les triangles pivotent, le poussoir actionne le basculeur et l’amortisseur se comprime.</p>'+Le.wheels.map((w,i)=>'<div class="v32-corner"><label>'+w.name+'<input type="range" data-v32-travel="'+i+'" min="0" max="100" value="0" aria-label="Débattement '+w.name+'"></label><button data-v32-bounce="'+i+'">▶ Animer</button></div>').join('')+'<p class="lab-small">Débattement amplifié. Les quatre coins sont isolés pour l’étude ; le couplage par les barres antiroulis n’est pas simulé.</p>';steer.append(sec);
+ sec.querySelectorAll('input').forEach(r=>r.oninput=()=>{V32.suspRun=-1;V32.travel[+r.dataset.v32Travel]=+r.value/100;suspensionAt32();suspRead32();ut();});sec.querySelectorAll('button').forEach(b=>b.onclick=()=>{const n=+b.dataset.v32Bounce;V32.suspRun=V32.suspRun===n?-1:n;suspRead32();schedule32();});
+ q('#v28SteerExpose').textContent='Voir les liaisons et les rotules';q('#v28SteerExpose').onclick=suspensionView32;
+ const chain=document.createElement('div');chain.className='v32-chain';steer.querySelector('h3').after(chain);for(const [id,name]of [['v32rack','Colonne → crémaillère'],['v32arms','Triangles → rotules'],['v32upright','Porte-moyeux'],['v32rocker','Poussoirs → amortisseurs'],['v32frame','Ancrages au châssis']])v31Button(name,()=>{suspensionView32();Et(id);},chain);
+ const wheel=q('[data-topic="wheel"]'),modes=document.createElement('div');modes.className='v32-wheel-modes';modes.innerHTML='<div class="v28-button-row"><button id="v32Orbit" aria-pressed="true">3D libre</button><button id="v32Rotate" aria-pressed="false">Tourner le volant</button></div><p id="v32WheelHint"></p><p class="lab-small">Palette supérieure gauche : −. Supérieure droite : +. Palettes inférieures : embrayage.</p>';wheel.querySelector('h3').after(modes);q('#v32Orbit').onclick=()=>wheelMode32(false);q('#v32Rotate').onclick=()=>wheelMode32(true);
+ const shifting=document.createElement('div');shifting.className='v28-button-row';wheel.querySelector('.v30-angle').after(shifting);const minus=v31Button('− Rétrograder',()=>x_('downshift'),shifting);minus.id='v32ShiftDown';const plus=v31Button('+ Monter un rapport',()=>x_('shift'),shifting);plus.id='v32ShiftUp';v31Button('Boost',()=>x_('boost'),shifting);v31Button('Overtake',()=>x_('overtake'),shifting);
+ for(const b of [...wheel.querySelectorAll('button')])if(b!==minus&&b!==plus&&(b.textContent==='Palette −'||b.textContent==='Palette +'||b.dataset.wheelCommand==='shift'||b.textContent==='Overtake · démo autorisée'))b.hidden=true;
+ const topic=['drive','Transmission complète','Accélérez, passez les rapports et suivez le mouvement du moteur jusqu’aux roues arrière.'];v31Topics.splice(7,0,topic);const nav=q('.v31-topic-grid'),b=document.createElement('button');b.dataset.v31Topic='drive';b.textContent=topic[1];b.setAttribute('aria-pressed','false');b.onclick=()=>v31Choose('drive');nav.insertBefore(b,nav.querySelector('[data-v31-topic="engine"]'));const opt=document.createElement('option');opt.value='drive';opt.textContent=topic[1];q('#v31Select').insertBefore(opt,q('#v31Select option[value="engine"]'));
+ const panel=document.createElement('div');panel.dataset.v31Section='drive';panel.hidden=true;panel.innerHTML='<h3>Du moteur aux roues</h3><div class="v32-chain" id="v32DriveChain"></div><div class="v32-readings"><div>Moteur<strong id="v32RPM">4 000</strong><small>tr/min illustratifs</small></div><div>Roues arrière<strong id="v32WheelRPM">0</strong><small>tr/min moyens</small></div></div><label class="v32-pedal">Accélérateur <output id="v32PedalValue">0 %</output><input id="v32Throttle" type="range" min="0" max="100" value="0"></label><label>Frein <input id="v32Brake" type="range" min="0" max="100" value="0"></label><div class="v32-shifts"><button id="v32Down">− Rapport</button><output id="v32Gear">1</output><button id="v32Up">Rapport +</button><button id="v32Neutral">N</button></div><p>Réduction totale : <strong id="v32Ratio"></strong> tours moteur pour un tour de roue, embrayage accouplé.</p><div class="v28-button-row"><button id="v32DrivePlay" aria-pressed="false">▶ Reprendre</button><button id="v32Auto" aria-pressed="false">▶ Démonstration guidée</button></div><p id="v32DriveRead" role="status"></p><label>Différentiel : comparer en virage <input id="v32Diff" type="range" min="-30" max="30" value="0"></label><p class="lab-small">Au centre, les deux roues arrière tournent à la même vitesse. En virage, leur moyenne reste liée à la sortie de boîte.</p><p class="lab-small">Mouvement ralenti × 200. Dynamique, couple et rapports illustratifs : ce n’est pas un simulateur de performances d’une F1 réelle.</p>';q('.v28-topic-controls').append(panel);
+ for(const [id,name]of [['engine','Moteur'],['gearbox','Embrayage → boîte'],['v32diff','Différentiel'],['v32upright','Moyeux → roues']])v31Button(name,()=>{Et(id);if(id==='v32diff'){at.target.set(1.7,.36,0);mt.position.set(2.5,1.35,1.9);at.update();ut();}else if(id==='engine')v30Look('engine');else if(id==='gearbox')Aa('gearbox');},q('#v32DriveChain'));
+ v31Button('Toute la F1',()=>bt('perspective'),q('#v32DriveChain'));v31Button('Vue de la transmission',driveView32,q('#v32DriveChain'));
+ q('#v32Throttle').oninput=e=>{V32.auto=false;V32.throttle=+e.target.value/100;V32.drive=true;V30.motorRun=H.gearRun=false;driveRead32();schedule32();};q('#v32Brake').oninput=e=>{V32.auto=false;V32.brake=+e.target.value/100;V32.drive=true;schedule32();};q('#v32Diff').oninput=e=>{V32.diff=+e.target.value/100;};
+ q('#v32Up').onclick=()=>{V32.auto=false;x_('shift');};q('#v32Down').onclick=()=>{V32.auto=false;x_('downshift');};q('#v32Neutral').onclick=()=>{V32.auto=false;wn(0);driveRead32();};q('#v32DrivePlay').onclick=()=>{V32.drive=!V32.drive;driveRead32();schedule32();};q('#v32Auto').onclick=()=>{if(V32.auto){V32.auto=V32.drive=false;}else{V32.elapsed=V32.lastShift=0;V32.speed=0;wn(1);V32.auto=V32.drive=true;}driveRead32();schedule32();};
+ for(const t of ['motor','gear'])v31Button('Relier le moteur aux roues →',()=>v31Choose('drive'),q('[data-topic="'+t+'"]'));
+ const note=document.createElement('p');note.className='lab-small';note.textContent='Les bras latéraux, axes et paliers rendent les attaches visibles. Leur construction est pédagogique ; les cinématiques et cotes d’usine ne sont pas publiques.';q('[data-topic="aero"]').append(note);
+}
+function init32(){
+ Pt.v32susp=['Mercedes-AMG F1 · The Suspension of a Formula One Car (exemple W10), consulté le 28/09/2026','https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car'];
+ Pt.v32gear=['Mercedes-AMG F1 · caractéristiques W17 2026, principes de direction et transmission, consulté le 28/09/2026','https://www.mercedesamgf1.com/f1-w17-2026-technical-specifications'];
+ Pt.v32wheel=['Mercedes-AMG F1 · How Does an F1 Steering Wheel Work? (exemple 2019), consulté le 28/09/2026','https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work'];
+ suspend32();drivetrain32();wheel32();ui32();V32.ready=true;wingBuild32();suspensionAt32();V32.mounting.visible=false;wheelMode32(false);driveRead32();Or();new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)&&(V32.drive||V32.suspRun>=0))schedule32();}).observe(q32('#labStage'));
 }
 
 })()})();
