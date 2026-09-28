@@ -7493,7 +7493,7 @@ function v30Schedule(){if(!V30.raf&&!document.hidden)V30.raf=requestAnimationFra
 function v30Tick(t){V30.raf=0;const dt=Math.min(.05,V30.last?(t-V30.last)/1000:0);V30.last=t;if(document.hidden||H.tab!=='car'||v30q('#f1Loupe').offsetParent===null){V30.last=0;return;}if(Math.abs(Le.target-Le.aero)>.001)v30AeroAt(Le.aero+(Le.target-Le.aero)*(1-Math.exp(-dt/.4)));if(V30.steerRun)ql(75*Math.sin(t*.00065));if(V30.motorRun){V30.phase+=dt*2.1;v30EngineAt(V30.phase);}v30GearSync();if(V30.pulse){for(const root of [V30.wheel,V30.mini])for(const g of root.children)if(g.userData.id===V30.pulse.id)g.position.z=t<V30.pulse.until?-.009:0;if(t>=V30.pulse.until)V30.pulse=null;}v30Under();ut();if(V30.steerRun||V30.motorRun||H.gearRun||V30.pulse||Math.abs(Le.target-Le.aero)>.001)v30Schedule();else V30.last=0;}
 const v30OldReset=Oa;Oa=function(){v30Close();V30.steerRun=V30.motorRun=false;V30.phase=0;v30OldReset();if(V30.ready){v30EngineAt(0);V30.pulse=null;for(const root of [V30.wheel,V30.mini])for(const g of root.children)g.position.z=0;for(const p of H.gears)p.a.rotation.x=p.b.rotation.x=0;v30AeroAt(0);v30Under();}};
 const v30OldTopic=Sd;Sd=function(topic){V30.steerRun=V30.motorRun=false;if(topic!=='gear')H.gearRun=false;v30Close();v30OldTopic(topic);if(topic==='motor')v30Expose();};
-function v30Init(){V30.ready=true;v30WingBuild('ferrari');v30Wheel();v30Engine();v30EngineAt(0);at.minPolarAngle=.025;at.maxPolarAngle=Math.PI-.025;at.minDistance=.4;at.maxDistance=30;at.addEventListener('change',()=>{v30Under();ut();});const light=It.children.find(o=>o.isDirectionalLight)?.clone();if(light){light.position.set(0,-4,2);light.intensity=1.2;light.castShadow=false;It.add(light);}v30UI();ql(0);new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))v30Schedule();}).observe(v30q('#labStage'));}
+function v30Init(){V30.ready=true;v30WingBuild('ferrari');v30Wheel();v30Engine();v30EngineAt(0);at.minPolarAngle=.025;at.maxPolarAngle=Math.PI-.025;at.minDistance=.4;at.maxDistance=30;at.addEventListener('change',()=>{v30Under();ut();});const light=It.children.find(o=>o.isDirectionalLight)?.clone();if(light){light.position.set(0,-4,2);light.intensity=1.2;light.castShadow=false;It.add(light);}v30UI();queueMicrotask(v31Init);ql(0);new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting))v30Schedule();}).observe(v30q('#labStage'));}
 function v30Buttons(parent,items){const div=document.createElement('div');div.className='v28-button-row';for(const [label,fn]of items){const b=document.createElement('button');b.textContent=label;b.onclick=fn;div.append(b);}parent.append(div);return div;}
 function v30UI(){const q=v30q;q('#v28Wing').innerHTML='<option value="ferrari">Ferrari · SF-26, étude 2026</option><option value="redbull">Red Bull · RB22, Miami 2026</option>';q('#v28Wing').onchange=e=>yd(e.target.value);const focus=document.createElement('div');focus.className='v30-focus';q('.lab-views').after(focus);v30Buttons(focus,[['Aileron avant · détail',()=>v30Look('front')],['Aileron arrière · détail',()=>v30Look('rear')],['Sous la voiture',()=>v30Look('under')]]);
 v30Buttons(q('[data-topic="steering"]'),[['▶ Animer gauche / droite',()=>{V30.steerRun=!V30.steerRun;v30Schedule();}]]);q('#v28Steer').oninput=e=>{V30.steerRun=false;ql(e.target.value);};q('#v28SteerCenter').onclick=()=>{V30.steerRun=false;ql(0);};
@@ -7505,5 +7505,123 @@ q('.lab-intro').insertAdjacentHTML('beforeend','<p class="v30-note">Atelier V30 
 Rn=function(u){if(!z.demoLead)return;u=Math.max(0,Math.min(1,u));H.demoProgress=u;const ease=x=>{x=Math.max(0,Math.min(1,x));return x*x*x*(x*(6*x-15)+10);},phase=Math.min(4,Math.floor(u*5)),gain=.3*ease(u/.3)+(H.demoBoost?11.5:2)*ease((u-.49)/.35),lane=2.45*ease((u-.34)/.16)*(H.demoBoost?1-ease((u-.86)/.13):1);Ae.car.position.set(-gain,0,lane);Le.target=u>.2&&u<.86?1:0;z.hybridMode=phase===4?'regen':phase>=2&&H.demoBoost?'boost':'hold';z.soc=72-(H.demoBoost?30:8)*ease((u-.4)/.4)+9*ease((u-.86)/.14);z.demoLead.traverse(o=>{if(o.userData.v26Aero)o.rotation.z=(o.userData.closedAngle??.4)+(o.userData.openAngle-(o.userData.closedAngle??.4))*Le.aero;});const center=(-gain-5.8)/2;at.target.set(center,.35,.9);mt.position.set(center-.6,8.2,10.8);mt.position.sub(at.target).multiplyScalar(Math.max(1,1.25/mt.aspect)).add(at.target);at.update();if(z.demoWake)z.demoWake.visible=u<.54;v30Road(u);v30Schedule();Hr();Gr();const badge=v30q('#v28PassBadge');badge.hidden=false;badge.innerHTML='<span>BLEUE · VOITURE DEVANT</span><span class="boost">ROUGE · ATTAQUANT</span><span>BATTERIE '+Math.round(z.soc)+' %</span>';v30q('#v28PassProgress').value=u*100;v30q('#labMode').textContent='DÉPASSEMENT · ÉTAPE '+(phase+1)+'/5';const names=['Se rapprocher dans le sillage','Aéro active sur les deux voitures','Demander l’aide électrique','Se décaler puis dépasser','Freiner et récupérer'];const texts=['La rouge suit la bleue. L’aspiration réduit sa résistance à l’air en ligne droite ; elle ne crée pas de puissance moteur.','Dans cette zone autorisée, les deux voitures ouvrent leurs volets. La traînée diminue, mais ce bénéfice ne concerne pas seulement l’attaquant.',H.demoBoost?'La rouge bénéficie ici du mode Overtake, supposé autorisé. L’aide électrique mobilise sa réserve : la batterie se décharge.':'L’aide supplémentaire est désactivée. La rouge se rapproche moins dans cette comparaison illustrative.',H.demoBoost?'La rouge se place sur une trajectoire parallèle avant de passer. Elle reste décalée tant que les voitures sont côte à côte.':'La rouge se décale mais reste derrière dans cet exemple. Il ne s’agit pas d’un calcul de performance réel.',H.demoBoost?'Une fois entièrement devant, la rouge se rabat. Les volets reviennent en position d’appui. Le freinage recharge partiellement la batterie.':'La rouge reste sur la ligne extérieure. Les volets reprennent leur position d’appui et le freinage récupère de l’énergie.'];v30q('#v28PassRead').innerHTML='<strong>'+(phase+1)+' · '+names[phase]+'</strong><p>'+texts[phase]+'</p><div class="v30-meters"><span>AÉRO<br><b>'+(Le.target?'FAIBLE TRAÎNÉE':'APPUI')+'</b></span><span>ÉLECTRICITÉ<br><b>'+(z.hybridMode==='boost'?'DÉPLOIEMENT':z.hybridMode==='regen'?'RÉCUPÉRATION':'RÉSERVE')+'</b></span><span>ROUGE<br><b>'+(gain>5.8?'DEVANT':'DERRIÈRE')+'</b></span></div>';document.querySelectorAll('[data-pass-phase]').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.passPhase===phase));ut();};
 function v30Road(u){if(!V30.road){V30.road=new j.Group;It.add(V30.road);dr(V30.road,-5,-.012,1.1,34,.022,6.8,0x35424d);V30.markings=[];for(let k=0;k<24;k++)V30.markings.push(dr(V30.road,-24+k*1.6,.003,1.22,.65,.006,.035,0xc4c7c4));for(const zz of [-1.9,4.2])dr(V30.road,-5,.003,zz,34,.006,.075,0xf3f2e5);}V30.markings.forEach((m,k)=>m.position.x=-24+((k*1.6+u*32)%38.4));}
 const v30OldStop=mr;mr=function(){v30OldStop();if(V30.road){It.remove(V30.road);V30.road.traverse(o=>{if(o.isMesh){o.geometry.dispose();o.material.dispose();}});V30.road=null;}};
+
+
+/* V31 — one topic, one workspace, one contextual control panel. */
+const V31={ready:false,current:'explore',changing:false};
+const v31Topics=[
+ ['explore','Vue d’ensemble','Tournez la voiture, puis touchez une pièce pour découvrir sa fonction.'],
+ ['tyres','Pneus et freins','Choisissez une gomme, observez ses sculptures, puis découvrez le frein derrière chaque roue.'],
+ ['steering','Direction','Tournez les roues et observez la direction et les suspensions.'],
+ ['aero','Ailerons et dépassement','Comparez les ailerons, puis suivez les cinq étapes du dépassement.'],
+ ['wheel','Volant','Tournez le volant et essayez ses commandes en regardant son écran.'],
+ ['motor','Moteur dans la F1','Animez le V6 à son emplacement et suivez les circuits d’air, de carburant et de refroidissement.'],
+ ['gear','Boîte de vitesses','Sélectionnez un rapport et observez la transmission dans la voiture ou en gros plan.'],
+ ['engine','Comprendre les moteurs','Suivez le cycle d’un cylindre, puis comparez les architectures.'],
+ ['energy','Énergie hybride','Choisissez une situation pour suivre la charge et la décharge de la batterie.'],
+ ['build','Assemblage','Retrouvez la voiture complète, étape par étape.']
+];
+const v31q=s=>Zt.querySelector(s);
+function v31Fold(label,...nodes){const d=document.createElement('details');d.className='v31-fold';const s=document.createElement('summary');s.textContent=label;d.append(s,...nodes.filter(Boolean));return d;}
+function v31Button(label,fn,parent){const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=fn;parent.append(b);return b;}
+const v31OldTopic=Sd,v31OldTab=An,v31OldDetail=Et;
+Sd=function(topic){if(V31.ready&&!V31.changing)return v31Choose(topic);return v31OldTopic(topic);};
+An=function(tab){if(V31.ready&&!V31.changing)return v31Choose(tab==='car'?'explore':tab);return v31OldTab(tab);};
+Et=function(part){v31OldDetail(part);if(!V31.ready)return;const fold=v31q('#v31Info');fold.querySelector('summary').textContent='Comprendre : '+(kt[part]?.[0]||'la pièce');if(!V31.changing)fold.open=true;};
+function v31Choose(topic){
+ if(!V31.ready||!v31Topics.some(t=>t[0]===topic))return;
+ V31.changing=true;V31.current=topic;
+ // A change of theme stops the previous demonstration. The chosen tyre compound is retained.
+ Oa();Mn('none');const standalone=topic==='engine'||topic==='energy';
+ v31OldTab(standalone?topic:'car');
+ if(!standalone){v31OldTopic(topic==='tyres'?'explore':topic);if(topic==='tyres')Et('tyre');if(topic==='explore')Et('front');}
+ v31q('.lab').dataset.v31Current=topic;
+ Zt.querySelectorAll('[data-v31-section]').forEach(e=>e.hidden=e.dataset.v31Section!==topic);
+ Zt.querySelectorAll('[data-v31-topic]').forEach(b=>{b.setAttribute('aria-pressed',b.dataset.v31Topic===topic);});
+ v31q('#v31Select').value=topic;v31q('#v31Camera').value='perspective';
+ const n=v31Topics.findIndex(t=>t[0]===topic),item=v31Topics[n];
+ v31q('#v31Title').textContent=item[1];v31q('#v31Guide').textContent=item[2];
+ v31q('#v31Count').textContent=(n+1)+' / '+v31Topics.length;
+ v31q('#v31Prev').disabled=n===0;v31q('#v31Next').disabled=n===v31Topics.length-1;
+ v31q('#v31Next').textContent=n===v31Topics.length-1?'Parcours terminé':v31Topics[n+1][1]+' →';
+ v31q('#v31Info').open=false;
+ v31q('#v31ResetStatus').textContent='';v31UpdateButtons();
+ requestAnimationFrame(()=>{Ol();ut();});V31.changing=false;
+}
+function v31UpdateButtons(){
+ const motor=v31q('#v31MotorPlay'),steer=v31q('#v31SteerPlay');
+ if(motor){motor.textContent=V30.motorRun?'Ⅱ Mettre le moteur en pause':'▶ Animer le moteur';motor.setAttribute('aria-pressed',V30.motorRun);}
+ if(steer){steer.textContent=V30.steerRun?'Ⅱ Mettre la direction en pause':'▶ Animer gauche / droite';steer.setAttribute('aria-pressed',V30.steerRun);}
+ Zt.querySelectorAll('[data-wing-state]').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.wingState===Le.target));
+}
+function v31Init(){
+ if(V31.ready)return;
+ const q=v31q,lab=q('.lab');lab.classList.add('v31-lab');
+ q('.lab-head h2 span').textContent='Un thème. Une manipulation. Une explication.';
+ q('.lab-intro').textContent='Choisissez un thème pour découvrir la voiture à votre rythme. Les commandes utiles restent à côté du modèle.';
+ q('.lab-head').hidden=true;
+ const nav=document.createElement('nav');nav.className='v31-nav';nav.setAttribute('aria-label','Choisir un thème de F1 à la loupe');
+ nav.innerHTML='<label class="v31-mobile-menu">Que voulez-vous explorer ?<select id="v31Select">'+v31Topics.map(([id,title])=>`<option value="${id}">${title}</option>`).join('')+'</select></label><div class="v31-topic-grid">'+v31Topics.map(([id,title])=>`<button type="button" data-v31-topic="${id}" aria-pressed="false">${title}</button>`).join('')+'</div>';
+ q('.lab-intro').after(nav);
+ nav.querySelectorAll('button').forEach(b=>b.onclick=()=>v31Choose(b.dataset.v31Topic));q('#v31Select').onchange=e=>v31Choose(e.target.value);
+ const heading=document.createElement('header');heading.className='v31-heading';heading.innerHTML='<div><h3 id="v31Title"></h3><p id="v31Guide"></p></div><div class="v31-reset-area"><span id="v31ResetStatus" role="status"></span></div>';nav.after(heading);
+ const reset=q('#v28Reset');reset.textContent='↺ Réinitialiser l’atelier';heading.lastElementChild.append(reset);
+ reset.onclick=()=>{const compound=Fr;v31Choose(V31.current);kl(compound);q('#v31ResetStatus').textContent='Atelier réinitialisé · gomme conservée';};
+ // Keep legacy nodes available to their event handlers, but remove duplicate menus from the UI.
+ q('#v28Tabs').hidden=true;q('.v28-topicbar').hidden=true;q('.v30-focus').hidden=true;
+ const layout=q('.lab-layout'),viewer=q('.lab-viewer'),detail=q('#labDetail'),control=q('.v28-topic-controls');
+ const side=document.createElement('aside');side.className='v31-sidebar';side.setAttribute('aria-label','Commandes du thème');layout.append(side);side.append(control);
+ const info=v31Fold('Comprendre la pièce sélectionnée',detail);info.id='v31Info';side.append(info);
+ const views=q('.lab-views');viewer.prepend(views);views.querySelector('[data-view="wheel"]').hidden=true;
+ v31Button('Dessous',()=>v30Look('under'),views);
+ const mobileView=document.createElement('label');mobileView.className='v31-camera';mobileView.innerHTML='Angle de vue <select id="v31Camera"><option value="perspective">3D libre</option><option value="top">Dessus</option><option value="side">Profil</option><option value="front">Face</option><option value="rear">Arrière</option><option value="under">Dessous</option></select>';views.after(mobileView);q('#v31Camera').onchange=e=>e.target.value==='under'?v30Look('under'):bt(e.target.value);
+
+ const explore=document.createElement('div');explore.dataset.v31Section='explore';explore.innerHTML='<h3>Explorer la voiture</h3><p>Touchez la carrosserie, une roue ou un aileron pour ouvrir sa fiche.</p>';control.prepend(explore);
+ const controls=q('.lab-controls');const layers=controls.children[0],parts=controls.children[1];
+ layers.querySelector('h3').textContent='Afficher ou retirer les couches';parts.querySelector('h3').textContent='Trouver une pièce';
+ parts.querySelector('h3').remove();explore.append(parts);
+ const advanced=v31Fold('Retirer des pièces et voir l’intérieur',q('.lab-toolbar'),layers,q('.lab-scan'),viewer.querySelector(':scope > .lab-small'));explore.append(advanced);controls.hidden=true;
+ // Tyres: the existing event-delegated workshop is moved intact.
+ const tyres=document.createElement('div');tyres.dataset.v31Section='tyres';tyres.innerHTML='<h3>Choisir les pneus</h3><p>La gomme sélectionnée s’applique aux quatre pneus.</p>';control.append(tyres);
+ const workshop=q('.v24-workshops');tyres.append(workshop);workshop.querySelector('[data-engine-open]').hidden=true;
+ const compoundBlock=workshop.children[1];workshop.prepend(compoundBlock);compoundBlock.querySelector('.lab-eyebrow').textContent='GOMME ET CONDITIONS DE PISTE';
+ const names={soft:['Tendre','Soft · sec'],medium:['Médium','Medium · sec'],hard:['Dur','Hard · sec'],inter:['Intermédiaire','Piste humide'],wet:['Pluie','Piste très mouillée']};
+ workshop.querySelectorAll('[data-compound]').forEach(b=>{const n=names[b.dataset.compound];b.innerHTML='<i aria-hidden="true"></i><span><strong>'+n[0]+'</strong><small>'+n[1]+'</small></span><b class="v31-check" aria-hidden="true">✓</b>';b.setAttribute('aria-label',n.join(' · '));});
+ q('#v24TyreText').setAttribute('aria-live','polite');
+ workshop.querySelector('.v24-shortcuts').previousElementSibling.textContent='OBSERVER DE PRÈS';
+ workshop.querySelector('[data-closeup="tyre"]').textContent='Gros plan pneu';workshop.querySelector('[data-closeup="brake"]').textContent='Gros plan frein';
+ v31Button('Revoir les quatre roues',()=>{Oa();Et('tyre');},workshop.querySelector('.v24-shortcuts'));
+ const mechanics=q('.v25-mechanics'),wheelBlock=mechanics.querySelector('.v25-control-grid').children[0];tyres.append(wheelBlock);
+ mechanics.querySelector('.v25-control-grid').hidden=true;
+ // Fluid circuits belong with the engine. Direct button handlers survive reparenting.
+ const motor=q('[data-topic="motor"]');motor.append(v31Fold('Suivre les flux : air, carburant et refroidissement',mechanics));
+ q('.v26-pass').hidden=true;
+ for(const id of ['v25WheelBack','v25WheelFront','v26Cockpit','v26WheelOnly'])q('[data-topic="wheel"]').append(q('#'+id));
+ q('[data-topic="steering"]').append(q('#v25SuspView'));
+ q('#v26HybridLink').hidden=true;
+ const focus=q('.v30-focus').querySelectorAll('button');const aero=q('[data-topic="aero"]');aero.querySelector('h3').after(focus[0],focus[1]);
+ q('.v26-studio-tools').hidden=true;
+ // The overtake sequence is a deliberate second step within aerodynamics.
+ const pass=q('.v28-pass-controls');aero.append(v31Fold('Étape suivante : comprendre le dépassement',pass));
+ for(const fold of Zt.querySelectorAll('.v28-tool-fold'))fold.hidden=true;
+ // Keep wheel essentials first, secondary commands one click away.
+ const wheel=q('[data-topic="wheel"]'),row=wheel.querySelector('.v28-button-row'),secondary=document.createElement('div');secondary.className='v28-button-row';
+ for(const b of [...row.children])if(!['display','radio','pit','plus','minus','shift'].includes(b.dataset.wheelCommand))secondary.append(b);
+ row.after(v31Fold('Autres commandes du volant',secondary));
+ // A single reading-level control for the selected part, instead of another toolbar.
+ const level=q('#v28Level').parentElement;info.insertBefore(level,detail);level.className='v31-level';
+ const sources=q('.lab-sources');lab.append(sources);sources.querySelector('summary').textContent='À propos du modèle et sources';
+ // Long historical engine notes are available without stacking a second workshop.
+ const history=q('#v28EngineHistory');const historyFold=v31Fold('Quelles F1 utilisaient ce moteur ?');history.before(historyFold);historyFold.append(history);const enginePanel=q('#v28Panel-engine');if(typeof Ua!=='undefined'&&Ua)enginePanel.append(Ua);
+ const footer=document.createElement('div');footer.className='v31-progress';footer.innerHTML='<button id="v31Prev" type="button">← Thème précédent</button><span id="v31Count"></span><button id="v31Next" type="button"></button>';sources.before(footer);
+ q('#v31Prev').onclick=()=>{const n=v31Topics.findIndex(t=>t[0]===V31.current);if(n>0)v31Choose(v31Topics[n-1][0]);};
+ q('#v31Next').onclick=()=>{const n=v31Topics.findIndex(t=>t[0]===V31.current);if(n<v31Topics.length-1)v31Choose(v31Topics[n+1][0]);};
+ const playMotor=q('[data-topic="motor"] button'),playSteer=[...q('[data-topic="steering"]').querySelectorAll('button')].find(b=>b.textContent.includes('Animer gauche'));
+ for(const [b,id] of [[playMotor,'v31MotorPlay'],[playSteer,'v31SteerPlay']]){b.id=id;const old=b.onclick;b.onclick=e=>{old(e);v31UpdateButtons();};}
+ for(const b of Zt.querySelectorAll('[data-wing-state]')){const old=b.onclick;b.onclick=e=>{old(e);v31UpdateButtons();};}
+ for(const id of ['v28Steer','v30WheelAngle']){const el=q('#'+id),old=el.oninput;el.oninput=e=>{old(e);v31UpdateButtons();};}
+ const center=q('#v28SteerCenter'),oldCenter=center.onclick;center.onclick=e=>{oldCenter(e);v31UpdateButtons();};
+ V31.ready=true;v31Choose('explore');
+}
 
 })()})();
