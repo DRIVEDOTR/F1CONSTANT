@@ -1,24 +1,61 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-28T00:44:06.893481+00:00",
+  "collectedAt": "2026-09-28T06:45:17.976817+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-09-28T00:44:06.893481+00:00"
+      "checkedAt": "2026-09-28T06:45:17.976817+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-28T00:44:06.893481+00:00"
+      "checkedAt": "2026-09-28T06:45:17.976817+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "9807ca8bb69431bc8143",
+      "title": "How to follow Bahrain Grand Prix in Malaysia on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckz7zzy4d995o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-28T06:33:20+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
+      "summaryAttemptAt": "2026-09-28T06:45:18.743855+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "1feac4fac473ef94e6da",
+      "title": "Leclerc : \"McLaren et Red Bull ont franchi un cap, pas Ferrari\"",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-mclaren-red-bull-franchi-cap/10859504/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-28T06:00:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
+      "summaryAttemptAt": "2026-09-28T06:45:45.287637+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc : \"McLaren et Red Bull ont franchi un cap, pas Ferrari\"",
+      "summaryFr": "Charles Leclerc affirme que McLaren et Red Bull ont progressé sur Ferrari en termes de performance du châssis après le GP d'Azerbaïdjan. Les écuries ont apporté des évolutions importantes sur les pontons, le fond plat et le diffuseur. Le package de McLaren inclut également un capot moteur modifié.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-28T06:46:31.439498+00:00"
+    },
     {
       "id": "23529f8deee4193ec03d",
       "title": "Suspendre Colapinto ? \"Trop sévère\" selon Russell, Verstappen et Hadjar",
@@ -81,23 +118,24 @@
     },
     {
       "id": "6f1ef8c934d69b2eb173",
-      "title": "Horner a distraction for Ferrari says Vasseur",
+      "title": "Horner a distraction for Ferrari, says Vasseur",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cvwyz791096jo",
       "source": "BBC Sport",
       "language": "en",
       "publishedAt": "2026-09-27T11:44:25+00:00",
       "topics": [
+        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-09-27T12:39:21.791108+00:00",
-      "summaryAttemptAt": "2026-09-27T12:40:05.619707+00:00",
+      "summaryAttemptAt": "2026-09-28T06:46:31.439524+00:00",
       "summaryAttempts": 1,
-      "titleFr": "Vasseur accuse Horner de créer une distraction pour Ferrari",
-      "summaryFr": "Le principal de Ferrari, Frederic Vasseur, affirme que Christian Horner, en cherchant un nouveau poste, cause une distraction pour l'équipe. Aucune preuve ne soutient cette affirmation.",
+      "titleFr": "Horner devient une distraction pour Ferrari selon Vasseur",
+      "summaryFr": "Le directeur de Ferrari, Frederic Vasseur, affirme que Christian Horner, en cherchant un nouveau poste, constitue une distraction pour l'équipe. Aucune preuve n'est fournie sur les intentions ou les actions de Horner.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-09-27T12:40:39.563794+00:00"
+      "summaryAt": "2026-09-28T06:47:07.742079+00:00"
     },
     {
       "id": "16833fcd70d2fc41bb26",
@@ -3462,10 +3500,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
-    "pending": 12,
-    "checkedAt": "2026-09-28T00:47:02.357118+00:00"
+    "created": 2,
+    "failed": 1,
+    "pending": 13,
+    "checkedAt": "2026-09-28T06:47:07.742172+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
