@@ -43,3 +43,6 @@
 .v28-topic-controls .lab-small,.v28-topic-controls p,.v28-energy-decisions p{color:#c8dce8}
 .v28-topic-controls .lab-small{font-size:12px}
 .v28-pass-badge{position:absolute;left:16px;right:16px;top:68px;display:flex;flex-wrap:wrap;gap:6px;pointer-events:none}.v28-pass-badge span{background:#1a2c3deb;color:#fff;padding:7px 9px;border-radius:7px;font-size:10px;font-weight:800;letter-spacing:.02em}.v28-pass-badge .boost{background:#ad480c;color:#fff8d0}
+
+/* V30 */
+.v30-focus{margin:10px 0}.v30-angle{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px;background:#eef3f7;border-radius:12px}.v30-angle input{flex:1;min-width:140px}.v30-note{font-size:12px!important;color:#5a6878}.v30-meters{display:flex;flex-wrap:wrap;gap:8px}.v30-meters span{flex:1;min-width:95px;background:#e8eff5;padding:10px;border-radius:10px;font-size:10px;color:#46596d}.v30-meters b{font-size:11px;color:#163047}.v28-pass-badge{max-width:calc(100% - 20px);flex-wrap:wrap;pointer-events:none}.v28-pass-badge span{font-size:10px}.v28-topic-controls [hidden]{display:none!important}@media(max-width:600px){.v30-meters span{min-width:75px}.v28-pass-badge span{font-size:8px;padding:4px}}
