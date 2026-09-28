@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0b0d12">
   <title>F1 CONSTANT</title>
   <link rel="stylesheet" href="assets/site.css?v=28">
-<link rel="stylesheet" href="assets/loupe.css?v=31"><link rel="stylesheet" href="assets/news.css?v=22">
+<link rel="stylesheet" href="assets/loupe.css?v=32"><link rel="stylesheet" href="assets/news.css?v=22">
 <style>
 /* V27 — compte à rebours autonome ; aucun autre style du site modifié. */
 #nextGP{display:flex;align-items:center;gap:24px;margin:0 0 24px;padding:24px 28px;border-radius:24px;background:linear-gradient(115deg,#111621 35%,#292333);color:#fff;box-shadow:0 12px 30px #18203318;min-width:0;position:relative;overflow:hidden;border:1px solid #ffffff20}
@@ -22,6 +22,11 @@
 #nextGP a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:560px){#nextGP{gap:14px;padding:20px 16px;border-radius:20px;align-items:flex-start}#nextGP .gp-count{min-width:90px;padding:14px 10px}#nextGP .gp-label{font-size:9px;letter-spacing:1px}#nextGP h2{font-size:20px}#nextGP time{font-size:12px}}
 @media(max-width:350px){#nextGP{gap:10px;padding:18px 12px}#nextGP .gp-count{min-width:76px;padding:12px 6px}#nextGP h2{font-size:18px}}
+#nextGP .gp-following{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0;margin:16px 0 0;list-style:none}
+#nextGP .gp-following:empty{display:none}#nextGP .gp-following li{min-width:0;padding:13px 15px;border:1px solid #ffffff24;background:#ffffff09;border-radius:12px}
+#nextGP .gp-following small{display:block;text-transform:uppercase;font-size:10px;letter-spacing:1px;color:#f4b0b4;margin-bottom:6px}#nextGP .gp-following strong{display:block;font-size:15px;line-height:1.4;color:#fff}#nextGP .gp-following time{font-size:12px;color:#dce4ef;margin-top:5px}
+@media(max-width:650px){#nextGP{flex-wrap:wrap}#nextGP .gp-info{flex-basis:100%}#nextGP .gp-count{display:flex;align-items:center;gap:12px;text-align:left;padding:10px 14px}#nextGP .gp-count strong{font-size:28px}#nextGP .gp-count span{margin:0}}
+@media(max-width:420px){#nextGP .gp-following{grid-template-columns:1fr;gap:8px}}
 </style>
 </head>
 <body>
@@ -84,13 +89,13 @@
       <section class="view active" id="view-home">
         <section id="nextGP" aria-label="Compte à rebours du prochain Grand Prix">
           <div class="gp-count" role="status" aria-live="polite" aria-atomic="true"><strong id="gpDays">—</strong><span id="gpUnit">Calendrier</span></div>
-          <div class="gp-info"><p class="gp-label" id="gpLabel">Prochain Grand Prix</p><h2 id="gpName">Recherche du prochain rendez-vous…</h2><time id="gpDate"></time><p class="gp-source"><span id="gpCalendarStatus">Lecture du calendrier…</span> · <a id="gpCalendarSource" href="https://www.formula1.com/en/racing/2026" target="_blank" rel="noopener">Calendrier</a></p></div>
+          <div class="gp-info"><p class="gp-label" id="gpLabel">Prochain Grand Prix</p><h2 id="gpName">Recherche du prochain rendez-vous…</h2><time id="gpDate"></time><ol id="gpFollowing" class="gp-following" aria-label="Les deux Grands Prix suivants"></ol><p class="gp-source">Dates de course (UTC) · <span id="gpCalendarStatus">Lecture du calendrier…</span> · <a id="gpCalendarSource" href="https://www.formula1.com/en/racing/2026" target="_blank" rel="noopener">Calendrier</a></p></div>
         </section>
         <script>
         (() => {
           'use strict';
           const $ = id => document.getElementById(id);
-          // Calendriers F1 et Jolpica consultés le 21 septembre 2026 : courses restantes.
+          // Calendriers F1 et Jolpica consultés le 28 septembre 2026 : courses restantes.
           // Jolpica référence Las Vegas au 22 novembre (date UTC, 21 sur place).
           // Dates de COURSE, pas début du week-end ni séance de qualification.
           const fallback = [
@@ -141,10 +146,12 @@
           function upcoming(now) {
             const day = todayNumber(now);
             return [...calendars.entries()].flatMap(([year, item])=>item.races.map(r=>({...r, year, item})))
-              .filter(r=>dayNumber(r.date)>=day).sort((a,b)=>a.date.localeCompare(b.date))[0];
+              .filter(r=>dayNumber(r.date)>=day).sort((a,b)=>a.date.localeCompare(b.date)).slice(0,3);
           }
           function render() {
-            const now = new Date(), race = upcoming(now);
+            const now = new Date(), nextRaces = upcoming(now), race = nextRaces[0];
+            const following = $('gpFollowing');following.replaceChildren();
+            nextRaces.slice(1).forEach((r,i)=>{const li=document.createElement('li'),label=document.createElement('small'),name=document.createElement('strong'),date=document.createElement('time');label.textContent=i===0?'Ensuite':'Puis';name.textContent=r.name;date.dateTime=r.date;date.textContent=new Intl.DateTimeFormat('fr-FR',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(r.date+'T12:00:00Z'));li.append(label,name,date);following.append(li);});
             if (!race) {
               $('gpDays').textContent='—';$('gpUnit').textContent='À venir';
               $('gpLabel').textContent='Prochain Grand Prix';
@@ -163,7 +170,7 @@
             $('gpDate').textContent='Course · '+new Intl.DateTimeFormat('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(race.date+'T12:00:00Z'));
             $('gpDate').title='Date du calendrier Jolpica (référence UTC ; peut différer de la date sur le circuit pour une course nocturne).';
             const item=race.item;
-            $('gpCalendarStatus').textContent=item.origin==='official'?'Calendrier de secours · vérifié le 21/09/2026':
+            $('gpCalendarStatus').textContent=item.origin==='official'?'Calendrier de secours · vérifié le 28/09/2026':
               (item.origin==='live'?'Calendrier actualisé':'Calendrier mémorisé')+' · '+new Date(item.fetched).toLocaleDateString('fr-FR');
             $('gpCalendarSource').href='https://www.formula1.com/en/racing/'+race.year;
           }
@@ -185,9 +192,9 @@
             busy=true;lastAttempt=Date.now();
             const year=new Date().getFullYear();
             try {await fetchYear(year);} catch (_) {/* Conserver le dernier calendrier utilisable. */}
-            // La saison suivante n’est demandée que si la saison courante est terminée.
+            // La saison suivante complète les trois prochains rendez-vous si nécessaire.
             const next=upcoming(new Date());
-            if (!next || next.year>year) {try {await fetchYear(year+1);} catch (_) {}}
+            if (next.length<3 || next[0]?.year>year) {try {await fetchYear(year+1);} catch (_) {}}
             busy=false;render();
           }
           render();refresh();
@@ -908,5 +915,5 @@
 <section class="view" id="view-loupe"><div id="f1Loupe"></div></section><section class="view" id="view-news"><div class="f1-news"><header class="news-head"><div><span class="news-eyebrow">LE JOURNAL DU PADDOCK</span><h2>Actualités &amp; historique</h2></div><button class="news-action" data-news-refresh>↻ Actualiser</button></header><p class="news-status" data-news-status role="status" aria-live="polite"></p><div class="news-legend news-tags" aria-label="Couleurs des thèmes"><span data-topic="pilotes">Pilotes</span><span data-topic="ecuries">Écuries</span><span data-topic="voitures">Voitures &amp; technique</span><span data-topic="competition">F1 en général</span></div><div class="news-archive-controls"><label>Rechercher<input id="newsSearch" type="search" placeholder="Pilote, écurie, moteur…"></label><label>Thème<select id="newsTopic"><option value="">Tous les thèmes</option><option value="pilotes">Pilotes</option><option value="ecuries">Écuries</option><option value="voitures">Voitures &amp; technique</option><option value="competition">F1 en général</option></select></label><label>Période<select id="newsArchivePeriod"><option value="all">Tout l’historique</option><option value="today">Aujourd’hui</option><option value="week">7 derniers jours</option></select></label><label>Mois<select id="newsMonth"><option value="">Tous les mois</option></select></label></div><p class="news-count" id="newsArchiveCount"></p><div class="news-grid" id="newsArchiveCards"></div><div class="news-bottom"><button class="news-more" id="newsMore">Afficher 12 titres de plus</button></div><p class="news-note news-notice" id="newsArchiveStart"></p><p class="news-note">Résumés en français, avec indication du texte disponible : article ou introduction. Les thèmes peuvent se cumuler. Une rumeur ou une opinion reste attribuée à sa source. Les résumés automatiques peuvent comporter des erreurs.</p><p class="news-note">Sources : <a href="https://fr.motorsport.com/f1/news/" target="_blank" rel="noopener">Motorsport.com France</a> · <a href="https://www.bbc.com/sport/formula1" target="_blank" rel="noopener">BBC Sport</a>. Horaires affichés à l’heure de Paris. Les sources restent consultables dans « Source et détails ».</p></div></section></main>
   </div>
   <script src="assets/site.js?v=28"></script>
-<script src="assets/loupe.js?v=31"></script><script src="assets/news.js?v=29"></script></body>
+<script src="assets/loupe.js?v=32"></script><script src="assets/news.js?v=29"></script></body>
 </html>
