@@ -1,24 +1,151 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-29T06:43:02.849528+00:00",
+  "collectedAt": "2026-09-29T12:44:17.509383+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-29T06:43:02.849528+00:00"
+      "checkedAt": "2026-09-29T12:44:17.509383+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-29T06:43:02.849528+00:00"
+      "checkedAt": "2026-09-29T12:44:17.509383+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "fed69e69d6085a5be695",
+      "title": "Fernando Alonso a tranché : il reste chez Aston Martin",
+      "url": "https://fr.motorsport.com/f1/news/fernando-alonso-lance-stroll-aston-martin-2027/10860027/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-29T11:19:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
+      "summaryAttemptAt": "2026-09-29T12:44:18.411446+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Fernando Alonso tranché : il reste chez Aston Martin",
+      "summaryFr": "Fernando Alonso a confirmé son retour chez Aston Martin, malgré les difficultés de la saison et les questions sur le règlement technique. Le pilote espagnol a précisé qu'il n'était pas motivé par l'âge, mais par l'évolution du championnat. Il reste dans le duo de pilotes de l'écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T12:45:02.544736+00:00"
+    },
+    {
+      "id": "50cc25360c41d136f7aa",
+      "title": "'I still feel as fast as anybody' - Alonso on why he's staying in F1",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cde0gz51g36o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-29T11:00:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
+      "summaryAttemptAt": "2026-09-29T12:45:02.544760+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso reste en F1 avec Aston Martin pour au moins une année",
+      "summaryFr": "Fernando Alonso a confirmé son engagement pour rester en Formule 1 avec Aston Martin pour au moins une année. Il a expliqué cette décision à BBC Sport.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T12:45:36.506403+00:00"
+    },
+    {
+      "id": "ec98bba5651336b7df13",
+      "title": "Ce qui a le plus impressionné Red Bull dans le retour \"exceptionnel\"de Hadjar",
+      "url": "https://fr.motorsport.com/f1/news/impressionne-red-bull-retour-exceptionnel-hadjar-bakou/10859963/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-29T10:08:05+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
+      "summaryAttemptAt": "2026-09-29T12:45:36.506426+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le retour de Hadjar impressionne Red Bull malgré les difficultés au Bakou",
+      "summaryFr": "Isack Hadjar rejoint le circuit de Bakou après une blessure au poignet, mais Red Bull note l'absence de confiance du pilote dans un tracé urbain technique et risqué. L'expérience de Hadjar reste limitée face aux exigences du circuit.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T12:46:17.410322+00:00"
+    },
+    {
+      "id": "e7a46b1a2910c1da08bb",
+      "title": "Ferrari back Vasseur amid speculation over future",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm1dlv4710g9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-29T10:03:57+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
+      "summaryAttemptAt": "2026-09-29T12:46:17.410345+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari reprend Frederic Vasseur au poste de chef d'équipe",
+      "summaryFr": "Ferrari annonce le retour de Frederic Vasseur comme principal de l'équipe. Ce changement suit des déclarations de Christian Horner, qui aurait exprimé un intérêt pour rejoindre la structure.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T12:46:52.535596+00:00"
+    },
+    {
+      "id": "c3c2045bbef5f6c3f76b",
+      "title": "Russell retrouve confiance à Bakou : \"Je savais que j'allais retrouver mon niveau\"",
+      "url": "https://fr.motorsport.com/f1/news/russell-retrouve-confiance-bakou-savais-retrouver-niveau/10859962/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-29T09:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
+      "summaryAttemptAt": "2026-09-29T12:46:52.535619+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell retrouve confiance à Bakou : \"Je savais que j'allais retrouver mon niveau\"",
+      "summaryFr": "George Russell remporte son troisième succès de la saison 2026 à Bakou, après une période difficile de six Grands Prix. Ce résultat marque son premier grand chelem en carrière. Le pilote souligne que la course dans les rues de Bakou a permis de retrouver son niveau.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T12:47:34.788897+00:00"
+    },
+    {
+      "id": "2f8078fb44fcd27360f6",
+      "title": "Le programme du Grand Prix de Bahreïn F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-bahrein-2026-dates-horaires-infos-programme-sepang-malaisie/10859959/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-29T07:29:19+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
+      "summaryAttemptAt": "2026-09-29T12:47:34.788920+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix de Bahreïn 2026 délocalisé en Malaisie",
+      "summaryFr": "Le Grand Prix de Bahreïn, prévu initialement en Bahreïn, sera délocalisé sur le circuit de Sepang en Malaisie pour la 16e manche de la saison 2026. La décision suit l'annulation initiale en raison de la situation géopolitique au Moyen-Orient. Le décalage horaire avec Kuala Lumpur est de six heures.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T12:48:19.831486+00:00"
+    },
     {
       "id": "979c45ee9e282b8bae40",
       "title": "Does Horner have a chance of Ferrari job? F1 Q&A",
@@ -27,7 +154,6 @@
       "language": "en",
       "publishedAt": "2026-09-29T06:09:34+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-09-29T06:43:02.849528+00:00",
@@ -131,8 +257,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-09-29T00:43:16.899271+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-09-29T12:48:19.831508+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -3597,12 +3723,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 0,
+    "created": 6,
+    "failed": 1,
     "pending": 13,
-    "checkedAt": "2026-09-29T06:43:38.530043+00:00"
+    "checkedAt": "2026-09-29T12:48:46.097513+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
