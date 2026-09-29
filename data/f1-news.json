@@ -1,24 +1,45 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-29T00:43:16.302720+00:00",
+  "collectedAt": "2026-09-29T06:43:02.849528+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-29T00:43:16.302720+00:00"
+      "checkedAt": "2026-09-29T06:43:02.849528+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-29T00:43:16.302720+00:00"
+      "checkedAt": "2026-09-29T06:43:02.849528+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "979c45ee9e282b8bae40",
+      "title": "Does Horner have a chance of Ferrari job? F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckp84426lmggo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-29T06:09:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-29T06:43:02.849528+00:00",
+      "summaryAttemptAt": "2026-09-29T06:43:03.469043+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Horner aurait-il une chance de rejoindre Ferrari ?",
+      "summaryFr": "Une rumeur circule selon laquelle Horner pourrait être considéré pour un poste chez Ferrari. Cette information reste sans confirmation officielle. Aucune décision n'a été prise par l'écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T06:43:38.529941+00:00"
+    },
     {
       "id": "6cadb3d6953e6c080af0",
       "title": "Pourquoi Bottas était-il si loin du rythme de Pérez à Bakou ?",
@@ -3576,12 +3597,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 1,
+    "created": 1,
+    "failed": 0,
     "pending": 13,
-    "checkedAt": "2026-09-29T00:43:43.427737+00:00"
+    "checkedAt": "2026-09-29T06:43:38.530043+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
