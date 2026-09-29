@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-29T12:44:17.509383+00:00",
+  "collectedAt": "2026-09-29T18:41:18.081868+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-29T12:44:17.509383+00:00"
+      "checkedAt": "2026-09-29T18:41:18.081868+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-29T12:44:17.509383+00:00"
+      "checkedAt": "2026-09-29T18:41:18.081868+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "570485375690dbd11d75",
+      "title": "Piastri perplexe après son erreur à Bakou : \"C'était un peu bizarre\"",
+      "url": "https://fr.motorsport.com/f1/news/piastri-perplexe-erreur-bakou-bizarre/10860060/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-29T15:07:05+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-29T18:41:18.081868+00:00",
+      "summaryAttemptAt": "2026-09-29T18:41:18.784642+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri perplexe après son erreur à Bakou",
+      "summaryFr": "Oscar Piastri, de McLaren, qualifie son erreur en fin de course au Grand Prix d'Azerbaïdjan de \"bizarre\". Il occupait la troisième position avant de être dépassé par Max Verstappen, sous pression de Isack Hadjar chez Red Bull.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T18:41:57.148953+00:00"
+    },
+    {
+      "id": "7a30fea77bc2b18765d3",
+      "title": "Ferrari dément les rumeurs sur un départ de Vasseur : \"La confiance n'a pas changé\"",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-dement-rumeurs-depart-vasseur-confiance-pas-change/10860071/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-29T13:44:59+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-29T18:41:18.081868+00:00",
+      "summaryAttemptAt": "2026-09-29T18:41:57.148981+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari dément les rumeurs sur un départ de Vasseur",
+      "summaryFr": "Ferrari a répondu aux rumeurs sur un possible départ de Frédéric Vasseur en affirmant que la confiance dans son équipe reste totale. La Scuderia a clarifié sa position lors d'une conférence en ligne avec les médias italiens.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-29T18:42:33.845977+00:00"
+    },
     {
       "id": "fed69e69d6085a5be695",
       "title": "Fernando Alonso a tranché : il reste chez Aston Martin",
@@ -48,8 +90,7 @@
       "language": "en",
       "publishedAt": "2026-09-29T11:00:06+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
       "summaryAttemptAt": "2026-09-29T12:45:02.544760+00:00",
@@ -63,7 +104,7 @@
     },
     {
       "id": "ec98bba5651336b7df13",
-      "title": "Ce qui a le plus impressionné Red Bull dans le retour \"exceptionnel\"de Hadjar",
+      "title": "Ce qui a le plus impressionné Red Bull dans le retour \"exceptionnel\" de Hadjar",
       "url": "https://fr.motorsport.com/f1/news/impressionne-red-bull-retour-exceptionnel-hadjar-bakou/10859963/",
       "source": "Motorsport.com France",
       "language": "fr",
@@ -74,14 +115,14 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
-      "summaryAttemptAt": "2026-09-29T12:45:36.506426+00:00",
+      "summaryAttemptAt": "2026-09-29T18:42:33.846005+00:00",
       "summaryAttempts": 1,
       "titleFr": "Le retour de Hadjar impressionne Red Bull malgré les difficultés au Bakou",
-      "summaryFr": "Isack Hadjar rejoint le circuit de Bakou après une blessure au poignet, mais Red Bull note l'absence de confiance du pilote dans un tracé urbain technique et risqué. L'expérience de Hadjar reste limitée face aux exigences du circuit.",
+      "summaryFr": "Isack Hadjar rejoint le circuit de Bakou après une blessure au poignet, mais Red Bull note l'absence de confiance du pilote dans un tracé urbain technique et risqué. L'expérience de Hadjar reste insuffisante pour impressionner les experts de l'écurie.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-09-29T12:46:17.410322+00:00"
+      "summaryAt": "2026-09-29T18:43:11.900591+00:00"
     },
     {
       "id": "e7a46b1a2910c1da08bb",
@@ -91,7 +132,6 @@
       "language": "en",
       "publishedAt": "2026-09-29T10:03:57+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
@@ -112,8 +152,7 @@
       "language": "fr",
       "publishedAt": "2026-09-29T09:00:02+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
       "summaryAttemptAt": "2026-09-29T12:46:52.535619+00:00",
@@ -133,7 +172,6 @@
       "language": "fr",
       "publishedAt": "2026-09-29T07:29:19+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-09-29T12:44:17.509383+00:00",
@@ -874,8 +912,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-09-28T12:46:19.317305+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-09-29T18:43:11.900617+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -3725,10 +3763,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
+    "created": 3,
     "failed": 1,
     "pending": 13,
-    "checkedAt": "2026-09-29T12:48:46.097513+00:00"
+    "checkedAt": "2026-09-29T18:43:32.491217+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
