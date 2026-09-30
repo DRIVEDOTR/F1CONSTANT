@@ -1,24 +1,59 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-30T12:47:09.437001+00:00",
+  "collectedAt": "2026-09-30T18:41:19.518325+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-30T12:47:09.437001+00:00"
+      "checkedAt": "2026-09-30T18:41:19.518325+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-30T12:47:09.437001+00:00"
+      "checkedAt": "2026-09-30T18:41:19.518325+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "865cf362663d275dae0f",
+      "title": "Hadjar : \"J'utiliserai mon cerveau la prochaine fois que je ferai de la boxe\"",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-utiliserai-cerveau-prochaine-fois-boxe/10860067/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-30T14:30:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
+      "summaryAttemptAt": "2026-09-30T18:41:20.201196+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "d2fdd87504546b6ea820",
+      "title": "Bahrain GP in Malaysia becomes third heat-hazard race of year",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwg7klkxzzylo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-30T12:46:42+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
+      "summaryAttemptAt": "2026-09-30T18:41:51.129207+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix de Bahrein en Malaisie déclaré course à risque thermique, troisième fois cette année",
+      "summaryFr": "Le Grand Prix de Bahrein, organisé en Malaisie, est classé comme une course à risque thermique. C'est la troisième fois que cette désignation est utilisée cette année. Aucune information sur les pilotes, écuries ou résultats n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-30T18:42:30.127676+00:00"
+    },
     {
       "id": "ac665279be709a008bf2",
       "title": "Alerte chaleur déclenchée à Sepang pour le Grand Prix de Bahreïn",
@@ -47,8 +82,7 @@
       "language": "fr",
       "publishedAt": "2026-09-30T11:00:04+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
       "summaryAttemptAt": "2026-09-30T12:47:55.284662+00:00",
@@ -68,7 +102,8 @@
       "language": "en",
       "publishedAt": "2026-09-30T10:24:02+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
       "summaryAttemptAt": "2026-09-30T12:48:39.376625+00:00",
@@ -389,8 +424,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-09-29T12:48:19.831508+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-09-30T18:42:30.127705+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -3857,10 +3892,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 1,
-    "pending": 14,
-    "checkedAt": "2026-09-30T12:50:41.993546+00:00"
+    "created": 1,
+    "failed": 2,
+    "pending": 15,
+    "checkedAt": "2026-09-30T18:42:56.102434+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
