@@ -1,24 +1,121 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-09-30T06:43:26.117132+00:00",
+  "collectedAt": "2026-09-30T12:47:09.437001+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-09-30T06:43:26.117132+00:00"
+      "checkedAt": "2026-09-30T12:47:09.437001+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-09-30T06:43:26.117132+00:00"
+      "checkedAt": "2026-09-30T12:47:09.437001+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "ac665279be709a008bf2",
+      "title": "Alerte chaleur déclenchée à Sepang pour le Grand Prix de Bahreïn",
+      "url": "https://fr.motorsport.com/f1/news/alerte-chaleur-sepang-grand-prix-bahrein/10860259/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-30T11:58:59+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
+      "summaryAttemptAt": "2026-09-30T12:47:10.103491+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alerte chaleur active pour le GP de Bahreïn à Sepang",
+      "summaryFr": "Le risque lié à la chaleur est de nouveau en vigueur pour le Grand Prix de Bahreïn à Sepang, suite à des températures élevées attendues. Ce statut, mis en place en 2025 après l'épisode du GP du Qatar 2023, reste en place pour cette épreuve.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-30T12:47:55.284636+00:00"
+    },
+    {
+      "id": "784c7f22c07cd5422836",
+      "title": "\"Quelque chose de grave risque d'arriver\", prévient Pérez à propos de F1 2026 \"trop dangereuses\"",
+      "url": "https://fr.motorsport.com/f1/news/quelque-chose-grave-arriver-perez-f1-2026-trop-dangereuses/10860242/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-30T11:00:04+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
+      "summaryAttemptAt": "2026-09-30T12:47:55.284662+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Pérez alerte sur un risque grave en Formule 1 2026",
+      "summaryFr": "Sergio Pérez craint que \"quelque chose de grave\" ne se produise en Formule 1 2026 en raison de la différence de vitesse entre les monoplaces dotées des nouveaux groupes propulseurs. Ce sujet a été mis en lumière après la sortie violente d'Oliver Bearman au Japon.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-30T12:48:39.376601+00:00"
+    },
+    {
+      "id": "77b5b2f26fc4c85abc40",
+      "title": "Ocon to leave Haas putting F1 future in doubt",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9e8e5k21ge5o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-09-30T10:24:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
+      "summaryAttemptAt": "2026-09-30T12:48:39.376625+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon menacé de départ de Haas, avenir de la F1 en doute",
+      "summaryFr": "Esteban Ocon cherche à sauver sa carrière après l'annonce de Haas qui le quitte à la fin de la saison. Cette décision met en doute l'avenir du pilote dans la Formule 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-30T12:49:15.644889+00:00"
+    },
+    {
+      "id": "cb34c5c77f1cf20844f8",
+      "title": "C'est officiel : Esteban Ocon va quitter Haas F1 à la fin de la saison",
+      "url": "https://fr.motorsport.com/f1/news/ocon-quitter-haas-f1-fin-saison-officiel/10860195/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-30T08:09:24+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
+      "summaryAttemptAt": "2026-09-30T12:49:15.644914+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Esteban Ocon quitte Haas F1 à la fin de la saison",
+      "summaryFr": "Esteban Ocon annonce son départ de Haas F1 à la fin de la saison. La décision a été confirmée par un communiqué de l'écurie suite à une déclaration sur les réseaux sociaux.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-30T12:49:56.362506+00:00"
+    },
+    {
+      "id": "219e574029356e45061f",
+      "title": "Mercedes dévoile une livrée spéciale pour le retour en Malaisie",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-livree-speciale-retour-malaisie-petronas/10860181/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-09-30T07:30:27+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
+      "summaryAttemptAt": "2026-09-30T12:49:56.362532+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "570485375690dbd11d75",
       "title": "Piastri perplexe après son erreur à Bakou : \"C'était un peu bizarre\"",
@@ -3758,12 +3855,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 0,
-    "pending": 13,
-    "checkedAt": "2026-09-30T06:43:26.698431+00:00"
+    "created": 4,
+    "failed": 1,
+    "pending": 14,
+    "checkedAt": "2026-09-30T12:50:41.993546+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
