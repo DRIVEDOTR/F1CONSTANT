@@ -1,24 +1,222 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-01T06:44:54.603900+00:00",
+  "collectedAt": "2026-10-01T12:45:10.444987+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-01T06:44:54.603900+00:00"
+      "checkedAt": "2026-10-01T12:45:10.444987+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-01T06:44:54.603900+00:00"
+      "checkedAt": "2026-10-01T12:45:10.444987+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7aecf929ea9c351fd4d4",
+      "title": "Isack Hadjar confirme une pénalité sur la grille à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/isack-hadjar-confirme-penalite-grille-sepang/10860605/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T12:20:16+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:45:11.189466+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Isack Hadjar sanctionné sur la grille à Sepang",
+      "summaryFr": "Isack Hadjar devra purger une pénalité sur la grille de départ à Sepang. Ce détail a été révélé jeudi par le pilote lui-même. L'équipe Red Bull affronte un défi majeur en Malaisie après son double podium à Bakou.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:45:53.685534+00:00"
+    },
+    {
+      "id": "8fc3138b52dfb5580635",
+      "title": "Russell says his 'confidence is back and growing'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv1j4jn5nxxlo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-01T11:07:36+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:45:53.685559+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell affirme que sa confiance est de retour et en croissance",
+      "summaryFr": "George Russell indique qu'il ne se sent plus perdu et souhaite terminer une saison difficile sur une bonne note, en poursuivant le leader Kimi Antonelli en championnat. Il vise à rétablir son niveau de performance après une période difficile.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:46:30.451277+00:00"
+    },
+    {
+      "id": "053699ea54911c2cdfe0",
+      "title": "Arvid Lindblad va être pénalisé sur la grille du GP de Bahreïn",
+      "url": "https://fr.motorsport.com/f1/news/lindblad-penalise-grille-gp-bahrein/10860544/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T10:13:09+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:46:30.451299+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Arvid Lindblad pénalisé pour le GP de Malaisie",
+      "summaryFr": "Arvid Lindblad devra partir en fond de grille au GP de Malaisie en raison d'une surconsommation de composants du groupe motopropulseur. Il aura à utiliser un cinquième moteur thermique, selon les pénalités appliquées.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:47:11.231036+00:00"
+    },
+    {
+      "id": "480f9f3f2eaaf6add5ff",
+      "title": "Audi annonce son projet de nouveau campus dédié à la F1",
+      "url": "https://fr.motorsport.com/f1/news/audi-annonce-nouveau-campus-f1/10860532/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T09:45:45+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:47:11.231058+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-01T09:27:36+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
+    },
+    {
+      "id": "75f3ccc19e76b7617a82",
+      "title": "Toyota dément tout accord avec Ocon pour le WEC en 2027",
+      "url": "https://fr.motorsport.com/wec/news/toyota-dement-accord-ocon-wec-2027/10860507/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T09:10:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:47:41.390032+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Toyota dément tout accord avec Ocon pour le WEC en 2027",
+      "summaryFr": "Toyota nie tout accord avec Esteban Ocon pour la saison 2027 au WEC. Les spéculations sur sa suite de carrière persistent après l'annonce de la fin de la collaboration de Haas avec Ocon. Aston Martin a confirmé la continuation de son équipe.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:48:23.261705+00:00"
+    },
+    {
+      "id": "4cf58af46250a9ca0b41",
+      "title": "Retour surprise en GT3 pour Max Verstappen !",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-gt3-portimao-gtwce/10860490/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T08:43:55+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:48:23.261750+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Max Verstappen rejoint le GT World Challenge Europe en GT3",
+      "summaryFr": "Max Verstappen participera à la finale du GT World Challenge Europe à Portimão, au cours duquel il conduira une Mercedes-AMG GT3 pour 2 Seas Motorsport. C'est la première fois qu'un quadruple champion de Formule 1 s'engage dans ce type de compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:49:04.442688+00:00"
+    },
+    {
+      "id": "302c80dd142bd94705aa",
+      "title": "Honda a discrètement introduit une deuxième évolution moteur à Madrid",
+      "url": "https://fr.motorsport.com/f1/news/honda-discretement-introduit-deuxieme-evolution-moteur-madrid/10860465/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T08:42:31+00:00",
+      "topics": [
+        "ecuries",
+        "voitures",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:49:04.442710+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Honda présente sa deuxième évolution ADUO dès le GP d'Espagne",
+      "summaryFr": "Le président de Honda Racing Corporation, Koji Watanabe, a indiqué que le constructeur japonais a déployé sa deuxième évolution du groupe propulseur, centrée sur le turbocompresseur, dès le Grand Prix d'Espagne. Cette mise à jour vise à améliorer les performances du véhicule.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:49:46.637909+00:00"
+    },
+    {
+      "id": "75710de6f71de5e50ffb",
+      "title": "Ocon ne veut pas abandonner la F1 : \"Je ne vais pas regarder ailleurs\"",
+      "url": "https://fr.motorsport.com/f1/news/ocon-pas-abandonner-f1-regarder-ailleurs/10860435/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T07:38:53+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
+      "summaryAttemptAt": "2026-10-01T12:49:46.637937+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon quitte Haas après dix ans en F1",
+      "summaryFr": "Esteban Ocon annonce la fin de sa collaboration avec Haas à l'issue de la saison 2026. L'équipe n'a pas encore désigné son successeur. Le pilote français pourrait faire ses adieux à la Formule 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T12:50:27.290451+00:00"
+    },
+    {
+      "id": "9807ca8bb69431bc8143",
+      "title": "How to follow Bahrain Grand Prix in Malaysia on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckz7zzy4d995o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-01T07:19:30+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
+      "summaryAttemptAt": "2026-09-30T18:42:30.127705+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "invalid_length"
+    },
     {
       "id": "865cf362663d275dae0f",
       "title": "Hadjar : \"J'utiliserai mon cerveau la prochaine fois que je ferai de la boxe\"",
@@ -412,21 +610,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-09-28T12:46:19.317281+00:00"
-    },
-    {
-      "id": "9807ca8bb69431bc8143",
-      "title": "How to follow Bahrain Grand Prix in Malaysia on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckz7zzy4d995o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-28T06:33:20+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-09-30T18:42:30.127705+00:00",
-      "summaryAttempts": 4,
-      "summaryError": "invalid_length"
     },
     {
       "id": "1feac4fac473ef94e6da",
@@ -1223,24 +1406,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-09-27T00:47:45.519605+00:00"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-09-24T13:07:11+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
     },
     {
       "id": "db352cceb474564f9f9f",
@@ -3890,12 +4055,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 0,
-    "pending": 15,
-    "checkedAt": "2026-10-01T06:44:55.251733+00:00"
+    "created": 7,
+    "failed": 1,
+    "pending": 16,
+    "checkedAt": "2026-10-01T12:50:27.290553+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
