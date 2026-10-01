@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-01T12:45:10.444987+00:00",
+  "collectedAt": "2026-10-01T18:42:25.860159+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-01T12:45:10.444987+00:00"
+      "checkedAt": "2026-10-01T18:42:25.860159+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-01T12:45:10.444987+00:00"
+      "checkedAt": "2026-10-01T18:42:25.860159+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "5c15f994f58ccc54be7b",
+      "title": "\"Quand je regarde la TV, je me dis que je peux faire mieux\" : pourquoi Alonso reste en F1",
+      "url": "https://fr.motorsport.com/f1/news/tv-faire-mieux-pourquoi-alonso-reste-f1/10860525/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T15:00:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-01T18:42:25.860159+00:00",
+      "summaryAttemptAt": "2026-10-01T18:42:26.469903+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso prolonge sa carrière en F1 pour 2027",
+      "summaryFr": "Fernando Alonso annonce son retour pour une saison supplémentaire en Formule 1 en 2027, ce qui fera de cette année sa 24e en compétition. L'annonce, attendue depuis longtemps, est confirmée avant le Grand Prix de Malaisie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T18:43:09.444278+00:00"
+    },
+    {
+      "id": "e286391abab3da0a7c2a",
+      "title": "Colapinto assure avoir le soutien d'Alpine malgré la colère de Briatore",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-soutien-alpine-colere-briatore/10860508/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-01T14:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-01T18:42:25.860159+00:00",
+      "summaryAttemptAt": "2026-10-01T18:43:09.444303+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Colapinto affirme avoir le soutien d'Alpine malgré l'incident d'Azerbaïdjan",
+      "summaryFr": "Franco Colapinto affirme avoir le soutien de l'écurie Alpine après avoir causé un accident lors du Grand Prix d'Azerbaïdjan, qui a entraîné la chute de Pierre Gasly et de Lando Norris. Le choc s'est produit lors d'une relance après voiture de sécurité.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-01T18:43:53.244536+00:00"
+    },
     {
       "id": "7aecf929ea9c351fd4d4",
       "title": "Isack Hadjar confirme une pénalité sur la grille à Sepang",
@@ -27,9 +69,7 @@
       "language": "fr",
       "publishedAt": "2026-10-01T12:20:16+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:45:11.189466+00:00",
@@ -49,7 +89,8 @@
       "language": "en",
       "publishedAt": "2026-10-01T11:07:36+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "voitures"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:45:53.685559+00:00",
@@ -69,8 +110,7 @@
       "language": "fr",
       "publishedAt": "2026-10-01T10:13:09+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:46:30.451299+00:00",
@@ -123,9 +163,7 @@
       "language": "fr",
       "publishedAt": "2026-10-01T09:10:26+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:47:41.390032+00:00",
@@ -145,9 +183,7 @@
       "language": "fr",
       "publishedAt": "2026-10-01T08:43:55+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:48:23.261750+00:00",
@@ -167,9 +203,7 @@
       "language": "fr",
       "publishedAt": "2026-10-01T08:42:31+00:00",
       "topics": [
-        "ecuries",
-        "voitures",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:49:04.442710+00:00",
@@ -189,8 +223,7 @@
       "language": "fr",
       "publishedAt": "2026-10-01T07:38:53+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
       "summaryAttemptAt": "2026-10-01T12:49:46.637937+00:00",
@@ -228,8 +261,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-01T00:47:39.847028+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-01T18:44:38.745942+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -345,8 +378,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-01T00:46:52.991560+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-01T18:43:53.244558+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -4057,10 +4090,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 7,
-    "failed": 1,
+    "created": 2,
+    "failed": 2,
     "pending": 16,
-    "checkedAt": "2026-10-01T12:50:27.290553+00:00"
+    "checkedAt": "2026-10-01T18:45:09.969379+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
