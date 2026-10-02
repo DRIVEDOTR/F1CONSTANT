@@ -1,24 +1,45 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-02T12:44:19.436219+00:00",
+  "collectedAt": "2026-10-02T18:41:39.899438+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-02T12:44:19.436219+00:00"
+      "checkedAt": "2026-10-02T18:41:39.899438+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-02T12:44:19.436219+00:00"
+      "checkedAt": "2026-10-02T18:41:39.899438+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "97e978a7b623941d3c74",
+      "title": "\"Faire toutes les erreurs maintenant\" : l'approche demandée par Verstappen et Hadjar",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-hadjar-demande-red-bull-faire-erreurs/10861015/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T15:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-02T18:41:39.899438+00:00",
+      "summaryAttemptAt": "2026-10-02T18:41:40.319898+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen et Hadjar : faire toutes les erreurs maintenant pour préparer 2027",
+      "summaryFr": "Red Bull vise à éviter sa première saison sans victoire depuis 2015 en 2026. Verstappen a souligné que Bakou serait théoriquement un point clé, mais l'approche repose sur l'apprentissage pour 2027. Aucune victoire n'est garantie, et les objectifs restent flous.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T18:42:27.568061+00:00"
+    },
     {
       "id": "b01e103866d946fefa98",
       "title": "Hamilton gêne Bortoleto : le verdict des commissaires",
@@ -27,9 +48,7 @@
       "language": "fr",
       "publishedAt": "2026-10-02T12:39:12+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
       "summaryAttemptAt": "2026-10-02T12:44:20.064216+00:00",
@@ -70,9 +89,7 @@
       "language": "fr",
       "publishedAt": "2026-10-02T09:52:59+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
       "summaryAttemptAt": "2026-10-02T12:45:42.055799+00:00",
@@ -92,9 +109,7 @@
       "language": "fr",
       "publishedAt": "2026-10-02T09:02:09+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
       "summaryAttemptAt": "2026-10-02T12:46:28.127100+00:00",
@@ -137,8 +152,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-02T06:44:24.226093+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-02T18:42:57.926434+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -295,8 +310,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-02T00:45:09.081199+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-02T18:42:27.568086+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -4252,10 +4267,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 3,
+    "created": 1,
+    "failed": 2,
     "pending": 17,
-    "checkedAt": "2026-10-02T12:47:57.174805+00:00"
+    "checkedAt": "2026-10-02T18:43:40.522903+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
