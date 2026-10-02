@@ -1,24 +1,131 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-02T06:44:23.694624+00:00",
+  "collectedAt": "2026-10-02T12:44:19.436219+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-02T06:44:23.694624+00:00"
+      "checkedAt": "2026-10-02T12:44:19.436219+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-02T06:44:23.694624+00:00"
+      "checkedAt": "2026-10-02T12:44:19.436219+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "b01e103866d946fefa98",
+      "title": "Hamilton gêne Bortoleto : le verdict des commissaires",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-gene-bortoleto-verdict-commissaires-sepang/10860980/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T12:39:12+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
+      "summaryAttemptAt": "2026-10-02T12:44:20.064216+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Bortoleto accélère en ligne avec une voiture à basse vitesse",
+      "summaryFr": "Lors d'une séance d'essais au Grand Prix de Bahreïn 2026 à Sepang, Gabriel Bortoleto sortait des virages 7-8 avec une voiture à basse vitesse en ligne. L'incident n'a pas été confirmé comme une infraction, et aucune décision des commissaires n'a été rendue.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T12:45:06.248578+00:00"
+    },
+    {
+      "id": "6b49abf6403171b25e9a",
+      "title": "Russell says Red Bull strongest after Bahrain practice",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckm2q2346zz9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-02T11:15:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
+      "summaryAttemptAt": "2026-10-02T12:45:06.248603+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell et Leclerc voient Red Bull comme la plus forte après les essais au Bahrein",
+      "summaryFr": "George Russell et Charles Leclerc estiment que Red Bull est la meilleure écurie après les premiers essais au Bahrein. Cette évaluation ne constitue pas une confirmation officielle de la performance du groupe.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T12:45:42.055776+00:00"
+    },
+    {
+      "id": "5403138496f4d959f27b",
+      "title": "Briatore tourne la page après la bourde de Colapinto : \"J'étais fâché, mais c'est du passé\"",
+      "url": "https://fr.motorsport.com/f1/news/briatore-tourne-page-bourde-colapinto-alpine/10860949/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T09:52:59+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
+      "summaryAttemptAt": "2026-10-02T12:45:42.055799+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Briatore tourne la page après la collision de Colapinto et Gasly",
+      "summaryFr": "Flavio Briatore affirme que l'écurie Alpine va tourner la page après la collision impliquant Franco Colapinto, Pierre Gasly et Lando Norris au Grand Prix d'Azerbaïdjan. L'accident a entraîné des abandonnements, mais aucune décision de retrait n'a été prise. L'écurie continue à se battre avec Racing Bulls au championnat constructeurs.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T12:46:28.127075+00:00"
+    },
+    {
+      "id": "d2508c07edbe8a2f6942",
+      "title": "EL2 - Leclerc meilleur temps dans la fournaise, Verstappen cache son jeu",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-meilleur-temps-verstappen-cacher-el2-sepang/10860854/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T09:02:09+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
+      "summaryAttemptAt": "2026-10-02T12:46:28.127100+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc le meilleur temps en Essais Libres 2, Verstappen retient ses pneus tendres",
+      "summaryFr": "Charles Leclerc a enregistré le meilleur temps des Essais Libres 2 au Grand Prix de Bahreïn 2026, devant Isack Hadjar et Lando Norris. Max Verstappen n'a pas choisi les pneus tendres, malgré une météo un peu couverte avec un risque de pluie estimé à 90%.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T12:47:14.331572+00:00"
+    },
+    {
+      "id": "05f2665b31e8c91f2357",
+      "title": "Vasseur appelle Ferrari à l'unité : pointer quelqu'un du doigt serait une \"grosse erreur\"",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-appelle-unite-ferrari-pas-pointer-doigt/10860886/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T07:55:04+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-02T12:44:19.436219+00:00",
+      "summaryAttemptAt": "2026-10-02T12:47:14.331599+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur condamne les rumeurs : pointer quelqu'un du doigt serait une \"grosse erreur\"",
+      "summaryFr": "Frédéric Vasseur, patron de Ferrari, a appelé son équipe à rester unie et a dénoncé les rumeurs sur des responsables. Il a souligné le soutien interne et la progression de l'écurie sous la nouvelle réglementation 2026.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T12:47:56.967202+00:00"
+    },
     {
       "id": "0a917b5a62df2d524e96",
       "title": "Une pénalité supplémentaire pour Colapinto sur la grille à Sepang",
@@ -43,8 +150,7 @@
       "publishedAt": "2026-10-02T06:06:36+00:00",
       "topics": [
         "ecuries",
-        "voitures",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
       "summaryAttemptAt": "2026-10-02T06:44:50.559830+00:00",
@@ -57,28 +163,6 @@
       "summaryAt": "2026-10-02T06:45:16.693877+00:00"
     },
     {
-      "id": "6b49abf6403171b25e9a",
-      "title": "Verstappen tops Bahrain GP in Malaysia first practice",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckm2q2346zz9o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-02T05:41:24+00:00",
-      "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-02T06:45:16.693898+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Verstappen en tête des essais au Grand Prix de Bahrein en Malaisie",
-      "summaryFr": "Max Verstappen, pilote de Red Bull, est le plus rapide lors des premières séries d'essais au circuit de Sepang. La F1 revient sur le tracé malaisien après neuf ans pour le Grand Prix de Bahrein.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-02T06:45:39.487725+00:00"
-    },
-    {
       "id": "eb82f1e22b637fe9ae4d",
       "title": "EL1 - Max Verstappen bien à l'aise en terre malaise",
       "url": "https://fr.motorsport.com/f1/news/el1-verstappen-debute-bien-retour-sepang/10860661/",
@@ -86,9 +170,7 @@
       "language": "fr",
       "publishedAt": "2026-10-02T05:31:53+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
       "summaryAttemptAt": "2026-10-02T06:45:39.487748+00:00",
@@ -2123,8 +2205,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.405751+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T12:47:56.967227+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -2138,8 +2220,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.440714+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T12:47:57.083242+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -2153,8 +2235,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.495772+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T12:47:57.143260+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -4170,10 +4252,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 9,
+    "created": 5,
+    "failed": 3,
     "pending": 17,
-    "checkedAt": "2026-10-02T06:46:46.553311+00:00"
+    "checkedAt": "2026-10-02T12:47:57.174805+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
