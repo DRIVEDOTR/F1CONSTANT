@@ -1,24 +1,105 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-02T00:44:41.581289+00:00",
+  "collectedAt": "2026-10-02T06:44:23.694624+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-02T00:44:41.581289+00:00"
+      "checkedAt": "2026-10-02T06:44:23.694624+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-02T00:44:41.581289+00:00"
+      "checkedAt": "2026-10-02T06:44:23.694624+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "0a917b5a62df2d524e96",
+      "title": "Une pénalité supplémentaire pour Colapinto sur la grille à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/penalite-supplementaire-colapinto-grille-sepang/10860847/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T06:18:24+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
+      "summaryAttemptAt": "2026-10-02T06:44:24.226093+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "4fc79e89813a0e44f9e5",
+      "title": "Voici les nouveautés aéro de Mercedes au GP de Bahreïn à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/voici-mercedes-nouveautes-aero-gp-bahrein-sepang/10860836/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T06:06:36+00:00",
+      "topics": [
+        "ecuries",
+        "voitures",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
+      "summaryAttemptAt": "2026-10-02T06:44:50.559830+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes présente des nouveautés aéro pour le GP de Malaisie",
+      "summaryFr": "Mercedes dévoile des évolutions sur le plancher et les pontons de sa W17 pour le GP de Malaisie. Les modifications visent à renforcer son avantage aérodynamique. La voiture reste en tête des prévisions, malgré la concurrence de Ferrari, McLaren et Red Bull.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T06:45:16.693877+00:00"
+    },
+    {
+      "id": "6b49abf6403171b25e9a",
+      "title": "Verstappen tops Bahrain GP in Malaysia first practice",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckm2q2346zz9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-02T05:41:24+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
+      "summaryAttemptAt": "2026-10-02T06:45:16.693898+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen en tête des essais au Grand Prix de Bahrein en Malaisie",
+      "summaryFr": "Max Verstappen, pilote de Red Bull, est le plus rapide lors des premières séries d'essais au circuit de Sepang. La F1 revient sur le tracé malaisien après neuf ans pour le Grand Prix de Bahrein.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T06:45:39.487725+00:00"
+    },
+    {
+      "id": "eb82f1e22b637fe9ae4d",
+      "title": "EL1 - Max Verstappen bien à l'aise en terre malaise",
+      "url": "https://fr.motorsport.com/f1/news/el1-verstappen-debute-bien-retour-sepang/10860661/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-02T05:31:53+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
+      "summaryAttemptAt": "2026-10-02T06:45:39.487748+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen en tête des essais libres au Grand Prix de Bahreïn",
+      "summaryFr": "Max Verstappen (Red Bull) a dominé les essais libres 1 au Grand Prix de Bahreïn 2026, devant George Russell (Mercedes) et Isack Hadjar (Red Bull). La F1 revient sur le circuit de Sepang après une absence depuis 2017.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-02T06:46:05.774348+00:00"
+    },
     {
       "id": "5c15f994f58ccc54be7b",
       "title": "\"Quand je regarde la TV, je me dis que je peux faire mieux\" : pourquoi Alonso reste en F1",
@@ -1415,8 +1496,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-09-30T00:45:18.339977+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T06:46:05.774371+00:00",
+      "summaryAttempts": 5,
       "summaryError": "unsupported_number"
     },
     {
@@ -1551,9 +1632,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-09-30T00:45:58.580195+00:00",
-      "summaryAttempts": 4,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-02T06:46:29.922266+00:00",
+      "summaryAttempts": 5,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "c331e4af2774292352f8",
@@ -1626,9 +1707,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-09-30T00:46:40.145756+00:00",
-      "summaryAttempts": 4,
-      "summaryError": "unsupported_number"
+      "summaryAttemptAt": "2026-10-02T06:46:30.006136+00:00",
+      "summaryAttempts": 5,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "9b722ed5bf8a7f060d97",
@@ -1945,8 +2026,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:21.664653+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T06:46:30.086629+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1980,8 +2061,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.046049+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T06:46:46.278413+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -1995,8 +2076,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.172020+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T06:46:46.374620+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -2010,8 +2091,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.305923+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T06:46:46.423095+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -2026,8 +2107,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-09-30T00:47:48.342819+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-02T06:46:46.488055+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -4089,10 +4170,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 2,
-    "pending": 16,
-    "checkedAt": "2026-10-02T00:45:39.665100+00:00"
+    "created": 3,
+    "failed": 9,
+    "pending": 17,
+    "checkedAt": "2026-10-02T06:46:46.553311+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
