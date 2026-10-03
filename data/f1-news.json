@@ -1,24 +1,46 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-03T00:43:20.022520+00:00",
+  "collectedAt": "2026-10-03T06:51:36.617077+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-03T00:43:20.022520+00:00"
+      "checkedAt": "2026-10-03T06:51:36.617077+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-10-03T00:43:20.022520+00:00"
+      "count": 45,
+      "checkedAt": "2026-10-03T06:51:36.617077+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "4413369701ecad460448",
+      "title": "EL3 - Antonelli dernier leader avant les qualifs",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-dernier-leader-avant-qualifs-sepang/10861268/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T05:32:40+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T06:51:36.617077+00:00",
+      "summaryAttemptAt": "2026-10-03T06:51:37.442357+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli dernier leader avant les qualifs",
+      "summaryFr": "La séance de préparation débute sous un ciel nuageux et des températures élevées, avec 32°C dans l'air et 58°C sur la piste. Trois pilotes s'engagent immédiatement sur la piste, dont Liam Lawson qui a effectué plusieurs modifications de son moteur sans dépasser les quotas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T06:52:14.281436+00:00"
+    },
     {
       "id": "97e978a7b623941d3c74",
       "title": "\"Faire toutes les erreurs maintenant\" : l'approche demandée par Verstappen et Hadjar",
@@ -151,8 +173,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-02T18:42:57.926434+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-03T06:52:14.281458+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -4266,10 +4288,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 3,
+    "created": 1,
+    "failed": 1,
     "pending": 17,
-    "checkedAt": "2026-10-03T00:45:04.353292+00:00"
+    "checkedAt": "2026-10-03T06:52:49.733446+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
