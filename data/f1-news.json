@@ -1,24 +1,206 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-03T06:51:36.617077+00:00",
+  "collectedAt": "2026-10-03T16:10:52.366584+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-03T06:51:36.617077+00:00"
+      "checkedAt": "2026-10-03T16:10:52.366584+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-03T06:51:36.617077+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-03T16:10:52.366584+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "9588a2250ad47bc13cc7",
+      "title": "Hamilton a fait son \"meilleur tour de l'année\" en qualifs à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-meilleur-tour-2026-qualifs-sepang/10861585/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T15:20:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:10:52.947457+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton termine deuxième en qualifs à Sepang",
+      "summaryFr": "Lewis Hamilton a réalisé un chrono de 1'35''428 à Sepang, devançant de 0''298 Max Verstappen, qui a pris la pole. Le pilote de Mercedes termine deuxième, à côté de Max Verstappen au Grand Prix de Bahreïn. Isack Hadjar complète le top 3 avec Red Bull.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:11:46.993365+00:00"
+    },
+    {
+      "id": "c26995b30584d08109ec",
+      "title": "Norris frustré par un problème moteur qui lui a coûté cher en qualifs à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/norris-frustre-probleme-moteur-sepang-qualifs/10861524/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T14:20:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:11:46.993406+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris frustré par un problème moteur en qualifs à Sepang",
+      "summaryFr": "Lando Norris a été frustré par un défaut dans son groupe propulseur, ce qui lui a valu la sixième place sur la grille du Grand Prix de Bahreïn à Sepang. Il a perdu six dixièmes de seconde sur Max Verstappen, qui a pris le pole, avec un chrono de 1'35''757.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:12:40.747178+00:00"
+    },
+    {
+      "id": "33a0d309ac708254b3a7",
+      "title": "'Incredible' Red Bull upgrade enlivens F1 in 'roasting hot' Malaysia",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5vgj31224kmo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-03T12:25:57+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:12:40.747207+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull mise en place d'un upgrade inédit en Malaisie",
+      "summaryFr": "Une rumeur circule selon laquelle Red Bull aurait mis en place un upgrade sur son aileron avant et son aileron arrière. Ce changement pourrait influencer la course au Bahrain, mais aucune confirmation officielle n'a été faite. Le duo de pilotes de Red Bull reste en course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:13:25.013874+00:00"
+    },
+    {
+      "id": "19fc85032ae18b1bf7ae",
+      "title": "Mercedes loin du compte avec sa F1 évoluée : \"Il se passe autre chose\"",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-loin-compte-f1-evoluee-wolff/10861503/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T11:17:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:13:25.013906+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes éloignée du résultat attendu au Bahreïn",
+      "summaryFr": "Mercedes a apporté des mises à jour importantes au circuit de Sepang pour le GP de Bahreïn 2026, mais les performances ne se sont pas révélées élevées. Kimi Antonelli a montré un potentiel en troisième séance d'essais, mais les qualifications ont été difficiles. Toto Wolff a laissé entendre qu'il se passe autre chose.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:14:18.903209+00:00"
+    },
+    {
+      "id": "5c701e243c9c60095b6d",
+      "title": "Hadjar déçu par sa troisième place à Sepang : \"Le tour, il est pas bon\"",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-decu-troisieme-sepang-tour-pas-bon/10861451/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T10:27:07+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:14:18.903241+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar déçu par sa troisième place à Sepang",
+      "summaryFr": "Isack Hadjar termine troisième à Sepang après une bonne qualification, mais exprime sa déception face à la performance du tour. Il critique la qualité du circuit et la situation de son équipier Max.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:15:04.827469+00:00"
+    },
+    {
+      "id": "c550e25d315c1653ad46",
+      "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP de Bahreïn",
+      "url": "https://fr.motorsport.com/f1/news/face-a-face-qualifications-2026-gp-bahrein/10861429/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T10:15:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:15:04.827500+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Qualifications F1 2026 : les face-à-face entre équipiers au GP de Bahreïn",
+      "summaryFr": "Après chaque séance de qualifications, Motorsport.com publie le bilan interne entre les deux pilotes d'une écurie. Ces données s'appuient uniquement sur les temps réalisés, sans tenir compte des pénalités sur la grille. Une absence de temps représentatif peut être attribuée à un problème technique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:15:57.461152+00:00"
+    },
+    {
+      "id": "be1c83318c0128668000",
+      "title": "Verstappen takes first 2026 pole ahead of Hamilton",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm1j3l9867jwo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-03T09:13:45+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:15:57.461203+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte la pole position au Bahrain en 2026",
+      "summaryFr": "Max Verstappen réalise son premier classement de pole en 2026 au Grand Prix de Bahrein, avec une performance dominante. C'est la première pole de Red Bull cette saison.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-03T16:16:41.280185+00:00"
+    },
+    {
+      "id": "569171232682ef41e165",
+      "title": "La grille de départ du Grand Prix de Bahreïn F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-gp-bahrein-f1-2026-malaisie-sepang/10861303/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T09:07:44+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:16:41.280226+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "50606bf6b00ab017e1e2",
+      "title": "Verstappen signe une pole facile à Sepang, devant Hamilton et Hadjar",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-pole-sepang-devant-hamilton-hadjar/10861297/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-03T09:05:13+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
+      "summaryAttemptAt": "2026-10-03T16:17:43.921311+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "4413369701ecad460448",
       "title": "EL3 - Antonelli dernier leader avant les qualifs",
@@ -27,9 +209,7 @@
       "language": "fr",
       "publishedAt": "2026-10-03T05:32:40+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-03T06:51:36.617077+00:00",
       "summaryAttemptAt": "2026-10-03T06:51:37.442357+00:00",
@@ -4288,10 +4468,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 1,
-    "pending": 17,
-    "checkedAt": "2026-10-03T06:52:49.733446+00:00"
+    "created": 7,
+    "failed": 2,
+    "pending": 19,
+    "checkedAt": "2026-10-03T16:18:38.152728+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
