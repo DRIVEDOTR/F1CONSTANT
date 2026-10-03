@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-02T18:41:39.899438+00:00",
+  "collectedAt": "2026-10-03T00:43:20.022520+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-02T18:41:39.899438+00:00"
+      "checkedAt": "2026-10-03T00:43:20.022520+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-02T18:41:39.899438+00:00"
+      "checkedAt": "2026-10-03T00:43:20.022520+00:00"
     }
   ],
   "articles": [
@@ -27,8 +27,7 @@
       "language": "fr",
       "publishedAt": "2026-10-02T15:00:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-02T18:41:39.899438+00:00",
       "summaryAttemptAt": "2026-10-02T18:41:40.319898+00:00",
@@ -423,8 +422,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-09-30T18:42:30.127705+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-03T00:43:20.604098+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -438,8 +437,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-01T18:44:38.745942+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-03T00:44:33.505741+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -555,8 +554,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-01T18:43:53.244558+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-03T00:43:47.123442+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -4267,10 +4266,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 2,
+    "created": 0,
+    "failed": 3,
     "pending": 17,
-    "checkedAt": "2026-10-02T18:43:40.522903+00:00"
+    "checkedAt": "2026-10-03T00:45:04.353292+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
