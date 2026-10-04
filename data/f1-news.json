@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-03T21:30:32.020770+00:00",
+  "collectedAt": "2026-10-04T06:04:49.836271+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-03T21:30:32.020770+00:00"
+      "checkedAt": "2026-10-04T06:04:49.836271+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-03T21:30:32.020770+00:00"
+      "checkedAt": "2026-10-04T06:04:49.836271+00:00"
     }
   ],
   "articles": [
@@ -172,8 +172,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-03T16:16:41.280226+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-04T06:05:16.762196+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -187,8 +187,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-03T16:17:43.921311+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-04T06:06:05.799363+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -1625,8 +1625,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-02T00:44:42.311019+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T06:04:50.313609+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -4459,9 +4459,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 0,
-    "failed": 1,
+    "failed": 3,
     "pending": 19,
-    "checkedAt": "2026-10-03T21:30:57.624505+00:00"
+    "checkedAt": "2026-10-04T06:06:48.550157+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
