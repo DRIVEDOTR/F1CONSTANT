@@ -1,24 +1,176 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-04T06:04:49.836271+00:00",
+  "collectedAt": "2026-10-04T12:35:34.832142+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-04T06:04:49.836271+00:00"
+      "checkedAt": "2026-10-04T12:35:34.832142+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-10-04T06:04:49.836271+00:00"
+      "count": 45,
+      "checkedAt": "2026-10-04T12:35:34.832142+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "59a560a5c71e1b48c0cb",
+      "title": "Russell estime qu'il vaut mieux \"rire\" de sa malchance",
+      "url": "https://fr.motorsport.com/f1/news/russell-prefere-rire-malchance-gp-bahrein/10861949/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T12:24:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:35:35.392245+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell trouve sa malchance \"risible\" après défaillance de son groupe propulseur",
+      "summaryFr": "George Russell estime que sa malchance a été risible après une défaillance de son groupe propulseur au Grand Prix de Bahreïn, en Malaisie. Il a terminé septième sur la grille à Sepang, malgré un départ rapide et un bon choix de pneus intermédiaires.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:36:19.438955+00:00"
+    },
+    {
+      "id": "873e32a2942de25ce6aa",
+      "title": "\"Catastrophique\", \"nul\", \"naze\" : Hadjar pas complètement satisfait de sa 5e place",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-catastrophique-nul-naze-cinquieme-sepang/10861883/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T11:36:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:36:19.438978+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar déçu par son résultat à Sepang malgré une 5e place",
+      "summaryFr": "Isack Hadjar, qualifié troisième, a terminé en 5e position à Sepang malgré une course mouvante. Il exprime son insatisfaction, affirmant que les bas de la course dominent ses réflexions. Le résultat ne lui paraît pas satisfaisant malgré l'ordre final.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:37:03.140536+00:00"
+    },
+    {
+      "id": "bafd6de88f65322cec5e",
+      "title": "Championnat - Le coup de grâce pour Russell ?",
+      "url": "https://fr.motorsport.com/f1/news/championnat-antonelli-coup-grace-russell-gp-bahrein-malaisie-sepang-2026/10861850/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T10:37:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:37:03.140560+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le coup de grâce pour Russell ?",
+      "summaryFr": "Kimi Antonelli termine deuxième à Bahreïn, profitant d'une défaillance moteur de son coéquipier George Russell. Ce résultat lui permet de s'immiscer en tête du championnat avec 18 points de plus. L'écart s'aggrave avant le Grand Prix de Singapour.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:37:43.900577+00:00"
+    },
+    {
+      "id": "e68fcb00ec0d52a0ebe9",
+      "title": "Verstappen wins in Malaysia after long delays as Russell retires",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5n49zx3zlvwo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-04T10:32:37+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:37:43.900598+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte au Malaysia après des retards, Russell retire",
+      "summaryFr": "Max Verstappen remporte sa première victoire de la saison au Malaysia, après des retards importants. Le duel avec Russell se termine par la retraite du britannique. Aucun détail sur les performances aérodynamiques ou les pneus n'est fourni.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:38:21.178992+00:00"
+    },
+    {
+      "id": "31201a2ca661247cab3e",
+      "title": "Max Verstappen remporte un rocambolesque GP de Bahreïn à Sepang !",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-vainqueur-etrange-gp-sepang/10861759/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T10:21:14+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:38:21.179014+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Max Verstappen remporte son premier GP de la saison à Sepang",
+      "summaryFr": "Max Verstappen a remporté sa première victoire de la saison devant Kimi Antonelli et Lewis Hamilton. Le départ a été marqué par une averse dans l'avant-course et un problème de moteur lors du tour de formation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:39:01.234961+00:00"
+    },
+    {
+      "id": "71c138e122a119854a65",
+      "title": "Problèmes techniques et drapeau rouge : le GP de Bahreïn vire au chaos",
+      "url": "https://fr.motorsport.com/f1/news/problemes-techniques-drapeau-rouge-gp-bahrein-pluie/10861803/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T07:58:26+00:00",
+      "topics": [
+        "ecuries",
+        "competition",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:39:01.234984+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Drapeau rouge au GP de Malaisie à cause de problèmes de groupe propulseur",
+      "summaryFr": "Le Grand Prix de Malaisie a été interrompu par un drapeau rouge après des panneaux liés au groupe propulseur. Le départ était prévu après un orage tropical, mais les voitures ont rencontré des difficultés durant les tours de formation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:39:42.415287+00:00"
+    },
+    {
+      "id": "325e2c76551a6ccff0cd",
+      "title": "Le départ du GP de Bahreïn retardé par un orage en Malaisie",
+      "url": "https://fr.motorsport.com/f1/news/depart-retarde-gp-bahrein-malaisie-sepang-orage/10861777/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T07:05:33+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
+      "summaryAttemptAt": "2026-10-04T12:39:42.415308+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le départ du GP de Bahreïn retardé par un orage en Malaisie",
+      "summaryFr": "Le départ du Grand Prix de Bahreïn a été reporté en raison d'un orage violent sur le circuit de Sepang en Malaisie. Les équipes étaient en train de se mettre en place lorsqu'une averse soudaine et des éclairs ont perturbé la procédure d'avant-course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T12:40:24.633263+00:00"
+    },
     {
       "id": "9588a2250ad47bc13cc7",
       "title": "Hamilton a fait son \"meilleur tour de l'année\" en qualifs à Sepang",
@@ -1784,8 +1936,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:05.774371+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T12:40:24.633292+00:00",
+      "summaryAttempts": 6,
       "summaryError": "unsupported_number"
     },
     {
@@ -1920,8 +2072,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:29.922266+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T12:41:02.861264+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -1995,8 +2147,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:30.006136+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T12:41:02.991099+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2314,8 +2466,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:30.086629+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T12:41:03.033217+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -2349,8 +2501,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:46.278413+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T12:41:29.197285+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -4458,10 +4610,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 3,
+    "created": 7,
+    "failed": 5,
     "pending": 19,
-    "checkedAt": "2026-10-04T06:06:48.550157+00:00"
+    "checkedAt": "2026-10-04T12:41:29.298987+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
