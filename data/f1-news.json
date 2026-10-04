@@ -1,24 +1,153 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-04T12:35:34.832142+00:00",
+  "collectedAt": "2026-10-04T21:41:40.776729+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-04T12:35:34.832142+00:00"
+      "checkedAt": "2026-10-04T21:41:40.776729+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-04T12:35:34.832142+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-04T21:41:40.776729+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "b40de1164e07241f66f9",
+      "title": "Mercedes better 'watch out - Verstappen 'imperious' in Bahrain GP win",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cq3djv4rjvmdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-04T17:41:20+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-04T21:41:41.413733+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen impressionne en victoire au Bahrain",
+      "summaryFr": "Max Verstappen remporte son premier succès de la saison au Grand Prix de Bahrain. Le duo de pilotes de Red Bull s'est imposé face à une Mercedes qui reste à l'écoute. L'aileron avant et l'aileron arrière ont été critiqués dans les souffleries.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T21:42:16.108315+00:00"
+    },
+    {
+      "id": "8aac2837b912c41c5be5",
+      "title": "Hamilton & Verstappen bemused after glitch turns F1 into 'Lego race'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwg7x820k9xjo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-04T16:58:56+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-04T21:42:16.108341+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton et Verstappen étonnés par un bug qui a transformé la course en \"course en Lego\"",
+      "summaryFr": "Max Verstappen et Lewis Hamilton ont comparé les effets d'un glitch logiciel sur plusieurs voitures avant le Grand Prix de Bahrein à Malaisie à une \"course en Lego\". Le problème a perturbé le fonctionnement des véhicules, mais n'a pas entraîné de résultats définitifs.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T21:42:51.675804+00:00"
+    },
+    {
+      "id": "97197e0c6d6f433e8d01",
+      "title": "Le pari des pneus slicks qui a fait mal à McLaren et Ferrari à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/pari-pneus-slicks-erreur-mclaren-ferrari-sepang/10862039/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T15:58:32+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-04T21:42:51.675827+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le pari des pneus slicks qui a fait mal à McLaren et Ferrari à Sepang",
+      "summaryFr": "Ferrari et McLaren ont choisi les pneus slicks au départ de Sepang, Ferrari avec des tendres et McLaren avec des mediums. La piste était encore trop glissante, ce qui a fait regretter leur décision. McLaren a rapidement abandonné son plan.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T21:43:27.792457+00:00"
+    },
+    {
+      "id": "f3dc04800424c95ee74e",
+      "title": "How to follow the Singapore Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-04T14:44:28+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-04T21:43:27.792480+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Comment suivre le Grand Prix de Singapour sur la BBC",
+      "summaryFr": "Le Grand Prix de Singapour, sixième et dernier événement de la saison en format sprint, se déroule du 9 au 11 octobre. Toutes les informations clés sur la couverture BBC sont disponibles.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T21:43:58.220178+00:00"
+    },
+    {
+      "id": "37cb42abbaa96ef21a16",
+      "title": "Dominant Verstappen & superb Hamilton recovery - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqkgjnrjr3l5o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-04T13:36:42+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-04T21:43:58.220202+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen dominant, Hamilton fait une superbe reprise - classements pilotes",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes au Grand Prix de Bahrain en Malaisie. Verstappen se montre dominant, Hamilton réalise une reprise remarquable. Aucune information sur les voitures, les écuries ou les compétitions n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T21:44:31.672530+00:00"
+    },
+    {
+      "id": "9828871db69d22eb2e46",
+      "title": "La FIA explique le bug logiciel à l'origine du départ retardé à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/fia-explique-bug-depart-gp-bahrein-malaisie-sepang/10861955/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-04T12:41:38+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-04T21:44:31.672573+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Départ retardé au Grand Prix de Sepang en raison d'une forte averse",
+      "summaryFr": "Le départ de la course de Sepang a été reporté de 40 minutes en raison d'une forte averse. Un tour de formation a été marqué par des difficultés techniques, notamment pour Max Verstappen et Lewis Hamilton, dont les problèmes sont liés à un bug inconnu.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-04T21:45:08.231236+00:00"
+    },
     {
       "id": "59a560a5c71e1b48c0cb",
       "title": "Russell estime qu'il vaut mieux \"rire\" de sa malchance",
@@ -27,9 +156,7 @@
       "language": "fr",
       "publishedAt": "2026-10-04T12:24:41+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
       "summaryAttemptAt": "2026-10-04T12:35:35.392245+00:00",
@@ -49,9 +176,7 @@
       "language": "fr",
       "publishedAt": "2026-10-04T11:36:13+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
       "summaryAttemptAt": "2026-10-04T12:36:19.438978+00:00",
@@ -71,9 +196,7 @@
       "language": "fr",
       "publishedAt": "2026-10-04T10:37:13+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
       "summaryAttemptAt": "2026-10-04T12:37:03.140560+00:00",
@@ -93,9 +216,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T10:32:37+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
       "summaryAttemptAt": "2026-10-04T12:37:43.900598+00:00",
@@ -115,8 +236,7 @@
       "language": "fr",
       "publishedAt": "2026-10-04T10:21:14+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
       "summaryAttemptAt": "2026-10-04T12:38:21.179014+00:00",
@@ -136,8 +256,6 @@
       "language": "fr",
       "publishedAt": "2026-10-04T07:58:26+00:00",
       "topics": [
-        "ecuries",
-        "competition",
         "voitures"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
@@ -158,7 +276,6 @@
       "language": "fr",
       "publishedAt": "2026-10-04T07:05:33+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-04T12:35:34.832142+00:00",
@@ -2516,8 +2633,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:46.374620+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T21:45:08.231259+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2531,8 +2648,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:46.423095+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T21:45:08.382924+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2547,8 +2664,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-02T06:46:46.488055+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T21:45:08.565930+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2563,8 +2680,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-02T12:47:56.967227+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T21:45:08.733763+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2578,8 +2695,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-02T12:47:57.083242+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T21:45:08.816788+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2593,8 +2710,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-02T12:47:57.143260+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-04T21:45:08.895068+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -4610,10 +4727,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 7,
-    "failed": 5,
+    "created": 6,
+    "failed": 6,
     "pending": 19,
-    "checkedAt": "2026-10-04T12:41:29.298987+00:00"
+    "checkedAt": "2026-10-04T21:45:08.995859+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
