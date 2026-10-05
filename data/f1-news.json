@@ -1,24 +1,149 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-05T05:57:37.127627+00:00",
+  "collectedAt": "2026-10-05T15:02:01.439861+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-10-05T05:57:37.127627+00:00"
+      "count": 50,
+      "checkedAt": "2026-10-05T15:02:01.439861+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-10-05T05:57:37.127627+00:00"
+      "count": 47,
+      "checkedAt": "2026-10-05T15:02:01.439861+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "ebcc1787e39a8154e366",
+      "title": "Stella défend la FIA après le chaos de Sepang : \"Il faut accepter certains problèmes\"",
+      "url": "https://fr.motorsport.com/f1/news/stella-defend-fia-chaos-sepang-accepter-problemes/10862209/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-05T13:00:02+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
+      "summaryAttemptAt": "2026-10-05T15:02:02.060669+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Stella défend la FIA après le chaos de Sepang",
+      "summaryFr": "Andrea Stella, directeur de McLaren, affirme qu'il faut accepter des bugs logiciels pénalisants dans la réglementation actuelle, tout en espérant que la FIA évitera une répétition de telles situations. Le départ du Grand Prix de Sepang a été retardé en raison d'un circuit détrempé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-05T15:02:46.515031+00:00"
+    },
+    {
+      "id": "403f19a8b02599957407",
+      "title": "Audi avec une livrée spéciale à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/audi-livree-speciale-singapour/10862258/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-05T11:59:20+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
+      "summaryAttemptAt": "2026-10-05T15:02:46.515057+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Audi met une livrée spéciale au Grand Prix de Singapour",
+      "summaryFr": "Audi affichera une livrée originale lors du Grand Prix de Singapour 2026, inspirée de la culture Peranakan. La marque abandonne sa tenue habituelle pour ce détour culturel.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-05T15:03:25.151994+00:00"
+    },
+    {
+      "id": "bf5f50bfb7e60e4f9187",
+      "title": "F1 needs to have hard look at itself - Sainz",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr62y51n1841o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-05T11:52:01+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
+      "summaryAttemptAt": "2026-10-05T15:03:25.152017+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "F1 doit faire un examen serré de lui-même, selon Sainz",
+      "summaryFr": "Carlos Sainz affirme que la Formule 1 doit effectuer un examen rigoureux de son organisation après des glitch de logiciel sans précédent au Grand Prix de Bahrein en Malaisie. Ces erreurs ont perturbé la course et soulèvent des questions sur la fiabilité du système informatique utilisé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-05T15:04:03.548906+00:00"
+    },
+    {
+      "id": "9b7bf180cb956b4ab91f",
+      "title": "\"Horrible, totalement inacceptable\" : les pilotes F1 agacés par le bug moteur",
+      "url": "https://fr.motorsport.com/f1/news/horrible-totalement-inacceptable-pilotes-f1-bug-logiciel/10862181/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-05T11:15:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
+      "summaryAttemptAt": "2026-10-05T15:04:03.548932+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les pilotes F1 dénoncent un bug moteur \"horrible\" au départ de Bahreïn",
+      "summaryFr": "Des pilotes de premier plan, notamment Lando Norris, qualifient les dysfonctionnements logiciels des groupes propulseurs d'horribles et inacceptables. Ces problèmes ont perturbé le départ du Grand Prix de Bahreïn sur le circuit de Sepang.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-05T15:04:46.696402+00:00"
+    },
+    {
+      "id": "6c382ef0406bbea674b0",
+      "title": "Honda Racing va changer de président",
+      "url": "https://fr.motorsport.com/f1/news/honda-racing-change-president-hrc/10862188/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-05T08:30:14+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
+      "summaryAttemptAt": "2026-10-05T15:04:46.696426+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Honda Racing change de président",
+      "summaryFr": "Koji Watanabe quitte son poste de président du HRC pour rejoindre la retraite le 1er janvier 2027. Son vice-président, Keiichi Yasuda, lui succède. L'information a été officialisée après les Grands Prix de Bahreïn et du Japon.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-05T15:05:27.416878+00:00"
+    },
+    {
+      "id": "8800ebf51791e8241db5",
+      "title": "Explications : ce qui s'est vraiment passé avec le bug moteur F1 à Sepang",
+      "url": "https://fr.motorsport.com/f1/news/bug-moteur-f1-sepang-explications/10862154/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-05T07:27:45+00:00",
+      "topics": [
+        "pilotes",
+        "competition",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
+      "summaryAttemptAt": "2026-10-05T15:05:27.416901+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Chaos au départ de Sepang : Verstappen et Hamilton bloqués en formation",
+      "summaryFr": "Max Verstappen a connu un manque de puissance au ralenti lors de la formation, suivi de l'immobilisation de Lewis Hamilton. Plusieurs autres voitures ont été touchées. La direction de course a été appelée à intervenir.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-05T15:06:08.544335+00:00"
+    },
     {
       "id": "b40de1164e07241f66f9",
       "title": "Mercedes better 'watch out - Verstappen 'imperious' in Bahrain GP win",
@@ -4718,12 +4843,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 6,
+    "created": 6,
+    "failed": 0,
     "pending": 19,
-    "checkedAt": "2026-10-05T06:01:06.489334+00:00"
+    "checkedAt": "2026-10-05T15:06:08.544452+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
