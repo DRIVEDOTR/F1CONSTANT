@@ -1,24 +1,174 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-06T06:35:31.758887+00:00",
+  "collectedAt": "2026-10-06T18:30:35.494536+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-06T06:35:31.758887+00:00"
+      "checkedAt": "2026-10-06T18:30:35.494536+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-10-06T06:35:31.758887+00:00"
+      "checkedAt": "2026-10-06T18:30:35.494536+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "5b6def2af798395559fe",
+      "title": "Les leçons que Kimi Antonelli tire de Lewis Hamilton et Max Verstappen",
+      "url": "https://fr.motorsport.com/f1/news/lecons-antonelli-tirer-hamilton-verstappen/10862457/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-06T16:00:04+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:30:36.240508+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli analyse ses confrontations avec Hamilton et Verstappen",
+      "summaryFr": "Kimi Antonelli, leader du championnat pilotes, a évoqué les leçons tirées de ses confrontations avec Lewis Hamilton et Max Verstappen. Il a terminé sur le podium du Grand Prix de Bahreïn, en Malaisie, derrière Verstappen et Hamilton.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:31:13.414027+00:00"
+    },
+    {
+      "id": "05aa333d3dca3167ded1",
+      "title": "Red Bull surmonte les restrictions de l'ADUO mais réclame toujours des changements",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-surmonte-aduo-reclame-changements/10862424/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-06T13:00:03+00:00",
+      "topics": [
+        "ecuries",
+        "competition",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:31:13.414054+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull réclame des modifications après avoir surmonté les restrictions de l'ADUO",
+      "summaryFr": "Red Bull continue de demander des ajustements au système ADUO, mis en place en 2026 pour évaluer les performances des groupes propulseurs. Le directeur Laurent Mekies affirme que l'écurie travaille avec la FIA pour optimiser ce système, malgré son passage en force.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:31:52.591221+00:00"
+    },
+    {
+      "id": "74b0f01e8f19fc3bd017",
+      "title": "Pour Leclerc, Ferrari doit apprendre de Red Bull sur la stratégie",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-ferrari-apprendre-red-bull-strategie/10862422/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-06T11:30:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:31:52.591246+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc conseille Ferrari d'imiter Red Bull sur la stratégie",
+      "summaryFr": "Charles Leclerc exige que Ferrari s'inspire de Red Bull pour améliorer ses stratégies après un pari pneumatique échoué au Grand Prix de Bahreïn en Malaisie. Le pilote de la Scuderia et Lewis Hamilton ont débuté la course avec des pneus slicks tendres dans des conditions météorologiques instables.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:32:31.887262+00:00"
+    },
+    {
+      "id": "ded53acd4cc413ab3420",
+      "title": "La F2 a révélé son calendrier 2027 avec deux étapes inédites",
+      "url": "https://fr.motorsport.com/fia-f2/news/f2-calendrier-2027-etapes-inedites/10862452/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-06T09:22:57+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:32:31.887288+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "FIA F2 annonce une étape inédite au Grand Prix de Mexico en 2027",
+      "summaryFr": "La FIA F2 révèle son calendrier 2027 avec une nouvelle étape au Grand Prix de Mexico, avant les finales au Qatar et à Abu Dhabi. L'annonce est faite par Bruno Michel, PDG de la Formule 2 et de la Formule 3.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:33:09.509303+00:00"
+    },
+    {
+      "id": "92e174fe76159184111b",
+      "title": "Aston Martin surprend à Sepang : \"On était même plus rapides que les Ferrari\"",
+      "url": "https://fr.motorsport.com/f1/news/aston-martin-surprend-sepang-plus-rapide-ferrari/10862171/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-06T09:15:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:33:09.509328+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Aston Martin surprend à Sepang : \"On était même plus rapides que les Ferrari\"",
+      "summaryFr": "Fernando Alonso a remporté la huitième place au Grand Prix de Bahreïn en Malaisie, meilleur résultat de la saison pour Aston Martin. L'AMR26, conçue par Adrian Newey et équipée de Honda, a montré une compétitivité accrue à Sepang après des difficultés antérieures. Alonso et Lance Stroll forment le duo de pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:33:51.575481+00:00"
+    },
+    {
+      "id": "7ebb0baabcc21f357aaf",
+      "title": "Les fâcheuses répercussions de l'abandon de Russell en Malaisie",
+      "url": "https://fr.motorsport.com/f1/news/repercussions-abandon-george-russell-malaisie/10862309/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-06T07:45:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:33:51.575505+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "L'abandon de Russell en Malaisie met en danger son ADUO",
+      "summaryFr": "George Russell a abandonné lors du Grand Prix de Malaisie à Sepang, alors qu'il occupait la troisième place sous régime de voiture de sécurité. Cette situation pourrait avoir des répercussions importantes sur son ADUO. Aucune information sur les causes ou les conséquences n'est confirmée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:34:29.518337+00:00"
+    },
+    {
+      "id": "b6652f837703561314b5",
+      "title": "Wet races and why future of F1 engines appears to be V8 turbos - Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr15j3z2npz9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-06T06:47:43+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T18:30:35.494536+00:00",
+      "summaryAttemptAt": "2026-10-06T18:34:29.518362+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Races pluvieuses et avenir des moteurs F1 : V8 turbos ?",
+      "summaryFr": "Une rumeur circule sur l'avenir des groupes propulseurs F1, avec des prévisions selon lesquelles les V8 turbos pourraient revenir. Les conditions météorologiques ont été particulièrement difficiles au Bahrain, avec des courses mouillées.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T18:35:03.228855+00:00"
+    },
     {
       "id": "374671c4c48d361261f0",
       "title": "Bottas cycling from Malaysia to Singapore Grand Prix",
@@ -2202,8 +2352,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-04T12:40:24.633292+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-06T18:35:03.228887+00:00",
+      "summaryAttempts": 7,
       "summaryError": "unsupported_number"
     },
     {
@@ -2338,8 +2488,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-04T12:41:02.861264+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-06T18:35:39.565357+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -2413,8 +2563,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-04T12:41:02.991099+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-06T18:35:39.682940+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -2732,8 +2882,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-04T12:41:03.033217+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-06T18:35:39.760657+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -2767,8 +2917,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-04T12:41:29.197285+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-06T18:36:00.141961+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -4876,10 +5026,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 4,
+    "created": 7,
+    "failed": 5,
     "pending": 20,
-    "checkedAt": "2026-10-06T06:37:56.872308+00:00"
+    "checkedAt": "2026-10-06T18:36:00.209085+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
