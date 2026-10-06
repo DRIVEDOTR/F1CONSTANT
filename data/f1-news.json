@@ -1,24 +1,59 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-05T15:02:01.439861+00:00",
+  "collectedAt": "2026-10-06T00:11:57.759289+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-05T15:02:01.439861+00:00"
+      "checkedAt": "2026-10-06T00:11:57.759289+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-10-05T15:02:01.439861+00:00"
+      "checkedAt": "2026-10-06T00:11:57.759289+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "374671c4c48d361261f0",
+      "title": "Bottas cycling from Malaysia to Singapore Grand Prix",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv2d6p9en7wdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-05T19:00:23+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
+      "summaryAttemptAt": "2026-10-06T00:11:58.637937+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "67755954040a7c5e7b84",
+      "title": "Le programme du Grand Prix de Singapour F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-singapour-2026-dates-horaires-infos-programme/10862257/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-05T16:00:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
+      "summaryAttemptAt": "2026-10-06T00:12:15.489597+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix de Singapour 2026 en format sprint",
+      "summaryFr": "Le Grand Prix de Singapour sera la 17e manche de la saison 2026, disputée pour la première fois au format sprint. Le décalage horaire de six heures est compensé par le fait que l'épreuve se déroule en soirée, offrant des horaires proches de ceux habituels en France.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T00:12:44.262828+00:00"
+    },
     {
       "id": "ebcc1787e39a8154e366",
       "title": "Stella défend la FIA après le chaos de Sepang : \"Il faut accepter certains problèmes\"",
@@ -27,7 +62,6 @@
       "language": "fr",
       "publishedAt": "2026-10-05T13:00:02+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
@@ -89,8 +123,7 @@
       "publishedAt": "2026-10-05T11:15:02+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
       "summaryAttemptAt": "2026-10-05T15:04:03.548932+00:00",
@@ -110,7 +143,7 @@
       "language": "fr",
       "publishedAt": "2026-10-05T08:30:14+00:00",
       "topics": [
-        "ecuries"
+        "competition"
       ],
       "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
       "summaryAttemptAt": "2026-10-05T15:04:46.696426+00:00",
@@ -130,9 +163,7 @@
       "language": "fr",
       "publishedAt": "2026-10-05T07:27:45+00:00",
       "topics": [
-        "pilotes",
-        "competition",
-        "ecuries"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-05T15:02:01.439861+00:00",
       "summaryAttemptAt": "2026-10-05T15:05:27.416901+00:00",
@@ -888,8 +919,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-03T21:30:32.575223+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-06T00:12:44.262857+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -4843,12 +4874,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
-    "failed": 0,
-    "pending": 19,
-    "checkedAt": "2026-10-05T15:06:08.544452+00:00"
+    "created": 1,
+    "failed": 2,
+    "pending": 20,
+    "checkedAt": "2026-10-06T00:13:03.096977+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
