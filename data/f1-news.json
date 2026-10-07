@@ -1,24 +1,45 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-07T13:39:17.076520+00:00",
+  "collectedAt": "2026-10-07T23:13:11.670755+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-07T13:39:17.076520+00:00"
+      "checkedAt": "2026-10-07T23:13:11.670755+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-10-07T13:39:17.076520+00:00"
+      "checkedAt": "2026-10-07T23:13:11.670755+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "2bd9ad245582d6a84e18",
+      "title": "Verstappen favorable à un système de dépassement type IndyCar en F1",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-favorable-push-to-pass-indycar-f1/10862499/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-07T15:16:20+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-07T23:13:11.670755+00:00",
+      "summaryAttemptAt": "2026-10-07T23:13:12.486384+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen critique la direction prise par le règlement F1 2026",
+      "summaryFr": "Max Verstappen est favorable à un système de dépassement plus dynamique, comme dans l'IndyCar. Il estime que le règlement 2026 a pris la mauvaise direction, malgré une répartition de puissance censée être équilibrée entre moteur thermique et système électrique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-07T23:13:55.804171+00:00"
+    },
     {
       "id": "056037e1b16cfc8ac17f",
       "title": "Fernando Alonso participera au Dakar avec Aston Martin",
@@ -48,8 +69,7 @@
       "language": "en",
       "publishedAt": "2026-10-07T10:01:59+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-07T13:39:17.076520+00:00",
       "summaryAttemptAt": "2026-10-07T13:39:55.491119+00:00",
@@ -5101,10 +5121,10 @@
   "summaryStatus": {
     "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
+    "created": 1,
     "failed": 0,
     "pending": 20,
-    "checkedAt": "2026-10-07T13:41:04.047049+00:00"
+    "checkedAt": "2026-10-07T23:13:55.804283+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
