@@ -1,24 +1,87 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-07T06:13:03.797199+00:00",
+  "collectedAt": "2026-10-07T13:39:17.076520+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-07T06:13:03.797199+00:00"
+      "checkedAt": "2026-10-07T13:39:17.076520+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-10-07T06:13:03.797199+00:00"
+      "checkedAt": "2026-10-07T13:39:17.076520+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "056037e1b16cfc8ac17f",
+      "title": "Fernando Alonso participera au Dakar avec Aston Martin",
+      "url": "https://fr.motorsport.com/dakar/news/fernando-alonso-dakar-2027-aston-martin/10862717/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-07T12:06:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-07T13:39:17.076520+00:00",
+      "summaryAttemptAt": "2026-10-07T13:39:17.710489+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Fernando Alonso pourrait reprendre la Formule 1 avec Aston Martin en 2027",
+      "summaryFr": "Fernando Alonso aurait négocié des conditions favorables avec Aston Martin pour continuer en Formule 1 en 2027. Le constructeur aurait également exprimé son soutien à une nouvelle participation de l'Espagnol. Aucune confirmation officielle n'a été faite.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-07T13:39:55.491088+00:00"
+    },
+    {
+      "id": "6537199139d2a635d938",
+      "title": "Russell to start from back of Singapore grid after penalty",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qkdk37gy0o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-07T10:01:59+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-07T13:39:17.076520+00:00",
+      "summaryAttemptAt": "2026-10-07T13:39:55.491119+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell part en dernière position à Singapour à cause d'une pénalité sur le groupe propulseur",
+      "summaryFr": "George Russell devra partir en dernière position du grid du Grand Prix de Singapour en raison d'une pénalité infligée sur son groupe propulseur lors de la course du week-end précédent. Aucune autre information n'est disponible.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-07T13:40:27.620313+00:00"
+    },
+    {
+      "id": "611f337989a518223413",
+      "title": "Mercedes confirme la pénalité de Russell sur la grille à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-confirme-penalite-russell-grille-singapour/10862657/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-07T09:12:10+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-07T13:39:17.076520+00:00",
+      "summaryAttemptAt": "2026-10-07T13:40:27.620340+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes confirme la pénalité de Russell sur la grille à Singapour",
+      "summaryFr": "Mercedes a confirmé que George Russell subira une pénalité sur la grille de départ au Grand Prix de Singapour, suite à un abandon en Malaisie causé par une défaillance de son groupe propulseur. Le pilote occupait la troisième place avant de s'arrêter au virage 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-07T13:41:04.046910+00:00"
+    },
     {
       "id": "e0e3e0af2ac80b9539e8",
       "title": "Pourquoi la mauvaise performance de McLaren à Sepang était si \"étrange\"",
@@ -27,8 +90,7 @@
       "language": "fr",
       "publishedAt": "2026-10-07T05:25:05+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-07T06:13:03.797199+00:00",
       "summaryAttemptAt": "2026-10-07T06:13:04.264042+00:00",
@@ -5037,12 +5099,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
+    "created": 3,
+    "failed": 0,
     "pending": 20,
-    "checkedAt": "2026-10-07T06:15:53.771138+00:00"
+    "checkedAt": "2026-10-07T13:41:04.047049+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
