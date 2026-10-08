@@ -1,24 +1,139 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-08T06:21:36.963321+00:00",
+  "collectedAt": "2026-10-08T13:50:31.072955+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-08T06:21:36.963321+00:00"
+      "checkedAt": "2026-10-08T13:50:31.072955+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-10-08T06:21:36.963321+00:00"
+      "checkedAt": "2026-10-08T13:50:31.072955+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "8ff6abac5e26b0fc2fce",
+      "title": "Russell to take further grid penalty this season",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6y8lyj1pemko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T13:48:17+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-08T13:50:31.072955+00:00",
+      "summaryAttemptAt": "2026-10-08T13:50:32.108054+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell reçoit un nouveau pénalité de grille cette saison",
+      "summaryFr": "George Russell affirme qu'il recevra une nouvelle pénalité de grille cette saison, en plus de celle déjà imposée pour le Grand Prix de Singapour. Le pilote n'a pas précisé les raisons ou le contexte exact de cette nouvelle sanction.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T13:51:09.690799+00:00"
+    },
+    {
+      "id": "18aa587c19fddb5ee908",
+      "title": "F1 heat hazard declared for fourth time this season",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5yng71qpngo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T12:58:59+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-08T13:50:31.072955+00:00",
+      "summaryAttemptAt": "2026-10-08T13:51:09.690824+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Danger thermique déclaré pour la quatrième fois cette saison",
+      "summaryFr": "Le Grand Prix de Singapour est déclaré une course à risque thermique, après un deuxième weekend consécutif où ce statut a été appliqué. Cette situation soulève des préoccupations sur les conditions de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T13:51:44.643397+00:00"
+    },
+    {
+      "id": "4df47e31c0993804848e",
+      "title": "Snakes and jungle mind games as F1's Bottas cycles to Singapore GP",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjr4yr3lv24lo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T10:34:19+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-08T13:50:31.072955+00:00",
+      "summaryAttemptAt": "2026-10-08T13:51:44.643421+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Bottas raconte son trajet en vélo entre Malaisie et Singapour",
+      "summaryFr": "Valtteri Bottas affirme avoir vu des serpents, été poursuivi par des chiens et sauté sur un lézard lors de son trajet en vélo de la Malaisie au Singapour. Ce récit reste une rumeur sans preuve.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T13:52:22.847089+00:00"
+    },
+    {
+      "id": "a7543eff24f944ab477d",
+      "title": "What is the format for F1 sprint races in 2026?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c4g236r9npyo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T10:33:42+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-08T13:50:31.072955+00:00",
+      "summaryAttemptAt": "2026-10-08T13:52:22.847113+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Format des courses sprint en Formule 1 en 2026",
+      "summaryFr": "La saison 2026 comptera six courses sprint. Le format exact des sprint races n'est pas précisé dans la source.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T13:52:55.359572+00:00"
+    },
+    {
+      "id": "f3dc04800424c95ee74e",
+      "title": "How to follow Singapore Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T10:06:46+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-08T13:52:55.359596+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "56e610fe5230cb0bdebf",
+      "title": "La FIA achève son enquête sur le bug de Sepang et annonce des mesures",
+      "url": "https://fr.motorsport.com/f1/news/fia-acheve-enquete-chaos-bug-sepang/10862889/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-08T08:15:48+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-08T13:50:31.072955+00:00",
+      "summaryAttemptAt": "2026-10-08T13:53:22.240331+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "FIA annonce des mesures après le bug de Sepang",
+      "summaryFr": "La FIA termine son enquête sur un bug logiciel survenu lors du départ du Grand Prix de Bahreïn, qui a fait arrêter la moitié du peloton. Le problème est lié aux restrictions de 250 kW imposées par la FIA.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T13:54:02.645840+00:00"
+    },
     {
       "id": "2bd9ad245582d6a84e18",
       "title": "Verstappen favorable à un système de dépassement type IndyCar en F1",
@@ -483,26 +598,6 @@
       "summaryAt": "2026-10-04T21:43:27.792457+00:00"
     },
     {
-      "id": "f3dc04800424c95ee74e",
-      "title": "How to follow the Singapore Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-04T14:44:28+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-04T21:43:27.792480+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Comment suivre le Grand Prix de Singapour sur la BBC",
-      "summaryFr": "Le Grand Prix de Singapour, sixième et dernier événement de la saison en format sprint, se déroule du 9 au 11 octobre. Toutes les informations clés sur la couverture BBC sont disponibles.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-04T21:43:58.220178+00:00"
-    },
-    {
       "id": "37cb42abbaa96ef21a16",
       "title": "Dominant Verstappen & superb Hamilton recovery - driver ratings",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqkgjnrjr3l5o",
@@ -835,8 +930,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-06T06:35:58.628346+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-08T13:54:28.965269+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -850,8 +945,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-06T06:36:47.822466+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-08T13:55:18.575081+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -2288,8 +2383,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-06T06:35:32.270568+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-08T13:54:02.645865+00:00",
+      "summaryAttempts": 8,
       "summaryError": "invalid_length"
     },
     {
@@ -5121,10 +5216,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 2,
-    "pending": 20,
-    "checkedAt": "2026-10-08T06:22:34.158998+00:00"
+    "created": 5,
+    "failed": 4,
+    "pending": 21,
+    "checkedAt": "2026-10-08T13:56:01.938354+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
