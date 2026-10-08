@@ -1,24 +1,102 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-08T13:50:31.072955+00:00",
+  "collectedAt": "2026-10-08T23:28:33.585133+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-08T13:50:31.072955+00:00"
+      "checkedAt": "2026-10-08T23:28:33.585133+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-10-08T13:50:31.072955+00:00"
+      "checkedAt": "2026-10-08T23:28:33.585133+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "ffe744e6134e7dd09098",
+      "title": "Ticket rises and more TV packages - why is price of sport increasing?",
+      "url": "https://www.bbc.co.uk/sport/articles/cx7vpe1p070mo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T18:57:13+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
+      "summaryAttemptAt": "2026-10-08T23:28:34.545901+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "1e4d920e12b61fbd4050",
+      "title": "McLaren cherche encore la solution au problème moteur de Norris",
+      "url": "https://fr.motorsport.com/f1/news/mclaren-cherche-encore-solution-probleme-moteur-norris/10863088/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-08T17:17:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
+      "summaryAttemptAt": "2026-10-08T23:29:01.769405+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren ajuste les éléments périphériques du groupe propulseur de Norris",
+      "summaryFr": "McLaren a modifié des composants périphériques de l'unité de puissance Mercedes utilisée par Lando Norris afin de résoudre un problème récurrent de système de carburant. L'équipe a été en retrait de Mercedes, qui utilise le même groupe propulseur, sur les longues lignes droites de Bakou.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T23:29:46.730750+00:00"
+    },
+    {
+      "id": "d47bf116646e9548e717",
+      "title": "\"Ils ont construit les meilleurs moteurs\" : pourquoi les pilotes Audi F1 sont optimistes",
+      "url": "https://fr.motorsport.com/f1/news/pilotes-audi-optimistes-meilleur-moteur-avenir/10863055/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-08T15:20:01+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
+      "summaryAttemptAt": "2026-10-08T23:29:46.730775+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Audi F1 optimiste malgré les difficultés au Marina Bay",
+      "summaryFr": "L'équipe Audi F1 reste optimiste pour le circuit de Marina Bay, où la puissance du groupe propulseur est moins déterminante. Cependant, cette règle générale ne s'applique pas nécessairement en Asie. L'écart avec les leaders en puissance reste à évaluer.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T23:30:28.782583+00:00"
+    },
+    {
+      "id": "e88ad59853da539def33",
+      "title": "Russell revient à l'ancienne spécification de la Mercedes à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/russell-revient-acienne-secification-mercedes-singapour/10863045/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-08T13:50:01+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
+      "summaryAttemptAt": "2026-10-08T23:30:28.782607+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell revient à l'ancienne spécification de la Mercedes à Singapour",
+      "summaryFr": "La Mercedes a révélé qu'elle a rétabli son ancienne spécification de fond plat après avoir testé une version modifiée au Bahreïn. Cette décision concerne notamment les déflecteurs arrière des roues avant et la surface supérieure des pontons avec rampe. Aucune information sur l'impact sur le rendement ou le comportement de la voiture n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-08T23:31:13.547936+00:00"
+    },
     {
       "id": "8ff6abac5e26b0fc2fce",
       "title": "Russell to take further grid penalty this season",
@@ -110,8 +188,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-08T13:52:55.359596+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-08T23:32:20.574862+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -2542,8 +2620,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-06T18:35:03.228887+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-08T23:31:13.547961+00:00",
+      "summaryAttempts": 8,
       "summaryError": "unsupported_number"
     },
     {
@@ -2678,8 +2756,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-06T18:35:39.565357+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-08T23:31:53.288890+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -2753,8 +2831,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-06T18:35:39.682940+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-08T23:31:53.395692+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3072,8 +3150,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-06T18:35:39.760657+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-08T23:31:53.608897+00:00",
+      "summaryAttempts": 8,
       "summaryError": "invalid_length"
     },
     {
@@ -3107,8 +3185,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-06T18:36:00.141961+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-08T23:32:20.381210+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -5216,10 +5294,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 4,
-    "pending": 21,
-    "checkedAt": "2026-10-08T13:56:01.938354+00:00"
+    "created": 3,
+    "failed": 7,
+    "pending": 22,
+    "checkedAt": "2026-10-08T23:32:47.611682+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
