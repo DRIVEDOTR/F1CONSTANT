@@ -1,24 +1,173 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-09T06:23:17.914473+00:00",
+  "collectedAt": "2026-10-09T13:37:04.371674+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-09T06:23:17.914473+00:00"
+      "checkedAt": "2026-10-09T13:37:04.371674+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 47,
-      "checkedAt": "2026-10-09T06:23:17.914473+00:00"
+      "count": 45,
+      "checkedAt": "2026-10-09T13:37:04.371674+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "faf9d4945899e1b05651",
+      "title": "Mercedes critics think I'm Satan - Wolff",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmje5x0enkxqo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-09T13:24:12+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
+      "summaryAttemptAt": "2026-10-09T13:37:05.104511+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Wolff dément les accusations de biais contre Russell",
+      "summaryFr": "Le directeur de Mercedes, Toto Wolff, rejette les critiques affirmant un biais contre George Russell, qualifiant les critiques de \"brainless\". Aucune information sur les performances ou les équipes n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T13:37:35.840759+00:00"
+    },
+    {
+      "id": "1aff8214882c5fc06a61",
+      "title": "On connaît le détail de la pénalité de George Russell à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/detail-penalite-moteur-russell-singapour/10863368/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T11:08:43+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
+      "summaryAttemptAt": "2026-10-09T13:37:35.840784+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell pénalisé pour installation d'éléments moteur hors quota à Singapour",
+      "summaryFr": "George Russell doit partir du fond de grille à Singapour en raison d'une installation d'éléments moteur hors quota sur sa W17. La pénalité vient après un problème en fin de Grand Prix de Bahreïn. Mercedes l'avait laissé entendre avant de le confirmer à la veille du GP.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T13:38:12.633739+00:00"
+    },
+    {
+      "id": "fc5c42832a4022aaf4ef",
+      "title": "Russell fastest from Leclerc in Singapore practice",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0e0w5ele7wo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-09T09:45:25+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
+      "summaryAttemptAt": "2026-10-09T13:38:12.633762+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell le plus rapide que Leclerc en pratique à Singapour",
+      "summaryFr": "George Russell, pilote de Mercedes, est le plus rapide en pratique du Grand Prix de Singapour, devant Charles Leclerc de Ferrari. Le duo de pilotes s'est classé en tête de la session de préparation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T13:38:42.410094+00:00"
+    },
+    {
+      "id": "f1681745140fc2f3afed",
+      "title": "EL1 - Russell devance Leclerc et Norris avant les qualifs sprint",
+      "url": "https://fr.motorsport.com/f1/news/el1-russell-devance-leclerc-norris-qualifs-sprint/10863264/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T09:34:49+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
+      "summaryAttemptAt": "2026-10-09T13:38:42.410119+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell devance Leclerc et Norris avant les qualifs sprint",
+      "summaryFr": "À Marina Bay, Russell a enregistré un meilleur temps que Leclerc et Norris lors de la première séance de travail du week-end sprint. Le ciel brumeux et les températures élevées, avec 32°C dans l'air et 54°C au sol, ont marqué l'occasion.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T13:39:18.035884+00:00"
+    },
+    {
+      "id": "28700b00558edfc8cd6e",
+      "title": "Mercedes, Red Bull et McLaren, seules équipes avec des évolutions à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-red-bull-mclaren-evolutions-singapour/10863293/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T08:54:27+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
+      "summaryAttemptAt": "2026-10-09T13:39:18.035910+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Seules trois équipes ont des évolutions à Singapour",
+      "summaryFr": "Les évolutions aérodynamiques sont très limitées au Grand Prix de Singapour en raison du format sprint et des rues. Seules Mercedes, Red Bull et McLaren ont apporté des nouveautés. McLaren dispose d'écopes de frein spéciales pour ce GP.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T13:39:53.376093+00:00"
+    },
+    {
+      "id": "483e641d88fd9d36c6f4",
+      "title": "Pour Piastri, Red Bull est devenue une \"référence\" au fil de 2026",
+      "url": "https://fr.motorsport.com/f1/news/piastri-red-bull-devenue-reference-2026/10863233/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T07:26:53+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
+      "summaryAttemptAt": "2026-10-09T13:39:53.376118+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri voit Red Bull comme une référence au fil de 2026",
+      "summaryFr": "Oscar Piastri considère Red Bull comme une référence au fil de 2026, aux côtés de Mercedes. L'écuille a apporté des modifications importantes à la RB22, notamment sur les pontons, le plancher et le diffuseur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T13:40:29.184009+00:00"
+    },
+    {
+      "id": "67755954040a7c5e7b84",
+      "title": "Le programme du Grand Prix de Singapour F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-singapour-2026-dates-horaires-infos-programme/10862257/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T06:46:38+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
+      "summaryAttemptAt": "2026-10-06T00:12:15.489597+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix de Singapour 2026 en format sprint",
+      "summaryFr": "Le Grand Prix de Singapour sera la 17e manche de la saison 2026, disputée pour la première fois au format sprint. Le décalage horaire de six heures est compensé par le fait que l'épreuve se déroule en soirée, offrant des horaires proches de ceux habituels en France.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T00:12:44.262828+00:00"
+    },
     {
       "id": "ffe744e6134e7dd09098",
       "title": "Ticket rises and more TV packages - why is price of sport increasing?",
@@ -190,8 +339,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-08T23:32:20.574862+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-09T13:40:29.184033+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -473,26 +622,6 @@
       "summaryAttemptAt": "2026-10-08T06:22:07.610678+00:00",
       "summaryAttempts": 4,
       "summaryError": "invalid_length"
-    },
-    {
-      "id": "67755954040a7c5e7b84",
-      "title": "Le programme du Grand Prix de Singapour F1 2026 : dates, horaires et infos",
-      "url": "https://fr.motorsport.com/f1/news/gp-singapour-2026-dates-horaires-infos-programme/10862257/",
-      "source": "Motorsport.com France",
-      "language": "fr",
-      "publishedAt": "2026-10-05T16:00:04+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-06T00:12:15.489597+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Le Grand Prix de Singapour 2026 en format sprint",
-      "summaryFr": "Le Grand Prix de Singapour sera la 17e manche de la saison 2026, disputée pour la première fois au format sprint. Le décalage horaire de six heures est compensé par le fait que l'épreuve se déroule en soirée, offrant des horaires proches de ceux habituels en France.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-06T00:12:44.262828+00:00"
     },
     {
       "id": "ebcc1787e39a8154e366",
@@ -5296,10 +5425,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 11,
+    "created": 6,
+    "failed": 1,
     "pending": 22,
-    "checkedAt": "2026-10-09T06:24:21.539994+00:00"
+    "checkedAt": "2026-10-09T13:40:51.768659+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
