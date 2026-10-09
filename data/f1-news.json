@@ -1,24 +1,212 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-09T13:37:04.371674+00:00",
+  "collectedAt": "2026-10-09T22:46:23.295062+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-09T13:37:04.371674+00:00"
+      "checkedAt": "2026-10-09T22:46:23.295062+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-09T13:37:04.371674+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-09T22:46:23.295062+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "9a3c6a3265cee9f66407",
+      "title": "Verstappen on sprint pole after another settings issue",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck62y7jz1qqro",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-09T15:48:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:46:23.959715+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen au sommet du sprint après un problème de réglage",
+      "summaryFr": "Max Verstappen remporte la pole position du sprint au Singapore Grand Prix, battant George Russell de Mercedes. L'issue du départ est attribuée à un problème de réglage du groupe propulseur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:46:54.042836+00:00"
+    },
+    {
+      "id": "f3dc04800424c95ee74e",
+      "title": "How to follow Singapore Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-09T15:44:50+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-09T13:40:29.184033+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "61426326661d7901bf5a",
+      "title": "Verstappen dépasse Hamilton sous drapeau jaune : le verdict des commissaires",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-decision-drapeau-jaune-hamilton/10863515/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T15:44:21+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:46:54.042862+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen conserve la première place après enquête sur dépassement sous drapeau jaune",
+      "summaryFr": "Max Verstappen reste en tête de la grille du sprint de Singapour après une vérification des commissaires. Un dépassement de Lewis Hamilton par Verstappen sous drapeau jaune a été constaté lors des qualifs sprint, entre l'accident de Sergio Pérez et le drapeau rouge. La situation reste dans le cadre d'une enquête.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:47:31.179857+00:00"
+    },
+    {
+      "id": "fc20b074af683ff6e0f8",
+      "title": "L'erreur de la FIA provoque la colère des équipes : Aston Martin envisage une réclamation",
+      "url": "https://fr.motorsport.com/f1/news/erreur-fia-provoque-colere-equipe-aston-martin-envisage-reclamation/10863524/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T15:30:36+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:47:31.179881+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Erreur de la FIA prive certaines équipes de puissance en qualifications sprint",
+      "summaryFr": "Une erreur de la direction de course a empêché certaines voitures de bénéficier de leur puissance lors des qualifications sprint au Grand Prix de Singapour. Aston Martin envisage une réclamation, mais n'a pas encore pris de décision.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:48:04.220389+00:00"
+    },
+    {
+      "id": "ecc3ae261ba84a2373ca",
+      "title": "Antonelli pessimiste et loin du compte avec le nouveau package Mercedes",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-pessimiste-loin-nouveau-package-mercedes/10863496/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T14:52:05+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:48:04.220409+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli pessimiste face au nouveau package Mercedes",
+      "summaryFr": "Kimi Antonelli, leader du championnat, exprime sa frustration face aux modifications de son groupe propulseur Mercedes après une septième place en qualifications sprint au Grand Prix de Singapour. Il reste loin du résultat escompté malgré son avance de 86 points sur George Russell.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:48:38.444414+00:00"
+    },
+    {
+      "id": "b4d62ed5311f6c810e5e",
+      "title": "La FIA admet une \"erreur humaine\" coûteuse durant les qualifs sprint",
+      "url": "https://fr.motorsport.com/f1/news/fia-erreur-humaine-couteuse-qualifs-sprint/10863484/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T14:38:16+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:48:38.444436+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La FIA reconnaît une erreur humaine lors des qualifs sprint",
+      "summaryFr": "La FIA admet une erreur humaine commise par la direction de course, ce qui a provoqué une situation inéquitable lors des qualifs sprint. Le problème n'a pas été corrigé avant la fin de SQ1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:49:11.503054+00:00"
+    },
+    {
+      "id": "8e811caec00f3b77547b",
+      "title": "La grille de départ du sprint au Grand Prix de Singapour F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-sprint-gp-singapour-f1-2026/10863476/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T14:20:59+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:49:11.503079+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille de départ du sprint au Grand Prix de Singapour 2026",
+      "summaryFr": "George Russell part en première position, suivi de Max Verstappen, Oscar Piastri et Charles Leclerc. La grille est fixée pour le sprint du Grand Prix de Singapour 2026. Aucune information sur les performances ou les équipes n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:49:43.630085+00:00"
+    },
+    {
+      "id": "dc30e37e5daa3d0a5d73",
+      "title": "Hadjar et Gasly piégés par un tour annulé en SQ3",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-gasly-pieges-tour-annule-sq3/10863467/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T14:15:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:49:43.630105+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar et Gasly piégés par un tour annulé en SQ3",
+      "summaryFr": "Isack Hadjar et Pierre Gasly ont dépassé les limites de piste lors de leur tour en SQ3 à Singapour, entraînant l'annulation de leurs chronométrages. Leur choix d'utiliser uniquement des pneus tendres a été sanctionné par une perte de temps. Aucune information sur les conséquences sur la course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:50:21.014867+00:00"
+    },
+    {
+      "id": "7fb1dd9bb255dc82f3f2",
+      "title": "Max Verstappen en pole sprint au Grand Prix de Singapour",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-pole-sprint-enquete-singapour/10863422/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-09T13:39:36+00:00",
+      "topics": [
+        "pilotes",
+        "competition",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-09T22:46:23.295062+00:00",
+      "summaryAttemptAt": "2026-10-09T22:50:21.014897+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Pérez dans le mur au sprint de Singapour",
+      "summaryFr": "Les qualifications sprint du Grand Prix de Singapour s'ouvrent sous forte humidité et chaleur, avec 30°C dans l'air et 44°C au sol. Les pilotes doivent utiliser des pneus médiums. Pérez est tombé dans le mur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-09T22:50:55.582818+00:00"
+    },
     {
       "id": "faf9d4945899e1b05651",
       "title": "Mercedes critics think I'm Satan - Wolff",
@@ -27,7 +215,6 @@
       "language": "en",
       "publishedAt": "2026-10-09T13:24:12+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
@@ -48,9 +235,7 @@
       "language": "fr",
       "publishedAt": "2026-10-09T11:08:43+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
       "summaryAttemptAt": "2026-10-09T13:37:35.840784+00:00",
@@ -70,9 +255,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T09:45:25+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
       "summaryAttemptAt": "2026-10-09T13:38:12.633762+00:00",
@@ -92,9 +275,7 @@
       "language": "fr",
       "publishedAt": "2026-10-09T09:34:49+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
       "summaryAttemptAt": "2026-10-09T13:38:42.410119+00:00",
@@ -115,7 +296,7 @@
       "publishedAt": "2026-10-09T08:54:27+00:00",
       "topics": [
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-09T13:37:04.371674+00:00",
       "summaryAttemptAt": "2026-10-09T13:39:18.035910+00:00",
@@ -179,8 +360,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-09T06:24:04.345521+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-09T22:50:55.582841+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -204,6 +385,24 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-08T23:29:46.730750+00:00"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-08T15:21:16+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
     },
     {
       "id": "d47bf116646e9548e717",
@@ -327,21 +526,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-08T13:52:55.359572+00:00"
-    },
-    {
-      "id": "f3dc04800424c95ee74e",
-      "title": "How to follow Singapore Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-08T10:06:46+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-09T13:40:29.184033+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "invalid_length"
     },
     {
       "id": "56e610fe5230cb0bdebf",
@@ -1471,24 +1655,6 @@
       "summaryAttemptAt": "2026-10-08T06:21:37.445903+00:00",
       "summaryAttempts": 6,
       "summaryError": "invalid_length"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-01T09:27:36+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
     },
     {
       "id": "75f3ccc19e76b7617a82",
@@ -5425,10 +5591,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
+    "created": 8,
     "failed": 1,
     "pending": 22,
-    "checkedAt": "2026-10-09T13:40:51.768659+00:00"
+    "checkedAt": "2026-10-09T22:51:17.393441+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
