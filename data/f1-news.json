@@ -1,24 +1,162 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-10T06:05:19.623804+00:00",
+  "collectedAt": "2026-10-10T12:45:59.713481+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-10T06:05:19.623804+00:00"
+      "checkedAt": "2026-10-10T12:45:59.713481+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-10T06:05:19.623804+00:00"
+      "checkedAt": "2026-10-10T12:45:59.713481+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "67755954040a7c5e7b84",
+      "title": "Le programme du Grand Prix de Singapour F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-singapour-2026-dates-horaires-infos-programme/10862257/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T11:15:41+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
+      "summaryAttemptAt": "2026-10-06T00:12:15.489597+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix de Singapour 2026 en format sprint",
+      "summaryFr": "Le Grand Prix de Singapour sera la 17e manche de la saison 2026, disputée pour la première fois au format sprint. Le décalage horaire de six heures est compensé par le fait que l'épreuve se déroule en soirée, offrant des horaires proches de ceux habituels en France.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-06T00:12:44.262828+00:00"
+    },
+    {
+      "id": "f3dc04800424c95ee74e",
+      "title": "How to follow Singapore Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-10T11:14:21+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-09T13:40:29.184033+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "2d311479ba858af818dd",
+      "title": "Verstappen wins sprint after Russell crashes out",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwn73gmz78reo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-10T10:53:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
+      "summaryAttemptAt": "2026-10-10T12:46:00.274691+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte le sprint après la collision de Russell",
+      "summaryFr": "Max Verstappen remporte le sprint du Grand Prix de Singapour après que George Russell ait quitté la course en raison d'une collision. Le duel s'est déroulé dans un parcours marqué par des incidents.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T12:46:36.895574+00:00"
+    },
+    {
+      "id": "a99c0ac5330e3a3a0a12",
+      "title": "La F1 annonce des qualifs décalées suite au sprint perturbé du GP de Singapour",
+      "url": "https://fr.motorsport.com/f1/news/f1-qualifs-decalees-singapour-sprint-pluie/10863823/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T10:46:17+00:00",
+      "topics": [
+        "competition",
+        "ecuries",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
+      "summaryAttemptAt": "2026-10-10T12:46:36.895601+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les qualifications du GP de Singapour reportées après perturbation du sprint",
+      "summaryFr": "Les qualifications du Grand Prix de Singapour sont reportées après que la pluie a inondé une partie du circuit de Marina Bay, perturbant le sprint samedi. L'événement a été décalé de demi-heure pour permettre l'évacuation de l'eau.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T12:47:18.667585+00:00"
+    },
+    {
+      "id": "fffe79a27add53b9e0ff",
+      "title": "Verstappen remporte un sprint chaotique avec neuf abandons, dont Russell",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-remporte-sprint-chaotique-neuf-abandons-russell/10863713/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T10:21:50+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
+      "summaryAttemptAt": "2026-10-10T12:47:18.667609+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte un sprint chaotique avec neuf abandons, dont Russell",
+      "summaryFr": "Max Verstappen remporte un sprint chaotique à Marina Bay, malgré une température de 49 °C au sol. George Russell et Charles Leclerc terminent en tête du classement, mais le départ de Carlos Sainz depuis les stands ajoute à l'instabilité. Neuf pilotes abandonnent, dont Russell.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T12:48:02.492284+00:00"
+    },
+    {
+      "id": "78103eee113a3916601d",
+      "title": "Comment Verstappen a décroché la pole du sprint avec un seul tour",
+      "url": "https://fr.motorsport.com/f1/news/comment-verstappen-decroche-pole-sprint-un-seul-tour/10863683/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T07:35:46+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
+      "summaryAttemptAt": "2026-10-10T12:48:02.492308+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen termine premier en qualification à Singapour avec un seul tour",
+      "summaryFr": "Max Verstappen a terminé en tête d'une séance de qualifications à Singapour, confirmant les qualités de la RB22 sur les virages lents. Ce résultat n'est pas officiellement comptabilisé comme pole position.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T12:48:42.745954+00:00"
+    },
+    {
+      "id": "796e443b7d2e9e2b9edb",
+      "title": "Hamilton admet une erreur de sa part lors des qualifs sprint",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-admet-erreur-qualifs-sprint-singapour/10863685/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T07:25:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
+      "summaryAttemptAt": "2026-10-10T12:48:42.745979+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "9a3c6a3265cee9f66407",
       "title": "Verstappen on sprint pole after another settings issue",
@@ -38,21 +176,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-09T22:46:54.042836+00:00"
-    },
-    {
-      "id": "f3dc04800424c95ee74e",
-      "title": "How to follow Singapore Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-09T15:44:50+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-09T13:40:29.184033+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "invalid_length"
     },
     {
       "id": "61426326661d7901bf5a",
@@ -316,26 +439,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-09T13:40:29.184009+00:00"
-    },
-    {
-      "id": "67755954040a7c5e7b84",
-      "title": "Le programme du Grand Prix de Singapour F1 2026 : dates, horaires et infos",
-      "url": "https://fr.motorsport.com/f1/news/gp-singapour-2026-dates-horaires-infos-programme/10862257/",
-      "source": "Motorsport.com France",
-      "language": "fr",
-      "publishedAt": "2026-10-09T06:46:38+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-06T00:12:15.489597+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Le Grand Prix de Singapour 2026 en format sprint",
-      "summaryFr": "Le Grand Prix de Singapour sera la 17e manche de la saison 2026, disputée pour la première fois au format sprint. Le décalage horaire de six heures est compensé par le fait que l'épreuve se déroule en soirée, offrant des horaires proches de ceux habituels en France.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-06T00:12:44.262828+00:00"
     },
     {
       "id": "ffe744e6134e7dd09098",
@@ -791,8 +894,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-08T06:22:07.610678+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-10T12:49:25.422639+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1640,9 +1743,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-08T06:21:37.445903+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-10-10T12:49:25.337844+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "75f3ccc19e76b7617a82",
@@ -5577,12 +5680,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 0,
-    "pending": 22,
-    "checkedAt": "2026-10-10T06:05:20.179712+00:00"
+    "created": 4,
+    "failed": 3,
+    "pending": 23,
+    "checkedAt": "2026-10-10T12:49:51.858550+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
