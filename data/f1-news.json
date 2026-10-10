@@ -1,24 +1,206 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-10T12:45:59.713481+00:00",
+  "collectedAt": "2026-10-10T21:53:58.247960+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-10T12:45:59.713481+00:00"
+      "checkedAt": "2026-10-10T21:53:58.247960+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-10T12:45:59.713481+00:00"
+      "checkedAt": "2026-10-10T21:53:58.247960+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "a335f80e43decfb3c653",
+      "title": "Verstappen building major momentum as 'no-one very happy' at McLaren",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmn4ezn5ep3jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-10T17:46:36+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:53:58.872324+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen renforce son avantage alors que les pilotes de McLaren se sentent dépassés",
+      "summaryFr": "Max Verstappen poursuit son bon rythme en Asie, tandis que McLaren affronte un week-end difficile à Singapour. Les pilotes de l'écureuil ne sont pas très satisfaits de leurs performances. Aucune information sur les réglages aérodynamiques ou les pneus.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T21:54:33.329702+00:00"
+    },
+    {
+      "id": "f3dc04800424c95ee74e",
+      "title": "How to follow Singapore Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-10T16:15:45+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
+      "summaryAttemptAt": "2026-10-10T21:57:42.313281+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "d2c89cbc9c540d7e2b96",
+      "title": "Isack Hadjar, récit d'une journée cauchemar",
+      "url": "https://fr.motorsport.com/f1/news/isack-hadjar-recit-journee-cauchemar/10863997/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T16:12:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:54:33.329729+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull en forme à Singapour, Hadjar en retrait",
+      "summaryFr": "La RB22 affiche un regain de performance, permettant à Max Verstappen de remporter des poles et des victoires régulièrement. En revanche, Isack Hadjar ne parvient pas à s'inscrire dans le jeu de la course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T21:55:07.449101+00:00"
+    },
+    {
+      "id": "d59767e83cbd80b7a50b",
+      "title": "Russell estime que son accident en sprint a compromis ses qualifications",
+      "url": "https://fr.motorsport.com/f1/news/russell-accident-sprint-compromis-qualifications/10863977/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T16:00:30+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:55:07.449123+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell estime que son accident en sprint a compromis ses qualifications",
+      "summaryFr": "George Russell admet avoir commis une erreur après un accident lors du sprint au Singapour, incident qui aurait pu nuire à ses performances en qualifications. Parti de la première ligne, il a tout de même pris le départ de la course courte grâce à un meilleur envol que Max Verstappen.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T21:55:41.679100+00:00"
+    },
+    {
+      "id": "809e110007d3e76cc01a",
+      "title": "Verstappen beats Ferraris to Singapore pole",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6j5kyx2p1o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-10T15:29:12+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:55:41.679122+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen dépasse les Ferraris pour la pole position à Singapour",
+      "summaryFr": "Max Verstappen termine en tête de la qualification au Singapore Grand Prix, devançant Charles Leclerc et Lewis Hamilton. Le duo de pilotes ferrari est écarté pour la pole position.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T21:56:11.329601+00:00"
+    },
+    {
+      "id": "a20065ac3cea7cbbcacd",
+      "title": "Accrochage Norris-Pastri : le verdict des commissaires",
+      "url": "https://fr.motorsport.com/f1/news/accrochage-norris-pastri-verdict-commissaires/10863943/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T15:17:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:56:11.329625+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Accrochage McLaren au sprint de Singapour : Norris abandonné",
+      "summaryFr": "Un accrochage entre Oscar Piastri et Lando Norris sur le dernier tour du sprint au Grand Prix de Singapour a conduit à l'abandon de l'Australien. L'équipier termine en huitième position. Les commissaires ont rendu leur verdict.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T21:56:45.909843+00:00"
+    },
+    {
+      "id": "1d10aed6ade5583d39c6",
+      "title": "La grille de départ du Grand Prix de Singapour F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-grand-prix-singapour-f1-2026/10863910/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T14:39:37+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:56:45.909864+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
+    },
+    {
+      "id": "e39b39b386f232622bd7",
+      "title": "Verstappen résiste aux Ferrari pour signer la vraie pole à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-resiste-ferrari-vraie-pole-singapour/10863906/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-10T14:34:55+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
+      "summaryAttemptAt": "2026-10-10T21:56:45.955645+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen résiste aux Ferrari pour signer la vraie pole à Singapour",
+      "summaryFr": "La séance de qualifications à Singapour débute mal avec une frayeur pour Ocon en sortie du pont. Stroll subit un incident similaire. Aucune information sur les performances de Verstappen ou les Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T21:57:19.983344+00:00"
+    },
+    {
+      "id": "2d311479ba858af818dd",
+      "title": "Verstappen wins sprint after Russell crashes out",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwn73gmz78reo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-10T13:43:47+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
+      "summaryAttemptAt": "2026-10-10T12:46:00.274691+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte le sprint après la collision de Russell",
+      "summaryFr": "Max Verstappen remporte le sprint du Grand Prix de Singapour après que George Russell ait quitté la course en raison d'une collision. Le duel s'est déroulé dans un parcours marqué par des incidents.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-10T12:46:36.895574+00:00"
+    },
     {
       "id": "67755954040a7c5e7b84",
       "title": "Le programme du Grand Prix de Singapour F1 2026 : dates, horaires et infos",
@@ -40,43 +222,6 @@
       "summaryAt": "2026-10-06T00:12:44.262828+00:00"
     },
     {
-      "id": "f3dc04800424c95ee74e",
-      "title": "How to follow Singapore Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm2d6p4e3y93o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-10T11:14:21+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-09T13:40:29.184033+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "invalid_length"
-    },
-    {
-      "id": "2d311479ba858af818dd",
-      "title": "Verstappen wins sprint after Russell crashes out",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwn73gmz78reo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-10T10:53:03+00:00",
-      "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-10T12:46:00.274691+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Verstappen remporte le sprint après la collision de Russell",
-      "summaryFr": "Max Verstappen remporte le sprint du Grand Prix de Singapour après que George Russell ait quitté la course en raison d'une collision. Le duel s'est déroulé dans un parcours marqué par des incidents.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-10T12:46:36.895574+00:00"
-    },
-    {
       "id": "a99c0ac5330e3a3a0a12",
       "title": "La F1 annonce des qualifs décalées suite au sprint perturbé du GP de Singapour",
       "url": "https://fr.motorsport.com/f1/news/f1-qualifs-decalees-singapour-sprint-pluie/10863823/",
@@ -84,9 +229,7 @@
       "language": "fr",
       "publishedAt": "2026-10-10T10:46:17+00:00",
       "topics": [
-        "competition",
-        "ecuries",
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
       "summaryAttemptAt": "2026-10-10T12:46:36.895601+00:00",
@@ -106,9 +249,7 @@
       "language": "fr",
       "publishedAt": "2026-10-10T10:21:50+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
       "summaryAttemptAt": "2026-10-10T12:47:18.667609+00:00",
@@ -128,9 +269,7 @@
       "language": "fr",
       "publishedAt": "2026-10-10T07:35:46+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
       "summaryAttemptAt": "2026-10-10T12:48:02.492308+00:00",
@@ -153,8 +292,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-10T12:48:42.745979+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-10T21:58:04.794713+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -1414,9 +1553,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-08T13:54:28.965269+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-10T21:57:42.171049+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "50606bf6b00ab017e1e2",
@@ -1429,9 +1568,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-08T13:55:18.575081+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-10T21:57:42.235918+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "4413369701ecad460448",
@@ -2849,8 +2988,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-08T13:54:02.645865+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-10T21:57:19.983370+00:00",
+      "summaryAttempts": 9,
       "summaryError": "invalid_length"
     },
     {
@@ -5682,10 +5821,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 3,
-    "pending": 23,
-    "checkedAt": "2026-10-10T12:49:51.858550+00:00"
+    "created": 6,
+    "failed": 6,
+    "pending": 24,
+    "checkedAt": "2026-10-10T21:58:40.654265+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
