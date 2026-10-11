@@ -1,24 +1,207 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-11T13:09:14.938603+00:00",
+  "collectedAt": "2026-10-11T22:10:09.427396+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-11T13:09:14.938603+00:00"
+      "checkedAt": "2026-10-11T22:10:09.427396+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-11T13:09:14.938603+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-11T22:10:09.427396+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "afe0b03dd477e0a22fa1",
+      "title": "Do things change for 'Mr Consistent' Antonelli as he nears title?",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/crx23gny12n2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-11T19:22:06+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:10:10.149722+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Des changements pour \"l'homme cohérent\" Antonelli alors qu'il s'approche du titre ?",
+      "summaryFr": "Les commentateurs du Chequered Flag, Harry Benjamin, Alice Powell et Alisha Palmowski, évaluent si quelque chose change pour Kimi Antonelli, leader de la championship, alors qu'il s'approche du titre. Aucune information sur les performances, les équipes ou les composants techniques n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:10:44.688944+00:00"
+    },
+    {
+      "id": "3415bfe86004e712f1dc",
+      "title": "Hamilton apologises to Ferrari as Antonelli moves to brink of title",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c65yn9kn47eko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-11T18:32:19+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:10:44.688969+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton s'excuse devant Ferrari alors que Antonelli approche du titre",
+      "summaryFr": "Un mauvais choix stratégique de la part de Lewis Hamilton au Grand Prix de Singapour permet à Kimi Antonelli de se rapprocher du titre à l'arrivée au Grand Prix d'Austin. Le résultat n'est pas encore confirmé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:11:15.074494+00:00"
+    },
+    {
+      "id": "c193f7b87284e667ba37",
+      "title": "'They've thrown away a double podium' - what went wrong for Hamilton?",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/c65yn0pm5xxko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-11T18:10:16+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:11:15.074516+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ce qu'on a perdu avec un double podium : pourquoi Hamilton a échoué",
+      "summaryFr": "Un jour difficile pour Lewis Hamilton a été analysé par Harry Benjamin, Alice Powell et Alisha Palmowski. Ils examinent la stratégie de Hamilton et de Ferrari au Grand Prix de Singapour. La situation reste floue, aucune cause précise n'est confirmée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:11:47.165542+00:00"
+    },
+    {
+      "id": "12c04580bbf8c8a22ec2",
+      "title": "Verstappen perfect and Antonelli hugely mature - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c64g10qd44gjo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-11T17:26:05+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:11:47.165564+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen parfait, Antonelli très mûr selon les classements pilotes",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes au Singapore Grand Prix. Il note que Verstappen a donné une prestation parfaite, tandis qu'Antonelli s'est montré très mûr. Aucune information sur les voitures, les écuries ou les compétitions n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:12:19.618295+00:00"
+    },
+    {
+      "id": "30d95f911524ba336ae2",
+      "title": "Comment Kimi Antonelli peut être titré dès le GP des États-Unis",
+      "url": "https://fr.motorsport.com/f1/news/comment-kimi-antonelli-titre-gp-etats-unis/10864388/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-11T16:15:58+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:12:19.618317+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli pourrait devenir champion du monde dès le GP des États-Unis",
+      "summaryFr": "Un rapport indique que Kimi Antonelli pourrait devenir champion du monde en 2026, après cinq victoires consécutives entre la deuxième et la sixième manche. Cette progression s'inscrit dans une saison marquée par une domination du pilote Mercedes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:12:54.233428+00:00"
+    },
+    {
+      "id": "3ce36bb4b6ab929899a3",
+      "title": "Verstappen dominates for first Singapore Grand Prix win",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c84g1p2ql9z5o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-11T14:46:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:12:54.233449+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte sa première victoire au Grand Prix de Singapour",
+      "summaryFr": "Max Verstappen remporte le Grand Prix de Singapour pour la première fois, devançant Charles Leclerc et Kimi Antonelli. Le duo de pilotes de Red Bull continue à courir avec une forte performance.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:13:25.940705+00:00"
+    },
+    {
+      "id": "606b57b94b70177f5fa2",
+      "title": "Hamilton assume la responsabilité de sa stratégie ratée à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-assume-responsabilite-strategie-ratee-singapour/10864342/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-11T14:43:38+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:13:25.940729+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "255824ac3fcd64b7e154",
+      "title": "Championnat - Antonelli aura sa première balle de match, Verstappen fond sur Hamilton",
+      "url": "https://fr.motorsport.com/f1/news/championnat-antonelli-balle-match-verstappen-hamilton/10864272/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-11T14:17:42+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:14:02.024579+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte sa première balle de match à Austin",
+      "summaryFr": "Kimi Antonelli devance ses deux adversaires directs et s'installe en tête du classement avec plus de 100 points d'avance. Max Verstappen obtient sa seconde victoire consécutive, remonte au classement et vise le podium.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:14:36.465572+00:00"
+    },
+    {
+      "id": "021718e5b35c8ff599c2",
+      "title": "Verstappen complète son palmarès avec une première victoire à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-complete-palmares-premiere-victoire-singapour/10864287/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-11T13:52:19+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
+      "summaryAttemptAt": "2026-10-11T22:14:36.465594+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte sa première victoire à Singapour",
+      "summaryFr": "Max Verstappen part en pole position à Singapour, devant les Ferrari de Charles Leclerc et Lewis Hamilton. George Russell est placé en fond de grille. Les conditions météorologiques étaient chaudes, avec 41°C au sol et 30°C dans l'air, et une humidité de 70%.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:15:12.630203+00:00"
+    },
     {
       "id": "b2eae978850698a1beff",
       "title": "Hadjar change encore de moteur et va devoir partir des stands à Singapour",
@@ -28,7 +211,7 @@
       "publishedAt": "2026-10-11T09:40:40+00:00",
       "topics": [
         "pilotes",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-11T13:09:14.938603+00:00",
       "summaryAttemptAt": "2026-10-11T13:09:15.504407+00:00",
@@ -48,7 +231,6 @@
       "language": "fr",
       "publishedAt": "2026-10-11T08:25:58+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-11T13:09:14.938603+00:00",
@@ -207,12 +389,19 @@
       "language": "fr",
       "publishedAt": "2026-10-10T14:39:37+00:00",
       "topics": [
+        "pilotes",
+        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-10T21:53:58.247960+00:00",
-      "summaryAttemptAt": "2026-10-11T06:04:27.693527+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "source_unavailable"
+      "summaryAttemptAt": "2026-10-11T22:15:48.633298+00:00",
+      "summaryAttempts": 3,
+      "titleFr": "Russell pénalisé au Grand Prix de Singapour 2026",
+      "summaryFr": "George Russell (Mercedes) est pénalisé pour des changements d'éléments moteur hors quota. Fernando Alonso et Isack Hadjar, ainsi que Lance Stroll, partent des stands en raison de modifications des réglages sous parc fermé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-11T22:16:21.632667+00:00"
     },
     {
       "id": "e39b39b386f232622bd7",
@@ -346,8 +535,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-10T21:58:04.794713+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-11T22:15:12.688101+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -1778,9 +1967,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-09T06:23:36.055088+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-11T22:15:12.630224+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "4fc79e89813a0e44f9e5",
@@ -5875,10 +6064,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 9,
+    "created": 9,
+    "failed": 3,
     "pending": 24,
-    "checkedAt": "2026-10-11T13:11:50.908987+00:00"
+    "checkedAt": "2026-10-11T22:16:21.632809+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
