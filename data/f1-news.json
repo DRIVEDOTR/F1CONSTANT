@@ -1,24 +1,131 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-12T06:13:06.809560+00:00",
+  "collectedAt": "2026-10-12T15:48:00.618407+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-12T06:13:06.809560+00:00"
+      "checkedAt": "2026-10-12T15:48:00.618407+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-12T06:13:06.809560+00:00"
+      "checkedAt": "2026-10-12T15:48:00.618407+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7f7fd1cfc9e058cf1fc1",
+      "title": "Piastri et sa crevaison de Singapour : \"Ironiquement, ça m'a aidé\"",
+      "url": "https://fr.motorsport.com/f1/news/piastri-crevaison-singapour-ironiquement-aider/10864673/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-12T15:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
+      "summaryAttemptAt": "2026-10-12T15:48:01.294067+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri : la crevaison de Singapour m'a aidé à dépasser Hamilton",
+      "summaryFr": "Oscar Piastri affirme que sa crevaison lors du Grand Prix de Singapour l'a aidé à dépasser Lewis Hamilton et à terminer cinquième. Il occupait la sixième place lors de la course, à 20 secondes de Hamilton et à sept secondes de Lando Norris.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-12T15:48:45.881854+00:00"
+    },
+    {
+      "id": "deefc4d008d401b056f3",
+      "title": "Pourquoi Leclerc n'a pas tenté de dépasser Verstappen au premier virage à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-leclerc-depasser-verstappen-premier-virage-singapour/10864615/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-12T13:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
+      "summaryAttemptAt": "2026-10-12T15:48:45.881879+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc ne parvient pas à dépasser Verstappen au premier virage à Singapour",
+      "summaryFr": "Charles Leclerc a pris le départ du côté sale de la piste à Singapour, mais n'a pas réussi à dépasser Max Verstappen au premier virage. Le pilote Ferrari a bénéficié d'un meilleur envol, sans pour autant parvenir à s'immiscer dans le classement. Une rumeur sur un problème de positionnement a été évoquée, mais aucune preuve n'a été fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-12T15:49:33.728131+00:00"
+    },
+    {
+      "id": "a19dc6ecd425fd52f78d",
+      "title": "Pourquoi Antonelli a échappé à une pénalité malgré quatre infractions",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-antonelli-echappe-penalite-infractions/10864648/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-12T11:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
+      "summaryAttemptAt": "2026-10-12T15:49:33.728155+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli échappe à une pénalité malgré quatre infractions au GP de Singapour",
+      "summaryFr": "Kimi Antonelli a commis quatre infractions aux limites de piste au Grand Prix de Singapour 2026, mais n'a pas été sanctionné. Il termine troisième, avec 15,9 secondes d'avance sur Lando Norris.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-12T15:50:15.829396+00:00"
+    },
+    {
+      "id": "21e8455c479eaf6cda20",
+      "title": "Lando Norris : \"Je dois des excuses à tout le monde\" après l'accrochage avec Piastri",
+      "url": "https://fr.motorsport.com/f1/news/lando-norris-excuses-accrochage-piastri/10864556/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-12T09:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
+      "summaryAttemptAt": "2026-10-12T15:50:15.829419+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris reconnait avoir laissé tomber l'équipe après l'accrochage avec Piastri",
+      "summaryFr": "Lando Norris a admis avoir causé un contact avec son équipier Oscar Piastri lors du sprint au Grand Prix de Singapour. Le choc s'est produit dans le dernier tour, en virage 5, lorsque Norris a plongé sur l'intérieur. Aucune information sur les conséquences ou les sanctions n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-12T15:51:00.364680+00:00"
+    },
+    {
+      "id": "e5a9bfea2b2f6e9e2b85",
+      "title": "Verstappen plaisante sur ses problèmes radio alors que Lambiase s'apprête à laisser sa place",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-plaisante-problemes-radio-lambiase-laisser-place/10864548/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-12T06:49:55+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
+      "summaryAttemptAt": "2026-10-12T15:51:00.364706+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen plaisante sur ses problèmes radio alors que Lambiase s'apprête à laisser sa place",
+      "summaryFr": "Max Verstappen évoque avec humour ses difficultés de communication au volant, alors que le circuit de Madrid reste une victoire non encore remportée. Singapour, ancien point faible de Red Bull, est désormais sur la liste des courses à conquérir.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-12T15:51:43.222131+00:00"
+    },
     {
       "id": "afe0b03dd477e0a22fa1",
       "title": "Do things change for 'Mr Consistent' Antonelli as he nears title?",
@@ -1267,8 +1374,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-10T12:49:25.422639+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-12T15:51:43.350880+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -2116,8 +2223,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-10T12:49:25.337844+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-12T15:51:43.222155+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -6055,10 +6162,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 1,
+    "created": 5,
+    "failed": 2,
     "pending": 24,
-    "checkedAt": "2026-10-12T06:13:52.179296+00:00"
+    "checkedAt": "2026-10-12T15:52:10.489039+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
