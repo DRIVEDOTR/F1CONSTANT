@@ -1,24 +1,145 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-13T00:52:24.599233+00:00",
+  "collectedAt": "2026-10-13T14:25:50.947353+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-13T00:52:24.599233+00:00"
+      "checkedAt": "2026-10-13T14:25:50.947353+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-13T00:52:24.599233+00:00"
+      "checkedAt": "2026-10-13T14:25:50.947353+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "478e660fecb00dcf0896",
+      "title": "Le facteur caché qui donne de l'espoir à Verstappen et Red Bull pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/facteur-cache-espoir-verstappen-red-bull-2027/10864696/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-13T14:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
+      "summaryAttemptAt": "2026-10-13T14:25:51.404394+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen et Red Bull redonnent de l'espoir pour 2027",
+      "summaryFr": "Verstappen et Red Bull retrouvent leur place au sommet avec deux victoires en trois Grands Prix et une deuxième place à 0\"196 à Bakou. Le duo de pilotes espère terminer parmi les trois premiers du championnat, malgré un retour en force arrivé trop tard pour influencer la course au titre.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-13T14:26:37.161846+00:00"
+    },
+    {
+      "id": "6c66db40c095132176a1",
+      "title": "Rwanda to host F1's first race in Africa since 1993",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5rmy3v3mn9jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-13T13:21:02+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
+      "summaryAttemptAt": "2026-10-13T14:26:37.161872+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rwanda signerait un accord de 10 ans avec la F1 pour accueillir ses premiers tours en Afrique depuis 1993",
+      "summaryFr": "Rwanda a signé un accord de 10 ans avec la Formule 1 pour organiser des courses en Afrique, à partir des premières années des années 2030. Le premier rendez-vous serait prévu dans les années 2030.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-13T14:27:16.735719+00:00"
+    },
+    {
+      "id": "ea9d9189117cab92d41d",
+      "title": "L'autre opportunité manquée de Leclerc face à Verstappen",
+      "url": "https://fr.motorsport.com/f1/news/autre-opportunite-manquee-leclerc-verstappen/10864672/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-13T12:00:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
+      "summaryAttemptAt": "2026-10-13T14:27:16.735743+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "60d934a2db6c03dab05b",
+      "title": "La F1 va enfin faire son retour en Afrique avec un Grand Prix au Rwanda !",
+      "url": "https://fr.motorsport.com/f1/news/f1-retour-afrique-rwanda-grand-prix/10864841/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-13T09:20:06+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
+      "summaryAttemptAt": "2026-10-13T14:28:00.273377+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La F1 prévoit un retour en Afrique avec un Grand Prix au Rwanda en 2030",
+      "summaryFr": "La F1 envisage de réorganiser un Grand Prix au Rwanda, après 40 ans d'absence sur le continent. L'accord de 10 ans a été conclu entre le gouvernement rwandais et la F1. La première édition serait programmée au début des années 2030.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-13T14:28:42.771245+00:00"
+    },
+    {
+      "id": "efc060fd09687ea84e35",
+      "title": "Does Norris-Piastri crash show 'papaya rules' failing? - F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck3wv14n070eo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-13T06:54:13+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
+      "summaryAttemptAt": "2026-10-13T14:28:42.771269+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le crash Norris-Piastri soulève des doutes sur l'efficacité des « règles papaye »",
+      "summaryFr": "Un crash entre Norris et Piastri lors du Grand Prix de Singapour alimente les rumeurs sur la pertinence des « règles papaye ». Aucune décision officielle n'a été prise concernant l'application de ces règles. Le sujet reste ouvert et reste une rumeur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-13T14:29:21.442746+00:00"
+    },
+    {
+      "id": "b587cf81f1994fd19566",
+      "title": "Red Bull est \"l'équipe à battre\" en F1 selon Russell, mais Antonelli apporte une précision",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-equipe-battre-russell-antonelli-precision/10864585/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-13T06:50:40+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
+      "summaryAttemptAt": "2026-10-13T14:29:21.442770+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull « l'équipe à battre » selon Russell, mais Antonelli précise",
+      "summaryFr": "Max Verstappen a dominé les trois Grands Prix asiatiques, terminant à 0\"196 derrière George Russell à Bakou. Les performances s'expliquent par des évolutions majeures au groupe propulseur et à l'aile avant. Une rumeur sur l'efficacité de Red Bull reste sans confirmation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-13T14:30:06.062238+00:00"
+    },
     {
       "id": "7f7fd1cfc9e058cf1fc1",
       "title": "Piastri et sa crevaison de Singapour : \"Ironiquement, ça m'a aidé\"",
@@ -924,8 +1045,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-11T06:04:01.123861+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-13T14:31:11.591442+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -3481,8 +3602,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-11T06:02:54.839662+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T14:30:06.062266+00:00",
+      "summaryAttempts": 10,
       "summaryError": "unsupported_number"
     },
     {
@@ -3617,8 +3738,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-11T06:03:34.681318+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T14:30:45.013308+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -3692,8 +3813,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-11T06:03:34.835989+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T14:30:45.168930+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4011,8 +4132,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-11T06:03:34.916737+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T14:30:45.290514+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -4046,8 +4167,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-11T06:04:01.042007+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T14:31:11.538562+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -6155,10 +6276,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 6,
-    "pending": 24,
-    "checkedAt": "2026-10-13T00:54:23.143608+00:00"
+    "created": 5,
+    "failed": 7,
+    "pending": 25,
+    "checkedAt": "2026-10-13T14:31:38.004457+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
