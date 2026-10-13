@@ -1,24 +1,62 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-13T14:25:50.947353+00:00",
+  "collectedAt": "2026-10-13T22:57:44.855135+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-13T14:25:50.947353+00:00"
+      "checkedAt": "2026-10-13T22:57:44.855135+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-13T14:25:50.947353+00:00"
+      "checkedAt": "2026-10-13T22:57:44.855135+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e39fe45f9023ad82796c",
+      "title": "A 'landmark' moment - why has Rwanda been chosen to host F1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw62yglre6y5o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-13T15:01:17+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-13T22:57:44.855135+00:00",
+      "summaryAttemptAt": "2026-10-13T22:57:45.403016+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rwanda choisie pour accueillir le Grand Prix d'Afrique",
+      "summaryFr": "Rwanda a réussi où Morocco et Afrique du Sud ont échoué en concluant un accord pour accueillir le Grand Prix d'Afrique. Ce choix marque un moment décisif pour la présence de la Formule 1 sur le continent africain.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-13T22:58:23.244197+00:00"
+    },
+    {
+      "id": "29ebaedc21b9afefaae3",
+      "title": "What are 'papaya rules' in Formula 1?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/crl5ge8dle4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-13T14:28:10+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Que sont les « papaya rules » de McLaren ?",
+      "summaryFr": "La BBC consacre une fiche aux règles internes désignées par cette expression chez McLaren. Leur détail n’apparaît pas dans l’introduction disponible.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
+    },
     {
       "id": "478e660fecb00dcf0896",
       "title": "Le facteur caché qui donne de l'espoir à Verstappen et Red Bull pour 2027",
@@ -48,7 +86,6 @@
       "language": "en",
       "publishedAt": "2026-10-13T13:21:02+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
@@ -72,8 +109,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-13T14:27:16.735743+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-13T22:58:49.857907+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -84,7 +121,6 @@
       "language": "fr",
       "publishedAt": "2026-10-13T09:20:06+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
@@ -105,8 +141,7 @@
       "language": "en",
       "publishedAt": "2026-10-13T06:54:13+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
       "summaryAttemptAt": "2026-10-13T14:28:42.771269+00:00",
@@ -127,8 +162,7 @@
       "publishedAt": "2026-10-13T06:50:40+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
       "summaryAttemptAt": "2026-10-13T14:29:21.442770+00:00",
@@ -2179,8 +2213,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-11T22:15:12.630224+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-13T22:58:49.801549+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -2432,8 +2466,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:24.297952+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.510260+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -2447,8 +2481,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:50.855859+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-13T22:58:49.734270+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -2564,8 +2598,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:50.684954+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-13T22:58:49.645918+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4182,8 +4216,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:23.836714+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.244224+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4197,8 +4231,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:23.956848+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.287776+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4213,8 +4247,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:24.082184+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.327889+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4229,8 +4263,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:24.208237+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.407785+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4244,8 +4278,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:24.237370+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.438964+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4259,8 +4293,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-11T13:11:24.268148+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T22:58:23.478086+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -6239,23 +6273,6 @@
       "summaryAt": "2026-09-20T08:26:06.899606+00:00"
     },
     {
-      "id": "29ebaedc21b9afefaae3",
-      "title": "What are 'papaya rules' in Formula 1?",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/crl5ge8dle4o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2025-10-10T12:38:58+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Que sont les « papaya rules » de McLaren ?",
-      "summaryFr": "La BBC consacre une fiche aux règles internes désignées par cette expression chez McLaren. Leur détail n’apparaît pas dans l’introduction disponible.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00"
-    },
-    {
       "id": "a7c7af6327734b80c705",
       "title": "What is a super licence in Formula 1?",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c1l8v4perrjo",
@@ -6276,10 +6293,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
+    "created": 1,
+    "failed": 11,
     "pending": 25,
-    "checkedAt": "2026-10-13T14:31:38.004457+00:00"
+    "checkedAt": "2026-10-13T22:59:32.620981+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
