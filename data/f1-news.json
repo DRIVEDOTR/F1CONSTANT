@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-12T15:48:00.618407+00:00",
+  "collectedAt": "2026-10-13T00:52:24.599233+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-12T15:48:00.618407+00:00"
+      "checkedAt": "2026-10-13T00:52:24.599233+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-12T15:48:00.618407+00:00"
+      "checkedAt": "2026-10-13T00:52:24.599233+00:00"
     }
   ],
   "articles": [
@@ -27,8 +27,7 @@
       "language": "fr",
       "publishedAt": "2026-10-12T15:00:02+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
       "summaryAttemptAt": "2026-10-12T15:48:01.294067+00:00",
@@ -48,9 +47,7 @@
       "language": "fr",
       "publishedAt": "2026-10-12T13:00:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
       "summaryAttemptAt": "2026-10-12T15:48:45.881879+00:00",
@@ -70,8 +67,7 @@
       "language": "fr",
       "publishedAt": "2026-10-12T11:00:03+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
       "summaryAttemptAt": "2026-10-12T15:49:33.728155+00:00",
@@ -91,8 +87,7 @@
       "language": "fr",
       "publishedAt": "2026-10-12T09:00:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
       "summaryAttemptAt": "2026-10-12T15:50:15.829419+00:00",
@@ -112,9 +107,7 @@
       "language": "fr",
       "publishedAt": "2026-10-12T06:49:55+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-12T15:48:00.618407+00:00",
       "summaryAttemptAt": "2026-10-12T15:51:00.364706+00:00",
@@ -258,8 +251,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-12T06:13:07.388616+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-13T00:53:45.482644+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -396,8 +389,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-10T21:57:42.313281+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-13T00:52:46.046070+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -633,8 +626,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-11T22:15:12.688101+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-13T00:53:06.686380+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -1894,8 +1887,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-10T21:57:42.171049+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-13T00:52:45.877958+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -1909,8 +1902,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-10T21:57:42.235918+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-13T00:52:45.987903+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -3329,8 +3322,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-10T21:57:19.983370+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-13T00:52:25.314274+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -6162,10 +6155,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 2,
+    "created": 0,
+    "failed": 6,
     "pending": 24,
-    "checkedAt": "2026-10-12T15:52:10.489039+00:00"
+    "checkedAt": "2026-10-13T00:54:23.143608+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
