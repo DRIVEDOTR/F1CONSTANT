@@ -1,24 +1,87 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-14T12:10:17.603615+00:00",
+  "collectedAt": "2026-10-14T17:22:57.528940+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-14T12:10:17.603615+00:00"
+      "checkedAt": "2026-10-14T17:22:57.528940+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-14T12:10:17.603615+00:00"
+      "checkedAt": "2026-10-14T17:22:57.528940+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "058783793bea14fb0316",
+      "title": "Red Bull F1 boss Mekies gets new deal to 2031",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c84g1rxr0dpno",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-14T17:02:47+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-14T17:22:57.528940+00:00",
+      "summaryAttemptAt": "2026-10-14T17:22:58.267110+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mekies signe un nouveau contrat jusqu'en 2031 avec Red Bull",
+      "summaryFr": "Laurent Mekies, nouveau directeur du Red Bull F1, obtient une extension de son contrat jusqu'à la fin de 2031. Ce changement de direction ne concerne pas les performances du groupe propulseur ni les décisions sur les ailerons avant ou arrière.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-14T17:23:36.838298+00:00"
+    },
+    {
+      "id": "9719c8d44e84febfdd4f",
+      "title": "Laurent Mekies prolongé à la tête de Red Bull Racing",
+      "url": "https://fr.motorsport.com/f1/news/laurent-mekies-prolonge-red-bull-2031/10865234/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-14T16:32:20+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-14T17:22:57.528940+00:00",
+      "summaryAttemptAt": "2026-10-14T17:23:36.838321+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Laurent Mekies prolongé jusqu'en 2031 à Red Bull Racing",
+      "summaryFr": "Red Bull Racing a officialisé la prolongation du contrat de Laurent Mekies, qui reste à la tête de l'écurie jusqu'en 2031. Il conserve ses fonctions de PDG et de directeur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-14T17:24:15.998764+00:00"
+    },
+    {
+      "id": "69cfa99c8db00d045af0",
+      "title": "Christian Horner explique son éviction de Red Bull : \"J'avais peut-être trop d'influence\"",
+      "url": "https://fr.motorsport.com/f1/news/christian-horner-explique-eviction-red-bull-influence/10865168/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-14T14:02:45+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-14T17:22:57.528940+00:00",
+      "summaryAttemptAt": "2026-10-14T17:24:15.998784+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Christian Horner : \"J'avais peut-être trop d'influence\", selon une rumeur sur son départ de Red Bull",
+      "summaryFr": "Christian Horner a indiqué qu'il aurait pu être perçu comme trop influent dans l'équipe, ce qui aurait conduit à son départ en juillet 2025. L'ancien directeur de Red Bull a supervisé la transformation de l'écurie avant de quitter ses fonctions.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-14T17:24:58.844157+00:00"
+    },
     {
       "id": "08b434f8de94e38a4986",
       "title": "\"Tout le temps en travers\" : comment l'Alpine a donné du fil à retordre à Gasly",
@@ -28,8 +91,7 @@
       "publishedAt": "2026-10-14T09:30:02+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-14T12:10:17.603615+00:00",
       "summaryAttemptAt": "2026-10-14T12:10:18.126650+00:00",
@@ -49,9 +111,7 @@
       "language": "fr",
       "publishedAt": "2026-10-14T08:30:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-14T12:10:17.603615+00:00",
       "summaryAttemptAt": "2026-10-14T12:10:55.162153+00:00",
@@ -71,9 +131,7 @@
       "language": "fr",
       "publishedAt": "2026-10-14T07:30:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-14T12:10:17.603615+00:00",
       "summaryAttemptAt": "2026-10-14T12:11:34.159254+00:00",
@@ -1587,8 +1645,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-12T15:51:43.350880+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-14T17:24:58.966423+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -2436,8 +2494,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-12T15:51:43.222155+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-14T17:24:58.844178+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -6359,9 +6417,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 3,
-    "failed": 1,
+    "failed": 2,
     "pending": 25,
-    "checkedAt": "2026-10-14T12:12:48.966786+00:00"
+    "checkedAt": "2026-10-14T17:25:25.145213+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
