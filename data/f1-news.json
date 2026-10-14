@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-14T17:22:57.528940+00:00",
+  "collectedAt": "2026-10-14T21:49:58.873478+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-14T17:22:57.528940+00:00"
+      "checkedAt": "2026-10-14T21:49:58.873478+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-14T17:22:57.528940+00:00"
+      "checkedAt": "2026-10-14T21:49:58.873478+00:00"
     }
   ],
   "articles": [
@@ -47,9 +47,7 @@
       "language": "fr",
       "publishedAt": "2026-10-14T16:32:20+00:00",
       "topics": [
-        "ecuries",
-        "pilotes",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-14T17:22:57.528940+00:00",
       "summaryAttemptAt": "2026-10-14T17:23:36.838321+00:00",
@@ -69,7 +67,6 @@
       "language": "fr",
       "publishedAt": "2026-10-14T14:02:45+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-10-14T17:22:57.528940+00:00",
@@ -6414,12 +6411,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 2,
+    "created": 0,
+    "failed": 0,
     "pending": 25,
-    "checkedAt": "2026-10-14T17:25:25.145213+00:00"
+    "checkedAt": "2026-10-14T21:49:59.403231+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
