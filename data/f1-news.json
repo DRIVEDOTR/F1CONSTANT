@@ -1,24 +1,90 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-14T05:06:15.197116+00:00",
+  "collectedAt": "2026-10-14T12:10:17.603615+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-14T05:06:15.197116+00:00"
+      "checkedAt": "2026-10-14T12:10:17.603615+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-14T05:06:15.197116+00:00"
+      "checkedAt": "2026-10-14T12:10:17.603615+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "08b434f8de94e38a4986",
+      "title": "\"Tout le temps en travers\" : comment l'Alpine a donné du fil à retordre à Gasly",
+      "url": "https://fr.motorsport.com/f1/news/travers-alpine-gasly-singapour/10864902/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-14T09:30:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-14T12:10:17.603615+00:00",
+      "summaryAttemptAt": "2026-10-14T12:10:18.126650+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Gasly face à des problèmes techniques avec l'Alpine au GP de Singapour",
+      "summaryFr": "Pierre Gasly a occupé la septième place au Grand Prix de Singapour grâce aux difficultés techniques d'Isack Hadjar et à une pénalité infligée. L'Alpine a connu des problèmes de performance qui ont affecté le comportement du duo de pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-14T12:10:55.162127+00:00"
+    },
+    {
+      "id": "34d50a2dfe47bd37eb52",
+      "title": "\"Un désastre\" : comment le GP de Singapour d'Isack Hadjar a viré au cauchemar",
+      "url": "https://fr.motorsport.com/f1/news/desastre-gp-singapour-hadjar-cauchemar-recit/10865097/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-14T08:30:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-14T12:10:17.603615+00:00",
+      "summaryAttemptAt": "2026-10-14T12:10:55.162153+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar : \"Un désastre\" après essais libres au Singapour",
+      "summaryFr": "Isack Hadjar a exprimé son malaise lors des essais libres 1 au Singapour, accusant la Red Bull de talonner trop, notamment en zone de freinage, et une pédale d'accélération problématique. Il occupe la 8e position avec un écart de +1\"449 par rapport au leader.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-14T12:11:34.159229+00:00"
+    },
+    {
+      "id": "18c5fa0580ff9f489e78",
+      "title": "Vasseur n'est \"pas sûr\" que Red Bull soit la meilleure équipe actuelle",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-pas-sur-red-bull-meilleure-equipe/10864872/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-14T07:30:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-14T12:10:17.603615+00:00",
+      "summaryAttemptAt": "2026-10-14T12:11:34.159254+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur incertain sur la supériorité de Red Bull",
+      "summaryFr": "Frédéric Vasseur, directeur de Ferrari, a affirmé ne pas être sûr que Red Bull soit la meilleure écurie actuelle, malgré les deux victoires consécutives de Max Verstappen depuis la pole position. Le quadruple champion a remporté sa première victoire en Malaisie, avec une performance dominante, avant de gagner aussi le sprint.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-14T12:12:11.848222+00:00"
+    },
     {
       "id": "e39fe45f9023ad82796c",
       "title": "A 'landmark' moment - why has Rwanda been chosen to host F1?",
@@ -108,8 +174,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:49.857907+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-14T12:12:11.848247+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -6292,10 +6358,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
+    "created": 3,
     "failed": 1,
     "pending": 25,
-    "checkedAt": "2026-10-14T05:06:59.800712+00:00"
+    "checkedAt": "2026-10-14T12:12:48.966786+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
