@@ -1,8 +1,20 @@
-/* F1 Constant V39.1. Moteur arcade original, indépendant du DOM et du rendu. */
+/* F1 Constant V39.2. Moteur arcade original, indépendant du DOM et du rendu. */
 (function(scope){'use strict';
 const TAU=Math.PI*2,clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),mod=(v,n)=>(v%n+n)%n,angle=a=>Math.atan2(Math.sin(a),Math.cos(a)),dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function seedOf(s){let n=2166136261;for(const c of String(s))n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
 function random(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function freshSeed(){const b=new Uint32Array(1);if(globalThis.crypto?.getRandomValues){globalThis.crypto.getRandomValues(b);return b[0];}return (Date.now()^Math.floor(Math.random()*4294967296))>>>0;}
+// Each wheel has explicit phases. A delay freezes only its loosening or tightening.
+function wheelState(pit,index){
+ const w=pit?.wheels?.[index];if(!w?.timeline){return{u:1,offset:0,new:true,ready:true,stage:'PRÊTE',phase:'ready',progress:1,blocked:false};}
+ const time=pit.service||0,phase=w.timeline.find(p=>time<p.end-1e-8),ready=!phase;
+ if(ready)return{u:1,offset:0,new:true,ready:true,stage:'PRÊTE',phase:'ready',progress:1,blocked:false};
+ const problem=w.problem,blocked=!!problem&&time>=problem.start&&time<problem.start+problem.delay;
+ const elapsed=time-phase.start,delayElapsed=problem&&phase.id===problem.phase?clamp(time-problem.start,0,problem.delay):0;
+ const progress=clamp((elapsed-delayElapsed)/phase.normalDuration,0,1),id=phase.id;
+ const labels={loosen:'DESSERRAGE',remove:'RETRAIT',fit:'PNEU NEUF',tighten:'SERRAGE',check:'CONTRÔLE'};
+ return{u:clamp(time/w.duration,0,1),ready:false,offset:id==='remove'?progress*25:id==='fit'?(1-progress)*25:0,new:['fit','tighten','check'].includes(id),phase:id,stage:labels[id],progress,blocked,problem:problem?.phase,turning:['loosen','tighten'].includes(id),nutAngle:blocked?Math.sin(time*29)*.42:time*(id==='loosen'?-38:38)};
+}
 function resample(raw,closed,spacing=2.5){const clean=[];for(const q of raw){const p={x:+(q.x??q[0]),y:+(q.y??q[1])};if(!Number.isFinite(p.x+p.y))throw Error('Point de circuit invalide');if(!clean.length||dist(p,clean.at(-1))>.001)clean.push(p);}if(clean.length<3)throw Error('Circuit incomplet');if(closed&&dist(clean[0],clean.at(-1))>.001)clean.push({...clean[0]});const cumulative=[0];for(let i=1;i<clean.length;i++)cumulative.push(cumulative[i-1]+dist(clean[i],clean[i-1]));const length=cumulative.at(-1),n=Math.ceil(length/spacing),step=length/n,points=[];let j=1;for(let i=0;i<(closed?n:n+1);i++){const d=i*step;while(j<cumulative.length-1&&cumulative[j]<d)j++;const u=(d-cumulative[j-1])/(cumulative[j]-cumulative[j-1]);points.push({x:clean[j-1].x+(clean[j].x-clean[j-1].x)*u,y:clean[j-1].y+(clean[j].y-clean[j-1].y)*u});}return{points,length,step,closed};}
 function at(path,s){const p=path.points,n=p.length,f=(path.closed?mod(s,path.length):clamp(s,0,path.length))/path.step,i=Math.min(Math.floor(f),n-1),u=f-i,a=p[i],b=p[path.closed?(i+1)%n:Math.min(i+1,n-1)];const before=p[path.closed?mod(i-2,n):Math.max(0,i-2)],after=p[path.closed?(i+3)%n:Math.min(n-1,i+3)];return{x:a.x+(b.x-a.x)*u,y:a.y+(b.y-a.y)*u,a:Math.atan2(after.y-before.y,after.x-before.x)};}
 function near(path,x,y){let best=Infinity,index=0;for(let i=0;i<path.points.length;i++){const p=path.points[i],d=(p.x-x)**2+(p.y-y)**2;if(d<best){best=d;index=i;}}return{s:index*path.step,d:Math.sqrt(best),...at(path,index*path.step)};}
@@ -10,19 +22,22 @@ function pose(track,s,lane=0){const p=at(track,s);return{x:p.x-Math.sin(p.a)*lan
 function findBridge(t){if(t.id!=='suzuka')return null;const p=t.points;for(let i=0;i<p.length-5;i+=4)for(let j=i+35;j<p.length-5;j+=4){if(j-i>p.length-35)continue;const a=p[i],b=p[i+4],c=p[j],d=p[j+4],vx=b.x-a.x,vy=b.y-a.y,wx=d.x-c.x,wy=d.y-c.y,den=vx*wy-vy*wx;if(Math.abs(den)<.0001)continue;const u=((c.x-a.x)*wy-(c.y-a.y)*wx)/den,v=((c.x-a.x)*vy-(c.y-a.y)*vx)/den;if(u>0&&u<1&&v>0&&v<1)return{lower:(i+u*4)*t.step,upper:(j+v*4)*t.step,x:a.x+u*vx,y:a.y+u*vy,half:t.width*1.6};}return null;}
 function makeTrack(info,raw,pitRaw=[]){const xs=raw.map(p=>+(p.x??p[0])),ys=raw.map(p=>+(p.y??p[1])),minX=Math.min(...xs),minY=Math.min(...ys),size=Math.max(Math.max(...xs)-minX,Math.max(...ys)-minY),scale=1000/size;const convert=p=>({x:(+(p.x??p[0])-minX)*scale,y:(+(p.y??p[1])-minY)*scale});const t={...resample(raw.map(convert),true),...info,sourceScale:scale,sourceOrigin:{x:minX,y:minY}};
 // Largeur constante dans le monde du jeu ; le centre du tracé vient des cartes.
-let close=[];for(let i=0;i<t.points.length;i+=14){let nearest=Infinity;for(let j=0;j<t.points.length;j+=8){const separation=Math.min(mod(i-j,t.points.length),mod(j-i,t.points.length))*t.step;if(separation<100)continue;nearest=Math.min(nearest,dist(t.points[i],t.points[j]));}close.push(nearest);}close.sort((a,b)=>a-b);t.width=clamp(close[Math.floor(close.length*.1)]*.55,24,38);t.carLength=t.width*.54;t.carWidth=t.carLength*.42;
-t.bends=t.points.map((p,i)=>Math.abs(angle(at(t,i*t.step+10).a-at(t,i*t.step-10).a))/20);t.speedCaps=t.points.map((p,i)=>{let bend=0;for(let k=0;k<9;k++)bend=Math.max(bend,t.bends[(i+k*3)%t.points.length]);return clamp(Math.sqrt(155/Math.max(.004,bend)),43,116);});
+let close=[];for(let i=0;i<t.points.length;i+=14){let nearest=Infinity;for(let j=0;j<t.points.length;j+=8){const separation=Math.min(mod(i-j,t.points.length),mod(j-i,t.points.length))*t.step;if(separation<100)continue;nearest=Math.min(nearest,dist(t.points[i],t.points[j]));}close.push(nearest);}close.sort((a,b)=>a-b);t.width=clamp(close[Math.floor(close.length*.1)]*.55,24,38);t.carLength=t.width*.34;t.carWidth=t.carLength*.43;
+t.bends=t.points.map((p,i)=>Math.abs(angle(at(t,i*t.step+6).a-at(t,i*t.step-6).a))/12);
+t.speedCaps=t.points.map((p,i)=>{let bend=0;for(let k=0;k<6;k++)bend=Math.max(bend,t.bends[(i+k*3)%t.points.length]);let lo=0,hi=84;for(let n=0;n<12;n++){const v=(lo+hi)/2,steeringCurvature=Math.tan(.82/(1+v/55))/(t.carLength*.54);if(bend*v*v<=100&&bend<=steeringCurvature)lo=v;else hi=v;}return clamp(lo,8,84);});
 let entry=t.length*.92,exit=t.length*.045,side=1;if(pitRaw.length>2){const pr=pitRaw.map(convert),a=near(t,pr[0].x,pr[0].y),b=near(t,pr.at(-1).x,pr.at(-1).y),span=mod(b.s-a.s,t.length);if(span>t.length*.02&&span<t.length*.38){entry=a.s;exit=b.s;}const m=pr[Math.floor(pr.length/2)],q=near(t,m.x,m.y);side=(-Math.sin(q.a)*(m.x-q.x)+Math.cos(q.a)*(m.y-q.y))>=0?1:-1;}
 const span=mod(exit-entry,t.length),route=[];for(let i=0;i<=100;i++){const u=i/100,p=pose(t,entry+span*u,side*t.width*1.18*Math.sin(Math.PI*u)**.58);route.push(p);}t.pit={...resample(route,false,2),entry,exit,span,side};t.bridge=findBridge(t);
 const all=[...t.points,...t.pit.points];t.bounds={minX:Math.min(...all.map(p=>p.x))-65,minY:Math.min(...all.map(p=>p.y))-65,maxX:Math.max(...all.map(p=>p.x))+65,maxY:Math.max(...all.map(p=>p.y))+65};return t;}
 const TYRES={soft:{name:'Tendres',letter:'T',color:'#ed5464',grip:1.055,wear:.48},medium:{name:'Médiums',letter:'M',color:'#f6d45b',grip:1,wear:.365},hard:{name:'Durs',letter:'D',color:'#e6edf0',grip:.97,wear:.275}};
-// V39 : conduite manuelle dans le repère du ruban, huit pilotes, qualification et stands.
+// V39.2 : conduite manuelle, rythme commun, incidents de roue et contacts gradués.
 class Race {
  constructor(track, options={}) {
   this.track=track;
   this.options={level:'discovery',laps:3,color:'#ec3448',tyre:'medium',session:'race',...options};
   if(this.options.session==='qualifying')this.options.laps=2;
-  this.random=random(seedOf(track.id)+(options.seed||39));
+  this.random=random(seedOf(track.id)+(Number.isInteger(options.seed)?options.seed:freshSeed()));
+  this.pitRandom=random(Number.isInteger(options.pitSeed)?options.pitSeed:freshSeed());
+  this.contactRandom=random(Number.isInteger(options.contactSeed)?options.contactSeed:freshSeed());
   this.state='ready';this.time=0;this.countdown=3;this.events=[];this.pitHistory=[];
   this.nextTyre=this.options.tyre;this.input={axis:0,throttle:false,brake:false,boost:false};
   this.contacts=0;this.passes=0;this.rankBefore=8;
@@ -32,7 +47,7 @@ class Race {
   this.cars=drivers.map((d,id)=>{
    const slot=Math.max(0,grid.indexOf(id)),s=-(Math.floor(slot/2)+1)*track.carLength*1.45,lane=(slot%2?1:-1)*track.width*.22;
    return {id,name:d.name,color:d.color||this.options.color,teamId:d.teamId,teamName:d.teamName,driverId:d.driverId,driverNumber:d.driverNumber||id+1,colorB:d.colorB||d.color,helmet:d.helmet||{base:'#f6cc3f',accent:'#ffffff'},onTrack:this.options.session!=='qualifying'||id===0,
-    s,speed:0,lane,targetLane:lane,laneV:0,headingError:0,steerInput:0,rpm:3200,gear:1,wear:0,
+    s,speed:0,lane,targetLane:lane,laneV:0,headingError:0,steerInput:0,yawRate:0,spin:null,spinImmunity:5,spins:0,throttle:0,rpm:3200,gear:1,wear:0,
     tyre:id?['medium','soft','hard'][id%3]:this.options.tyre,boost:100,phase:'track',pitRequested:false,pit:null,
     pitStops:0,lastPitTime:null,cooldown:0,flash:0,finished:false,finishTime:null,slip:0,lapStart:null,bestLap:null,lapTimes:[],...pose(track,s,lane)};
   });
@@ -41,7 +56,7 @@ class Race {
    // The selected driver runs alone. Rivals' flying laps are modelled separately.
    this.player.s=-track.carLength*1.3;this.player.lane=this.player.targetLane=0;Object.assign(this.player,pose(track,this.player.s,0));
    for(const c of this.cars.slice(1)){
-    const pace=(this.options.level==='challenge'?.88:.73)+c.id*.007;
+    const pace=this.aiPace(c);
     const reference=track.speedCaps.reduce((sum,cap)=>sum+track.step/(cap*pace),0);
     c.lapTimes=[reference*(.99+this.random()*.025),reference*(.99+this.random()*.025)];
     c.bestLap=Math.min(...c.lapTimes);c.phase='garage';c.finished=true;c.simulatedQualifying=true;c.finishTime=0;
@@ -64,6 +79,7 @@ class Race {
  }
  rank(){return this.standings().findIndex(c=>!c.id)+1;}
  curveCap(s){const t=this.track;return t.speedCaps[Math.floor(mod(s,t.length)/t.step)%t.points.length];}
+ aiPace(c){return this.options.level==='challenge'?.965+c.id*.003:.93+c.id*.004;}
  updateAI(c,dt){
   const t=this.track;c.followCap=null;
   const shouldStop=c.wear>.60||(!c.pitStops&&this.options.laps>=3&&c.s>t.length*(1.1+c.id*.09));
@@ -71,10 +87,10 @@ class Race {
   let target=Math.sin(c.s/t.length*TAU+c.id)*t.width*.17;
   const ahead=this.cars.filter(o=>o!==c&&o.phase==='track'&&!o.finished).map(o=>({o,g:mod(o.s-c.s,t.length)})).filter(q=>q.g<t.carLength*4).sort((a,b)=>a.g-b.g)[0];
   if(ahead){
-   const choices=c.id%2?[-t.width*.26,t.width*.26]:[t.width*.26,-t.width*.26];
+   const choices=c.id%2?[-t.width*.29,0,t.width*.29]:[t.width*.29,0,-t.width*.29];
    const score=lane=>this.cars.reduce((sum,o)=>sum+(o!==c&&Math.abs(o.s-c.s)<t.carLength*3?Math.max(0,t.carWidth*1.6-Math.abs(o.lane-lane)):0),0);
    choices.sort((a,b)=>score(a)-score(b));target=choices[0];
-   if(ahead.g<t.carLength*1.8&&Math.abs(ahead.o.lane-c.lane)<t.carWidth)c.followCap=Math.max(14,ahead.o.speed-8);
+   if(ahead.g<t.carLength*1.25&&Math.abs(ahead.o.lane-c.lane)<t.carWidth)c.followCap=Math.max(14,ahead.o.speed-8);
   }
   c.targetLane+=(target-c.targetLane)*Math.min(1,dt*2.8);
  }
@@ -84,60 +100,56 @@ class Race {
   if(this.state==='countdown'){this.countdown-=dt;if(this.countdown<=0){this.state='racing';this.events.push({type:'go'});this.notify('À vous de piloter · accélérez !',2);}return;}
   this.time+=dt;const t=this.track;
   for(const c of this.cars){
-   c.cooldown=Math.max(0,c.cooldown-dt);c.flash=Math.max(0,c.flash-dt);if(c.finished)continue;
+   c.cooldown=Math.max(0,c.cooldown-dt);c.spinImmunity=Math.max(0,c.spinImmunity-dt);c.flash=Math.max(0,c.flash-dt);if(c.finished)continue;
    if(c.onTrack===false)continue;
-   if(c.id)this.updateAI(c,dt);
+   if(c.id&&!c.spin)this.updateAI(c,dt);
    if(c.phase!=='track'){this.pitStep(c,dt);continue;}
+   if(c.spin){this.spinStep(c,dt);continue;}
    const before=c.s,tyre=TYRES[c.tyre],grip=tyre.grip*(1-Math.max(0,c.wear-.45)*.45);
    const brake=!c.id&&!!this.input.brake,gas=c.id?1:brake?0:clamp(Number(this.input.throttle)||0,0,1);
-   const boosting=!c.id&&gas>0&&this.input.boost&&!brake&&c.boost>1;
+   const boosting=!c.id&&gas>0&&this.input.boost&&!brake&&c.boost>1;c.throttle=gas;
    const off=Math.max(0,Math.abs(c.lane)-t.width*.40)/(t.width*.18);
    if(c.id){
-    const pace=(this.options.level==='challenge'?.94:.78)+c.id*.009;
+    const pace=this.aiPace(c);
     let cap=this.curveCap(c.s)*grip*pace;if(c.followCap!==null)cap=Math.min(cap,c.followCap);
-    c.speed=clamp(c.speed+clamp(cap-c.speed,-145*dt,72*dt),0,130);
+    c.speed=clamp(c.speed+clamp(cap-c.speed,-125*dt,50*dt),0,94);
     c.laneV+=(c.targetLane-c.lane)*28*dt-c.laneV*8.8*dt;c.lane=clamp(c.lane+c.laneV*dt,-t.width*.56,t.width*.56);
-    c.s+=c.speed*dt;c.headingError=Math.atan2(c.laneV,Math.max(20,c.speed));
+    c.s+=c.speed*dt;c.headingError=Math.atan2(c.laneV,Math.max(20,c.speed));c.steer=Math.atan(angle(at(t,c.s+6).a-at(t,c.s-6).a)/12*t.carLength*.54)/.24;
    }else{
-    // Off-road resistance depends on speed: positive traction remains at rest.
-    const terrain=clamp(off,0,1.6),drag=2.4+.00155*c.speed*c.speed+terrain*(.6+.008*c.speed*c.speed);
-    const traction=(boosting?83:66)*gas*clamp(1-terrain*.27,.54,1);
-    c.speed=clamp(c.speed+(traction-drag-(brake?185:0))*dt,0,132);
+    // The same engine scale as the rivals; neither pedal is automated.
+    const terrain=clamp(off,0,1.6),drag=2.0+.0016*c.speed*c.speed+terrain*(.6+.008*c.speed*c.speed);
+    const engineFalloff=Math.max(.05,1-(c.speed/(boosting?110:98))**2);
+    const traction=(boosting?53:43)*gas*engineFalloff*clamp(1-terrain*.27,.54,1)*(1-c.wear*.10);
+    c.speed=clamp(c.speed+(traction-drag-(brake?140:0))*dt,0,100);
     const axis=clamp(this.input.axis||0,-1,1),club=this.options.level==='discovery';
-    c.steerInput+=(axis-c.steerInput)*(1-Math.exp(-dt*(club?8:11)));
+    c.steerInput+=(axis-c.steerInput)*(1-Math.exp(-dt*(club?7.5:10)));
     const curvature=angle(at(t,c.s+6).a-at(t,c.s-6).a)/12;
     const safe=this.curveCap(c.s)*grip,excess=Math.max(0,c.speed/safe-1);
-    if(club){
-     // A centred spring softens digital taps; reduced corner assist leaves steering to the player.
-     const targetHeading=c.steerInput*.33*grip/(1+excess*.35);
-     c.headingError+=(targetHeading-c.headingError)*(1-Math.exp(-dt*5.2));
-     c.headingError-=curvature*c.speed*.32*dt;
-     c.headingError=clamp(c.headingError,-.46,.46);
-    }else{
-     const steeringRate=c.steerInput*(1.0+Math.min(1.25,c.speed/80))*Math.min(1,c.speed/15)*grip/(1+excess*.55);
-     c.headingError=clamp(c.headingError+(steeringRate-curvature*c.speed*Math.cos(c.headingError)-c.headingError*1.25)*dt,-.86,.86);
-    }
-    // Turning towards the asphalt engages a gentle recovery yaw on the verge.
-    // It depends on the player's input; no teleport or automatic acceleration.
-    const recovery=clamp((Math.abs(c.lane)/t.width-.30)/.18,0,1);
-    if(axis*c.lane<0&&recovery>0){const returnHeading=axis*(club?.32:.42);c.headingError+=(returnHeading-c.headingError)*(1-Math.exp(-dt*7*recovery));}
+    const maxSteer=.82/(1+c.speed/55),wheelBase=t.carLength*.54;
+    c.steerAngle=c.steerInput*maxSteer;
+    const bicycleYaw=c.speed*Math.tan(c.steerAngle)/wheelBase;
+    const maxYaw=100*grip/Math.max(4,c.speed);
+    const requestedYaw=clamp(bicycleYaw,-maxYaw,maxYaw);
+    c.yawRate+=(requestedYaw-c.yawRate)*(1-Math.exp(-dt*(club?7:10)));
+    // Integrating world heading removes the old automatic alignment to the road.
+    const forward=c.speed*Math.cos(c.headingError);
+    c.headingError=angle(c.headingError+(c.yawRate-curvature*forward)*dt);
     c.laneV=Math.sin(c.headingError)*c.speed;
-    c.lane+=c.laneV*dt;
-    c.lane-=Math.sign(curvature)*Math.min(2.5,excess*excess)*c.speed*.08*dt;
-    c.s+=c.speed*Math.max(.55,Math.cos(c.headingError))*dt;
+    c.lane+=c.laneV*dt-Math.sign(curvature)*Math.min(2,excess*excess)*c.speed*.055*dt;
+    c.s+=c.speed*Math.cos(c.headingError)*dt;
     const limit=t.width*.78;
     if(Math.abs(c.lane)>limit){
-     const side=Math.sign(c.lane);c.lane=side*limit;
-     // A forgiving boundary lets the car roll along the verge and steer back in.
-     if(side*c.headingError>0)c.headingError*=Math.exp(-dt*10);
-     if(!c.cooldown&&c.speed>12){c.speed*=.88;this.contacts++;c.cooldown=1.1;c.flash=.2;this.events.push({type:'contact'});this.notify('Hors piste · gardez les gaz et braquez vers la piste pour revenir',2);}
+     c.lane=Math.sign(c.lane)*limit;
+     // A barrier blocks forward progress; holding gas alone cannot drive a lap along it.
+     if(Math.sign(c.lane)*c.laneV>0)c.speed=Math.min(c.speed,7);
+     if(!c.cooldown){this.contacts++;c.cooldown=1.2;c.flash=.15;this.events.push({type:'contact'});this.notify('Barrière · freinez et tournez pour remettre le nez vers la piste',2);}
     }
-    c.targetLane=c.lane;c.steer=c.steerInput;
+    c.targetLane=c.lane;c.steer=c.steerAngle/.24;
    }
    c.boost=clamp(c.boost+(boosting?-24:brake?15:4)*dt,0,100);c.boosting=boosting;c.braking=brake||!!c.id&&c.speed>this.curveCap(c.s);
    c.wear=clamp(c.wear+Math.max(0,c.s-before)/t.length*tyre.wear*(boosting?1.2:1),0,1);c.slip=off;
    Object.assign(c,pose(t,c.s,c.lane));c.a+=c.headingError;this.driveTrain(c);
-   if(c.pitRequested&&before<c.pitEntry&&c.s>=c.pitEntry){
+   if(c.pitRequested&&c.s>=c.pitEntry){
     c.phase='pit';c.pit={base:c.pitEntry,distance:0,entryLane:c.lane,service:0,done:false,stopAt:t.pit.length*(.43+c.id*.021),duration:null};
     c.pitRequested=false;c.speed=24;c.boosting=false;
     if(!c.id)this.notify('Limiteur activé · votre équipe vous attend',3);
@@ -164,11 +176,34 @@ class Race {
  }
  driveTrain(c){const old=c.gear;c.gear=clamp(Math.floor(c.speed/15)+1,1,8);const ratios=[3.45,2.6,2.1,1.76,1.51,1.34,1.18,1.06];c.rpm=clamp(2800+c.speed*ratios[c.gear-1]*59,2800,12000);if(c.gear!==old&&!c.id)this.events.push({type:'shift',up:c.gear>old});}
  beginService(c){
-  const p=c.pit;
-  // Four independent wheel crews: mostly quick stops, occasional difficult nut.
-  p.wheels=Array.from({length:4},()=>{const delay=this.random()<.15?.35+this.random()*3.25:0;return{duration:Math.min(6,1.9+this.random()*.95+delay),delay};});
+  const p=c.pit,rnd=this.pitRandom,base=1.9+Math.pow(rnd(),1.7)*1.45;
+  const trouble=rnd()<.34?Math.floor(rnd()*4):-1,second=trouble>=0&&rnd()<.06?(trouble+1+Math.floor(rnd()*3))%4:-1;
+  p.wheels=Array.from({length:4},(_,i)=>{
+   const normal=Math.max(1.9,base-.16+rnd()*.23),phase=(i===trouble||i===second)?(rnd()<.5?'loosen':'tighten'):null;
+   const delay=phase?1+Math.pow(rnd(),.7)*Math.max(0,10-normal-1):0;
+   let start=0;const timeline=[['loosen',.19],['remove',.23],['fit',.25],['tighten',.25],['check',.08]].map(([id,fraction])=>{
+    const normalDuration=normal*fraction,duration=normalDuration+(id===phase?delay:0),part={id,start,end:start+duration,normalDuration};start+=duration;return part;
+   });
+   const blockedPhase=timeline.find(p=>p.id===phase);
+   return{duration:Math.min(10,start),timeline,problem:phase?{phase,delay,start:blockedPhase.start+blockedPhase.normalDuration*.35}:null};
+  });
   p.duration=Math.max(...p.wheels.map(w=>w.duration));p.oldTyre=c.tyre;p.newTyre=c.id?c.tyre==='hard'?'medium':'hard':this.nextTyre;
-  p.startedAt=this.time;p.service=0;c.phase='service';c.speed=0;c.braking=true;
+  p.startedAt=this.time;p.service=0;c.phase='service';c.speed=0;c.throttle=0;c.braking=true;
+ }
+ spinCar(c,direction){
+  if(c.spin||c.spinImmunity>0)return false;
+  c.spin={elapsed:0,duration:1.65+this.contactRandom()*.6,direction,angle:0,startHeading:c.headingError};
+  c.spins++;c.boosting=false;c.throttle=0;c.cooldown=2.5;c.spinImmunity=12;
+  this.events.push({type:'spin',id:c.id});if(!c.id)this.notify('Tête-à-queue · la voiture se stabilise, préparez les gaz',3);return true;
+ }
+ spinStep(c,dt){
+  const spin=c.spin,before=c.s;spin.elapsed=Math.min(spin.duration,spin.elapsed+dt);const u=spin.elapsed/spin.duration;
+  // Half a turn, a brief backwards-facing pause, then recovery; camera keeps its bearing.
+  const smooth=x=>{x=clamp(x,0,1);return x*x*(3-2*x);};
+  spin.angle=spin.direction*(u<.42?Math.PI*smooth(u/.42):u<.62?Math.PI:Math.PI+Math.PI*smooth((u-.62)/.38));
+  c.speed*=Math.exp(-dt*3.0);c.s+=c.speed*.12*dt;c.lane=clamp(c.lane+spin.direction*Math.sin(u*Math.PI)*this.track.carWidth*.9*dt,-this.track.width*.68,this.track.width*.68);
+  Object.assign(c,pose(this.track,c.s,c.lane));c.headingError=spin.startHeading*(1-u);c.a+=c.headingError;c.throttle=0;c.braking=true;c.boosting=false;c.slip=1;c.steer=0;this.driveTrain(c);this.crossLine(c,before,dt);
+  if(u>=1){c.spin=null;c.headingError=c.yawRate=c.steerInput=0;c.speed=Math.min(c.speed,8);c.cooldown=1.2;Object.assign(c,pose(this.track,c.s,c.lane));if(!c.id)this.notify('Voiture stabilisée · à vous de repartir',2);}
  }
  pitStep(c,dt){
   const t=this.track,p=c.pit,before=c.s;
@@ -177,7 +212,7 @@ class Race {
    c.speed=0;
    if(p.service>=p.duration-1e-9){
     p.done=true;c.tyre=p.newTyre;c.wear=0;c.pitStops++;c.lastPitTime=p.duration;c.lastPitAt=p.startedAt+p.duration;
-    this.pitHistory.push({name:c.name,id:c.id,time:p.duration,compound:p.newTyre,at:c.lastPitAt});
+    this.pitHistory.push({name:c.name,id:c.id,time:p.duration,compound:p.newTyre,at:c.lastPitAt,problems:p.wheels.map((w,i)=>w.problem?{wheel:i,phase:w.problem.phase,delay:w.problem.delay}:null).filter(Boolean)});
     c.phase='pit';c.speed=1; // Stopwatch ends on the same simulation instant as departure.
     const remaining=Math.max(0,dt-consumed);p.distance+=c.speed*remaining;
     if(!c.id){this.warned=false;this.events.push({type:'tyres'});this.notify('Arrêt : '+p.duration.toFixed(3)+' s · feu vert !',4);}
@@ -190,24 +225,29 @@ class Race {
   q.x-=Math.sin(q.a)*(p.entryLane||0)*blend;q.y+=Math.cos(q.a)*(p.entryLane||0)*blend;Object.assign(c,q);
   c.s=p.base+t.pit.span*(p.distance/t.pit.length);c.steer=0;c.gear=1;c.rpm=c.speed?4500:2800;c.braking=c.phase==='service';
   this.crossLine(c,before,dt);
-  if(p.distance>=t.pit.length){c.s=p.base+t.pit.span;c.phase='track';c.pit=null;c.lane=0;c.targetLane=0;c.laneV=0;c.headingError=0;c.cooldown=1;Object.assign(c,pose(t,c.s,0));}
+  if(p.distance>=t.pit.length){c.s=p.base+t.pit.span;c.phase='track';c.pit=null;c.lane=0;c.targetLane=0;c.laneV=0;c.headingError=c.yawRate=c.steerInput=0;c.cooldown=1;Object.assign(c,pose(t,c.s,0));}
  }
  finishCar(c,dt){if(c.finished)return;c.finished=true;c.finishTime=this.time-Math.min(dt,Math.max(0,c.s-this.track.length*this.options.laps)/Math.max(1,c.speed));c.speed=0;c.boosting=false;}
  collisions(){
   const t=this.track;
   for(let i=0;i<this.cars.length;i++)for(let j=i+1;j<this.cars.length;j++){
-   const a=this.cars[i],b=this.cars[j];if(a.onTrack===false||b.onTrack===false||a.phase!=='track'||b.phase!=='track'||a.finished||b.finished)continue;
+   const a=this.cars[i],b=this.cars[j];if(a.onTrack===false||b.onTrack===false||a.phase!=='track'||b.phase!=='track'||a.finished||b.finished||a.spin||b.spin)continue;
    const ds=mod(b.s-a.s+t.length/2,t.length)-t.length/2,dl=b.lane-a.lane;
    if(Math.abs(ds)>t.carLength*.86||Math.abs(dl)>t.carWidth*.92||a.cooldown||b.cooldown)continue;
+   const impact=Math.abs(a.speed-b.speed)+Math.abs(a.laneV-b.laneV)*.55,maxSpeed=Math.max(a.speed,b.speed);
    const rear=ds>0?a:b,front=ds>0?b:a;rear.speed=Math.min(rear.speed,front.speed*.91);front.speed*=.98;
    const side=dl>=0?1:-1,push=Math.max(0,t.carWidth-Math.abs(dl))*.51;
    a.lane=clamp(a.lane-side*push,-t.width*.62,t.width*.62);b.lane=clamp(b.lane+side*push,-t.width*.62,t.width*.62);
    a.targetLane=a.lane;b.targetLane=b.lane;a.cooldown=b.cooldown=.9;a.flash=b.flash=.3;
+   if(impact>27&&maxSpeed>35){
+    const probability=clamp((impact-25)/90,.08,this.options.level==='challenge'?.48:.35);
+    if(this.contactRandom()<probability){const victim=front.spinImmunity<=0?front:rear;this.spinCar(victim,side*(victim===a?-1:1));}
+   }
    for(const car of [a,b]){Object.assign(car,pose(t,car.s,car.lane));car.a+=car.headingError;}
    if(!a.id||!b.id){this.contacts++;this.events.push({type:'contact'});}
   }
  }
  drainEvents(){return this.events.splice(0);}
 }
-const API={Race,makeTrack,at,pose,near,random,seedOf,TYRES,clamp,mod,angle};if(typeof module==='object'&&module.exports)module.exports=API;else scope.F1ArcadeCore=API;
+const API={Race,makeTrack,freshSeed,wheelState,at,pose,near,random,seedOf,TYRES,clamp,mod,angle};if(typeof module==='object'&&module.exports)module.exports=API;else scope.F1ArcadeCore=API;
 })(typeof window==='object'?window:globalThis);
