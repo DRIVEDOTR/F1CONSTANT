@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-14T21:49:58.873478+00:00",
+  "collectedAt": "2026-10-15T04:55:17.441262+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-14T21:49:58.873478+00:00"
+      "checkedAt": "2026-10-15T04:55:17.441262+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-14T21:49:58.873478+00:00"
+      "checkedAt": "2026-10-15T04:55:17.441262+00:00"
     }
   ],
   "articles": [
@@ -664,8 +664,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-13T00:52:46.046070+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-15T04:55:41.581668+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -901,8 +901,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-13T00:53:06.686380+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-15T04:56:04.312608+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -2162,8 +2162,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-13T00:52:45.877958+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-15T04:55:41.398168+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -2177,8 +2177,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-13T00:52:45.987903+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-15T04:55:41.504940+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3597,8 +3597,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-13T00:52:25.314274+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-15T04:55:18.009438+00:00",
+      "summaryAttempts": 11,
       "summaryError": "invalid_length"
     },
     {
@@ -6411,12 +6411,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 0,
-    "failed": 0,
+    "failed": 5,
     "pending": 25,
-    "checkedAt": "2026-10-14T21:49:59.403231+00:00"
+    "checkedAt": "2026-10-15T04:56:41.876616+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
