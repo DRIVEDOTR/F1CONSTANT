@@ -1,24 +1,107 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-15T11:46:35.975100+00:00",
+  "collectedAt": "2026-10-15T17:12:33.477984+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-15T11:46:35.975100+00:00"
+      "checkedAt": "2026-10-15T17:12:33.477984+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-15T11:46:35.975100+00:00"
+      "checkedAt": "2026-10-15T17:12:33.477984+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "624714155d9eee9d47d3",
+      "title": "Brazilian Camara to join Haas for F1 debut in 2027",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr15jn74l0pdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-15T15:41:27+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-15T17:12:33.477984+00:00",
+      "summaryAttemptAt": "2026-10-15T17:12:34.553242+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rafael Camara à Haas pour sa première saison en F1 en 2027",
+      "summaryFr": "Rafael Camara, brésilien, rejoint l'écurie Haas pour son premier season en Formule 1 en 2027. Il devient ainsi un des pilotes du duo de Haas en compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T17:12:59.401608+00:00"
+    },
+    {
+      "id": "942b8f524552bc484238",
+      "title": "Grille F1 2027 : le point sur les baquets et les contrats",
+      "url": "https://fr.motorsport.com/f1/news/grille-f1-2027-baquets-contrats/10572421/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-15T14:21:47+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:47:00.221006+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille F1 2027 : Verstappen au Red Bull jusqu'en 2030, Alonso reste incertain",
+      "summaryFr": "La prolongation de Max Verstappen chez Red Bull jusqu'en 2030 élimine la principale incertitude pour 2027. L'avenir de Fernando Alonso chez Aston Martin reste flou, car l'Espagnol n'a pas encore tranché s'il quittera ou non la écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:47:44.312376+00:00"
+    },
+    {
+      "id": "c58db8f65bf5df79fe3f",
+      "title": "Rafael Câmara remplacera Esteban Ocon chez Haas en 2027",
+      "url": "https://fr.motorsport.com/f1/news/rafael-camara-remplacera-esteban-ocon-haas-2027/10865287/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-15T14:00:48+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-15T17:12:33.477984+00:00",
+      "summaryAttemptAt": "2026-10-15T17:12:59.401636+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rafael Câmara remplacera Esteban Ocon chez Haas en 2027",
+      "summaryFr": "Rafael Câmara, leader du championnat de Formule 2, devrait faire ses débuts en Formule 1 chez Haas en 2027. Il remplacera Esteban Ocon, qui quitte l'écurie à la fin de la saison 2026. Le duo de pilotes sera composé de Câmara et d'Oliver Bearman.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T17:13:29.137154+00:00"
+    },
+    {
+      "id": "230c8ca276252bccfd99",
+      "title": "Christian Horner reconnaît que sa rivalité avec Toto Wolff est devenue \"théâtrale\"",
+      "url": "https://fr.motorsport.com/f1/news/christian-horner-rivalite-toto-wolff-theatrale/10865365/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-15T11:45:38+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-15T17:12:33.477984+00:00",
+      "summaryAttemptAt": "2026-10-15T17:13:29.137179+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Horner admet que la rivalité avec Wolff est devenue \"théâtrale\"",
+      "summaryFr": "Christian Horner reconnaît que la rivalité avec Toto Wolff est devenue théâtrale, tout en affirmant qu'elle reste authentique. Depuis 2010, tous les titres mondiaux ont été remportés par Mercedes ou Red Bull, ce qui a alimenté de nombreux affrontements entre les deux écuries.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T17:13:57.836338+00:00"
+    },
     {
       "id": "1624baae814d8df42f58",
       "title": "George Russell devra écoper d'une nouvelle pénalité moteur",
@@ -28,8 +111,7 @@
       "publishedAt": "2026-10-15T09:45:03+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
       "summaryAttemptAt": "2026-10-15T11:46:36.587820+00:00",
@@ -49,7 +131,6 @@
       "language": "fr",
       "publishedAt": "2026-10-15T08:44:04+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
@@ -70,9 +151,7 @@
       "language": "fr",
       "publishedAt": "2026-10-15T06:35:15+00:00",
       "topics": [
-        "ecuries",
-        "voitures",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
       "summaryAttemptAt": "2026-10-15T11:47:48.113647+00:00",
@@ -92,8 +171,6 @@
       "language": "en",
       "publishedAt": "2026-10-15T05:56:53+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
@@ -316,8 +393,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-14T12:12:11.848247+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-15T17:14:58.381185+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -1286,8 +1363,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-13T14:31:11.591442+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-15T17:14:40.710724+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -3843,8 +3920,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-13T14:30:06.062266+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-15T17:13:57.836362+00:00",
+      "summaryAttempts": 11,
       "summaryError": "unsupported_number"
     },
     {
@@ -3979,8 +4056,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-13T14:30:45.013308+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-15T17:14:23.609534+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4054,8 +4131,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-13T14:30:45.168930+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-15T17:14:23.738992+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4139,26 +4216,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-09-27T06:47:00.220984+00:00"
-    },
-    {
-      "id": "942b8f524552bc484238",
-      "title": "Grille F1 2027 : le point sur les baquets et les contrats",
-      "url": "https://fr.motorsport.com/f1/news/grille-f1-2027-baquets-contrats/10572421/",
-      "source": "Motorsport.com France",
-      "language": "fr",
-      "publishedAt": "2026-09-23T07:55:23+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
-      "summaryAttemptAt": "2026-09-27T06:47:00.221006+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Grille F1 2027 : Verstappen au Red Bull jusqu'en 2030, Alonso reste incertain",
-      "summaryFr": "La prolongation de Max Verstappen chez Red Bull jusqu'en 2030 élimine la principale incertitude pour 2027. L'avenir de Fernando Alonso chez Aston Martin reste flou, car l'Espagnol n'a pas encore tranché s'il quittera ou non la écurie.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-09-27T06:47:44.312376+00:00"
     },
     {
       "id": "d7ac7677e42185def4f7",
@@ -4373,8 +4430,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-13T14:30:45.290514+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-15T17:14:23.789011+00:00",
+      "summaryAttempts": 11,
       "summaryError": "invalid_length"
     },
     {
@@ -4408,8 +4465,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-13T14:31:11.538562+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-15T17:14:40.616580+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -6498,12 +6555,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 0,
+    "created": 3,
+    "failed": 7,
     "pending": 25,
-    "checkedAt": "2026-10-15T11:48:54.389871+00:00"
+    "checkedAt": "2026-10-15T17:15:27.096752+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
