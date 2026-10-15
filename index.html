@@ -28,7 +28,7 @@
 @media(max-width:650px){#nextGP{flex-wrap:wrap}#nextGP .gp-info{flex-basis:100%}#nextGP .gp-count{display:flex;align-items:center;gap:12px;text-align:left;padding:10px 14px}#nextGP .gp-count strong{font-size:28px}#nextGP .gp-count span{margin:0}}
 @media(max-width:420px){#nextGP .gp-following{grid-template-columns:1fr;gap:8px}}
 </style>
-<link rel="stylesheet" href="assets/game.css?v=39.3"><link rel="stylesheet" href="assets/lab-scenes.css?v=36">
+<link rel="stylesheet" href="assets/game.css?v=39.4"><link rel="stylesheet" href="assets/lab-scenes.css?v=36">
 <link rel="stylesheet" href="assets/music.css?v=37.1">
 </head>
 <body>
@@ -934,7 +934,7 @@
   <div class="ar-stage" id="arStage"><canvas id="arCanvas" tabindex="0" aria-label="Caméra suivant votre F1. Flèche haut pour accélérer, bas pour freiner et maintenir à l’arrêt pour reculer, gauche et droite pour tourner. Commandes tactiles sous la piste."></canvas><div class="ar-overlay" id="arOverlay"><div class="ar-overlay-card" id="arOverlayCard"><div class="ar-lights"><i></i><i></i><i></i><i></i><i></i></div><strong id="arOverlayTitle">LA GRILLE VOUS ATTEND</strong><p id="arOverlayText">Choisissez votre circuit, puis touchez « Sur la grille ».</p><button id="arResume" hidden>REPRENDRE →</button></div></div><div class="ar-result" id="arResult" hidden><span class="ar-finish-flag" aria-hidden="true"></span><span class="ar-eyebrow">DRAPEAU À DAMIER</span><h3 id="arResultTitle"></h3><p id="arResultText"></p><ol id="arResultList"></ol><div><button id="arAgain" class="ar-start">REJOUER →</button><button id="arChoose">AUTRE CIRCUIT</button></div></div></div>
   <div class="ar-message" id="arMessage" role="status" aria-live="polite">Votre F1 est entourée d’un cercle doré.</div>
   <div class="ar-controls"><div class="ar-direction"><button data-ar-input="left" aria-label="Déplacer la trajectoire vers la gauche de la voiture">◀<small>GAUCHE</small></button><button data-ar-input="right" aria-label="Déplacer la trajectoire vers la droite de la voiture">▶<small>DROITE</small></button></div><div class="ar-pedals"><button data-ar-input="throttle" class="ar-throttle">GAZ<small>ACCÉLÉRER</small></button><button data-ar-input="brake" class="ar-brake">FREIN / R<small>MAINTENIR POUR RECULER</small></button><button data-ar-input="boost" class="ar-boost">BOOST<small>ATTAQUER</small></button></div></div>
-  <div class="ar-strategy"><button id="arPit" disabled>Demander les stands</button><div class="ar-next-tyres"><span>PROCHAINS PNEUS</span><div role="group" aria-label="Gommes à monter au prochain arrêt"><button data-ar-tyre="soft" aria-pressed="false" style="--tyre:#ed5464">T<small>Tendres</small></button><button data-ar-tyre="medium" aria-pressed="true" style="--tyre:#f6d45b">M<small>Médiums</small></button><button data-ar-tyre="hard" aria-pressed="false" style="--tyre:#e6edf0">D<small>Durs</small></button></div></div><p id="arPitHelp">Choisissez les pneus, puis demandez l’arrêt. L’entrée et la sortie sont guidées.</p></div>
+  <div class="ar-strategy"><button id="arPit" disabled>Box Box !</button><div class="ar-next-tyres"><span>PROCHAINS PNEUS</span><div role="group" aria-label="Gommes à monter au prochain arrêt"><button data-ar-tyre="soft" aria-pressed="false" style="--tyre:#ed5464">T<small>Tendres</small></button><button data-ar-tyre="medium" aria-pressed="true" style="--tyre:#f6d45b">M<small>Médiums</small></button><button data-ar-tyre="hard" aria-pressed="false" style="--tyre:#e6edf0">D<small>Durs</small></button></div></div><p id="arPitHelp">Choisissez les pneus, puis demandez l’arrêt. L’entrée et la sortie sont guidées.</p></div>
   <div class="ar-camera-tools"><label>Caméra · large <input id="arZoom" type="range" min="60" max="180" value="110" aria-label="Zoom de la caméra"> proche</label><span id="arLapTime">Meilleur tour : —</span></div>
   <ol class="ar-timing" id="arTiming" aria-label="Classement en course"></ol>
   <div class="ar-pit-times"><h3>Chronos des arrêts</h3><p id="arPitEmpty">Le chrono démarre quand la F1 s’immobilise et s’arrête à son redémarrage.</p><ol id="arPitTimes"></ol></div>
@@ -954,9 +954,9 @@
   </div>
   <script src="assets/site.js?v=28"></script>
 <script src="assets/f1-paint.js?v=36"></script><script src="assets/lab-scenes.js?v=36"></script><script src="assets/racing-audio.js?v=36"></script><script src="assets/loupe.js?v=39"></script><script src="assets/news.js?v=29"></script>
-<script src="assets/arcade-core.js?v=39.3"></script>
-<script src="assets/arcade-render.js?v=39.3"></script>
-<script src="assets/arcade-audio.js?v=39.3"></script>
-<script src="assets/game.js?v=39.3"></script>
+<script src="assets/arcade-core.js?v=39.4"></script>
+<script src="assets/arcade-render.js?v=39.4"></script>
+<script src="assets/arcade-audio.js?v=39.4"></script>
+<script src="assets/game.js?v=39.4"></script>
 <script src="assets/music.js?v=37.1"></script></body>
 </html>
