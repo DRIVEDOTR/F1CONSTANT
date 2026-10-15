@@ -20,3 +20,24 @@ body.ar-immersed{overflow:hidden}.ar-game.ar-fullscreen{position:fixed;inset:0;z
 
 .ar-team-photo{width:100%;height:110px;object-fit:contain;margin:4px 0;background:#e4e9eb;border-radius:8px}.ar-car-card canvas{height:130px}
 @media(max-width:700px){.ar-team-photo{height:90px}.ar-car-card canvas{height:98px}}
+
+/* V39.1 — les mêmes dégradés que les classements de l’accueil. */
+.ar-team-photo{background:transparent;border-radius:0}
+.ar-choice-field{display:grid;align-content:start;gap:6px;font-size:11px;color:#bdcdd3;min-width:0}
+.ar-driver-picker{position:relative;min-width:0}
+.ar-driver-picker[open]{z-index:30}
+.ar-driver-picker summary,.ar-game .ar-choice-option{display:flex;align-items:center;gap:8px;min-height:48px;padding:9px 10px;border:1px solid #ffffff40;border-radius:9px;cursor:pointer;color:white;background:linear-gradient(to top right,var(--team-a) 0%,var(--team-a) 12%,var(--team-b) 42%,#fff 130%);text-shadow:0 1px 3px #0009;text-align:left;list-style:none;font-size:11px}
+.ar-driver-picker summary::-webkit-details-marker{display:none}.ar-driver-picker summary::after{content:'▾';font-size:13px;margin-left:auto;color:#152839;text-shadow:0 1px 2px #fff7}
+.ar-driver-picker summary:focus-visible{outline:3px solid #f6d777;outline-offset:2px}
+.ar-choice-name{display:grid;gap:2px;min-width:0;flex:1;font-weight:800;line-height:1.25;overflow-wrap:anywhere}
+.ar-choice-name small{font-size:9px;color:#f8ffff;font-weight:500}.ar-driver-picker b{color:#112234;text-shadow:0 1px 2px #fff9;font:850 13px ui-monospace,monospace}
+.ar-choice-list{position:absolute;top:calc(100% + 5px);left:0;width:max(100%,245px);max-width:calc(100vw - 48px);max-height:310px;overflow:auto;overscroll-behavior:contain;padding:6px;display:grid;gap:5px;background:#10232e;border:1px solid #6d8795;border-radius:10px;box-shadow:0 12px 26px #0008}
+.ar-team-select .ar-choice-field:last-child .ar-choice-list,.ar-opponent-grid .ar-choice-field:nth-child(even) .ar-choice-list{left:auto;right:0}
+.ar-game .ar-choice-option{width:100%;font-size:11px;padding:8px;min-height:46px}.ar-game .ar-choice-option:disabled{opacity:.32;cursor:default}.ar-game .ar-choice-option[aria-pressed=true]{outline:2px solid #ffe694;outline-offset:-2px}
+.ar-helmet-mark{position:relative;display:inline-block;flex-shrink:0;width:18px;height:17px;border-radius:9px 9px 7px 7px;background:linear-gradient(100deg,var(--helmet) 0 40%,var(--helmet-accent) 40% 56%,var(--helmet) 56%);border:1px solid #10222b80;box-shadow:inset 2px 2px 3px #fff6,inset -2px -2px 3px #0005;vertical-align:middle}
+.ar-helmet-mark::after{content:'';position:absolute;right:1px;top:6px;width:10px;height:4px;border-radius:3px;background:#102330;border-top:1px solid #b7daec99}
+.ar-livery{display:flex;align-items:center;gap:8px;line-height:1.4;min-height:22px}
+.ar-timing li,.ar-timing li.you,.ar-result li,.ar-result li.you{background:linear-gradient(to top right,var(--team-a) 0%,var(--team-a) 12%,var(--team-b) 42%,#fff 130%);color:#fff;text-shadow:0 1px 3px #0009}
+.ar-timing li.you,.ar-result li.you{outline:2px solid #ffe39b;outline-offset:-2px}.ar-timing small{color:#fff;text-shadow:0 1px 3px #000b}.ar-timing span::before{content:'';display:inline-block;width:11px;height:11px;border-radius:50%;background:linear-gradient(90deg,var(--helmet) 0 40%,var(--helmet-accent) 40% 60%,var(--helmet) 60%);margin-right:4px;border:1px solid #22364680;vertical-align:-1px}
+@media(max-width:700px){.ar-team-select{grid-template-columns:1fr 1fr}.ar-choice-name{font-size:10px}.ar-driver-picker summary{padding:8px;gap:6px}.ar-driver-picker summary b{font-size:11px}.ar-helmet-mark{width:16px;height:16px}.ar-opponent-grid .ar-choice-field{font-size:10px}}
+@media(max-width:350px){.ar-team-select{grid-template-columns:1fr}}
