@@ -1,24 +1,111 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-15T04:55:17.441262+00:00",
+  "collectedAt": "2026-10-15T11:46:35.975100+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-15T04:55:17.441262+00:00"
+      "checkedAt": "2026-10-15T11:46:35.975100+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-15T04:55:17.441262+00:00"
+      "checkedAt": "2026-10-15T11:46:35.975100+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "1624baae814d8df42f58",
+      "title": "George Russell devra écoper d'une nouvelle pénalité moteur",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-nouvelle-penalite-moteur-las-vegas/10865330/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-15T09:45:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
+      "summaryAttemptAt": "2026-10-15T11:46:36.587820+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "George Russell menacé d'une nouvelle pénalité moteur",
+      "summaryFr": "George Russell a déjà reçu une pénalité de 60 places pour un remplacement important de composants moteurs au Grand Prix de Singapour. Il pourrait de nouveau être sanctionné pour des modifications du groupe propulseur. La FIA reste attentive aux règles sur les composants.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T11:47:12.590225+00:00"
+    },
+    {
+      "id": "c69275b48293470da182",
+      "title": "Dans les coulisses de la direction de course F1 : que se passe-t-il vraiment ?",
+      "url": "https://fr.motorsport.com/f1/news/coulisses-salle-controle-direction-course-f1/10633867/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-15T08:44:04+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
+      "summaryAttemptAt": "2026-10-15T11:47:12.590250+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La supervision des Grands Prix reste secrète après le départ de Michael Masi",
+      "summaryFr": "Après le départ de Michael Masi en 2022, les communications des commissaires ont été abandonnées. La supervision des Grands Prix est désormais plus secrète que jamais. Aucune information officielle n'a été diffusée sur les décisions internes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T11:47:48.113622+00:00"
+    },
+    {
+      "id": "e6eca867f37352b13257",
+      "title": "Pourquoi Horner a interdit de prononcer le nom de Mercedes chez Red Bull Powertrains",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-horner-interdit-nom-mercedes-rbpt/10865283/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-15T06:35:15+00:00",
+      "topics": [
+        "ecuries",
+        "voitures",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
+      "summaryAttemptAt": "2026-10-15T11:47:48.113647+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Horner interdit de prononcer le nom de Mercedes chez Red Bull Powertrains",
+      "summaryFr": "Christian Horner a indiqué qu'il a interdit aux employés du département moteur de Red Bull Powertrains d'utiliser le nom de Mercedes. Cette décision découle d'une collaboration passée mouvementée avec Renault et d'un partenariat actuel avec Honda.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T11:48:23.191591+00:00"
+    },
+    {
+      "id": "4788a2e2c4fecb8d8104",
+      "title": "The F1 pit stop that helped save lives",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6ly0q00gj5do",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-15T05:56:53+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-15T11:46:35.975100+00:00",
+      "summaryAttemptAt": "2026-10-15T11:48:23.191617+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Un arrêt aux stands a inspiré des changements dans les soins hospitaliers",
+      "summaryFr": "Une rumeur selon laquelle un arrêt aux stands aurait inspiré des améliorations dans les soins hospitaliers reste sans preuve. Aucun lien direct n'a été établi entre le groupe propulseur et les soins médicaux.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-15T11:48:54.389694+00:00"
+    },
     {
       "id": "058783793bea14fb0316",
       "title": "Red Bull F1 boss Mekies gets new deal to 2031",
@@ -6411,12 +6498,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 5,
+    "created": 4,
+    "failed": 0,
     "pending": 25,
-    "checkedAt": "2026-10-15T04:56:41.876616+00:00"
+    "checkedAt": "2026-10-15T11:48:54.389871+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
