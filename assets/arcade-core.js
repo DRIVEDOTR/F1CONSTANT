@@ -164,12 +164,13 @@ class Race {
     }else if(gas){
      if(c.speed<0)c.speed=Math.min(0,c.speed+20/meters*dt);
      else{const top=(boosting?380:350)/kph*performance.top,v=Math.abs(c.speed)*meters,drive=(boosting?38:27)/meters*gas*performance.traction*(1-.72*(c.speed/top)**4),drag=(.6+.00016*v*v)/meters+terrain*(.3+.004*v*v)/meters;c.speed=clamp(c.speed+(drive-drag)*dt,0,top);}
-    }else c.speed=Math.sign(c.speed)*Math.max(0,Math.abs(c.speed)-(1+.0002*(c.speed*meters)**2)/meters*dt);
+    }else c.speed=Math.sign(c.speed)*Math.max(0,Math.abs(c.speed)-((club?9:8)+.001*(c.speed*meters)**2)/meters*dt);
     const axis=clamp(this.input.axis||0,-1,1),curvature=angle(at(t,c.s+6).a-at(t,c.s-6).a)/12;
-    c.steerInput+=(axis-c.steerInput)*(1-Math.exp(-dt*(axis?10:18)));
+    c.steerInput+=(axis-c.steerInput)*(1-Math.exp(-dt*(axis?(club?7:8):26)));
     const moving=clamp(Math.abs(c.speed)*kph/15,0,1),direction=c.speed<0?-1:1;
     const vKph=Math.abs(c.speed)*kph,maxHeading=.28+1.12/(1+(vKph/95)**2),safe=this.curveCap(c.s)*Math.sqrt(grip),excess=Math.max(0,c.speed/Math.max(1,safe)-1);
-    const targetHeading=direction*c.steerInput*maxHeading*Math.max(.60,Math.sqrt(grip))-curvature*Math.max(0,c.speed)*.45-Math.sign(curvature)*Math.min(.35,excess*.22);
+    const progressiveSteer=c.steerInput*(.55+.45*c.steerInput*c.steerInput);
+    const targetHeading=direction*progressiveSteer*maxHeading*Math.max(.60,Math.sqrt(grip))-curvature*Math.max(0,c.speed)*.32-Math.sign(curvature)*Math.min(.16,excess*.08);
     c.impactYaw=(c.impactYaw||0)*Math.exp(-dt*2.4);c.impactV=(c.impactV||0)*Math.exp(-dt*3.5);c.bump=(c.bump||0)*Math.exp(-dt*9);
     const response=1-Math.exp(-dt*(club?7:8)*moving);
     c.headingError=angle(c.headingError+angle(targetHeading+c.impactYaw-c.headingError)*response);
