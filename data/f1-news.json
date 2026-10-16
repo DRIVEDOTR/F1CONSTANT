@@ -1,24 +1,115 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-15T17:12:33.477984+00:00",
+  "collectedAt": "2026-10-16T11:41:01.657698+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-15T17:12:33.477984+00:00"
+      "checkedAt": "2026-10-16T11:41:01.657698+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-10-15T17:12:33.477984+00:00"
+      "count": 45,
+      "checkedAt": "2026-10-16T11:41:01.657698+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-16T10:46:21+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
+    },
+    {
+      "id": "70a9c1afbfb53c53a43e",
+      "title": "Ferrari promeut un pilote de F2 au poste de réserviste en F1",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-promotion-beganovic-reserviste-2027/10865600/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-16T10:39:09+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
+      "summaryAttemptAt": "2026-10-16T11:41:02.332446+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "06fe829ce2cd7ad56c96",
+      "title": "\"L'histoire se répète\" : les débuts difficiles de Newey chez Aston Martin n'étonnent pas Horner",
+      "url": "https://fr.motorsport.com/f1/news/histoire-repete-horner-newey-aston-martin/10865572/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-16T09:42:59+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
+      "summaryAttemptAt": "2026-10-16T11:41:40.952363+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les débuts difficiles d'Aston Martin soulignent des problèmes au châssis",
+      "summaryFr": "Les premiers résultats d'Aston Martin sous le nouveau règlement sont marqués par des difficultés au châssis, malgré les efforts de Newey. La mise en place de la nouvelle soufflerie a pris du temps, ce qui a affecté les performances. Les problèmes de châssis s'ajoutent aux difficultés liées au moteur Honda.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-16T11:42:18.798504+00:00"
+    },
+    {
+      "id": "02849e26e1204751d6f1",
+      "title": "La F2 veut terminer sa saison au Moyen-Orient malgré le conflit en Iran",
+      "url": "https://fr.motorsport.com/fia-f2/news/f2-terminer-saison-moyen-orient-malgre-conflit-iran/10865540/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-16T08:24:58+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
+      "summaryAttemptAt": "2026-10-16T11:42:18.798524+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "c041fc3d65ee3ad341f6",
+      "title": "Komatsu : Câmara a été choisi pour sa vitesse, pas pour ses liens avec Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/komatsu-camara-choisi-vitesse-liens-ferrari-haas/10865518/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-16T06:22:43+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
+      "summaryAttemptAt": "2026-10-16T11:42:55.357836+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Komatsu : Câmara choisi pour sa vitesse, pas pour ses liens avec Ferrari",
+      "summaryFr": "Ayao Komatsu, directeur de Haas, affirme que Rafael Câmara a été sélectionné pour sa vitesse et son adaptabilité lors des essais privés, plutôt que pour des liens avec Ferrari. L'écurie a mené plusieurs séances d'essais avec sa monoplace de 2025 pour évaluer les candidats en vue de la saison 2027.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-16T11:43:33.953447+00:00"
+    },
     {
       "id": "624714155d9eee9d47d3",
       "title": "Brazilian Camara to join Haas for F1 debut in 2027",
@@ -27,7 +118,6 @@
       "language": "en",
       "publishedAt": "2026-10-15T15:41:27+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-10-15T17:12:33.477984+00:00",
@@ -89,8 +179,7 @@
       "language": "fr",
       "publishedAt": "2026-10-15T11:45:38+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "competition"
       ],
       "firstSeenAt": "2026-10-15T17:12:33.477984+00:00",
       "summaryAttemptAt": "2026-10-15T17:13:29.137179+00:00",
@@ -690,8 +779,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-14T05:06:15.808363+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-16T11:44:03.628275+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1388,24 +1477,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-08T23:29:46.730750+00:00"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-08T15:21:16+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
     },
     {
       "id": "d47bf116646e9548e717",
@@ -2497,8 +2568,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:49.801549+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-16T04:46:10.303992+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -2750,8 +2821,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.510260+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:43.542084+00:00",
+      "summaryAttempts": 11,
       "summaryError": "invalid_length"
     },
     {
@@ -2765,8 +2836,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:49.734270+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-16T04:46:10.251908+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -2882,8 +2953,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:49.645918+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-16T04:46:10.198209+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4480,8 +4551,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.244224+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:42.192361+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4495,8 +4566,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.287776+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:42.337845+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4511,8 +4582,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.327889+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:43.167783+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4527,8 +4598,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.407785+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:43.297073+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4542,8 +4613,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.438964+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:43.394469+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4557,8 +4628,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-13T22:58:23.478086+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-16T04:45:43.491742+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -5857,6 +5928,27 @@
       "authorName": "Lorraine McKenna"
     },
     {
+      "id": "1d428fb807cf0b93ac33",
+      "title": "Monza memories - Italian GP in pictures through the years",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg8w8qj5z9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-08-31T07:06:17+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
+      "summaryAttemptAt": "2026-10-16T11:43:33.953469+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les souvenirs de Monza - Le Grand Prix italien en images au fil des années",
+      "summaryFr": "Le circuit de Monza accueille plus de courses de Formule 1 que n'importe quel autre site. Une sélection d'images illustre l'histoire du Grand Prix italien à Monza.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-16T11:44:03.628250+00:00"
+    },
+    {
       "url": "https://fr.motorsport.com/f1/news/aston-martin-confirme-progres-points-alonso-zandvoort/10848999/",
       "title": "Aston Martin confirme ses progrès avec les points d'Alonso à Zandvoort",
       "source": "Motorsport.com France",
@@ -6558,9 +6650,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 3,
-    "failed": 7,
-    "pending": 25,
-    "checkedAt": "2026-10-15T17:15:27.096752+00:00"
+    "failed": 3,
+    "pending": 27,
+    "checkedAt": "2026-10-16T11:44:39.781543+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
