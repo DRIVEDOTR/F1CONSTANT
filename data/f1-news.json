@@ -1,24 +1,45 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-16T11:41:01.657698+00:00",
+  "collectedAt": "2026-10-16T16:48:59.381607+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-16T11:41:01.657698+00:00"
+      "checkedAt": "2026-10-16T16:48:59.381607+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-16T11:41:01.657698+00:00"
+      "checkedAt": "2026-10-16T16:48:59.381607+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "4de8009fff84cf2c81b5",
+      "title": "Pourquoi Mercedes a fait revenir Russell à une ancienne spécification à Singapour",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-mercedes-reculer-evolutions-russell-singapour/10865668/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-16T14:42:14+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-16T16:48:59.381607+00:00",
+      "summaryAttemptAt": "2026-10-16T16:49:00.030125+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes revient à une ancienne spécification pour le GP de Singapour",
+      "summaryFr": "Mercedes a choisi de revenir à une configuration précédente après un sous-emploi au Grand Prix de Bahreïn. L'écurie a testé deux configurations différentes à Singapour, l'une avec un fond plat modifié.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-16T16:49:43.733423+00:00"
+    },
     {
       "id": "e04b4166712707d45de8",
       "title": "Andrew Benson Q&A: Send us your questions",
@@ -61,8 +82,7 @@
       "language": "fr",
       "publishedAt": "2026-10-16T09:42:59+00:00",
       "topics": [
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
       "summaryAttemptAt": "2026-10-16T11:41:40.952363+00:00",
@@ -97,7 +117,6 @@
       "language": "fr",
       "publishedAt": "2026-10-16T06:22:43+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
@@ -5935,7 +5954,6 @@
       "language": "en",
       "publishedAt": "2026-08-31T07:06:17+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
@@ -6647,12 +6665,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 3,
+    "created": 1,
+    "failed": 0,
     "pending": 27,
-    "checkedAt": "2026-10-16T11:44:39.781543+00:00"
+    "checkedAt": "2026-10-16T16:49:43.733554+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
