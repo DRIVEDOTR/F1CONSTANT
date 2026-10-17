@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-17T04:43:09.800944+00:00",
+  "collectedAt": "2026-10-17T10:59:45.333555+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-17T04:43:09.800944+00:00"
+      "checkedAt": "2026-10-17T10:59:45.333555+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-17T04:43:09.800944+00:00"
+      "checkedAt": "2026-10-17T10:59:45.333555+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "b1ed8d9e1a6c1d2ebd27",
+      "title": "Colapinto appelle ses fans à stopper la haine en ligne : \"Vous ne m'aidez pas\"",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-appelle-fans-arreter-haine/10865792/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-17T09:30:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-17T10:59:45.333555+00:00",
+      "summaryAttemptAt": "2026-10-17T10:59:46.282773+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Colapinto demande à ses fans d'arrêter les abus en ligne",
+      "summaryFr": "Franco Colapinto appelle ses supporters argentins à cesser les abus en ligne, après plusieurs incidents survenus ces derniers mois, notamment après les courses de Zandvoort, Madrid et Bakou. Il souligne que les fans ne l'aident pas à combattre ces comportements.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-17T11:00:31.555164+00:00"
+    },
+    {
+      "id": "98da7f48e3bbc210d3f9",
+      "title": "Verstappen Racing souffre en qualifications à Portimão alors que Porsche signe la pole",
+      "url": "https://fr.motorsport.com/GTWCE/news/verstappen-souffre-qualifications-portimao-porsche-pole/10865773/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-17T07:03:37+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-17T10:59:45.333555+00:00",
+      "summaryAttemptAt": "2026-10-17T11:00:31.555194+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen Racing en difficulté en qualifications à Portimão",
+      "summaryFr": "Max Verstappen, Chris Lulham et Ben Barnicoat ont terminé en 15e position lors des qualifications du GT World Challenge Europe à Portimão. L'équipe Verstappen Racing n'arrive pas à se positionner au sommet, malgré une autre Mercedes-AMG GT3 qui a décroché la pole.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-17T11:01:16.894437+00:00"
+    },
     {
       "id": "4de8009fff84cf2c81b5",
       "title": "Pourquoi Mercedes a fait revenir Russell à une ancienne spécification à Singapour",
@@ -70,8 +112,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-16T21:26:42.508215+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-17T11:02:55.562407+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -105,8 +147,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-16T21:27:20.642238+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-17T11:03:43.055227+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -936,8 +978,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-15T04:55:41.581668+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-17T11:01:42.497632+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -1173,8 +1215,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-15T04:56:04.312608+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-17T11:02:09.499953+00:00",
+      "summaryAttempts": 6,
       "summaryError": "copied_passage"
     },
     {
@@ -2416,8 +2458,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-15T04:55:41.398168+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-17T11:01:42.311940+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -2431,8 +2473,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-15T04:55:41.504940+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-17T11:01:42.412723+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -3851,8 +3893,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-15T04:55:18.009438+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-17T11:01:16.894467+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -6665,12 +6707,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "queued",
+    "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 0,
+    "created": 2,
+    "failed": 7,
     "pending": 27,
-    "checkedAt": "2026-10-17T04:43:10.283070+00:00"
+    "checkedAt": "2026-10-17T11:04:29.041464+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
