@@ -1,24 +1,67 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-17T10:59:45.333555+00:00",
+  "collectedAt": "2026-10-17T15:45:37.050730+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-17T10:59:45.333555+00:00"
+      "checkedAt": "2026-10-17T15:45:37.050730+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-17T10:59:45.333555+00:00"
+      "checkedAt": "2026-10-17T15:45:37.050730+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "961c23bf3a94db769c8d",
+      "title": "Horner appelle à repenser le plafond budgétaire F1 : \"Les équipes dépensent 500 à 600M\"",
+      "url": "https://fr.motorsport.com/f1/news/horner-repenser-plafond-budgetaire-f1/10865860/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-17T14:09:13+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-17T15:45:37.050730+00:00",
+      "summaryAttemptAt": "2026-10-17T15:45:38.143840+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Horner demande de relever le plafond budgétaire F1 : \"Les équipes dépensent 500 à 600 M$\"",
+      "summaryFr": "Christian Horner appelle à repenser le plafond budgétaire de la Formule 1, qui est actuellement fixé à 215 millions de dollars, en affirmant que les écuries dépensent entre 500 et 600 millions de dollars par saison. Ce système, mis en place en 2021, vise à équilibrer les coûts, mais Horner estime qu'il doit être révisé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-17T15:46:33.899181+00:00"
+    },
+    {
+      "id": "7414a3ab512b7a6b1295",
+      "title": "Verstappen connaissait-il l'impact des évolutions Red Bull avant de signer son nouveau contrat ?",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-impact-evolutions-red-bull-signer-nouveau-contrat/10865833/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-17T11:18:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-17T15:45:37.050730+00:00",
+      "summaryAttemptAt": "2026-10-17T15:46:33.899213+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen aurait-il su l'impact des évolutions Red Bull avant son nouveau contrat ?",
+      "summaryFr": "Max Verstappen, qui envisageait initialement de ne pas gagner de course à Monza, s'est imposé à Bakou, puis en Malaisie et à Singapour. Cette progression contrastait fortement avec le début de la saison.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-17T15:47:16.856286+00:00"
+    },
     {
       "id": "b1ed8d9e1a6c1d2ebd27",
       "title": "Colapinto appelle ses fans à stopper la haine en ligne : \"Vous ne m'aidez pas\"",
@@ -47,9 +90,7 @@
       "language": "fr",
       "publishedAt": "2026-10-17T07:03:37+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-17T10:59:45.333555+00:00",
       "summaryAttemptAt": "2026-10-17T11:00:31.555194+00:00",
@@ -6707,12 +6748,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 2,
-    "failed": 7,
+    "failed": 0,
     "pending": 27,
-    "checkedAt": "2026-10-17T11:04:29.041464+00:00"
+    "checkedAt": "2026-10-17T15:47:16.856439+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
