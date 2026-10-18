@@ -58,15 +58,48 @@ t.pit={...resample(route,false,2),entry,exit,span,side};t.bridge=findBridge(t);
 t.halfWidths=Array(t.points.length).fill(t.width/2);
 const all=[...t.points,...t.pit.points];t.bounds={minX:Math.min(...all.map(p=>p.x))-65,minY:Math.min(...all.map(p=>p.y))-65,maxX:Math.max(...all.map(p=>p.x))+65,maxY:Math.max(...all.map(p=>p.y))+65};return t;}
 const TYRES={soft:{name:'Tendres',letter:'T',color:'#ed5464',grip:1.04,top:1.005,wear:.27},medium:{name:'Médiums',letter:'M',color:'#f6d45b',grip:1,top:1,wear:.19},hard:{name:'Durs',letter:'D',color:'#e6edf0',grip:.97,top:.985,wear:.13},intermediate:{name:'Intermédiaires',letter:'I',color:'#58d194',grip:.88,top:.95,wear:.24},wet:{name:'Pluie',letter:'P',color:'#58a9f5',grip:.74,top:.90,wear:.22}};
-function tyrePerformance(compound,wear,wetness){const t=TYRES[compound]||TYRES.medium,w=clamp(wetness||0,0,1);let grip=t.grip,rate=t.wear;
- if(compound==='intermediate'){grip=.88+.20*Math.exp(-(((w-.4)/.28)**2))-.25*Math.max(0,w-.60)/.4;rate*=w<.12?2.5:w>.75?1.15:.85;}
- else if(compound==='wet'){grip=.74+.28*Math.min(1,w/.65);rate*=w<.25?3.5:.8;}
- else{grip*=1-.78*Math.pow(w,.75);rate*=1-w*.25;}
- const loss=wear*.10+Math.max(0,wear-.55)*.40;return{grip:Math.max(.15,grip*(1-loss)),top:t.top*(1-w*.13)*(1-wear*.035-Math.max(0,wear-.72)*.18),traction:Math.max(.32,grip)*(1-wear*.12),wear:rate};
+// Gameplay balance: the same weather, temperature and wear model applies to every car.
+function tyrePerformance(compound,wear,wetness,temperature=34){
+ const t=TYRES[compound]||TYRES.medium,w=clamp(wetness||0,0,1),used=clamp(wear||0,0,1),temp=clamp(temperature,10,65);
+ let grip=t.grip,top=t.top,rate=t.wear;
+ if(compound==='wet'){
+  const water=clamp(w/.65,0,1);grip=.60+.42*water;top=.70+.20*water;
+  rate*=w<.15?4.2+Math.max(0,temp-30)*.10:w<.4?2.1:.80;
+ }else if(compound==='intermediate'){
+  grip=.76+.32*Math.exp(-(((w-.38)/.30)**2))-.34*clamp((w-.60)/.4,0,1);
+  top=.85+.10*Math.min(1,w/.30)-.22*clamp((w-.55)/.45,0,1);
+  rate*=w<.12?2.5+Math.max(0,temp-30)*.07:w>.75?1.7:.85;
+ }else{
+  const optimum={soft:26,medium:35,hard:44}[compound]||35,delta=temp-optimum;
+  grip*=1-Math.min(.15,Math.abs(delta)*.004);
+  rate*=1+Math.max(0,delta)*.065+Math.max(0,-delta)*.008;
+  grip*=1-.78*Math.pow(w,.75);top*=1-(1-.60/.985)*Math.pow(w,.85);
+  rate*=1-w*.20;
+ }
+ const loss=used*.10+Math.max(0,used-.55)*.40;
+ return{grip:Math.max(.15,grip*(1-loss)),top:top*(1-used*.035-Math.max(0,used-.72)*.18),traction:Math.max(.25,grip)*(1-used*.12),wear:rate};
+}
+function recommendedTyre(weather,bias=.5,remaining=2){
+ const w=weather.wet,temp=weather.trackTemp??34;
+ if(w>.68||weather.rain>.45&&w>.40)return 'wet';
+ if(w>.16||weather.rain>.06&&w>.06)return 'intermediate';
+ if(temp<28)return bias>.78&&remaining>2?'medium':'soft';
+ if(temp>=40)return bias<.30?'medium':'hard';
+ return bias<.22&&remaining<2?'soft':bias>.8&&remaining>2?'hard':'medium';
+}
+function tyreAdvice(compound,wear,weather){
+ const recommended=recommendedTyre(weather),perf=tyrePerformance(compound,wear,weather.wet,weather.trackTemp);
+ let reason='';
+ if(weather.wet>.68||weather.rain>.45&&weather.wet>.40){if(compound!=='wet')reason='Piste détrempée : pneus pluie conseillés.';}
+ else if(weather.wet>.16||weather.rain>.06&&weather.wet>.06){if(compound!=='intermediate')reason='Piste humide / bruine : intermédiaires conseillés.';}
+ else if(['wet','intermediate'].includes(compound))reason='Piste sèche : revenez aux slicks, ces pneus surchauffent.';
+ else if(wear>.67)reason='Pneus usés : préparez un arrêt.';
+ else if(compound!==recommended&&Math.abs(weather.trackTemp-({soft:26,medium:35,hard:44}[compound]||35))>12)reason='Piste à '+Math.round(weather.trackTemp)+' °C : '+TYRES[recommended].name.toLowerCase()+' conseillés pour ce relais.';
+ return{recommended,warning:reason,penalty:Math.max(0,Math.round((1-perf.top)*100)),performance:perf};
 }
 class Weather{
- constructor(mode,seed,duration){this.mode=mode||'variable';this.random=random(seed);this.rain=0;this.wet=0;this.risk=12;this.plan=[];const r=this.random;if(this.mode==='rain'){this.rain=.7;this.wet=.6;this.plan=[{at:0,rain:.7},{at:duration*.5,rain:.95},{at:duration*.85,rain:.45}];}else if(this.mode!=='dry'&&r()>.74){const at=duration*(.18+r()*.22),rain=r()<.35?.24:.65+r()*.3;this.plan=[{at:0,rain:0},{at:Math.max(0,at-18),rain:0},{at:at+12,rain},{at:duration*.78,rain},{at:duration*.95,rain:0}];}this.risk=this.rain?100:12;this.phase=this.rain?'Pluie':'Sec';}
- step(dt,time){let target=0;if(this.plan.length){let a=this.plan[0],b=a;for(let i=1;i<this.plan.length;i++){b=this.plan[i];if(time<b.at)break;a=b;}const u=clamp((time-a.at)/Math.max(1,b.at-a.at),0,1);target=a.rain+(b.rain-a.rain)*u;}this.rain+=(target-this.rain)*(1-Math.exp(-dt*.7));this.wet=clamp(this.wet+(this.rain*.030-(1-this.rain)*.0035)*dt,0,1);const future=this.plan.filter(p=>p.at>time&&p.at<time+40).reduce((max,p)=>Math.max(max,p.rain),target);const risk=this.mode==='dry'?0:Math.max(this.rain*100,8+9*(1+Math.sin(time/31)),future*95);if(this.rain>.06)this.risk=100;else this.risk+=(risk-this.risk)*(1-Math.exp(-dt*.12));this.phase=this.rain>.45?'Pluie':this.rain>.06?'Bruine':this.wet>.15?'Éclaircie · piste humide':'Sec';}
+ constructor(mode,seed,duration,temperature='auto'){this.mode=mode||'variable';this.seed=seed;this.random=random(seed);this.rain=0;this.wet=0;this.risk=12;this.plan=[];const r=this.random;if(this.mode==='rain'){this.rain=.7;this.wet=.6;this.plan=[{at:0,rain:.7},{at:duration*.5,rain:.95},{at:duration*.85,rain:.45}];}else if(this.mode!=='dry'&&r()>.74){const at=duration*(.18+r()*.22),rain=r()<.35?.24:.65+r()*.3;this.plan=[{at:0,rain:0},{at:Math.max(0,at-18),rain:0},{at:at+12,rain},{at:duration*.78,rain},{at:duration*.95,rain:0}];}this.risk=this.mode==='dry'?0:this.rain?100:12;this.phase=this.rain?'Pluie':'Sec';this.dryTemp=({cool:24,mild:34,hot:46})[temperature]??(24+r()*22);this.trackTemp=this.dryTemp-this.rain*9;}
+ step(dt,time){let target=0;if(this.plan.length){let a=this.plan[0],b=a;for(let i=1;i<this.plan.length;i++){b=this.plan[i];if(time<b.at)break;a=b;}const u=clamp((time-a.at)/Math.max(1,b.at-a.at),0,1);target=a.rain+(b.rain-a.rain)*u;}this.rain+=(target-this.rain)*(1-Math.exp(-dt*.7));this.wet=clamp(this.wet+(this.rain*.030-(1-this.rain)*.0035)*dt,0,1);const future=this.plan.filter(p=>p.at>time&&p.at<time+40).reduce((max,p)=>Math.max(max,p.rain),target);const risk=this.mode==='dry'?0:Math.max(this.rain*100,8+9*(1+Math.sin(time/31)),future*95);if(this.rain>.06)this.risk=100;else this.risk+=(risk-this.risk)*(1-Math.exp(-dt*.12));this.trackTemp+=(clamp(this.dryTemp+Math.sin(time/90)*2-this.rain*10-this.wet*3,15,55)-this.trackTemp)*(1-Math.exp(-dt/22));this.phase=this.rain>.45?'Pluie':this.rain>.06?'Bruine':this.wet>.15?'Éclaircie · piste humide':'Sec';}
 }
 // V41 : conduite manuelle, rythme commun, incidents de roue et contacts gradués.
 class Race {
@@ -77,7 +110,7 @@ class Race {
   this.random=random(seedOf(track.id)+(Number.isInteger(options.seed)?options.seed:freshSeed()));
   this.pitRandom=random(Number.isInteger(options.pitSeed)?options.pitSeed:freshSeed());
   this.contactRandom=random(Number.isInteger(options.contactSeed)?options.contactSeed:freshSeed());
-  this.weather=new Weather(options.weather,Number.isInteger(options.weatherSeed)?options.weatherSeed:freshSeed(),track.targetLap*this.options.laps);this.state='ready';this.time=0;this.countdown=3;this.events=[];this.pitHistory=[];
+  this.weather=new Weather(options.weather,Number.isInteger(options.weatherSeed)?options.weatherSeed:freshSeed(),track.targetLap*this.options.laps,options.temperature);this.state='ready';this.time=0;this.countdown=3;this.events=[];this.pitHistory=[];
   this.nextTyre=this.options.tyre;this.input={axis:0,throttle:false,brake:false,boost:false};
   this.contacts=0;this.passes=0;this.rankBefore=8;
   const fallback=['Constant','Verstappen','Norris','Leclerc','Hamilton','Piastri','Russell','Alonso'];
@@ -87,7 +120,8 @@ class Race {
    const slot=Math.max(0,grid.indexOf(id)),s=-(1+slot*.75)*track.carLength,lane=(slot%2?1:-1)*track.width*.22;
    return {id,name:d.name,color:d.color||this.options.color,teamId:d.teamId,teamName:d.teamName,driverId:d.driverId,driverNumber:d.driverNumber||id+1,colorB:d.colorB||d.color,helmet:d.helmet||{base:'#f6cc3f',accent:'#ffffff'},onTrack:this.options.session!=='qualifying'||id===0,
     s,speed:0,lane,targetLane:lane,laneV:0,headingError:0,steerInput:0,yawRate:0,reverseHold:0,impactV:0,impactYaw:0,bump:0,highestLine:-1,spin:null,spinImmunity:5,spins:0,throttle:0,rpm:3200,gear:1,wear:0,
-    tyre:id?(this.weather.wet>.68?'wet':this.weather.wet>.18?'intermediate':['medium','soft','hard'][id%3]):this.options.tyre,boost:100,phase:'track',pitRequested:false,pit:null,
+    strategyBias:this.random(),strategyReaction:2+this.random()*9,strategyAt:0,strategyCandidate:null,strategySince:0,lastStrategyStop:-100,
+    tyre:id?recommendedTyre(this.weather,this.random(),this.options.laps):this.options.tyre,boost:100,phase:'track',pitRequested:false,pit:null,
     pitStops:0,lastPitTime:null,cooldown:0,flash:0,finished:false,finishTime:null,slip:0,lapStart:null,bestLap:null,lapTimes:[],...pose(track,s,lane)};
   });
   this.player=this.cars[0];
@@ -96,7 +130,7 @@ class Race {
    this.player.s=-track.carLength*1.3;this.player.lane=this.player.targetLane=0;Object.assign(this.player,pose(track,this.player.s,0));
    for(const c of this.cars.slice(1)){
     const pace=this.aiPace(c);
-    const condition=tyrePerformance(c.tyre,0,this.weather.wet),reference=track.speedCaps.reduce((sum,cap)=>sum+track.step/Math.min(cap*Math.sqrt(condition.grip)*pace,track.topKph/track.kphPerUnit*condition.top),0);
+    const condition=tyrePerformance(c.tyre,0,this.weather.wet,this.weather.trackTemp),reference=track.speedCaps.reduce((sum,cap)=>sum+track.step/Math.min(cap*Math.sqrt(condition.grip)*pace,track.topKph/track.kphPerUnit*condition.top),0);
     c.lapTimes=[reference*(.99+this.random()*.025),reference*(.99+this.random()*.025)];
     c.bestLap=Math.min(...c.lapTimes);c.phase='garage';c.finished=true;c.simulatedQualifying=true;c.finishTime=0;
    }
@@ -120,9 +154,19 @@ class Race {
  curveCap(s){const t=this.track;return t.speedCaps[Math.floor(mod(s,t.length)/t.step)%t.points.length];}
  aiPace(c){return this.options.level==='challenge'?.985+(c.id%7)*.003:.95+(c.id%7)*.003;}
  updateAI(c,dt){
-  const t=this.track;c.followCap=null;const wet=this.weather.wet,preferred=wet>.68?'wet':wet>.18?'intermediate':'medium';c.strategyTyre=preferred;const mismatch=wet>.28&&!['intermediate','wet'].includes(c.tyre)||wet<.10&&['intermediate','wet'].includes(c.tyre)||wet>.8&&c.tyre==='intermediate';if(mismatch&&!c.pitRequested&&c.phase==='track'&&c.s<t.length*(this.options.laps-.2))this.requestPit(c);
-  const shouldStop=c.wear>.60||(!c.pitStops&&this.options.laps>=3&&c.s>t.length*(1.1+c.id*.09));
-  if(shouldStop&&!c.pitRequested&&c.phase==='track'&&c.s<t.length*(this.options.laps-.42))this.requestPit(c);
+  const t=this.track;c.followCap=null;
+  if(this.time>=c.strategyAt){
+   c.strategyAt=this.time+3+c.strategyBias*4;
+   const remaining=Math.max(0,this.options.laps-c.s/t.length),preferred=recommendedTyre(this.weather,c.strategyBias,remaining);
+   c.strategyTyre=preferred;
+   if(c.strategyCandidate!==preferred){c.strategyCandidate=preferred;c.strategySince=this.time;}
+   const current=tyrePerformance(c.tyre,c.wear,this.weather.wet,this.weather.trackTemp),fresh=tyrePerformance(preferred,0,this.weather.wet,this.weather.trackTemp);
+   const mismatch=preferred!==c.tyre&&(current.top<fresh.top*.92||current.grip<fresh.grip*.82);
+   const reacted=this.time-c.strategySince>=c.strategyReaction;
+   const worn=c.wear>(.55+c.strategyBias*.15);
+   const planned=!c.pitStops&&this.options.laps>=3&&c.s>t.length*(1.1+c.strategyBias*.85);
+   if((mismatch&&reacted||worn||planned)&&!c.pitRequested&&c.phase==='track'&&remaining>.24&&this.time-c.lastStrategyStop>20){this.requestPit(c);c.lastStrategyStop=this.time;}
+  }
   const available=roadHalfWidth(t,c.s);let target=Math.sin(c.s/t.length*TAU+c.id)*available*.34;
   const ahead=this.cars.filter(o=>o!==c&&o.phase==='track'&&!o.finished).map(o=>({o,g:mod(o.s-c.s,t.length)})).filter(q=>q.g<t.carLength*4).sort((a,b)=>a.g-b.g)[0];
   if(ahead){
@@ -144,7 +188,7 @@ class Race {
    if(c.id&&!c.spin)this.updateAI(c,dt);
    if(c.phase!=='track'){this.pitStep(c,dt);continue;}
    if(c.spin){this.spinStep(c,dt);continue;}
-   const before=c.s,tyre=TYRES[c.tyre],performance=tyrePerformance(c.tyre,c.wear,this.weather.wet),grip=performance.grip,kph=t.kphPerUnit,meters=t.metersPerUnit;
+   const before=c.s,tyre=TYRES[c.tyre],performance=tyrePerformance(c.tyre,c.wear,this.weather.wet,this.weather.trackTemp),grip=performance.grip,kph=t.kphPerUnit,meters=t.metersPerUnit;
    const brake=!c.id&&!!this.input.brake,gas=c.id?1:brake?0:clamp(Number(this.input.throttle)||0,0,1);
    const boosting=!c.id&&gas>0&&this.input.boost&&!brake&&c.boost>1;c.throttle=gas;
    const half=roadHalfWidth(t,c.s),off=Math.max(0,Math.abs(c.lane)-half*.80)/(t.width*.18);
@@ -304,5 +348,5 @@ class Championship{
  standings(){const rows=this.drivers.map(d=>({...d,points:0,places:Array(this.drivers.length).fill(0)}));for(const round of this.rounds)for(const r of round.result){const d=rows.find(d=>d.driverId===r.driverId);if(d){d.points+=r.points;d.places[r.position-1]++;}}return rows.sort((a,b)=>{if(a.points!==b.points)return b.points-a.points;for(let i=0;i<a.places.length;i++)if(a.places[i]!==b.places[i])return b.places[i]-a.places[i];return a.name.localeCompare(b.name);});}
  static restore(value){if(!value||!Array.isArray(value.circuits)||!Array.isArray(value.drivers)||!Array.isArray(value.rounds))throw Error('Sauvegarde invalide');const c=new Championship(value.circuits,value.drivers,value.settings);if(value.rounds.length>c.circuits.length)throw Error('Sauvegarde invalide');for(const [i,round] of value.rounds.entries()){if(round.circuit!==c.circuits[i]||!Array.isArray(round.result)||round.result.length!==c.drivers.length||new Set(round.result.map(r=>r.driverId)).size!==c.drivers.length||round.result.some((r,j)=>r.position!==j+1||r.points!==(POINTS[j]||0)||!c.drivers.some(d=>d.driverId===r.driverId)||!Number.isFinite(r.time)))throw Error('Résultats sauvegardés invalides');}c.rounds=value.rounds;return c;}
 }
-const API={Championship,POINTS,Weather,tyrePerformance,parseLap,roadHalfWidth,Race,makeTrack,freshSeed,wheelState,at,pose,near,random,seedOf,TYRES,clamp,mod,angle};if(typeof module==='object'&&module.exports)module.exports=API;else scope.F1ArcadeCore=API;
+const API={Championship,POINTS,Weather,tyrePerformance,recommendedTyre,tyreAdvice,parseLap,roadHalfWidth,Race,makeTrack,freshSeed,wheelState,at,pose,near,random,seedOf,TYRES,clamp,mod,angle};if(typeof module==='object'&&module.exports)module.exports=API;else scope.F1ArcadeCore=API;
 })(typeof window==='object'?window:globalThis);

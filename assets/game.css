@@ -89,3 +89,7 @@ body.ar-immersed{overflow:hidden}.ar-game.ar-fullscreen{position:fixed;inset:0;z
 
 .ar-box-controls{display:flex;align-items:center;gap:6px;pointer-events:none}.ar-box-controls select{pointer-events:auto;width:110px;min-height:46px;padding:7px;background:#153440f0;color:#e5f1eb;border:1px solid var(--pit-tyre,#f6d45b);border-radius:12px;font-size:11px;touch-action:manipulation}
 @media(max-width:700px){.ar-box-controls{gap:5px}.ar-box-controls select{width:91px;min-height:44px;font-size:10px;padding:5px}}
+
+.ar-tyre-advice{padding:10px 12px;border-left:3px solid #eccd79;background:#1d3744;border-radius:6px;font-size:12px;line-height:1.6;color:#f1deb1}.ar-camera-tools>span{overflow-wrap:anywhere}.ar-stage .ar-hud .ar-weather-tile{min-height:86px}@media(max-width:700px){.ar-stage .ar-hud .ar-weather-tile{min-height:78px}}
+
+#arTrackTemp{white-space:nowrap;font-size:7px;letter-spacing:0}
