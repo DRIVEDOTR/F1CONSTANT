@@ -1,24 +1,67 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-18T11:26:29.580184+00:00",
+  "collectedAt": "2026-10-18T16:01:21.757156+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-18T11:26:29.580184+00:00"
+      "checkedAt": "2026-10-18T16:01:21.757156+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-18T11:26:29.580184+00:00"
+      "checkedAt": "2026-10-18T16:01:21.757156+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "360ee3fa4a826c3559c8",
+      "title": "Quand Mercedes va-t-elle conquérir le titre constructeurs 2026 ?",
+      "url": "https://fr.motorsport.com/f1/news/quand-mercedes-conquerir-titre-constructeurs-2026/10866059/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-18T14:30:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-18T16:01:21.757156+00:00",
+      "summaryAttemptAt": "2026-10-18T16:01:22.305694+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes en vue de son premier doublé constructeur depuis 2020",
+      "summaryFr": "Mercedes renoue avec sa domination en 2026, avec Kimi Antonelli et George Russell en tête du classement pilotes. L'écurie devance ses concurrents, mais le titre constructeur reste à confirmer. Le doublé est en cours, mais aucune certitude n'est établie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-18T16:02:06.677714+00:00"
+    },
+    {
+      "id": "b78c8c58575fa4023ae7",
+      "title": "Pourquoi McLaren ne pourra pas corriger sa F1 avant 2027",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-mclaren-corriger-f1-avant-2027/10864982/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-18T13:01:55+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-18T16:01:21.757156+00:00",
+      "summaryAttemptAt": "2026-10-18T16:02:06.677761+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren ne pourra pas corriger sa F1 avant 2027",
+      "summaryFr": "Andrea Stella, directeur de McLaren, a reconnu qu'améliorer le comportement de la voiture nécessiterait des changements fondamentaux, impossibles avant 2027. Aucune amélioration ne sera possible sans réinventions structurelles du groupe propulseur ou de l'aérodynamique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-18T16:02:49.195280+00:00"
+    },
     {
       "id": "752115f4722cd0270ac4",
       "title": "Verstappen à son tour obligé de demander la fin des abus en ligne",
@@ -951,8 +994,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-16T11:44:03.628275+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-18T16:02:49.195303+00:00",
+      "summaryAttempts": 6,
       "summaryError": "copied_passage"
     },
     {
@@ -6820,10 +6863,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 4,
+    "created": 2,
+    "failed": 1,
     "pending": 29,
-    "checkedAt": "2026-10-18T11:29:40.828959+00:00"
+    "checkedAt": "2026-10-18T16:03:31.388430+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
