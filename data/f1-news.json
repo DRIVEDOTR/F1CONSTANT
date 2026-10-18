@@ -1,24 +1,39 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-17T20:46:06.000924+00:00",
+  "collectedAt": "2026-10-18T04:49:03.617944+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-17T20:46:06.000924+00:00"
+      "checkedAt": "2026-10-18T04:49:03.617944+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-17T20:46:06.000924+00:00"
+      "checkedAt": "2026-10-18T04:49:03.617944+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "defaaf64ff302658399d",
+      "title": "Verstappen gagne 15 places dans le sprint final à Portimão",
+      "url": "https://fr.motorsport.com/GTWCE/news/verstappen-gagne-15-places-sprint-final-portimao/10865963/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-17T23:10:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
+      "summaryAttemptAt": "2026-10-18T04:49:04.184661+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
     {
       "id": "108a2a465dffc3316c75",
       "title": "Chez Cadillac, les freins sont toujours un problème",
@@ -27,9 +42,7 @@
       "language": "fr",
       "publishedAt": "2026-10-17T15:58:24+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-17T20:46:06.000924+00:00",
       "summaryAttemptAt": "2026-10-17T20:46:07.363751+00:00",
@@ -2691,8 +2704,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-16T04:46:10.303992+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-18T04:50:02.556486+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -2944,8 +2957,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:43.542084+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.884929+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -2959,8 +2972,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-16T04:46:10.251908+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-18T04:50:02.523474+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -3076,8 +3089,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-16T04:46:10.198209+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-18T04:50:02.437384+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4674,8 +4687,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:42.192361+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.478403+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4689,8 +4702,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:42.337845+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.582180+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4705,8 +4718,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:43.167783+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.651533+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4721,8 +4734,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:43.297073+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.741264+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4736,8 +4749,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:43.394469+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.800138+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4751,8 +4764,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-16T04:45:43.491742+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-18T04:49:35.852873+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -6771,10 +6784,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 7,
-    "pending": 27,
-    "checkedAt": "2026-10-17T20:48:47.265102+00:00"
+    "created": 0,
+    "failed": 11,
+    "pending": 28,
+    "checkedAt": "2026-10-18T04:50:02.620506+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
