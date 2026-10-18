@@ -93,3 +93,7 @@ body.ar-immersed{overflow:hidden}.ar-game.ar-fullscreen{position:fixed;inset:0;z
 .ar-tyre-advice{padding:10px 12px;border-left:3px solid #eccd79;background:#1d3744;border-radius:6px;font-size:12px;line-height:1.6;color:#f1deb1}.ar-camera-tools>span{overflow-wrap:anywhere}.ar-stage .ar-hud .ar-weather-tile{min-height:86px}@media(max-width:700px){.ar-stage .ar-hud .ar-weather-tile{min-height:78px}}
 
 #arTrackTemp{white-space:nowrap;font-size:7px;letter-spacing:0}
+
+.ar-pre-race{width:100%;max-width:740px;text-align:left;padding:14px;border:1px solid #8ae2c355;border-radius:12px;background:#173843;margin:12px 0}.ar-pre-race h4{margin:0 0 7px;color:#8ae2c3;font-size:13px}.ar-result .ar-pre-race p{max-width:none;font-size:12px;margin:8px 0;line-height:1.5}.ar-pre-race label{font-size:12px;font-weight:750;margin-right:10px}.ar-pre-race select{font:inherit;font-size:13px;padding:9px;border-radius:6px;color:#fff;background:#102a32;max-width:100%;border:1px solid #8ca99f}.ar-result .ar-pre-race #arRaceTyreAdvice{color:#f4d580}@media(max-width:700px){.ar-pre-race{padding:11px}.ar-pre-race label{display:block;margin:8px 0}.ar-pre-race select{width:100%}.ar-result .ar-pre-race p{font-size:11px}}
+
+.ar-pre-race{scroll-margin-top:14px;scroll-margin-bottom:110px}

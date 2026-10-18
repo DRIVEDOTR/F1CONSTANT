@@ -3,7 +3,7 @@
 const $=id=>document.getElementById(id),root=$('view-game'),shell=$('arcadeGame'),canvas=$('arCanvas');
 const C=F1ArcadeCore,renderer=new F1ArcadeRenderer(canvas),audio=new F1ArcadeAudio();
 const keyboard=new Set(),pointers=new Map(),cache=new Map();
-let race=null,level='discovery',frame=0,last=0,hudAt=0,finishedShown=false,qualifiedGrid=null,boostLatched=false,championship=null;
+let race=null,level='discovery',frame=0,last=0,hudAt=0,finishedShown=false,qualifiedGrid=null,boostLatched=false,championship=null,preparedGP=null;
 const active=()=>root.classList.contains('active');
 const clock=n=>Number.isFinite(n)?`${Math.floor(n/60)}:${(n%60).toFixed(3).padStart(6,'0')}`:'—';
 const teamFor=id=>TEAMS_2026.find(t=>t.drivers.includes(id))||TEAMS_2026[0];
@@ -51,7 +51,7 @@ function refreshPickers(){refreshPicker($('arTeam'),'team');refreshPicker($('arD
 const opponentSelects=()=>[...$('arOpponentGrid').querySelectorAll('select')];
 function field(){return [driverData($('arDriver').value),...opponentSelects().map(s=>driverData(s.value))];}
 function getSettings(session=($('arSession').value==='qualifying'||$('arSession').value==='championship'&&$('arChampQual').checked)?'qualifying':'race',grid=null){return{level,laps:Number($('arLaps').value),tyre:$('arTyre').value,color:teamFor($('arDriver').value).teamA,drivers:field(),session,grid,weather:$('arWeather').value,temperature:$('arTemperature').value,seed:C.freshSeed()};}
-const recordKey=()=>`f1-arcade-v42:${race.track.id}:${race.options.session}:${race.options.level}:${race.options.laps}:${race.options.tyre}`;
+const recordKey=()=>`f1-arcade-v43:${race.track.id}:${race.options.session}:${race.options.level}:${race.options.laps}:${race.options.tyre}`;
 function readTrack(id){
  if(cache.has(id))return cache.get(id);
  const c=CIRCUITS_2026.find(c=>c.id===id),doc=new DOMParser().parseFromString(CIRCUIT_SVGS[id],'image/svg+xml');
@@ -68,7 +68,7 @@ function preview(){const t=teamFor($('arDriver').value),d=driverData($('arDriver
 }
 function setTyre(tyre){if(race)race.nextTyre=tyre;$('arPitTyre').value=tyre;$('arPitTyre').style.setProperty('--pit-tyre',C.TYRES[tyre].color);root.querySelectorAll('[data-ar-tyre]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.arTyre===tyre)));}
 function load(){
- audio.pause();clear();qualifiedGrid=null;race=new C.Race(readTrack($('arCircuit').value),getSettings());setTyre($('arTyre').value);
+ audio.pause();clear();qualifiedGrid=null;preparedGP=null;race=new C.Race(readTrack($('arCircuit').value),getSettings());setTyre($('arTyre').value);
  shell.dataset.playing='false';$('arResult').hidden=true;finishedShown=false;renderer.key=null;
  $('arLevelName').textContent=level==='challenge'?'SPORT':'CLUB';$('arRaceName').textContent=race.track.city+' · '+(race.options.session==='qualifying'?'qualifications en solo · 2 tours':race.options.laps+' tours');
  let record;try{record=JSON.parse(localStorage.getItem(recordKey()));}catch(_){}
@@ -84,6 +84,7 @@ async function start(session,grid){
   trackId=championship.circuits[championship.rounds.length];settings={...getSettings(),...championship.settings,drivers:championship.drivers,session:requested||(championship.settings.qualifying?'qualifying':'race'),grid,seed:C.freshSeed()};saveChamp();
  }
  if(race?.track.id===trackId&&race.options.weather===settings.weather&&race.options.temperature===settings.temperature)settings.weatherSeed=race.weather.seed;
+ if(requested==='race'&&qualifiedGrid&&preparedGP){settings.tyre=$('arRaceTyre').value;settings.weatherSeed=preparedGP.seed;}
  race=new C.Race(readTrack(trackId),settings);race.championshipRound=inChamp;race.start();setTyre($('arTyre').value);clear();
  finishedShown=false;$('arResult').hidden=true;shell.dataset.playing='true';renderer.key=null;
  $('arRaceName').textContent=race.track.city+' · '+(race.options.session==='qualifying'?'qualifications en solo · 2 tours':race.options.laps+' tours');
@@ -149,13 +150,24 @@ function rankingRow(d,index,metric,detail=''){
  const result=document.createElement('span');result.className='ar-rank-metric';const value=document.createElement('b');value.textContent=metric;const sub=document.createElement('small');sub.textContent=detail;result.append(value,sub);li.append(rank,icon,name,result);return li;
 }
 function resourceTone(node,percentage){const value=Math.round(C.clamp(percentage,0,100)),critical=value<=15,color=value>=70?'#73dfa9':value>=30?'#f4ad55':'#f06d72';node.dataset.critical=String(critical);node.style.setProperty('--instrument-color',color);node.style.setProperty('--instrument-tint',color+'20');node.style.setProperty('--instrument-level',(value/100).toFixed(3));}
+function preRaceAdvice(){
+ if(!preparedGP)return;
+ const compound=$('arRaceTyre').value,advice=C.tyreAdvice(compound,0,preparedGP);
+ $('arRaceTyreAdvice').textContent=(advice.warning||'Ce choix convient aux conditions prévues.')+' Vitesse maxi de départ : '+Math.round(350*advice.performance.top)+' km/h hors boost · pneus neufs.';
+}
+function prepareGrandPrix(){
+ preparedGP=new C.Weather(race.options.weather,race.weather.seed,race.track.targetLap*Number($('arLaps').value),race.options.temperature);
+ const rainLater=preparedGP.plan.some(p=>p.rain>.06&&p.at>0),recommended=C.recommendedTyre(preparedGP);
+ $('arRaceForecast').textContent='Départ prévu : '+preparedGP.phase+' · piste '+Math.round(preparedGP.trackTemp)+' °C · humidité '+Math.round(preparedGP.wet*100)+' %.'+(rainLater?' Précipitations prévues pendant le Grand Prix.':' Pas de changement pluvieux annoncé.');
+ $('arRaceTyre').value=recommended;preRaceAdvice();
+}
 function showResult(){
  finishedShown=true;if(race.championshipRound&&race.options.session!=='qualifying'){championship.award(race);saveChamp();}audio.update(race.player,false);const qual=race.options.session==='qualifying',pos=race.rank();
  $('arResultTitle').textContent=qual?(pos===1?'POLE POSITION !':'P'+pos+' SUR LA GRILLE'):pos===1?'VICTOIRE !':pos<=3?'SUR LE PODIUM !':pos+'e · LA REVANCHE ?';
- $('arResultText').textContent=qual?'Votre meilleur tour en solo : '+clock(race.player.bestLap)+' · la grille compare ce temps aux chronos simulés séparément des 21 adversaires.':clock(race.player.finishTime)+' · '+race.passes+' dépassements · '+race.player.pitStops+' arrêt(s).';
+ $('arResultText').textContent=qual?'Votre meilleur tour en solo : '+clock(race.player.bestLap)+' · la grille compare ce temps aux tours en solo des 21 adversaires, simulés avec les mêmes règles de vitesse, météo et usure.':clock(race.player.finishTime)+' · '+race.passes+' dépassements · '+race.player.pitStops+' arrêt(s).';
  root.querySelector('.ar-classification-title').textContent=qual?'Classement des qualifications':'Classement de la course';$('arResultList').replaceChildren();for(const [i,c] of race.standings().entries())$('arResultList').append(rankingRow(c,i,qual?clock(c.bestLap):clock(c.finishTime),qual?'MEILLEUR TOUR':(race.championshipRound?(C.POINTS[i]||0)+' pts · ':'')+(c.id===0?'VOUS':i===0?'VAINQUEUR':'+'+(c.finishTime-race.standings()[0].finishTime).toFixed(3)+' s')));
  const ceremonies=$('arCeremonies');ceremonies.replaceChildren();if(!qual){ceremonies.append(F1Ceremony.create(race.standings().slice(0,3),{title:pos===1?'VICTOIRE AU GRAND PRIX':pos<=3?'VOUS ÊTES SUR LE PODIUM':'LE PODIUM DU GRAND PRIX',playerId:race.player.driverId}));if(race.championshipRound&&championship.complete)ceremonies.append(F1Ceremony.create(championship.standings().slice(0,3),{title:'LE PODIUM DU CHAMPIONNAT',championship:true,playerId:race.player.driverId}));}
- if(qual){qualifiedGrid=race.standings().map(c=>c.id);$('arGrandPrix').hidden=false;}else $('arGrandPrix').hidden=true;
+ $('arPreRace').hidden=!qual;if(qual){qualifiedGrid=race.standings().map(c=>c.id);prepareGrandPrix();$('arGrandPrix').hidden=false;}else $('arGrandPrix').hidden=true;
  const value=qual?race.player.bestLap:race.player.finishTime;
  try{const prev=JSON.parse(localStorage.getItem(recordKey()));if(value!==null&&(!prev||value<prev.time))localStorage.setItem(recordKey(),JSON.stringify({time:value,position:pos}));}catch(_){}
  $('arChampResult').hidden=!race.championshipRound||qual;$('arChampResultList').replaceChildren();if(race.championshipRound&&!qual){const standings=championship.standings();for(const [i,d] of standings.entries()){$('arChampResultList').append(rankingRow(d,i,d.points+' pts',(d.places[0]||0)+' victoire(s)'));}const own=standings.findIndex(d=>d.driverId===race.player.driverId);$('arResultText').textContent+=' · Championnat : P'+(own+1)+' / '+standings[own].points+' pts';}
@@ -203,6 +215,7 @@ for(const id of ['arCircuit','arLaps','arTyre','arSession','arWeather','arTemper
 root.querySelectorAll('[data-ar-level]').forEach(b=>b.onclick=()=>{level=b.dataset.arLevel;root.querySelectorAll('[data-ar-level]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));$('arModeHelp').textContent=level==='challenge'?'Direction réactive, adversaires très rapides. Gaz, freins et direction manuels.':'Direction manuelle proche du Sport, avec un filtrage un peu plus doux. Gaz et freins manuels. Maintenez FREIN à l’arrêt pour reculer.';load();});
 root.querySelectorAll('[data-ar-tyre]').forEach(b=>b.onclick=()=>setTyre(b.dataset.arTyre));
 $('arStart').onclick=$('arAgain').onclick=()=>void start();$('arPause').onclick=$('arResume').onclick=pause;$('arGarageButton').onclick=$('arChoose').onclick=garage;$('arPit').onclick=pit;$('arFullscreen').onclick=()=>setFullscreen(!shell.classList.contains('ar-fullscreen'));
+$('arRaceTyre').onchange=preRaceAdvice;
 $('arPitTyre').onchange=()=>{setTyre($('arPitTyre').value);canvas.focus({preventScroll:true});};
 $('arZoom').oninput=()=>{renderer.zoom=Number($('arZoom').value)/100;schedule();};
 root.querySelectorAll('[data-ar-input]').forEach(b=>{
@@ -219,6 +232,6 @@ const previousShow=window.showView;window.showView=function(name,...args){if(nam
 new MutationObserver(()=>{if(!active())leave();else{if(!race)load();last=0;schedule();}}).observe(root,{attributes:true,attributeFilter:['class']});
 window.addEventListener('blur',leave);document.addEventListener('visibilitychange',()=>{if(document.hidden)leave();else if(active()){hudAt=0;schedule();}});
 new ResizeObserver(()=>{if(active()){preview();schedule();}}).observe(canvas);
-window.F1Arcade=Object.freeze({state:()=>race?{version:42,circuit:race.track.id,totalCircuits:CIRCUITS_2026.length,state:race.state,session:race.options.session,level:race.options.level,laps:race.options.laps,time:race.time,position:race.rank(),player:{...race.player,pit:race.player.pit?{...race.player.pit}:null},cars:race.cars.map(c=>({...c})),pitHistory:[...race.pitHistory],camera:renderer.v?{...renderer.v}:null,championship:championship?JSON.parse(JSON.stringify(championship)):null,boostLatched,weather:{rain:race.weather.rain,wet:race.weather.wet,risk:race.weather.risk,phase:race.weather.phase,trackTemp:race.weather.trackTemp,plan:race.weather.plan},calibration:{lengthKm:race.track.lengthKm,kphPerUnit:race.track.kphPerUnit,referenceSeconds:race.track.referenceSeconds,targetLap:race.track.targetLap,profileLap:race.track.profileLap},audio:audio.state()}:null});
+window.F1Arcade=Object.freeze({state:()=>race?{version:43,circuit:race.track.id,totalCircuits:CIRCUITS_2026.length,state:race.state,session:race.options.session,level:race.options.level,laps:race.options.laps,time:race.time,position:race.rank(),player:{...race.player,pit:race.player.pit?{...race.player.pit}:null},cars:race.cars.map(c=>({...c})),pitHistory:[...race.pitHistory],camera:renderer.v?{...renderer.v}:null,championship:championship?JSON.parse(JSON.stringify(championship)):null,boostLatched,weather:{rain:race.weather.rain,wet:race.weather.wet,risk:race.weather.risk,phase:race.weather.phase,trackTemp:race.weather.trackTemp,plan:race.weather.plan},calibration:{lengthKm:race.track.lengthKm,kphPerUnit:race.track.kphPerUnit,referenceSeconds:race.track.referenceSeconds,targetLap:race.track.targetLap,profileLap:race.track.profileLap},audio:audio.state()}:null});
 updateDrivers();normaliseOpponents(true);load();
 })();
