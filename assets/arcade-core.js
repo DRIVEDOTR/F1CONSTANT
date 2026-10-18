@@ -3,7 +3,7 @@
 const RACE_PACE=1.232;
 const TAU=Math.PI*2,clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),mod=(v,n)=>(v%n+n)%n,angle=a=>Math.atan2(Math.sin(a),Math.cos(a)),dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function seedOf(s){let n=2166136261;for(const c of String(s))n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
-function random(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function random(seed){const next=()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};next.getState=()=>seed>>>0;next.setState=value=>{seed=value|0;};return next;}
 function freshSeed(){const b=new Uint32Array(1);if(globalThis.crypto?.getRandomValues){globalThis.crypto.getRandomValues(b);return b[0];}return (Date.now()^Math.floor(Math.random()*4294967296))>>>0;}
 // Each wheel has explicit phases. A delay freezes only its loosening or tightening.
 function wheelState(pit,index){
@@ -161,6 +161,45 @@ class Race {
     c.phase='garage';c.finished=true;c.simulatedQualifying=true;c.finishTime=0;
    }
   }
+ }
+ snapshot(){
+  const state={};for(const key of ['options','time','countdown','nextTyre','contacts','passes','rankBefore','state','beforePause','message','messageUntil','warned','pitReminder','position','championshipRound','pitHistory'])if(this[key]!==undefined)state[key]=this[key];
+  state.cars=this.cars.map(car=>{const out={};for(const key of Object.keys(car))if(key!=='pitBox')out[key]=car[key];return out;});
+  const weather={};for(const key of Object.keys(this.weather))if(key!=='random')weather[key]=this.weather[key];
+  return JSON.parse(JSON.stringify({schema:1,trackId:this.track.id,state,weather,rng:[this.random.getState(),this.pitRandom.getState(),this.contactRandom.getState(),this.weather.random.getState()]}));
+ }
+ static restore(track,value,drivers){
+  const fail=()=>{throw Error('Session sauvegardée invalide');},finite=n=>typeof n==='number'&&Number.isFinite(n),safe=key=>!['__proto__','prototype','constructor'].includes(key);
+  if(!value||value.schema!==1||value.trackId!==track.id||!value.state||!value.weather||!Array.isArray(value.rng)||value.rng.length!==4||value.rng.some(n=>!Number.isInteger(n)||n<0||n>4294967295))fail();
+  const s=value.state,o=s.options,w=value.weather;
+  if(!o||!['qualifying','race'].includes(o.session)||!['discovery','challenge'].includes(o.level)||![2,3,5].includes(o.laps)||!TYRES[o.tyre]||!TYRES[s.nextTyre]||!['racing','countdown','paused','finished'].includes(s.state)||!finite(s.time)||s.time<0||s.time>86400||!finite(s.countdown))fail();
+  const field=drivers||o.drivers;
+  if(!Array.isArray(field)||field.length<2||field.length>22||!Array.isArray(s.cars)||s.cars.length!==field.length)fail();
+  if(o.grid&&(!Array.isArray(o.grid)||o.grid.length!==field.length||new Set(o.grid).size!==field.length||o.grid.some(i=>!Number.isInteger(i)||i<0||i>=field.length)))fail();
+  if(!['variable','dry','rain'].includes(w.mode)||!Array.isArray(w.plan)||w.plan.length>20||w.plan.some(p=>!p||!finite(p.at)||!finite(p.rain)||p.at<0||p.rain<0||p.rain>1))fail();
+  for(const key of ['seed','rain','wet','risk','dryTemp','trackTemp'])if(!finite(w[key]))fail();
+  if(w.rain<0||w.rain>1||w.wet<0||w.wet>1||w.trackTemp<0||w.trackTemp>80||!Array.isArray(s.pitHistory)||s.pitHistory.length>1000||s.pitHistory.some(p=>!p||typeof p.name!=='string'||!finite(p.time)||p.time<0||!TYRES[p.compound]||p.trafficWait!==undefined&&!finite(p.trafficWait)))fail();
+  const settings={level:o.level,laps:o.laps,tyre:o.tyre,session:o.session,grid:o.grid,weather:w.mode,temperature:o.temperature,drivers:field,seed:0,pitSeed:0,contactSeed:0,weatherSeed:w.seed,_reference:true};
+  const r=new Race(track,settings);delete r.options._reference;for(const key of ['seed','pitSeed','contactSeed','weatherSeed'])if(Number.isInteger(o[key]))r.options[key]=o[key];if(/^#[a-f0-9]{6}$/i.test(o.color||''))r.options.color=o.color;
+  for(const key of ['time','countdown','contacts','passes','rankBefore','messageUntil'])if(s[key]!==undefined&&!finite(s[key]))fail();
+  for(const key of ['time','countdown','nextTyre','contacts','passes','rankBefore','state','beforePause','message','messageUntil','warned','pitReminder','position','championshipRound','pitHistory'])if(s[key]!==undefined)r[key]=s[key];
+  for(const [i,data]of s.cars.entries()){
+   if(!data||data.id!==i||data.driverId!==field[i].driverId||!['track','pit','service','garage'].includes(data.phase)||!TYRES[data.tyre]||!Array.isArray(data.lapTimes)||data.lapTimes.length>100||data.lapTimes.some(n=>!finite(n)||n<=0))fail();
+   for(const key of ['s','speed','lane','laneV','headingError','wear','boost','x','y','a','strategyBias','strategyAt','strategyReaction','lastStrategyStop','pitStops'])if(!finite(data[key]))fail();
+   for(const key of Object.keys(data))if(typeof data[key]==='number'&&!finite(data[key]))fail();
+   for(const [key,initial]of Object.entries(r.cars[i]))if(typeof initial==='number'&&!['driverNumber'].includes(key)&&!finite(data[key]))fail();
+   for(const key of ['finished','onTrack','pitRequested'])if(typeof data[key]!=='boolean')fail();
+   if(data.finished&&!finite(data.finishTime)||data.bestLap!==null&&!finite(data.bestLap)||Math.abs(data.speed)*track.kphPerUnit>500||Math.abs(data.s)>track.length*(o.laps+2))fail();
+   if(data.wear<0||data.wear>1||data.boost<0||data.boost>100||Math.abs(data.lane)>track.width||!Number.isInteger(data.pitStops)||data.pitStops<0||data.pitStops>100||data.bestLap!==null&&(!finite(data.bestLap)||data.bestLap<=0))fail();
+   if(data.pit){const p=data.pit;if(!finite(p.base)||!finite(p.distance)||p.distance<0||p.distance>track.pit.length+.01||!finite(p.service)||p.service<0||p.service>86400||typeof p.done!=='boolean'||!finite(p.entryLane)||Math.abs(p.entryLane)>track.width||!finite(p.stopAt)||!finite(p.lateral)||Math.abs(p.stopAt-r.cars[i].pitBox.stopAt)>.01||p.boxKey!==r.cars[i].pitBox.key)fail();if(data.phase==='service'&&(!finite(p.duration)||!TYRES[p.newTyre]||!Array.isArray(p.wheels)||p.wheels.length!==4))fail();if(p.wheels&&p.wheels.some(w=>!w||!finite(w.duration)||!Array.isArray(w.timeline)||w.timeline.length!==5||w.timeline.some((t,j)=>t.id!==['loosen','remove','fit','tighten','check'][j]||!finite(t.start)||!finite(t.end)||!finite(t.normalDuration)||t.start<0||t.end<=t.start||t.end>10.01||t.normalDuration<=0)||w.problem&&(!['loosen','tighten'].includes(w.problem.phase)||!finite(w.problem.start)||!finite(w.problem.delay)||w.problem.delay<0||w.problem.delay>10)))fail();}
+   if(['pit','service'].includes(data.phase)&&!data.pit)fail();
+   if(data.spin&&['elapsed','duration','angle','omega','vx','vy','direction'].some(k=>!finite(data.spin[k])))fail();
+   const car=r.cars[i];for(const key of Object.keys(data))if(safe(key)&&!['pitBox','id','name','color','colorB','teamId','teamName','driverId','driverNumber','helmet'].includes(key))car[key]=data[key];
+  }
+  r.player=r.cars[0];for(const key of Object.keys(r.weather))if(key!=='random'&&w[key]!==undefined)r.weather[key]=w[key];
+  [r.random,r.pitRandom,r.contactRandom,r.weather.random].forEach((rng,i)=>rng.setState(value.rng[i]));r.events=[];r.input={axis:0,throttle:false,brake:false,boost:false};
+  if(r.state!=='finished'){r.beforePause=['racing','countdown'].includes(s.state)?s.state:['racing','countdown'].includes(s.beforePause)?s.beforePause:'racing';r.state='paused';}
+  return r;
  }
  start(){this.state='countdown';this.countdown=3;this.notify(this.options.session==='qualifying'?'Deux tours pour signer votre meilleur chrono':'Préparez-vous : les gaz sont manuels',3);}
  notify(text,duration=2){this.message=text;this.messageUntil=this.time+duration;this.events.push({type:'message',text});}
