@@ -138,15 +138,20 @@ class Renderer{
  building(c,rnd,T){const w=13+rnd()*31,h=11+rnd()*25;c.fillStyle='#15253545';c.fillRect(-w/2+5,-h/2+6,w,h);const color=T.night?'#566674':['#d3d1bd','#bdc4bf','#d8c4af'][Math.floor(rnd()*3)];round(c,-w/2,-h/2,w,h,1,color);line(c,-w/2,-h/2,w/2,-h/2,2,T.night?'#a9c2d0':'#f0ebd9');for(let k=-w/2+3;k<w/2-4;k+=7)for(let j=-h/2+4;j<h/2-3;j+=7)round(c,k,j,4,3,0,T.night?(rnd()>.4?'#f2d78b':'#233741'):'#8c9c9c');round(c,-3,-3,8,6,0,T.night?'#40515c':'#a9b5ae');}
  tree(c,rnd,palm){c.fillStyle='#223d3260';c.beginPath();c.ellipse(3,5,10,7,0,0,TAU);c.fill();if(palm){for(let n=0;n<7;n++){c.save();c.rotate(n*TAU/7);c.fillStyle=n%2?'#5c8754':'#355e43';c.beginPath();c.ellipse(4,0,7,2,.3,0,TAU);c.fill();c.restore();}return;}for(let n=0;n<5;n++){const a=n*TAU/5;c.fillStyle=n%2?'#4c754e':'#3c6547';c.beginPath();c.arc(Math.cos(a)*4,Math.sin(a)*4,5+rnd()*2,0,TAU);c.fill();}c.fillStyle='#78915b';c.beginPath();c.arc(-2,-3,3,0,TAU);c.fill();}
  drawGarage(c,t){
-  const side=t.pit.side,bay=side*t.carWidth*2.6;
-  for(const box of this.pitBoxes||[]){
+  const side=t.pit.side,bay=side*t.carWidth*2.6,w=t.carLength*1.4,h=t.carWidth*1.56;
+  // Keep all team markings inside the actual wheel-change box. The mask also
+  // protects neighbouring sections of the circuit, including tight street tracks.
+  if(this.garageMaskTrack!==t){const b=t.bounds,mask=new Path2D();mask.rect(b.minX-500,b.minY-500,b.maxX-b.minX+1000,b.maxY-b.minY+1000);mask.addPath(this.kerb);this.garageMask=mask;this.garageMaskTrack=t;}
+  c.save();c.clip(this.garageMask,'evenodd');
+  for(const [i,box] of (this.pitBoxes||[]).entries()){
    const q=C.at(t.pit,box.stopAt);c.save();c.translate(q.x-Math.sin(q.a)*bay,q.y+Math.cos(q.a)*bay);c.rotate(q.a);
-   c.strokeStyle=box.color;c.lineWidth=.5;c.strokeRect(-t.carLength*.70,-t.carWidth*.78,t.carLength*1.4,t.carWidth*1.56);
-   const y=side*t.carWidth*2.35,w=t.carLength*1.6,h=t.carWidth*1.8;
-   round(c,-w/2,y-h/2,w,h,.6,'#d1d7d3');round(c,-w*.44,y-h*.39,w*.88,h*.60,.3,'#243943');
-   c.fillStyle=box.color;c.fillRect(-w/2,y-h/2,w,.9);c.fillStyle='#edf1de';c.textAlign='center';c.font='800 1.8px system-ui';c.fillText((box.name||'BOX').toUpperCase(),0,y+h*.28,w*.94);
-   c.fillStyle='#eddc9c';c.fillRect(-1.3,side*t.carWidth*.62,2.6,.25);c.restore();
-  }
+   c.beginPath();c.rect(-w/2,-h/2,w,h);c.clip();
+   round(c,-w/2,-h/2,w,h,.25,'#243943e8');c.fillStyle=box.color;c.fillRect(-w/2,-h/2,w,.45);
+   c.strokeStyle=box.color;c.lineWidth=.4;c.strokeRect(-w/2+.2,-h/2+.2,w-.4,h-.4);
+   c.textAlign='center';c.textBaseline='middle';c.fillStyle='#edf1de';c.font='800 1.25px system-ui';c.fillText((box.name||'BOX').toUpperCase(),0,-h*.12,w*.86);
+   c.fillStyle='#d0dcd8';c.font='700 .9px system-ui';c.fillText('GARAGE '+String(i+1).padStart(2,'0'),0,h*.23,w*.86);
+   c.restore();
+  }c.restore();
  }
  buildMinimap(t){const map=document.createElement('canvas');map.width=340;map.height=260;const c=map.getContext('2d'),b=t.bounds,s=Math.min(300/(b.maxX-b.minX),210/(b.maxY-b.minY)),x=170-(b.minX+b.maxX)*s/2,y=130-(b.minY+b.maxY)*s/2;this.map={canvas:map,s,x,y};c.setTransform(s,0,0,s,x,y);c.lineJoin='round';c.lineCap='round';c.strokeStyle='#698e9540';c.lineWidth=14/s;c.stroke(this.road);c.strokeStyle='#a9c1bd';c.lineWidth=3/s;c.stroke(this.road);c.strokeStyle='#82d9c590';c.lineWidth=1.5/s;c.stroke(this.pitRoad);}
  bridge(t){if(!t.bridge)return;const c=this.ctx,b=t.bridge,pts=[];for(let s=b.upper-b.half;s<=b.upper+b.half;s+=2)pts.push(C.at(t,s));const p=path(pts);c.lineCap='butt';c.lineJoin='round';c.strokeStyle='#10202480';c.lineWidth=t.width+12;c.stroke(p);c.strokeStyle='#c6cfc5';c.lineWidth=t.width+5;c.stroke(p);c.strokeStyle='#35424a';c.lineWidth=t.width;c.stroke(p);c.lineCap='round';}

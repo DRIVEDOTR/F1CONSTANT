@@ -179,7 +179,8 @@ class Race {
  rank(){return this.standings().findIndex(c=>!c.id)+1;}
  curveCap(s){const t=this.track;return t.speedCaps[Math.floor(mod(s,t.length)/t.step)%t.points.length];}
  gripCap(s,grip){const cap=this.curveCap(s),top=350/this.track.kphPerUnit;return cap>=top*.995?top:Math.min(top,cap*Math.sqrt(grip)*1.1536);}
- aiPace(c){const skill=((c.id*7)%23)/22;return this.options.level==='challenge'?1.005+skill*.022:.994+skill*.020;}
+ // Give the field a little breathing room; the leaders remain competitive.
+ aiPace(c){const skill=((c.id*7)%23)/22;return this.options.level==='challenge'?.940+skill*.050:.925+skill*.060;}
  updateAI(c,dt){
   const t=this.track;c.followCap=null;
   if(this.time>=c.strategyAt){
@@ -228,7 +229,7 @@ class Race {
    c.kerbFactor=kerbFactor;c.kerbPenalty=1-kerbFactor;c.kerbWheels=contact.wheels;c.kerbLoad=contact.load;
    if(c.id){
     const pace=this.aiPace(c);
-    let cap=Math.min(straight?(boosting?380:350)/kph:this.gripCap(c.s,grip)*pace,(boosting?380:350)/kph*performance.top);cap*=kerbFactor;if(c.followCap!==null)cap=Math.min(cap,c.followCap);c.targetSpeed=cap;
+    let cap=Math.min(straight?(boosting?380:350)/kph:this.gripCap(c.s,grip),(boosting?380:350)/kph*performance.top)*pace;cap*=kerbFactor;if(c.followCap!==null)cap=Math.min(cap,c.followCap);c.targetSpeed=cap;
     c.speed=clamp(c.speed+clamp(cap-c.speed,-32/meters*dt,(boosting?38:27)/meters*performance.traction*dt),0,380/kph);
     c.impactV=(c.impactV||0)*Math.exp(-dt*3.5);c.impactYaw=(c.impactYaw||0)*Math.exp(-dt*2.4);c.bump=(c.bump||0)*Math.exp(-dt*9);c.laneV+=(c.targetLane-c.lane)*28*dt-c.laneV*8.8*dt;c.laneV+=c.impactV*dt*4;c.lane=clamp(c.lane+c.laneV*dt*RACE_PACE,-Math.max(t.carWidth*.55,half-t.carWidth*.55),Math.max(t.carWidth*.55,half-t.carWidth*.55));
     c.s+=c.speed*dt*RACE_PACE;c.headingError=Math.atan2(c.laneV,Math.max(20,c.speed));c.steer=Math.atan(angle(at(t,c.s+6).a-at(t,c.s-6).a)/12*t.carLength*.54)/.24;
