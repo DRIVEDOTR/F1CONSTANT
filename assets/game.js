@@ -51,7 +51,7 @@ function refreshPickers(){refreshPicker($('arTeam'),'team');refreshPicker($('arD
 const opponentSelects=()=>[...$('arOpponentGrid').querySelectorAll('select')];
 function field(){return [driverData($('arDriver').value),...opponentSelects().map(s=>driverData(s.value))];}
 function getSettings(session=($('arSession').value==='qualifying'||$('arSession').value==='championship'&&$('arChampQual').checked)?'qualifying':'race',grid=null){return{level,laps:Number($('arLaps').value),tyre:$('arTyre').value,color:teamFor($('arDriver').value).teamA,drivers:field(),session,grid,weather:$('arWeather').value,temperature:$('arTemperature').value,seed:C.freshSeed()};}
-const recordKey=()=>`f1-arcade-v43:${race.track.id}:${race.options.session}:${race.options.level}:${race.options.laps}:${race.options.tyre}`;
+const recordKey=()=>`f1-arcade-v44:${race.track.id}:${race.options.session}:${race.options.level}:${race.options.laps}:${race.options.tyre}`;
 function readTrack(id){
  if(cache.has(id))return cache.get(id);
  const c=CIRCUITS_2026.find(c=>c.id===id),doc=new DOMParser().parseFromString(CIRCUIT_SVGS[id],'image/svg+xml');
@@ -66,9 +66,52 @@ function preview(){const t=teamFor($('arDriver').value),d=driverData($('arDriver
  renderer.preview($('arCarPreview'),t.teamA,{...t,driverNumber:d.driverNumber,helmet:d.helmet});
  const text=$('arTeamLivery');text.replaceChildren();const badge=document.createElement('i');badge.className='ar-helmet-mark';badge.style.setProperty('--helmet',d.helmet.base);badge.style.setProperty('--helmet-accent',d.helmet.accent);text.append(badge,document.createTextNode(d.name+' · '+t.name));
 }
+const tyreComparisons=new Map();
+function compareTyres(id,weather,selected,choose){
+ let ui=tyreComparisons.get(id);
+ if(!ui){
+  const host=$(id),context=document.createElement('p'),label=document.createElement('label'),range=document.createElement('input'),value=document.createElement('b'),rows=document.createElement('div'),note=document.createElement('p');
+  context.className='ar-compare-context';label.className='ar-compare-life';range.type='range';range.min='0';range.max='100';range.value='100';range.id=id+'Life';range.setAttribute('aria-label','Simuler le pourcentage de pneus restants');
+  label.htmlFor=range.id;label.append(document.createTextNode('Comparer à '),value,document.createTextNode(' de pneus restants'),range);
+  rows.className='ar-compare-rows';note.className='ar-compare-note';note.textContent='Plafonds en ligne droite, sans boost (+8,6 % avec boost). Le freinage et les virages limitent la vitesse réelle. Déplacez le curseur pour anticiper l’usure.';
+  const entries=Object.entries(C.TYRES).map(([key,t])=>{
+   const row=document.createElement('button');row.type='button';row.className='ar-compare-row';row.style.setProperty('--compound',t.color);
+   const name=document.createElement('strong'),fresh=document.createElement('span'),worn=document.createElement('span'),description=document.createElement('small');name.textContent=t.name;row.append(name,fresh,worn,description);rows.append(row);row.onclick=()=>choose(key);
+   return{key,row,fresh,worn,description};
+  });
+  host.append(context,label,rows,note);ui={context,range,value,entries};tyreComparisons.set(id,ui);
+  range.oninput=()=>{if(id==='arRaceCompare')preRaceAdvice();else if(race)renderTyreComparisons();};
+ }
+ const remaining=Number(ui.range.value),recommended=C.recommendedTyre(weather),key=[remaining,selected,Math.round(weather.wet*1000),Math.round(weather.trackTemp*10),weather.phase].join(':');
+ if(ui.key===key)return;ui.key=key;
+ ui.value.textContent=remaining+' %';ui.context.textContent=weather.phase+' · piste '+Math.round(weather.trackTemp)+' °C · humidité '+Math.round(weather.wet*100)+' %. Choisissez une gomme ci-dessous.';
+ for(const {key,row,fresh,worn,description} of ui.entries){
+  const p=C.tyrePerformance(key,0,weather.wet,weather.trackTemp),q=C.tyrePerformance(key,1-remaining/100,weather.wet,weather.trackTemp);
+  row.setAttribute('aria-pressed',String(key===selected));row.setAttribute('aria-label','Choisir '+C.TYRES[key].name+' · neuf '+Math.round(350*p.top)+' kilomètres par heure');
+  fresh.textContent='Neufs : '+Math.round(350*p.top)+' km/h';worn.textContent='À '+remaining+' % : '+Math.round(350*q.top)+' km/h';
+  const grip=q.grip>=.95?'très bonne':q.grip>=.75?'bonne':q.grip>=.50?'réduite':'faible',wear=p.wear>.50?'très rapide':p.wear>.24?'rapide':p.wear>.17?'modérée':'lente';
+  description.textContent=(key===recommended?'Conseillés · ':'')+(key===selected?'Choisis · ':'')+'Adhérence '+grip+' · usure '+wear;
+ }
+}
+function labelTyreOptions(select,weather){
+ for(const option of select.options){const p=C.tyrePerformance(option.value,0,weather.wet,weather.trackTemp);const text=C.TYRES[option.value].name+' · '+Math.round(350*p.top)+' km/h neufs';if(option.textContent!==text)option.textContent=text;}
+}
+function renderTyreComparisons(){
+ if(!race)return;
+ const weather=race.weather;
+ if(shell.dataset.playing!=='true'){
+  compareTyres('arGarageCompare',weather,$('arTyre').value,key=>{$('arTyre').value=key;$('arTyre').dispatchEvent(new Event('change'));});labelTyreOptions($('arTyre'),weather);
+ }
+ if($('arPitComparison').open)compareTyres('arPitCompare',weather,race.nextTyre,key=>{setTyre(key);canvas.focus({preventScroll:true});renderTyreComparisons();});
+ labelTyreOptions($('arPitTyre'),weather);
+ const p=race.player,perf=C.tyrePerformance(p.tyre,p.wear,weather.wet,weather.trackTemp);
+ const current='Actuellement : '+C.TYRES[p.tyre].name+' · '+Math.round((1-p.wear)*100)+' % restants · plafond '+Math.round(350*perf.top)+' km/h sans boost. Aux stands, les pneus seront neufs.';if($('arCurrentTyrePotential').textContent!==current)$('arCurrentTyrePotential').textContent=current;
+}
 function setTyre(tyre){if(race)race.nextTyre=tyre;$('arPitTyre').value=tyre;$('arPitTyre').style.setProperty('--pit-tyre',C.TYRES[tyre].color);root.querySelectorAll('[data-ar-tyre]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.arTyre===tyre)));}
 function load(){
- audio.pause();clear();qualifiedGrid=null;preparedGP=null;race=new C.Race(readTrack($('arCircuit').value),getSettings());setTyre($('arTyre').value);
+ audio.pause();clear();qualifiedGrid=null;preparedGP=null;const settings=getSettings(),trackId=$('arCircuit').value;
+ if(race?.state==='ready'&&race.track.id===trackId&&race.options.weather===settings.weather&&race.options.temperature===settings.temperature)settings.weatherSeed=race.weather.seed;
+ race=new C.Race(readTrack(trackId),settings);setTyre($('arTyre').value);
  shell.dataset.playing='false';$('arResult').hidden=true;finishedShown=false;renderer.key=null;
  $('arLevelName').textContent=level==='challenge'?'SPORT':'CLUB';$('arRaceName').textContent=race.track.city+' · '+(race.options.session==='qualifying'?'qualifications en solo · 2 tours':race.options.laps+' tours');
  let record;try{record=JSON.parse(localStorage.getItem(recordKey()));}catch(_){}
@@ -115,6 +158,7 @@ function renderHUD(){
  $('arSpeed').innerHTML=Math.round(Math.abs(p.speed)*t.kphPerUnit)+' <small>'+(p.gear==='R'?'R · ':'')+'km/h</small>';
  $('arWear').innerHTML=Math.round((1-p.wear)*100)+' <small>%</small>';$('arWear').style.color='';resourceTone($('arWear').parentElement,(1-p.wear)*100);resourceTone($('arBoost').parentElement,p.boost);resourceTone($('arSpeed').parentElement,100-Math.min(100,Math.abs(p.speed)*t.kphPerUnit/3.8)); 
  $('arBoostToggle').setAttribute('aria-pressed',String(boostLatched||[...pointers.values()].includes('touchBoost')));$('arBoostToggle').textContent=(boostLatched||[...pointers.values()].includes('touchBoost'))?'BOOST ON':matchMedia('(pointer:coarse)').matches?'BOOST':'BOOST · B';
+ renderTyreComparisons();
  const tyreAdvice=C.tyreAdvice(p.tyre,p.wear,race.weather),nextAdvice=C.tyreAdvice(race.nextTyre,0,race.weather);
  $('arTyreAdvice').textContent='Piste '+Math.round(race.weather.trackTemp)+' °C · '+C.TYRES[tyreAdvice.recommended].name+' conseillés. '+(tyreAdvice.warning||'Votre choix convient aux conditions.')+(tyreAdvice.penalty>=10?' Vitesse maxi : −'+tyreAdvice.penalty+' %.':'');
  $('arTrackTemp').textContent='Piste '+Math.round(race.weather.trackTemp)+'°C';
@@ -153,6 +197,7 @@ function resourceTone(node,percentage){const value=Math.round(C.clamp(percentage
 function preRaceAdvice(){
  if(!preparedGP)return;
  const compound=$('arRaceTyre').value,advice=C.tyreAdvice(compound,0,preparedGP);
+ compareTyres('arRaceCompare',preparedGP,compound,key=>{$('arRaceTyre').value=key;preRaceAdvice();});labelTyreOptions($('arRaceTyre'),preparedGP);
  $('arRaceTyreAdvice').textContent=(advice.warning||'Ce choix convient aux conditions prévues.')+' Vitesse maxi de départ : '+Math.round(350*advice.performance.top)+' km/h hors boost · pneus neufs.';
 }
 function prepareGrandPrix(){
@@ -216,6 +261,7 @@ root.querySelectorAll('[data-ar-level]').forEach(b=>b.onclick=()=>{level=b.datas
 root.querySelectorAll('[data-ar-tyre]').forEach(b=>b.onclick=()=>setTyre(b.dataset.arTyre));
 $('arStart').onclick=$('arAgain').onclick=()=>void start();$('arPause').onclick=$('arResume').onclick=pause;$('arGarageButton').onclick=$('arChoose').onclick=garage;$('arPit').onclick=pit;$('arFullscreen').onclick=()=>setFullscreen(!shell.classList.contains('ar-fullscreen'));
 $('arRaceTyre').onchange=preRaceAdvice;
+$('arPitComparison').addEventListener('toggle',renderTyreComparisons);
 $('arPitTyre').onchange=()=>{setTyre($('arPitTyre').value);canvas.focus({preventScroll:true});};
 $('arZoom').oninput=()=>{renderer.zoom=Number($('arZoom').value)/100;schedule();};
 root.querySelectorAll('[data-ar-input]').forEach(b=>{
@@ -232,6 +278,6 @@ const previousShow=window.showView;window.showView=function(name,...args){if(nam
 new MutationObserver(()=>{if(!active())leave();else{if(!race)load();last=0;schedule();}}).observe(root,{attributes:true,attributeFilter:['class']});
 window.addEventListener('blur',leave);document.addEventListener('visibilitychange',()=>{if(document.hidden)leave();else if(active()){hudAt=0;schedule();}});
 new ResizeObserver(()=>{if(active()){preview();schedule();}}).observe(canvas);
-window.F1Arcade=Object.freeze({state:()=>race?{version:43,circuit:race.track.id,totalCircuits:CIRCUITS_2026.length,state:race.state,session:race.options.session,level:race.options.level,laps:race.options.laps,time:race.time,position:race.rank(),player:{...race.player,pit:race.player.pit?{...race.player.pit}:null},cars:race.cars.map(c=>({...c})),pitHistory:[...race.pitHistory],camera:renderer.v?{...renderer.v}:null,championship:championship?JSON.parse(JSON.stringify(championship)):null,boostLatched,weather:{rain:race.weather.rain,wet:race.weather.wet,risk:race.weather.risk,phase:race.weather.phase,trackTemp:race.weather.trackTemp,plan:race.weather.plan},calibration:{lengthKm:race.track.lengthKm,kphPerUnit:race.track.kphPerUnit,referenceSeconds:race.track.referenceSeconds,targetLap:race.track.targetLap,profileLap:race.track.profileLap},audio:audio.state()}:null});
+window.F1Arcade=Object.freeze({state:()=>race?{version:45,circuit:race.track.id,totalCircuits:CIRCUITS_2026.length,state:race.state,session:race.options.session,level:race.options.level,laps:race.options.laps,time:race.time,position:race.rank(),player:{...race.player,pit:race.player.pit?{...race.player.pit}:null},cars:race.cars.map(c=>({...c})),pitHistory:[...race.pitHistory],camera:renderer.v?{...renderer.v}:null,championship:championship?JSON.parse(JSON.stringify(championship)):null,boostLatched,weather:{rain:race.weather.rain,wet:race.weather.wet,risk:race.weather.risk,phase:race.weather.phase,trackTemp:race.weather.trackTemp,plan:race.weather.plan},calibration:{lengthKm:race.track.lengthKm,kphPerUnit:race.track.kphPerUnit,referenceSeconds:race.track.referenceSeconds,targetLap:race.track.targetLap,profileLap:race.track.profileLap},audio:audio.state()}:null});
 updateDrivers();normaliseOpponents(true);load();
 })();

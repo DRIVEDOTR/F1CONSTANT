@@ -39,8 +39,8 @@ function openCorners(track){
 function parseLap(value){const m=/^(\d+):(\d{2}(?:\.\d+)?)$/.exec(String(value||''));return m?Number(m[1])*60+Number(m[2]):null;}
 function calibrateTrack(t){
  t.lengthKm=Number(t.lengthKm)||5;t.metersPerUnit=t.lengthKm*1000/t.length;t.kphPerUnit=t.metersPerUnit*3.6;t.referenceSeconds=parseLap(t.fastestLap);t.targetLap=t.referenceSeconds?t.referenceSeconds*1.07:t.lengthKm/210*3600;t.referenceEstimated=!t.referenceSeconds;
- const top=350/t.kphPerUnit,accel=27/t.metersPerUnit,brake=52/t.metersPerUnit;
- const profile=lateral=>{const caps=t.bends.map(b=>Math.min(top,Math.sqrt(lateral/t.metersPerUnit/Math.max(.000001,b))));for(let pass=0;pass<3;pass++){for(let i=0;i<caps.length;i++){const prev=caps[mod(i-1,caps.length)];caps[i]=Math.min(caps[i],Math.sqrt(prev*prev+2*accel*t.step));}for(let i=caps.length-1;i>=0;i--){const next=caps[(i+1)%caps.length];caps[i]=Math.min(caps[i],Math.sqrt(next*next+2*brake*t.step));}}return caps;};
+ const top=350/t.kphPerUnit,accel=27/t.metersPerUnit,brake=32/t.metersPerUnit;
+ const profile=lateral=>{const caps=t.bends.map(b=>Math.min(top,Math.max(82/t.kphPerUnit,Math.sqrt(lateral/t.metersPerUnit/Math.max(.000001,b)))));for(let pass=0;pass<3;pass++){for(let i=0;i<caps.length;i++){const prev=caps[mod(i-1,caps.length)];caps[i]=Math.min(caps[i],Math.sqrt(prev*prev+2*accel*t.step));}for(let i=caps.length-1;i>=0;i--){const next=caps[(i+1)%caps.length];caps[i]=Math.min(caps[i],Math.sqrt(next*next+2*brake*t.step));}}return caps;};
  let lo=2,hi=300;for(let i=0;i<28;i++){const mid=(lo+hi)/2,p=profile(mid),time=p.reduce((sum,v,i)=>sum+2*t.step/(v+p[(i+1)%p.length]),0);if(time>t.targetLap)lo=mid;else hi=mid;}t.lateralAcceleration=(lo+hi)/2;t.speedCaps=profile(t.lateralAcceleration);t.profileLap=t.speedCaps.reduce((sum,v,i)=>sum+2*t.step/(v+t.speedCaps[(i+1)%t.speedCaps.length]),0);t.topKph=350;
 }
 function makeTrack(info,raw,pitRaw=[]){const xs=raw.map(p=>+(p.x??p[0])),ys=raw.map(p=>+(p.y??p[1])),minX=Math.min(...xs),minY=Math.min(...ys),size=Math.max(Math.max(...xs)-minX,Math.max(...ys)-minY),scale=1000/size;const convert=p=>({x:(+(p.x??p[0])-minX)*scale,y:(+(p.y??p[1])-minY)*scale});const t={...resample(raw.map(convert),true),...info,sourceScale:scale,sourceOrigin:{x:minX,y:minY}};
@@ -76,7 +76,7 @@ function tyrePerformance(compound,wear,wetness,temperature=34){
   grip*=1-.78*Math.pow(w,.75);top*=1-(1-.60/.955)*Math.pow(w,.85);
   rate*=1-w*.20;
  }
- const anchors=[[0,1],[.30,1],[.50,.85],[.75,.65],[1,.50]];
+ const anchors=[[0,1],[.30,1],[.50,.94],[.75,.85],[1,.75]];
  let speedHealth=1;
  for(let i=1;i<anchors.length;i++)if(used<=anchors[i][0]){const a=anchors[i-1],b=anchors[i],u=clamp((used-a[0])/(b[0]-a[0]),0,1);speedHealth=a[1]+(b[1]-a[1])*u*u*(3-2*u);break;}
  const loss=(1-speedHealth)*.85;
@@ -203,7 +203,7 @@ class Race {
    if(c.id){
     const pace=this.aiPace(c);
     let cap=Math.min(straight?(boosting?380:350)/kph:this.gripCap(c.s,grip)*pace,(boosting?380:350)/kph*performance.top);if(c.followCap!==null)cap=Math.min(cap,c.followCap);c.targetSpeed=cap;
-    c.speed=clamp(c.speed+clamp(cap-c.speed,-52/meters*dt,(boosting?38:27)/meters*performance.traction*dt),0,380/kph);
+    c.speed=clamp(c.speed+clamp(cap-c.speed,-32/meters*dt,(boosting?38:27)/meters*performance.traction*dt),0,380/kph);
     c.impactV=(c.impactV||0)*Math.exp(-dt*3.5);c.impactYaw=(c.impactYaw||0)*Math.exp(-dt*2.4);c.bump=(c.bump||0)*Math.exp(-dt*9);c.laneV+=(c.targetLane-c.lane)*28*dt-c.laneV*8.8*dt;c.laneV+=c.impactV*dt*4;c.lane=clamp(c.lane+c.laneV*dt,-Math.max(t.carWidth*.55,half-t.carWidth*.55),Math.max(t.carWidth*.55,half-t.carWidth*.55));
     c.s+=c.speed*dt;c.headingError=Math.atan2(c.laneV,Math.max(20,c.speed));c.steer=Math.atan(angle(at(t,c.s+6).a-at(t,c.s-6).a)/12*t.carLength*.54)/.24;
    }else{
@@ -215,7 +215,7 @@ class Race {
      else if(c.reverseHold>.38)c.speed=Math.max(-20/kph,c.speed-8/meters*dt);
     }else if(gas){
      if(c.speed<0)c.speed=Math.min(0,c.speed+20/meters*dt);
-     else{const top=(boosting?380:350)/kph*performance.top,v=Math.abs(c.speed)*meters,drive=(straight||c.speed<=this.gripCap(c.s,grip)*(club?1.01:1)?1:0)*(boosting?38:27)/meters*gas*performance.traction*(1-.72*(c.speed/top)**4),drag=(.6+.00016*v*v)/meters+terrain*(.3+.004*v*v)/meters;c.speed=clamp(c.speed+(drive-drag)*dt,0,top);}
+     else{const top=(boosting?380:350)/kph*performance.top,v=Math.abs(c.speed)*meters,drive=(straight?1:clamp((this.gripCap(c.s,grip)*(club?1.01:1)+4/kph-c.speed)/(8/kph),0,1))*(boosting?38:27)/meters*gas*performance.traction*(1-.72*(c.speed/top)**4),drag=(.6+.00016*v*v)/meters+terrain*(.3+.004*v*v)/meters;c.speed=clamp(c.speed+(drive-drag)*dt,0,top);}
     }else c.speed=Math.sign(c.speed)*Math.max(0,Math.abs(c.speed)-((club?9:8)+.001*(c.speed*meters)**2)/meters*dt);
     const axis=clamp(this.input.axis||0,-1,1),curvature=angle(at(t,c.s+6).a-at(t,c.s-6).a)/12;
     c.steerInput+=(axis-c.steerInput)*(1-Math.exp(-dt*(axis?(club?7:8):26)));
@@ -223,7 +223,7 @@ class Race {
     const vKph=Math.abs(c.speed)*kph,maxHeading=.28+1.12/(1+(vKph/95)**2),safe=this.gripCap(c.s,grip),excess=Math.max(0,c.speed/Math.max(1,safe)-1);
     // A shared grip envelope prevents the player carrying unrestricted speed through corners.
     const cornerLimit=straight?Infinity:safe*(club?1.01:1);
-    if(c.speed>cornerLimit)c.speed-=Math.min(52/meters*dt,(c.speed-cornerLimit)*(1-Math.exp(-dt*16)));
+    if(c.speed>cornerLimit)c.speed-=Math.min(32/meters*dt,(c.speed-cornerLimit)*(1-Math.exp(-dt*6)));
     const progressiveSteer=c.steerInput*(.55+.45*c.steerInput*c.steerInput);
     const targetHeading=direction*progressiveSteer*maxHeading*Math.max(.60,Math.sqrt(grip))-curvature*Math.max(0,c.speed)*.32-Math.sign(curvature)*Math.min(.16,excess*.08);
     c.impactYaw=(c.impactYaw||0)*Math.exp(-dt*2.4);c.impactV=(c.impactV||0)*Math.exp(-dt*3.5);c.bump=(c.bump||0)*Math.exp(-dt*9);
