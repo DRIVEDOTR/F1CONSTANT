@@ -1,5 +1,6 @@
 /* F1 Constant V41. Moteur arcade original, indépendant du DOM et du rendu. */
 (function(scope){'use strict';
+const RACE_PACE=1.10;
 const TAU=Math.PI*2,clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),mod=(v,n)=>(v%n+n)%n,angle=a=>Math.atan2(Math.sin(a),Math.cos(a)),dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function seedOf(s){let n=2166136261;for(const c of String(s))n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
 function random(seed){return()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
@@ -42,7 +43,7 @@ function calibrateTrack(t){
  const top=350/t.kphPerUnit,accel=27/t.metersPerUnit,brake=32/t.metersPerUnit;
  const profile=lateral=>{const caps=t.bends.map(b=>Math.min(top,Math.max(82/t.kphPerUnit,Math.sqrt(lateral/t.metersPerUnit/Math.max(.000001,b)))));for(let pass=0;pass<3;pass++){for(let i=0;i<caps.length;i++){const prev=caps[mod(i-1,caps.length)];caps[i]=Math.min(caps[i],Math.sqrt(prev*prev+2*accel*t.step));}for(let i=caps.length-1;i>=0;i--){const next=caps[(i+1)%caps.length];caps[i]=Math.min(caps[i],Math.sqrt(next*next+2*brake*t.step));}}return caps;};
  let lo=2,hi=300;for(let i=0;i<28;i++){const mid=(lo+hi)/2,p=profile(mid),time=p.reduce((sum,v,i)=>sum+2*t.step/(v+p[(i+1)%p.length]),0);if(time>t.targetLap)lo=mid;else hi=mid;}t.lateralAcceleration=(lo+hi)/2;t.speedCaps=profile(t.lateralAcceleration);t.profileLap=t.speedCaps.reduce((sum,v,i)=>sum+2*t.step/(v+t.speedCaps[(i+1)%t.speedCaps.length]),0);t.topKph=350;t.baseProfileLap=t.profileLap;
- const paced=t.speedCaps.map(v=>v>=top*.995?top:Math.min(top,v*1.12));t.profileLap=paced.reduce((sum,v,i)=>sum+2*t.step/(v+paced[(i+1)%paced.length]),0);t.targetLap=t.profileLap;
+ const paced=t.speedCaps.map(v=>v>=top*.995?top:Math.min(top,v*1.12));t.profileLap=paced.reduce((sum,v,i)=>sum+2*t.step/(v+paced[(i+1)%paced.length]),0);t.profileLap/=RACE_PACE;t.targetLap=t.profileLap;
 }
 function makeTrack(info,raw,pitRaw=[]){const xs=raw.map(p=>+(p.x??p[0])),ys=raw.map(p=>+(p.y??p[1])),minX=Math.min(...xs),minY=Math.min(...ys),size=Math.max(Math.max(...xs)-minX,Math.max(...ys)-minY),scale=1000/size;const convert=p=>({x:(+(p.x??p[0])-minX)*scale,y:(+(p.y??p[1])-minY)*scale});const t={...resample(raw.map(convert),true),...info,sourceScale:scale,sourceOrigin:{x:minX,y:minY}};
 // Filter tiny SVG kinks before deriving tangents and gameplay curvature.
@@ -224,8 +225,8 @@ class Race {
     const pace=this.aiPace(c);
     let cap=Math.min(straight?(boosting?380:350)/kph:this.gripCap(c.s,grip)*pace,(boosting?380:350)/kph*performance.top);cap*=kerbFactor;if(c.followCap!==null)cap=Math.min(cap,c.followCap);c.targetSpeed=cap;
     c.speed=clamp(c.speed+clamp(cap-c.speed,-32/meters*dt,(boosting?38:27)/meters*performance.traction*dt),0,380/kph);
-    c.impactV=(c.impactV||0)*Math.exp(-dt*3.5);c.impactYaw=(c.impactYaw||0)*Math.exp(-dt*2.4);c.bump=(c.bump||0)*Math.exp(-dt*9);c.laneV+=(c.targetLane-c.lane)*28*dt-c.laneV*8.8*dt;c.laneV+=c.impactV*dt*4;c.lane=clamp(c.lane+c.laneV*dt,-Math.max(t.carWidth*.55,half-t.carWidth*.55),Math.max(t.carWidth*.55,half-t.carWidth*.55));
-    c.s+=c.speed*dt;c.headingError=Math.atan2(c.laneV,Math.max(20,c.speed));c.steer=Math.atan(angle(at(t,c.s+6).a-at(t,c.s-6).a)/12*t.carLength*.54)/.24;
+    c.impactV=(c.impactV||0)*Math.exp(-dt*3.5);c.impactYaw=(c.impactYaw||0)*Math.exp(-dt*2.4);c.bump=(c.bump||0)*Math.exp(-dt*9);c.laneV+=(c.targetLane-c.lane)*28*dt-c.laneV*8.8*dt;c.laneV+=c.impactV*dt*4;c.lane=clamp(c.lane+c.laneV*dt*RACE_PACE,-Math.max(t.carWidth*.55,half-t.carWidth*.55),Math.max(t.carWidth*.55,half-t.carWidth*.55));
+    c.s+=c.speed*dt*RACE_PACE;c.headingError=Math.atan2(c.laneV,Math.max(20,c.speed));c.steer=Math.atan(angle(at(t,c.s+6).a-at(t,c.s-6).a)/12*t.carLength*.54)/.24;
    }else{
     // Stable directional control: short digital presses do not accumulate yaw.
     const club=this.options.level==='discovery';
@@ -251,7 +252,7 @@ class Race {
     c.headingError=angle(c.headingError+angle(targetHeading+c.impactYaw-c.headingError)*response);
     c.yawRate=0;c.steerAngle=c.steerInput*.42;c.steer=c.steerAngle/.24;
     c.laneV=Math.sin(c.headingError)*c.speed+c.impactV;
-    c.lane+=c.laneV*dt;c.s+=c.speed*Math.cos(c.headingError)*dt;
+    c.lane+=c.laneV*dt*RACE_PACE;c.s+=c.speed*Math.cos(c.headingError)*dt*RACE_PACE;
     const limit=half+1.2;
     if(Math.abs(c.lane)>limit){
      c.lane=Math.sign(c.lane)*limit;
@@ -286,7 +287,7 @@ class Race {
   const oldLap=Math.floor(before/t.length),newLap=Math.floor(c.s/t.length);
   if(newLap>oldLap&&newLap>(c.highestLine??-1)){
    c.highestLine=newLap;
-   const crossing=this.time-Math.max(0,c.s-newLap*t.length)/Math.max(1,c.speed);
+   const crossing=this.time-Math.max(0,c.s-newLap*t.length)/Math.max(1,c.speed*(c.phase==='track'?RACE_PACE:1));
    if(c.lapStart!==null){const time=crossing-c.lapStart;c.lapTimes.push(time);c.bestLap=Math.min(c.bestLap??Infinity,time);}
    c.lapStart=crossing;
    if(!c.id&&newLap>0&&newLap<this.options.laps){this.events.push({type:'lap'});this.notify(this.options.session==='qualifying'?'Tour : '+c.lapTimes.at(-1).toFixed(3)+' s':newLap===this.options.laps-1?'Dernier tour !':'Tour '+(newLap+1),2);}
@@ -319,7 +320,7 @@ class Race {
   const spin=c.spin,before=c.s,t=this.track;spin.elapsed+=dt;
   spin.angle+=spin.omega*dt;spin.omega*=Math.exp(-dt*2.1);
   spin.vx*=Math.exp(-dt*(this.input.brake&&!c.id?4:2.6));spin.vy*=Math.exp(-dt*3);
-  c.s+=spin.vx*dt;c.lane=clamp(c.lane+spin.vy*dt,-t.width*.76,t.width*.76);
+  c.s+=spin.vx*dt*RACE_PACE;c.lane=clamp(c.lane+spin.vy*dt*RACE_PACE,-t.width*.76,t.width*.76);
   c.speed=spin.vx;Object.assign(c,pose(t,c.s,c.lane));c.a+=c.headingError;
   c.throttle=0;c.braking=true;c.boosting=false;c.slip=.8;c.steer=-spin.direction*.3;this.driveTrain(c);this.crossLine(c,before,dt);
   if(spin.elapsed>=spin.duration){c.impactYaw=clamp(spin.angle,-1.3,1.3);c.headingError=angle(c.headingError+spin.angle);c.spin=null;c.cooldown=1.2;if(!c.id)this.notify('Reprenez les gaz et corrigez la direction · FREIN maintenu pour reculer',2);}
@@ -384,7 +385,7 @@ class Race {
    c.s=exit;c.phase='track';c.pit=null;c.lane=0;c.targetLane=0;c.laneV=0;c.headingError=c.yawRate=c.steerInput=0;c.cooldown=1;Object.assign(c,pose(t,c.s,0));
   }
  }
- finishCar(c,dt){if(c.finished)return;c.finished=true;c.finishTime=this.time-Math.min(dt,Math.max(0,c.s-this.track.length*this.options.laps)/Math.max(1,c.speed));c.speed=0;c.boosting=false;}
+ finishCar(c,dt){if(c.finished)return;c.finished=true;c.finishTime=this.time-Math.min(dt,Math.max(0,c.s-this.track.length*this.options.laps)/Math.max(1,c.speed*(c.phase==='track'?RACE_PACE:1)));c.speed=0;c.boosting=false;}
  collisions(){
   const t=this.track;
   for(let i=0;i<this.cars.length;i++)for(let j=i+1;j<this.cars.length;j++){
@@ -415,5 +416,5 @@ class Championship{
  standings(){const rows=this.drivers.map(d=>({...d,points:0,places:Array(this.drivers.length).fill(0)}));for(const round of this.rounds)for(const r of round.result){const d=rows.find(d=>d.driverId===r.driverId);if(d){d.points+=r.points;d.places[r.position-1]++;}}return rows.sort((a,b)=>{if(a.points!==b.points)return b.points-a.points;for(let i=0;i<a.places.length;i++)if(a.places[i]!==b.places[i])return b.places[i]-a.places[i];return a.name.localeCompare(b.name);});}
  static restore(value){if(!value||!Array.isArray(value.circuits)||!Array.isArray(value.drivers)||!Array.isArray(value.rounds))throw Error('Sauvegarde invalide');const c=new Championship(value.circuits,value.drivers,value.settings);if(value.rounds.length>c.circuits.length)throw Error('Sauvegarde invalide');for(const [i,round] of value.rounds.entries()){if(round.circuit!==c.circuits[i]||!Array.isArray(round.result)||round.result.length!==c.drivers.length||new Set(round.result.map(r=>r.driverId)).size!==c.drivers.length||round.result.some((r,j)=>r.position!==j+1||r.points!==(POINTS[j]||0)||!c.drivers.some(d=>d.driverId===r.driverId)||!Number.isFinite(r.time)))throw Error('Résultats sauvegardés invalides');}c.rounds=value.rounds;return c;}
 }
-const API={Championship,POINTS,Weather,kerbContact,tyrePerformance,recommendedTyre,tyreAdvice,parseLap,roadHalfWidth,Race,makeTrack,freshSeed,wheelState,at,pose,near,random,seedOf,TYRES,clamp,mod,angle};if(typeof module==='object'&&module.exports)module.exports=API;else scope.F1ArcadeCore=API;
+const API={RACE_PACE,Championship,POINTS,Weather,kerbContact,tyrePerformance,recommendedTyre,tyreAdvice,parseLap,roadHalfWidth,Race,makeTrack,freshSeed,wheelState,at,pose,near,random,seedOf,TYRES,clamp,mod,angle};if(typeof module==='object'&&module.exports)module.exports=API;else scope.F1ArcadeCore=API;
 })(typeof window==='object'?window:globalThis);
