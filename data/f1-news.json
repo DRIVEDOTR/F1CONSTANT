@@ -1,37 +1,73 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-18T04:49:03.617944+00:00",
+  "collectedAt": "2026-10-18T11:26:29.580184+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-18T04:49:03.617944+00:00"
+      "checkedAt": "2026-10-18T11:26:29.580184+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-18T04:49:03.617944+00:00"
+      "checkedAt": "2026-10-18T11:26:29.580184+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "752115f4722cd0270ac4",
+      "title": "Verstappen à son tour obligé de demander la fin des abus en ligne",
+      "url": "https://fr.motorsport.com/GTWCE/news/verstappen-oblige-demander-fin-abus-ligne/10866023/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-18T09:42:50+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
+      "summaryAttemptAt": "2026-10-18T11:26:30.104230+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "1984fa4e293aa7226d13",
+      "title": "Mercedes a rejeté l'aileron Macarena dès 2025 et explique pourquoi",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-rejet-aileron-macarena-pourquoi/10865931/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-18T08:31:02+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
+      "summaryAttemptAt": "2026-10-18T11:27:00.920337+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes abandonne le projet d'aileron arrière Macarena",
+      "summaryFr": "Mercedes a rejeté le développement de l'aileron arrière Macarena dès 2025. Simone Resta, directeur technique adjoint, a expliqué le rejet du projet d'aileron rotatif, dont le flap principal se retourne en mode ligne droite.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-18T11:27:42.542099+00:00"
+    },
     {
       "id": "defaaf64ff302658399d",
       "title": "Verstappen gagne 15 places dans le sprint final à Portimão",
       "url": "https://fr.motorsport.com/GTWCE/news/verstappen-gagne-15-places-sprint-final-portimao/10865963/",
       "source": "Motorsport.com France",
       "language": "fr",
-      "publishedAt": "2026-10-17T23:10:03+00:00",
+      "publishedAt": "2026-10-18T06:45:03+00:00",
       "topics": [
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-10-18T04:49:04.184661+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-18T11:29:09.813725+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -187,8 +223,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-17T11:02:55.562407+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-18T11:27:42.542124+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -222,8 +258,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-17T11:03:43.055227+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-18T11:28:26.582137+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -6784,10 +6820,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 11,
-    "pending": 28,
-    "checkedAt": "2026-10-18T04:50:02.620506+00:00"
+    "created": 1,
+    "failed": 4,
+    "pending": 29,
+    "checkedAt": "2026-10-18T11:29:40.828959+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
