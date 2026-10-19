@@ -1,24 +1,118 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-19T04:57:31.808867+00:00",
+  "collectedAt": "2026-10-19T13:42:51.200383+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-19T04:57:31.808867+00:00"
+      "checkedAt": "2026-10-19T13:42:51.200383+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-19T04:57:31.808867+00:00"
+      "checkedAt": "2026-10-19T13:42:51.200383+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "58155d91b1892374c56c",
+      "title": "McLaren ajoute Leonardo Fornaroli à son line-up WEC 2027",
+      "url": "https://fr.motorsport.com/wec/news/mclaren-ajoute-leonardo-fornaroli-line-up-wec-2027/10866258/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-19T11:20:39+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-19T13:42:51.769884+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "7c40b970881ade68d21e",
+      "title": "Pourquoi Alonso pense que les moteurs V8 et V10 \"ne sont plus adaptés au monde actuel\"",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-alonso-moteurs-v8-v10-pas-adaptes-monde-actuel/10866185/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-19T09:18:16+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-19T13:43:22.747528+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso souligne l'inadaptation des moteurs V8 et V10 au monde actuel",
+      "summaryFr": "Fernando Alonso estime que les moteurs V8 et V10 ne sont plus adaptés au monde actuel de la Formule 1. Il souligne son expérience sur les différentes époques des moteurs, allant des V10 aux V8, jusqu'aux actuels V6 hybrides.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-19T13:44:06.771698+00:00"
+    },
+    {
+      "id": "36ec1774290fa74d985e",
+      "title": "Le programme du Grand Prix des États-Unis F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-usa-2026-dates-horaires-infos-programme/10866099/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-19T06:44:07+00:00",
+      "topics": [
+        "competition",
+        "ecuries",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-19T13:44:06.771723+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Programme du Grand Prix des États-Unis F1 2026 : dates, horaires et infos",
+      "summaryFr": "Le Grand Prix des États-Unis sera la 18e manche de la saison 2026. Le décalage horaire avec Austin est de sept heures vendredi et samedi, réduit à six heures dimanche grâce au passage à l'heure d'hiver en France. Kimi Antonelli est mentionné dans le texte.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-19T13:44:52.229000+00:00"
+    },
+    {
+      "id": "a392429d9cd1a5da3221",
+      "title": "How to follow US Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-19T06:42:58+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-19T13:44:52.229022+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "cdc531c72e2a2be7409a",
+      "title": "Best images of F1 in the US through the years",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqm24nezmy23o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-19T06:17:28+00:00",
+      "topics": [
+        "ecuries",
+        "competition",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-19T13:45:18.440402+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Meilleures images de F1 aux États-Unis au fil des années",
+      "summaryFr": "Un recueil d'images issues de courses de Formule 1 aux États-Unis, depuis Indianapolis, Watkins Glen et Long Beach jusqu'aux rues de Dallas et au parking du Caesars Palace.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-19T13:45:54.258653+00:00"
+    },
     {
       "id": "360ee3fa4a826c3559c8",
       "title": "Quand Mercedes va-t-elle conquérir le titre constructeurs 2026 ?",
@@ -70,8 +164,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-18T20:55:22.361761+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-19T13:46:47.906076+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -1129,8 +1223,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-17T11:01:42.497632+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-19T13:46:21.075214+00:00",
+      "summaryAttempts": 8,
       "summaryError": "invalid_length"
     },
     {
@@ -1366,9 +1460,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-17T11:02:09.499953+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-19T13:46:47.823407+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "9a3c6a3265cee9f66407",
@@ -2609,8 +2703,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-17T11:01:42.311940+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-19T13:46:20.919863+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -2624,8 +2718,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-17T11:01:42.412723+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-19T13:46:21.003585+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4044,8 +4138,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-17T11:01:16.894467+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-19T13:45:54.258677+00:00",
+      "summaryAttempts": 13,
       "summaryError": "invalid_length"
     },
     {
@@ -6860,10 +6954,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 3,
-    "pending": 29,
-    "checkedAt": "2026-10-19T04:58:28.480359+00:00"
+    "created": 3,
+    "failed": 8,
+    "pending": 31,
+    "checkedAt": "2026-10-19T13:47:18.790307+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
