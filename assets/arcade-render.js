@@ -96,6 +96,8 @@ class Renderer{
   c.save();c.clip(this.asphalt);c.strokeStyle='#a2a8a528';c.lineWidth=.45;c.stroke(this.roadGrain);c.strokeStyle='#10192348';c.lineWidth=1.4;c.stroke(this.rubber);c.restore();
   c.lineCap='round';c.strokeStyle=T.night?'#626e78':'#424b50';c.lineWidth=t.width*.42;c.stroke(this.pitRoad);c.strokeStyle='#f4db7890';c.lineWidth=.8;c.setLineDash([3,4]);c.stroke(this.pitGuide);c.setLineDash([]);
   c.strokeStyle='#d9dfd1';c.lineWidth=t.carWidth*5.1;c.stroke(this.pitApron);c.strokeStyle='#56616a';c.lineWidth=t.carWidth*4.7;c.stroke(this.pitApron);
+  // The apron edge must never close across Silverstone's live through lane.
+  if(t.id==='silverstone'){c.strokeStyle=T.night?'#626e78':'#424b50';c.lineWidth=t.width*.42;c.stroke(this.pitRoad);c.strokeStyle='#f4db7890';c.lineWidth=.8;c.setLineDash([3,4]);c.stroke(this.pitGuide);c.setLineDash([]);}
   c.strokeStyle='#f5df9a';c.lineWidth=.45;c.setLineDash([2.5,2]);c.stroke(this.pitApron);c.setLineDash([]);this.drawGarage(c,t);
   for(let d=t.pit.length*.16;d<t.pit.length*.87;d+=t.carLength*4){const q=C.at(t.pit,d);c.save();c.translate(q.x,q.y);c.rotate(q.a);line(c,-1.8,0,1.8,0,.35,'#dce8e1');line(c,.5,-1.1,1.8,0,.35,'#dce8e1');line(c,.5,1.1,1.8,0,.35,'#dce8e1');c.restore();}
   for(let n=0;n<22;n++){const q=C.pose(t,-(1+n*.75)*t.carLength,(n%2?1:-1)*t.width*.22);c.save();c.translate(q.x,q.y);c.rotate(q.a);c.strokeStyle='#d5e1df8a';c.lineWidth=.5;line(c,t.carLength*.5,-t.carWidth*.65,t.carLength*.5,t.carWidth*.65,c.lineWidth,'#d5e1df8a');c.fillStyle='#d5e1df';c.font='600 '+(t.carWidth*.5)+'px system-ui';c.textAlign='center';c.fillText(n===0?'P1':String(n+1),t.carLength*.68,0);c.restore();}

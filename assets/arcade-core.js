@@ -1,4 +1,4 @@
-/* F1 Constant V56. Moteur arcade original, indépendant du DOM et du rendu. */
+/* F1 Constant V57. Moteur arcade original, indépendant du DOM et du rendu. */
 (function(scope){'use strict';
 const RACE_PACE=1.232;
 const TAU=Math.PI*2,clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),mod=(v,n)=>(v%n+n)%n,angle=a=>Math.atan2(Math.sin(a),Math.cos(a)),dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
@@ -49,6 +49,23 @@ function calibrateTrack(t){
 function legacyPit(t,entry,exit,side){let span=mod(exit-entry,t.length);const candidate=side=>{const route=[];let score=0;for(let i=0;i<=100;i++){const u=i/100,offset=side*t.width*1.12*(u<.25?(u/.25)**3*(10-15*(u/.25)+6*(u/.25)**2):u>.75?((1-u)/.25)**3*(10-15*((1-u)/.25)+6*((1-u)/.25)**2):1),p=pose(t,entry+span*u,offset);route.push(p);if(u>.25&&u<.75){let nearest=Infinity;for(let j=0;j<t.points.length;j+=4)nearest=Math.min(nearest,dist(p,t.points[j]));score+=Math.max(0,t.width*.71+2-nearest)**2;const bend=angle(at(t,entry+span*u+3).a-at(t,entry+span*u-3).a)/6;if(bend*offset>.70)score+=100*(bend*offset-.70);}const localBend=angle(at(t,entry+span*u+3).a-at(t,entry+span*u-3).a)/6;if(localBend*offset>.65)score+=300*(localBend*offset-.65);}return{route,score};};const bendAt=s=>Math.abs(angle(at(t,s+3).a-at(t,s-3).a)/6);if(bendAt(entry)>.012||bendAt(exit)>.012){const initial=entry;let best=Infinity,bestStart=entry;span=clamp(span,t.carLength*12,t.length*.15);for(let k=0;k<150;k++){const start=k*t.length/150;let bend=0;for(let j=0;j<=20;j++)bend=Math.max(bend,bendAt(start+span*j/20));const distance=Math.min(mod(start-initial,t.length),mod(initial-start,t.length))/t.length,score=bend*2000+distance*2;if(score<best){best=score;bestStart=start;}}entry=bestStart;exit=mod(entry+span,t.length);}
 const original=candidate(side),opposite=candidate(-side);const flip=opposite.score+1<original.score;if(flip)side=-side;const route=flip?opposite.route:original.route;
 return{...resample(route,false,2),entry,exit,span,side};
+}
+// Silverstone: the F1 pit lane cuts inside Vale / Club, to the driver's right
+// of Hamilton Straight, and rejoins beyond Abbey. Never let the generic
+// clearance optimizer flip it to the outside of the circuit.
+function silverstonePit(t){
+ const origin=at(t,0),co=Math.cos(origin.a),si=Math.sin(origin.a),local=(x,y)=>({x:origin.x+co*x-si*y,y:origin.y+si*x+co*y});
+ const entry=t.pit.sourceEntry,exit=330,span=mod(exit-entry,t.length),first=local(-50,55),last=local(-50+t.carLength*40.5,55),inlet=at(t,entry),outlet=at(t,exit),route=[];
+ const curve=(a,aa,b,ba,handleA,handleB)=>{
+  const c={x:a.x+Math.cos(aa)*handleA,y:a.y+Math.sin(aa)*handleA},d={x:b.x-Math.cos(ba)*handleB,y:b.y-Math.sin(ba)*handleB},steps=Math.ceil((dist(a,c)+dist(c,d)+dist(d,b))*2);
+  for(let i=0;i<=steps;i++){const u=i/steps,v=1-u;route.push({x:v*v*v*a.x+3*v*v*u*c.x+3*v*u*u*d.x+u*u*u*b.x,y:v*v*v*a.y+3*v*v*u*c.y+3*v*u*u*d.y+u*u*u*b.y});}
+ };
+ curve(inlet,inlet.a,first,origin.a,38,30);
+ const serviceFrom=route.reduce((sum,p,i)=>sum+(i?dist(route[i-1],p):0),0);
+ for(let i=1;i<=200;i++)route.push({x:first.x+(last.x-first.x)*i/200,y:first.y+(last.y-first.y)*i/200});
+ const serviceTo=serviceFrom+t.carLength*40.5;
+ curve(last,origin.a,outlet,outlet.a,24,26);
+ return{...resample(route,false,1),entry,exit,span,side:1,serviceFrom,serviceTo,timingAt:serviceFrom+50,sourceEntry:t.pit.sourceEntry,sourceExit:t.pit.sourceExit,sourceSide:t.pit.sourceSide,layoutVersion:3};
 }
 function makeTrack(info,raw,pitRaw=[]){const xs=raw.map(p=>+(p.x??p[0])),ys=raw.map(p=>+(p.y??p[1])),minX=Math.min(...xs),minY=Math.min(...ys),size=Math.max(Math.max(...xs)-minX,Math.max(...ys)-minY),scale=1000/size;const convert=p=>({x:(+(p.x??p[0])-minX)*scale,y:(+(p.y??p[1])-minY)*scale});const t={...resample(raw.map(convert),true),...info,sourceScale:scale,sourceOrigin:{x:minX,y:minY}};
 // Filter tiny SVG kinks before deriving tangents and gameplay curvature.
@@ -110,7 +127,7 @@ const serviceFrom=route.reduce((sum,p,i)=>sum+(i?dist(route[i-1],p):0),0);
 for(let i=1;i<=100;i++)route.push({x:first.x+(last.x-first.x)*i/100,y:first.y+(last.y-first.y)*i/100});
 const serviceTo=serviceFrom+half*2;
 curve(last,start.a,outlet,outlet.a);
-t.pit={...resample(route,false,1),entry,exit,span,side,serviceFrom,serviceTo,timingAt:serviceFrom+half-shift,sourceEntry,sourceExit,sourceSide,layoutVersion:2};t.bridge=findBridge(t);
+t.pit={...resample(route,false,1),entry,exit,span,side,serviceFrom,serviceTo,timingAt:serviceFrom+half-shift,sourceEntry,sourceExit,sourceSide,layoutVersion:2};if(t.id==='silverstone'){t.pitV2=t.pit;t.pit=silverstonePit(t);}t.bridge=findBridge(t);
 t.halfWidths=Array(t.points.length).fill(t.width/2);
 const all=[...t.points,...t.pit.points];t.bounds={minX:Math.min(...all.map(p=>p.x))-65,minY:Math.min(...all.map(p=>p.y))-65,maxX:Math.max(...all.map(p=>p.x))+65,maxY:Math.max(...all.map(p=>p.y))+65};return t;}
 const TYRES={soft:{name:'Tendres',letter:'T',color:'#ed5464',grip:1.04,top:1,wear:.34},medium:{name:'Médiums',letter:'M',color:'#f6d45b',grip:1,top:.98,wear:.26},hard:{name:'Durs',letter:'D',color:'#e6edf0',grip:.97,top:.955,wear:.20},intermediate:{name:'Intermédiaires',letter:'I',color:'#58d194',grip:.88,top:.95,wear:.27},wet:{name:'Pluie',letter:'P',color:'#58a9f5',grip:.74,top:.90,wear:.24}};
@@ -242,13 +259,13 @@ class Race {
   const state={};for(const key of ['options','time','countdown','nextTyre','contacts','passes','rankBefore','state','beforePause','message','messageUntil','warned','pitReminder','position','championshipRound','pitHistory','finishSequence'])if(this[key]!==undefined)state[key]=this[key];
   state.cars=this.cars.map(car=>{const out={};for(const key of Object.keys(car))if(key!=='pitBox')out[key]=car[key];return out;});
   const weather={};for(const key of Object.keys(this.weather))if(key!=='random')weather[key]=this.weather[key];
-  return JSON.parse(JSON.stringify({schema:1,pitLayout:2,trackId:this.track.id,state,weather,rng:[this.random.getState(),this.pitRandom.getState(),this.contactRandom.getState(),this.weather.random.getState()]}));
+  return JSON.parse(JSON.stringify({schema:1,pitLayout:this.track.pit.layoutVersion,trackId:this.track.id,state,weather,rng:[this.random.getState(),this.pitRandom.getState(),this.contactRandom.getState(),this.weather.random.getState()]}));
  }
  static restore(track,value,drivers){
   const fail=()=>{throw Error('Session sauvegardée invalide');},finite=n=>typeof n==='number'&&Number.isFinite(n),safe=key=>!['__proto__','prototype','constructor'].includes(key);
   if(!value||value.schema!==1||value.trackId!==track.id||!value.state||!value.weather||!Array.isArray(value.rng)||value.rng.length!==4||value.rng.some(n=>!Number.isInteger(n)||n<0||n>4294967295))fail();
-  if(value.pitLayout!==undefined&&value.pitLayout!==2)fail();
-  const migrate=value.pitLayout===undefined,incomingPit=migrate?legacyPit(track,track.pit.sourceEntry,track.pit.sourceExit,track.pit.sourceSide):track.pit;
+  if(value.pitLayout!==undefined&&value.pitLayout!==2&&!(value.pitLayout===3&&track.pit.layoutVersion===3))fail();
+  const migrate=value.pitLayout===undefined||value.pitLayout===2&&!!track.pitV2,incomingPit=value.pitLayout===undefined?legacyPit(track,track.pit.sourceEntry,track.pit.sourceExit,track.pit.sourceSide):value.pitLayout===2?(track.pitV2||track.pit):track.pit;
   const s=value.state,o=s.options,w=value.weather;
   if(!o||!['qualifying','race'].includes(o.session)||!['discovery','challenge'].includes(o.level)||![2,3,5].includes(o.laps)||!TYRES[o.tyre]||!TYRES[s.nextTyre]||!['racing','countdown','paused','finished'].includes(s.state)||!finite(s.time)||s.time<0||s.time>86400||!finite(s.countdown))fail();
   const field=drivers||o.drivers;
@@ -269,7 +286,7 @@ class Race {
    for(const key of ['finished','onTrack','pitRequested'])if(typeof data[key]!=='boolean')fail();
    if(data.finished&&!finite(data.finishTime)||data.bestLap!==null&&!finite(data.bestLap)||Math.abs(data.speed)*track.kphPerUnit>500||Math.abs(data.s)>track.length*(o.laps+2))fail();
    if(data.wear<0||data.wear>1||data.boost<0||data.boost>100||Math.abs(data.lane)>track.width||!Number.isInteger(data.pitStops)||data.pitStops<0||data.pitStops>100||data.bestLap!==null&&(!finite(data.bestLap)||data.bestLap<=0))fail();
-   if(data.pit){const p=data.pit;if(!finite(p.base)||!finite(p.distance)||p.distance<0||p.distance>incomingPit.length+.01||!finite(p.service)||p.service<0||p.service>86400||typeof p.done!=='boolean'||!finite(p.entryLane)||Math.abs(p.entryLane)>track.width||!finite(p.stopAt)||!finite(p.lateral)||Math.abs(p.stopAt-(migrate?incomingPit.length*(.22+.56*r.pitBoxes.indexOf(r.cars[i].pitBox)/Math.max(1,r.pitBoxes.length-1)):r.cars[i].pitBox.stopAt))>.01||p.boxKey!==r.cars[i].pitBox.key)fail();if(data.phase==='service'&&(!finite(p.duration)||!TYRES[p.newTyre]||!Array.isArray(p.wheels)||p.wheels.length!==4))fail();if(p.wheels&&p.wheels.some(w=>!w||!finite(w.duration)||!Array.isArray(w.timeline)||w.timeline.length!==5||w.timeline.some((t,j)=>t.id!==['loosen','remove','fit','tighten','check'][j]||!finite(t.start)||!finite(t.end)||!finite(t.normalDuration)||t.start<0||t.end<=t.start||t.end>10.01||t.normalDuration<=0)||w.problem&&(!['loosen','tighten'].includes(w.problem.phase)||!finite(w.problem.start)||!finite(w.problem.delay)||w.problem.delay<0||w.problem.delay>10)))fail();}
+   if(data.pit){const p=data.pit;if(!finite(p.base)||!finite(p.distance)||p.distance<0||p.distance>incomingPit.length+.01||!finite(p.service)||p.service<0||p.service>86400||typeof p.done!=='boolean'||!finite(p.entryLane)||Math.abs(p.entryLane)>track.width||!finite(p.stopAt)||!finite(p.lateral)||Math.abs(p.stopAt-(value.pitLayout===undefined?incomingPit.length*(.22+.56*r.pitBoxes.indexOf(r.cars[i].pitBox)/Math.max(1,r.pitBoxes.length-1)):incomingPit.serviceFrom+track.carLength*6+(incomingPit.serviceTo-incomingPit.serviceFrom-track.carLength*10)*r.pitBoxes.indexOf(r.cars[i].pitBox)/Math.max(1,r.pitBoxes.length-1)))>.01||p.boxKey!==r.cars[i].pitBox.key)fail();if(data.phase==='service'&&(!finite(p.duration)||!TYRES[p.newTyre]||!Array.isArray(p.wheels)||p.wheels.length!==4))fail();if(p.wheels&&p.wheels.some(w=>!w||!finite(w.duration)||!Array.isArray(w.timeline)||w.timeline.length!==5||w.timeline.some((t,j)=>t.id!==['loosen','remove','fit','tighten','check'][j]||!finite(t.start)||!finite(t.end)||!finite(t.normalDuration)||t.start<0||t.end<=t.start||t.end>10.01||t.normalDuration<=0)||w.problem&&(!['loosen','tighten'].includes(w.problem.phase)||!finite(w.problem.start)||!finite(w.problem.delay)||w.problem.delay<0||w.problem.delay>10)))fail();}
    if(['pit','service'].includes(data.phase)&&!data.pit)fail();
    if(data.spin&&['elapsed','duration','angle','omega','vx','vy','direction'].some(k=>!finite(data.spin[k])))fail();
    const car=r.cars[i];for(const key of Object.keys(data))if(safe(key)&&!['pitBox','id','name','color','colorB','teamId','teamName','driverId','driverNumber','helmet'].includes(key))car[key]=data[key];
@@ -283,6 +300,25 @@ class Race {
     const progress=r.pitProgress(p.distance);p.base-=(Math.floor((p.base+progress)/track.length)-completed)*track.length;car.s=p.base+progress;
     Object.assign(car,r.pitPosition(p,p.distance,p.lateral));
    }else if(car.pitRequested){car.pitEntry=Math.floor(car.s/track.length)*track.length+track.pit.entry;if(car.pitEntry<=car.s+2)car.pitEntry+=track.length;}
+  }
+
+  if(value.pitLayout===2&&track.pitV2){
+   // A shorter corrected access road must not compress a saved convoy into
+   // overlapping cars. Keep occupied boxes fixed, then reserve free positions
+   // for cars in transit, staying on the appropriate side of their own box.
+   const reserved=r.cars.filter(c=>c.pit&&c.phase==='service');
+   const moving=r.cars.filter(c=>c.pit&&c.phase!=='service').sort((a,b)=>a.pit.stopAt-b.pit.stopAt||b.pit.distance-a.pit.distance);
+   for(const car of moving){
+    const p=car.pit,low=p.done?p.stopAt:0,high=p.done?track.pit.length:p.stopAt,desired=clamp(p.distance,low,high);
+    const candidate=d=>{const lateral=r.pitLateral(p,d),q=r.pitPosition(p,d,lateral),next=r.pitPosition(p,Math.min(track.pit.length,d+.05),r.pitLateral(p,d+.05));return{...q,a:d<track.pit.length-.05?Math.atan2(next.y-q.y,next.x-q.x):q.a,lateral,distance:d};};
+    let free=null;
+    for(let delta=0;delta<=track.pit.length&&!free;delta+=.5)for(const d of delta?[desired-delta,desired+delta]:[desired]){
+     if(d<low||d>high)continue;const q=candidate(d);
+     if(reserved.every(o=>!r.contactEnvelope(q,o)&&(o.phase==='service'||Math.abs(d-o.pit.distance)>track.carLength*1.5))){free=q;break;}
+    }
+    if(!free)fail();
+    p.distance=free.distance;p.lateral=free.lateral;car.speed=0;car.s=p.base+r.pitProgress(p.distance);Object.assign(car,{x:free.x,y:free.y,a:free.a});reserved.push(car);
+   }
   }
 
   if(s.finishSequence!==undefined&&s.finishSequence!==null){const f=s.finishSequence;if(!Array.isArray(f.following)||f.following.length>3||new Set(f.following).size!==f.following.length||f.following.some(id=>!Number.isInteger(id)||id<1||id>=field.length)||!finite(f.startedAt)||f.startedAt<0)fail();}
