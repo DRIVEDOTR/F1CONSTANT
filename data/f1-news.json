@@ -1,24 +1,83 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-20T05:03:06.322883+00:00",
+  "collectedAt": "2026-10-20T11:53:22.128116+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-20T05:03:06.322883+00:00"
+      "checkedAt": "2026-10-20T11:53:22.128116+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-20T05:03:06.322883+00:00"
+      "checkedAt": "2026-10-20T11:53:22.128116+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "43466d9f4a4b2057a009",
+      "title": "Pérez juge que sa première saison avec Cadillac est \"l'une des mes meilleures\"",
+      "url": "https://fr.motorsport.com/f1/news/perez-premiere-saison-cadillac-meilleures-annees/10866410/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-20T11:13:05+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
+      "summaryAttemptAt": "2026-10-20T11:53:23.378916+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Pérez juge sa première saison avec Cadillac \"l'une des plus bonnes\"",
+      "summaryFr": "Sergio Pérez estime que sa première saison avec Cadillac est l'une des plus positives, malgré l'absence de points. Le Mexicain a été proche de la dixième position au Grand Prix de Monaco, avant de subir une pénalité. Les chiffres de la saison restent toutefois globalement négatifs.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-20T11:53:51.100770+00:00"
+    },
+    {
+      "id": "0d65be5a1f88db07933e",
+      "title": "Will Lindblad and Lawson be retained by Racing Bulls? F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx30ez4ge3z7o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-20T06:59:17+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
+      "summaryAttemptAt": "2026-10-20T11:53:51.100796+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "adcabc4048c19b0ac4d3",
+      "title": "McLaren va utiliser ses derniers développements 2026 pour tester des concepts 2027",
+      "url": "https://fr.motorsport.com/f1/news/mclaren-derniers-developpements-2026-tester-concepts-2027/10866188/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-20T06:55:43+00:00",
+      "topics": [
+        "ecuries",
+        "voitures",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
+      "summaryAttemptAt": "2026-10-20T11:54:07.240486+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren utilise ses développements 2026 pour tester des concepts 2027",
+      "summaryFr": "McLaren déploie ses dernières évolutions 2026 pour tester des concepts fondamentaux destinés à la monoplace 2027. Le directeur Andrea Stella a précisé que ces améliorations seraient appliquées après le Grand Prix de Singapour.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-20T11:54:33.796907+00:00"
+    },
     {
       "id": "7522331188c2f706e1dc",
       "title": "Mercedes explique pourquoi ses évolutions ont compliqué le pilotage de sa F1",
@@ -51,8 +110,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-19T22:34:07.600724+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-20T11:55:28.457403+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -107,8 +166,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-19T22:34:39.892207+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-20T11:55:47.130406+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -375,8 +434,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-18T11:27:42.542124+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-20T11:54:33.796930+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -410,8 +469,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-18T11:28:26.582137+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-20T11:55:01.549762+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -6972,10 +7031,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 11,
-    "pending": 31,
-    "checkedAt": "2026-10-20T05:04:05.991129+00:00"
+    "created": 2,
+    "failed": 5,
+    "pending": 32,
+    "checkedAt": "2026-10-20T11:56:03.194921+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
