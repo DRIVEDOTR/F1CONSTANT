@@ -1,27 +1,49 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-20T11:53:22.128116+00:00",
+  "collectedAt": "2026-10-20T17:22:53.469699+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-20T11:53:22.128116+00:00"
+      "checkedAt": "2026-10-20T17:22:53.469699+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-20T11:53:22.128116+00:00"
+      "checkedAt": "2026-10-20T17:22:53.469699+00:00"
     }
   ],
   "articles": [
     {
+      "id": "ee15007cb62e7c149f1c",
+      "title": "Non, les fans de Colapinto et de Verstappen ne sont pas le seul problème",
+      "url": "https://fr.motorsport.com/f1/news/non-fans-colapinto-verstappen-seul-probleme/10866246/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-20T15:31:25+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-20T17:22:53.469699+00:00",
+      "summaryAttemptAt": "2026-10-20T17:22:54.691171+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le harcèlement en ligne, un problème ancien",
+      "summaryFr": "La question du harcèlement en ligne n'est pas nouvelle, elle remonte à la démocratisation de l'internet. Elle a des résonances tragiques dans le monde entier et des exemples nombreux montrent que des victimes sont souvent oubliées.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-20T17:23:31.279170+00:00"
+    },
+    {
       "id": "43466d9f4a4b2057a009",
-      "title": "Pérez juge que sa première saison avec Cadillac est \"l'une des mes meilleures\"",
+      "title": "Pérez juge que sa première saison avec Cadillac est \"l'une de ses meilleures\"",
       "url": "https://fr.motorsport.com/f1/news/perez-premiere-saison-cadillac-meilleures-annees/10866410/",
       "source": "Motorsport.com France",
       "language": "fr",
@@ -31,14 +53,14 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-20T11:53:23.378916+00:00",
+      "summaryAttemptAt": "2026-10-20T17:23:31.279223+00:00",
       "summaryAttempts": 1,
-      "titleFr": "Pérez juge sa première saison avec Cadillac \"l'une des plus bonnes\"",
-      "summaryFr": "Sergio Pérez estime que sa première saison avec Cadillac est l'une des plus positives, malgré l'absence de points. Le Mexicain a été proche de la dixième position au Grand Prix de Monaco, avant de subir une pénalité. Les chiffres de la saison restent toutefois globalement négatifs.",
+      "titleFr": "Pérez juge sa première saison avec Cadillac \"l'une de ses meilleures\"",
+      "summaryFr": "Sergio Pérez estime que sa première saison avec Cadillac est parmi ses meilleures, malgré un bilan de points nuls. Le Mexicain a été proche de la dixième position au Grand Prix de Monaco, mais a subi une pénalité. La performance globale reste contestable selon les chiffres.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-10-20T11:53:51.100770+00:00"
+      "summaryAt": "2026-10-20T17:24:09.036979+00:00"
     },
     {
       "id": "0d65be5a1f88db07933e",
@@ -64,9 +86,7 @@
       "language": "fr",
       "publishedAt": "2026-10-20T06:55:43+00:00",
       "topics": [
-        "ecuries",
-        "voitures",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
       "summaryAttemptAt": "2026-10-20T11:54:07.240486+00:00",
@@ -241,8 +261,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-19T13:46:47.906076+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-20T17:24:46.550645+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -1162,8 +1182,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-18T16:02:49.195303+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-20T17:24:09.037003+00:00",
+      "summaryAttempts": 7,
       "summaryError": "copied_passage"
     },
     {
@@ -7032,9 +7052,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 2,
-    "failed": 5,
+    "failed": 2,
     "pending": 32,
-    "checkedAt": "2026-10-20T11:56:03.194921+00:00"
+    "checkedAt": "2026-10-20T17:25:13.407890+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
