@@ -1,24 +1,60 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-21T12:05:08.112386+00:00",
+  "collectedAt": "2026-10-21T17:25:22.009933+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 50,
-      "checkedAt": "2026-10-21T12:05:08.112386+00:00"
+      "count": 49,
+      "checkedAt": "2026-10-21T17:25:22.009933+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-21T12:05:08.112386+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-21T17:25:22.009933+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7b630192bbe7010ac7f8",
+      "title": "Hockenheim veut retrouver la F1, mais se heurte à un obstacle majeur",
+      "url": "https://fr.motorsport.com/f1/news/hockenheim-retour-f1-obstacle-financier/10866735/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-21T15:00:02+00:00",
+      "topics": [
+        "competition",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
+      "summaryAttemptAt": "2026-10-21T17:25:22.428614+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hockenheim en discussion pour un retour en F1, mais projet resté théorique",
+      "summaryFr": "Hockenheim est en discussion avec la Formule 1 pour un retour sur le circuit allemand, mais le projet reste largement théorique. Les directeurs Joern Teske et Jochen Nerpel ont abordé le sujet dans un entretien avec Formel1.de.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-21T17:26:05.887225+00:00"
+    },
+    {
+      "id": "413629bb67b6df57d451",
+      "title": "Ces chiffres qui montrent la suprématie déclinante de Mercedes en 2026",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-suprematie-declin-f1-2026/10866689/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-21T12:03:16+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
+      "summaryAttemptAt": "2026-10-21T17:26:05.887253+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "80781bd51d291dc3d625",
       "title": "F1 races to return to standard distance in 2028",
@@ -47,8 +83,7 @@
       "language": "fr",
       "publishedAt": "2026-10-21T10:33:43+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
       "summaryAttemptAt": "2026-10-21T12:05:38.764461+00:00",
@@ -68,7 +103,7 @@
       "language": "fr",
       "publishedAt": "2026-10-21T08:46:16+00:00",
       "topics": [
-        "ecuries"
+        "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
       "summaryAttemptAt": "2026-10-21T12:06:15.011778+00:00",
@@ -1415,8 +1450,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-19T13:46:21.075214+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-21T17:27:14.645648+00:00",
+      "summaryAttempts": 9,
       "summaryError": "invalid_length"
     },
     {
@@ -1652,8 +1687,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-19T13:46:47.823407+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-21T17:27:41.270746+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -2895,8 +2930,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-19T13:46:20.919863+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-21T17:27:14.516418+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -2910,8 +2945,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-19T13:46:21.003585+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-21T17:27:14.589309+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4330,8 +4365,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-19T13:45:54.258677+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-21T17:26:48.384971+00:00",
+      "summaryAttempts": 14,
       "summaryError": "invalid_length"
     },
     {
@@ -7146,10 +7181,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 4,
-    "pending": 33,
-    "checkedAt": "2026-10-21T12:09:14.957987+00:00"
+    "created": 1,
+    "failed": 6,
+    "pending": 34,
+    "checkedAt": "2026-10-21T17:27:41.359059+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
