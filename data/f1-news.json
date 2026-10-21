@@ -1,24 +1,121 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-21T05:03:37.518380+00:00",
+  "collectedAt": "2026-10-21T12:05:08.112386+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-10-21T05:03:37.518380+00:00"
+      "checkedAt": "2026-10-21T12:05:08.112386+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-21T05:03:37.518380+00:00"
+      "checkedAt": "2026-10-21T12:05:08.112386+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "80781bd51d291dc3d625",
+      "title": "F1 races to return to standard distance in 2028",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c69wzvr14xlxo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-21T11:41:56+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
+      "summaryAttemptAt": "2026-10-21T12:05:08.578809+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La F1 reprendra la distance standard en 2028",
+      "summaryFr": "Les grands prix de Formule 1 reviendront à leur distance habituelle en 2028 après avoir été réduits pour la saison prochaine. Cette décision suit une modification temporaire de la longueur des courses.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-21T12:05:38.764436+00:00"
+    },
+    {
+      "id": "2d7d5f8324da11068982",
+      "title": "Pourquoi Isack Hadjar n'aime plus les sprints en F1",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-isack-hadjar-aime-plus-sprint-f1/10866324/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-21T10:33:43+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
+      "summaryAttemptAt": "2026-10-21T12:05:38.764461+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Isack Hadjar critique les week-ends sprint en F1",
+      "summaryFr": "Isack Hadjar a exprimé son mécontentement concernant les week-ends sprint en Formule 1, après un malaise au Grand Prix de Singapour. Il a dénoncé une monoplace qui talonnait excessivement, notamment en freinage, et a terminé la séance à sept dixièmes de son coéquipier Max.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-21T12:06:15.011757+00:00"
+    },
+    {
+      "id": "2394114540f9e2186e95",
+      "title": "La FIA s'attaque à une faille du plafond budgétaire en F1 avec une nouvelle règle",
+      "url": "https://fr.motorsport.com/f1/news/fia-f1-nouvelle-regle-faille-plafond-budgetaire/10866648/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-21T08:46:16+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
+      "summaryAttemptAt": "2026-10-21T12:06:15.011778+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La FIA renforce la sécurité des équipes en interdisant l'usage de personnel non en F1",
+      "summaryFr": "La FIA a adopté de nouvelles règles pour empêcher les équipes d'utiliser des ressources humaines et des infrastructures officielles en dehors de la compétition. Cette mesure vise à prévenir toute exploitation du personnel non directement impliqué dans les courses.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-21T12:06:49.599896+00:00"
+    },
+    {
+      "id": "3cf4f32c66fabcff0f2e",
+      "title": "McLaren a reparlé de l'accrochage à Singapour, Norris promet de changer",
+      "url": "https://fr.motorsport.com/f1/news/mclaren-discussions-accrochage-singapour-norris-changer/10866629/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-21T08:00:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
+      "summaryAttemptAt": "2026-10-21T12:06:49.599920+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren reconsidère l'accrochage à Singapour, Norris promet des décisions meilleures",
+      "summaryFr": "Lando Norris reconnaît qu'il doit prendre de \"meilleures décisions\" après avoir provoqué la colère de ses dirigeants en éliminant son coéquipier Oscar Piastri et lui-même lors d'une tentative de dépassement à Singapour. McLaren souhaite tourner la page de cet incident.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-21T12:07:25.979072+00:00"
+    },
+    {
+      "id": "2521076d42af0ad8c9ec",
+      "title": "La FIA s'attend au maintien des Grands Prix du Qatar et d'Abu Dhabi",
+      "url": "https://fr.motorsport.com/f1/news/fia-attend-maintien-gp-qatar-abu-dhabi/10866622/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-21T06:02:44+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
+      "summaryAttemptAt": "2026-10-21T12:07:25.979095+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "ee15007cb62e7c149f1c",
       "title": "Non, les fans de Colapinto et de Verstappen ne sont pas le seul problème",
@@ -72,8 +169,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-20T21:45:34.710293+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-21T12:08:53.161689+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -128,8 +225,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-20T11:55:28.457403+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-21T12:08:05.555305+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -184,8 +281,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-20T11:55:47.130406+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-21T12:08:31.111683+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -7049,10 +7146,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 2,
-    "pending": 32,
-    "checkedAt": "2026-10-21T05:03:55.605888+00:00"
+    "created": 4,
+    "failed": 4,
+    "pending": 33,
+    "checkedAt": "2026-10-21T12:09:14.957987+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
