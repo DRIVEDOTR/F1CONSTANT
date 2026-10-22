@@ -1,24 +1,134 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-22T12:08:49.915792+00:00",
+  "collectedAt": "2026-10-22T17:23:07.301680+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-22T12:08:49.915792+00:00"
+      "checkedAt": "2026-10-22T17:23:07.301680+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-22T12:08:49.915792+00:00"
+      "checkedAt": "2026-10-22T17:23:07.301680+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "1dac12d64976500cd21f",
+      "title": "Cadillac dévoile la date d'ouverture de son usine moteur en F1",
+      "url": "https://fr.motorsport.com/f1/news/cadillac-revele-date-ouverture-usine-moteur/10867027/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T16:24:43+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
+      "summaryAttemptAt": "2026-10-22T17:23:07.941280+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Cadillac annonce l'ouverture de son usine de moteurs F1 le 18 décembre",
+      "summaryFr": "Cadillac annonce que son usine de moteurs de Formule 1 ouvrira le 18 décembre prochain. Cette décision suit l'approbation de la FIA en avril 2025 pour la participation de General Motors à la saison 2029. L'usine sera construite à Charlotte, en Caroline du Nord.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T17:23:54.042571+00:00"
+    },
+    {
+      "id": "11e97e1bfe37f9ac1759",
+      "title": "Freddie Slater va faire ses débuts en EL1 avec Audi",
+      "url": "https://fr.motorsport.com/f1/news/freddie-slater-debuts-f1-audi-mexique-bresil/10867007/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T15:04:43+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
+      "summaryAttemptAt": "2026-10-22T17:23:54.042597+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "9e640a44d4822afdeca5",
+      "title": "Briton Slater, 18, to make practice debut in Mexico",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqr7ymxn5ezyo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-22T15:00:16+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
+      "summaryAttemptAt": "2026-10-22T17:24:25.165799+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Slater, britannique de 18 ans, fait son débuts de pratique au Mexique",
+      "summaryFr": "Freddie Slater, britannique de 18 ans, participera à la première séance de pratique des Grands Prix de Mexico et de São Paulo. Il conduira pour Audi. Aucune information sur les pilotes, écuries ou compétition n'est confirmée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T17:25:03.863102+00:00"
+    },
+    {
+      "id": "f9430c8045c7221ad6a3",
+      "title": "Il y a 20 ans : Alonso champion du monde, Schumacher prend sa retraite",
+      "url": "https://fr.motorsport.com/f1/news/alonso-champion-monde-schumacher-retraite-2006/10866750/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T14:39:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
+      "summaryAttemptAt": "2026-10-22T17:25:03.863128+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso champion du monde en 2006, Schumacher prend sa retraite",
+      "summaryFr": "Fernando Alonso remporte le championnat du monde en 2006 lors du Grand Prix du Brésil, après avoir battu Michael Schumacher. Le septuple champion du monde annonce sa retraite de la Formule 1 ce jour-là. Une casse moteur de Schumacher, alors en tête à Suzuka, joue un rôle dans la chute de son leader.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T17:25:50.283955+00:00"
+    },
+    {
+      "id": "a392429d9cd1a5da3221",
+      "title": "How to follow US Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-22T13:32:33+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-21T12:08:31.111683+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "9d4c7f68279ae3d3aea6",
+      "title": "Red Bull a appelé Christian Horner après la première victoire de son moteur en F1",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-christian-horner-appel-premiere-victoire-moteur-f1/10866946/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T12:25:02+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
+      "summaryAttemptAt": "2026-10-22T17:25:50.283980+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "b4dfe9cff4d132c195ea",
       "title": "L'évolution ADUO du moteur Honda l'a fait régresser en matière de comportement",
@@ -27,8 +137,6 @@
       "language": "fr",
       "publishedAt": "2026-10-22T07:20:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
@@ -86,9 +194,7 @@
       "language": "fr",
       "publishedAt": "2026-10-22T05:00:03+00:00",
       "topics": [
-        "ecuries",
-        "pilotes",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
       "summaryAttemptAt": "2026-10-22T12:10:09.280172+00:00",
@@ -131,8 +237,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-21T17:26:05.887253+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-22T17:27:03.088865+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -227,8 +333,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-10-21T21:51:56.307868+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-22T17:27:46.296438+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -284,8 +390,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-21T12:08:53.161689+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-22T17:26:36.252581+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -384,21 +490,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-19T13:44:52.229000+00:00"
-    },
-    {
-      "id": "a392429d9cd1a5da3221",
-      "title": "How to follow US Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-19T06:42:58+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-21T12:08:31.111683+00:00",
-      "summaryAttempts": 4,
-      "summaryError": "invalid_length"
     },
     {
       "id": "cdc531c72e2a2be7409a",
@@ -7262,9 +7353,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 3,
-    "failed": 9,
-    "pending": 35,
-    "checkedAt": "2026-10-22T12:12:05.062706+00:00"
+    "failed": 5,
+    "pending": 37,
+    "checkedAt": "2026-10-22T17:28:34.524582+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
