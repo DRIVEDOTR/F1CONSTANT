@@ -1,24 +1,105 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-22T05:05:41.397619+00:00",
+  "collectedAt": "2026-10-22T12:08:49.915792+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-22T05:05:41.397619+00:00"
+      "checkedAt": "2026-10-22T12:08:49.915792+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-22T05:05:41.397619+00:00"
+      "checkedAt": "2026-10-22T12:08:49.915792+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "b4dfe9cff4d132c195ea",
+      "title": "L'évolution ADUO du moteur Honda l'a fait régresser en matière de comportement",
+      "url": "https://fr.motorsport.com/f1/news/honda-moteur-aduo-regresser-comportement/10866420/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T07:20:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
+      "summaryAttemptAt": "2026-10-22T12:08:50.659729+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "L'évolution du groupe propulseur Honda l'a rendu plus proche de sa première spécification problématique",
+      "summaryFr": "Le président de Honda Racing Corporation, Koji Watanabe, reconnaît que l'adaptation du groupe propulseur a rapproché son comportement de la première version problématique. Le constructeur affronte des difficultés depuis son retour en Formule 1, malgré une nouvelle réglementation technique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T12:09:18.056651+00:00"
+    },
+    {
+      "id": "6a95c7b72893807f51e8",
+      "title": "Ferrari introduira son dernier package d'évolutions à Austin",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-introduira-derniers-package-evolutions-austin/10866174/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T06:20:02+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
+      "summaryAttemptAt": "2026-10-22T12:09:18.056675+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari présente son dernier package d'évolutions à Austin",
+      "summaryFr": "Ferrari introduit un package d'évolutions aérodynamiques pour la SF-26 à Austin, dans le cadre de ses dernières actions de la saison. C'est le quatrième tel package prévu en 2026, alors que le développement se concentre désormais sur la SF-27.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T12:09:43.313495+00:00"
+    },
+    {
+      "id": "9c4aae883ecd30e33ef8",
+      "title": "Ferrari dévoile une livrée inspirée de ses dessins techniques pour Austin",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-livree-dessins-techniques-austin/10866833/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T05:20:11+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
+      "summaryAttemptAt": "2026-10-22T12:09:43.313519+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "7fb3ed3de45912151098",
+      "title": "Mercedes aura une livrée bleutée au Grand Prix des États-Unis",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-livree-bleutee-gp-etats-unis-2026/10866784/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-22T05:00:03+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
+      "summaryAttemptAt": "2026-10-22T12:10:09.280172+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes privilégie une livrée bleue au Grand Prix des États-Unis",
+      "summaryFr": "Mercedes affiche une livrée bleue spéciale pour le Grand Prix des États-Unis, conçue avec Manufaktur. Ce design remplace l'argent traditionnel du W17. L'équipe espère que Kimi Antonelli pourrait décrocher le titre mondial dimanche.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T12:10:35.532996+00:00"
+    },
     {
       "id": "7b630192bbe7010ac7f8",
       "title": "Hockenheim veut retrouver la F1, mais se heurte à un obstacle majeur",
@@ -426,8 +507,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-10-20T05:03:34.809185+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-22T12:10:52.395980+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -583,8 +664,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-20T11:54:33.796930+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-22T12:11:10.530841+00:00",
+      "summaryAttempts": 6,
       "summaryError": "copied_passage"
     },
     {
@@ -618,8 +699,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-20T11:55:01.549762+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-22T12:11:37.938326+00:00",
+      "summaryAttempts": 6,
       "summaryError": "copied_passage"
     },
     {
@@ -3100,8 +3181,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-20T05:03:34.692443+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-22T12:10:52.346849+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -3353,8 +3434,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-20T05:03:07.863392+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-22T12:10:35.645907+00:00",
+      "summaryAttempts": 14,
       "summaryError": "invalid_length"
     },
     {
@@ -3368,8 +3449,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-20T05:03:34.615574+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-22T12:10:52.259396+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -3485,8 +3566,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-20T05:03:34.538064+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-22T12:10:52.213567+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -5160,8 +5241,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-20T05:03:07.785656+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-22T12:10:35.533018+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -7180,10 +7261,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
-    "pending": 34,
-    "checkedAt": "2026-10-22T05:08:06.763235+00:00"
+    "created": 3,
+    "failed": 9,
+    "pending": 35,
+    "checkedAt": "2026-10-22T12:12:05.062706+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
