@@ -1,24 +1,44 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-22T17:23:07.301680+00:00",
+  "collectedAt": "2026-10-22T21:47:15.997073+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-22T17:23:07.301680+00:00"
+      "checkedAt": "2026-10-22T21:47:15.997073+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-22T17:23:07.301680+00:00"
+      "checkedAt": "2026-10-22T21:47:15.997073+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7124345adf5436e2dad5",
+      "title": "Antonelli to 'just have fun' as he aims for title",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjr4y3y9zy2zo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-22T20:55:40+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-22T21:47:15.997073+00:00",
+      "summaryAttemptAt": "2026-10-22T21:47:17.324541+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli veut simplement profiter du tournoi aux États-Unis",
+      "summaryFr": "Kimi Antonelli affirme vouloir simplement profiter du Grand Prix des États-Unis, alors qu'il se trouve à la limite du championnat de Formule 1. Il ne précise pas s'il poursuit une ambition de titre.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-22T21:47:48.730322+00:00"
+    },
     {
       "id": "1dac12d64976500cd21f",
       "title": "Cadillac dévoile la date d'ouverture de son usine moteur en F1",
@@ -27,7 +47,8 @@
       "language": "fr",
       "publishedAt": "2026-10-22T16:24:43+00:00",
       "topics": [
-        "ecuries"
+        "ecuries",
+        "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
       "summaryAttemptAt": "2026-10-22T17:23:07.941280+00:00",
@@ -62,8 +83,6 @@
       "language": "en",
       "publishedAt": "2026-10-22T15:00:16+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
@@ -84,9 +103,7 @@
       "language": "fr",
       "publishedAt": "2026-10-22T14:39:41+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
       "summaryAttemptAt": "2026-10-22T17:25:03.863128+00:00",
@@ -182,8 +199,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-10-22T12:09:43.313519+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-22T21:48:14.264352+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -562,8 +579,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-20T17:24:46.550645+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-22T21:47:48.775896+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1483,9 +1500,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-20T17:24:09.037003+00:00",
-      "summaryAttempts": 7,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-22T21:47:48.730346+00:00",
+      "summaryAttempts": 8,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "255824ac3fcd64b7e154",
@@ -7352,10 +7369,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 5,
+    "created": 1,
+    "failed": 3,
     "pending": 37,
-    "checkedAt": "2026-10-22T17:28:34.524582+00:00"
+    "checkedAt": "2026-10-22T21:48:49.518409+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
