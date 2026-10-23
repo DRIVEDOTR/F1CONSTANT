@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-23T11:52:15.466528+00:00",
+  "collectedAt": "2026-10-23T17:19:20.889547+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-23T11:52:15.466528+00:00"
+      "checkedAt": "2026-10-23T17:19:20.889547+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-23T11:52:15.466528+00:00"
+      "count": 44,
+      "checkedAt": "2026-10-23T17:19:20.889547+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "4c786ea8de13728122c6",
+      "title": "Hamilton : Antonelli \"mérite d'être champion du monde\"",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-antonelli-merite-devenir-champion-du-monde/10867435/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T15:20:02+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-23T17:19:20.889547+00:00",
+      "summaryAttemptAt": "2026-10-23T17:19:21.536496+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton : Antonelli mérite d'être champion du monde",
+      "summaryFr": "Lewis Hamilton affirme que Kimi Antonelli est \"extrêmement impressionnant\" et qu'il \"mérite d'être champion du monde\". À Austin, Antonelli leader avec 102 points d'avance sur Russell, tandis que Hamilton est en retard de 111 points.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T17:19:48.688856+00:00"
+    },
+    {
+      "id": "8f88b34d6801c2e36694",
+      "title": "\"Des limites ont été franchies\" : Colapinto dénonce le harcèlement visant le personnel d'Alpine",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-harcelement-membres-alpine-f1/10867361/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T12:30:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-23T17:19:20.889547+00:00",
+      "summaryAttemptAt": "2026-10-23T17:19:48.688882+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Colapinto dénonce des insultes contre le personnel d'Alpine",
+      "summaryFr": "Franco Colapinto répète régulièrement ses préoccupations sur les insultes adressées au personnel d'Alpine sur les réseaux sociaux. Il a abordé la question lors d'un entretien avec Autosport à Monaco et durant plusieurs week-ends de Grand Prix.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T17:20:16.143422+00:00"
+    },
     {
       "id": "6c94973581ea176ef0bf",
       "title": "L'usine Renault/Alpine de Viry-Châtillon rachetée par un groupe belge",
@@ -58,8 +100,7 @@
       "language": "fr",
       "publishedAt": "2026-10-23T07:45:02+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
       "summaryAttemptAt": "2026-10-23T11:53:43.057665+00:00",
@@ -79,9 +120,7 @@
       "language": "fr",
       "publishedAt": "2026-10-23T06:59:58+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
       "summaryAttemptAt": "2026-10-23T11:54:27.574907+00:00",
@@ -101,9 +140,7 @@
       "language": "fr",
       "publishedAt": "2026-10-23T06:27:34+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
       "summaryAttemptAt": "2026-10-23T11:55:09.803342+00:00",
@@ -207,8 +244,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-23T05:06:56.693787+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-23T17:20:52.359857+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -262,8 +299,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-21T12:08:31.111683+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-23T17:20:35.411088+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -278,8 +315,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-23T05:07:20.340174+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-23T17:21:11.716431+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -599,8 +636,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-21T12:08:05.555305+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-23T17:20:16.143447+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -7505,10 +7542,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
+    "created": 2,
     "failed": 4,
     "pending": 39,
-    "checkedAt": "2026-10-23T11:57:17.906596+00:00"
+    "checkedAt": "2026-10-23T17:21:41.063272+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
