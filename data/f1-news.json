@@ -1,24 +1,82 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-23T17:19:20.889547+00:00",
+  "collectedAt": "2026-10-23T21:32:33.270516+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-23T17:19:20.889547+00:00"
+      "checkedAt": "2026-10-23T21:32:33.270516+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 44,
-      "checkedAt": "2026-10-23T17:19:20.889547+00:00"
+      "checkedAt": "2026-10-23T21:32:33.270516+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "cef89fde71cf910b14e1",
+      "title": "Pourquoi Ferrari teste des évolutions qui rapportent \"moins d'un dixième\"",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-ferrari-teste-evolutions-dixieme-austin/10867542/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T20:03:11+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
+      "summaryAttemptAt": "2026-10-23T21:32:33.980450+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari teste des évolutions sur le fond plat avec peu d'impact",
+      "summaryFr": "Ferrari introduit des modifications sur le fond plat et les \"fingers\" du bord d'attaque pour le GP des États-Unis. Les pilotes ont minimisé l'importance de ces évolutions. Les changements concernent aussi les pontons.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T21:33:16.706191+00:00"
+    },
+    {
+      "id": "04e419b74e4bece02325",
+      "title": "Leclerc sets Austin practice pace from Verstappen",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-23T18:41:21+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
+      "summaryAttemptAt": "2026-10-23T21:33:16.706216+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc le plus rapide en première séance d'essai à Austin",
+      "summaryFr": "Charles Leclerc, pilote de Ferrari, est le plus rapide en première séance d'essai du Grand Prix des États-Unis, devant Max Verstappen de Red Bull. Aucune information sur les performances spécifiques ou les réglages des ailerons avant ou arrière.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T21:33:55.013616+00:00"
+    },
+    {
+      "id": "15cc216c17100e35f5ba",
+      "title": "EL1 - Leclerc devance Verstappen à Austin",
+      "url": "https://fr.motorsport.com/f1/news/el1-gp-etats-unis-leclerc-devance-verstappen/10867507/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T18:39:48+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
+      "summaryAttemptAt": "2026-10-23T21:33:55.013642+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "4c786ea8de13728122c6",
       "title": "Hamilton : Antonelli \"mérite d'être champion du monde\"",
@@ -27,8 +85,7 @@
       "language": "fr",
       "publishedAt": "2026-10-23T15:20:02+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-23T17:19:20.889547+00:00",
       "summaryAttemptAt": "2026-10-23T17:19:21.536496+00:00",
@@ -72,8 +129,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-23T11:52:15.979284+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-23T21:36:18.945311+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -88,8 +145,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-23T11:53:00.749320+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-23T21:37:03.196673+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -523,8 +580,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-10-22T17:27:46.296438+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-23T21:35:31.311114+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -1811,8 +1868,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-21T17:27:14.645648+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-23T21:35:04.481230+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -2048,8 +2105,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-21T17:27:41.270746+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-23T21:35:31.269460+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -3291,8 +3348,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-21T17:27:14.516418+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-23T21:35:04.253459+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -3306,8 +3363,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-21T17:27:14.589309+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-23T21:35:04.392459+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4726,8 +4783,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-21T17:26:48.384971+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-23T21:34:37.881317+00:00",
+      "summaryAttempts": 15,
       "summaryError": "invalid_length"
     },
     {
@@ -7543,9 +7600,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 2,
-    "failed": 4,
-    "pending": 39,
-    "checkedAt": "2026-10-23T17:21:41.063272+00:00"
+    "failed": 9,
+    "pending": 40,
+    "checkedAt": "2026-10-23T21:37:46.062307+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
