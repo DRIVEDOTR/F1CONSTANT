@@ -1,24 +1,120 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-23T05:05:25.974725+00:00",
+  "collectedAt": "2026-10-23T11:52:15.466528+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-23T05:05:25.974725+00:00"
+      "checkedAt": "2026-10-23T11:52:15.466528+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-23T05:05:25.974725+00:00"
+      "checkedAt": "2026-10-23T11:52:15.466528+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "6c94973581ea176ef0bf",
+      "title": "L'usine Renault/Alpine de Viry-Châtillon rachetée par un groupe belge",
+      "url": "https://fr.motorsport.com/f1/news/renault-alpine-viry-chatillon-rachetee-groupe-belge-dumarey/10867344/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T10:16:39+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
+      "summaryAttemptAt": "2026-10-23T11:52:15.979284+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "a8f548a99e60911f73e8",
+      "title": "Hadjar : \"Avec une Ferrari, Verstappen aurait gagné avec plus d'avance à Singapour\"",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-verstappen-ferrari-red-bull-singapour/10867328/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T10:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
+      "summaryAttemptAt": "2026-10-23T11:53:00.749320+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "bff3d4abd2290066e0d4",
+      "title": "Sainz doute que la F1 puisse terminer la saison 2026 au Moyen-Orient",
+      "url": "https://fr.motorsport.com/f1/news/sainz-doute-grands-prix-f1-qatar-abu-dhabi-2026/10867263/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T07:45:02+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
+      "summaryAttemptAt": "2026-10-23T11:53:43.057665+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Sainz doute de la tenue des Grands Prix 2026 au Moyen-Orient",
+      "summaryFr": "Carlos Sainz estime que les dirigeants de la F1 ont du mal à convaincre sur la possibilité de tenir les derniers Grands Prix 2026 au Qatar et à Abu Dhabi malgré le conflit au Moyen-Orient. La FIA et la F1 maintiennent leur position de continuer à courir ces courses.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T11:54:27.574884+00:00"
+    },
+    {
+      "id": "bd1ec19b1d4aac8d79b7",
+      "title": "Verstappen dénonce les bosses \"inacceptables\" à Austin : \"C'est hors de contrôle\"",
+      "url": "https://fr.motorsport.com/f1/news/erstappen-bosses-austin-colonne-vertebrale-f1/10867257/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T06:59:58+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
+      "summaryAttemptAt": "2026-10-23T11:54:27.574907+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen dénonce des bosses \"inacceptables\" à Austin",
+      "summaryFr": "Max Verstappen a exprimé son mécontentement face à l'état des bosses sur la piste d'Austin, qualifiant le problème d'inacceptable. Il a déclaré que la situation était hors de contrôle, sans préciser s'il s'agit d'une menace pour la sécurité ou des performances.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T11:55:09.803317+00:00"
+    },
+    {
+      "id": "f9df78fa6d548f4d9d30",
+      "title": "Ocon : \"D'un point de vue purement sportif, je mérite d'être en F1\"",
+      "url": "https://fr.motorsport.com/f1/news/ocon-merite-f1-haas-depart-2027/10867255/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T06:27:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
+      "summaryAttemptAt": "2026-10-23T11:55:09.803342+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Câmara rejoint la F1, Bearman reste en jeu pour 2027",
+      "summaryFr": "Rafael Câmara, leader du championnat de F2, est confirmé dans la F1 pour la saison prochaine. Oliver Bearman n'a pas encore été officiellement nommé par Haas, malgré des intentions de prolongation. La grille 2027 reste encore ouverte à des modifications.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-23T11:55:52.342719+00:00"
+    },
     {
       "id": "64700816fadfd3b275f2",
       "title": "Approach African GP with humility, says Hamilton",
@@ -47,9 +143,7 @@
       "language": "en",
       "publishedAt": "2026-10-22T22:28:55+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-23T05:05:25.974725+00:00",
       "summaryAttemptAt": "2026-10-23T05:06:00.257986+00:00",
@@ -241,8 +335,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-10-22T21:48:14.264352+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-23T11:56:34.922867+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -296,8 +390,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-22T17:27:03.088865+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-23T11:55:52.342742+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -7411,10 +7505,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
+    "created": 3,
     "failed": 4,
-    "pending": 37,
-    "checkedAt": "2026-10-23T05:08:00.590491+00:00"
+    "pending": 39,
+    "checkedAt": "2026-10-23T11:57:17.906596+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
