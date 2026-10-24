@@ -1,24 +1,77 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-23T21:32:33.270516+00:00",
+  "collectedAt": "2026-10-24T04:50:01.576942+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-23T21:32:33.270516+00:00"
+      "checkedAt": "2026-10-24T04:50:01.576942+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 44,
-      "checkedAt": "2026-10-23T21:32:33.270516+00:00"
+      "count": 45,
+      "checkedAt": "2026-10-24T04:50:01.576942+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "04e419b74e4bece02325",
+      "title": "Leclerc fastest from Antonelli in US GP practice",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-23T23:40:33+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
+      "summaryAttemptAt": "2026-10-24T04:50:02.107166+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc le plus rapide que Antonelli en pratique aux États-Unis",
+      "summaryFr": "Charles Leclerc de Ferrari est le plus rapide en pratique du Grand Prix des États-Unis, devant Kimi Antonelli de Mercedes. Aucune information sur les performances spécifiques ou les réglages des ailerons avant ou arrière.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T04:50:26.379743+00:00"
+    },
+    {
+      "id": "a392429d9cd1a5da3221",
+      "title": "How to follow US Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-23T22:36:28+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-23T17:20:35.411088+00:00",
+      "summaryAttempts": 5,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "db2fbf605107344800cd",
+      "title": "EL2 - Un vendredi parfait pour Leclerc, McLaren en difficulté",
+      "url": "https://fr.motorsport.com/f1/news/el2-vendredi-parfait-leclerc-austin-ferrari/10867582/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-23T22:12:35+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
+      "summaryAttemptAt": "2026-10-24T04:50:26.379771+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "cef89fde71cf910b14e1",
       "title": "Pourquoi Ferrari teste des évolutions qui rapportent \"moins d'un dixième\"",
@@ -41,28 +94,6 @@
       "summaryAt": "2026-10-23T21:33:16.706191+00:00"
     },
     {
-      "id": "04e419b74e4bece02325",
-      "title": "Leclerc sets Austin practice pace from Verstappen",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-23T18:41:21+00:00",
-      "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-10-23T21:33:16.706216+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Leclerc le plus rapide en première séance d'essai à Austin",
-      "summaryFr": "Charles Leclerc, pilote de Ferrari, est le plus rapide en première séance d'essai du Grand Prix des États-Unis, devant Max Verstappen de Red Bull. Aucune information sur les performances spécifiques ou les réglages des ailerons avant ou arrière.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-23T21:33:55.013616+00:00"
-    },
-    {
       "id": "15cc216c17100e35f5ba",
       "title": "EL1 - Leclerc devance Verstappen à Austin",
       "url": "https://fr.motorsport.com/f1/news/el1-gp-etats-unis-leclerc-devance-verstappen/10867507/",
@@ -73,9 +104,27 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-10-23T21:33:55.013642+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-24T04:50:54.021449+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-23T17:30:56+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
     },
     {
       "id": "4c786ea8de13728122c6",
@@ -344,21 +393,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-22T17:25:50.283955+00:00"
-    },
-    {
-      "id": "a392429d9cd1a5da3221",
-      "title": "How to follow US Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-22T13:32:33+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-23T17:20:35.411088+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "invalid_length"
     },
     {
       "id": "9d4c7f68279ae3d3aea6",
@@ -971,24 +1005,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-16T16:49:43.733423+00:00"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-16T10:46:21+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
     },
     {
       "id": "70a9c1afbfb53c53a43e",
@@ -7599,10 +7615,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 9,
-    "pending": 40,
-    "checkedAt": "2026-10-23T21:37:46.062307+00:00"
+    "created": 1,
+    "failed": 2,
+    "pending": 41,
+    "checkedAt": "2026-10-24T04:51:21.193190+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
