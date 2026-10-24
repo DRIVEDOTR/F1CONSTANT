@@ -1,24 +1,89 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-24T11:19:35.042320+00:00",
+  "collectedAt": "2026-10-24T16:06:53.561117+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-24T11:19:35.042320+00:00"
+      "checkedAt": "2026-10-24T16:06:53.561117+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-24T11:19:35.042320+00:00"
+      "checkedAt": "2026-10-24T16:06:53.561117+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "ea5f0a71fd5ca7308b1d",
+      "title": "Le patron de Cadillac sème le doute en esquivant une question sur ses pilotes",
+      "url": "https://fr.motorsport.com/f1/news/patron-cadillac-seme-doute-pilotes-2027-bottas/10867819/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T14:13:21+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-24T16:06:53.561117+00:00",
+      "summaryAttemptAt": "2026-10-24T16:06:54.191650+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Cadillac évoque ses pilotes sans donner de précision",
+      "summaryFr": "Le patron de Cadillac évite de répondre à des questions sur son line-up 2027, malgré les spéculations. Sergio Pérez et Valtteri Bottas disposent tous deux de contrats. Aucune information officielle n'est fournie sur les futures équipes ou les décisions de pilotage.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T16:07:38.028669+00:00"
+    },
+    {
+      "id": "25b66a42b62c54dd5ff6",
+      "title": "Ce problème inattendu pour Honda malgré sa deuxième évolution moteur",
+      "url": "https://fr.motorsport.com/f1/news/honda-probleme-turbo-aston-martin-f1/10867752/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T13:15:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-24T16:06:53.561117+00:00",
+      "summaryAttemptAt": "2026-10-24T16:07:38.028697+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Problèmes moteurs pour Honda malgré une deuxième évolution",
+      "summaryFr": "Aston Martin souffre d'incertitudes sur le circuit de Singapour, avec Fernando Alonso pointant du doigt des difficultés liées au groupe propulseur Honda. Le problème survient malgré une évolution récente du moteur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T16:08:18.195770+00:00"
+    },
+    {
+      "id": "7b0c0238a7858668a989",
+      "title": "\"Tout simplement inconduisible\" : Hadjar désemparé après les essais libres à Austin",
+      "url": "https://fr.motorsport.com/f1/news/inconduisible-hadjar-desempare-essais-libres-austin/10867745/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T12:15:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-24T16:06:53.561117+00:00",
+      "summaryAttemptAt": "2026-10-24T16:08:18.195793+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar désemparé après les essais libres à Austin",
+      "summaryFr": "Les essais libres au Circuit des Amériques ont laissé Hadjar désemparé. Red Bull note des progrès sur la RB22, mais souligne que l'équilibre entre virages rapides et lents reste à améliorer. Le directeur technique Pierre Waché insiste sur le besoin de progresser dans la performance globale.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T16:09:02.229335+00:00"
+    },
     {
       "id": "115e4c4a19a92138e1e7",
       "title": "Les deux chantiers prioritaires de Red Bull et Verstappen à Austin",
@@ -28,8 +93,7 @@
       "publishedAt": "2026-10-24T09:00:04+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-24T11:19:35.042320+00:00",
       "summaryAttemptAt": "2026-10-24T11:19:35.782604+00:00",
@@ -51,7 +115,7 @@
       "topics": [
         "pilotes",
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-24T11:19:35.042320+00:00",
       "summaryAttemptAt": "2026-10-24T11:20:11.186541+00:00",
@@ -921,8 +985,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-10-22T12:10:52.395980+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-24T16:09:29.611145+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -1060,8 +1124,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-22T12:11:10.530841+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-24T16:10:00.734309+00:00",
+      "summaryAttempts": 7,
       "summaryError": "copied_passage"
     },
     {
@@ -3577,8 +3641,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-22T12:10:52.346849+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-24T16:09:29.484353+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -3830,8 +3894,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-22T12:10:35.645907+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T16:09:02.444753+00:00",
+      "summaryAttempts": 15,
       "summaryError": "invalid_length"
     },
     {
@@ -3845,8 +3909,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-22T12:10:52.259396+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-24T16:09:29.393254+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -3962,8 +4026,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-22T12:10:52.213567+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-24T16:09:29.286184+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -5607,8 +5671,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-22T05:08:06.669948+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T16:09:02.229359+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5622,8 +5686,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-22T05:08:06.733936+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T16:09:02.283133+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5637,8 +5701,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-22T12:10:35.533018+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T16:09:02.365270+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -7657,10 +7721,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
+    "created": 3,
+    "failed": 9,
     "pending": 41,
-    "checkedAt": "2026-10-24T11:22:01.993987+00:00"
+    "checkedAt": "2026-10-24T16:10:44.837405+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
