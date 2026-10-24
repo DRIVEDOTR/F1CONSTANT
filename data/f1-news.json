@@ -1,24 +1,46 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-24T16:06:53.561117+00:00",
+  "collectedAt": "2026-10-24T21:00:32.722268+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-24T16:06:53.561117+00:00"
+      "checkedAt": "2026-10-24T21:00:32.722268+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-24T16:06:53.561117+00:00"
+      "count": 44,
+      "checkedAt": "2026-10-24T21:00:32.722268+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "cc10b7ffbbe9c0328b53",
+      "title": "Hamilton et Ferrari en tête des derniers essais libres à Austin",
+      "url": "https://fr.motorsport.com/f1/news/el3-gp-etats-unis-hamilton-ferrari-leader/10867929/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T18:42:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-24T21:00:32.722268+00:00",
+      "summaryAttemptAt": "2026-10-24T21:00:33.300771+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton en tête des essais libres à Austin, Leclerc empêché par les infractions",
+      "summaryFr": "Hamilton est le seul pilote à avoir dépassé la barre des 1'35 en fin de séance. Les infractions aux limites de piste ont empêché Leclerc de rattraper son coéquipier. Aucune information sur les ailerons, pneus ou soufflerie n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T21:01:02.215429+00:00"
+    },
     {
       "id": "ea5f0a71fd5ca7308b1d",
       "title": "Le patron de Cadillac sème le doute en esquivant une question sur ses pilotes",
@@ -48,8 +70,6 @@
       "language": "fr",
       "publishedAt": "2026-10-24T13:15:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "voitures"
       ],
       "firstSeenAt": "2026-10-24T16:06:53.561117+00:00",
@@ -70,9 +90,7 @@
       "language": "fr",
       "publishedAt": "2026-10-24T12:15:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-24T16:06:53.561117+00:00",
       "summaryAttemptAt": "2026-10-24T16:08:18.195793+00:00",
@@ -174,8 +192,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-10-24T04:50:26.379771+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-24T21:03:59.094542+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -210,8 +228,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-10-24T04:50:54.021449+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-24T21:04:27.685311+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -284,8 +302,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-23T21:36:18.945311+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-24T21:03:02.693004+00:00",
+      "summaryAttempts": 3,
       "summaryError": "unsupported_number"
     },
     {
@@ -300,8 +318,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-23T21:37:03.196673+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-24T21:03:30.916589+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -456,8 +474,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-23T17:20:52.359857+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-24T21:02:14.442374+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -512,8 +530,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-23T17:21:11.716431+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-24T21:02:33.547742+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -569,8 +587,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-10-23T11:56:34.922867+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-24T21:01:46.959538+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -624,8 +642,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-23T11:55:52.342742+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-24T21:01:18.972812+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -777,8 +795,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-22T17:26:36.252581+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-24T21:01:02.368047+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1159,9 +1177,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-22T12:11:37.938326+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-24T21:01:02.215457+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "c041fc3d65ee3ad341f6",
@@ -7721,10 +7739,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 9,
+    "created": 1,
+    "failed": 10,
     "pending": 41,
-    "checkedAt": "2026-10-24T16:10:44.837405+00:00"
+    "checkedAt": "2026-10-24T21:04:55.967988+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
