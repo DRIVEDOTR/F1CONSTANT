@@ -1,24 +1,68 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-24T04:50:01.576942+00:00",
+  "collectedAt": "2026-10-24T11:19:35.042320+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-24T04:50:01.576942+00:00"
+      "checkedAt": "2026-10-24T11:19:35.042320+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 45,
-      "checkedAt": "2026-10-24T04:50:01.576942+00:00"
+      "checkedAt": "2026-10-24T11:19:35.042320+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "115e4c4a19a92138e1e7",
+      "title": "Les deux chantiers prioritaires de Red Bull et Verstappen à Austin",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-deux-chantiers-prioritaires-austin-verstappen/10867762/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T09:00:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-24T11:19:35.042320+00:00",
+      "summaryAttemptAt": "2026-10-24T11:19:35.782604+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen et Red Bull en légère avance à Austin",
+      "summaryFr": "Max Verstappen termine les essais libres à Austin deuxième et troisième, en restant à moins de deux dixièmes de seconde devant Charles Leclerc. Red Bull ne s'est pas détachée du groupe principal, malgré une performance solide.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T11:20:11.186516+00:00"
+    },
+    {
+      "id": "4bd4b722d22d2b23e92c",
+      "title": "Antonelli salue un \"pas en avant\" à Austin, Mercedes travaille encore sur ses évolutions",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-mercedes-evolutions-austin-progres/10867742/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T08:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-24T11:19:35.042320+00:00",
+      "summaryAttemptAt": "2026-10-24T11:20:11.186541+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli félicite Mercedes pour un \"pas en avant\" à Austin",
+      "summaryFr": "Kimi Antonelli considère que Mercedes a réalisé un progrès significatif lors du Grand Prix d'Austin. L'écurie a mis en place une nouvelle version de son aileron avant pour compléter ses évolutions.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-24T11:20:44.871982+00:00"
+    },
     {
       "id": "04e419b74e4bece02325",
       "title": "Leclerc fastest from Antonelli in US GP practice",
@@ -27,9 +71,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T23:40:33+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
       "summaryAttemptAt": "2026-10-24T04:50:02.107166+00:00",
@@ -1449,9 +1491,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-22T05:07:21.261419+00:00",
-      "summaryAttempts": 7,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-24T11:22:01.627782+00:00",
+      "summaryAttempts": 8,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "60d934a2db6c03dab05b",
@@ -2419,8 +2461,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-22T05:06:53.020715+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-24T11:21:39.725598+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -4958,8 +5000,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-22T05:05:42.123585+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:20:44.872005+00:00",
+      "summaryAttempts": 15,
       "summaryError": "unsupported_number"
     },
     {
@@ -5094,8 +5136,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-22T05:06:25.032781+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:21:17.768635+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5169,8 +5211,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-22T05:06:25.127650+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:21:17.912136+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5468,8 +5510,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-22T05:06:25.182519+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:21:18.050235+00:00",
+      "summaryAttempts": 15,
       "summaryError": "invalid_length"
     },
     {
@@ -5503,8 +5545,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-22T05:06:52.948876+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:21:39.675860+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5518,8 +5560,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-22T05:08:06.480706+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:22:01.742613+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5533,8 +5575,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-22T05:08:06.533922+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:22:01.801563+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5549,8 +5591,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-22T05:08:06.587550+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-24T11:22:01.849619+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -7615,10 +7657,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 2,
+    "created": 2,
+    "failed": 10,
     "pending": 41,
-    "checkedAt": "2026-10-24T04:51:21.193190+00:00"
+    "checkedAt": "2026-10-24T11:22:01.993987+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
