@@ -1,24 +1,144 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-24T21:00:32.722268+00:00",
+  "collectedAt": "2026-10-25T04:58:55.908724+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-24T21:00:32.722268+00:00"
+      "checkedAt": "2026-10-25T04:58:55.908724+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 44,
-      "checkedAt": "2026-10-24T21:00:32.722268+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-25T04:58:55.908724+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "2405ce7fc9c22461b126",
+      "title": "Briton Palmowski wins F1 Academy title",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6jwzp2y4go",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-25T01:18:37+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
+      "summaryAttemptAt": "2026-10-25T04:58:57.055754+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Palmowski britannique remporte le titre de F1 Academy",
+      "summaryFr": "Alisha Palmowski, pilote britannique, remporte le titre de F1 Academy lors de la saison à Austin. Le succès est obtenu au Circuit of the Americas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T04:59:26.675363+00:00"
+    },
+    {
+      "id": "95c1b5611778d4d2634e",
+      "title": "Antonelli stands on brink of history in Austin",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvlyd5k776yyo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-25T00:40:56+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
+      "summaryAttemptAt": "2026-10-25T04:59:26.675388+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli aux abords de l'histoire en Austin",
+      "summaryFr": "Kimi Antonelli pourrait devenir le champion du monde le plus jeune de la Formule 1 samedi, mais il affirme ne pas ressentir la pression, au contraire, il se dit plus à l'aise que jamais.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T04:59:56.631908+00:00"
+    },
+    {
+      "id": "a392429d9cd1a5da3221",
+      "title": "How to follow US Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-24T23:33:01+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
+      "summaryAttemptAt": "2026-10-23T17:20:35.411088+00:00",
+      "summaryAttempts": 5,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "103f0e83cb3b1d26d49e",
+      "title": "Antonelli takes US pole on weekend he can win title",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-24T22:51:51+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
+      "summaryAttemptAt": "2026-10-25T04:59:56.631934+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte la pole au Grand Prix des États-Unis",
+      "summaryFr": "Kimi Antonelli obtient la pole position pour le Grand Prix des États-Unis, sur le week-end où il peut potentiellement remporter son premier titre mondial.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T05:00:25.555961+00:00"
+    },
+    {
+      "id": "554968954bd9b7dcccaf",
+      "title": "La grille de départ du Grand Prix des États-Unis F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-gp-etats-unis-f1-2026/10867992/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T22:25:31+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
+      "summaryAttemptAt": "2026-10-25T05:00:25.555983+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille de départ du Grand Prix des États-Unis F1 2026",
+      "summaryFr": "Kimi Antonelli part en première position, suivi de Max Verstappen et d'Isack Hadjar. Le classement complet reste à l'heure du départ. Aucune information sur les performances ou les équipes n'est confirmée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T05:00:57.201384+00:00"
+    },
+    {
+      "id": "3efe10f7a8ba85c1b698",
+      "title": "Antonelli en pole à Austin, Russell seulement sixième",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-pole-position-gp-etats-unis/10867982/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-24T22:13:58+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
+      "summaryAttemptAt": "2026-10-25T05:00:57.201407+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli en pole à Austin, Russell seulement sixième",
+      "summaryFr": "Kimi Antonelli remporte sa septième pole position de la saison au Grand Prix des États-Unis, en battant Max Verstappen lors d'une séance de qualifications serrée au Circuit des Amériques. Il s'est classé en pole dès la première tentative en Q3 avec un tour de 1'34\"035.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T05:01:33.982797+00:00"
+    },
     {
       "id": "cc10b7ffbbe9c0328b53",
       "title": "Hamilton et Ferrari en tête des derniers essais libres à Austin",
@@ -28,8 +148,7 @@
       "publishedAt": "2026-10-24T18:42:04+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-24T21:00:32.722268+00:00",
       "summaryAttemptAt": "2026-10-24T21:00:33.300771+00:00",
@@ -164,21 +283,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-10-24T04:50:26.379743+00:00"
-    },
-    {
-      "id": "a392429d9cd1a5da3221",
-      "title": "How to follow US Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm0qk189q5dgo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-23T22:36:28+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-23T17:20:35.411088+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "invalid_length"
     },
     {
       "id": "db2fbf605107344800cd",
@@ -967,8 +1071,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-22T21:47:48.775896+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-25T05:01:34.065883+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -1870,8 +1974,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-22T21:47:48.730346+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-25T05:01:33.982819+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -7739,10 +7843,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 10,
+    "created": 5,
+    "failed": 2,
     "pending": 41,
-    "checkedAt": "2026-10-24T21:04:55.967988+00:00"
+    "checkedAt": "2026-10-25T05:01:59.683732+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
