@@ -1,24 +1,105 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-25T04:58:55.908724+00:00",
+  "collectedAt": "2026-10-25T11:49:49.532622+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-25T04:58:55.908724+00:00"
+      "checkedAt": "2026-10-25T11:49:49.532622+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-25T04:58:55.908724+00:00"
+      "checkedAt": "2026-10-25T11:49:49.532622+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "c708812ca0197258715c",
+      "title": "Norris déplore son \"très mauvais travail\" en qualifications à Austin",
+      "url": "https://fr.motorsport.com/f1/news/norris-deplore-mauvais-travail-qualifications-austin/10868146/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T11:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
+      "summaryAttemptAt": "2026-10-25T11:49:50.348421+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris dénonce son \"très mauvais travail\" en qualifications à Austin",
+      "summaryFr": "L'actuel champion du monde est passé en quatrième ligne à Austin, après avoir été sanctionné pour une infraction au virage 19. Il devait initialement figurer en sixième position. La période difficile de McLaren, sans podium depuis trois Grands Prix, persiste.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T11:50:17.739014+00:00"
+    },
+    {
+      "id": "7ad21e11c8a58f8d5ee6",
+      "title": "Pourquoi Ferrari n'a pas répondu aux attentes en qualifications à Austin",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-ferrari-deception-qualifications-austin/10868123/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T10:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
+      "summaryAttemptAt": "2026-10-25T11:50:17.739042+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari déçoit en qualifications à Austin",
+      "summaryFr": "Ferrari, considérée comme l'équipe à battre après les essais libres, n'a pas atteint ses attentes en qualifications à Austin. Charles Leclerc a dominé les essais libres, mais l'équipe n'a pas suffisamment progressé en Q3. Lewis Hamilton a enregistré le meilleur temps en EL3 après l'annulation du chrono de ...",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T11:50:46.171330+00:00"
+    },
+    {
+      "id": "3f8a75fa1d97869d058d",
+      "title": "Hadjar rallume la lumière après un début de week-end \"catastrophique\"",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-rallume-lumiere-qualifs-austin/10868153/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T09:00:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
+      "summaryAttemptAt": "2026-10-25T11:50:46.171356+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "f3efb0a102641e4aea14",
+      "title": "La pole surprise d'Antonelli avec une Mercedes délicate à régler",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-pole-surprise-austin-mercedes-delicate/10868122/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T07:00:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
+      "summaryAttemptAt": "2026-10-25T11:51:14.275782+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli prend la pole avec une Mercedes difficile à maîtriser",
+      "summaryFr": "Kimi Antonelli remporte la pole position au Grand Prix des États-Unis, après une évolution du groupe propulseur Mercedes mise en place en Malaisie. Cette mise à jour s'est révélée délicate à exploiter. Il devance Verstappen et Hadjar sur le Circuit des Amériques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T11:51:41.591168+00:00"
+    },
     {
       "id": "2405ce7fc9c22461b126",
       "title": "Briton Palmowski wins F1 Academy title",
@@ -27,7 +108,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T01:18:37+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
       "summaryAttemptAt": "2026-10-25T04:58:57.055754+00:00",
@@ -82,8 +163,7 @@
       "language": "en",
       "publishedAt": "2026-10-24T22:51:51+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
       "summaryAttemptAt": "2026-10-25T04:59:56.631934+00:00",
@@ -103,8 +183,6 @@
       "language": "fr",
       "publishedAt": "2026-10-24T22:25:31+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
@@ -125,9 +203,7 @@
       "language": "fr",
       "publishedAt": "2026-10-24T22:13:58+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-25T04:58:55.908724+00:00",
       "summaryAttemptAt": "2026-10-25T05:00:57.201407+00:00",
@@ -296,8 +372,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-10-24T21:03:59.094542+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-25T11:51:58.223970+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -3072,8 +3148,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-23T05:06:36.034084+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-25T11:51:41.726786+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -3921,8 +3997,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-23T05:06:35.890736+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-25T11:51:41.591193+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -7843,10 +7919,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 2,
-    "pending": 41,
-    "checkedAt": "2026-10-25T05:01:59.683732+00:00"
+    "created": 3,
+    "failed": 4,
+    "pending": 42,
+    "checkedAt": "2026-10-25T11:52:24.729916+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
