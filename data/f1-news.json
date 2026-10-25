@@ -1,24 +1,90 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-25T11:49:49.532622+00:00",
+  "collectedAt": "2026-10-25T16:37:46.757027+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-25T11:49:49.532622+00:00"
+      "checkedAt": "2026-10-25T16:37:46.757027+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 46,
-      "checkedAt": "2026-10-25T11:49:49.532622+00:00"
+      "checkedAt": "2026-10-25T16:37:46.757027+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7ff8e3d24c1eaa345f69",
+      "title": "Verstappen perplexe après la Q3, mais Austin confirme les progrès de Red Bull",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-perplexe-q3-austin-red-bull-progres/10868147/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T14:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T16:37:46.757027+00:00",
+      "summaryAttemptAt": "2026-10-25T16:37:47.728707+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen perplexe après la Q3, Austin confirme les progrès de Red Bull",
+      "summaryFr": "À Austin, Max Verstappen termine deuxième après les qualifications, alors que la Scuderia n'a pas placé ses deux monoplaces dans le top 3. Kimi Antonelli remporte la pole position, créant une surprise. Verstappen reste perplexe face à ce résultat.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T16:38:31.789534+00:00"
+    },
+    {
+      "id": "98aebe8236a44ed77660",
+      "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP des États-Unis",
+      "url": "https://fr.motorsport.com/f1/news/face-a-face-qualifications-2026-gp-etats-unis/10868162/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T13:00:04+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T16:37:46.757027+00:00",
+      "summaryAttemptAt": "2026-10-25T16:38:31.789559+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Qualifications F1 2026 : les face-à-face entre équipiers au GP des États-Unis",
+      "summaryFr": "Après chaque séance de qualifications, Motorsport.com publie un bilan interne par écurie entre ses deux pilotes. Ces données s'appuient uniquement sur les résultats des qualifications. Les pénalités sur la grille ne sont pas prises en compte.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T16:39:13.560362+00:00"
+    },
+    {
+      "id": "7df5bc16472e274240f0",
+      "title": "Verstappen répond au patron du COTA : \"Après cinq tours, il ne pourrait plus marcher\"",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-repond-patron-cota-bosses-austin/10868149/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T12:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-25T16:37:46.757027+00:00",
+      "summaryAttemptAt": "2026-10-25T16:39:13.560388+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen répond au patron du COTA : \"Après cinq tours, il ne pourrait plus marcher\"",
+      "summaryFr": "Max Verstappen a répondu au patron du Circuit des Amériques en soulignant les difficultés liées aux bosses du tracé. Il a participé à des discussions avec la FIA et le circuit après le briefing vendredi.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-25T16:39:54.361511+00:00"
+    },
     {
       "id": "c708812ca0197258715c",
       "title": "Norris déplore son \"très mauvais travail\" en qualifications à Austin",
@@ -27,9 +93,7 @@
       "language": "fr",
       "publishedAt": "2026-10-25T11:00:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
       "summaryAttemptAt": "2026-10-25T11:49:50.348421+00:00",
@@ -49,9 +113,7 @@
       "language": "fr",
       "publishedAt": "2026-10-25T10:00:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
       "summaryAttemptAt": "2026-10-25T11:50:17.739042+00:00",
@@ -87,8 +149,7 @@
       "publishedAt": "2026-10-25T07:00:34+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
       "summaryAttemptAt": "2026-10-25T11:51:14.275782+00:00",
@@ -7917,12 +7978,12 @@
     }
   ],
   "summaryStatus": {
-    "mode": "partial",
+    "mode": "queued",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 3,
-    "failed": 4,
+    "failed": 0,
     "pending": 42,
-    "checkedAt": "2026-10-25T11:52:24.729916+00:00"
+    "checkedAt": "2026-10-25T16:39:54.361668+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
