@@ -1,24 +1,144 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-25T21:00:21.377675+00:00",
+  "collectedAt": "2026-10-26T05:03:07.440215+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-25T21:00:21.377675+00:00"
+      "checkedAt": "2026-10-26T05:03:07.440215+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 45,
-      "checkedAt": "2026-10-25T21:00:21.377675+00:00"
+      "count": 46,
+      "checkedAt": "2026-10-26T05:03:07.440215+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "41da797c6682f1d0bd38",
+      "title": "How to follow Mexico City Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyrgejp0w8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-26T02:21:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-26T05:03:07.901098+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "c3079ea0200319ffa7f0",
+      "title": "Antonelli superb and Leclerc close to perfect - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmpwgnekx1e0o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-26T01:48:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-26T05:03:34.760560+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remarquable, Leclerc proche de parfait - classements pilotes",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes lors du Grand Prix des États-Unis. Il met en avant une prestation exceptionnelle d'Antonelli et une performance proche du parfait de Leclerc.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T05:04:13.462503+00:00"
+    },
+    {
+      "id": "72f5783ed38fcb90ba7c",
+      "title": "Antonelli delivers 'the race of a champion who isn't the champion yet'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-26T01:24:51+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-26T05:04:13.462532+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte Austin, mais ne devient pas champion",
+      "summaryFr": "Le succès d'Antonelli à Austin est qualifié par Toto Wolff comme \"le meilleur qu'il ait donné\". Cependant, ce résultat ne suffit pas pour lui permettre de remporter le titre. Il reste un pilote en course, mais pas encore champion.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T05:04:50.477305+00:00"
+    },
+    {
+      "id": "3c08a437bae0755dd1b1",
+      "title": "Antonelli wins in US but has to wait to secure title",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20w8154wn0o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-25T22:13:05+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-26T05:04:50.477334+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte la victoire aux États-Unis mais doit attendre pour sécuriser son titre",
+      "summaryFr": "Kimi Antonelli remporte une victoire dominante au Grand Prix des États-Unis. Il a besoin de deux points supplémentaires pour finaliser son premier titre mondial.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T05:05:25.414373+00:00"
+    },
+    {
+      "id": "a7637930e1d76b0274a7",
+      "title": "Tous les résultats et classements du Grand Prix des États-Unis F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grand-prix-etats-unis-2026-resultats-classement/10868358/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T22:10:32+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-26T05:05:25.414399+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Résultats du Grand Prix des États-Unis F1 2026",
+      "summaryFr": "K. Antonelli termine en tête avec Mercedes, remportant le classement des pilotes. Les points sont distribués selon les positions, avec des résultats précis pour les équipes et les pilotes. Aucune information sur les performances des ailerons avant ou arrière, le fond plat, le groupe propulseur, ou les pneus n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T05:06:09.680236+00:00"
+    },
+    {
+      "id": "e5983f024d686ddddd3b",
+      "title": "Antonelli dominateur à Austin... mais le titre attendra !",
+      "url": "https://fr.motorsport.com/f1/news/gp-etats-unis-2026-antonelli-vainqueur-resume/10868338/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-25T21:49:25+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-26T05:06:09.680267+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli dominant à Austin, le titre reste à distance",
+      "summaryFr": "Parti de la pole position, Antonelli a dominé la course en résistant à Leclerc et à Verstappen, avec un seul arrêt. Cette neuvième victoire ne lui assure pas le titre, mais l'Italien de 20 ans semble proche de devenir le plus jeune champion de l'histoire de la F1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T05:06:52.107239+00:00"
+    },
     {
       "id": "554968954bd9b7dcccaf",
       "title": "La grille de départ du Grand Prix des États-Unis F1 2026",
@@ -974,8 +1094,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-10-23T21:35:31.311114+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-26T05:07:46.188074+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -2244,8 +2364,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-23T21:35:04.481230+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-26T05:07:19.519273+00:00",
+      "summaryAttempts": 11,
       "summaryError": "invalid_length"
     },
     {
@@ -2481,8 +2601,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-23T21:35:31.269460+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-26T05:07:46.060478+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -3724,8 +3844,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-23T21:35:04.253459+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-26T05:07:19.242452+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -3739,8 +3859,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-23T21:35:04.392459+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-26T05:07:19.420070+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -5159,8 +5279,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-23T21:34:37.881317+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T05:06:52.107272+00:00",
+      "summaryAttempts": 16,
       "summaryError": "invalid_length"
     },
     {
@@ -7975,10 +8095,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 3,
-    "pending": 42,
-    "checkedAt": "2026-10-25T21:02:04.477670+00:00"
+    "created": 5,
+    "failed": 7,
+    "pending": 43,
+    "checkedAt": "2026-10-26T05:08:34.894319+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
