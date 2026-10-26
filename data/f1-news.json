@@ -1,24 +1,46 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-26T13:21:37.546558+00:00",
+  "collectedAt": "2026-10-26T22:47:31.937248+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-26T13:21:37.546558+00:00"
+      "checkedAt": "2026-10-26T22:47:31.937248+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-26T13:21:37.546558+00:00"
+      "checkedAt": "2026-10-26T22:47:31.937248+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "d6e727837df76e9ba181",
+      "title": "Antonelli préfère sa victoire à Austin à son exploit de Monza : voici pourquoi",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-antonelli-place-victoire-austin-avant-monza/10868662/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-26T14:56:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T22:47:31.937248+00:00",
+      "summaryAttemptAt": "2026-10-26T22:47:32.496239+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli préfère sa victoire à Austin à celle de Monza",
+      "summaryFr": "Kimi Antonelli a remporté une victoire à Monza après avoir partagé la 19e position, mais estime que son exploit depuis la pole à Austin était plus marquant. Le pilote Mercedes a dû partir de la dernière ligne à Monza en raison d'un changement de groupe propulseur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T22:48:15.974104+00:00"
+    },
     {
       "id": "7082425a2d9c9f91dcdd",
       "title": "'He doesn't feel pressure!' - how Antonelli is cruising to title",
@@ -27,8 +49,7 @@
       "language": "en",
       "publishedAt": "2026-10-26T11:48:45+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
       "summaryAttemptAt": "2026-10-26T13:21:38.324206+00:00",
@@ -48,9 +69,7 @@
       "language": "fr",
       "publishedAt": "2026-10-26T10:15:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
       "summaryAttemptAt": "2026-10-26T13:22:18.367275+00:00",
@@ -70,9 +89,7 @@
       "language": "fr",
       "publishedAt": "2026-10-26T08:27:00+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
       "summaryAttemptAt": "2026-10-26T13:23:03.121403+00:00",
@@ -94,7 +111,7 @@
       "topics": [
         "pilotes",
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
       "summaryAttemptAt": "2026-10-26T13:23:45.722152+00:00",
@@ -1441,9 +1458,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:29.611145+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-10-26T22:48:42.978885+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "108a2a465dffc3316c75",
@@ -1580,9 +1597,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-24T16:10:00.734309+00:00",
-      "summaryAttempts": 7,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-26T22:48:43.111363+00:00",
+      "summaryAttempts": 8,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "06fe829ce2cd7ad56c96",
@@ -4097,8 +4114,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:29.484353+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-26T22:48:42.909205+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -4350,8 +4367,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:02.444753+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T22:48:16.380690+00:00",
+      "summaryAttempts": 16,
       "summaryError": "invalid_length"
     },
     {
@@ -4365,8 +4382,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:29.393254+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-26T22:48:42.868365+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -4482,8 +4499,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:29.286184+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-26T22:48:42.766872+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -6095,8 +6112,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-24T11:22:01.801563+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T22:48:15.974129+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -6111,8 +6128,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-24T11:22:01.849619+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T22:48:16.089393+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -6127,8 +6144,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:02.229359+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T22:48:16.143131+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -6142,8 +6159,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:02.283133+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T22:48:16.237182+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -6157,8 +6174,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-24T16:09:02.365270+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T22:48:16.338716+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -8177,10 +8194,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 8,
+    "created": 1,
+    "failed": 11,
     "pending": 43,
-    "checkedAt": "2026-10-26T13:26:02.108442+00:00"
+    "checkedAt": "2026-10-26T22:48:43.153421+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
