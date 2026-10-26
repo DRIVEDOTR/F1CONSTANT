@@ -1,24 +1,111 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-26T05:03:07.440215+00:00",
+  "collectedAt": "2026-10-26T13:21:37.546558+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-26T05:03:07.440215+00:00"
+      "checkedAt": "2026-10-26T13:21:37.546558+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-10-26T05:03:07.440215+00:00"
+      "count": 49,
+      "checkedAt": "2026-10-26T13:21:37.546558+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7082425a2d9c9f91dcdd",
+      "title": "'He doesn't feel pressure!' - how Antonelli is cruising to title",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cqly02nlknjno",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-26T11:48:45+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
+      "summaryAttemptAt": "2026-10-26T13:21:38.324206+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "« Il ne se sent pas de pression ! » - Antonelli s'envole vers la victoire",
+      "summaryFr": "Rosanna Tennant, Guenther Steiner et Damon Hill évoquent la performance exceptionnelle de Kimi Antonelli au Grand Prix des États-Unis. Aucune information sur les résultats ou les performances techniques n'est confirmée. La rumeur d'un titre en perspective reste sans fondement.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T13:22:18.367248+00:00"
+    },
+    {
+      "id": "bae04266c433e7563587",
+      "title": "Deux problèmes récurrents chez Red Bull : \"On devrait communiquer en langue des signes !\"",
+      "url": "https://fr.motorsport.com/f1/news/problemes-recurrents-red-bull-departs-radio/10868546/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-26T10:15:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
+      "summaryAttemptAt": "2026-10-26T13:22:18.367275+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen termine sixième à Austin malgré un podium",
+      "summaryFr": "Max Verstappen a remporté son dixième podium de la saison 2026, sixième consécutif, à Austin. Cependant, après son accident à Zandvoort, il n'a plus terminé une course en dehors du top 3. Le rythme au Circuit des Amériques a été jugé insuffisant par le pilote.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T13:23:03.121380+00:00"
+    },
+    {
+      "id": "2287d1a7395a08ca4123",
+      "title": "Alonso dénonce le niveau des pilotes de fond de grille en F1",
+      "url": "https://fr.motorsport.com/f1/news/alonso-denonce-pilotes-fond-grille-austin/10868531/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-26T08:27:00+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
+      "summaryAttemptAt": "2026-10-26T13:23:03.121403+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso accuse Albon d'un contact au départ du GP des États-Unis",
+      "summaryFr": "Fernando Alonso a dénoncé Alexander Albon après un contact au premier tour du Grand Prix des États-Unis, qui a fait perdre quatre places à Alonso et endommagé le fond plat de son AMR26. L'incident a affecté les performances de la monoplace pour le reste de la course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T13:23:45.722129+00:00"
+    },
+    {
+      "id": "03cf382e99c2f93d48d8",
+      "title": "Russell déconcerté par son manque de rythme malgré les évolutions de Mercedes",
+      "url": "https://fr.motorsport.com/f1/news/russell-deconcerte-manque-rythme-austin/10868488/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-26T05:42:42+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T13:21:37.546558+00:00",
+      "summaryAttemptAt": "2026-10-26T13:23:45.722152+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell déconcerté par son manque de rythme malgré les évolutions de Mercedes",
+      "summaryFr": "George Russell a manqué de rythme au Grand Prix des États-Unis, terminant huitième après une pénalité de cinq secondes. Son coéquipier Kimi Antonelli a dominé la course depuis la pole, s'approchant du titre mondial. Le problème de Russell reste une rumeur sans réponse officielle.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-26T13:24:29.993294+00:00"
+    },
     {
       "id": "41da797c6682f1d0bd38",
       "title": "How to follow Mexico City Grand Prix on the BBC",
@@ -42,9 +129,7 @@
       "language": "en",
       "publishedAt": "2026-10-26T01:48:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
       "summaryAttemptAt": "2026-10-26T05:03:34.760560+00:00",
@@ -104,8 +189,6 @@
       "language": "fr",
       "publishedAt": "2026-10-25T22:10:32+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
@@ -126,8 +209,7 @@
       "language": "fr",
       "publishedAt": "2026-10-25T21:49:25+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
       "summaryAttemptAt": "2026-10-26T05:06:09.680267+00:00",
@@ -1929,8 +2011,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-24T11:22:01.627782+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-26T13:26:01.981650+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -2899,8 +2981,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-24T11:21:39.725598+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-26T13:25:34.926183+00:00",
+      "summaryAttempts": 11,
       "summaryError": "invalid_length"
     },
     {
@@ -5438,8 +5520,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-24T11:20:44.872005+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T13:24:29.993317+00:00",
+      "summaryAttempts": 16,
       "summaryError": "unsupported_number"
     },
     {
@@ -5574,8 +5656,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-24T11:21:17.768635+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T13:25:08.676739+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -5649,8 +5731,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-24T11:21:17.912136+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T13:25:08.797068+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -5948,8 +6030,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-24T11:21:18.050235+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T13:25:08.825657+00:00",
+      "summaryAttempts": 16,
       "summaryError": "invalid_length"
     },
     {
@@ -5983,8 +6065,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-24T11:21:39.675860+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T13:25:34.884108+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -5998,8 +6080,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-24T11:22:01.742613+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-26T13:26:02.022189+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -8095,10 +8177,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
+    "created": 4,
+    "failed": 8,
     "pending": 43,
-    "checkedAt": "2026-10-26T05:08:34.894319+00:00"
+    "checkedAt": "2026-10-26T13:26:02.108442+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
