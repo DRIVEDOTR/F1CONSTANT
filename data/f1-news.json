@@ -1,24 +1,75 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-27T05:19:07.844062+00:00",
+  "collectedAt": "2026-10-27T12:29:43.721461+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-27T05:19:07.844062+00:00"
+      "checkedAt": "2026-10-27T12:29:43.721461+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-27T05:19:07.844062+00:00"
+      "checkedAt": "2026-10-27T12:29:43.721461+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "f33498e381d9a13778ce",
+      "title": "Hadjar réclame une refonte de l'embrayage Red Bull après un nouveau départ raté",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-reclame-refonte-embrayage-depart-rate/10868682/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-27T12:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
+      "summaryAttemptAt": "2026-10-27T12:29:44.433038+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar demande une refonte de l'embrayage Red Bull après départ raté",
+      "summaryFr": "Isack Hadjar a réclamé une révision de l'embrayage de sa voiture Red Bull après un départ déficient depuis la troisième place au Grand Prix des États-Unis. Le pilote, qui a qualifié son week-end de \"désastreux\", a souligné le problème lors de son départ, malgré une place sur la deuxième ligne.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-27T12:30:30.700681+00:00"
+    },
+    {
+      "id": "39951a663fd0f9f03c90",
+      "title": "How much of Antonelli's success is down to his ability? - F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde8xjl3xpwo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-27T07:00:23+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
+      "summaryAttemptAt": "2026-10-27T12:30:30.700709+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "c86495fc3e3bf7078287",
+      "title": "Colton Herta entre émotion et incertitude sur son avenir en F1 avec Cadillac",
+      "url": "https://fr.motorsport.com/f1/news/colton-herta-incertitude-avenir-cadillac-2027/10867966/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-27T07:00:02+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
+      "summaryAttemptAt": "2026-10-27T12:30:57.198486+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
     {
       "id": "d6e727837df76e9ba181",
       "title": "Antonelli préfère sa victoire à Austin à son exploit de Monza : voici pourquoi",
@@ -132,8 +183,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-10-26T05:03:07.901098+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-27T12:32:39.892801+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -368,8 +419,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
-      "summaryAttemptAt": "2026-10-25T21:01:19.660727+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-27T12:31:55.961294+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -3421,8 +3472,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-25T11:51:41.726786+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-27T12:31:29.257817+00:00",
+      "summaryAttempts": 13,
       "summaryError": "invalid_length"
     },
     {
@@ -4270,8 +4321,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-25T11:51:41.591193+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-27T12:31:29.149744+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -8192,10 +8243,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
-    "pending": 43,
-    "checkedAt": "2026-10-27T05:23:11.301199+00:00"
+    "created": 1,
+    "failed": 6,
+    "pending": 45,
+    "checkedAt": "2026-10-27T12:33:06.727823+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
