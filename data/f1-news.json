@@ -1,24 +1,98 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-27T12:29:43.721461+00:00",
+  "collectedAt": "2026-10-27T22:26:47.033876+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-27T12:29:43.721461+00:00"
+      "checkedAt": "2026-10-27T22:26:47.033876+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-27T12:29:43.721461+00:00"
+      "checkedAt": "2026-10-27T22:26:47.033876+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "0e063f69e628a37e4873",
+      "title": "Valtteri Bottas dément être menacé chez Cadillac pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/valtteri-bottas-dement-menace-2027-cadillac/10868918/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-27T17:45:31+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
+      "summaryAttemptAt": "2026-10-27T22:26:47.631078+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "44b2a01050634a94c907",
+      "title": "Colapinto et Russell privés d'EL1 au Grand Prix de Mexico",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-russell-prives-el1-gp-mexique-rookies/10868896/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-27T16:13:47+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
+      "summaryAttemptAt": "2026-10-27T22:27:15.612769+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "c61da4d257a65adf9161",
+      "title": "Pourquoi McLaren a donné une consigne d'équipe à Piastri au GP des États-Unis",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-mclaren-consigne-equipe-piastri-austin/10868704/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-27T16:00:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
+      "summaryAttemptAt": "2026-10-27T22:27:43.453985+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren donne une consigne à Piastri pour laisser Norris partir en quatrième ligne",
+      "summaryFr": "Le directeur de McLaren, Andrea Stella, a précisé que l'écurie a demandé à Oscar Piastri de laisser passer Lando Norris sur la grille du GP des États-Unis. Les deux pilotes se sont classés en quatrième ligne après avoir échoué à concurrencer les Mercedes, les Red Bull et les Ferrari en Q3.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-27T22:28:10.844466+00:00"
+    },
+    {
+      "id": "2eda7ff610af3de2e951",
+      "title": "Simpler, cheaper hybrid V8s proposed for next F1 rules",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw4g186011rdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-27T15:17:53+00:00",
+      "topics": [
+        "ecuries",
+        "competition",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
+      "summaryAttemptAt": "2026-10-27T22:28:10.844494+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Proposition de V8 hybrides plus simples et moins chers pour les prochaines règles de F1",
+      "summaryFr": "Les prochaines règles de Formule 1 prévoiraient des moteurs V8 hybrides simplifiés et moins coûteux que les actuels. Cette proposition vise à réduire les coûts des groupes propulseurs tout en maintenant une performance aérodynamique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-27T22:28:36.710740+00:00"
+    },
     {
       "id": "f33498e381d9a13778ce",
       "title": "Hadjar réclame une refonte de l'embrayage Red Bull après un nouveau départ raté",
@@ -51,8 +125,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-27T12:30:30.700709+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-27T22:28:53.400679+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -66,8 +140,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-27T12:30:57.198486+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-27T22:29:09.712466+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -495,8 +569,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-25T21:00:52.989802+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-27T22:28:36.822507+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -1355,9 +1429,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-25T21:00:22.096499+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-10-27T22:28:36.710765+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "7c40b970881ade68d21e",
@@ -8243,10 +8317,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
+    "created": 2,
     "failed": 6,
-    "pending": 45,
-    "checkedAt": "2026-10-27T12:33:06.727823+00:00"
+    "pending": 47,
+    "checkedAt": "2026-10-27T22:29:29.538436+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
