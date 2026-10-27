@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-26T22:47:31.937248+00:00",
+  "collectedAt": "2026-10-27T05:19:07.844062+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-26T22:47:31.937248+00:00"
+      "checkedAt": "2026-10-27T05:19:07.844062+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-26T22:47:31.937248+00:00"
+      "checkedAt": "2026-10-27T05:19:07.844062+00:00"
     }
   ],
   "articles": [
@@ -27,9 +27,7 @@
       "language": "fr",
       "publishedAt": "2026-10-26T14:56:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-26T22:47:31.937248+00:00",
       "summaryAttemptAt": "2026-10-26T22:47:32.496239+00:00",
@@ -647,8 +645,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-10-25T11:51:58.223970+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-27T05:22:42.845571+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -683,8 +681,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-10-24T21:04:27.685311+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-27T05:22:13.469859+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -757,8 +755,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-24T21:03:02.693004+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-27T05:21:15.653626+00:00",
+      "summaryAttempts": 4,
       "summaryError": "unsupported_number"
     },
     {
@@ -773,8 +771,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-24T21:03:30.916589+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-27T05:21:44.762444+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -929,8 +927,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-24T21:02:14.442374+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-27T05:20:24.817048+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -985,8 +983,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-24T21:02:33.547742+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-27T05:20:44.861214+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1042,8 +1040,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-10-24T21:01:46.959538+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-27T05:19:55.876572+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1097,8 +1095,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-24T21:01:18.972812+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-27T05:19:26.541786+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1250,8 +1248,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-24T21:01:02.368047+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-27T05:19:09.017027+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -1422,9 +1420,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-25T05:01:34.065883+00:00",
-      "summaryAttempts": 6,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-10-27T05:22:42.749513+00:00",
+      "summaryAttempts": 7,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "1984fa4e293aa7226d13",
@@ -1632,8 +1630,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-24T21:01:02.215457+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-27T05:19:08.876154+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -2325,8 +2323,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-25T05:01:33.982819+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-27T05:22:42.676262+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -8194,10 +8192,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
+    "created": 0,
+    "failed": 12,
     "pending": 43,
-    "checkedAt": "2026-10-26T22:48:43.153421+00:00"
+    "checkedAt": "2026-10-27T05:23:11.301199+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
