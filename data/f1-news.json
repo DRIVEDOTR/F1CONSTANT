@@ -1,24 +1,83 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-28T13:16:29.017748+00:00",
+  "collectedAt": "2026-10-28T22:43:46.215295+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 50,
-      "checkedAt": "2026-10-28T13:16:29.017748+00:00"
+      "count": 49,
+      "checkedAt": "2026-10-28T22:43:46.215295+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-28T13:16:29.017748+00:00"
+      "checkedAt": "2026-10-28T22:43:46.215295+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7cf3d1560c3a26587ec6",
+      "title": "Max Verstappen absent en EL1 au Mexique avec Red Bull",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-absent-el1-gp-mexico/10869142/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T17:57:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-28T22:43:46.215295+00:00",
+      "summaryAttemptAt": "2026-10-28T22:43:47.438807+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Max Verstappen absent en EL1 au Mexique avec Red Bull",
+      "summaryFr": "Max Verstappen ne participe pas aux premières séances d'essais libres au Grand Prix de Mexico. Red Bull poursuit son programme de roulage des rookies en EL1, en accord avec les exigences de quatre séances d'essais libres pour les pilotes débutants.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T22:44:32.949076+00:00"
+    },
+    {
+      "id": "56014e227d984606eb8d",
+      "title": "Perez signs multi-year extension with Cadillac",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-28T16:10:07+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-28T22:43:46.215295+00:00",
+      "summaryAttemptAt": "2026-10-28T22:44:32.949102+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "bd6e348d398f19c74be6",
+      "title": "Sergio Pérez prolonge pour plusieurs années chez Cadillac",
+      "url": "https://fr.motorsport.com/f1/news/sergio-perez-prolonge-plusieurs-annees-cadillac/10869104/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T15:09:39+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-28T22:43:46.215295+00:00",
+      "summaryAttemptAt": "2026-10-28T22:45:00.360162+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Sergio Pérez prolonge son contrat avec Cadillac jusqu'en 2029",
+      "summaryFr": "Sergio Pérez a signé un nouveau contrat avec Cadillac pour rester en Formule 1 jusqu'en 2029. Le pilote mexicain a rejoint l'écurie en 2026 après avoir quitté Red Bull. Malgré une première saison en dents de scie, il reste engagé pour plusieurs années.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T22:45:46.845871+00:00"
+    },
     {
       "id": "fc68cd7b5c019bf1f61a",
       "title": "Wolff défend Russell après les critiques de Marko sur son avenir en F1",
@@ -27,8 +86,7 @@
       "language": "fr",
       "publishedAt": "2026-10-28T12:00:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
       "summaryAttemptAt": "2026-10-28T13:16:29.775395+00:00",
@@ -48,8 +106,7 @@
       "language": "fr",
       "publishedAt": "2026-10-28T10:56:42+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
       "summaryAttemptAt": "2026-10-28T13:16:57.890735+00:00",
@@ -69,8 +126,7 @@
       "language": "fr",
       "publishedAt": "2026-10-28T10:30:03+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
       "summaryAttemptAt": "2026-10-28T13:17:27.092991+00:00",
@@ -90,8 +146,6 @@
       "language": "fr",
       "publishedAt": "2026-10-28T09:30:03+00:00",
       "topics": [
-        "ecuries",
-        "pilotes",
         "competition"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
@@ -128,8 +182,7 @@
       "language": "fr",
       "publishedAt": "2026-10-28T08:06:36+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
       "summaryAttemptAt": "2026-10-28T13:18:48.787309+00:00",
@@ -153,8 +206,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:51.934687+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-28T22:47:25.638404+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -2271,8 +2324,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-26T13:26:01.981650+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-28T22:47:25.375373+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -3241,8 +3294,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-26T13:25:34.926183+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-28T22:46:56.907735+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -5780,8 +5833,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-26T13:24:29.993317+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T22:45:46.845898+00:00",
+      "summaryAttempts": 17,
       "summaryError": "unsupported_number"
     },
     {
@@ -5916,8 +5969,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-26T13:25:08.676739+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T22:46:28.577159+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -5991,8 +6044,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-26T13:25:08.797068+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T22:46:28.716720+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -6290,8 +6343,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-26T13:25:08.825657+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T22:46:28.797457+00:00",
+      "summaryAttempts": 17,
       "summaryError": "invalid_length"
     },
     {
@@ -6325,8 +6378,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-26T13:25:34.884108+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T22:46:56.784298+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -6340,8 +6393,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-26T13:26:02.022189+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T22:47:25.507939+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -8437,10 +8490,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 4,
-    "pending": 48,
-    "checkedAt": "2026-10-28T13:20:21.785159+00:00"
+    "created": 2,
+    "failed": 10,
+    "pending": 49,
+    "checkedAt": "2026-10-28T22:48:12.033893+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
