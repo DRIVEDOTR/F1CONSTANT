@@ -1,21 +1,21 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-27T22:26:47.033876+00:00",
+  "collectedAt": "2026-10-28T05:58:00.521065+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-27T22:26:47.033876+00:00"
+      "checkedAt": "2026-10-28T05:58:00.521065+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-27T22:26:47.033876+00:00"
+      "checkedAt": "2026-10-28T05:58:00.521065+00:00"
     }
   ],
   "articles": [
@@ -31,8 +31,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-10-27T22:26:47.631078+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-28T05:58:51.934687+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -46,8 +46,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-10-27T22:27:15.612769+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-28T05:59:20.970889+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -79,8 +79,6 @@
       "language": "en",
       "publishedAt": "2026-10-27T15:17:53+00:00",
       "topics": [
-        "ecuries",
-        "competition",
         "voitures"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
@@ -257,8 +255,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-10-27T12:32:39.892801+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-28T05:58:35.084466+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -1316,9 +1314,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-10-26T05:07:46.188074+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-28T05:58:35.027571+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "ee15007cb62e7c149f1c",
@@ -2586,8 +2584,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-26T05:07:19.519273+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-28T05:58:17.935812+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -2823,8 +2821,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-26T05:07:46.060478+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-28T05:58:34.924629+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4066,8 +4064,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-26T05:07:19.242452+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-28T05:58:17.729515+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -4081,8 +4079,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-26T05:07:19.420070+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-28T05:58:17.828755+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -5501,8 +5499,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-26T05:06:52.107272+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-28T05:58:01.032894+00:00",
+      "summaryAttempts": 17,
       "summaryError": "invalid_length"
     },
     {
@@ -8317,10 +8315,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 6,
+    "created": 0,
+    "failed": 9,
     "pending": 47,
-    "checkedAt": "2026-10-27T22:29:29.538436+00:00"
+    "checkedAt": "2026-10-28T05:59:50.208899+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
