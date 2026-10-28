@@ -1,24 +1,146 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-28T05:58:00.521065+00:00",
+  "collectedAt": "2026-10-28T13:16:29.017748+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-10-28T05:58:00.521065+00:00"
+      "count": 50,
+      "checkedAt": "2026-10-28T13:16:29.017748+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-28T05:58:00.521065+00:00"
+      "checkedAt": "2026-10-28T13:16:29.017748+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "fc68cd7b5c019bf1f61a",
+      "title": "Wolff défend Russell après les critiques de Marko sur son avenir en F1",
+      "url": "https://fr.motorsport.com/f1/news/wolff-defend-russell-critiques-marko/10869000/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T12:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
+      "summaryAttemptAt": "2026-10-28T13:16:29.775395+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Wolff défend Russell après les critiques de Marko sur son avenir en F1",
+      "summaryFr": "Toto Wolff a réfuté les affirmations de Helmut Marko selon lesquelles George Russell ne pourrait pas se relever après une défaite contre Kimi Antonelli. Le champion du monde Antonelli devrait être couronné dès le prochain week-end, selon une rumeur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T13:16:57.890707+00:00"
+    },
+    {
+      "id": "7be4ef01e8908bbe3b39",
+      "title": "L'équipe de Lando Norris obtient une place sur la grille de F2",
+      "url": "https://fr.motorsport.com/fia-f2/news/equipe-lando-norris-obtient-place-f2/10869042/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T10:56:42+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
+      "summaryAttemptAt": "2026-10-28T13:16:57.890735+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "LN4 Fusion rejoint la Formule 2 pour la saison 2027",
+      "summaryFr": "L'écurie LN4 Fusion, fondée par Lando Norris, obtient une place sur la grille de Formule 2 en 2027. Elle est la seule nouvelle écurie sélectionnée pour le prochain cycle de trois ans. L'annonce de sa création a été faite en septembre, avec des projets dévoilés en Formule 3 et en autre compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T13:17:27.092964+00:00"
+    },
+    {
+      "id": "110505119c56dd809f25",
+      "title": "Comment Antonelli peut être sacré champion du monde au GP de Mexico",
+      "url": "https://fr.motorsport.com/f1/news/comment-kimi-antonelli-peut-decrocher-titre-mondial-mexico/10868688/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T10:30:03+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
+      "summaryAttemptAt": "2026-10-28T13:17:27.092991+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte le GP des États-Unis pour neufième victoire en saison",
+      "summaryFr": "Kimi Antonelli remporte le Grand Prix des États-Unis depuis la pole position, pour sa neuvième victoire de la saison 2026. Le pilote Mercedes s'approche du titre mondial, qui lui semble déjà promis. La date de sa coronation reste incertaine.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T13:17:54.817873+00:00"
+    },
+    {
+      "id": "cbd9414c22c1185583b9",
+      "title": "Le programme du GP de Mexico F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-mexico-2026-dates-horaires-infos-programme/10868803/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T09:30:03+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
+      "summaryAttemptAt": "2026-10-28T13:17:54.817914+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le GP de Mexico 2026 : 19e manche de la saison",
+      "summaryFr": "Le Grand Prix de Mexico sera la 19e manche de la saison 2026 de Formule 1. Le décalage horaire avec le pays est de sept heures. Kimi Antonelli aura une deuxième chance de devenir champion du monde sur l'Autódromo Hermanos Rodríguez.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T13:18:22.920152+00:00"
+    },
+    {
+      "id": "958af0c4755375ebf939",
+      "title": "Audi F1 retrouve un patron à la tête de son département moteur",
+      "url": "https://fr.motorsport.com/f1/news/audi-nouveau-patron-moteur/10869009/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T09:03:41+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
+      "summaryAttemptAt": "2026-10-28T13:18:22.920178+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "451f855973b28c64c78b",
+      "title": "La FIA s'associe à AWS pour préparer les futurs règlements de la F1",
+      "url": "https://fr.motorsport.com/f1/news/fia-partenaire-aws-futurs-reglements/10868998/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-28T08:06:36+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
+      "summaryAttemptAt": "2026-10-28T13:18:48.787309+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La FIA et AWS modernisent les outils de conception des règlements F1",
+      "summaryFr": "La FIA a signé un partenariat avec Amazon Web Services pour utiliser l'intelligence artificielle et le cloud computing. Ce partenariat vise à renforcer la conception des futurs règlements de la Formule 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-28T13:19:15.348254+00:00"
+    },
     {
       "id": "0e063f69e628a37e4873",
       "title": "Valtteri Bottas dément être menacé chez Cadillac pour 2027",
@@ -123,8 +245,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-27T22:28:53.400679+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-28T13:19:44.377581+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -138,8 +260,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-27T22:29:09.712466+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-28T13:20:01.553096+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -491,8 +613,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
-      "summaryAttemptAt": "2026-10-27T12:31:55.961294+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-28T13:19:15.348285+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -8315,10 +8437,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 9,
-    "pending": 47,
-    "checkedAt": "2026-10-28T05:59:50.208899+00:00"
+    "created": 5,
+    "failed": 4,
+    "pending": 48,
+    "checkedAt": "2026-10-28T13:20:21.785159+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
