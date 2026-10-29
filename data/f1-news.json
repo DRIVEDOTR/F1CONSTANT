@@ -1,24 +1,140 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-29T13:23:50.833289+00:00",
+  "collectedAt": "2026-10-29T22:53:07.204031+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-29T13:23:50.833289+00:00"
+      "checkedAt": "2026-10-29T22:53:07.204031+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-29T13:23:50.833289+00:00"
+      "checkedAt": "2026-10-29T22:53:07.204031+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "c67ecb2e94793a50a8d0",
+      "title": "Antonelli to miss Mexico media day with illness",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cke8rlrrzpqyo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-29T17:25:00+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-29T22:53:07.204031+00:00",
+      "summaryAttemptAt": "2026-10-29T22:53:07.705162+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli absente du jour de presse à Mexico à cause d'une maladie",
+      "summaryFr": "Kimi Antonelli ne participera pas au jour de presse du Grand Prix de Mexico en raison d'une maladie. Il se trouve à la limite de remporter son premier titre mondial.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-29T22:53:45.227620+00:00"
+    },
+    {
+      "id": "279e2f82456ca32cb87c",
+      "title": "Kimi Antonelli malade et absent de la journée médias à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-malade-jeudi-gp-mexico/10869369/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T17:06:30+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-29T22:53:07.204031+00:00",
+      "summaryAttemptAt": "2026-10-29T22:53:45.227645+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli absent des activités médiatiques à Mexico à cause d'une infection",
+      "summaryFr": "Kimi Antonelli ne participera pas aux activités médiatiques du jeudi à Mexico en raison d'une infection virale. L'équipe Mercedes a confirmé son état de souffrance. La FIA l'a dispensé de ses obligations médiatiques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-29T22:54:27.207886+00:00"
+    },
+    {
+      "id": "41da797c6682f1d0bd38",
+      "title": "How to follow Mexico City Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyrgejp0w8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-29T16:31:01+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
+      "summaryAttemptAt": "2026-10-29T22:58:16.213201+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "a24df7d449be3e547bd9",
+      "title": "Daniel Ricciardo n'exclut pas un retour à la compétition aux 24 Heures du Mans",
+      "url": "https://fr.motorsport.com/wec/news/daniel-ricciardo-le-mans-max-verstappen-sebastian-vettel/10869330/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T16:01:20+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-29T22:53:07.204031+00:00",
+      "summaryAttemptAt": "2026-10-29T22:54:27.207908+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Daniel Ricciardo ne ferme pas la porte d'un retour aux 24 Heures du Mans",
+      "summaryFr": "Le vainqueur de huit Grands Prix reconnaît que sa carrière en Formule 1 est probablement terminée, mais ne exclut pas une apparition future aux 24 Heures du Mans. Il a quitté la F1 à contrecœur, sans déclaration officielle sur un retour en compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-29T22:55:11.438872+00:00"
+    },
+    {
+      "id": "bea697c4e29627b13a9e",
+      "title": "Daniel Ricciardo regrette-t-il d'avoir quitté Red Bull pour Renault ?",
+      "url": "https://fr.motorsport.com/f1/news/daniel-ricciardo-regret-carriere-renault-red-bull/10869324/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T15:05:53+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-29T22:53:07.204031+00:00",
+      "summaryAttemptAt": "2026-10-29T22:55:11.438894+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ricciardo rejoint Renault après dix ans à Red Bull",
+      "summaryFr": "Daniel Ricciardo, l'un des pilotes les plus cotés du paddock, quitte Red Bull pour rejoindre Renault. Le passage est le résultat d'une proposition de Cyril Abiteboul. Ce changement marque une étape importante dans la carrière du pilote.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-29T22:55:53.353250+00:00"
+    },
+    {
+      "id": "e27d8f081f8c83188b66",
+      "title": "Cadillac rend hommage à Pérez avant son 300e GP : \"Un honneur de l'avoir avec nous\"",
+      "url": "https://fr.motorsport.com/f1/news/cadillac-perez-hommage-300-gp-honneur/10869251/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T14:25:07+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-29T22:53:07.204031+00:00",
+      "summaryAttemptAt": "2026-10-29T22:55:53.353272+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Pérez hommage à son 300e GP avec Cadillac",
+      "summaryFr": "Le président de General Motors, Mark Reuss, a salué Sergio Pérez avant son 300e Grand Prix, qualifiant ce moment d'\"honneur\". Le Mexicain devient ainsi le septième pilote de l'histoire à atteindre ce cap.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-29T22:56:36.191298+00:00"
+    },
     {
       "id": "281c8115e5db199d7ac1",
       "title": "Sebastian Vettel révèle pourquoi BMW ne voulait pas de lui, contrairement à Red Bull",
@@ -470,21 +586,6 @@
       "summaryAt": "2026-10-26T13:24:29.993294+00:00"
     },
     {
-      "id": "41da797c6682f1d0bd38",
-      "title": "How to follow Mexico City Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyrgejp0w8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-26T02:21:04+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:35.084466+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "invalid_length"
-    },
-    {
       "id": "c3079ea0200319ffa7f0",
       "title": "Antonelli superb and Leclerc close to perfect - driver ratings",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cmpwgnekx1e0o",
@@ -792,8 +893,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-27T22:28:36.822507+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-29T22:57:48.540432+00:00",
+      "summaryAttempts": 8,
       "summaryError": "invalid_length"
     },
     {
@@ -993,8 +1094,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-10-27T05:22:42.845571+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-29T22:56:36.269212+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1652,8 +1753,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-27T22:28:36.710765+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-29T22:57:48.449615+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -1768,8 +1869,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-27T05:22:42.749513+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-29T22:56:36.191324+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3769,8 +3870,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-27T12:31:29.257817+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-10-29T22:57:20.871104+00:00",
+      "summaryAttempts": 14,
       "summaryError": "invalid_length"
     },
     {
@@ -4618,8 +4719,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-27T12:31:29.149744+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-29T22:57:20.805702+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -8540,10 +8641,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
+    "created": 5,
+    "failed": 7,
     "pending": 51,
-    "checkedAt": "2026-10-29T13:29:11.221709+00:00"
+    "checkedAt": "2026-10-29T22:58:43.652356+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
