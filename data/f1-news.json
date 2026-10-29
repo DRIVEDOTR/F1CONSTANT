@@ -1,24 +1,75 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-29T06:04:19.048892+00:00",
+  "collectedAt": "2026-10-29T13:23:50.833289+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-29T06:04:19.048892+00:00"
+      "checkedAt": "2026-10-29T13:23:50.833289+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-29T06:04:19.048892+00:00"
+      "checkedAt": "2026-10-29T13:23:50.833289+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "281c8115e5db199d7ac1",
+      "title": "Sebastian Vettel révèle pourquoi BMW ne voulait pas de lui, contrairement à Red Bull",
+      "url": "https://fr.motorsport.com/f1/news/sebastian-vettel-bmw-red-bull/10869303/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T13:02:59+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
+      "summaryAttemptAt": "2026-10-29T13:23:51.576360+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vettel révèle que BMW ne voulait pas de lui, malgré des espoirs initiaux",
+      "summaryFr": "Sebastian Vettel confie dans un documentaire que BMW n'a pas voulu l'adopter au départ, malgré des espoirs initiaux. Le quadruple champion du monde explique que la relation n'a pas été comme prévue. Aucune information sur les décisions de l'écurie ou les évolutions techniques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-29T13:24:39.354673+00:00"
+    },
+    {
+      "id": "241687eeb775aa53c2b3",
+      "title": "Pourquoi Aston Martin et Red Bull ont été interrogés sur un possible rapprochement",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-aston-martin-red-bull-interroges-possible-rapprochement/10869227/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T12:30:03+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
+      "summaryAttemptAt": "2026-10-29T13:24:39.354700+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "5e7f4400f00584c4c4ba",
+      "title": "Comment le circuit d'Austin se transforme en complexe de loisirs",
+      "url": "https://fr.motorsport.com/f1/news/comment-cota-austin-transforme-complexe-loisirs/10868824/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-29T06:30:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
+      "summaryAttemptAt": "2026-10-29T13:25:24.086437+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
     {
       "id": "7cf3d1560c3a26587ec6",
       "title": "Max Verstappen absent en EL1 au Mexique avec Red Bull",
@@ -978,8 +1029,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-10-27T05:22:13.469859+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-29T13:28:26.864530+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1052,8 +1103,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-27T05:21:15.653626+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-29T13:26:56.457773+00:00",
+      "summaryAttempts": 5,
       "summaryError": "unsupported_number"
     },
     {
@@ -1068,8 +1119,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-27T05:21:44.762444+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-10-29T13:27:42.012056+00:00",
+      "summaryAttempts": 5,
       "summaryError": "copied_passage"
     },
     {
@@ -1224,8 +1275,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-27T05:20:24.817048+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-10-29T13:26:24.164004+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -1280,9 +1331,9 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-10-27T05:20:44.861214+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-29T13:26:56.389624+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "b4dfe9cff4d132c195ea",
@@ -1337,9 +1388,9 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-10-27T05:19:55.876572+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-29T13:26:24.030691+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "7fb3ed3de45912151098",
@@ -1392,9 +1443,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-27T05:19:26.541786+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-10-29T13:26:23.961141+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "80781bd51d291dc3d625",
@@ -1545,8 +1596,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-27T05:19:09.017027+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-29T13:25:55.885198+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -2620,8 +2671,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-27T05:22:42.676262+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-29T13:29:11.077410+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -8489,10 +8540,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
-    "pending": 49,
-    "checkedAt": "2026-10-29T06:04:48.567236+00:00"
+    "created": 1,
+    "failed": 11,
+    "pending": 51,
+    "checkedAt": "2026-10-29T13:29:11.221709+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
