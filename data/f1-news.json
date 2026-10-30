@@ -1,24 +1,65 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-29T22:53:07.204031+00:00",
+  "collectedAt": "2026-10-30T06:05:30.697899+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-29T22:53:07.204031+00:00"
+      "checkedAt": "2026-10-30T06:05:30.697899+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-29T22:53:07.204031+00:00"
+      "checkedAt": "2026-10-30T06:05:30.697899+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "d595c6f5f3fbd9156b6c",
+      "title": "Alex Albon balaie les critiques de Fernando Alonso : \"Il n'y a plus de pilotes payants en F1\"",
+      "url": "https://fr.motorsport.com/f1/news/alex-albon-fernando-alonso-critiques-f1-pilotage/10869537/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-30T05:56:55+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-30T06:05:30.697899+00:00",
+      "summaryAttemptAt": "2026-10-30T06:05:31.361198+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alex Albon contredit Fernando Alonso sur le niveau des pilotes",
+      "summaryFr": "Alex Albon rejette les critiques de Fernando Alonso après un accrochage à Austin, affirmant que les remarques étaient peu agréables. Il nie que les pilotes du tiers inférieur de la grille soient insuffisants. Aucune évaluation du niveau de performance n'est confirmée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-30T06:06:15.113196+00:00"
+    },
+    {
+      "id": "29146ee871236e373b19",
+      "title": "Fernando Alonso persiste et signe sur le niveau de pilotage en F1 : \"On sait tous de qui on parle\"",
+      "url": "https://fr.motorsport.com/f1/news/fernando-alonso-critiques-pilotage-formule-1-alex-albon/10869534/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-30T05:42:41+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-30T06:05:30.697899+00:00",
+      "summaryAttemptAt": "2026-10-30T06:06:15.113220+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso critique le niveau de pilotage après collision en États-Unis",
+      "summaryFr": "Fernando Alonso a dénoncé le niveau de pilotage après avoir été percuté par Alexander Albon au premier tour du Grand Prix des États-Unis. Selon Mike Krack, le choc a causé une perte importante d'appui aérodynamique. Le pilote a souligné la situation sans préciser de suite les mesures à prendre.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-30T06:07:00.452487+00:00"
+    },
     {
       "id": "c67ecb2e94793a50a8d0",
       "title": "Antonelli to miss Mexico media day with illness",
@@ -123,7 +164,8 @@
       "language": "fr",
       "publishedAt": "2026-10-29T14:25:07+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
       "firstSeenAt": "2026-10-29T22:53:07.204031+00:00",
       "summaryAttemptAt": "2026-10-29T22:55:53.353272+00:00",
@@ -336,8 +378,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
-      "summaryAttemptAt": "2026-10-28T13:18:22.920178+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-30T06:08:42.392456+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -387,8 +429,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-10-28T05:59:20.970889+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-10-30T06:07:56.571616+00:00",
+      "summaryAttempts": 3,
       "summaryError": "copied_passage"
     },
     {
@@ -464,8 +506,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-28T13:19:44.377581+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-30T06:09:23.354018+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -479,8 +521,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-28T13:20:01.553096+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-30T06:09:51.364808+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -1640,8 +1682,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:35.027571+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-30T06:07:56.485511+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -2910,8 +2952,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:17.935812+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-30T06:07:28.271106+00:00",
+      "summaryAttempts": 13,
       "summaryError": "invalid_length"
     },
     {
@@ -3147,8 +3189,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:34.924629+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-10-30T06:07:56.415882+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4390,8 +4432,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:17.729515+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-30T06:07:28.097726+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -4405,8 +4447,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:17.828755+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-10-30T06:07:28.203284+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -5825,8 +5867,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-28T05:58:01.032894+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-30T06:07:00.452510+00:00",
+      "summaryAttempts": 18,
       "summaryError": "invalid_length"
     },
     {
@@ -8641,10 +8683,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
+    "created": 2,
+    "failed": 10,
     "pending": 51,
-    "checkedAt": "2026-10-29T22:58:43.652356+00:00"
+    "checkedAt": "2026-10-30T06:10:24.388310+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
