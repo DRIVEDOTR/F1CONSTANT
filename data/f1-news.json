@@ -1,24 +1,64 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-30T06:05:30.697899+00:00",
+  "collectedAt": "2026-10-30T13:14:49.236452+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-30T06:05:30.697899+00:00"
+      "checkedAt": "2026-10-30T13:14:49.236452+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-30T06:05:30.697899+00:00"
+      "checkedAt": "2026-10-30T13:14:49.236452+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e961e796657c2f11c2f5",
+      "title": "F1 has never had anyone like me - Hamilton",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmvg9z1v33keo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-30T07:25:41+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-30T13:14:49.236452+00:00",
+      "summaryAttemptAt": "2026-10-30T13:14:50.101764+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton : \"Jamais de pilote comme moi\"",
+      "summaryFr": "Lewis Hamilton affirme être un pilote unique dans l'histoire de la Formule 1 et réaffirme son engagement à continuer de courir dans ses années quarante. Il ne précise pas les raisons de cette détermination.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-30T13:15:14.837925+00:00"
+    },
+    {
+      "id": "f2303ae32140a1439bc5",
+      "title": "George Russell à propos de la perte du titre en F1 : \"Cette année ne me brisera pas\"",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-f1-champion-cette-annee-ne-me-brisera-pas/10869548/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-30T06:58:12+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-30T13:14:49.236452+00:00",
+      "summaryAttemptAt": "2026-10-30T13:15:14.837956+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "George Russell : \"Cette année ne me brisera pas\"",
+      "summaryFr": "George Russell affirme que la perte du titre ne le déterminera pas et qu'il ne sera pas brisé par son échec cette saison. Le Britannique, qui avait débuté la saison comme grand favori, a souligné que sa carrière ne sera pas définie par cette déception.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-30T13:15:42.789424+00:00"
+    },
     {
       "id": "d595c6f5f3fbd9156b6c",
       "title": "Alex Albon balaie les critiques de Fernando Alonso : \"Il n'y a plus de pilotes payants en F1\"",
@@ -47,8 +87,7 @@
       "language": "fr",
       "publishedAt": "2026-10-30T05:42:41+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-30T06:05:30.697899+00:00",
       "summaryAttemptAt": "2026-10-30T06:06:15.113220+00:00",
@@ -209,8 +248,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-10-29T13:24:39.354700+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-30T13:16:29.844423+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -224,8 +263,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-10-29T13:25:24.086437+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-30T13:16:57.854474+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -261,8 +300,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-28T22:43:46.215295+00:00",
-      "summaryAttemptAt": "2026-10-28T22:44:32.949102+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-10-30T13:15:42.789449+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -414,8 +453,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-10-28T22:47:25.638404+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-10-30T13:16:00.468419+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -8684,9 +8723,9 @@
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 2,
-    "failed": 10,
+    "failed": 4,
     "pending": 51,
-    "checkedAt": "2026-10-30T06:10:24.388310+00:00"
+    "checkedAt": "2026-10-30T13:17:17.506372+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
