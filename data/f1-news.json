@@ -1,24 +1,145 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-31T12:51:41.066429+00:00",
+  "collectedAt": "2026-10-31T21:45:47.958537+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-31T12:51:41.066429+00:00"
+      "checkedAt": "2026-10-31T21:45:47.958537+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-10-31T12:51:41.066429+00:00"
+      "checkedAt": "2026-10-31T21:45:47.958537+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "d8cc68d17edcd08e00a5",
+      "title": "EL3 - Norris et Antonelli dans le même millième à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/el3-gp-mexico-norris-antonelli-meme-millieme/10870226/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T18:40:59+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
+      "summaryAttemptAt": "2026-10-31T21:45:48.967457+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris devance Antonelli de 0\"001 à Mexico",
+      "summaryFr": "Lando Norris a enregistré le meilleur temps de la troisième et dernière séance d'essais libres au Grand Prix de Mexico. Il a devancé de seulement 0\"001 le premier temps de référence, établi par le leader du championnat. Le duo de pilotes s'est classé dans le même millième.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T21:46:36.899873+00:00"
+    },
+    {
+      "id": "18cea068ed80eba27678",
+      "title": "Pas de sanction sportive contre Hadjar après son \"mauvais comportement\"",
+      "url": "https://fr.motorsport.com/f1/news/verdict-commissaires-hadjar-mauvais-comportement-mexico/10870196/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T16:59:15+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
+      "summaryAttemptAt": "2026-10-31T21:46:36.899900+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Pas de sanction contre Hadjar après un incident au paddock",
+      "summaryFr": "Isack Hadjar a été convoqué par les commissaires au Mexique, après un incident vendredi au paddock où il aurait repoussé un individu. Aucune sanction sportive n'a été infligée. Le cas reste une rumeur sans suite officielle.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T21:47:19.831983+00:00"
+    },
+    {
+      "id": "b0043fc05566673bd95e",
+      "title": "Hirakawa replaces Ocon for Mexico City Grand Prix",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/crwydk35zlnvo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-31T15:05:11+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
+      "summaryAttemptAt": "2026-10-31T21:47:19.832012+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hirakawa remplace Ocon au Grand Prix de Mexico",
+      "summaryFr": "Ryo Hirakawa prend la place d'Esteban Ocon dans l'équipe Haas pour le Grand Prix de Mexico. Le changement de pilote est annoncé pour cette épreuve.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T21:47:56.734435+00:00"
+    },
+    {
+      "id": "eff324939fb1f66cfc54",
+      "title": "Hirakawa remplace Ocon chez Haas pour le Grand Prix de Mexico",
+      "url": "https://fr.motorsport.com/f1/news/hirakawa-remplace-ocon-haas-grand-prix-mexico/10870154/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T14:45:24+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
+      "summaryAttemptAt": "2026-10-31T21:47:56.734462+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hirakawa remplace Ocon chez Haas pour le Grand Prix de Mexico",
+      "summaryFr": "Esteban Ocon est écarté pour le Grand Prix de Mexico. Ryo Hirakawa, réserviste de Haas, prend sa place. Le Français avait participé à la deuxième séance d'essais libres, ayant laissé le volant à Hirakawa en EL1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T21:48:41.853816+00:00"
+    },
+    {
+      "id": "5009f60b6f83a0c15be3",
+      "title": "Vasseur calme le jeu après les essais libres prometteurs de Ferrari à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-calme-jeu-essais-libres-ferrari-mexico/10870131/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T14:30:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
+      "summaryAttemptAt": "2026-10-31T21:48:41.853842+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur calme les attentes après essais libres prometteurs de Ferrari à Mexico",
+      "summaryFr": "Frédéric Vasseur a tempéré les espoirs après les essais libres à Mexico, où Charles Leclerc a enregistré les meilleurs temps avec 1'18\"128 en EL1 et 1'17\"827 en EL2. Le pilote de Ferrari a dominé les séances, mais le directeur de l'écureuse a souligné une progression modérée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T21:49:33.361091+00:00"
+    },
+    {
+      "id": "3ee9c07ee163c8a37f3f",
+      "title": "Confusion autour de la Super Licence de Colton Herta : on vous explique tout",
+      "url": "https://fr.motorsport.com/f1/news/colton-hertas-f1-superlicence-confusion-explications/10870138/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T13:38:55+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
+      "summaryAttemptAt": "2026-10-31T21:49:33.361139+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
     {
       "id": "fa96e36e6b7170040084",
       "title": "Lewis Hamilton \"prie\" pour que le moteur de sa Ferrari soit épargné après sa panne en EL2 au Mexique",
@@ -29,7 +150,7 @@
       "topics": [
         "pilotes",
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-31T12:51:41.066429+00:00",
       "summaryAttemptAt": "2026-10-31T12:51:41.772970+00:00",
@@ -49,8 +170,7 @@
       "language": "fr",
       "publishedAt": "2026-10-31T08:23:59+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-31T12:51:41.066429+00:00",
       "summaryAttemptAt": "2026-10-31T12:52:27.210827+00:00",
@@ -70,8 +190,7 @@
       "language": "fr",
       "publishedAt": "2026-10-31T05:55:58+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-31T12:51:41.066429+00:00",
       "summaryAttemptAt": "2026-10-31T12:53:10.447637+00:00",
@@ -91,9 +210,7 @@
       "language": "fr",
       "publishedAt": "2026-10-31T05:34:15+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-31T05:59:30.426795+00:00",
       "summaryAttemptAt": "2026-10-31T12:53:53.922291+00:00",
@@ -1882,8 +1999,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-29T13:26:23.961141+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-10-31T21:50:46.910358+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -2035,8 +2152,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-10-29T13:25:55.885198+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-10-31T21:50:20.172065+00:00",
+      "summaryAttempts": 8,
       "summaryError": "invalid_length"
     },
     {
@@ -2243,8 +2360,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:48.439088+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-10-31T21:50:20.071356+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -2382,8 +2499,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:48.472021+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-31T21:50:20.107232+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -2417,8 +2534,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:48.502598+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-10-31T21:50:20.140308+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4899,8 +5016,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:48.385515+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-10-31T21:50:19.966258+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -8979,10 +9096,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 8,
-    "pending": 53,
-    "checkedAt": "2026-10-31T12:55:08.079377+00:00"
+    "created": 5,
+    "failed": 7,
+    "pending": 54,
+    "checkedAt": "2026-10-31T21:50:46.946922+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
