@@ -1,27 +1,93 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-30T22:31:54.659813+00:00",
+  "collectedAt": "2026-10-31T05:59:30.426795+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-30T22:31:54.659813+00:00"
+      "checkedAt": "2026-10-31T05:59:30.426795+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-10-30T22:31:54.659813+00:00"
+      "checkedAt": "2026-10-31T05:59:30.426795+00:00"
     }
   ],
   "articles": [
     {
+      "id": "e86815440fad3c9a190b",
+      "title": "Max Verstappen et Liam Lawson pénalisés sur la grille du GP du Mexique après leur accrochage en essais libres",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-liam-lawson-f1-mexique-gp-grille-penalites/10869971/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T05:34:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-31T05:59:30.426795+00:00",
+      "summaryAttemptAt": "2026-10-31T05:59:30.864587+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen et Lawson pénalisés sur la grille du GP du Mexique après un accrochage en essais libres",
+      "summaryFr": "Un accrochage entre Max Verstappen et Liam Lawson lors des essais libres au Foro Sol a conduit à des pénalités sur la grille du GP du Mexique. Les deux pilotes ont été sanctionnés pour un contact au virage 12.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T06:00:17.954808+00:00"
+    },
+    {
+      "id": "8779872a8d41f46b331d",
+      "title": "Verstappen and Lawson given grid penalties for Mexico practice collision",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-10-31T03:18:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
+      "summaryAttemptAt": "2026-10-31T06:00:17.954834+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen et Lawson sanctionnés pour collision en pratique au Mexique",
+      "summaryFr": "Max Verstappen reproche à Liam Lawson de « comportement pas très intelligent » après leur collision lors de la pratique du Grand Prix du Mexique. Les deux pilotes ont subi des pénalités sur le grid.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T06:00:55.827164+00:00"
+    },
+    {
+      "id": "dce8abdfe314bb9c93b8",
+      "title": "EL2 - Leclerc confirme devant Norris et Russell à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/el2-gp-mexico-leclerc-confirme/10869847/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-30T23:04:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-31T05:59:30.426795+00:00",
+      "summaryAttemptAt": "2026-10-31T06:00:55.827188+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc confirme son avantage devant Norris et Russell à Mexico",
+      "summaryFr": "Charles Leclerc a enregistré le meilleur temps de la deuxième séance d'essais libres au Grand Prix de Mexico, avec un chrono de 1'17\"827. Il a dominé les essais EL2, après avoir déjà fait preuve de rapidité en EL1 avec 1'18\"128. L'abandon de Hamilton chez Ferrari n'a pas influencé ce résultat.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T06:01:43.036406+00:00"
+    },
+    {
       "id": "1925e0b6191d68012f94",
-      "title": "Contrat de Bearman : Komatsu furieux face aux rumeurs sur ses exigences salariales",
+      "title": "Bearman : la rumeur \"absurde\" qui agace Haas",
       "url": "https://fr.motorsport.com/f1/news/contrat-bearman-komatsu-furieux-rumeurs-salaire-haas/10869836/",
       "source": "Motorsport.com France",
       "language": "fr",
@@ -31,14 +97,14 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-10-30T22:31:55.337810+00:00",
+      "summaryAttemptAt": "2026-10-31T06:01:43.036429+00:00",
       "summaryAttempts": 1,
-      "titleFr": "Rumeur sur les exigences salariales de Bearman alimente les débats",
-      "summaryFr": "Une rumeur circule sur les exigences salariales de Bearman, sans que cela soit confirmé. L'écurie Haas a annoncé le départ d'Esteban Ocon, remplacé par Rafael Câmara en 2027. Aucune information officielle ne vient appuyer ces déclarations.",
+      "titleFr": "Rumeur sur Bearman pour Haas : une information sans fondement",
+      "summaryFr": "Une rumeur circule sur un possible transfert de Bearman vers Haas, mais l'écurie a confirmé son départ d'Esteban Ocon, remplacé par Rafael Câmara. Cette information reste sans preuve et n'est pas officielle.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-10-30T22:32:41.706629+00:00"
+      "summaryAt": "2026-10-31T06:02:25.330743+00:00"
     },
     {
       "id": "9798457b6650e10d9d54",
@@ -56,27 +122,6 @@
       "summaryError": "invalid_length"
     },
     {
-      "id": "8779872a8d41f46b331d",
-      "title": "Leclerc fastest in Mexico City Grand Prix first practice",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-30T19:43:59+00:00",
-      "topics": [
-        "pilotes",
-        "ecuries"
-      ],
-      "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-10-30T22:33:14.809419+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Leclerc le plus rapide en première séance de Mexico",
-      "summaryFr": "Charles Leclerc, pilote de Ferrari, est le plus rapide lors de la première séance de pratique du Grand Prix de Mexico. Aucune information sur les autres pilotes ou écuries n'est fournie.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-10-30T22:33:50.862050+00:00"
-    },
-    {
       "id": "5b9b4fdce332781686e7",
       "title": "EL1 - Leclerc devance Antonelli à Mexico",
       "url": "https://fr.motorsport.com/f1/news/el1-gp-mexico-leclerc-devance-antonelli/10869787/",
@@ -84,9 +129,7 @@
       "language": "fr",
       "publishedAt": "2026-10-30T19:38:06+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
       "summaryAttemptAt": "2026-10-30T22:33:50.862073+00:00",
@@ -141,8 +184,7 @@
       "language": "fr",
       "publishedAt": "2026-10-30T14:24:38+00:00",
       "topics": [
-        "competition",
-        "ecuries"
+        "voitures"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
       "summaryAttemptAt": "2026-10-30T22:36:02.486095+00:00",
@@ -162,8 +204,7 @@
       "language": "fr",
       "publishedAt": "2026-10-30T13:20:01+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
       "summaryAttemptAt": "2026-10-30T22:36:48.356913+00:00",
@@ -2712,8 +2753,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-28T22:47:25.375373+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-10-31T06:04:01.849223+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -3682,8 +3723,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-28T22:46:56.907735+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-10-31T06:03:34.156065+00:00",
+      "summaryAttempts": 13,
       "summaryError": "invalid_length"
     },
     {
@@ -6221,8 +6262,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-28T22:45:46.845898+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T06:02:25.330766+00:00",
+      "summaryAttempts": 18,
       "summaryError": "unsupported_number"
     },
     {
@@ -6357,8 +6398,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-28T22:46:28.577159+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T06:03:06.331587+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6432,8 +6473,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-28T22:46:28.716720+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T06:03:06.405521+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6731,8 +6772,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-28T22:46:28.797457+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T06:03:06.474917+00:00",
+      "summaryAttempts": 18,
       "summaryError": "invalid_length"
     },
     {
@@ -6766,8 +6807,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-28T22:46:56.784298+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T06:03:34.075397+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6781,8 +6822,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-28T22:47:25.507939+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T06:04:01.917598+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -8878,10 +8919,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
-    "failed": 4,
+    "created": 4,
+    "failed": 8,
     "pending": 53,
-    "checkedAt": "2026-10-30T22:38:58.186353+00:00"
+    "checkedAt": "2026-10-31T06:04:02.007297+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
