@@ -1,27 +1,91 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-10-31T05:59:30.426795+00:00",
+  "collectedAt": "2026-10-31T12:51:41.066429+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-10-31T05:59:30.426795+00:00"
+      "checkedAt": "2026-10-31T12:51:41.066429+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-10-31T05:59:30.426795+00:00"
+      "checkedAt": "2026-10-31T12:51:41.066429+00:00"
     }
   ],
   "articles": [
     {
+      "id": "fa96e36e6b7170040084",
+      "title": "Lewis Hamilton \"prie\" pour que le moteur de sa Ferrari soit épargné après sa panne en EL2 au Mexique",
+      "url": "https://fr.motorsport.com/f1/news/lewis-hamilton-ferrari-gp-mexique-moteur-ferrari/10870076/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T10:52:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-10-31T12:51:41.066429+00:00",
+      "summaryAttemptAt": "2026-10-31T12:51:41.772970+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton attend un diagnostic sur son moteur de Ferrari après panne au Mexique",
+      "summaryFr": "Lewis Hamilton reste en attente d'un diagnostic sur le groupe propulseur de sa Ferrari, après une panne survenue lors de la deuxième séance d'essais libres au Mexique. Le septuple champion a perdu de la puissance en ligne droite de départ-arrivée après 28 minutes de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T12:52:27.210802+00:00"
+    },
+    {
+      "id": "63213627a0a870ef27cc",
+      "title": "Hadjar convoqué par les commissaires pour \"mauvais comportement\" dans le paddock",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-convoque-commissaires-paddock-mauvais-comportement-mexico/10870012/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T08:23:59+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-31T12:51:41.066429+00:00",
+      "summaryAttemptAt": "2026-10-31T12:52:27.210827+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar convoqué par les commissaires pour mauvais comportement dans le paddock",
+      "summaryFr": "Isack Hadjar est convoqué par les commissaires de la FIA avant la troisième séance d'essais libres au Grand Prix de Mexico. Le pilote Red Bull doit s'expliquer pour un \"mauvais comportement\" observé vendredi dans le paddock.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T12:53:10.447590+00:00"
+    },
+    {
+      "id": "3121498d73563942fc28",
+      "title": "Verstappen critique Lawson après leur accrochage en EL2 au GP du Mexique",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-critique-liam-lawson-essais-libres-2-accrochage-gp-mexique/10869975/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-10-31T05:55:58+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-10-31T12:51:41.066429+00:00",
+      "summaryAttemptAt": "2026-10-31T12:53:10.447637+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen critique Lawson après leur accrochage au GP du Mexique",
+      "summaryFr": "Max Verstappen a dénoncé le comportement de Liam Lawson après leur collision lors des EL2 au GP du Mexique, qualifiant le geste de \"pas très intelligent\". Le duo de pilotes s'est retrouvé en contact dans le secteur du stade après 15 minutes de séance.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-10-31T12:53:53.922270+00:00"
+    },
+    {
       "id": "e86815440fad3c9a190b",
-      "title": "Max Verstappen et Liam Lawson pénalisés sur la grille du GP du Mexique après leur accrochage en essais libres",
+      "title": "Verstappen et Lawson pénalisés sur la grille du GP du Mexique après leur accrochage en essais libres",
       "url": "https://fr.motorsport.com/f1/news/max-verstappen-liam-lawson-f1-mexique-gp-grille-penalites/10869971/",
       "source": "Motorsport.com France",
       "language": "fr",
@@ -32,14 +96,14 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-31T05:59:30.426795+00:00",
-      "summaryAttemptAt": "2026-10-31T05:59:30.864587+00:00",
+      "summaryAttemptAt": "2026-10-31T12:53:53.922291+00:00",
       "summaryAttempts": 1,
-      "titleFr": "Verstappen et Lawson pénalisés sur la grille du GP du Mexique après un accrochage en essais libres",
-      "summaryFr": "Un accrochage entre Max Verstappen et Liam Lawson lors des essais libres au Foro Sol a conduit à des pénalités sur la grille du GP du Mexique. Les deux pilotes ont été sanctionnés pour un contact au virage 12.",
+      "titleFr": "Verstappen et Lawson pénalisés sur la grille du GP du Mexique après leur accrochage en essais libres",
+      "summaryFr": "Un accrochage est survenu entre Max Verstappen et Liam Lawson lors des essais libres du GP du Mexique. Les deux pilotes ont été pénalisés sur la grille à la suite de l'incident au virage 12. Le détail des sanctions reste à confirmer.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-10-31T06:00:17.954808+00:00"
+      "summaryAt": "2026-10-31T12:54:39.639033+00:00"
     },
     {
       "id": "8779872a8d41f46b331d",
@@ -49,9 +113,7 @@
       "language": "en",
       "publishedAt": "2026-10-31T03:18:06+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
       "summaryAttemptAt": "2026-10-31T06:00:17.954834+00:00",
@@ -71,9 +133,7 @@
       "language": "fr",
       "publishedAt": "2026-10-30T23:04:22+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-10-31T05:59:30.426795+00:00",
       "summaryAttemptAt": "2026-10-31T06:00:55.827188+00:00",
@@ -5092,8 +5152,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:19.876756+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T12:54:39.829077+00:00",
+      "summaryAttempts": 18,
       "summaryError": "invalid_length"
     },
     {
@@ -5107,8 +5167,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:48.316175+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-31T12:55:08.023859+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -5224,8 +5284,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:48.282825+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-10-31T12:55:07.965127+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -6837,8 +6897,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:19.522767+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T12:54:39.639056+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6853,8 +6913,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:19.585262+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T12:54:39.687376+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6869,8 +6929,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:19.624975+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T12:54:39.727311+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6884,8 +6944,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:19.684307+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T12:54:39.771990+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -6899,8 +6959,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-10-29T06:04:19.771837+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-10-31T12:54:39.799236+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -8922,7 +8982,7 @@
     "created": 4,
     "failed": 8,
     "pending": 53,
-    "checkedAt": "2026-10-31T06:04:02.007297+00:00"
+    "checkedAt": "2026-10-31T12:55:08.079377+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
