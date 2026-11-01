@@ -1,24 +1,46 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-01T17:59:51.190658+00:00",
+  "collectedAt": "2026-11-01T22:14:09.526239+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-01T17:59:51.190658+00:00"
+      "checkedAt": "2026-11-01T22:14:09.526239+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-01T17:59:51.190658+00:00"
+      "checkedAt": "2026-11-01T22:14:09.526239+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "5d67170702a7b93b7fea",
+      "title": "Incident Leclerc-Hamilton à Mexico : le verdict des commissaires",
+      "url": "https://fr.motorsport.com/f1/news/incident-hamilton-leclerc-mexico-verdict-commissaires/10870702/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T21:14:36+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-01T22:14:09.526239+00:00",
+      "summaryAttemptAt": "2026-11-01T22:14:10.533905+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Incident Leclerc-Hamilton à Mexico : le verdict des commissaires",
+      "summaryFr": "Charles Leclerc et Lewis Hamilton se sont heurtés en tête de course à Mexico, alors que Russell rétrogradeait. Le duo de pilotes a été confronté à un contact direct, mais Hamilton a conservé de justesse l'avantage au début de la course. Aucune sanction n'a été officiellement annoncée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T22:14:57.397496+00:00"
+    },
     {
       "id": "afda2c2d994f74445bd4",
       "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP de Mexico",
@@ -27,8 +49,7 @@
       "language": "fr",
       "publishedAt": "2026-11-01T16:47:15+00:00",
       "topics": [
-        "ecuries",
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
       "summaryAttemptAt": "2026-11-01T17:59:51.712926+00:00",
@@ -48,9 +69,7 @@
       "language": "fr",
       "publishedAt": "2026-11-01T14:06:08+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
       "summaryAttemptAt": "2026-11-01T18:00:35.868287+00:00",
@@ -71,8 +90,7 @@
       "publishedAt": "2026-11-01T13:23:26+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
       "summaryAttemptAt": "2026-11-01T18:01:17.486615+00:00",
@@ -131,8 +149,7 @@
       "publishedAt": "2026-11-01T07:29:23+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
       "summaryAttemptAt": "2026-11-01T18:02:03.976001+00:00",
@@ -152,9 +169,7 @@
       "language": "fr",
       "publishedAt": "2026-11-01T06:55:37+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
       "summaryAttemptAt": "2026-11-01T18:02:49.912456+00:00",
@@ -258,8 +273,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-10-29T22:58:16.213201+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-01T22:15:23.238478+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1128,8 +1143,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:56.571616+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-01T22:16:40.200138+00:00",
+      "summaryAttempts": 4,
       "summaryError": "copied_passage"
     },
     {
@@ -1205,8 +1220,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-10-30T06:09:23.354018+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-01T22:17:27.554722+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1634,8 +1649,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-29T22:57:48.540432+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-01T22:14:57.497464+00:00",
+      "summaryAttempts": 9,
       "summaryError": "invalid_length"
     },
     {
@@ -2363,8 +2378,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:56.485511+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-01T22:16:40.141324+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -2476,8 +2491,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-10-29T22:57:48.449615+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-01T22:14:57.397527+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -3633,8 +3648,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:28.271106+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-01T22:16:14.450484+00:00",
+      "summaryAttempts": 14,
       "summaryError": "invalid_length"
     },
     {
@@ -3870,8 +3885,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:56.415882+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-11-01T22:16:40.033170+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -5113,8 +5128,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:28.097726+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-01T22:16:14.129285+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -5128,8 +5143,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:28.203284+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-01T22:16:14.280310+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -6548,8 +6563,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-30T06:07:00.452510+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-01T22:15:48.761622+00:00",
+      "summaryAttempts": 19,
       "summaryError": "invalid_length"
     },
     {
@@ -9364,10 +9379,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
+    "created": 1,
+    "failed": 11,
     "pending": 54,
-    "checkedAt": "2026-11-01T18:03:59.568702+00:00"
+    "checkedAt": "2026-11-01T22:17:52.701928+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
