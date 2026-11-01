@@ -1,24 +1,171 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-01T06:28:53.553477+00:00",
+  "collectedAt": "2026-11-01T17:59:51.190658+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-01T06:28:53.553477+00:00"
+      "checkedAt": "2026-11-01T17:59:51.190658+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-01T06:28:53.553477+00:00"
+      "checkedAt": "2026-11-01T17:59:51.190658+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "afda2c2d994f74445bd4",
+      "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP de Mexico",
+      "url": "https://fr.motorsport.com/f1/news/face-a-face-qualifications-2026-gp-mexico/10870653/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T16:47:15+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
+      "summaryAttemptAt": "2026-11-01T17:59:51.712926+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les face-à-face entre équipiers en qualifications au Mexico 2026",
+      "summaryFr": "Après chaque séance de qualifications, Motorsport.com publie le bilan interne des écuries entre leurs deux pilotes. Ces données s'appuient uniquement sur les résultats des qualifications. Aucun impact des pénalités sur la grille n'est pris en compte.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T18:00:35.868261+00:00"
+    },
+    {
+      "id": "d121a166a06a50aa7a31",
+      "title": "Alonso privé de Q2 à Mexico : \"Ma frustration est inimaginable\"",
+      "url": "https://fr.motorsport.com/f1/news/fernando-alonso-frustration-inimaginable-q2-mexico/10870621/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T14:06:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
+      "summaryAttemptAt": "2026-11-01T18:00:35.868287+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso exclu de Q2 à Mexico à cause d'un problème de groupe propulseur",
+      "summaryFr": "Fernando Alonso a exprimé une forte frustration après un dysfonctionnement de son groupe propulseur lors des qualifications au Grand Prix de Mexico. Le pilote Aston Martin a terminé 18e avec un seul tour rapide.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T18:01:17.486593+00:00"
+    },
+    {
+      "id": "3ae6c6f2e28894adca68",
+      "title": "Red Bull redoute le départ à Mexico, Verstappen plaisante : \"Un départ type Le Mans serait aussi rapide\"",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-isack-hadjar-max-verstappen-redoutent-depart-mexico/10870602/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T13:23:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
+      "summaryAttemptAt": "2026-11-01T18:01:17.486615+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull inquiet par le départ à Mexico, Verstappen : \"Un départ type Le Mans serait aussi rapide\"",
+      "summaryFr": "Max Verstappen a été empêché de partir en pole position à Mexico en raison d'un blocage de roue au virage 13. Le pilote Red Bull attribue ce problème à une gêne causée par Lando Norris dans le dernier secteur. Son résultat en qualifications aurait dû lui permettre de partir depuis la deuxième ligne.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T18:02:03.975977+00:00"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-01T10:27:50+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
+    },
+    {
+      "id": "e171139f6ef03b807207",
+      "title": "La grille de départ du Grand Prix de Mexico F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-gp-mexico-f1-2026/10870261/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T08:32:02+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
+      "summaryAttemptAt": "2026-11-01T06:31:42.174887+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille de départ du Grand Prix de Mexico 2026",
+      "summaryFr": "Lewis Hamilton part en pole position pour Ferrari, suivi de George Russell chez Mercedes et de Charles Leclerc également au sein de l'escadron ferrari. La grille complète reste à définir.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T06:32:06.815842+00:00"
+    },
+    {
+      "id": "891caf51bac21218bb95",
+      "title": "Max Verstappen met les choses au clair avec Liam Lawson, mais reste évasif sur le baquet chez Racing Bulls",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-lawson-baquet-racing-bulls-gp-mexico/10870468/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T07:29:23+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
+      "summaryAttemptAt": "2026-11-01T18:02:03.976001+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen recule d'une place en raison d'un contact avec Lawson",
+      "summaryFr": "Max Verstappen est placé en troisième ligne du Grand Prix de Mexico après un contact avec Liam Lawson lors des qualifications. L'incident, survenu entre deux pilotes de Red Bull dans l'EL2, a entraîné une pénalité de place. Le pilote a donné des précisions sur l'incident mais reste évasif sur les suites.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T18:02:49.912431+00:00"
+    },
+    {
+      "id": "5f1a7429052c986150dc",
+      "title": "Liam Lawson disqualifié des qualifications du GP de Mexico",
+      "url": "https://fr.motorsport.com/f1/news/liam-lawson-disqualification-gp-mexique/10870455/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T06:55:37+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-01T17:59:51.190658+00:00",
+      "summaryAttemptAt": "2026-11-01T18:02:49.912456+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Liam Lawson disqualifié des qualifications du GP de Mexico",
+      "summaryFr": "Liam Lawson a perdu sa neuvième place lors des qualifications du GP de Mexico. L'écurie Racing Bulls a terminé \"meilleure des autres\" avec deux places en Q3, mais Lawson devra effectuer une remontée dimanche.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-01T18:03:31.088181+00:00"
+    },
     {
       "id": "2b856094435ebcd12ed4",
       "title": "Hamilton takes first pole for Ferrari at Mexico City Grand Prix",
@@ -48,9 +195,7 @@
       "language": "en",
       "publishedAt": "2026-11-01T00:35:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
       "summaryAttemptAt": "2026-11-01T06:29:18.778415+00:00",
@@ -70,8 +215,7 @@
       "language": "en",
       "publishedAt": "2026-10-31T23:43:41+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
       "summaryAttemptAt": "2026-11-01T06:29:46.898851+00:00",
@@ -91,8 +235,7 @@
       "language": "fr",
       "publishedAt": "2026-10-31T23:27:02+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
       "summaryAttemptAt": "2026-11-01T06:30:15.065552+00:00",
@@ -128,8 +271,7 @@
       "publishedAt": "2026-10-31T22:59:10+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
       "summaryAttemptAt": "2026-11-01T06:30:44.130481+00:00",
@@ -163,28 +305,6 @@
       "summaryAt": "2026-11-01T06:31:42.174857+00:00"
     },
     {
-      "id": "e171139f6ef03b807207",
-      "title": "La grille de départ du Grand Prix de Mexico F1 2026",
-      "url": "https://fr.motorsport.com/f1/news/grille-depart-gp-mexico-f1-2026/10870261/",
-      "source": "Motorsport.com France",
-      "language": "fr",
-      "publishedAt": "2026-10-31T22:22:44+00:00",
-      "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
-      "summaryAttemptAt": "2026-11-01T06:31:42.174887+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Grille de départ du Grand Prix de Mexico 2026",
-      "summaryFr": "Lewis Hamilton part en pole position pour Ferrari, suivi de George Russell chez Mercedes et de Charles Leclerc également au sein de l'escadron ferrari. La grille complète reste à définir.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-11-01T06:32:06.815842+00:00"
-    },
-    {
       "id": "765ca62f03bc89d66639",
       "title": "Hamilton signe à Mexico sa première pole position avec Ferrari !",
       "url": "https://fr.motorsport.com/f1/news/hamilton-premiere-pole-position-ferrari-mexico/10870293/",
@@ -193,8 +313,7 @@
       "publishedAt": "2026-10-31T22:20:01+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-01T06:28:53.553477+00:00",
       "summaryAttemptAt": "2026-11-01T06:32:06.815878+00:00",
@@ -1716,9 +1835,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-10-29T22:56:36.269212+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-01T18:03:31.300775+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "cef89fde71cf910b14e1",
@@ -1752,27 +1871,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-10-29T13:28:26.864530+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-10-23T17:30:56+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
+      "summaryAttemptAt": "2026-11-01T18:03:31.146414+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "4c786ea8de13728122c6",
@@ -1842,9 +1943,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-10-29T13:27:42.012056+00:00",
-      "summaryAttempts": 5,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-01T18:03:31.088206+00:00",
+      "summaryAttempts": 6,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "bff3d4abd2290066e0d4",
@@ -2491,8 +2592,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-10-29T22:56:36.191324+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-01T18:03:31.258078+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -3394,8 +3495,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-10-29T13:29:11.077410+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-11-01T18:03:31.215202+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4492,8 +4593,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-10-29T22:57:20.871104+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-11-01T18:03:31.459270+00:00",
+      "summaryAttempts": 15,
       "summaryError": "invalid_length"
     },
     {
@@ -5341,8 +5442,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-10-29T22:57:20.805702+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-11-01T18:03:31.410099+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -9263,10 +9364,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 8,
-    "failed": 4,
+    "created": 5,
+    "failed": 7,
     "pending": 54,
-    "checkedAt": "2026-11-01T06:32:35.744824+00:00"
+    "checkedAt": "2026-11-01T18:03:59.568702+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
