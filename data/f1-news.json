@@ -1,24 +1,284 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-02T06:30:07.990742+00:00",
+  "collectedAt": "2026-11-02T21:50:30.448399+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-11-02T06:30:07.990742+00:00"
+      "count": 50,
+      "checkedAt": "2026-11-02T21:50:30.448399+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-02T06:30:07.990742+00:00"
+      "checkedAt": "2026-11-02T21:50:30.448399+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "cdf83643df17201e74a7",
+      "title": "Russell says F1 title loss 'tough to deal with'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T21:16:11+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:50:31.035946+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell : la chute de titre est difficile à supporter",
+      "summaryFr": "George Russell déclare que la fin de sa saison a \"s'effondré\" alors que son co-pilote Kimi Antonelli a remporté le titre. Il qualifie cette situation de \"tough to deal with\".",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:50:57.935199+00:00"
+    },
+    {
+      "id": "37251d760db6d5d8a510",
+      "title": "Toto Wolff : deux sponsors ont quitté Mercedes après la promotion de Kimi Antonelli en F1",
+      "url": "https://fr.motorsport.com/f1/news/toto-wolff-mercedes-kimi-antonelli-sponsors/10871115/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T21:02:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:50:57.935228+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes titulaire Kimi Antonelli à partir de 2025, un choix controversé",
+      "summaryFr": "Mercedes a titularisé Kimi Antonelli, 18 ans, à partir de 2025. L'Italien a remporté le titre mondial en deuxième saison. Ce choix n'a pas été partagé par tout l'entourage de l'équipe.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:51:27.015217+00:00"
+    },
+    {
+      "id": "72b9cefafe46ea0da5ec",
+      "title": "Kimi Antonelli explique pourquoi il ne portera pas le numéro 1 en 2027",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-explique-pourquoi-refuse-numero-1/10870961/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T17:21:01+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:51:27.015247+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli ne portera pas le numéro 1 en 2027",
+      "summaryFr": "Le numéro 1 ne sera pas porté par Kimi Antonelli en 2027, contrairement à Max Verstappen et Lando Norris qui l'ont systématiquement adopté depuis 2021. Cette décision reste une déclaration personnelle, sans lien officiel avec la F1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:51:55.973420+00:00"
+    },
+    {
+      "id": "4633f0dc801a1abb7321",
+      "title": "Hamilton reproche à Leclerc sa mentalité \"à quitte ou double\"",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-reproche-mentalite-leclerc-quitte-ou-double/10871059/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T15:03:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:51:55.973445+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton dénonce la mentalité \"à quitte ou double\" de Leclerc",
+      "summaryFr": "Lewis Hamilton reproche à Charles Leclerc une mentalité \"à quitte ou double\" après que Ferrari ait laissé échapper une victoire au Grand Prix de Mexico. Le septuple champion du monde était en pole position, Leclerc en troisième, mais a rapidement perdu du terrain.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:52:24.683101+00:00"
+    },
+    {
+      "id": "acd574eb51dbfb162ec3",
+      "title": "Wolff autorise Russell à zapper les médias, une amende pour Mercedes",
+      "url": "https://fr.motorsport.com/f1/news/wolff-autorise-russell-zapper-media-amende-mercedes/10871054/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T14:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:52:24.683130+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell sanctionné pour absence aux obligations médiatiques après Mexico",
+      "summaryFr": "George Russell a été sanctionné par une amende de 5 000 euros pour non-respect de ses obligations médiatiques après le Grand Prix de Mexico. Le pilote a terminé sixième, après avoir perdu quatre positions dès le premier tour.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:52:52.239134+00:00"
+    },
+    {
+      "id": "cf5eaccf626941a4e6e7",
+      "title": "How to follow Sao Paulo Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T13:24:32+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:52:52.239162+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "52c61cf9a250c3ab9f25",
+      "title": "Yamaha boycotte le Qatar en MotoGP : quel impact sur la fin de saison de F1 ?",
+      "url": "https://fr.motorsport.com/f1/news/boycott-yamaha-motogp-quel-impact-f1/10870955/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T12:00:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:53:10.176803+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "c3c3e0934d0bfb8df6c7",
+      "title": "The boy from Bologna who became world champion",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cm17k1gxlze2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T11:20:40+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:53:30.044008+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le garçon de Bologne devenu champion du monde",
+      "summaryFr": "Kimi Antonelli, originaire de Bologne, est devenu champion du monde selon les récits de sa ville natale. Son parcours est perçu comme une histoire d'ascension remarquable.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:53:53.644303+00:00"
+    },
+    {
+      "id": "d43c3220fcb9c2fd0363",
+      "title": "A world champion but 'one of us' - a city's pride in Antonelli",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cj3vq29y10qyo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T11:16:47+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:53:53.644334+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli champion du monde, une ville fier de son fils",
+      "summaryFr": "Kimi Antonelli est devenu champion du monde de Formule 1, un moment de fierté pour les habitants de Bologne. La ville célèbre son héros local, qui a remporté le titre en tant que pilote.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:54:18.252174+00:00"
+    },
+    {
+      "id": "fa5b2627cf82b680e536",
+      "title": "'Utter chaos at Ferrari right now'",
+      "url": "https://www.bbc.co.uk/sport/videos/c6kgl9mgdvl2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T10:39:57+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:54:18.252200+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Tensions au sein de Ferrari après la perte de victoire à Mexico City",
+      "summaryFr": "Des tensions croissantes se font sentir au sein de Ferrari après le désastre au Mexico City Grand Prix, où des conflits internes auraient coûté la victoire. Les sources indiquent une situation instable au sein du duo de pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:54:43.408038+00:00"
+    },
+    {
+      "id": "2e52939c8416e8cb960a",
+      "title": "Antonelli title win 'beginning of something special'",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cqn73ny0j130o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T10:37:55+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:54:43.408067+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte le titre : un début de quelque chose de spécial",
+      "summaryFr": "Kimi Antonelli devient le champion du monde le plus jeune de l'histoire de la Formule 1. Les commentateurs du Chequered Flag, Harry Benjamin, Marc Priestley et Jennie Gow, évoquent l'impact de ce succès. Ce titre marque un moment marquant dans l'évolution de la compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:55:09.393570+00:00"
+    },
+    {
+      "id": "b48b82c8d34c818dc69f",
+      "title": "Antonelli touché par Hamilton et Verstappen : \"Je vais faire encadrer cette photo\"",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-photo-hamilton-verstappen-podium-champion-du-monde-2026-mexico/10870930/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T09:40:04+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:55:09.393598+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli devient le plus jeune champion du monde en 2026",
+      "summaryFr": "Kimi Antonelli remporte le titre de champion du monde à Austin, devenant ainsi le plus jeune champion de l'histoire. Ce résultat s'inscrit dans un contexte de règles strictes sur la Super Licence, rendant le record très difficile à battre.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T21:55:36.301537+00:00"
+    },
+    {
+      "id": "97ce5a687df0d71d4770",
+      "title": "Vasseur digère mal l'incident entre Hamilton et Leclerc : \"Une question de respect\"",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-digere-mal-incident-hamilton-leclerc-mexico/10870920/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T07:38:15+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00"
+    },
+    {
+      "id": "003d6afa218f0fd0f3f4",
+      "title": "Pourquoi Leclerc n'a pas rendu la position à Hamilton à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-leclerc-pas-rendu-position-hamilton-mexico/10870917/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T07:19:28+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00"
+    },
     {
       "id": "3f49a0ae8e4fcc5ca9f0",
       "title": "Piastri et les deux Alpine pénalisés, Hirakawa dans les points à Mexico",
@@ -28,8 +288,7 @@
       "publishedAt": "2026-11-02T06:12:31+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
       "summaryAttemptAt": "2026-11-02T06:30:10.129923+00:00",
@@ -63,7 +322,7 @@
     },
     {
       "id": "95c39e3c709c1d82220a",
-      "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
+      "title": "How Antonelli 'blew everyone away' to make F1 history",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o",
       "source": "BBC Sport",
       "language": "en",
@@ -71,15 +330,7 @@
       "topics": [
         "pilotes"
       ],
-      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
-      "summaryAttemptAt": "2026-11-02T06:31:08.559328+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Antonelli fait history en remportant son premier titre de F1",
-      "summaryFr": "Kimi Antonelli remporte son premier championnat de Formule 1, marquant un tournant dans l'histoire de la série. Ce succès souligne son potentiel en tant que pilote.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-11-02T06:31:32.961098+00:00"
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00"
     },
     {
       "id": "20bdb86271afe5cdefa7",
@@ -110,8 +361,7 @@
       "language": "en",
       "publishedAt": "2026-11-01T23:20:54+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
       "summaryAttemptAt": "2026-11-02T06:31:56.542591+00:00",
@@ -152,9 +402,7 @@
       "language": "fr",
       "publishedAt": "2026-11-01T23:00:14+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
       "summaryAttemptAt": "2026-11-02T06:32:52.344781+00:00",
@@ -189,8 +437,6 @@
       "language": "fr",
       "publishedAt": "2026-11-01T22:38:26+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
@@ -246,8 +492,7 @@
       "language": "en",
       "publishedAt": "2026-11-01T22:25:21+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
       "summaryAttemptAt": "2026-11-02T06:35:20.177699+00:00",
@@ -9613,8 +9858,8 @@
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 10,
     "failed": 2,
-    "pending": 57,
-    "checkedAt": "2026-11-02T06:35:44.050519+00:00"
+    "pending": 62,
+    "checkedAt": "2026-11-02T21:55:36.301722+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
