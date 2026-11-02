@@ -1,24 +1,276 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-01T22:14:09.526239+00:00",
+  "collectedAt": "2026-11-02T06:30:07.990742+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-01T22:14:09.526239+00:00"
+      "checkedAt": "2026-11-02T06:30:07.990742+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-01T22:14:09.526239+00:00"
+      "checkedAt": "2026-11-02T06:30:07.990742+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "3f49a0ae8e4fcc5ca9f0",
+      "title": "Piastri et les deux Alpine pénalisés, Hirakawa dans les points à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/piastri-gasly-colapinto-alpine-penalises-gp-mexico/10870906/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-02T06:12:31+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:30:10.129923+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Gasly et Colapinto pénalisés pour manque de ralentissement sous drapeaux jaunes à Mexico",
+      "summaryFr": "Pierre Gasly et Franco Colapinto, coéquipiers chez Alpine, ont été sanctionnés après la course à Mexico pour ne pas avoir suffisamment ralenti sous drapeaux jaunes. Le classement provisoire montre Colapinto à la huitième place et Gasly à la dixième.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:30:41.846432+00:00"
+    },
+    {
+      "id": "587f7def2e3c1a1a4054",
+      "title": "Antonelli clinched the title - but who shone most in Mexico? Driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c95ynznzkm10o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T03:09:17+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:30:41.846460+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli remporte la titre - mais qui a brillé au Mexique ?",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes au Grand Prix de Mexico. Il analyse les résultats sans indiquer qui a brillé le plus. Aucune information sur les écuries, les voitures ou les compétitions n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:31:08.559300+00:00"
+    },
+    {
+      "id": "95c39e3c709c1d82220a",
+      "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T01:47:30+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:31:08.559328+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli fait history en remportant son premier titre de F1",
+      "summaryFr": "Kimi Antonelli remporte son premier championnat de Formule 1, marquant un tournant dans l'histoire de la série. Ce succès souligne son potentiel en tant que pilote.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:31:32.961098+00:00"
+    },
+    {
+      "id": "20bdb86271afe5cdefa7",
+      "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-02T00:28:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:31:32.961128+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton déclare que Ferrari doivent avoir \"des discussions sérieuses\"",
+      "summaryFr": "Lewis Hamilton affirme que Ferrari doivent mener des \"discussions sérieuses derrière des portes closes\" après un conflit entre leurs deux pilotes au Mexique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:31:56.542560+00:00"
+    },
+    {
+      "id": "9699a5c9fed5b348e966",
+      "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-01T23:20:54+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:31:56.542591+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli champion du monde, Verstappen victorieux au Mexique",
+      "summaryFr": "Kimi Antonelli devient le champion du monde le plus jeune de l'histoire de la Formule 1. Max Verstappen remporte la course au Mexique. Ce résultat marque un moment important dans la saison.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:32:21.523118+00:00"
+    },
+    {
+      "id": "a8f0495d6f9416717d90",
+      "title": "Hamilton réclame une \"discussion sérieuse\" chez Ferrari après l'incident avec Leclerc",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-reclame-discussion-serieuse-ferrari-leclerc-mexico/10870755/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T23:13:38+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:32:21.523151+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton demande une discussion sérieuse avec Ferrari après l'incident avec Leclerc",
+      "summaryFr": "Lewis Hamilton, pole position, a été confronté à une attaque de Charles Leclerc lors des premiers virages. Le pilote britannique a réussi à contenir son coéquipier, mais l'incident a suscité des tensions au sein de l'écurie. Une discussion sérieuse est désormais prévue entre les deux pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:32:52.344751+00:00"
+    },
+    {
+      "id": "c873203275fc3b9b4724",
+      "title": "Antonelli submergé par l'émotion après son premier titre mondial",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-submerge-emotion-titre-mondial/10870742/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T23:00:14+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:32:52.344781+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli ému après son premier titre mondial au Mexique",
+      "summaryFr": "Kimi Antonelli a remporté son premier titre mondial en terminant troisième au Mexique, devenant ainsi le plus jeune champion de l'histoire. Il a offert un hommage émouvant à Mercedes en larmes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:33:21.039460+00:00"
+    },
+    {
+      "id": "b61a5e5d86eb01a5158c",
+      "title": "Les plus jeunes champions du monde de l'histoire de la F1",
+      "url": "https://fr.motorsport.com/f1/news/les-plus-jeunes-champions-du-monde-histoire-f1/10870682/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T23:00:00+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:33:21.039495+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "ac915dfdc6173eff4847",
+      "title": "Tous les résultats et classements du Grand Prix de Mexico F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grand-prix-mexico-2026-resultats-classement/10870726/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T22:38:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:33:51.019012+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Résultats du Grand Prix de Mexico F1 2026",
+      "summaryFr": "K. Antonelli termine en tête avec Mercedes, remportant le classement des pilotes. Les autres positions ne sont pas complètement précisés. Aucune information sur les performances des ailerons avant ou arrière, le groupe propulseur, ou les pneus utilisés.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:34:20.028131+00:00"
+    },
+    {
+      "id": "95fe7f7cecd6e8d8a497",
+      "title": "Kimi Antonelli sacré champion du monde au GP de Mexico, Verstappen s'impose",
+      "url": "https://fr.motorsport.com/f1/news/gp-mexico-antonelli-champion-monde-verstappen-victoire/10870719/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-01T22:30:58+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:34:20.028160+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "bab6443131e8e9bd64b3",
+      "title": "Antonelli heads list of F1's youngest champions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjy56wkdk3nko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-01T22:28:28+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:34:51.663087+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli devient le champion du monde le plus jeune de l'histoire de la Formule 1",
+      "summaryFr": "Kimi Antonelli a établi un nouveau record en devenant le champion du monde le plus jeune de l'histoire de la Formule 1. Son exploit est comparé à celui de pilotes ayant précédemment occupé ce titre. Aucune information sur les détails de son parcours ou les équipes impliquées n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:35:20.177672+00:00"
+    },
+    {
+      "id": "1b14e1c6b4e3f60bbcdf",
+      "title": "How much do you know about F1 champion Antonelli?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c98rzkv5y115o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-01T22:25:21+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
+      "summaryAttemptAt": "2026-11-02T06:35:20.177699+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli devient champion de Formule 1",
+      "summaryFr": "Kimi Antonelli a remporté le titre de champion du monde de Formule 1 en tant que pilote de Mercedes. Ce résultat soulève des questions sur son parcours et ses performances au cours de la saison.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-02T06:35:44.050306+00:00"
+    },
+    {
+      "id": "2e8d312727ac53364177",
+      "title": "Antonelli - the boy 'born in a garage' who became world champion",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c0rdvxdwwwwo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-01T22:25:01+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00"
+    },
     {
       "id": "5d67170702a7b93b7fea",
       "title": "Incident Leclerc-Hamilton à Mexico : le verdict des commissaires",
@@ -27,9 +279,7 @@
       "language": "fr",
       "publishedAt": "2026-11-01T21:14:36+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-01T22:14:09.526239+00:00",
       "summaryAttemptAt": "2026-11-01T22:14:10.533905+00:00",
@@ -8725,24 +8975,6 @@
       ]
     },
     {
-      "id": "2e8d312727ac53364177",
-      "title": "Antonelli - the boy 'born in a garage' who started driving on dad's lap",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c0rdvxdwwwwo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-08-19T06:06:58+00:00",
-      "topics": [
-        "pilotes"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Le parcours d’Antonelli, de l’enfance au sommet du championnat",
-      "summaryFr": "La BBC retrace les débuts d’Antonelli à partir, notamment, du témoignage de son père. Celui-ci décrit un intérêt et des aptitudes pour la conduite apparus très tôt.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "Andrew Benson"
-    },
-    {
       "id": "c8517ee434542ffbcd05",
       "title": "Dutch GP in pictures as F1 prepares for Zandvoort farewell",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c0l58802270o",
@@ -9379,10 +9611,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
-    "pending": 54,
-    "checkedAt": "2026-11-01T22:17:52.701928+00:00"
+    "created": 10,
+    "failed": 2,
+    "pending": 57,
+    "checkedAt": "2026-11-02T06:35:44.050519+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
