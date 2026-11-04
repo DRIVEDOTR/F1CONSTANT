@@ -1,24 +1,81 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-03T19:40:29.251985+00:00",
+  "collectedAt": "2026-11-04T06:45:00.593523+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-03T19:40:29.251985+00:00"
+      "checkedAt": "2026-11-04T06:45:00.593523+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-03T19:40:29.251985+00:00"
+      "checkedAt": "2026-11-04T06:45:00.593523+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "67d07a668fd621693480",
+      "title": "Le programme du Grand Prix de São Paulo F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/programme-grand-prix-sao-paulo-2026-dates-horaires-infos/10854154/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T05:30:03+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
+      "summaryAttemptAt": "2026-11-04T06:45:01.075586+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "9cd439f5590d3b6f4550",
+      "title": "Ocon dropped by Haas for rest of season after row",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck054q3g5jnpo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-03T21:15:53+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
+      "summaryAttemptAt": "2026-11-04T06:45:42.568716+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon abandonné par Haas pour le reste de la saison",
+      "summaryFr": "La écurie Haas annonce que Estaban Ocon ne participera plus au championnat de 2026. Cette décision s'applique à partir du Grand Prix du Mexique. Aucune explication n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T06:46:14.703868+00:00"
+    },
+    {
+      "id": "e616a178b240191cca1c",
+      "title": "Rafa Câmara fera ses débuts en F1 au GP du Brésil, Esteban Ocon écarté par Haas",
+      "url": "https://fr.motorsport.com/f1/news/rafa-camara-esteban-ocon-ecarte-haas-out/10871380/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-03T20:55:33+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
+      "summaryAttemptAt": "2026-11-04T06:46:14.703895+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rafa Câmara fait ses débuts en F1 au GP du Brésil, Ocon écarté par Haas",
+      "summaryFr": "Haas ne fera plus courir Esteban Ocon et accorde à Rafa Câmara l'opportunité de faire ses débuts en Formule 1 ce week-end. Une altercation au Mexique a conduit le directeur Ayao Komatsu à décider de mettre le Français sur la touche.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T06:46:53.382837+00:00"
+    },
     {
       "id": "a1b6c613a34273355182",
       "title": "McLaren dévoilera son aileron avant 2027 à l'occasion du GP du Brésil",
@@ -78,9 +135,7 @@
       "language": "fr",
       "publishedAt": "2026-11-03T14:04:55+00:00",
       "topics": [
-        "ecuries",
-        "voitures",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
       "summaryAttemptAt": "2026-11-03T19:42:13.337267+00:00",
@@ -116,8 +171,7 @@
       "publishedAt": "2026-11-03T12:29:27+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
       "summaryAttemptAt": "2026-11-03T19:43:31.468760+00:00",
@@ -158,9 +212,7 @@
       "language": "fr",
       "publishedAt": "2026-11-03T10:41:42+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
       "summaryAttemptAt": "2026-11-03T19:44:45.386465+00:00",
@@ -180,8 +232,7 @@
       "language": "fr",
       "publishedAt": "2026-11-03T10:11:06+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
       "summaryAttemptAt": "2026-11-03T19:45:24.065082+00:00",
@@ -217,8 +268,7 @@
       "language": "fr",
       "publishedAt": "2026-11-03T08:39:04+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
       "summaryAttemptAt": "2026-11-03T19:46:39.805901+00:00",
@@ -261,7 +311,15 @@
       "topics": [
         "ecuries"
       ],
-      "firstSeenAt": "2026-11-03T19:40:29.251985+00:00"
+      "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
+      "summaryAttemptAt": "2026-11-04T06:46:53.382860+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari auraient-ils besoin de règles d'engagement ?",
+      "summaryFr": "Un correspondant BBC F1, Andrew Benson, répond aux questions les plus récentes après le Grand Prix de Mexico City. Aucune information sur les règles d'engagement ou les décisions de Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T06:47:23.707236+00:00"
     },
     {
       "id": "cdf83643df17201e74a7",
@@ -1859,9 +1917,9 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
-      "summaryAttemptAt": "2026-10-30T22:38:17.038198+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-04T06:47:23.707260+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "451f855973b28c64c78b",
@@ -3980,8 +4038,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-10-31T06:04:01.849223+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-11-04T06:48:44.687189+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4950,8 +5008,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-10-31T06:03:34.156065+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-04T06:48:21.507214+00:00",
+      "summaryAttempts": 14,
       "summaryError": "invalid_length"
     },
     {
@@ -7489,8 +7547,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-10-31T06:02:25.330766+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T06:47:23.843133+00:00",
+      "summaryAttempts": 19,
       "summaryError": "unsupported_number"
     },
     {
@@ -7625,8 +7683,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-31T06:03:06.331587+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T06:47:58.324310+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -7700,8 +7758,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-10-31T06:03:06.405521+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T06:47:58.401974+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -7999,8 +8057,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-10-31T06:03:06.474917+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T06:47:58.466234+00:00",
+      "summaryAttempts": 19,
       "summaryError": "invalid_length"
     },
     {
@@ -8034,8 +8092,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-31T06:03:34.075397+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T06:48:21.427128+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -10128,10 +10186,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 8,
-    "failed": 4,
+    "created": 3,
+    "failed": 9,
     "pending": 63,
-    "checkedAt": "2026-11-03T19:47:56.393618+00:00"
+    "checkedAt": "2026-11-04T06:48:44.747800+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
