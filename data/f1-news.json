@@ -1,24 +1,170 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-04T06:45:00.593523+00:00",
+  "collectedAt": "2026-11-04T19:55:59.848191+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-04T06:45:00.593523+00:00"
+      "checkedAt": "2026-11-04T19:55:59.848191+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 48,
-      "checkedAt": "2026-11-04T06:45:00.593523+00:00"
+      "count": 47,
+      "checkedAt": "2026-11-04T19:55:59.848191+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e8e3efaa8a5d1a6aca50",
+      "title": "Verstappen réclame une \"discussion\" avec le moteur Red Bull après des problèmes de frein moteur \"aléatoires\"",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-reclame-discussion-red-bull-frein-moteur-aleatoire/10871498/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T17:09:18+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:56:00.441845+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen demande une discussion avec Red Bull sur des problèmes de frein moteur aléatoires",
+      "summaryFr": "Avant le week-end au Mexico, Verstappen réclame une discussion avec Red Bull concernant des incidents de frein moteur aléatoires. Le sujet soulève des inquiétudes sur la fiabilité du groupe propulseur en milieu de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:56:29.986606+00:00"
+    },
+    {
+      "id": "bd26af09d75fa6c43e25",
+      "title": "Pourquoi Daniel Ricciardo préfère rester à l'écart du paddock de la F1",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-daniel-ricciardo-ecart-f1-paddock/10871467/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T16:11:13+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:56:29.986636+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Daniel Ricciardo reste à l'écart du paddock de la F1",
+      "summaryFr": "Daniel Ricciardo a quitté la Formule 1 après le Grand Prix de Singapour 2024, lorsqu'il a été remplacé par Liam Lawson. Depuis deux ans, l'Australien ne participe pas aux activités du paddock.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:56:57.760238+00:00"
+    },
+    {
+      "id": "dbac3a11061c8a06b42a",
+      "title": "Ocon dropped - is it the end of his F1 career?",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c59vz9gdllxlo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-04T15:00:26+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:56:57.760266+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ocon abandonne - est-ce la fin de sa carrière en F1 ?",
+      "summaryFr": "Esteban Ocon aurait quitté la Formule 1 au moins pour l'avenir proche après une rupture avec Haas. La future direction de sa carrière reste incertaine.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:57:21.591147+00:00"
+    },
+    {
+      "id": "a97e0ff37f104b2eb14b",
+      "title": "La carrière d'Esteban Ocon en F1 touche peut-être à sa fin, mais son bilan reste une réussite",
+      "url": "https://fr.motorsport.com/f1/news/esteban-ocon-f1-carriere-reussite/10871450/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T10:44:15+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:57:21.591175+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La carrière d'Esteban Ocon en F1 pourrait toucher à sa fin",
+      "summaryFr": "La carrière d'Esteban Ocon en Formule 1 pourrait toucher à sa fin, malgré un bilan marqué par plusieurs moments forts, des podiums et une victoire obtenue au volant d'une voiture sans potentiel régulier. Son parcours reste une réussite, même si les perspectives futures sont incertaines.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:57:51.117743+00:00"
+    },
+    {
+      "id": "c74cd616e46203238f8d",
+      "title": "La \"différence\" entre le titre mondial d'Antonelli et ceux de Hamilton, selon Toto Wolff",
+      "url": "https://fr.motorsport.com/f1/news/difference-titre-kimi-antonellis-lewis-hamiltons-selon-toto-wolff/10871361/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T08:44:46+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:57:51.117770+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Toto Wolff : le titre d'Antonelli, une émotion différente de celle de Hamilton",
+      "summaryFr": "Toto Wolff a déclaré que le titre d'Antonelli lui avait procuré une émotion différente de celle ressentie lors des succès de Lewis Hamilton. Le jeune pilote a remporté son premier titre mondial dimanche au Mexique, à 20 ans, devenant ainsi le plus jeune champion de l'histoire de la F1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:58:21.516044+00:00"
+    },
+    {
+      "id": "d051a6ce67c440bff930",
+      "title": "Verstappen taquine Ricciardo en évoquant les 24 Heures du Mans",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-taquine-ricciardo-24h-du-mans/10869814/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T08:00:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:58:21.516070+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen taquine Ricciardo en évoquant les 24 Heures du Mans",
+      "summaryFr": "Max Verstappen a plaisanté en disant que Daniel Ricciardo, son ancien coéquipier chez Red Bull, est \"un gars intelligent\" pour avoir été choisi dans un éventuel duo de pilotes aux 24 Heures du Mans. Ricciardo n'a pas participé à de nouvelles compétitions depuis son départ de la Formule 1 en 2024.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:58:52.866067+00:00"
+    },
+    {
+      "id": "415448c0eb6043c3b5ed",
+      "title": "Colton Herta disputera les EL1 au Brésil avec Cadillac pour décrocher sa Super Licence FIA",
+      "url": "https://fr.motorsport.com/f1/news/colton-herta-cadillac-el1-gp-bresil-fia-super-licence/10871417/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-04T07:55:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-04T19:55:59.848191+00:00",
+      "summaryAttemptAt": "2026-11-04T19:58:52.866095+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Colton Herta poursuit ses essais EL1 au Brésil pour atteindre la Super Licence FIA",
+      "summaryFr": "Colton Herta participe à sa sixième séance d'essais libres du vendredi au Grand Prix de São Paulo. Il manque un point pour obtenir la Super Licence FIA nécessaire à son entrée en Formule 1. Son parcours repose sur des essais privés, des séances d'EL1 et une campagne en F2.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-04T19:59:23.763139+00:00"
+    },
     {
       "id": "67d07a668fd621693480",
       "title": "Le programme du Grand Prix de São Paulo F1 2026 : dates, horaires et infos",
@@ -99,7 +245,7 @@
     },
     {
       "id": "1a9b67e793ca3d828d9f",
-      "title": "How sporting events are being impacted by Middle East conflict",
+      "title": "How sporting events are being affected by Middle East conflict",
       "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo",
       "source": "BBC Sport",
       "language": "en",
@@ -108,7 +254,7 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-03T19:41:10.595063+00:00",
+      "summaryAttemptAt": "2026-11-04T19:59:23.763176+00:00",
       "summaryAttempts": 1,
       "summaryError": "invalid_length"
     },
@@ -8107,8 +8253,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-31T06:04:01.917598+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T19:59:42.261667+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -8122,8 +8268,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-10-31T12:54:39.639056+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T19:59:42.359007+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -8138,8 +8284,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-31T12:54:39.687376+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T19:59:42.490314+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -8154,8 +8300,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-10-31T12:54:39.727311+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-04T19:59:42.643668+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -10186,10 +10332,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 9,
+    "created": 7,
+    "failed": 5,
     "pending": 63,
-    "checkedAt": "2026-11-04T06:48:44.747800+00:00"
+    "checkedAt": "2026-11-04T19:59:42.747709+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
