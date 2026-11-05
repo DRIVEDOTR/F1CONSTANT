@@ -1,24 +1,81 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-05T07:04:29.585428+00:00",
+  "collectedAt": "2026-11-05T10:14:41.036565+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-05T07:04:29.585428+00:00"
+      "checkedAt": "2026-11-05T10:14:41.036565+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-11-05T07:04:29.585428+00:00"
+      "checkedAt": "2026-11-05T10:14:41.036565+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "3743c6f5b4aff666b7fa",
+      "title": "Red Bull devra encore patienter avant de profiter de sa nouvelle soufflerie",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-date-nouvelle-soufflerie/10869843/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T10:05:02+00:00",
+      "topics": [
+        "ecuries",
+        "voitures",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
+      "summaryAttemptAt": "2026-11-05T10:14:41.468062+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull doit encore attendre 2027 pour profiter de sa nouvelle soufflerie",
+      "summaryFr": "Red Bull attend la mise en service de sa nouvelle soufflerie à Milton Keynes, qui ne devrait pas être opérationnelle avant 2027. Cette installation remplacera celle de Bedford. Le directeur Laurent Mekies a confirmé cette date lors du Grand Prix de Mexico.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T10:15:26.694768+00:00"
+    },
+    {
+      "id": "86090124e28613afac26",
+      "title": "Former F1 champion Jones dies aged 80",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmd9345vdy8do",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-05T09:46:51+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
+      "summaryAttemptAt": "2026-11-05T10:15:26.694790+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alan Jones, dernier pilote australien champion de F1, décède à 80 ans",
+      "summaryFr": "Alan Jones, dernier pilote australien à remporter le titre de champion de Formule 1 et premier pilote de Williams à l'âge de 80 ans, est décédé. Il était le premier pilote de Williams à remporter le titre mondial.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T10:16:04.726095+00:00"
+    },
+    {
+      "id": "318696d4b5273d0099b2",
+      "title": "Audi dévoile une livrée spéciale pour le Grand Prix de São Paulo",
+      "url": "https://fr.motorsport.com/f1/news/audi-livree-speciale-grand-prix-sao-paulo-2026/10871610/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T08:03:47+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
+      "summaryAttemptAt": "2026-11-05T10:16:04.726116+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
     {
       "id": "2b8f5f1bef278fe98f30",
       "title": "Le champion du monde Alan Jones est mort",
@@ -2868,8 +2925,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.146414+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-05T10:16:37.142423+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -2924,8 +2981,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-11-01T06:32:35.606806+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-05T10:16:37.045672+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -2940,8 +2997,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.088206+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-05T10:16:37.077930+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -3096,8 +3153,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-11-01T06:32:35.357250+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-05T10:16:36.890342+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3152,8 +3209,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-11-01T06:32:35.495416+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-05T10:16:36.977831+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3209,8 +3266,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-11-01T06:32:35.268155+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-05T10:16:36.854149+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3264,8 +3321,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-10-31T21:50:46.910358+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-05T10:16:36.786832+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -3589,8 +3646,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.258078+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-05T10:16:37.207278+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -4492,8 +4549,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.215202+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-11-05T10:16:37.176073+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -10343,10 +10400,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
-    "pending": 64,
-    "checkedAt": "2026-11-05T07:06:42.725172+00:00"
+    "created": 2,
+    "failed": 10,
+    "pending": 65,
+    "checkedAt": "2026-11-05T10:16:37.242155+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
