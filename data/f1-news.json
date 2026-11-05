@@ -1,24 +1,174 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-05T10:14:41.036565+00:00",
+  "collectedAt": "2026-11-05T20:09:05.428326+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-05T10:14:41.036565+00:00"
+      "checkedAt": "2026-11-05T20:09:05.428326+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-11-05T10:14:41.036565+00:00"
+      "checkedAt": "2026-11-05T20:09:05.428326+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "f979a8536e0df206e355",
+      "title": "Russell to have 'deep, deep look in mirror'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr3wvvpxnx1wo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-05T19:55:51+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:09:06.175050+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell examine profondément son propre reflet",
+      "summaryFr": "George Russell évoque sa saison après que son coéquipier Kimi Antonelli a remporté le championnat. Aucune information sur les performances ou les décisions techniques n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T20:09:43.472522+00:00"
+    },
+    {
+      "id": "72809f66cba73d2af776",
+      "title": "Hamilton insiste et accuse Leclerc de le combattre plus durement que les autres",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-insiste-accuse-leclerc-combattre-durement/10871884/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T19:41:52+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:09:43.472552+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton accuse Leclerc de conduire plus agressivement qu'avec les autres pilotes",
+      "summaryFr": "Lewis Hamilton affirme que Charles Leclerc lui est plus hostile qu'avec les autres concurrents, après une rude confrontation au premier tour du Grand Prix de Mexico. Il demande à Ferrari de réexaminer ses règles de conduite en piste.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T20:10:26.380256+00:00"
+    },
+    {
+      "id": "f648eb0fb916850bab64",
+      "title": "Rafael Câmara, le diamant brut propulsé en F1 devant son public",
+      "url": "https://fr.motorsport.com/f1/news/rafael-camara-diamant-brut-propulse-domicile-bresil/10871812/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T17:33:09+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:10:26.380286+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "dc77770dd2d7277748a4",
+      "title": "Aston Martin savait avant le départ que les deux voitures abandonneraient à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/aston-martin-honda-abandon-mexico-course-savaient-avant-depart/10871790/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T16:56:12+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:11:12.582410+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Aston Martin savait avant le départ que les deux voitures abandonneraient à Mexico",
+      "summaryFr": "Avant le Grand Prix de Mexico, Honda avait reconnu que le circuit d'altitude représentait un défi important. Le problème de temps de réponse du turbo, déjà observé à Singapour, était une inquiétude majeure. Aucune information sur les abandonnements des voitures d'Aston Martin n'est confirmée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T20:11:59.138739+00:00"
+    },
+    {
+      "id": "cf5eaccf626941a4e6e7",
+      "title": "How to follow Sao Paulo Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-05T15:03:34+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-02T21:52:52.239162+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "9f76dc80a4c308f65d8f",
+      "title": "Comment Mercedes peut décrocher le titre constructeurs au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/comment-mercedes-peut-decrocher-titre-constructeurs-interlagos/10871664/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T13:05:02+00:00",
+      "topics": [
+        "ecuries",
+        "competition",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:11:59.138769+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes peut ajouter un neuvième titre constructeurs au Brésil",
+      "summaryFr": "Après le succès de Kimi Antonelli au Grand Prix de Mexico, Mercedes a remporté 12 des 19 Grands Prix cette saison. L'écu de la marque est en jeu au Brésil, où le duo de pilotes continue à courir. Ferrari reste la seule écurie à pouvoir rattraper le classement, mais la tâche s'annonce difficile.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T20:12:47.523795+00:00"
+    },
+    {
+      "id": "0bb981b746e0f72a90df",
+      "title": "Kimi Antonelli était au bord de l'abandon à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-failli-abandonner-mexico/10871677/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T11:35:03+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:12:47.523826+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "8560962f268d9235ae3d",
+      "title": "Les performances de Lawson compliquent le choix de Red Bull pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/liam-lawson-performances-compliquent-choix-red-bull/10871616/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-05T10:50:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
+      "summaryAttemptAt": "2026-11-05T20:13:32.869224+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les performances de Lawson compliquent le choix de Red Bull pour 2027",
+      "summaryFr": "Liam Lawson a accumulé 83 points en 2026, près du double de Pierre Gasly (42 points), malgré son intérim chez Red Bull où ses résultats ont été limités. Ce rendement remet en question les choix de l'écurie pour 2027.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-05T20:14:18.566651+00:00"
+    },
     {
       "id": "3743c6f5b4aff666b7fa",
       "title": "Red Bull devra encore patienter avant de profiter de sa nouvelle soufflerie",
@@ -27,9 +177,7 @@
       "language": "fr",
       "publishedAt": "2026-11-05T10:05:02+00:00",
       "topics": [
-        "ecuries",
-        "voitures",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
       "summaryAttemptAt": "2026-11-05T10:14:41.468062+00:00",
@@ -49,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-05T09:46:51+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
       "summaryAttemptAt": "2026-11-05T10:15:26.694790+00:00",
@@ -636,21 +784,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-02T21:52:52.239134+00:00"
-    },
-    {
-      "id": "cf5eaccf626941a4e6e7",
-      "title": "How to follow Sao Paulo Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-02T13:24:32+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
-      "summaryAttemptAt": "2026-11-02T21:52:52.239162+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "invalid_length"
     },
     {
       "id": "52c61cf9a250c3ab9f25",
@@ -2688,8 +2821,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-11-01T22:14:57.497464+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-05T20:14:44.963766+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -2889,8 +3022,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.300775+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-05T20:14:18.566687+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -3530,8 +3663,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-11-01T22:14:57.397527+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-05T20:14:44.864185+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -5647,8 +5780,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.459270+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-05T20:14:18.748090+00:00",
+      "summaryAttempts": 16,
       "summaryError": "invalid_length"
     },
     {
@@ -6496,8 +6629,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-11-01T18:03:31.410099+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-11-05T20:14:18.650755+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -10400,10 +10533,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
-    "pending": 65,
-    "checkedAt": "2026-11-05T10:16:37.242155+00:00"
+    "created": 5,
+    "failed": 7,
+    "pending": 67,
+    "checkedAt": "2026-11-05T20:15:10.670295+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
