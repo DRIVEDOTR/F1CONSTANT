@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d12">
   <title>F1 CONSTANT</title>
-  <link rel="stylesheet" href="assets/site.css?v=28">
+  <link rel="stylesheet" href="assets/site.css?v=58">
 <link rel="stylesheet" href="assets/loupe.css?v=39"><link rel="stylesheet" href="assets/news.css?v=22">
 <style>
 /* V27 — compte à rebours autonome ; aucun autre style du site modifié. */
@@ -371,7 +371,7 @@
               <div class="f1-stat span-2">
                 <span>Record du tour en course</span>
                 <strong id="statFastestLap">—</strong>
-                <small id="statFastestLapDetail">—</small>
+                <small id="statFastestLapDetail">—</small><small class="record-source-note">Record en course sur ce tracé, hors qualifications. <span data-f1-update="short"></span></small>
               </div>
               <div class="f1-stat span-2">
                 <span>Distance du Grand Prix</span>
@@ -439,7 +439,7 @@
               <p class="eyebrow">PILOTES · SAISON 2026</p>
               <h2>Les 22 pilotes</h2>
             </div>
-            <div class="drivers-source">Pilotes en combinaison · visuels officiels 2026 Formula1.com</div>
+            <div class="drivers-source">Pilotes en combinaison · visuels officiels 2026 Formula1.com<br><span data-f1-update="short"></span></div>
           </div>
 
           <div class="drivers-toolbar">
@@ -515,12 +515,13 @@
             <article class="story-card highlight-story">
               <p class="eyebrow">À RETENIR</p>
               <p id="driverFact">—</p>
-              <small>Palmarès arrêté au 6 septembre 2026 · hors sprints</small>
+              <small><span data-f1-update="short">Palmarès · copie disponible hors ligne</span> · hors sprints</small>
             </article>
           </div>
 
           <div class="career-teams-block"><strong>Toutes les écuries de sa carrière en F1</strong><div id="driverCareerTeams" class="career-team-chips"></div></div>
 
+          <section class="profile-results" id="driverSeasonResults" aria-label="Résultats du pilote pendant la saison"></section>
           <div class="championship-years"><strong>Années des titres mondiaux</strong><div id="driverTitleYears"></div></div>
 <section class="career-events-section">
             <div class="career-events-head">
@@ -528,7 +529,7 @@
                 <p class="eyebrow">PALMARÈS DÉTAILLÉ</p>
                 <h3>Où et quand ?</h3>
               </div>
-              <span class="live-data-chip">Archives complètes · 06/09/2026</span>
+              <span class="live-data-chip"><span data-f1-update="short">Archives · copie disponible hors ligne</span></span>
             </div>
             <div class="career-events-grid">
               <article class="career-event-card">
@@ -542,7 +543,7 @@
 <article class="career-event-card podium-history"><div class="career-event-title"><span>🏆</span><strong>Tous les podiums · 1re, 2e et 3e places</strong></div><div class="career-event-list" id="driverPodiumsHistory"></div></article>
             </div>
             
-          <p class="history-source-note">Palmarès du championnat du monde, à jour au 6 septembre 2026. Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB, 6 septembre 2026 ↗</a></p></section>
+          <p class="history-source-note"><span data-f1-update="full">Palmarès du championnat du monde · copie disponible hors ligne.</span> Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a data-f1-source href="https://github.com/f1db/f1db/releases" target="_blank" rel="noopener">Source : F1DB ↗</a></p></section>
 
         </div>
       </section>
@@ -555,7 +556,7 @@
               <p class="eyebrow">ÉCURIES · SAISON 2026</p>
               <h2>Les 11 écuries</h2>
             </div>
-            <div class="drivers-source">Palmarès par constructeur · 06/09/2026</div>
+            <div class="drivers-source"><span data-f1-update="short">Palmarès par constructeur</span></div>
           </div>
 
           <div class="drivers-toolbar">
@@ -620,6 +621,7 @@
             </article>
           </div>
 
+          <section class="profile-results" id="teamSeasonResults" aria-label="Résultats de l’écurie pendant la saison"></section>
           <div class="championship-years"><strong>Années des titres mondiaux</strong><div id="teamTitleYears"></div></div>
 <section class="career-events-section">
             <div class="career-events-head">
@@ -627,7 +629,7 @@
                 <p class="eyebrow">PALMARÈS DÉTAILLÉ</p>
                 <h3>Victoires & poles — lieux et dates</h3>
               </div>
-              <span class="live-data-chip">Archives complètes · 06/09/2026</span>
+              <span class="live-data-chip"><span data-f1-update="short">Archives · copie disponible hors ligne</span></span>
             </div>
             <div class="career-events-grid">
               <article class="career-event-card">
@@ -640,7 +642,7 @@
               </article>
             </div>
             
-          <p class="history-source-note">Palmarès du championnat du monde, à jour au 6 septembre 2026. Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB, 6 septembre 2026 ↗</a></p></section>
+          <p class="history-source-note"><span data-f1-update="full">Palmarès du championnat du monde · copie disponible hors ligne.</span> Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a data-f1-source href="https://github.com/f1db/f1db/releases" target="_blank" rel="noopener">Source : F1DB ↗</a></p></section>
 
           <div class="team-drivers-section">
             <p class="eyebrow">PILOTES 2026</p>
@@ -838,7 +840,7 @@
                 <p class="eyebrow">ARCHIVES</p>
                 <h3>Victoires & poles — lieux et dates</h3>
               </div>
-              <span class="live-data-chip">Archives complètes · 06/09/2026</span>
+              <span class="live-data-chip"><span data-f1-update="short">Archives · copie disponible hors ligne</span></span>
             </div>
             <div class="career-events-grid">
               <article class="career-event-card">
@@ -851,7 +853,7 @@
               </article>
 <article class="career-event-card podium-history"><div class="career-event-title"><span>🏆</span><strong>Tous les podiums · 1re, 2e et 3e places</strong></div><div class="career-event-list" id="legendPodiumsHistory"></div></article>
             </div>
-          <p class="history-source-note">Palmarès du championnat du monde, à jour au 6 septembre 2026. Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB, 6 septembre 2026 ↗</a></p></section>
+          <p class="history-source-note"><span data-f1-update="full">Palmarès du championnat du monde · copie disponible hors ligne.</span> Les poles suivent leur attribution historique officielle, distincte de la première place sur la grille ou des sprints. La date de la séance est indiquée quand elle est connue ; sinon la date du Grand Prix est explicitement précisée. <a data-f1-source href="https://github.com/f1db/f1db/releases" target="_blank" rel="noopener">Source : F1DB ↗</a></p></section>
         </div>
       </section>
 
@@ -919,7 +921,7 @@
           </div>
         </div>
       </section>
-    <section class="view" id="view-archives"><p class="eyebrow">LA MÉMOIRE DU CHAMPIONNAT</p><h2 class="archive-season-title">Saison <span id="archiveSelectedYear">2026</span></h2><p id="archiveStatus" class="archive-status"></p><div class="archives-toolbar"><button id="archivePreviousYear" aria-label="Saison précédente">←</button><label>Choisir une saison<select id="archiveYear"></select></label><button id="archiveNextYear" aria-label="Saison suivante">→</button><div class="archive-tabs" role="tablist"><button role="tab" data-archive-tab="standings">Classements</button><button role="tab" data-archive-tab="races">Grands Prix &amp; podiums</button></div></div><div id="archiveStandingsPanel"><div id="archiveChampions" class="archive-champions"></div><div class="archive-standings-grid"><section class="archive-panel"><div class="archive-panel-head"><h3>Pilotes</h3><span id="archiveDriversCount"></span></div><div class="archive-table-scroll"><table class="archive-table"><thead><tr><th>Position</th><th>Pilote / écurie</th><th>Points</th></tr></thead><tbody id="archiveDriverRows"></tbody></table></div></section><section class="archive-panel"><div class="archive-panel-head"><h3>Constructeurs</h3><span id="archiveTeamsCount"></span></div><p class="archive-empty" id="archiveNoConstructors">Le championnat des constructeurs débute en 1958.</p><div class="archive-table-scroll" id="archiveConstructorTable"><table class="archive-table"><thead><tr><th>Position</th><th>Écurie / moteur</th><th>Points</th></tr></thead><tbody id="archiveConstructorRows"></tbody></table></div></section></div><p class="archive-source">Points retenus au championnat selon le règlement de chaque année. NC : non classé ; DSQ / EX : exclusion. Les associations constructeur–moteur restent distinctes lorsqu’elles étaient classées séparément.</p></div><div id="archiveRacesPanel" hidden><div class="archive-race-toolbar"><input id="archiveRaceSearch" type="search" aria-label="Rechercher un Grand Prix" placeholder="Rechercher un Grand Prix, une ville…"><span id="archiveRaceCount"></span></div><div id="archiveRaceList" class="archive-race-list"></div></div><p class="archive-source">Archives consultables hors connexion. <a href="https://github.com/f1db/f1db/releases/tag/v2026.13.0" target="_blank" rel="noopener">Source : F1DB · 6 septembre 2026</a>. La saison 2026 est provisoire ; les classements de l’accueil sont actualisés séparément.</p></section>
+    <section class="view" id="view-archives"><p class="eyebrow">LA MÉMOIRE DU CHAMPIONNAT</p><h2 class="archive-season-title">Saison <span id="archiveSelectedYear">2026</span></h2><p id="archiveStatus" class="archive-status"></p><div class="archives-toolbar"><button id="archivePreviousYear" aria-label="Saison précédente">←</button><label>Choisir une saison<select id="archiveYear"></select></label><button id="archiveNextYear" aria-label="Saison suivante">→</button><div class="archive-tabs" role="tablist"><button role="tab" data-archive-tab="standings">Classements</button><button role="tab" data-archive-tab="races">Grands Prix &amp; podiums</button></div></div><div id="archiveStandingsPanel"><div id="archiveChampions" class="archive-champions"></div><div class="archive-standings-grid"><section class="archive-panel"><div class="archive-panel-head"><h3>Pilotes</h3><span id="archiveDriversCount"></span></div><div class="archive-table-scroll"><table class="archive-table"><thead><tr><th>Position</th><th>Pilote / écurie</th><th>Points</th></tr></thead><tbody id="archiveDriverRows"></tbody></table></div></section><section class="archive-panel"><div class="archive-panel-head"><h3>Constructeurs</h3><span id="archiveTeamsCount"></span></div><p class="archive-empty" id="archiveNoConstructors">Le championnat des constructeurs débute en 1958.</p><div class="archive-table-scroll" id="archiveConstructorTable"><table class="archive-table"><thead><tr><th>Position</th><th>Écurie / moteur</th><th>Points</th></tr></thead><tbody id="archiveConstructorRows"></tbody></table></div></section></div><p class="archive-source">Points retenus au championnat selon le règlement de chaque année. NC : non classé ; DSQ / EX : exclusion. Les associations constructeur–moteur restent distinctes lorsqu’elles étaient classées séparément.</p></div><div id="archiveRacesPanel" hidden><div class="archive-race-toolbar"><input id="archiveRaceSearch" type="search" aria-label="Rechercher un Grand Prix" placeholder="Rechercher un Grand Prix, une ville…"><span id="archiveRaceCount"></span></div><div id="archiveRaceList" class="archive-race-list"></div></div><p class="archive-source">Archives consultables hors connexion. <a data-f1-source href="https://github.com/f1db/f1db/releases" target="_blank" rel="noopener">Source : F1DB</a>. La saison 2026 évolue après publication des résultats. <span data-f1-update="full"></span></p></section>
 <section class="view" id="view-game">
 <div class="ar-game" id="arcadeGame">
   <header class="ar-header"><div><span class="ar-eyebrow">CAMÉRA EMBARQUÉE · ESPRIT GRAND PRIX</span><h2>WORLD RACING <em>CONSTANT</em></h2><p>Une F1 à piloter. 22 concurrents. Le circuit défile autour de vous.</p></div><span class="ar-edition">START<br><b>YOUR ENGINES</b></span></header>
@@ -954,7 +956,8 @@
     <input id="musicVolume" type="range" min="0" max="100" step="1" value="30" aria-valuetext="30 pour cent">
     <p class="music-note">Pause automatique dans F1 à la loupe et dans le jeu. La musique reprend ensuite si vous l’avez activée.</p>
   </div>
-  <script src="assets/site.js?v=28"></script>
+  <script src="assets/site.js?v=58"></script>
+<script src="assets/data-updates.js?v=58"></script>
 <script src="assets/f1-paint.js?v=36"></script><script src="assets/lab-scenes.js?v=36"></script><script src="assets/racing-audio.js?v=36"></script><script src="assets/loupe.js?v=39"></script><script src="assets/news.js?v=29"></script>
 <script src="assets/arcade-core.js?v=57"></script>
 <script src="assets/pit-3d.js?v=41"></script>
