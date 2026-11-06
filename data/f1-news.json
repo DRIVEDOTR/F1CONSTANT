@@ -1,24 +1,44 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-05T20:09:05.428326+00:00",
+  "collectedAt": "2026-11-06T07:04:26.663088+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-05T20:09:05.428326+00:00"
+      "checkedAt": "2026-11-06T07:04:26.663088+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 47,
-      "checkedAt": "2026-11-05T20:09:05.428326+00:00"
+      "count": 48,
+      "checkedAt": "2026-11-06T07:04:26.663088+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "5c26db5208586adea29a",
+      "title": "Antonelli says 2027 preparation starts now",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-05T21:19:56+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T07:04:26.663088+00:00",
+      "summaryAttemptAt": "2026-11-06T07:04:27.185613+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli affirme que la préparation pour 2027 commence maintenant",
+      "summaryFr": "Kimi Antonelli indique qu'il considère les dernières courses de la saison comme le début de sa campagne pour conserver le titre l'année prochaine.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T07:04:58.127466+00:00"
+    },
     {
       "id": "f979a8536e0df206e355",
       "title": "Russell to have 'deep, deep look in mirror'",
@@ -41,7 +61,7 @@
     },
     {
       "id": "72809f66cba73d2af776",
-      "title": "Hamilton insiste et accuse Leclerc de le combattre plus durement que les autres",
+      "title": "Hamilton charge Leclerc : \"C'était pareil avec Vettel, pareil avec Sainz\"",
       "url": "https://fr.motorsport.com/f1/news/hamilton-insiste-accuse-leclerc-combattre-durement/10871884/",
       "source": "Motorsport.com France",
       "language": "fr",
@@ -51,14 +71,14 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
-      "summaryAttemptAt": "2026-11-05T20:09:43.472552+00:00",
+      "summaryAttemptAt": "2026-11-06T07:04:58.127493+00:00",
       "summaryAttempts": 1,
-      "titleFr": "Hamilton accuse Leclerc de conduire plus agressivement qu'avec les autres pilotes",
-      "summaryFr": "Lewis Hamilton affirme que Charles Leclerc lui est plus hostile qu'avec les autres concurrents, après une rude confrontation au premier tour du Grand Prix de Mexico. Il demande à Ferrari de réexaminer ses règles de conduite en piste.",
+      "titleFr": "Hamilton accuse Leclerc de comportement agressif",
+      "summaryFr": "Lewis Hamilton affirme que Charles Leclerc se montre plus agressif envers lui qu'avec d'autres pilotes. Il demande une réorganisation des règles de conduite à Ferrari. La tension est apparue dès le premier tour du Grand Prix de Mexico.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-11-05T20:10:26.380256+00:00"
+      "summaryAt": "2026-11-06T07:05:32.929417+00:00"
     },
     {
       "id": "f648eb0fb916850bab64",
@@ -84,7 +104,7 @@
       "publishedAt": "2026-11-05T16:56:12+00:00",
       "topics": [
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
       "summaryAttemptAt": "2026-11-05T20:11:12.582410+00:00",
@@ -119,9 +139,7 @@
       "language": "fr",
       "publishedAt": "2026-11-05T13:05:02+00:00",
       "topics": [
-        "ecuries",
-        "competition",
-        "pilotes"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
       "summaryAttemptAt": "2026-11-05T20:11:59.138769+00:00",
@@ -1094,8 +1112,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
-      "summaryAttemptAt": "2026-11-02T06:33:21.039495+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-06T07:07:05.115288+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -1445,8 +1463,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-11-01T22:15:23.238478+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-06T07:05:32.929442+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -2315,9 +2333,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-11-01T22:16:40.200138+00:00",
-      "summaryAttempts": 4,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-06T07:06:42.576456+00:00",
+      "summaryAttempts": 5,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "c61da4d257a65adf9161",
@@ -2392,8 +2410,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-11-01T22:17:27.554722+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-06T07:06:42.613691+00:00",
+      "summaryAttempts": 6,
       "summaryError": "invalid_length"
     },
     {
@@ -3550,8 +3568,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-11-01T22:16:40.141324+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-06T07:06:42.540475+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4820,8 +4838,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-11-01T22:16:14.450484+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-11-06T07:06:19.249046+00:00",
+      "summaryAttempts": 15,
       "summaryError": "invalid_length"
     },
     {
@@ -5057,8 +5075,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-11-01T22:16:40.033170+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-06T07:06:42.470999+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -6300,8 +6318,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-11-01T22:16:14.129285+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-11-06T07:06:19.088614+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -6315,8 +6333,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-11-01T22:16:14.280310+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-11-06T07:06:19.182766+00:00",
+      "summaryAttempts": 17,
       "summaryError": "source_unavailable"
     },
     {
@@ -7735,8 +7753,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-01T22:15:48.761622+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-06T07:05:56.400176+00:00",
+      "summaryAttempts": 20,
       "summaryError": "invalid_length"
     },
     {
@@ -10533,10 +10551,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
+    "created": 2,
+    "failed": 10,
     "pending": 67,
-    "checkedAt": "2026-11-05T20:15:10.670295+00:00"
+    "checkedAt": "2026-11-06T07:07:40.860574+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
