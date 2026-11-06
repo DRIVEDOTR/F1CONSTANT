@@ -1,24 +1,276 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-06T07:04:26.663088+00:00",
+  "collectedAt": "2026-11-06T19:35:21.812943+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-06T07:04:26.663088+00:00"
+      "checkedAt": "2026-11-06T19:35:21.812943+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 48,
-      "checkedAt": "2026-11-06T07:04:26.663088+00:00"
+      "count": 47,
+      "checkedAt": "2026-11-06T19:35:21.812943+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "9b4096224140fad46f32",
+      "title": "Vasseur a recadré Hamilton et Leclerc : \"Nous avons échoué et nous devons réagir\"",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-recadre-hamilton-leclerc-echec-reaction/10872261/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T19:00:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:35:22.407278+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur assure avoir calmé les tensions avec Hamilton et Leclerc",
+      "summaryFr": "Frédéric Vasseur affirme avoir dissipé les tensions après l'incident du Grand Prix de Mexico où Hamilton et Leclerc sont sortis de la piste en début de course. Le directeur de Ferrari précise qu'ils ont échoué et doivent réagir.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:35:51.711548+00:00"
+    },
+    {
+      "id": "bd284926295eeb099c23",
+      "title": "\"Des rétrogradages inacceptables\" : Verstappen explique ses critiques permanentes à la radio",
+      "url": "https://fr.motorsport.com/f1/news/retrogradages-inacceptables-verstappen-explique-critiques-permanentes-radio/10872211/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T17:44:35+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:35:51.711578+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "8cd6888b4601440a7331",
+      "title": "Herta a désormais sa Super Licence... Bottas reste confiant pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/colton-herta-super-licence-cadillac-bottas-confiant-2027/10872186/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T17:05:26+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:36:21.954983+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "64070e3e9d3d0fa2f093",
+      "title": "EL1 - Norris leader à Interlagos, Herta décroche sa Super Licence",
+      "url": "https://fr.motorsport.com/f1/news/el1-sao-paulo-norris-leader-herta-super-licence/10872168/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T16:41:31+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:36:51.510177+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris leader à São Paulo, Herta décroche sa Super Licence",
+      "summaryFr": "Lando Norris a enregistré le meilleur temps des EL1 au Grand Prix de São Paulo, devançant Kimi Antonelli de 0\"082 avec un chrono de 1'11\"717. Les quatre équipes de pointe restent très proches. Herta décroche sa Super Licence.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:37:21.177285+00:00"
+    },
+    {
+      "id": "c1d2862ef312863f8551",
+      "title": "George Russell \"un peu épuisé\" et pénalisé sur la grille au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-epuise-penalise-grille-bresil/10872133/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T15:24:24+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:37:21.177311+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "78cf60e9374506a29e37",
+      "title": "Le personnel de Viry-Châtillon dénonce \"un sentiment de trahison\" de Renault",
+      "url": "https://fr.motorsport.com/f1/news/personnel-viry-chatillon-denonce-abandon-trahison-renault/10872098/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T14:09:18+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:37:49.926363+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le personnel de Viry-Châtillon dénonce \"un sentiment de trahison\" de Renault",
+      "summaryFr": "Le personnel du Groupe Renault à Viry-Châtillon exprime un sentiment de trahison face aux décisions du constructeur. Après l'arrêt des programmes WEC et Rallye-Raid, la fin du projet de motorisation F1 pour Alpine et la cession du site sont citées comme des éléments de préoccupation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:38:19.611186+00:00"
+    },
+    {
+      "id": "6b87751073d91ba95d5d",
+      "title": "Rosberg critique la gestion de Ferrari : \"Les consignes ne sont pas assez claires\"",
+      "url": "https://fr.motorsport.com/f1/news/nico-rosberg-critique-gestion-ferrari-hamilton-leclerc/10872075/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T13:37:30+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:38:19.611213+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rosberg critique la gestion de Ferrari : \"Les consignes ne sont pas assez claires\"",
+      "summaryFr": "Nico Rosberg reproche à Ferrari de ne pas fournir des consignes claires pour ses pilotes. Il souligne l'intensité de la rivalité passée avec Lewis Hamilton, désormais évoluant à Ferrari avec Charles Leclerc.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:38:47.698373+00:00"
+    },
+    {
+      "id": "b4907192c17d9243139f",
+      "title": "Sainz a des bons souvenirs de ses combats face à Leclerc chez Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/sainz-bons-souvenirs-combats-leclerc-ferrari/10872065/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T12:59:30+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:38:47.698410+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Sainz rappelle ses bons souvenirs contre Leclerc à Ferrari",
+      "summaryFr": "Carlos Sainz conserve de bons souvenirs de ses confrontations avec Charles Leclerc lors de ses saisons à Ferrari. Il analyse également le duel entre son ancien coéquipier et Lewis Hamilton au Grand Prix de Mexico, où Leclerc a attaqué Hamilton dès le premier tour sur l'Autódromo Hermanos Rodríguez.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:39:18.752143+00:00"
+    },
+    {
+      "id": "b13eee0a081282ca3bd9",
+      "title": "Permane to stay as Racing Bulls team principal",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-06T11:53:34+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:39:18.752172+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Permane reste chef de l'équipe Racing Bulls jusqu'en 2031",
+      "summaryFr": "Alan Permane conserve son poste de principal de l'équipe Racing Bulls avec une extension de contrat jusqu'à la fin de 2031. Aucune information sur les performances ou les projets futurs de l'équipe.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:39:44.159164+00:00"
+    },
+    {
+      "id": "eec861df5ac883926657",
+      "title": "Ferrari prépare une réunion cruciale alors que les tensions entre Hamilton et Leclerc s'invitent au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/tensions-ferrari-hamilton-leclerc-vasseur-reunion-cruciale/10872025/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T11:16:10+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:39:44.159193+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari prépare une réunion cruciale au Brésil",
+      "summaryFr": "L'équipe italienne arrive à Interlagos avec des progrès notables sur sa SF-26. Les résultats récents confirment une amélioration de la compétitivité, malgré des tensions internes non confirmées.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:40:12.980556+00:00"
+    },
+    {
+      "id": "0eea04b858cba1d8945e",
+      "title": "Antonelli : \"Ma préparation pour 2027 commence maintenant\" après son sacre en F1",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-preparation-commence-maintenant-2027/10872016/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T10:37:42+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:40:12.980587+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli : \"Ma préparation pour 2027 commence maintenant\"",
+      "summaryFr": "Kimi Antonelli, après avoir remporté son titre mondial au Grand Prix de Mexico, est désormais engagé dans des activités commerciales à Rome. Il n'a pas encore donné de précision sur ses projets futurs en Formule 1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-06T19:40:40.751902+00:00"
+    },
+    {
+      "id": "289f7c06d9efbc17f22b",
+      "title": "Alan Permane prolonge son contrat avec Racing Bulls en F1",
+      "url": "https://fr.motorsport.com/f1/news/alan-permane-prolonge-contrat-racing-bulls/10872003/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T09:37:09+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-06T19:40:40.751932+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "ed5bdc79b4935b68fd8f",
+      "title": "Piastri : les directives de course \"très difficiles à appliquer\" à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/oscar-piastri-f1-directives-course-difficiles-appliquer-mexico/10871995/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T09:30:26+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00"
+    },
+    {
+      "id": "15ee5ac6a8a43667e2e9",
+      "title": "Max Verstappen plaisante sur le risque de pluie au Brésil : \"J'ai installé un antivirus maintenant !\"",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-plaisante-risque-pluie-bresil-antivirus/10871974/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T07:22:55+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00"
+    },
     {
       "id": "5c26db5208586adea29a",
       "title": "Antonelli says 2027 preparation starts now",
@@ -67,8 +319,7 @@
       "language": "fr",
       "publishedAt": "2026-11-05T19:41:52+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
       "summaryAttemptAt": "2026-11-06T07:04:58.127493+00:00",
@@ -10551,10 +10802,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
-    "pending": 67,
-    "checkedAt": "2026-11-06T07:07:40.860574+00:00"
+    "created": 8,
+    "failed": 4,
+    "pending": 73,
+    "checkedAt": "2026-11-06T19:41:01.952209+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
