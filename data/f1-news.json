@@ -1,24 +1,122 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-06T19:35:21.812943+00:00",
+  "collectedAt": "2026-11-07T06:16:45.785731+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-06T19:35:21.812943+00:00"
+      "checkedAt": "2026-11-07T06:16:45.785731+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-11-06T19:35:21.812943+00:00"
+      "checkedAt": "2026-11-07T06:16:45.785731+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "3faf925acd5b57e96da3",
+      "title": "Les évolutions de McLaren sont une \"agréable surprise\" au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/evolutions-mclaren-agreable-surprise-interlagos/10872346/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T21:53:40+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T06:16:45.785731+00:00",
+      "summaryAttemptAt": "2026-11-07T06:16:46.338696+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les évolutions de McLaren sont une \"agréable surprise\" au Brésil",
+      "summaryFr": "Lando Norris a enregistré le meilleur temps de la première séance d'essais libres au Grand Prix de São Paulo, devançant Kimi Antonelli (Mercedes) de 0\"082. Il a également montré l'un des meilleurs rythmes moyens lors des longs relais en EL2.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T06:17:33.143442+00:00"
+    },
+    {
+      "id": "cf5eaccf626941a4e6e7",
+      "title": "How to follow Sao Paulo Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-06T21:26:31+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-07T06:20:25.362287+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "a0828b2e3b2417b5a790",
+      "title": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-06T20:52:24+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-07T06:16:45.785731+00:00",
+      "summaryAttemptAt": "2026-11-07T06:17:33.143466+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Problème Hamilton-Leclerc pour Ferrari et autres actualités F1 à suivre",
+      "summaryFr": "Le Grand Prix de São Paulo marque le début de la nouvelle course de championnat. Un problème entre Hamilton et Leclerc pour Ferrari soulève des interrogations. Les équipes et les pilotes restent à l'écoute des évolutions.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T06:18:11.119523+00:00"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-06T20:07:58+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
+    },
+    {
+      "id": "1dea1d8e7a9a5a90cd24",
+      "title": "EL2 - Antonelli devance Norris et Verstappen à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/el2-gp-sao-paulo-antonelli-devance-norris/10872296/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-06T20:05:52+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T06:16:45.785731+00:00",
+      "summaryAttemptAt": "2026-11-07T06:18:11.119547+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli devance Norris et Verstappen à Interlagos",
+      "summaryFr": "Kimi Antonelli a réalisé le meilleur temps des EL2 au Grand Prix de São Paulo, devançant Lando Norris et Max Verstappen sur le tracé d'Interlagos. Le chrono a été enregistré juste avant la mi-séance, alors que les pilotes chausson les pneus tendres.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T06:18:54.548296+00:00"
+    },
     {
       "id": "9b4096224140fad46f32",
       "title": "Vasseur a recadré Hamilton et Leclerc : \"Nous avons échoué et nous devons réagir\"",
@@ -27,8 +125,7 @@
       "language": "fr",
       "publishedAt": "2026-11-06T19:00:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
       "summaryAttemptAt": "2026-11-06T19:35:22.407278+00:00",
@@ -78,9 +175,7 @@
       "language": "fr",
       "publishedAt": "2026-11-06T16:41:31+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
       "summaryAttemptAt": "2026-11-06T19:36:51.510177+00:00",
@@ -115,7 +210,6 @@
       "language": "fr",
       "publishedAt": "2026-11-06T14:09:18+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
@@ -136,7 +230,6 @@
       "language": "fr",
       "publishedAt": "2026-11-06T13:37:30+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
@@ -158,8 +251,7 @@
       "publishedAt": "2026-11-06T12:59:30+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
       "summaryAttemptAt": "2026-11-06T19:38:47.698410+00:00",
@@ -199,8 +291,8 @@
       "language": "fr",
       "publishedAt": "2026-11-06T11:16:10+00:00",
       "topics": [
-        "ecuries",
-        "voitures"
+        "pilotes",
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
       "summaryAttemptAt": "2026-11-06T19:39:44.159193+00:00",
@@ -255,9 +347,19 @@
       "language": "fr",
       "publishedAt": "2026-11-06T09:30:26+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00"
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-07T06:18:54.548319+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri : les directives de course \"très difficiles à appliquer\" au Mexico",
+      "summaryFr": "Oscar Piastri a accepté sa pénalité pour un accrochage avec Arvid Lindblad au Grand Prix de Mexico, en raison des directives de course sur les standards de pilotage. Il estime que ces règles seraient plus adaptées à des virages comme ceux du premier enchaînement du circuit.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T06:19:39.063127+00:00"
     },
     {
       "id": "15ee5ac6a8a43667e2e9",
@@ -267,9 +369,18 @@
       "language": "fr",
       "publishedAt": "2026-11-06T07:22:55+00:00",
       "topics": [
-        "pilotes"
+        "ecuries",
+        "competition"
       ],
-      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00"
+      "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
+      "summaryAttemptAt": "2026-11-07T06:19:39.063152+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen moque le risque de pluie au Brésil : \"J'ai installé un antivirus !\"",
+      "summaryFr": "Un bug logiciel lié à la limite de puissance de 250 kW imposée par la FIA a causé des arrêts chez la moitié du peloton lors des tours de formation au circuit de Sepang. La course sous la pluie n'a pas été une réussite, malgré les prévisions météorologiques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T06:20:25.312643+00:00"
     },
     {
       "id": "5c26db5208586adea29a",
@@ -366,21 +477,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-05T20:11:59.138739+00:00"
-    },
-    {
-      "id": "cf5eaccf626941a4e6e7",
-      "title": "How to follow Sao Paulo Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-05T15:03:34+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
-      "summaryAttemptAt": "2026-11-02T21:52:52.239162+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "invalid_length"
     },
     {
       "id": "9f76dc80a4c308f65d8f",
@@ -1065,8 +1161,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
-      "summaryAttemptAt": "2026-11-02T21:53:10.176803+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-07T06:20:52.790097+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -1398,9 +1494,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
-      "summaryAttemptAt": "2026-11-02T06:34:20.028160+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-07T06:20:25.312668+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "bab6443131e8e9bd64b3",
@@ -1542,24 +1638,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-01T18:02:03.975977+00:00"
-    },
-    {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-01T10:27:50+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
     },
     {
       "id": "e171139f6ef03b807207",
@@ -2364,8 +2442,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-11-03T07:05:22.055808+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-07T06:21:51.127562+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -2416,8 +2494,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-28T22:43:46.215295+00:00",
-      "summaryAttemptAt": "2026-11-03T07:04:54.648888+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-07T06:21:24.091259+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -2569,8 +2647,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-11-03T07:05:22.003327+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-07T06:21:51.076303+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -2676,8 +2754,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-11-03T07:04:54.589371+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-07T06:21:24.068154+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -10802,10 +10880,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 8,
-    "failed": 4,
-    "pending": 73,
-    "checkedAt": "2026-11-06T19:41:01.952209+00:00"
+    "created": 5,
+    "failed": 7,
+    "pending": 71,
+    "checkedAt": "2026-11-07T06:21:51.149143+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
