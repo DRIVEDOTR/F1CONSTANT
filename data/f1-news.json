@@ -1,24 +1,280 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-07T13:21:24.853820+00:00",
+  "collectedAt": "2026-11-07T22:05:59.925054+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-07T13:21:24.853820+00:00"
+      "checkedAt": "2026-11-07T22:05:59.925054+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 47,
-      "checkedAt": "2026-11-07T13:21:24.853820+00:00"
+      "count": 46,
+      "checkedAt": "2026-11-07T22:05:59.925054+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "cf5eaccf626941a4e6e7",
+      "title": "How to follow Sao Paulo Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-07T21:49:37+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
+      "summaryAttemptAt": "2026-11-07T06:20:25.362287+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "cfc85c63647b8e610cc5",
+      "title": "Hamilton assure que les tensions avec Leclerc sont terminées",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-assure-tensions-terminees-avec-leclerc/10872766/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T21:48:25+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:06:00.663638+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "dfb73b3f26e11d52339c",
+      "title": "Verstappen a préféré regarder la Premier League pendant le déluge à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-regarde-premier-league-deluge-interlagos/10872752/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T21:30:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:06:46.165719+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen abandonne la Q1 à Interlagos après pénalité moteur",
+      "summaryFr": "Max Verstappen a quitté les qualifications du Grand Prix de São Paulo après avoir reçu une pénalité moteur, ce qui l'a placé en 21e position. Il est derrière Lewis Hamilton et devant Sergio Pérez sur la grille provisoire.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:07:30.720705+00:00"
+    },
+    {
+      "id": "dabe43057c6c2c50b247",
+      "title": "Norris takes pole in rain-delayed qualifying",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6gell5l7l3zo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-07T20:48:40+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:07:30.720735+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "23f2bbdc7c4d476033a1",
+      "title": "La grille de départ du Grand Prix de São Paulo F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-gp-sao-paulo-f1-2026/10872721/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T20:41:56+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:08:12.239052+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille de départ du Grand Prix de São Paulo F1 2026",
+      "summaryFr": "Lando Norris part en première position pour McLaren, suivi de Kimi Antonelli chez Mercedes. Liam Lawson termine quatrième pour Racing Bulls. Les classements restent à vérifier en raison de l'absence de données complètes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:08:51.354279+00:00"
+    },
+    {
+      "id": "49e6371af1aa2da1953c",
+      "title": "Lando Norris en pole sous la pluie à São Paulo !",
+      "url": "https://fr.motorsport.com/f1/news/gp-sao-paulo-lando-norris-pole-position-pluie-2026/10872709/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T20:30:05+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:08:51.354309+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lando Norris en pole sous la pluie à São Paulo",
+      "summaryFr": "Lando Norris a obtenu la pole position au Grand Prix du Brésil, après une séance de qualifications difficile marquée par un drapeau rouge dû aux fortes pluies. George Russell occupe la deuxième place. La piste, détrempée, a vu apparaître de nombreuses flaques d'eau.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:09:36.686530+00:00"
+    },
+    {
+      "id": "bdd12bf5a3888b4beafd",
+      "title": "Hamilton écope d'une nouvelle pénalité et partira du fond de grille à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/lewis-hamilton-nouvelle-penalite-fond-grille-interlagos/10872643/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T17:32:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:09:36.686562+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton pénalisé pour dépassement de quota et partira du fond de grille à Interlagos",
+      "summaryFr": "Lewis Hamilton devra partir du fond de la grille à Interlagos après avoir dépassé son quota de groupes propulseurs. La pénalité, de dix places, s'ajoute à une précédente sanction. L'annonce vient de Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:10:20.553172+00:00"
+    },
+    {
+      "id": "bfb2d4aba199b21ed20e",
+      "title": "Hamilton & Verstappen to start from back in Brazil",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-07T17:24:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:10:20.553203+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton et Verstappen partent en retard au Grand Prix du Brésil",
+      "summaryFr": "Lewis Hamilton et Charles Leclerc seront sanctionnés pour le Grand Prix du Brésil. Max Verstappen, pilote de Red Bull, subira également une pénalité au départ. Les trois conducteurs auront des penalisations sur la grille.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:10:59.398628+00:00"
+    },
+    {
+      "id": "323fa4b6bfd13d3cb8e1",
+      "title": "Vasseur a payé de sa poche 1 million de dollars pour les débuts d'Ocon en F1",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-a-paye-1-million-de-dollars-de-sa-poche-pour-les-debuts-d-ocon-en-f1/10872613/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T16:48:00+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:10:59.398682+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "30fea9e646a3c4868485",
+      "title": "EL3 - Verstappen devant Antonelli avant les qualifs à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/el3-interlagos-verstappen-devant-antonelli/10872578/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T15:36:39+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:11:29.836215+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen leader des essais libres 3 à Interlagos devant Antonelli",
+      "summaryFr": "Max Verstappen a enregistré le meilleur temps des Essais Libres 3 à Interlagos, devançant de justesse Kimi Antonelli. La Ferrari de Lewis Hamilton a connu un problème technique. La menace de pluie a poussé les pilotes à reprendre rapidement la piste, notamment Nico Hülkenberg dont l'Audi a subi un incident majeur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:12:17.494160+00:00"
+    },
+    {
+      "id": "d0bd2e49bb062dceb7df",
+      "title": "Hamilton, Leclerc et Verstappen pénalisés sur la grille à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-leclerc-verstappen-penalises-grille-interlagos/10872563/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T15:05:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:12:17.494190+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton, Leclerc et Verstappen pénalisés sur la grille à Interlagos",
+      "summaryFr": "Ferrari échappe aux pénalités moteur malgré l'usage de leurs quatrièmes et derniers V6 et turbos. Les séances d'essais libres ont été difficiles, menant à un changement de groupe propulseur prévu. Les pénalités touchent Hamilton, Leclerc et Verstappen.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:13:03.876872+00:00"
+    },
+    {
+      "id": "f25fbcfdea3604dc4d16",
+      "title": "Câmara plutôt que Hirakawa : Komatsu justifie le choix de Haas à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/haas-justifie-choix-rafael-camara-ryo-hirakawa-interlagos/10872552/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T14:54:27+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:13:03.876901+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Komatsu justifie le choix de Câmara pour São Paulo",
+      "summaryFr": "Ayao Komatsu, directeur de Haas, affirme que la décision d'offrir à Rafael Câmara ses débuts en Formule 1 au Grand Prix de São Paulo repose uniquement sur le professionnalisme. Il ne sous-entend pas que Ryo Hirakawa manque de professionnalisme.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:13:47.939724+00:00"
+    },
+    {
+      "id": "e3a4a7268293e2d3f635",
+      "title": "La F1 prolonge son Grand Prix au Brésil jusqu'en 2035",
+      "url": "https://fr.motorsport.com/f1/news/f1-prolonge-grand-prix-sao-paulo-bresil-2035/10872544/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T14:35:30+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:13:47.939752+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix du Brésil prolongé jusqu'en 2035",
+      "summaryFr": "Le Grand Prix de São Paulo restera au calendrier de la Formule 1 jusqu'en 2035 grâce à un accord de cinq ans. L'épreuve, déjà prolongée précédemment, bénéficie d'une nouvelle extension confirmée par les parties prenantes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:14:29.678267+00:00"
+    },
     {
       "id": "45a5c6ccdd922b1ec29b",
       "title": "Ayao Komatsu : l'éviction d'Ocon a \"surpris tout le monde\" chez Haas",
@@ -48,8 +304,6 @@
       "language": "fr",
       "publishedAt": "2026-11-07T10:40:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
@@ -71,8 +325,7 @@
       "publishedAt": "2026-11-07T10:23:12+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
       "summaryAttemptAt": "2026-11-07T13:22:57.144150+00:00",
@@ -93,8 +346,7 @@
       "publishedAt": "2026-11-07T09:16:42+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
       "summaryAttemptAt": "2026-11-07T13:23:41.415815+00:00",
@@ -115,8 +367,7 @@
       "publishedAt": "2026-11-07T07:22:22+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
       "summaryAttemptAt": "2026-11-07T13:24:24.609127+00:00",
@@ -148,21 +399,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-07T06:17:33.143442+00:00"
-    },
-    {
-      "id": "cf5eaccf626941a4e6e7",
-      "title": "How to follow Sao Paulo Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw0k0ylj6lj3o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-06T21:26:31+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
-      "summaryAttemptAt": "2026-11-07T06:20:25.362287+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "invalid_length"
     },
     {
       "id": "a0828b2e3b2417b5a790",
@@ -10983,10 +11219,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
-    "pending": 71,
-    "checkedAt": "2026-11-07T13:27:26.516465+00:00"
+    "created": 9,
+    "failed": 3,
+    "pending": 74,
+    "checkedAt": "2026-11-07T22:14:29.678444+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
