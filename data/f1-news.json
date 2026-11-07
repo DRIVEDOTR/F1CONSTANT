@@ -1,24 +1,133 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-07T06:16:45.785731+00:00",
+  "collectedAt": "2026-11-07T13:21:24.853820+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-07T06:16:45.785731+00:00"
+      "checkedAt": "2026-11-07T13:21:24.853820+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-11-07T06:16:45.785731+00:00"
+      "checkedAt": "2026-11-07T13:21:24.853820+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "45a5c6ccdd922b1ec29b",
+      "title": "Ayao Komatsu : l'éviction d'Ocon a \"surpris tout le monde\" chez Haas",
+      "url": "https://fr.motorsport.com/f1/news/ayao-komatsu-esteban-ocon-eviction-surprise-haas/10872458/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T11:06:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
+      "summaryAttemptAt": "2026-11-07T13:21:25.474826+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Komatsu : l'éviction d'Ocon surprend tout le monde chez Haas",
+      "summaryFr": "Ayao Komatsu affirme que l'éviction d'Esteban Ocon par Haas a surpris tout le monde. Le différend est survenu après les Essais Libres 1 au Mexique. Les circonstances exactes restent encore incertaines.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T13:22:11.043124+00:00"
+    },
+    {
+      "id": "f3c878207825596138e5",
+      "title": "Ralf Schumacher fustige les chances de Colton Herta en F1 : \"Il ne fait que brûler du carburant\"",
+      "url": "https://fr.motorsport.com/f1/news/ralf-schumacher-fustige-chances-colton-herta-f1/10872451/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T10:40:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
+      "summaryAttemptAt": "2026-11-07T13:22:11.043148+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ralf Schumacher critique les chances de Colton Herta en F1",
+      "summaryFr": "Colton Herta a obtenu son Super Licence FIA grâce à une participation aux Essais Libres 1 au Grand Prix de São Paulo 2026. Ralf Schumacher a déclaré qu'il ne faisait que brûler du carburant, sans préciser de source officielle. Ce commentaire reste une rumeur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T13:22:57.144127+00:00"
+    },
+    {
+      "id": "dc52328509c882a4d677",
+      "title": "Ferrari en difficulté dans les lignes droites comme dans les virages : \"L'un des pires ressentis\" pour Leclerc",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-difficulte-ligne-droites-virages-pires-ressentis-charles-leclerc/10872447/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T10:23:12+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
+      "summaryAttemptAt": "2026-11-07T13:22:57.144150+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Ferrari en difficulté sur ligne droite et en virage selon Leclerc",
+      "summaryFr": "Charles Leclerc a déclaré que la Ferrari SF-26 est peu performante en ligne droite et difficile à piloter en virage. Le duo de pilotes a enregistré respectivement les sixièmes et septièmes temps des essais libres 2, derrière Kimi Antonelli.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T13:23:41.415791+00:00"
+    },
+    {
+      "id": "02446133c820dced9214",
+      "title": "Le patron de Racing Bulls \"comprend la frustration\" liée au retard dans le choix des pilotes",
+      "url": "https://fr.motorsport.com/f1/news/patron-racing-bulls-comprend-frustration-choix-pilotes/10872430/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T09:16:42+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
+      "summaryAttemptAt": "2026-11-07T13:23:41.415815+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Racing Bulls : le patron comprend la frustration du retard dans le choix des pilotes",
+      "summaryFr": "Alan Permane affirme comprendre la frustration liée au retard dans le choix entre Liam Lawson et Nikola Tsolov pour la saison 2027. L'équipe satellite de Red Bull prévoit de signer la meilleure saison de son histoire avec le duo de pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T13:24:24.609102+00:00"
+    },
+    {
+      "id": "b03bc2c24495dc1a6c15",
+      "title": "Red Bull explique pourquoi Verstappen a écourté les essais libres au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-explique-verstappen-essais-ecourte-bresil/10872403/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-07T07:22:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-07T13:21:24.853820+00:00",
+      "summaryAttemptAt": "2026-11-07T13:24:24.609127+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen termine troisième au Brésil en essais libres",
+      "summaryFr": "Max Verstappen termine à la troisième place lors des essais libres au Brésil, avec un retard d'environ deux dixièmes et demi sur le pilote le plus rapide. Lando Norris et Kimi Antonelli ont respectivement signé les meilleurs temps des deux séances.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T13:25:08.298167+00:00"
+    },
     {
       "id": "3faf925acd5b57e96da3",
       "title": "Les évolutions de McLaren sont une \"agréable surprise\" au Brésil",
@@ -27,9 +136,8 @@
       "language": "fr",
       "publishedAt": "2026-11-06T21:53:40+00:00",
       "topics": [
-        "pilotes",
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-07T06:16:45.785731+00:00",
       "summaryAttemptAt": "2026-11-07T06:16:46.338696+00:00",
@@ -103,9 +211,7 @@
       "language": "fr",
       "publishedAt": "2026-11-06T20:05:52+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-07T06:16:45.785731+00:00",
       "summaryAttemptAt": "2026-11-07T06:18:11.119547+00:00",
@@ -347,9 +453,7 @@
       "language": "fr",
       "publishedAt": "2026-11-06T09:30:26+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
       "summaryAttemptAt": "2026-11-07T06:18:54.548319+00:00",
@@ -369,8 +473,7 @@
       "language": "fr",
       "publishedAt": "2026-11-06T07:22:55+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
       "summaryAttemptAt": "2026-11-07T06:19:39.063152+00:00",
@@ -850,8 +953,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-03T19:41:34.245106+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-07T13:25:08.467905+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -885,8 +988,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-03T19:42:50.386506+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-07T13:25:55.370180+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -983,8 +1086,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-03T19:46:02.467868+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-07T13:26:42.096263+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -2129,9 +2232,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-03T07:05:22.150893+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-11-07T13:25:08.365986+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "5b9b4fdce332781686e7",
@@ -2164,9 +2267,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-03T07:05:55.171413+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-07T13:25:08.436419+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "e743e748514c402ec218",
@@ -2457,8 +2560,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-11-03T07:05:22.093282+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-07T13:25:08.298191+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3092,8 +3195,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
-      "summaryAttemptAt": "2026-11-03T07:06:37.621637+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-07T13:25:08.452438+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -10883,7 +10986,7 @@
     "created": 5,
     "failed": 7,
     "pending": 71,
-    "checkedAt": "2026-11-07T06:21:51.149143+00:00"
+    "checkedAt": "2026-11-07T13:27:26.516465+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
