@@ -1,24 +1,168 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-08T13:44:59.085711+00:00",
+  "collectedAt": "2026-11-08T22:18:30.396013+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-08T13:44:59.085711+00:00"
+      "checkedAt": "2026-11-08T22:18:30.396013+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-11-08T13:44:59.085711+00:00"
+      "checkedAt": "2026-11-08T22:18:30.396013+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "b2427b3304b3bf53006a",
+      "title": "Norris wins gripping race after Antonelli and Russell errors",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-08T22:11:31+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:18:31.158011+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris remporte une course serrée après des erreurs d'Antonelli et Russell",
+      "summaryFr": "Lando Norris remporte le Grand Prix de São Paulo malgré des conditions difficiles. Mercedes terminent avec la championnat des constructeurs. Aucune information sur les ailerons, pneus ou soufflerie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T22:18:56.487865+00:00"
+    },
+    {
+      "id": "b899fffaf79ce33ccd71",
+      "title": "Leclerc pénalisé après son accrochage avec Lawson, Antonelli et Bearman également sanctionnés",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-penalise-apres-accrochage-lawson-antonelli-bearman-egalement-sanctionnes/10873165/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T21:56:37+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:18:56.487892+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "1be5eeacdb439b8f6fe8",
+      "title": "Norris brilliant in wet & Verstappen recovery extraordinary - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5y43jzvrnz0o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-08T21:56:33+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:19:25.617993+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris brillant en pluie et Verstappen effectue une reprise extraordinaire - classements pilotes",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes au Grand Prix de São Paulo. Norris est qualifié comme brillant en conditions humides, tandis que Verstappen réalise une reprise extraordinaire. Aucune information sur les spécificités aérodynamiques ou les réglages des voitures.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T22:19:52.246362+00:00"
+    },
+    {
+      "id": "2139c8d4062211044b7d",
+      "title": "Verstappen \"doit comprendre ce qui s'est passé\" après une remontée \"du tout au tout\"",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-doit-comprendre-ce-qui-s-est-passe-après-remontée-du-tout-au-tout/10873151/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T21:42:18+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:19:52.246387+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen doit comprendre ce qui s'est passé après une remontée du tout au tout",
+      "summaryFr": "Max Verstappen a réalisé une remontée spectaculaire au Grand Prix de São Paulo 2026, en partant de la 21e position pour terminer deuxième. C'est la troisième année consécutive où il monte au classement après un départ bas. Il a dû analyser ce qui s'est produit pour comprendre cette performance.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T22:20:21.715267+00:00"
+    },
+    {
+      "id": "f873a753d31cc1e18ccb",
+      "title": "Antonelli : \"Une perte de contrôle étrange\" et une voiture instable lui coûtent la victoire",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-perte-de-controle-etrange-voiture-instable-coute-victoire/10873133/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T21:02:20+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:20:21.715296+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli : \"Une perte de contrôle étrange\" lui coûte la victoire",
+      "summaryFr": "Kimi Antonelli a déclaré avoir subi une perte de contrôle étrange lors du Grand Prix du Brésil, ce qui a entraîné une instabilité de sa voiture et lui a coûté la victoire. Il avait pris la tête au départ devant Lando Norris, mais a perdu du terrain en raison des problèmes d'équilibre.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T22:20:51.028075+00:00"
+    },
+    {
+      "id": "ee1b03936b407ea7f7e1",
+      "title": "Antonelli et Leclerc convoqués chez les commissaires après le GP du Brésil",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-leclerc-convoques-commissaires-bresil/10873104/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T20:00:16+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:20:51.028103+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli et un représentant de Mercedes convoqués après le GP du Brésil",
+      "summaryFr": "Kimi Antonelli et un représentant de Mercedes sont convoqués devant les commissaires après le GP du Brésil. Le relâché dangereux est en cause. Mercedes a relâché Antonelli.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T22:21:17.336680+00:00"
+    },
+    {
+      "id": "70d7e32c98d2575117aa",
+      "title": "Norris s'impose dans des conditions mixtes, Mercedes décroche le titre constructeurs",
+      "url": "https://fr.motorsport.com/f1/news/lando-norris-s-impose-victoire-mercedes-decroche-titre-constructeurs/10873049/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T18:56:20+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
+      "summaryAttemptAt": "2026-11-08T22:21:17.336706+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris remporte le GP du Brésil en conditions météorologiques changeantes",
+      "summaryFr": "Lando Norris a remporté sa troisième victoire en 2026 face à un retour en force de Max Verstappen. Mercedes a décroché le titre constructeur. Les conditions météorologiques ont été mixtes durant le sprint.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T22:21:44.783530+00:00"
+    },
     {
       "id": "2c4fdee903e9c7742a4c",
       "title": "Hamilton et Verstappen peuvent-ils encore gagner à Interlagos ?",
@@ -27,9 +171,7 @@
       "language": "fr",
       "publishedAt": "2026-11-08T13:29:17+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
       "summaryAttemptAt": "2026-11-08T13:44:59.868257+00:00",
@@ -70,9 +212,7 @@
       "language": "fr",
       "publishedAt": "2026-11-08T12:27:20+00:00",
       "topics": [
-        "competition",
-        "ecuries",
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
       "summaryAttemptAt": "2026-11-08T13:46:36.563630+00:00",
@@ -92,8 +232,7 @@
       "language": "fr",
       "publishedAt": "2026-11-08T10:26:19+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
       "summaryAttemptAt": "2026-11-08T13:47:23.296415+00:00",
@@ -113,8 +252,6 @@
       "language": "fr",
       "publishedAt": "2026-11-08T10:00:41+00:00",
       "topics": [
-        "ecuries",
-        "pilotes",
         "competition"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
@@ -150,8 +287,7 @@
       "language": "fr",
       "publishedAt": "2026-11-08T07:54:55+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
       "summaryAttemptAt": "2026-11-08T13:49:38.366748+00:00",
@@ -2458,9 +2594,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
-      "summaryAttemptAt": "2026-11-05T07:05:29.586605+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-08T22:22:02.408744+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "fa96e36e6b7170040084",
@@ -7558,8 +7694,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-11-05T07:05:02.027607+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T22:21:44.886251+00:00",
+      "summaryAttempts": 20,
       "summaryError": "invalid_length"
     },
     {
@@ -7573,8 +7709,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-11-05T07:05:29.556320+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-08T22:22:02.347034+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -7690,8 +7826,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-11-05T07:05:29.494376+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-08T22:22:02.218662+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -9365,8 +9501,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-11-05T07:05:01.989369+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T22:21:44.783562+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -11369,8 +11505,8 @@
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 6,
     "failed": 6,
-    "pending": 75,
-    "checkedAt": "2026-11-08T13:50:51.111671+00:00"
+    "pending": 76,
+    "checkedAt": "2026-11-08T22:22:02.477825+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
