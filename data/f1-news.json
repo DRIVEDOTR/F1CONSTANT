@@ -1,24 +1,65 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-07T22:05:59.925054+00:00",
+  "collectedAt": "2026-11-08T06:22:48.496622+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-07T22:05:59.925054+00:00"
+      "checkedAt": "2026-11-08T06:22:48.496622+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 46,
-      "checkedAt": "2026-11-07T22:05:59.925054+00:00"
+      "count": 47,
+      "checkedAt": "2026-11-08T06:22:48.496622+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "90f8762ffdc91d654676",
+      "title": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-07T23:53:30+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T06:22:48.496622+00:00",
+      "summaryAttemptAt": "2026-11-08T06:22:48.947531+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Conditions de qualification borderales - Norris et Russell espèrent plus de pluie",
+      "summaryFr": "Lando Norris, pole-sitter au Grand Prix de São Paulo, a déclaré que les conditions de qualification étaient parmi les plus pluvieuses qu'il ait jamais vécues. Il n'a pas précisé s'il y avait eu des changements dans les prévisions météorologiques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T06:23:29.152357+00:00"
+    },
+    {
+      "id": "bfb2d4aba199b21ed20e",
+      "title": "Hamilton & Verstappen to start from back in Brazil",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-07T22:07:41+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
+      "summaryAttemptAt": "2026-11-07T22:10:20.553203+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton et Verstappen partent en retard au Grand Prix du Brésil",
+      "summaryFr": "Lewis Hamilton et Charles Leclerc seront sanctionnés pour le Grand Prix du Brésil. Max Verstappen, pilote de Red Bull, subira également une pénalité au départ. Les trois conducteurs auront des penalisations sur la grille.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-07T22:10:59.398628+00:00"
+    },
     {
       "id": "cf5eaccf626941a4e6e7",
       "title": "How to follow Sao Paulo Grand Prix on the BBC",
@@ -57,9 +98,7 @@
       "language": "fr",
       "publishedAt": "2026-11-07T21:30:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
       "summaryAttemptAt": "2026-11-07T22:06:46.165719+00:00",
@@ -94,8 +133,6 @@
       "language": "fr",
       "publishedAt": "2026-11-07T20:41:56+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
@@ -116,9 +153,7 @@
       "language": "fr",
       "publishedAt": "2026-11-07T20:30:05+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
       "summaryAttemptAt": "2026-11-07T22:08:51.354309+00:00",
@@ -138,9 +173,7 @@
       "language": "fr",
       "publishedAt": "2026-11-07T17:32:34+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
       "summaryAttemptAt": "2026-11-07T22:09:36.686562+00:00",
@@ -151,28 +184,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-07T22:10:20.553172+00:00"
-    },
-    {
-      "id": "bfb2d4aba199b21ed20e",
-      "title": "Hamilton & Verstappen to start from back in Brazil",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-07T17:24:15+00:00",
-      "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-07T22:10:20.553203+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Hamilton et Verstappen partent en retard au Grand Prix du Brésil",
-      "summaryFr": "Lewis Hamilton et Charles Leclerc seront sanctionnés pour le Grand Prix du Brésil. Max Verstappen, pilote de Red Bull, subira également une pénalité au départ. Les trois conducteurs auront des penalisations sur la grille.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-11-07T22:10:59.398628+00:00"
     },
     {
       "id": "323fa4b6bfd13d3cb8e1",
@@ -197,9 +208,7 @@
       "language": "fr",
       "publishedAt": "2026-11-07T15:36:39+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
       "summaryAttemptAt": "2026-11-07T22:11:29.836215+00:00",
@@ -219,9 +228,7 @@
       "language": "fr",
       "publishedAt": "2026-11-07T15:05:13+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
       "summaryAttemptAt": "2026-11-07T22:12:17.494190+00:00",
@@ -241,7 +248,6 @@
       "language": "fr",
       "publishedAt": "2026-11-07T14:54:27+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
@@ -262,7 +268,6 @@
       "language": "fr",
       "publishedAt": "2026-11-07T14:35:30+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
@@ -1096,8 +1101,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
-      "summaryAttemptAt": "2026-11-04T06:45:01.075586+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-08T06:23:29.152391+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -1174,8 +1179,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-04T19:59:23.763176+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-08T06:25:49.566117+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -2950,8 +2955,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
-      "summaryAttemptAt": "2026-11-04T06:47:23.707260+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-08T06:24:15.252778+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -5071,8 +5076,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-11-04T06:48:44.687189+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-11-08T06:25:49.515497+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -6041,8 +6046,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-11-04T06:48:21.507214+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-11-08T06:25:22.226764+00:00",
+      "summaryAttempts": 15,
       "summaryError": "invalid_length"
     },
     {
@@ -8580,8 +8585,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-11-04T06:47:23.843133+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T06:24:15.313876+00:00",
+      "summaryAttempts": 20,
       "summaryError": "unsupported_number"
     },
     {
@@ -8716,8 +8721,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-04T06:47:58.324310+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T06:24:54.943758+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -8791,8 +8796,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-04T06:47:58.401974+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T06:24:54.990692+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -9090,8 +9095,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-11-04T06:47:58.466234+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T06:24:55.072550+00:00",
+      "summaryAttempts": 20,
       "summaryError": "invalid_length"
     },
     {
@@ -9125,8 +9130,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-04T06:48:21.427128+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T06:25:22.163247+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -9140,8 +9145,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-04T19:59:42.261667+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T06:26:17.901646+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -11219,10 +11224,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 9,
-    "failed": 3,
+    "created": 1,
+    "failed": 11,
     "pending": 74,
-    "checkedAt": "2026-11-07T22:14:29.678444+00:00"
+    "checkedAt": "2026-11-08T06:26:17.922559+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
