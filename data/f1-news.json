@@ -1,24 +1,168 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-08T06:22:48.496622+00:00",
+  "collectedAt": "2026-11-08T13:44:59.085711+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-08T06:22:48.496622+00:00"
+      "checkedAt": "2026-11-08T13:44:59.085711+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 47,
-      "checkedAt": "2026-11-08T06:22:48.496622+00:00"
+      "checkedAt": "2026-11-08T13:44:59.085711+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "2c4fdee903e9c7742a4c",
+      "title": "Hamilton et Verstappen peuvent-ils encore gagner à Interlagos ?",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-et-verstappen-peuvent-ils-encore-gagner-a-interlagos/10872917/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T13:29:17+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:44:59.868257+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton et Verstappen en 20e et 21e : peut-on encore gagner à Interlagos ?",
+      "summaryFr": "Lewis Hamilton et Max Verstappen partent respectivement 20e et 21e sur la grille de départ du Grand Prix de São Paulo. La course s'annonce passionnante, avec des remontées historiques possibles sur l'Autódromo José Carlos Pace. Les conditions météorologiques restent incertaines.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T13:45:49.317805+00:00"
+    },
+    {
+      "id": "1a4d0459291ee81879e9",
+      "title": "L'aileron avant 2027 de McLaren rend sa F1 plus prévisible",
+      "url": "https://fr.motorsport.com/f1/news/mclaren-aileron-avant-2027-rend-monoplace-plus-previsible/10872911/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T12:39:07+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:45:49.317833+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "L'aileron avant 2027 de McLaren rend la monoplace plus prévisible",
+      "summaryFr": "Andrea Stella, directeur de McLaren, affirme que l'aileron avant introduit sur la MCL40 au Grand Prix de São Paulo a amélioré la facilité de pilotage et rendu la voiture plus prévisible. L'écurie a également mis en place un aileron arrière et un beam à Interlagos.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T13:46:36.563600+00:00"
+    },
+    {
+      "id": "2313e6a38a49ae8739ef",
+      "title": "À Interlagos, le tour de force de la F1 pour maintenir les qualifs malgré le déluge",
+      "url": "https://fr.motorsport.com/f1/news/f1-interlagos-tour-de-force-qualifications-deluge/10872862/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T12:27:20+00:00",
+      "topics": [
+        "competition",
+        "ecuries",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:46:36.563630+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Interlagos : les qualifications reportées par la pluie, mais reprises après éclaircie",
+      "summaryFr": "Une heure et 23 minutes ont été perdues lors des qualifications du Grand Prix de São Paulo en raison du déluge. Le scénario de 2024, avec un report au dimanche, semblait se reproduire. Une éclaircie a permis de reprendre la séance.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T13:47:23.296386+00:00"
+    },
+    {
+      "id": "09500b819eb9ecf3fd76",
+      "title": "Gasly : \"Après avoir côtoyé Helmut Marko, plus rien ne me met la pression !\"",
+      "url": "https://fr.motorsport.com/f1/news/gasly-colapinto-pression-supporters-messages-haineux-helmu-marko/10872855/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T10:26:19+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:47:23.296415+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Gasly : \"Après avoir côtoyé Helmut Marko, plus rien ne me met la pression !\"",
+      "summaryFr": "Pierre Gasly souligne l'ambiance particulière à Interlagos, où l'arrivée de Franco Colapinto, avec son drapeau argentin, renforce l'atmosphère familiale autour du garage Alpine à São Paulo. Le pilote ne précise pas les détails de son expérience avec Helmut Marko.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T13:48:10.639212+00:00"
+    },
+    {
+      "id": "182762428100f6eb62bf",
+      "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP de São Paulo",
+      "url": "https://fr.motorsport.com/f1/news/face-a-face-qualifications-2026-gp-sao-paulo/10872880/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T10:00:41+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:48:10.639243+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les face-à-face entre équipiers en qualifications au GP de São Paulo",
+      "summaryFr": "Après chaque séance de qualifications, Motorsport.com publie le bilan interne des écuries entre leurs deux pilotes. Ces données se basent uniquement sur les résultats des qualifications. Aucune pénalité sur la grille n'influence les statistiques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T13:48:53.775521+00:00"
+    },
+    {
+      "id": "fa5b0e576a2ea3f3f26c",
+      "title": "Troisième sur la grille, Lawson regrette une erreur qui lui coûte la première ligne",
+      "url": "https://fr.motorsport.com/f1/news/liam-lawson-regrette-erreur-premiere-ligne-interlagos/10872851/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T08:07:29+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:48:53.775551+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "a5a1a114f481c1013d85",
+      "title": "Russell explique sa colère à Interlagos : \"Un problème de communication\"",
+      "url": "https://fr.motorsport.com/f1/news/russell-explique-colere-pole-interlagos-mercedes-probleme-communication/10872847/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-08T07:54:55+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
+      "summaryAttemptAt": "2026-11-08T13:49:38.366748+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell accuse une erreur de communication à Interlagos",
+      "summaryFr": "George Russell exprime sa colère après les qualifications perturbées à São Paulo, affirmant qu'il s'agit d'un problème de communication. Une pénalité de cinq places pour un changement de groupe propulseur l'empêche de continuer à courir dans la course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-08T13:50:20.932312+00:00"
+    },
     {
       "id": "90f8762ffdc91d654676",
       "title": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
@@ -27,8 +171,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T23:53:30+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T06:22:48.496622+00:00",
       "summaryAttemptAt": "2026-11-08T06:22:48.947531+00:00",
@@ -944,8 +1087,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-05T07:04:29.585428+00:00",
-      "summaryAttemptAt": "2026-11-05T07:04:30.272789+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-08T13:50:21.154309+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -9160,8 +9303,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-04T19:59:42.359007+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T13:50:20.932348+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -9176,8 +9319,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-04T19:59:42.490314+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T13:50:20.981515+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -9192,8 +9335,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-04T19:59:42.643668+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T13:50:21.077202+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -9207,8 +9350,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-11-05T07:05:01.957876+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-08T13:50:51.015082+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -11224,10 +11367,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
-    "pending": 74,
-    "checkedAt": "2026-11-08T06:26:17.922559+00:00"
+    "created": 6,
+    "failed": 6,
+    "pending": 75,
+    "checkedAt": "2026-11-08T13:50:51.111671+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
