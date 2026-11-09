@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-08T22:18:30.396013+00:00",
+  "collectedAt": "2026-11-09T06:56:19.426367+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-08T22:18:30.396013+00:00"
+      "checkedAt": "2026-11-09T06:56:19.426367+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 47,
-      "checkedAt": "2026-11-08T22:18:30.396013+00:00"
+      "count": 48,
+      "checkedAt": "2026-11-09T06:56:19.426367+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "4f94fdd61fbe339a7858",
+      "title": "Norris sparkles in Sao Paulo despite firework mishap",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6gr8e822kzqo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-08T23:44:53+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-09T06:56:19.426367+00:00",
+      "summaryAttemptAt": "2026-11-09T06:56:20.874222+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris brille à São Paulo malgré un incident avec un feu d'artifice",
+      "summaryFr": "Lando Norris a brillé au Grand Prix de São Paulo, malgré avoir été trop proche d'un feu d'artifice. Il a été presque parfait durant une course qui a mis à l'épreuve les limites des pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-09T06:56:54.140565+00:00"
+    },
+    {
+      "id": "59cc3e67583c13b386ad",
+      "title": "'He was in a league of his own' - Benson on Norris' Brazil GP win",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cr5yn1n99lqno",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-08T22:46:44+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-09T06:56:19.426367+00:00",
+      "summaryAttemptAt": "2026-11-09T06:56:54.140593+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Benson : \"Norris était seul sur un autre plan\" après sa victoire au Brazil GP",
+      "summaryFr": "Andrew Benson, correspondant BBC F1, analyse la victoire de Lando Norris pour McLaren au Grand Prix de São Paulo. Il souligne l'impact de ce résultat dans le contexte de la compétition. Le duo de pilotes reste en jeu pour le titre.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-09T06:57:27.624929+00:00"
+    },
     {
       "id": "b2427b3304b3bf53006a",
       "title": "Norris wins gripping race after Antonelli and Russell errors",
@@ -27,9 +69,7 @@
       "language": "en",
       "publishedAt": "2026-11-08T22:11:31+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
       "summaryAttemptAt": "2026-11-08T22:18:31.158011+00:00",
@@ -64,9 +104,7 @@
       "language": "en",
       "publishedAt": "2026-11-08T21:56:33+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
       "summaryAttemptAt": "2026-11-08T22:19:25.617993+00:00",
@@ -86,8 +124,7 @@
       "language": "fr",
       "publishedAt": "2026-11-08T21:42:18+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
       "summaryAttemptAt": "2026-11-08T22:19:52.246387+00:00",
@@ -108,7 +145,7 @@
       "publishedAt": "2026-11-08T21:02:20+00:00",
       "topics": [
         "pilotes",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
       "summaryAttemptAt": "2026-11-08T22:20:21.715296+00:00",
@@ -128,8 +165,7 @@
       "language": "fr",
       "publishedAt": "2026-11-08T20:00:16+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
       "summaryAttemptAt": "2026-11-08T22:20:51.028103+00:00",
@@ -150,8 +186,7 @@
       "publishedAt": "2026-11-08T18:56:20+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
       "summaryAttemptAt": "2026-11-08T22:21:17.336706+00:00",
@@ -1208,8 +1243,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:04.726116+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-09T06:57:51.220568+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -4256,8 +4291,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:36.890342+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-09T06:58:17.749458+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4312,8 +4347,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:36.977831+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-09T06:58:17.816347+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4369,8 +4404,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:36.854149+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-09T06:58:17.656619+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4424,8 +4459,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:36.786832+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-09T06:58:17.615542+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4577,8 +4612,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-11-05T07:06:15.326603+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-09T06:57:28.011584+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -4785,8 +4820,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-11-05T07:06:15.196270+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-09T06:57:27.728119+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -4924,8 +4959,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-11-05T07:06:15.266920+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-11-09T06:57:27.796143+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -4959,8 +4994,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-11-05T07:06:15.297230+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-11-09T06:57:27.925779+00:00",
+      "summaryAttempts": 12,
       "summaryError": "source_unavailable"
     },
     {
@@ -7441,8 +7476,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-11-05T07:06:15.095177+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-11-09T06:57:27.624953+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -11503,10 +11538,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
-    "failed": 6,
+    "created": 2,
+    "failed": 10,
     "pending": 76,
-    "checkedAt": "2026-11-08T22:22:02.477825+00:00"
+    "checkedAt": "2026-11-09T06:58:17.887339+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
