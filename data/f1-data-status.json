@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "season": 2026,
-  "release": "v2026.19.0",
-  "releasePublishedAt": "2026-11-02T08:30:02Z",
-  "asOf": "2026-11-01",
-  "round": 19,
-  "source": "https://github.com/f1db/f1db/releases/tag/v2026.19.0",
+  "release": "v2026.20.0",
+  "releasePublishedAt": "2026-11-09T07:04:09Z",
+  "asOf": "2026-11-08",
+  "round": 20,
+  "source": "https://github.com/f1db/f1db/releases/tag/v2026.20.0",
   "intervalHours": 6,
   "profiles": 22,
   "teams": 11,
@@ -13,118 +13,10 @@
   "warnings": [
     {
       "kind": "roster",
-      "driver": "ryo-hirakawa",
+      "driver": "rafael-camara",
       "note": "Pilote présent dans le dernier GP, fiche éditoriale à vérifier"
     }
   ],
-  "recordChanges": [
-    {
-      "circuit": "spielberg",
-      "before": [
-        "1:07.924",
-        "Oscar Piastri",
-        "2025"
-      ],
-      "after": [
-        "1:05.619",
-        "Carlos Sainz Jr.",
-        "2020"
-      ]
-    },
-    {
-      "circuit": "spa",
-      "before": [
-        "1:44.701",
-        "Sergio Perez",
-        "2024"
-      ],
-      "after": [
-        "1:44.701",
-        "Sergio Pérez",
-        "2024"
-      ]
-    },
-    {
-      "circuit": "madrid",
-      "before": [
-        "--",
-        "",
-        ""
-      ],
-      "after": [
-        "1:35.587",
-        "George Russell",
-        "2026"
-      ]
-    }
-  ],
-  "circuitChanges": [
-    {
-      "circuit": "spielberg",
-      "fields": {
-        "raceDistanceKm": {
-          "before": "307.026",
-          "after": "307.018"
-        }
-      }
-    },
-    {
-      "circuit": "spa",
-      "fields": {
-        "raceDistanceKm": {
-          "before": "308.054",
-          "after": "308.052"
-        }
-      }
-    },
-    {
-      "circuit": "zandvoort",
-      "fields": {
-        "raceDistanceKm": {
-          "before": "306.592",
-          "after": "306.587"
-        }
-      }
-    },
-    {
-      "circuit": "madrid",
-      "fields": {
-        "lengthKm": {
-          "before": "5.414",
-          "after": "5.416"
-        },
-        "raceDistanceKm": {
-          "before": "308.399",
-          "after": "308.524"
-        }
-      }
-    },
-    {
-      "circuit": "sepang",
-      "fields": {
-        "raceDistanceKm": {
-          "before": "310.418",
-          "after": "310.408"
-        }
-      }
-    },
-    {
-      "circuit": "austin",
-      "fields": {
-        "raceDistanceKm": {
-          "before": "308.432",
-          "after": "308.405"
-        }
-      }
-    },
-    {
-      "circuit": "yas-marina",
-      "fields": {
-        "raceDistanceKm": {
-          "before": "306.188",
-          "after": "306.183"
-        }
-      }
-    }
-  ]
+  "recordChanges": [],
+  "circuitChanges": []
 }
