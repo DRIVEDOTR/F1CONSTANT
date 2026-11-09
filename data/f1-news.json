@@ -1,24 +1,124 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-09T06:56:19.426367+00:00",
+  "collectedAt": "2026-11-09T22:33:57.971390+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-09T06:56:19.426367+00:00"
+      "checkedAt": "2026-11-09T22:33:57.971390+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-09T06:56:19.426367+00:00"
+      "checkedAt": "2026-11-09T22:33:57.971390+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "0eefd9232812a26c4f1d",
+      "title": "FIA boss planning to end age limits for office holders",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-09T15:20:35+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-09T22:33:57.971390+00:00",
+      "summaryAttemptAt": "2026-11-09T22:33:58.738191+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "904ef1e72c7ea628474e",
+      "title": "Russell en chute libre : Verstappen lui a pris 90 points en cinq Grands Prix",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-chute-libre-90-points-verstappen/10873367/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-09T13:59:20+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-09T22:33:57.971390+00:00",
+      "summaryAttemptAt": "2026-11-09T22:34:31.903844+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell en chute libre : Verstappen lui a pris 90 points en cinq Grands Prix",
+      "summaryFr": "Mercedes envisage de fournir tous les moyens à George Russell pour espérer la deuxième place du championnat pilotes. Il reste trois manches à disputer, avec cinq pilotes encore en course pour la deuxième place.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-09T22:35:08.079894+00:00"
+    },
+    {
+      "id": "a85b8b82514a5d101722",
+      "title": "Racing Bulls : Lawson en pole position pour conserver son baquet en 2027",
+      "url": "https://fr.motorsport.com/f1/news/liam-lawson-favori-prolongation-contrat-racing-bulls-2027/10873323/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-09T12:02:48+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-09T22:33:57.971390+00:00",
+      "summaryAttemptAt": "2026-11-09T22:35:08.079916+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lawson en pole position pour conserver son baquet en 2027",
+      "summaryFr": "Liam Lawson est en pole position après la tournée américaine de trois Grands Prix. Il cherche à conserver son baquet en 2027 grâce à une performance remarquable. La rumeur sur son avenir reste en cours.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-09T22:35:43.084059+00:00"
+    },
+    {
+      "id": "3173e3fa99d6106c4290",
+      "title": "Verstappen a fait mentir les simulations de Red Bull à Interlagos",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-fait-mentir-simulations-red-bull-interlagos/10873314/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-09T11:38:43+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-09T22:33:57.971390+00:00",
+      "summaryAttemptAt": "2026-11-09T22:35:43.084081+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen fait mentir les simulations de Red Bull à Interlagos",
+      "summaryFr": "Max Verstappen réalise une remontée spectaculaire au Grand Prix de São Paulo, terminant deuxième après avoir partagé la 21e position. Ce résultat contredit les prévisions de performance du groupe propulseur selon les simulations de Red Bull.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-09T22:36:19.481821+00:00"
+    },
+    {
+      "id": "fc9aeff20dabebfab7a7",
+      "title": "Mark Webber n'est plus le manager d'Oscar Piastri",
+      "url": "https://fr.motorsport.com/f1/news/oscar-piastri-separation-manager-mark-webber/10873255/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-09T08:41:01+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-09T22:33:57.971390+00:00",
+      "summaryAttemptAt": "2026-11-09T22:36:19.481843+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mark Webber quitte son rôle de manager d'Oscar Piastri",
+      "summaryFr": "Oscar Piastri et Mark Webber ont décidé de mettre fin à leur collaboration. Le duo de managers avait été en place depuis 2019, après la victoire d'Oscar en Formule Renault Eurocup. Aucune information sur les raisons de cette décision n'a été fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-09T22:36:55.768168+00:00"
+    },
     {
       "id": "4f94fdd61fbe339a7858",
       "title": "Norris sparkles in Sao Paulo despite firework mishap",
@@ -47,9 +147,7 @@
       "language": "en",
       "publishedAt": "2026-11-08T22:46:44+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-09T06:56:19.426367+00:00",
       "summaryAttemptAt": "2026-11-09T06:56:54.140593+00:00",
@@ -1111,8 +1209,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
-      "summaryAttemptAt": "2026-11-05T20:10:26.380286+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-09T22:36:56.134804+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -1167,9 +1265,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
-      "summaryAttemptAt": "2026-11-05T20:12:47.523826+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-09T22:37:34.104662+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "8560962f268d9235ae3d",
@@ -4063,8 +4161,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:37.142423+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-09T22:36:55.960961+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -4119,8 +4217,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:37.045672+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-09T22:36:55.768189+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -4135,8 +4233,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:37.077930+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-09T22:36:55.834036+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -4784,8 +4882,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T11:26:29.580184+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:37.207278+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-09T22:36:56.097695+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -5687,8 +5785,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-11-05T10:16:37.176073+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-09T22:36:55.996816+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -11538,10 +11636,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
-    "pending": 76,
-    "checkedAt": "2026-11-09T06:58:17.887339+00:00"
+    "created": 4,
+    "failed": 8,
+    "pending": 77,
+    "checkedAt": "2026-11-09T22:37:34.179199+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
