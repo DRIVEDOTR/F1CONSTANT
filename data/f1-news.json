@@ -1,24 +1,232 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-10T07:32:47.449732+00:00",
+  "collectedAt": "2026-11-10T19:53:23.944167+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-10T07:32:47.449732+00:00"
+      "checkedAt": "2026-11-10T19:53:23.944167+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-10T07:32:47.449732+00:00"
+      "checkedAt": "2026-11-10T19:53:23.944167+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "76a9baf7e0646dd1e834",
+      "title": "Verstappen sur les accrochages chez Ferrari : \"Je ne signerais jamais deux pilotes numéro 1\"",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-accrochages-ferrari-signerais-jamais-deux-pilotes-numero-1/10873625/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T16:38:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:53:25.026914+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen dénonce les accrochages chez Ferrari : \"Je ne signerais jamais deux pilotes numéro 1\"",
+      "summaryFr": "Max Verstappen a répondu à des commentaires sur les accrochages entre Charles Leclerc et Lewis Hamilton à Ferrari. Il a affirmé qu'il ne signerait jamais deux pilotes numéro 1 dans la même écurie. Les tensions ont été soulignées par des échanges entre les pilotes et le directeur de l'équipe.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:54:11.659158+00:00"
+    },
+    {
+      "id": "b87b71eb93cd45460b47",
+      "title": "Formula 1 to finish season in Middle East",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c53989e97lxwo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-10T15:04:46+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:54:11.659187+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La saison de Formule 1 se termine en Moyen-Orient",
+      "summaryFr": "La saison 2026 de Formule 1 se conclura avec les grands prix de Qatar et d'Abu Dhabi, comme prévu. Le circuit d'Imola en Italie sera désactivé en tant que réserve.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:54:46.982809+00:00"
+    },
+    {
+      "id": "2ed57ab84eeee83cd936",
+      "title": "Calendrier F1 2026 : Imola écarté, aucun plan B en cas d'escalade de la guerre",
+      "url": "https://fr.motorsport.com/f1/news/calendrier-f1-2026-imola-ecarte-plan-b-escalade-guerre/10873641/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T14:51:12+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:54:46.982853+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les Grands Prix du Qatar et d'Abu Dhabi maintenus malgré les tensions en Iran",
+      "summaryFr": "Les courses du Qatar et d'Abu Dhabi devraient se dérouler comme prévu en 2026, à condition que la guerre en Iran ne connaisse pas une escalade majeure. Le conflit au Moyen-Orient a déstabilisé la région, mais aucune modification du calendrier n'a été annoncée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:55:31.667811+00:00"
+    },
+    {
+      "id": "f5f8c9495f41ff2fcbef",
+      "title": "\"Colapinto n'a jamais atteint le point de corde\" : la version d'Audi sur la pénalité de Hülkenberg",
+      "url": "https://fr.motorsport.com/f1/news/colapinto-atteint-point-de-corde-version-audi-penalite-hulkenberg/10873576/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T12:12:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:55:31.667860+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Audi affirme que Hülkenberg n'a jamais atteint le point de corde",
+      "summaryFr": "Audi conteste la pénalité infligée à Hülkenberg, affirmant qu'il n'a jamais franchi le point de corde. Les deux pilotes, Hülkenberg et Bortoleto, ont récolté ensemble dix-neuvièmes places. Le niveau de compétitivité de l'équipe reste limité par des départs difficiles.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:56:17.035717+00:00"
+    },
+    {
+      "id": "dcea88448a23240697ca",
+      "title": "La FIA dévoile les derniers résultats de l'ADUO dans son bilan final de la saison",
+      "url": "https://fr.motorsport.com/f1/news/fia-devoile-derniers-resultats-aduo-bilan-final-saison-2026/10873564/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T11:48:06+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:56:17.035744+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La FIA annonce aucun changement pour les groupes propulseurs en 2026",
+      "summaryFr": "La FIA a dévoilé les résultats de son dispositif ADUO pour la saison 2026. Aucun changement n'a été accordé aux motoristes. Le mécanisme de jokers pour l'évolution du groupe propulseur reste en place mais sans mise en œuvre effective.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:56:59.913433+00:00"
+    },
+    {
+      "id": "5fdc15c5cf974eb10fe8",
+      "title": "Pourquoi Oscar Piastri et Mark Webber se séparent – et quelles conséquences pour la carrière du pilote F1 ?",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-piastri-webber-separent-quelles-consequences-carriere/10873530/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T10:00:50+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:56:59.913460+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri et Webber se séparent de leur rôle de managers à McLaren",
+      "summaryFr": "Oscar Piastri et Mark Webber ont annoncé leur départ de leurs fonctions de managers du pilote à McLaren. Cette décision, prévue depuis plusieurs mois, intervient au lendemain du Grand Prix de São Paulo. Aucune conséquence sur la carrière de Piastri n'est prévue.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:57:41.680906+00:00"
+    },
+    {
+      "id": "6b17a3b7a141cdde1c96",
+      "title": "Honda peine à expliquer le 13e abandon de Lance Stroll cette saison",
+      "url": "https://fr.motorsport.com/f1/news/honda-peine-expliquer-13e-abandon-stroll-2026/10873415/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T09:31:25+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:57:41.680933+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Honda cherche à expliquer le 13e abandon de Lance Stroll",
+      "summaryFr": "Honda reconnaît avoir du mal à identifier l'origine des problèmes de batterie répétés chez Lance Stroll. Le pilote a abandonné à Interlagos après 30 tours, à 28 secondes de Fernando Alonso, qui occupait la 12e place. C'est son 13e abandon cette saison.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:58:24.935668+00:00"
+    },
+    {
+      "id": "b708046f3c6090b85dd3",
+      "title": "Wolff relativise les années difficiles de Mercedes : \"Pas complètement à la ramasse\"",
+      "url": "https://fr.motorsport.com/f1/news/toto-wolff-relativise-annees-difficiles-mercedes/10873364/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T08:35:37+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:58:24.935702+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Wolff relativise les années difficiles de Mercedes",
+      "summaryFr": "Toto Wolff affirme que son équipe n'a pas été complètement à la ramasse durant ses quatre années sans titre mondial. Les Flèches d'argent remportent leur neuvième titre des constructeurs au Grand Prix de São Paulo.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:59:03.897161+00:00"
+    },
+    {
+      "id": "b9d69dd703a471bfd059",
+      "title": "How good is Hamilton and how long can he stay in F1? - Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-10T08:00:49+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:59:03.897187+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton : combien de temps peut-il rester en F1 ?",
+      "summaryFr": "Un journaliste de la BBC répond à des questions sur le futur de Lewis Hamilton après le Grand Prix de São Paulo. Il ne précise pas la durée de sa présence dans la Formule 1. Aucune information sur ses performances ou son aileron avant.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T19:59:39.350012+00:00"
+    },
+    {
+      "id": "726ad1e697fd98382efb",
+      "title": "Laurent Mekies : Le sort de Liam Lawson ne dépend pas de moi",
+      "url": "https://fr.motorsport.com/f1/news/laurent-mekies-sort-liam-lawson-racing-bulls/10873378/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-10T07:51:43+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-10T19:53:23.944167+00:00",
+      "summaryAttemptAt": "2026-11-10T19:59:39.350038+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mekies : le sort de Lawson ne relève pas de moi",
+      "summaryFr": "Laurent Mekies affirme que Racing Bulls doit décider de la place de Liam Lawson ou Nikola Tsolov pour 2027. Arvid Lindblad devrait continuer en F1, mais son coéquipier reste à déterminer.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-10T20:00:19.620095+00:00"
+    },
     {
       "id": "0eefd9232812a26c4f1d",
       "title": "FIA boss planning to end age limits for office holders",
@@ -3416,8 +3624,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-11-06T07:06:42.576456+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-10T20:00:19.620121+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -3493,8 +3701,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-11-06T07:06:42.613691+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-10T20:00:19.706891+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -11634,10 +11842,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
+    "created": 10,
+    "failed": 2,
     "pending": 77,
-    "checkedAt": "2026-11-10T07:35:06.413836+00:00"
+    "checkedAt": "2026-11-10T20:00:44.721466+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
