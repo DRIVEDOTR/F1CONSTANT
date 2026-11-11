@@ -1,24 +1,88 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-11T06:51:00.483412+00:00",
+  "collectedAt": "2026-11-11T19:45:05.180936+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-11T06:51:00.483412+00:00"
+      "checkedAt": "2026-11-11T19:45:05.180936+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-11T06:51:00.483412+00:00"
+      "checkedAt": "2026-11-11T19:45:05.180936+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "aa89501b58c2495a0f3b",
+      "title": "Mercedes explique le comportement \"inhabituel\" de sa voiture à l'origine de la sortie de piste d'Antonelli au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/mercedes-explique-comportement-inhabituel-sortie-de-piste-antonelli-bresil/10873931/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-11T18:10:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-11T19:45:05.180936+00:00",
+      "summaryAttemptAt": "2026-11-11T19:45:05.661277+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Mercedes explique le comportement inhabituel de sa voiture à l'origine de la sortie de piste d'Antonelli au Brésil",
+      "summaryFr": "Bradley Lord, directeur adjoint de Mercedes, a évoqué les sorties de piste de Kimi Antonelli lors du Grand Prix du Brésil. Il n'a pas précisé si le comportement de la voiture était lié à un problème aérodynamique ou à un défaut de pneus. Le sujet reste ouvert.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-11T19:45:57.185137+00:00"
+    },
+    {
+      "id": "221fcb2f2b2662acc753",
+      "title": "Max Verstappen explique pourquoi il est si performant sous la pluie au Brésil",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-explique-pourquoi-performant-pluie-bresil/10873876/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-11T13:52:52+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-11T19:45:05.180936+00:00",
+      "summaryAttemptAt": "2026-11-11T19:45:57.185161+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Max Verstappen explique sa performance sous la pluie au Brésil",
+      "summaryFr": "Max Verstappen revient sur ses qualités en conditions de pluie au Grand Prix du Brésil. Il affiche un bon taux de podiums à Interlagos et Austin, avec huit arrivées dans le top 3 en 11 courses.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-11T19:46:41.182996+00:00"
+    },
+    {
+      "id": "232e853f72789849ee55",
+      "title": "\"Antonelli n'est pas encore Senna, mais il pourrait être un Senninha\" – Toto Wolff",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-pas-encore-senna-peut-etre-senninha-toto-wolff/10873779/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-11T10:43:56+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-11T19:45:05.180936+00:00",
+      "summaryAttemptAt": "2026-11-11T19:46:41.183018+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli n'est pas encore Senna, mais il pourrait être un Senninha",
+      "summaryFr": "Kimi Antonelli affiche des performances remarquables cette saison, ce qui a suscité des comparaisons avec Ayrton Senna. Malgré cela, Toto Wolff souligne qu'Antonelli n'est pas encore Senna. La rumeur d'un futur « Senninha » reste une hypothèse.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-11T19:47:27.137425+00:00"
+    },
     {
       "id": "76a9baf7e0646dd1e834",
       "title": "Verstappen sur les accrochages chez Ferrari : \"Je ne signerais jamais deux pilotes numéro 1\"",
@@ -699,8 +763,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-07T22:06:00.663638+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-11T19:47:27.480958+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -734,8 +798,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-07T22:07:30.720735+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-11T19:48:11.616790+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -1807,9 +1871,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-07T13:25:08.467905+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-11T19:47:27.380776+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "7dcb699d6804fdc72dae",
@@ -1842,9 +1906,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-07T13:25:55.370180+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-11T19:47:27.401200+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "61ae00e1e233b21588f6",
@@ -1940,9 +2004,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-07T13:26:42.096263+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-11T19:47:27.459467+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "11fe437df3033d1bfb7f",
@@ -3086,8 +3150,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-07T13:25:08.365986+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-11T19:47:27.162957+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3121,8 +3185,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-07T13:25:08.436419+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-11T19:47:27.224815+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3414,8 +3478,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-11-07T13:25:08.298191+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-11T19:47:27.137448+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -4049,8 +4113,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
-      "summaryAttemptAt": "2026-11-07T13:25:08.452438+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-11T19:47:27.256375+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -11837,10 +11901,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
+    "created": 3,
+    "failed": 9,
     "pending": 77,
-    "checkedAt": "2026-11-11T06:54:13.350580+00:00"
+    "checkedAt": "2026-11-11T19:48:53.159492+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
