@@ -1,24 +1,176 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-12T07:27:40.901447+00:00",
+  "collectedAt": "2026-11-12T20:11:20.982009+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 50,
-      "checkedAt": "2026-11-12T07:27:40.901447+00:00"
+      "count": 49,
+      "checkedAt": "2026-11-12T20:11:20.982009+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-12T07:27:40.901447+00:00"
+      "checkedAt": "2026-11-12T20:11:20.982009+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "c3308c184ff18047140f",
+      "title": "Lindblad and Lawson to continue at Racing Bulls",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-12T16:02:16+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:11:22.320387+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "504daf6233ebbd06dd91",
+      "title": "Écarté d'un baquet en F1, Nikola Tsolov sera pilote de réserve",
+      "url": "https://fr.motorsport.com/f1/news/nikola-tsolov-pilote-reserve-red-bull-2027/10874149/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T15:21:31+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:12:00.280123+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "4fb8856bb57c6597d208",
+      "title": "Les statistiques impressionnantes qui ont sauvé la place de Liam Lawson",
+      "url": "https://fr.motorsport.com/f1/news/statistiques-impressionnantes-liam-lawson/10874119/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T13:30:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:12:49.211742+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lawson et Lindblad restent chez Racing Bulls pour 2027",
+      "summaryFr": "Racing Bulls confirme la prolongation de Liam Lawson et Arvid Lindblad pour 2027. L'écurie a choisi de ne pas promouvoir Nikola Tsolov, malgré son succès en Formule 2. Le duo de pilotes devrait continuer à courir dans l'écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-12T20:13:36.847034+00:00"
+    },
+    {
+      "id": "876ad9a720772b46ba7b",
+      "title": "Russell lance une académie de karting pour rendre le sport auto plus accessible",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-lance-karting-academy-rendre-sport-automobile-accessible/10874109/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T12:26:25+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:13:36.847063+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "George Russell lance une académie de karting à Silverstone",
+      "summaryFr": "George Russell a inauguré, jeudi, son GR63 Karting Academy à Silverstone. L'académie est ouverte aux enfants de huit à neuf ans et vise à rendre le sport automobile plus accessible.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-12T20:14:19.606983+00:00"
+    },
+    {
+      "id": "942b8f524552bc484238",
+      "title": "Grille F1 2027 : le point sur les baquets et les contrats",
+      "url": "https://fr.motorsport.com/f1/news/grille-f1-2027-baquets-contrats/10572421/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T12:12:54+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
+      "summaryAttemptAt": "2026-09-27T06:47:00.221006+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille F1 2027 : Verstappen au Red Bull jusqu'en 2030, Alonso reste incertain",
+      "summaryFr": "La prolongation de Max Verstappen chez Red Bull jusqu'en 2030 élimine la principale incertitude pour 2027. L'avenir de Fernando Alonso chez Aston Martin reste flou, car l'Espagnol n'a pas encore tranché s'il quittera ou non la écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-09-27T06:47:44.312376+00:00"
+    },
+    {
+      "id": "deec874061d35e14b18b",
+      "title": "Racing Bulls confirme ses pilotes pour 2027 et écarte la piste Tsolov",
+      "url": "https://fr.motorsport.com/f1/news/racing-bulls-lawson-lindblad-confirmes-2027/10874066/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T11:05:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:14:19.607007+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "0aa01238ce89a300c50d",
+      "title": "Ce que le Grand Prix de São Paulo a révélé sur les F1 2026 sous la pluie",
+      "url": "https://fr.motorsport.com/f1/news/gp-sao-paulo-f1-2026-pluie-limites-monoplaces/10873783/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T08:00:03+00:00",
+      "topics": [
+        "competition",
+        "ecuries",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:15:07.464093+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les conditions de pluie au Grand Prix de São Paulo mettent en lumière les préoccupations F1 2026",
+      "summaryFr": "La pluie prévue au Grand Prix de São Paulo à Interlagos a soulevé des questions sur la performance des voitures sous la pluie en 2026. Les acteurs de la Formule 1 ont exprimé des inquiétudes, mais aucune décision officielle n'a été prise concernant les modifications des règles ou des ailerons avant et arrière.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-12T20:15:59.728431+00:00"
+    },
+    {
+      "id": "0abe10b9f5a5b5342496",
+      "title": "Freddie Slater's 'surreal' first taste of Formula 1",
+      "url": "https://www.bbc.co.uk/news/articles/c6z0k771043xo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-12T06:11:30+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
+      "summaryAttemptAt": "2026-11-12T20:15:59.728461+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Freddie Slater partage son premier goût de la Formule 1",
+      "summaryFr": "Freddie Slater décrit son expérience lors des essais de Formule 1 au Mexique. Il parle de son premier contact avec le milieu, sans préciser les détails techniques ni les performances. L'expérience est qualifiée de 'surreal'.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-12T20:16:38.784790+00:00"
+    },
     {
       "id": "9f0ceef57218482a0fe7",
       "title": "Doriane Pin, une candidate surprise pour un baquet Mercedes en DTM",
@@ -686,8 +838,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
-      "summaryAttemptAt": "2026-11-08T13:48:53.775551+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-12T20:16:38.868271+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -5415,26 +5567,6 @@
       "summaryAt": "2026-10-15T17:12:59.401608+00:00"
     },
     {
-      "id": "942b8f524552bc484238",
-      "title": "Grille F1 2027 : le point sur les baquets et les contrats",
-      "url": "https://fr.motorsport.com/f1/news/grille-f1-2027-baquets-contrats/10572421/",
-      "source": "Motorsport.com France",
-      "language": "fr",
-      "publishedAt": "2026-10-15T14:21:47+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-23T12:39:30.227182+00:00",
-      "summaryAttemptAt": "2026-09-27T06:47:00.221006+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Grille F1 2027 : Verstappen au Red Bull jusqu'en 2030, Alonso reste incertain",
-      "summaryFr": "La prolongation de Max Verstappen chez Red Bull jusqu'en 2030 élimine la principale incertitude pour 2027. L'avenir de Fernando Alonso chez Aston Martin reste flou, car l'Espagnol n'a pas encore tranché s'il quittera ou non la écurie.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-09-27T06:47:44.312376+00:00"
-    },
-    {
       "id": "c58db8f65bf5df79fe3f",
       "title": "Rafael Câmara remplacera Esteban Ocon chez Haas en 2027",
       "url": "https://fr.motorsport.com/f1/news/rafael-camara-remplacera-esteban-ocon-haas-2027/10865287/",
@@ -9835,8 +9967,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-08T06:26:17.901646+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T20:16:38.784826+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -9850,8 +9982,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-08T13:50:20.932348+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T20:17:24.156418+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -9866,8 +9998,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-08T13:50:20.981515+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T20:17:24.179660+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -9882,8 +10014,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-08T13:50:21.077202+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T20:17:24.204062+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -11914,10 +12046,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
-    "pending": 78,
-    "checkedAt": "2026-11-12T07:30:49.040145+00:00"
+    "created": 4,
+    "failed": 8,
+    "pending": 81,
+    "checkedAt": "2026-11-12T20:17:24.285451+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
