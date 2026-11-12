@@ -1,24 +1,39 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-11T19:45:05.180936+00:00",
+  "collectedAt": "2026-11-12T07:27:40.901447+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-11T19:45:05.180936+00:00"
+      "checkedAt": "2026-11-12T07:27:40.901447+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-11T19:45:05.180936+00:00"
+      "checkedAt": "2026-11-12T07:27:40.901447+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "9f0ceef57218482a0fe7",
+      "title": "Doriane Pin, une candidate surprise pour un baquet Mercedes en DTM",
+      "url": "https://fr.motorsport.com/dtm/news/doriane-pin-candidate-surprise-baquet-dtm-mercedes/10873944/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-12T06:00:03+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-12T07:27:40.901447+00:00",
+      "summaryAttemptAt": "2026-11-12T07:27:41.542601+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
     {
       "id": "aa89501b58c2495a0f3b",
       "title": "Mercedes explique le comportement \"inhabituel\" de sa voiture à l'origine de la sortie de piste d'Antonelli au Brésil",
@@ -29,7 +44,7 @@
       "topics": [
         "pilotes",
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-11T19:45:05.180936+00:00",
       "summaryAttemptAt": "2026-11-11T19:45:05.661277+00:00",
@@ -49,9 +64,7 @@
       "language": "fr",
       "publishedAt": "2026-11-11T13:52:52+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-11T19:45:05.180936+00:00",
       "summaryAttemptAt": "2026-11-11T19:45:57.185161+00:00",
@@ -873,8 +886,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-07T22:10:59.398682+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-12T07:28:12.334332+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -1778,9 +1791,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
-      "summaryAttemptAt": "2026-11-08T06:23:29.152391+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "unsupported_number"
+      "summaryAttemptAt": "2026-11-12T07:28:43.697290+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "9cd439f5590d3b6f4550",
@@ -1856,8 +1869,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-08T06:25:49.566117+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-11-12T07:30:21.605132+00:00",
+      "summaryAttempts": 3,
       "summaryError": "invalid_length"
     },
     {
@@ -3632,8 +3645,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
-      "summaryAttemptAt": "2026-11-08T06:24:15.252778+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-12T07:28:43.801620+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -5753,8 +5766,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-11-08T06:25:49.515497+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-12T07:30:21.536896+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -6723,8 +6736,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-11-08T06:25:22.226764+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-12T07:29:54.957468+00:00",
+      "summaryAttempts": 16,
       "summaryError": "invalid_length"
     },
     {
@@ -9262,8 +9275,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-11-08T06:24:15.313876+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T07:28:43.905305+00:00",
+      "summaryAttempts": 21,
       "summaryError": "unsupported_number"
     },
     {
@@ -9398,8 +9411,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-08T06:24:54.943758+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T07:29:28.316738+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -9473,8 +9486,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-08T06:24:54.990692+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T07:29:28.376897+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -9772,8 +9785,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-11-08T06:24:55.072550+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T07:29:28.488447+00:00",
+      "summaryAttempts": 21,
       "summaryError": "invalid_length"
     },
     {
@@ -9807,8 +9820,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-08T06:25:22.163247+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-12T07:29:54.868274+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -11901,10 +11914,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 9,
-    "pending": 77,
-    "checkedAt": "2026-11-11T19:48:53.159492+00:00"
+    "created": 0,
+    "failed": 12,
+    "pending": 78,
+    "checkedAt": "2026-11-12T07:30:49.040145+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
