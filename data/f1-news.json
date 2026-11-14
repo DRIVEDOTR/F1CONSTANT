@@ -1,24 +1,107 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-14T06:47:17.708549+00:00",
+  "collectedAt": "2026-11-14T18:21:03.681170+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-14T06:47:17.708549+00:00"
+      "checkedAt": "2026-11-14T18:21:03.681170+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-14T06:47:17.708549+00:00"
+      "checkedAt": "2026-11-14T18:21:03.681170+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "8e41fa47fc1d47b7ed1c",
+      "title": "Interview - Pourquoi Pierre Gasly n'a rien perdu de sa motivation en F1",
+      "url": "https://fr.motorsport.com/f1/news/interview-pierre-gasly-garde-motivation-alpine-carriere/10874524/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-14T15:30:40+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-14T18:21:03.681170+00:00",
+      "summaryAttemptAt": "2026-11-14T18:21:04.399978+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Pierre Gasly : sa motivation en Formule 1 malgré les épreuves",
+      "summaryFr": "Pierre Gasly a vécu toutes les émotions de la Formule 1, allant de sa promotion chez Red Bull après une saison complète à une rétrogradation difficile chez Toro. Il reste motivé malgré les hauts et bas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-14T18:21:49.722923+00:00"
+    },
+    {
+      "id": "877151d401f501f7659d",
+      "title": "Kimi Antonelli reçu par le président italien après son sacre en F1",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-recu-president-italien-mattarella/10874515/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-14T12:15:18+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-14T18:21:03.681170+00:00",
+      "summaryAttemptAt": "2026-11-14T18:21:49.722954+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli reçu par le président italien après son sacre en F1",
+      "summaryFr": "Kimi Antonelli a remporté son premier titre de champion du monde de Formule 1 au Grand Prix de Mexico, mettant ainsi fin à 73 ans d'attente pour un pilote italien. Il a été reçu par le président italien après ce succès.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-14T18:22:35.138573+00:00"
+    },
+    {
+      "id": "600ae70a92dc45046293",
+      "title": "L'appel d'Audi contre la décision sur Tsunoda à Monza bientôt examiné",
+      "url": "https://fr.motorsport.com/f1/news/appel-audi-decision-tsunoda-monza-gp-italie-audience-paris-fia/10874483/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-14T10:47:51+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-14T18:21:03.681170+00:00",
+      "summaryAttemptAt": "2026-11-14T18:22:35.138603+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Audi conteste la décision sur Tsunoda à Monza devant la Cour d'appel de la FIA",
+      "summaryFr": "La Cour d'appel internationale de la FIA examinera mercredi 25 novembre à Paris l'appel déposé par Audi contre la décision des commissaires de Monza de ne pas sanctionner Yuki Tsunoda. L'affaire remonte au second départ de l'épreuve du 6 septembre dernier, après un drapeau rouge provoqué par un accident.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-14T18:23:27.091583+00:00"
+    },
+    {
+      "id": "9c20608db46efc4da188",
+      "title": "McLaren va faire évoluer la MCL40 sur son circuit maudit de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/mclaren-evolutions-las-vegas-circuit-maudit/10874310/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-14T10:02:49+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-14T18:21:03.681170+00:00",
+      "summaryAttemptAt": "2026-11-14T18:23:27.091613+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "McLaren présente une évolution de l'aileron avant pour la MCL40 à Interlagos",
+      "summaryFr": "McLaren dévoile un concept d'aileron avant pour la MCL40 à Interlagos, présenté comme une amélioration de la facilité de pilotage. L'écurie ne confirme pas d'évolutions sur le circuit de Las Vegas. Les modifications sont considérées comme des fondations pour la voiture de l'année prochaine.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-14T18:24:17.110043+00:00"
+    },
     {
       "id": "7b9cddb0cc33cc3d25ad",
       "title": "\"Je me faisais démolir\" : comment Ricciardo a craqué après son retour \"humiliant\" en F1",
@@ -3091,8 +3174,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-11-10T07:33:43.584527+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-14T18:24:44.035423+00:00",
+      "summaryAttempts": 8,
       "summaryError": "invalid_length"
     },
     {
@@ -4467,8 +4550,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-11-10T07:33:15.722801+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-11-14T18:24:17.110074+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -5196,8 +5279,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-11-10T07:35:06.337464+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-14T18:26:07.136648+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -6446,8 +6529,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-11-10T07:34:38.745911+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-11-14T18:25:38.928249+00:00",
+      "summaryAttempts": 17,
       "summaryError": "invalid_length"
     },
     {
@@ -6683,8 +6766,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-11-10T07:35:06.318563+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-14T18:26:07.056309+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -7926,8 +8009,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-11-10T07:34:38.629511+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-14T18:25:38.763989+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -7941,8 +8024,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-11-10T07:34:38.719645+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-14T18:25:38.857148+00:00",
+      "summaryAttempts": 19,
       "summaryError": "source_unavailable"
     },
     {
@@ -9361,8 +9444,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-10T07:34:10.930835+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-14T18:25:11.293120+00:00",
+      "summaryAttempts": 22,
       "summaryError": "invalid_length"
     },
     {
@@ -12159,10 +12242,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
+    "created": 4,
+    "failed": 8,
     "pending": 82,
-    "checkedAt": "2026-11-14T06:48:28.251599+00:00"
+    "checkedAt": "2026-11-14T18:26:07.194370+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
