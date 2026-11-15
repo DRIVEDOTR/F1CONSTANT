@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-15T06:52:18.412786+00:00",
+  "collectedAt": "2026-11-15T18:59:26.888029+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-15T06:52:18.412786+00:00"
+      "checkedAt": "2026-11-15T18:59:26.888029+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-15T06:52:18.412786+00:00"
+      "checkedAt": "2026-11-15T18:59:26.888029+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "3533bdc703b305c5005f",
+      "title": "Conserver Liam Lawson ne suffit pas : Red Bull doit cesser de le considérer comme un échec",
+      "url": "https://fr.motorsport.com/f1/news/conserver-liam-lawson-ne-suffit-pas-red-bull/10874686/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-15T17:00:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-15T18:59:26.888029+00:00",
+      "summaryAttemptAt": "2026-11-15T18:59:27.358990+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Red Bull ne peut pas considérer Liam Lawson comme un échec",
+      "summaryFr": "Liam Lawson n'a pas échoué chez Red Bull Racing en 2025. L'écuelle affirme que c'est Red Bull qui a échoué avec lui. Cette décision pourrait marquer un changement dans les habitudes de l'entreprise depuis l'ère Helmut Marko.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-15T19:00:13.660014+00:00"
+    },
+    {
+      "id": "ffa0ff53147e77f0937a",
+      "title": "L'Istanbul Park prépare son grand retour en F1 : ce qui va changer en 2027",
+      "url": "https://fr.motorsport.com/f1/news/gp-turquie-istanbul-park-retour-f1-2027-preparatifs/10874615/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-15T10:03:23+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-15T18:59:26.888029+00:00",
+      "summaryAttemptAt": "2026-11-15T19:00:13.660039+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "L'Istanbul Park prépare son grand retour en F1 : ce qui va changer en 2027",
+      "summaryFr": "L'Istanbul Park envisage un retour en Formule 1 en 2027, avec des modifications techniques à préciser. Le but est de trouver un équilibre entre les attentes des pilotes et le spectacle souhaité pour les jeunes fans.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-15T19:00:58.670156+00:00"
+    },
     {
       "id": "8e41fa47fc1d47b7ed1c",
       "title": "Interview - Pourquoi Pierre Gasly n'a rien perdu de sa motivation en F1",
@@ -1250,9 +1292,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-12T07:28:12.334332+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-11-15T19:00:58.670179+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "30fea9e646a3c4868485",
@@ -2137,8 +2179,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
-      "summaryAttemptAt": "2026-11-12T07:28:43.697290+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-15T19:00:58.732624+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3991,8 +4033,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
-      "summaryAttemptAt": "2026-11-12T07:28:43.801620+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-15T19:00:58.756665+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -6092,8 +6134,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-11-12T07:30:21.536896+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-11-15T19:02:37.563238+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -7062,8 +7104,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-11-12T07:29:54.957468+00:00",
-      "summaryAttempts": 16,
+      "summaryAttemptAt": "2026-11-15T19:02:08.870323+00:00",
+      "summaryAttempts": 17,
       "summaryError": "invalid_length"
     },
     {
@@ -9601,8 +9643,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-11-12T07:28:43.905305+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-15T19:00:58.797424+00:00",
+      "summaryAttempts": 22,
       "summaryError": "unsupported_number"
     },
     {
@@ -9737,8 +9779,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-12T07:29:28.316738+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-15T19:01:40.732650+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -9812,8 +9854,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-12T07:29:28.376897+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-15T19:01:40.805406+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -10111,8 +10153,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-11-12T07:29:28.488447+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-15T19:01:40.875022+00:00",
+      "summaryAttempts": 22,
       "summaryError": "invalid_length"
     },
     {
@@ -10146,8 +10188,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-12T07:29:54.868274+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-15T19:02:08.785014+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -12240,10 +12282,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 0,
-    "failed": 12,
+    "created": 2,
+    "failed": 10,
     "pending": 82,
-    "checkedAt": "2026-11-15T06:54:19.705715+00:00"
+    "checkedAt": "2026-11-15T19:02:37.584479+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
