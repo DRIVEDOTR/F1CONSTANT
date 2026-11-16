@@ -1,24 +1,65 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-15T18:59:26.888029+00:00",
+  "collectedAt": "2026-11-16T06:52:51.565006+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-15T18:59:26.888029+00:00"
+      "checkedAt": "2026-11-16T06:52:51.565006+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-15T18:59:26.888029+00:00"
+      "checkedAt": "2026-11-16T06:52:51.565006+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "4bd8897cba4fa2b66bd6",
+      "title": "\"Hamilton pensait à un complot\" : Rosberg raconte comment la rivalité a dérapé",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-rosberg-rivalite-mercedes-complot/10874298/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-16T06:00:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-16T06:52:51.565006+00:00",
+      "summaryAttemptAt": "2026-11-16T06:52:52.083157+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Rosberg révèle la chute de la rivalité avec Hamilton",
+      "summaryFr": "Lors de son arrivée chez Mercedes en 2013, Hamilton et Rosberg étaient considérés comme un duo d'amis. Mais à partir de 2014, leur relation s'est détériorée, malgré le succès de l'écurie dans l'ère des moteurs turbo hybrides.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T06:53:38.658707+00:00"
+    },
+    {
+      "id": "a7ab49741593c4f3b9ae",
+      "title": "Much still to do on F1 diversity - Hamilton",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-16T00:04:45+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-16T06:52:51.565006+00:00",
+      "summaryAttemptAt": "2026-11-16T06:53:38.658731+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton souligne trois étapes pour améliorer la diversité en F1",
+      "summaryFr": "Le pilote britannique Lewis Hamilton évoque trois mesures nécessaires pour renforcer la diversité dans la Formule 1. Il insiste sur l'importance d'actions concrètes, sans préciser les étapes exactes. Ces propositions restent des suggestions, pas des décisions prises.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T06:54:18.598814+00:00"
+    },
     {
       "id": "3533bdc703b305c5005f",
       "title": "Conserver Liam Lawson ne suffit pas : Red Bull doit cesser de le considérer comme un échec",
@@ -48,7 +89,6 @@
       "language": "fr",
       "publishedAt": "2026-11-15T10:03:23+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-15T18:59:26.888029+00:00",
@@ -290,8 +330,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
-      "summaryAttemptAt": "2026-11-12T20:11:22.320387+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-16T06:54:47.798228+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -305,8 +345,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
-      "summaryAttemptAt": "2026-11-12T20:12:00.280123+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-16T06:55:22.249847+00:00",
+      "summaryAttempts": 2,
       "summaryError": "copied_passage"
     },
     {
@@ -381,8 +421,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
-      "summaryAttemptAt": "2026-11-12T20:14:19.607007+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-16T06:56:09.445830+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -1092,8 +1132,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
-      "summaryAttemptAt": "2026-11-12T20:16:38.868271+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-11-16T06:56:56.150556+00:00",
+      "summaryAttempts": 3,
       "summaryError": "unsupported_number"
     },
     {
@@ -2022,8 +2062,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-05T07:04:29.585428+00:00",
-      "summaryAttemptAt": "2026-11-13T06:59:40.440513+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-16T06:57:39.817991+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -2257,8 +2297,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-12T07:30:21.605132+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-16T06:54:18.598837+00:00",
+      "summaryAttempts": 4,
       "summaryError": "invalid_length"
     },
     {
@@ -10203,8 +10243,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-12T20:16:38.784826+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T06:56:56.103678+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -10218,8 +10258,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-12T20:17:24.156418+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T06:57:39.666981+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -10234,8 +10274,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-12T20:17:24.179660+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T06:57:39.729620+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -10250,8 +10290,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-12T20:17:24.204062+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T06:57:39.750708+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -12285,7 +12325,7 @@
     "created": 2,
     "failed": 10,
     "pending": 82,
-    "checkedAt": "2026-11-15T19:02:37.584479+00:00"
+    "checkedAt": "2026-11-16T06:57:39.840081+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
