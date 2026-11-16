@@ -1,24 +1,178 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-16T06:52:51.565006+00:00",
+  "collectedAt": "2026-11-16T22:23:43.815359+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-16T06:52:51.565006+00:00"
+      "checkedAt": "2026-11-16T22:23:43.815359+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-16T06:52:51.565006+00:00"
+      "checkedAt": "2026-11-16T22:23:43.815359+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "fef02ac15774f16bb5e8",
+      "title": "Williams et Aston Martin avec des livrées spéciales pour Las Vegas, Acura remplace Honda",
+      "url": "https://fr.motorsport.com/f1/news/williams-aston-martin-livrees-speciales-las-vegas-2026/10874931/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-16T19:14:11+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:23:44.816877+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Williams et Aston Martin avec des livrées spéciales pour Las Vegas",
+      "summaryFr": "Williams et Aston Martin modifient leurs livrées pour le Grand Prix de Las Vegas, troisième et dernière manche américaine de la saison. Cette initiative s'inscrit dans une stratégie commerciale visant à renforcer la présence des écuries à Las Vegas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T22:24:23.484814+00:00"
+    },
+    {
+      "id": "fb52c82d7504afa6b721",
+      "title": "Irvine, Zanardi, Câmara : 50 ans de management racontés par Enrico Zanarini",
+      "url": "https://fr.motorsport.com/f1/news/enrico-zanarini-manager-pilotes-50-ans-interview/10874868/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-16T15:45:03+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:24:23.484841+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "945885e420593f977e77",
+      "title": "Quels enjeux pour les trois derniers Grands Prix de la saison 2026 ?",
+      "url": "https://fr.motorsport.com/f1/news/f1-enjeux-fin-saison-2026/10874720/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-16T10:00:04+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:24:51.040308+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli devance Verstappen en tête du championnat pilotes",
+      "summaryFr": "Kimi Antonelli remporte son premier titre mondial, devenant le plus jeune champion de l'histoire. Max Verstappen, pilote le plus performant des huit dernières manches, est en course pour la deuxième place. La bataille entre les deux reste ouverte.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T22:25:28.755402+00:00"
+    },
+    {
+      "id": "eb6e3fac8f28c2c1bfac",
+      "title": "Haas choisit Rafael Câmara pour le Grand Prix de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/haas-choisit-rafael-camara-gp-las-vegas/10617940/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-16T08:44:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:25:28.755449+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Haas nomme Rafael Câmara pour le Grand Prix de Las Vegas",
+      "summaryFr": "En l'absence d'Esteban Ocon, Haas choisit Rafael Câmara pour le Grand Prix de Las Vegas, qui partagera le baquet avec Oliver Bearman. Ryo Hirakawa restera dans la voiture du Britannique pour la course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T22:26:05.983999+00:00"
+    },
+    {
+      "id": "05de9dab6f00d0b74aac",
+      "title": "Camara to race again for Haas in Las Vegas",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c804w7nxr61zo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-16T08:35:56+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:26:05.984027+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Camara reprend la course pour Haas au Grand Prix de Las Vegas",
+      "summaryFr": "Rafael Camara devrait reprendre ses engagements pour Haas au Grand Prix de Las Vegas après le départ d'Esteban Ocon. L'information ne précise pas si le changement est officiel ou encore en rumeur.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T22:26:39.707511+00:00"
+    },
+    {
+      "id": "b7d3a7f250b31e946ca2",
+      "title": "How to follow Las Vegas Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-16T08:07:20+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:26:39.707538+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "3b284fb6e58958ba5990",
+      "title": "Le programme du Grand Prix de Las Vegas F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-las-vegas-2026-dates-horaires-infos-programme/10671513/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-16T07:50:13+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:27:02.899839+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le Grand Prix de Las Vegas 2026 : dates et horaires du 21e rendez-vous de la saison",
+      "summaryFr": "Le Grand Prix de Las Vegas est la 21e manche de la saison 2026 de Formule 1, marquant le début de la dernière série de courses de l'année. Il est organisé aux États-Unis et se déroule en soirée, malgré le décalage horaire de neuf heures avec Paris.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T22:27:44.181864+00:00"
+    },
+    {
+      "id": "d2f78730cf7c9734a15e",
+      "title": "Formula 1's one-race wonders",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqp9dr4kedd3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-16T06:53:18+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:27:44.181897+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les talents de Formule 1 qui n'ont eu qu'une seule saison",
+      "summaryFr": "Certains pilotes ont eu l'opportunité d'entrer en Formule 1 avec une seule saison. Leurs parcours ont été marqués par des performances limitées. Aucun n'a connu une longue carrière dans la compétition.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-16T22:28:17.814887+00:00"
+    },
     {
       "id": "4bd8897cba4fa2b66bd6",
       "title": "\"Hamilton pensait à un complot\" : Rosberg raconte comment la rivalité a dérapé",
@@ -27,8 +181,7 @@
       "language": "fr",
       "publishedAt": "2026-11-16T06:00:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-16T06:52:51.565006+00:00",
       "summaryAttemptAt": "2026-11-16T06:52:52.083157+00:00",
@@ -914,8 +1067,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
-      "summaryAttemptAt": "2026-11-13T06:59:40.701904+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-11-16T22:28:17.854392+00:00",
+      "summaryAttempts": 3,
       "summaryError": "unsupported_number"
     },
     {
@@ -8513,8 +8666,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:30.661843+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T22:28:58.019994+00:00",
+      "summaryAttempts": 22,
       "summaryError": "invalid_length"
     },
     {
@@ -10305,8 +10458,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-11-13T06:59:40.640579+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T22:28:17.814912+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -10320,8 +10473,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:30.577717+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-16T22:28:57.989077+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -12322,10 +12475,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
-    "pending": 82,
-    "checkedAt": "2026-11-16T06:57:39.840081+00:00"
+    "created": 6,
+    "failed": 6,
+    "pending": 84,
+    "checkedAt": "2026-11-16T22:29:21.500338+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
