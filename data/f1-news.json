@@ -1,24 +1,71 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-17T08:11:18.463358+00:00",
+  "collectedAt": "2026-11-17T21:08:34.746401+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-17T08:11:18.463358+00:00"
+      "checkedAt": "2026-11-17T21:08:34.746401+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-17T08:11:18.463358+00:00"
+      "checkedAt": "2026-11-17T21:08:34.746401+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "39273bd67d3a52eb848b",
+      "title": "Kimi Antonelli comme vous ne le connaissez pas : ses proches racontent",
+      "url": "https://fr.motorsport.com/f1/news/exclusive-kimi-antonelli-connaissez-pas-ses-proches-racontent/10875101/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-17T16:09:20+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-17T21:08:34.746401+00:00",
+      "summaryAttemptAt": "2026-11-17T21:08:35.583252+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "TimeoutExpired"
+    },
+    {
+      "id": "9d6dfe3362310ba08967",
+      "title": "Wolff ne craint pas de perdre Antonelli au profit de Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/toto-wolff-ne-craint-pas-perdre-kimi-antonelli-au-profit-ferrari/10875054/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-17T12:09:50+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-17T21:08:34.746401+00:00",
+      "summaryAttemptAt": "2026-11-17T21:12:35.897402+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "TimeoutExpired"
+    },
+    {
+      "id": "045ea55c8beeb5f00c99",
+      "title": "Alonso to drive in Dakar Rally for Aston Martin",
+      "url": "https://www.bbc.co.uk/sport/motorsport/articles/crp3e1783xq3o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-17T09:00:08+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-17T21:08:34.746401+00:00",
+      "summaryAttemptAt": "2026-11-17T21:16:36.291506+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "TimeoutExpired"
+    },
     {
       "id": "e8ec5c0887b0e69e1bf7",
       "title": "Why Hamilton is key to Bearman's future - F1 Q&A",
@@ -48,8 +95,7 @@
       "publishedAt": "2026-11-17T07:26:10+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-17T08:11:18.463358+00:00",
       "summaryAttemptAt": "2026-11-17T08:11:50.900288+00:00",
@@ -947,9 +993,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-09T22:33:57.971390+00:00",
-      "summaryAttemptAt": "2026-11-14T06:47:18.340956+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "unsupported_number"
+      "summaryAttemptAt": "2026-11-17T21:20:38.087687+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "TimeoutExpired"
     },
     {
       "id": "904ef1e72c7ea628474e",
@@ -5058,8 +5104,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-23T21:32:33.270516+00:00",
-      "summaryAttemptAt": "2026-11-14T06:47:58.988026+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-17T21:24:39.992270+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -5114,8 +5160,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-11-14T06:47:58.855529+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-17T21:24:39.761441+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -5130,8 +5176,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-23T11:52:15.466528+00:00",
-      "summaryAttemptAt": "2026-11-14T06:47:58.937458+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-17T21:24:39.823601+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -5286,8 +5332,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:42.222704+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-17T21:20:37.900185+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -5342,8 +5388,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T17:23:07.301680+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:42.286982+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-17T21:20:38.063857+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -5399,8 +5445,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-22T12:08:49.915792+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:42.133194+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-17T21:20:37.806360+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -5454,8 +5500,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-21T17:25:22.009933+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:42.047639+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-17T21:20:37.735311+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -6662,8 +6708,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-11T22:10:09.427396+00:00",
-      "summaryAttemptAt": "2026-11-14T06:47:59.042523+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-17T21:24:40.139607+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -12513,10 +12559,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
-    "pending": 84,
-    "checkedAt": "2026-11-17T08:13:24.089775+00:00"
+    "created": 0,
+    "failed": 12,
+    "pending": 87,
+    "checkedAt": "2026-11-17T21:24:40.300474+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
