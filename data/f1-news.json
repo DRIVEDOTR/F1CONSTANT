@@ -1,24 +1,66 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-16T22:23:43.815359+00:00",
+  "collectedAt": "2026-11-17T08:11:18.463358+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-16T22:23:43.815359+00:00"
+      "checkedAt": "2026-11-17T08:11:18.463358+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-16T22:23:43.815359+00:00"
+      "checkedAt": "2026-11-17T08:11:18.463358+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e8ec5c0887b0e69e1bf7",
+      "title": "Why Hamilton is key to Bearman's future - F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9vg2l8240emo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-17T07:45:02+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-17T08:11:18.463358+00:00",
+      "summaryAttemptAt": "2026-11-17T08:11:18.879694+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton clé pour l'avenir de Bearman ?",
+      "summaryFr": "Un doute persiste sur le rôle de Lewis Hamilton dans le futur de Bearman. Aucune information officielle n'est disponible sur ce sujet. La rumeur circule, mais reste sans fondement.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-17T08:11:50.900262+00:00"
+    },
+    {
+      "id": "456653aa9ba48f716c3d",
+      "title": "Norris réclame des meilleurs pneus pluie : \"Ce serait effrayant à Las Vegas\"",
+      "url": "https://fr.motorsport.com/f1/news/norris-pneus-pluie-pirelli-las-vegas/10874700/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-17T07:26:10+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-17T08:11:18.463358+00:00",
+      "summaryAttemptAt": "2026-11-17T08:11:50.900288+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris demande des pneus pluie améliorés pour Las Vegas",
+      "summaryFr": "Lando Norris exige des pneus pluie plus performants de la part de Pirelli pour 2027, estimant que la gamme actuelle ne conviendrait pas sur un circuit à faible appui comme celui de Las Vegas. Il souligne que les conditions de pluie rencontrées en Malaisie et à Singapour ont déjà perturbé les week-ends.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-17T08:12:32.630462+00:00"
+    },
     {
       "id": "fef02ac15774f16bb5e8",
       "title": "Williams et Aston Martin avec des livrées spéciales pour Las Vegas, Acura remplace Honda",
@@ -27,8 +69,7 @@
       "language": "fr",
       "publishedAt": "2026-11-16T19:14:11+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
       "summaryAttemptAt": "2026-11-16T22:23:44.816877+00:00",
@@ -63,7 +104,7 @@
       "language": "fr",
       "publishedAt": "2026-11-16T10:00:04+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
       "summaryAttemptAt": "2026-11-16T22:24:51.040308+00:00",
@@ -83,7 +124,6 @@
       "language": "fr",
       "publishedAt": "2026-11-16T08:44:08+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
@@ -104,7 +144,6 @@
       "language": "en",
       "publishedAt": "2026-11-16T08:35:56+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
@@ -140,7 +179,6 @@
       "language": "fr",
       "publishedAt": "2026-11-16T07:50:13+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
@@ -161,7 +199,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T06:53:18+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
       "summaryAttemptAt": "2026-11-16T22:27:44.181897+00:00",
@@ -366,8 +404,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-13T19:54:35.795339+00:00",
-      "summaryAttemptAt": "2026-11-13T19:55:22.507352+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-17T08:12:32.893029+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -2200,8 +2238,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:41.962759+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-17T08:13:24.063573+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3586,8 +3624,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:59.418515+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-17T08:12:32.703978+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -5569,8 +5607,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:13.508182+00:00",
-      "summaryAttempts": 11,
+      "summaryAttemptAt": "2026-11-17T08:13:00.523559+00:00",
+      "summaryAttempts": 12,
       "summaryError": "invalid_length"
     },
     {
@@ -5777,8 +5815,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:59.592333+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-11-17T08:12:32.808821+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -5916,8 +5954,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:59.651668+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-17T08:12:32.874113+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -5951,8 +5989,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-11-13T19:58:13.440363+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-17T08:13:00.472158+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -8413,8 +8451,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:59.545015+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-17T08:12:32.749103+00:00",
+      "summaryAttempts": 20,
       "summaryError": "source_unavailable"
     },
     {
@@ -8681,8 +8719,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:59.382591+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-17T08:12:32.678020+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -8798,8 +8836,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-11-13T07:00:59.324972+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-17T08:12:32.630489+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -12475,10 +12513,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
-    "failed": 6,
+    "created": 2,
+    "failed": 10,
     "pending": 84,
-    "checkedAt": "2026-11-16T22:29:21.500338+00:00"
+    "checkedAt": "2026-11-17T08:13:24.089775+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
