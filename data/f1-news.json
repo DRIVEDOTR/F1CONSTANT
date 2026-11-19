@@ -1,24 +1,215 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-19T07:41:44.180140+00:00",
+  "collectedAt": "2026-11-19T20:50:53.979626+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-19T07:41:44.180140+00:00"
+      "checkedAt": "2026-11-19T20:50:53.979626+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-19T07:41:44.180140+00:00"
+      "checkedAt": "2026-11-19T20:50:53.979626+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "39704783b934d521bf9a",
+      "title": "Ce que la prolongation de Valtteri Bottas dit de l'avenir de Cadillac en F1",
+      "url": "https://fr.motorsport.com/f1/news/analyse-prolongation-bottas-cadillac-avenir-ecurie/10875340/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T17:00:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:50:54.533180+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La prolongation de Valtteri Bottas souligne l'avenir incertain de Cadillac en F1",
+      "summaryFr": "La prolongation de Valtteri Bottas met en lumière la situation fragile de Cadillac F1. L'équipe, qui peine à sortir du fond de la grille, doit désormais faire face à un avenir incertain malgré la stabilité du duo de pilotes. La décision ne révèle pas de progrès concrets dans la compétitivité.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:51:38.649419+00:00"
+    },
+    {
+      "id": "7f15e962fb963ca805ae",
+      "title": "Red Bull ou Mercedes : Russell dévoile sa théorie sur le meilleur moteur de F1",
+      "url": "https://fr.motorsport.com/f1/news/red-bull-ou-mercedes-meilleur-moteur-theorie-russell/10875640/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T14:30:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:51:38.649448+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell évoque une théorie sur le meilleur moteur de F1",
+      "summaryFr": "L'entraîneur de Red Bull ou Mercedes, Russell, dévoile une rumeur sur le meilleur groupe propulseur de Formule 1. Le Grand Prix de Las Vegas pourrait être un défi aérodynamique marquant, avec des pneus Pirelli à gérer sur des lignes droites longues.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:52:20.266974+00:00"
+    },
+    {
+      "id": "1b0567bf11f4daf45fdb",
+      "title": "Vitesse, confiance, maîtrise : ce qui a vraiment sauvé la carrière de Lawson",
+      "url": "https://fr.motorsport.com/f1/news/vitesse-confiance-maitrise-sauvetage-carriere-lawson-permane/10875279/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T13:30:00+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:52:20.267005+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Lawson confirmé chez Racing Bulls pour 2027",
+      "summaryFr": "Liam Lawson est officiellement retenu par Racing Bulls pour la saison 2027 de Formule 1. Son maintien s'explique par des progrès constants, mais aucune cause unique n'est attribuée. La confirmation suit une décision récente, sans précision sur les critères exacts.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:52:59.759145+00:00"
+    },
+    {
+      "id": "efefa9e9840d6c636e7b",
+      "title": "Lewis Hamilton assure qu'il n'y a aucun problème de \"confiance\" chez Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/lewis-hamilton-dement-probleme-confiance-ferrari/10875613/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T12:07:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:52:59.759172+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton dément les rumeurs de problèmes de confiance chez Ferrari",
+      "summaryFr": "Lewis Hamilton affirme qu'il n'existe aucun problème de confiance chez Ferrari. Il a néanmoins ignoré deux appels à rentrer au stand lors des derniers Grands Prix, à Singapour et au ...",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:53:36.729624+00:00"
+    },
+    {
+      "id": "e3787dcb6f97703ff250",
+      "title": "Câmara tiraillé entre jouer le titre en F2 et finir la saison chez Haas",
+      "url": "https://fr.motorsport.com/f1/news/rafael-camara-tiraille-jouer-titre-f2-ou-finir-saison-haas/10875592/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T10:36:37+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:53:36.729656+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Câmara tiraillé entre jouer le titre en F2 et finir la saison chez Haas",
+      "summaryFr": "Rafael Câmara hésite entre poursuivre sa saison en Formule 2, où il occupe la tête du classement, et rejoindre Haas en Formule 1 pour les derniers Grands Prix. Le pilote, champion en titre de Formule 3, reste en phase de décision.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:54:18.516252+00:00"
+    },
+    {
+      "id": "8d090cad46276f5ce99c",
+      "title": "Leclerc juge \"disproportionnée\" la polémique avec Hamilton à Mexico",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-juge-polemique-disproportionnee-hamilton-mexico-ferrari/10875572/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T09:28:35+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:54:18.516282+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc dénonce \"disproportionnée\" la polémique avec Hamilton au Mexique",
+      "summaryFr": "Charles Leclerc estime que la réaction à son accrochage avec Lewis Hamilton au Grand Prix du Mexique a été disproportionnée. Il souligne que ce type de situation est fréquent lors des courses de Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:54:57.203810+00:00"
+    },
+    {
+      "id": "9a7a7e10c9707c8503d9",
+      "title": "Antonelli s'attend au retour de l'effet \"yo-yo\" à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-predit-retour-effet-yo-yo-las-vegas/10875554/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T09:04:04+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:54:57.203841+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli prévoit un retour de l'effet \"yo-yo\" à Las Vegas",
+      "summaryFr": "Kimi Antonelli affirme que le circuit de Las Vegas favorisera un retour de l'effet \"yo-yo\" en raison de sa faible demande en appui aérodynamique. La nouvelle réglementation de 2026, avec une part électrique accrue dans le groupe propulseur, a modifié le style de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:55:38.805229+00:00"
+    },
+    {
+      "id": "c54cec5765986c03a4e5",
+      "title": "Honda révèle une évolution majeure de son moteur pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/honda-revele-evolution-majeure-moteur-2027/10875547/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T08:14:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:55:38.805260+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Honda ne précise pas les raisons de l'abandon de Lance Stroll",
+      "summaryFr": "Lance Stroll a dû abandonner sa course pour la 14e fois cette saison, égalant un record absolu. Honda n'a pas fourni d'explication claire sur cette situation. Aucune évolution du groupe propulseur n'est annoncée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:56:18.666066+00:00"
+    },
+    {
+      "id": "4bbbfacfde55446f5dc6",
+      "title": "Verstappen : \"Si j'écrivais le règlement, la F1 ne pourrait pas courir sur certains circuits\"",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-avis-reglement-retour-v8-circuits/10875540/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T08:01:18+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
+      "summaryAttemptAt": "2026-11-19T20:56:18.666093+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen : \"Si j'écrivais le règlement, la F1 ne pourrait pas courir sur certains circuits\"",
+      "summaryFr": "Max Verstappen critique le règlement actuel, affirmant qu'il empêcherait la F1 de courir sur certains circuits. Un accord de principe a été trouvé pour un groupe propulseur V8 turbo de 2,1 litres avec une part électrique réduite, à introduire en 2030.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T20:57:02.372048+00:00"
+    },
     {
       "id": "5d6508673f5e0fec0c5a",
       "title": "Seul pilote non confirmé pour 2027, Bearman ne cache pas sa frustration",
@@ -27,8 +218,7 @@
       "language": "fr",
       "publishedAt": "2026-11-19T07:34:03+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
       "summaryAttemptAt": "2026-11-19T07:41:44.972540+00:00",
@@ -68,9 +258,7 @@
       "language": "fr",
       "publishedAt": "2026-11-19T07:11:21+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
       "summaryAttemptAt": "2026-11-19T07:43:11.391795+00:00",
@@ -91,8 +279,7 @@
       "publishedAt": "2026-11-19T06:59:28+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
       "summaryAttemptAt": "2026-11-19T07:44:00.790390+00:00",
@@ -133,7 +320,8 @@
       "language": "en",
       "publishedAt": "2026-11-18T21:18:32+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
       "summaryAttemptAt": "2026-11-19T07:45:29.616674+00:00",
@@ -4417,8 +4605,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-28T22:43:46.215295+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:57.319419+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-19T20:57:02.411286+00:00",
+      "summaryAttempts": 7,
       "summaryError": "invalid_length"
     },
     {
@@ -4570,8 +4758,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.219505+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-19T20:57:26.050634+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -4677,8 +4865,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:57.255957+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-19T20:57:02.372076+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -12783,10 +12971,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 6,
-    "failed": 6,
+    "created": 9,
+    "failed": 3,
     "pending": 88,
-    "checkedAt": "2026-11-19T07:46:34.898993+00:00"
+    "checkedAt": "2026-11-19T20:57:26.068392+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
