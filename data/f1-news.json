@@ -1,24 +1,150 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-18T20:45:13.093017+00:00",
+  "collectedAt": "2026-11-19T07:41:44.180140+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-18T20:45:13.093017+00:00"
+      "checkedAt": "2026-11-19T07:41:44.180140+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 48,
-      "checkedAt": "2026-11-18T20:45:13.093017+00:00"
+      "count": 49,
+      "checkedAt": "2026-11-19T07:41:44.180140+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "5d6508673f5e0fec0c5a",
+      "title": "Seul pilote non confirmé pour 2027, Bearman ne cache pas sa frustration",
+      "url": "https://fr.motorsport.com/f1/news/bearman-frustration-baquet-f1-2027/10875508/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T07:34:03+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
+      "summaryAttemptAt": "2026-11-19T07:41:44.972540+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Un seul pilote vacant pour 2027 : Bearman exprime sa frustration",
+      "summaryFr": "Pour la saison 2027, un seul baquet reste vacant dans la F1. Il s'agit de celui occupé par Oliver Bearman chez Haas. Bien que son maintien soit largement anticipé, le délai pour officialiser son statut reste indéterminé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T07:42:32.170477+00:00"
+    },
+    {
+      "id": "a7463be1229c56c32799",
+      "title": "Verstappen 'trusts' F1 over Middle East decision",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6n0l14rjlw4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-19T07:11:36+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
+      "summaryAttemptAt": "2026-11-19T07:42:32.170501+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen confie en la F1 après la décision de terminer la saison au Moyen-Orient",
+      "summaryFr": "Max Verstappen affirme faire confiance à la Formule 1 après le choix de terminer la saison au Moyen-Orient, malgré les conflits persistants dans la région. Il ne précise pas ses motivations ni les implications de cette décision.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T07:43:11.391771+00:00"
+    },
+    {
+      "id": "5e2bd8e387a828d1b058",
+      "title": "Alonso ne sera plus en F1 au retour des V8 : \"16 ou 17 ans de perdus\"",
+      "url": "https://fr.motorsport.com/f1/news/fernando-alonso-exclut-rester-retour-v8-annees-perdues/10875496/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T07:11:21+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
+      "summaryAttemptAt": "2026-11-19T07:43:11.391795+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso ne sera plus en F1 au retour des V8 : \"16 ou 17 ans de perdus\"",
+      "summaryFr": "Le retour des moteurs V8 en Formule 1 est confirmé par la FIA, malgré une publication temporairement retirée. Le duo de pilotes Alonso et ses partenaires évoque une perte de temps estimée à 16 ou 17 ans. Aucune décision officielle sur la suite de la carrière d'Alonso n'est encore prise.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T07:44:00.790366+00:00"
+    },
+    {
+      "id": "2fdeb82498dbf10c7770",
+      "title": "LEGO annonce des sets Speed Champions F1 avec les écuries et pilotes 2026",
+      "url": "https://fr.motorsport.com/f1/news/lego-devoile-des-sets-speed-champions-f1-2026/10875487/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T06:59:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
+      "summaryAttemptAt": "2026-11-19T07:44:00.790390+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "LEGO présente des sets F1 Speed Champions pour la saison 2026",
+      "summaryFr": "LEGO annonce la sortie de sets Speed Champions représentant toutes les écuries et les 22 pilotes de la saison 2026. La gamme sera lancée en mars 2027, dans le cadre d'un partenariat élargi débuté en 2025. L'annonce suit la dernière course d'exposition organisée à Las Vegas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T07:44:49.479231+00:00"
+    },
+    {
+      "id": "9490ff90dac50102dd07",
+      "title": "No trust problem with Ferrari team - Hamilton",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr8683z1wdp2o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-19T06:56:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
+      "summaryAttemptAt": "2026-11-19T07:44:49.479256+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton déclare que Ferrari sont \"super unis\" malgré deux incidents",
+      "summaryFr": "Lewis Hamilton affirme que l'équipe Ferrari est unie, malgré deux situations où le pilote britannique a ignoré un appel de l'équipe pour faire un arrêt aux stands avec des pneus neufs. Aucun problème de confiance n'est confirmé.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T07:45:29.616648+00:00"
+    },
+    {
+      "id": "a93c30cddd3b88c9512d",
+      "title": "Bottas' stay at Cadillac confirmed for 2027",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqkgr0elvl5zo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-18T21:18:32+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-19T07:41:44.180140+00:00",
+      "summaryAttemptAt": "2026-11-19T07:45:29.616674+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Bottas retenu par Cadillac pour 2027",
+      "summaryFr": "Valtteri Bottas reste au sein de Cadillac pour la saison 2027. Aucune information sur les performances ou les équipes associées n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-19T07:46:05.637867+00:00"
+    },
     {
       "id": "005e6a5e3c994c6b0629",
       "title": "Valtteri Bottas devance Colton Herta et conserve son baquet chez Cadillac",
@@ -120,7 +246,6 @@
       "language": "en",
       "publishedAt": "2026-11-18T07:50:26+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-18T20:45:13.093017+00:00",
@@ -1543,8 +1668,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:28.632687+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-19T07:46:06.060821+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -1964,8 +2089,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:28.253186+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-19T07:46:05.637894+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -1999,8 +2124,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:28.319280+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-19T07:46:05.782239+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -2136,8 +2261,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:28.383277+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-19T07:46:05.846396+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -2959,8 +3084,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-02T21:50:30.448399+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:57.131164+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-19T07:46:34.752197+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -3292,8 +3417,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
-      "summaryAttemptAt": "2026-11-14T22:39:28.492384+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-19T07:46:05.973548+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -12658,10 +12783,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 8,
+    "created": 6,
+    "failed": 6,
     "pending": 88,
-    "checkedAt": "2026-11-18T20:49:15.138567+00:00"
+    "checkedAt": "2026-11-19T07:46:34.898993+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
