@@ -1,24 +1,175 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-20T07:32:55.033285+00:00",
+  "collectedAt": "2026-11-20T20:35:45.440466+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-11-20T07:32:55.033285+00:00"
+      "count": 50,
+      "checkedAt": "2026-11-20T20:35:45.440466+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-20T07:32:55.033285+00:00"
+      "checkedAt": "2026-11-20T20:35:45.440466+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "33f055ff4d2293d02308",
+      "title": "F1 bosses agree V8 engines deal from 2030",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-20T19:17:40+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T20:35:46.276559+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les dirigeants de la F1 entendent remplacer les moteurs V8 en 2030",
+      "summaryFr": "Les dirigeants de la Formule 1 ont conclu un accord pour remplacer les actuels groupes propulseurs turbo hybrides par des moteurs V8 à partir de 2030. Cette décision vise à réduire la controverse autour des unités actuelles. Aucune information sur les détails techniques ou les dates précises n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:36:26.154494+00:00"
+    },
+    {
+      "id": "811478f007e6727f1d27",
+      "title": "La F1 devrait faire son retour aux moteurs V8 turbo dès 2030",
+      "url": "https://fr.motorsport.com/f1/news/f1-devrait-faire-retour-moteur-v8-turbo-des-2030/10875121/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T18:57:11+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
+      "summaryAttemptAt": "2026-11-20T20:36:26.154523+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La F1 devrait reprendre les moteurs V8 turbo en 2030",
+      "summaryFr": "La FIA annonce un accord unanime pour un retour aux moteurs V8 turbo à partir de 2030. La formule travaille depuis longtemps sur des groupes propulseurs moins coûteux et plus simples pour le cycle réglementaire débutant en 2031.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:37:05.530306+00:00"
+    },
+    {
+      "id": "575ab158adc7307abc2c",
+      "title": "Comment la réglementation 2026 a neutralisé la \"grande force\" de Piastri",
+      "url": "https://fr.motorsport.com/f1/news/comment-reglementation-2026-f1-neutralise-grande-force-piastri/10876047/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T13:21:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
+      "summaryAttemptAt": "2026-11-20T20:37:05.530334+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La réglementation 2026 contredit la force de pilotage de Piastri",
+      "summaryFr": "Zak Brown de McLaren affirme que les difficultés de Oscar Piastri en 2026 proviennent de son excellence sur les virages rapides, alors que la nouvelle réglementation exige une technique de pilotage différente. Les modifications du règlement incluent des unités de puissance.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:37:45.256183+00:00"
+    },
+    {
+      "id": "ed71d4743692663484f4",
+      "title": "Russell impressionné par une McLaren \"extrêmement rapide\", la pluie retarde l'essai du nouveau fond plat de Norris",
+      "url": "https://fr.motorsport.com/f1/news/russell-impressionne-mclaren-extremement-rapide-pluie-retarde-essai-fond-plat/10876007/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T12:45:22+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
+      "summaryAttemptAt": "2026-11-20T20:37:45.256212+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell impressionné par une McLaren \"extrêmement rapide\", la pluie retarde l'essai du nouveau fond plat de Norris",
+      "summaryFr": "George Russell a enregistré le meilleur temps lors des essais libres de Formule 1 à Las Vegas, malgré une faible marge de 0\"071 face à Pierre Gasly. La pluie a perturbé les essais du nouveau fond plat de Norris. Le pilote McLaren reste impressionné par la performance de l'équipe.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:38:28.380568+00:00"
+    },
+    {
+      "id": "46b5391eedf56ac63cae",
+      "title": "\"À 100 km/h, c'était effrayant\" : les pilotes découvrent une véritable \"patinoire\" à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/100-km-h-effrayant-pilotes-decouvrent-veritable-patinoire-las-vegas/10876000/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T10:33:31+00:00",
+      "topics": [
+        "pilotes",
+        "competition",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
+      "summaryAttemptAt": "2026-11-20T20:38:28.380645+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les pilotes évitent les murs en pluie à Las Vegas",
+      "summaryFr": "Malgré la pluie et l'adhérence réduite sur le circuit urbain de Las Vegas, tous les pilotes ont réussi à éviter les murs. Le week-end a mis en lumière la difficulté des conditions météorologiques, sans que le résultat de vitesse soit déterminant.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:39:07.925931+00:00"
+    },
+    {
+      "id": "bd7d5dd1c764a24d3cf6",
+      "title": "\"Comme au Brésil\" : Verstappen encore en délicatesse avec l'équilibre",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-delicatesse-equilibre-red-bull-las-vegas/10875953/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T08:45:49+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
+      "summaryAttemptAt": "2026-11-20T20:39:07.925959+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen en délicatesse avec l'équilibre à Las Vegas",
+      "summaryFr": "À Las Vegas, Isack Hadjar termine quatrième des essais jeudi, mais le résultat ne porte pas grande importance sans pluie prévue. Les conditions de course ne sont pas représentatives pour l'analyse du groupe propulseur ou de l'aérodynamique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:39:46.941535+00:00"
+    },
+    {
+      "id": "334b066d310d5d74ce6f",
+      "title": "Pirelli imposera encore une limite de tours par relais au Grand Prix du Qatar",
+      "url": "https://fr.motorsport.com/f1/news/pirelli-imposera-encore-limite-tours-par-relais-qatar-2026/10875960/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T08:23:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
+      "summaryAttemptAt": "2026-11-20T20:39:46.941563+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Formule 1 impose une limite de 27 tours par relais au GP du Qatar",
+      "summaryFr": "La F1 a fixé une limite de 27 tours par relais pour chaque monoplace au Grand Prix du Qatar, afin de préserver les pneus Pirelli sur le circuit de Losail. Les équipes devraient ajuster leur stratégie en conséquence.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T20:40:25.663103+00:00"
+    },
     {
       "id": "f4b0d232ab5fa2229a19",
       "title": "Russell fastest in Las Vegas practice after rain",
@@ -27,9 +178,7 @@
       "language": "en",
       "publishedAt": "2026-11-20T06:40:04+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:32:55.650163+00:00",
@@ -42,27 +191,6 @@
       "summaryAt": "2026-11-20T07:33:29.219886+00:00"
     },
     {
-      "id": "33f055ff4d2293d02308",
-      "title": "F1 bosses close to V8 engines deal from 2030",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-20T06:35:38+00:00",
-      "topics": [
-        "ecuries",
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
-      "summaryAttemptAt": "2026-11-20T07:33:29.219915+00:00",
-      "summaryAttempts": 1,
-      "titleFr": "Les dirigeants de la F1 proches d'un accord pour remplacer les moteurs V8 en 2030",
-      "summaryFr": "Les dirigeants de la Formule 1 sont proches d'un accord visant à remplacer les moteurs actuels par des moteurs V8 turbo hybrides à partir de 2030. Ce changement serait une étape majeure dans la révision du groupe propulseur. Aucune décision finale n'a été prise.",
-      "summaryMethod": "automatic-local",
-      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-      "summaryScope": "introduction",
-      "summaryAt": "2026-11-20T07:34:07.662325+00:00"
-    },
-    {
       "id": "f52d1e7b38911bd03ec2",
       "title": "The art of protection - inside an F1 helmet factory",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20vpq8z6n4o",
@@ -70,7 +198,7 @@
       "language": "en",
       "publishedAt": "2026-11-20T06:29:04+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:34:07.662356+00:00",
@@ -105,9 +233,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T05:14:20+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:34:44.065606+00:00",
@@ -127,9 +253,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T05:05:25+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:35:24.742136+00:00",
@@ -165,7 +289,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T01:47:07+00:00",
       "topics": [
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:36:31.758817+00:00",
@@ -185,8 +309,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T00:55:35+00:00",
       "topics": [
-        "ecuries",
-        "pilotes"
+        "competition"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:37:16.141720+00:00",
@@ -206,7 +329,7 @@
       "language": "en",
       "publishedAt": "2026-11-19T21:39:22+00:00",
       "topics": [
-        "ecuries"
+        "competition"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T07:37:57.326329+00:00",
@@ -226,7 +349,6 @@
       "language": "fr",
       "publishedAt": "2026-11-19T21:06:51+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
@@ -3160,8 +3282,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.567216+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-20T20:40:25.747907+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -3195,8 +3317,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.604088+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-20T20:40:25.790312+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -4439,8 +4561,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.417914+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-20T20:40:25.663138+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -4474,8 +4596,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.456231+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-20T20:40:25.691943+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -5402,8 +5524,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.513870+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-20T20:40:25.720830+00:00",
+      "summaryAttempts": 10,
       "summaryError": "source_unavailable"
     },
     {
@@ -13170,10 +13292,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 9,
-    "failed": 3,
+    "created": 7,
+    "failed": 5,
     "pending": 89,
-    "checkedAt": "2026-11-20T07:39:12.724349+00:00"
+    "checkedAt": "2026-11-20T20:40:25.816967+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
