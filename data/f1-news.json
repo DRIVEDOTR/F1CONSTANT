@@ -1,24 +1,244 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-19T20:50:53.979626+00:00",
+  "collectedAt": "2026-11-20T07:32:55.033285+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-19T20:50:53.979626+00:00"
+      "checkedAt": "2026-11-20T07:32:55.033285+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-11-19T20:50:53.979626+00:00"
+      "count": 50,
+      "checkedAt": "2026-11-20T07:32:55.033285+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "f4b0d232ab5fa2229a19",
+      "title": "Russell fastest in Las Vegas practice after rain",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-20T06:40:04+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:32:55.650163+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell le plus rapide en pratique à Las Vegas après la pluie",
+      "summaryFr": "George Russell, pilote de Mercedes, a été le plus rapide lors de la deuxième séance de pratique du Grand Prix de Las Vegas, sur un circuit mouillé mais qui s'est progressivement asséché.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:33:29.219886+00:00"
+    },
+    {
+      "id": "33f055ff4d2293d02308",
+      "title": "F1 bosses close to V8 engines deal from 2030",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-20T06:35:38+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:33:29.219915+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les dirigeants de la F1 proches d'un accord pour remplacer les moteurs V8 en 2030",
+      "summaryFr": "Les dirigeants de la Formule 1 sont proches d'un accord visant à remplacer les moteurs actuels par des moteurs V8 turbo hybrides à partir de 2030. Ce changement serait une étape majeure dans la révision du groupe propulseur. Aucune décision finale n'a été prise.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:34:07.662325+00:00"
+    },
+    {
+      "id": "f52d1e7b38911bd03ec2",
+      "title": "The art of protection - inside an F1 helmet factory",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20vpq8z6n4o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-20T06:29:04+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:34:07.662356+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "L'art de la protection - au cœur d'une usine de casques F1",
+      "summaryFr": "Dans le monde exceptionnel des casques de Formule 1, l'ingénierie précise, l'expression personnelle et la technologie de sauvetage s'unissent. Chaque casque est un produit de haute précision, conçu pour protéger les pilotes tout en leur permettant d'exprimer leur individualité.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:34:44.065573+00:00"
+    },
+    {
+      "id": "b7d3a7f250b31e946ca2",
+      "title": "How to follow Las Vegas Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-20T05:39:43+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:26:39.707538+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "0b3bd8dd77e548302017",
+      "title": "EL2 - Russell devance Gasly sur piste humide à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/el2-gp-las-vegas-russell-devance-gasly-piste-humide/10875851/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T05:14:20+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:34:44.065606+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell devance Gasly sur piste humide à Las Vegas",
+      "summaryFr": "George Russell a devancé Pierre Gasly pour le meilleur temps des EL2 au Grand Prix de Las Vegas, enregistrant un chrono de 1'47\"272 en fin de séance sous des conditions glissantes. Le Français a su s'adapter à l'évolution de la piste pour décrocher une place en tête.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:35:24.742106+00:00"
+    },
+    {
+      "id": "aadcfe2eb983378c0b14",
+      "title": "Cinq pilotes pénalisés sur la grille de départ du Grand Prix de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/cinq-pilotes-penalises-grille-depart-grand-prix-las-vegas/10875842/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T05:05:25+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:35:24.742136+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Cinq pilotes pénalisés sur la grille de départ du Grand Prix de Las Vegas",
+      "summaryFr": "Kimi Antonelli, nouveau champion du monde, sera pénalisé de cinq places sur la grille de départ du Grand Prix de Las Vegas en raison d'un changement de groupe propulseur. Cette pénalité s'applique uniquement au remplacement de son moteur à combustion interne.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:36:04.571135+00:00"
+    },
+    {
+      "id": "d38b35233e3f9e42ba39",
+      "title": "Cadillac repousse le moteur GM d'un an et attendra le V8",
+      "url": "https://fr.motorsport.com/f1/news/cadillac-repousse-moteur-gm-attendra-v8/10875808/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T04:07:17+00:00",
+      "topics": [
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:36:04.571167+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "1236d5b9511357b59acc",
+      "title": "EL1 - La pluie noie les premiers essais libres du Grand Prix de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/el1-pluie-noie-premiers-essais-libres-las-vegas/10875780/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T01:47:07+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:36:31.758817+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La pluie perturbe les essais libres au Brésil",
+      "summaryFr": "Les essais libres au Brésil sont affectés par la pluie. Le pilote Liam Lawson souligne les difficultés des pneus pluie Pirelli à monter en température sur un circuit humide. Le paddock exprime un sentiment général d'inquiétude.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:37:16.141661+00:00"
+    },
+    {
+      "id": "82f28944fb859862b70d",
+      "title": "Nike nouveau partenaire de la Formule 1",
+      "url": "https://fr.motorsport.com/f1/news/nike-rejoint-la-f1-comme-partenaire-officiel/10875767/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-20T00:55:35+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:37:16.141720+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Nike devient partenaire officiel de la Formule 1 à partir de 2027",
+      "summaryFr": "Nike rejoint la Formule 1 comme partenaire officiel à partir du début de la saison 2027, en remplaçant Puma. Le groupe fournira des vêtements et des chaussures au personnel de la F1. Ce partenariat reste une annonce officielle, sans précision sur les détails techniques.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:37:57.326297+00:00"
+    },
+    {
+      "id": "084617b9e2ae491b7d4e",
+      "title": "F1 to introduce full-time race stewards from 2027",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-19T21:39:22+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:37:57.326329+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "F1 instaurera des stewards permanents à partir de 2027",
+      "summaryFr": "La FIA annoncerait l'introduction de stewards permanents pour les courses de Formule 1 à partir de la saison 2027. Ce changement vise à renforcer la gestion des incidents sur le circuit.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:38:30.412455+00:00"
+    },
+    {
+      "id": "4c033bdc7dbfabb9323c",
+      "title": "La FIA instaurera des commissaires permanents en F1 à partir de 2027",
+      "url": "https://fr.motorsport.com/f1/news/fia-instaurera-commissaires-permanents-f1-2027/10875718/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-19T21:06:51+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
+      "summaryAttemptAt": "2026-11-20T07:38:30.412484+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La FIA proposerait des commissaires permanents en F1 à partir de 2027",
+      "summaryFr": "La FIA envisagerait d'instaurer un panel de commissaires permanents en Formule 1 à partir de 2027 pour améliorer la cohérence des décisions. Cette mesure serait une réponse à des discussions récurrentes dans le paddock sur la stabilité des jugements. Le sujet reste encore une proposition, sans validation définitive.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-20T07:39:12.663992+00:00"
+    },
     {
       "id": "39704783b934d521bf9a",
       "title": "Ce que la prolongation de Valtteri Bottas dit de l'avenir de Cadillac en F1",
@@ -50,7 +270,7 @@
       "topics": [
         "pilotes",
         "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
       "summaryAttemptAt": "2026-11-19T20:51:38.649448+00:00",
@@ -111,9 +331,7 @@
       "language": "fr",
       "publishedAt": "2026-11-19T10:36:37+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
       "summaryAttemptAt": "2026-11-19T20:53:36.729656+00:00",
@@ -133,9 +351,7 @@
       "language": "fr",
       "publishedAt": "2026-11-19T09:28:35+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
       "summaryAttemptAt": "2026-11-19T20:54:18.516282+00:00",
@@ -155,7 +371,7 @@
       "language": "fr",
       "publishedAt": "2026-11-19T09:04:04+00:00",
       "topics": [
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
       "summaryAttemptAt": "2026-11-19T20:54:57.203841+00:00",
@@ -175,8 +391,7 @@
       "language": "fr",
       "publishedAt": "2026-11-19T08:14:26+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
       "summaryAttemptAt": "2026-11-19T20:55:38.805260+00:00",
@@ -197,8 +412,7 @@
       "publishedAt": "2026-11-19T08:01:18+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-19T20:50:53.979626+00:00",
       "summaryAttemptAt": "2026-11-19T20:56:18.666093+00:00",
@@ -353,21 +567,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-18T20:45:54.935103+00:00"
-    },
-    {
-      "id": "b7d3a7f250b31e946ca2",
-      "title": "How to follow Las Vegas Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-18T11:35:12+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
-      "summaryAttemptAt": "2026-11-16T22:26:39.707538+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "invalid_length"
     },
     {
       "id": "e596bc8d81ec1d199064",
@@ -4553,8 +4752,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.275578+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-20T07:39:12.664019+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -4568,8 +4767,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-29T13:23:50.833289+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.332830+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-20T07:39:12.693668+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -12973,8 +13172,8 @@
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 9,
     "failed": 3,
-    "pending": 88,
-    "checkedAt": "2026-11-19T20:57:26.068392+00:00"
+    "pending": 89,
+    "checkedAt": "2026-11-20T07:39:12.724349+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
