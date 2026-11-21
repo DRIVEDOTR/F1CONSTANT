@@ -1,24 +1,236 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-20T20:35:45.440466+00:00",
+  "collectedAt": "2026-11-21T07:28:12.228658+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-20T20:35:45.440466+00:00"
+      "checkedAt": "2026-11-21T07:28:12.228658+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 50,
-      "checkedAt": "2026-11-20T20:35:45.440466+00:00"
+      "count": 48,
+      "checkedAt": "2026-11-21T07:28:12.228658+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e2449c1dc782c87d7ff1",
+      "title": "Aucune Ferrari en Q3 à Las Vegas : Hamilton explique son élimination",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-explique-elimination-ferrari-q2-las-vegas/10876343/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T07:07:25+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:28:12.896396+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Aucune Ferrari en Q3 à Las Vegas : Hamilton explique son élimination",
+      "summaryFr": "Lewis Hamilton a indiqué que les difficultés liées au déploiement d'énergie et aux dégâts sur le fond plat ont conduit à l'élimination de Ferrari en Q2. Le septuple champion du monde a souligné des problèmes de grip, notamment aux freins avec les pneus avant.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:28:51.631123+00:00"
+    },
+    {
+      "id": "ef68d87046b62a790c98",
+      "title": "Russell s'en prend à Verstappen après l'incident des EL3",
+      "url": "https://fr.motorsport.com/f1/news/russell-critique-verstappen-incident-el3-las-vegas/10876329/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T06:50:39+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:28:51.631148+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell accuse Verstappen après l'accrochage des EL3 à Las Vegas",
+      "summaryFr": "George Russell a critiqué Max Verstappen après un accrochage survenu lors des Essais Libres 3 à Las Vegas. Le Néerlandais a tenté de fermer la porte à Russell à l'approche du virage 14, sans succès. Russell a réussi à reprendre l'avantage.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:29:30.740946+00:00"
+    },
+    {
+      "id": "b7d3a7f250b31e946ca2",
+      "title": "How to follow Las Vegas Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-21T06:48:42+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
+      "summaryAttemptAt": "2026-11-16T22:26:39.707538+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "4cdaec96044054c648ee",
+      "title": "Wolff estime que Russell était dans une \"position parfaite\" pour décrocher la pole",
+      "url": "https://fr.motorsport.com/f1/news/wolff-estime-russell-position-parfaite-pole-position-las-vegas/10876286/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T06:09:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:29:30.740971+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Wolff : Russell en « position parfaite » pour la pole au GP de Las Vegas",
+      "summaryFr": "Toto Wolff affirme que George Russell était en position parfaite pour décrocher la pole position au Grand Prix de Las Vegas. Cependant, Max Verstappen s'élancera en première position, malgré l'absence de meilleur temps pour les deux pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:30:08.145605+00:00"
+    },
+    {
+      "id": "fb1539461c7c0d37b69a",
+      "title": "Antonelli fastest but penalty leaves Verstappen on pole",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-21T05:54:10+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:30:08.145630+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli le plus rapide mais pénalité pour Verstappen au départ",
+      "summaryFr": "Kimi Antonelli est le plus rapide en qualification du Grand Prix de Las Vegas, mais une pénalité sur le grid lui retire la pole position. Max Verstappen part donc en tête du classement.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:30:39.963175+00:00"
+    },
+    {
+      "id": "4b1da9fc3ba56d2a8271",
+      "title": "Qualifications F1 2026 : les face-à-face entre équipiers - GP de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/face-a-face-qualifications-2026-gp-las-vegas/10876248/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T05:42:28+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:30:39.963200+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Qualifications F1 2026 : les face-à-face entre équipiers au GP de Las Vegas",
+      "summaryFr": "Après chaque séance de qualifications, Motorsport.com publie le bilan interne entre les deux pilotes d'une écurie. Ces données s'appuient uniquement sur les temps réalisés, sans tenir compte des pénalités sur la grille. Une absence de temps représentatif peut être attribuée à un problème technique.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:31:18.391564+00:00"
+    },
+    {
+      "id": "9e83c838984e35e2a487",
+      "title": "La grille de départ du Grand Prix de Las Vegas F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grille-depart-grand-prix-las-vegas-2026/10876229/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T05:25:02+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:31:18.391588+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Grille de départ du Grand Prix de Las Vegas 2026",
+      "summaryFr": "George Russell part en première position, suivi de Max Verstappen. Isack Hadjar occupe la quatrième place. Le duo de pilotes de Red Bull est en place sur la grille.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:31:49.448956+00:00"
+    },
+    {
+      "id": "b4931b1455380e3cc98c",
+      "title": "Antonelli brille mais Verstappen partira en pole position à Las Vegas !",
+      "url": "https://fr.motorsport.com/f1/news/antonelli-brille-mais-verstappen-signe-pole-position-las-vegas/10876241/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T05:17:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:31:49.448979+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen en pole position à Las Vegas malgré Antonelli",
+      "summaryFr": "Max Verstappen s'élance en pole position à Las Vegas, devant Kimi Antonelli, mais sera pénalisé de cinq places en raison d'une mise en place de groupe propulseur. Le duo de pilotes de Red Bull ne figure pas dans la Q3.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:32:26.118221+00:00"
+    },
+    {
+      "id": "9f18c4f52b6bee671554",
+      "title": "EL3 - Russell dominateur malgré un contact avec Verstappen",
+      "url": "https://fr.motorsport.com/f1/news/el3-gp-las-vegas-russell-dominateur-contact-verstappen/10876186/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T01:42:10+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:32:26.118249+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell dominateur en essais libres à Las Vegas malgré contact avec Verstappen",
+      "summaryFr": "George Russell a dominé les essais libres de jeudi à Las Vegas, malgré un contact avec Max Verstappen. La séance, marquée par des conditions météorologiques stables après des perturbations dues à la pluie, a permis de valider les performances des groupes propulseurs. Le duo de pilotes a été confronté à un moment de tension sur le Strip.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:33:06.955402+00:00"
+    },
+    {
+      "id": "f342e9cc176e9c479a82",
+      "title": "Drivers limited to 27 laps for tyres in Qatar",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwg7l0l313rno",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-21T01:16:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
+      "summaryAttemptAt": "2026-11-21T07:33:06.955423+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les pilotes limités à 27 tours sur un ensemble de pneus au Grand Prix de Qatar",
+      "summaryFr": "Les pilotes seront limités à 27 tours sur un ensemble de pneus lors du Grand Prix de Qatar. Cette mesure vise à réduire l'usure des pneus. Aucune information sur les conséquences ou les raisons n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T07:33:40.385450+00:00"
+    },
     {
       "id": "33f055ff4d2293d02308",
       "title": "F1 bosses agree V8 engines deal from 2030",
@@ -27,8 +239,7 @@
       "language": "en",
       "publishedAt": "2026-11-20T19:17:40+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-20T07:32:55.033285+00:00",
       "summaryAttemptAt": "2026-11-20T20:35:46.276559+00:00",
@@ -48,8 +259,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T18:57:11+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
       "summaryAttemptAt": "2026-11-20T20:36:26.154523+00:00",
@@ -70,7 +280,7 @@
       "publishedAt": "2026-11-20T13:21:22+00:00",
       "topics": [
         "pilotes",
-        "ecuries"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
       "summaryAttemptAt": "2026-11-20T20:37:05.530334+00:00",
@@ -91,8 +301,7 @@
       "publishedAt": "2026-11-20T12:45:22+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
       "summaryAttemptAt": "2026-11-20T20:37:45.256212+00:00",
@@ -112,9 +321,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T10:33:31+00:00",
       "topics": [
-        "pilotes",
-        "competition",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
       "summaryAttemptAt": "2026-11-20T20:38:28.380645+00:00",
@@ -134,9 +341,7 @@
       "language": "fr",
       "publishedAt": "2026-11-20T08:45:49+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
       "summaryAttemptAt": "2026-11-20T20:39:07.925959+00:00",
@@ -156,8 +361,6 @@
       "language": "fr",
       "publishedAt": "2026-11-20T08:23:04+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-20T20:35:45.440466+00:00",
@@ -211,21 +414,6 @@
       "summaryAt": "2026-11-20T07:34:44.065573+00:00"
     },
     {
-      "id": "b7d3a7f250b31e946ca2",
-      "title": "How to follow Las Vegas Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx4gnlr603mqo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-20T05:39:43+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
-      "summaryAttemptAt": "2026-11-16T22:26:39.707538+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "invalid_length"
-    },
-    {
       "id": "0b3bd8dd77e548302017",
       "title": "EL2 - Russell devance Gasly sur piste humide à Las Vegas",
       "url": "https://fr.motorsport.com/f1/news/el2-gp-las-vegas-russell-devance-gasly-piste-humide/10875851/",
@@ -264,6 +452,24 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-20T07:36:04.571135+00:00"
+    },
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-20T04:09:21+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
     },
     {
       "id": "d38b35233e3f9e42ba39",
@@ -1230,24 +1436,6 @@
       "summaryAt": "2026-11-13T19:57:24.328397+00:00"
     },
     {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-13T11:30:39+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
-    },
-    {
       "id": "8e828d6780337c53cb97",
       "title": "Kimi Antonelli comme vous ne le connaissez pas : dans les coulisses du garage Mercedes",
       "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-coulisses-garage-mercedes/10874202/",
@@ -2192,9 +2380,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.669990+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-21T07:33:40.456516+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "dfb73b3f26e11d52339c",
@@ -2227,8 +2415,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-15T06:53:05.053465+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-21T07:33:40.514281+00:00",
+      "summaryAttempts": 4,
       "summaryError": "unsupported_number"
     },
     {
@@ -3415,8 +3603,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-15T06:52:19.633016+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-21T07:33:40.385473+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -13292,10 +13480,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 7,
-    "failed": 5,
+    "created": 9,
+    "failed": 3,
     "pending": 89,
-    "checkedAt": "2026-11-20T20:40:25.816967+00:00"
+    "checkedAt": "2026-11-21T07:34:14.953129+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
