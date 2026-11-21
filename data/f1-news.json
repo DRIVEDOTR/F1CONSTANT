@@ -1,24 +1,172 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-21T07:28:12.228658+00:00",
+  "collectedAt": "2026-11-21T19:33:43.166567+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-21T07:28:12.228658+00:00"
+      "checkedAt": "2026-11-21T19:33:43.166567+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 48,
-      "checkedAt": "2026-11-21T07:28:12.228658+00:00"
+      "count": 49,
+      "checkedAt": "2026-11-21T19:33:43.166567+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "20db75da7b8e82e1ee7a",
+      "title": "Hadjar: \"Nous sommes passés pour des idiots\"",
+      "url": "https://fr.motorsport.com/f1/news/isack-hadjar-nous-sommes-passes-idiots/10876600/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T17:49:05+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:33:43.630164+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "f733ba8652ab11c82054",
+      "title": "Verstappen avance une explication au manque de vitesse de pointe de Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-avance-explication-manque-vitesse-pointe-ferrari/10876509/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T14:18:48+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:34:33.003802+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen évoque un problème sur la RB22 après une deuxième place en qualifications à Las Vegas",
+      "summaryFr": "Max Verstappen exprime son insatisfaction face à sa deuxième place en qualifications au Grand Prix de Las Vegas, pointant un problème sur la RB22. Ferrari, pour la première fois depuis Imola 2025, a vu ses deux voitures éliminées en Q2.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T19:35:19.676312+00:00"
+    },
+    {
+      "id": "f2e9c685d7df37cba6f4",
+      "title": "Antonelli et Russell vont discuter des problèmes rencontrés par Mercedes en qualifications",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-george-russell-vont-discuter-problemes-rencontres-mercedes-qualifications/10876481/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T11:55:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:35:19.676337+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell et Antonelli discutent des difficultés de Mercedes en qualifications",
+      "summaryFr": "George Russell et Kimi Antonelli vont échanger en privé sur les problèmes rencontrés lors des qualifications du Grand Prix de Las Vegas. La confusion autour des consignes d'équipe et le trafic ont influencé le positionnement des pilotes en piste.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T19:36:04.734729+00:00"
+    },
+    {
+      "id": "925a647b3a3b823ab1ec",
+      "title": "Alonso : Honda manque tellement de puissance que ses rivaux prennent leurs distances derrière nous",
+      "url": "https://fr.motorsport.com/f1/news/fernando-alonso-honda-manque-puissance-rivaux-prennent-distances-derriere/10876442/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T10:40:13+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:36:04.734753+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "885ef88e1e1087a6be76",
+      "title": "Norris frustré par la vitesse de pointe \"catastrophique\" de McLaren à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/norris-frustre-vitesse-de-pointe-catastrophique-mclaren-las-vegas/10876384/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T08:36:17+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:36:56.026979+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "e38f63848190a7a04fc7",
+      "title": "'Somebody has to stand up to that guy' - Verstappen-Russell rivalry blows up again",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-21T08:13:58+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:37:42.870090+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell et Verstappen en duel au départ à Las Vegas",
+      "summaryFr": "Le conflit entre George Russell et Max Verstappen revient en plein Grand Prix de Las Vegas, alors que les deux pilotes partent en tête de grid. Le duo de pilotes s'affronte à nouveau sur la piste, dans un contexte de tension persistante.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T19:38:23.141235+00:00"
+    },
+    {
+      "id": "cf26beb48f26e4afa41c",
+      "title": "\"Une seconde perdue en ligne droite\" : Leclerc déplore le déficit \"dingue\" de Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-deplore-deficit-dingue-ferrari-ligne-droite-/10876375/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T07:53:32+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:38:23.141259+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "218fc0cadfa34c26466f",
+      "title": "Verstappen répond sèchement à Russell après leur accrochage à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-veut-pas-perdre-temps-critiques-russell/10876359/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-21T07:27:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
+      "summaryAttemptAt": "2026-11-21T19:39:09.514403+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen répond sèchement à Russell après leur accrochage à Las Vegas",
+      "summaryFr": "Lors des essais libres à Las Vegas, Max Verstappen a dépassé George Russell avant de ralentir et de changer de trajectoire selon les commissaires. Le pilote Mercedes a tenté de passer à l'intérieur du quadruple champion du monde.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-21T19:39:54.999224+00:00"
+    },
     {
       "id": "e2449c1dc782c87d7ff1",
       "title": "Aucune Ferrari en Q3 à Las Vegas : Hamilton explique son élimination",
@@ -27,9 +175,8 @@
       "language": "fr",
       "publishedAt": "2026-11-21T07:07:25+00:00",
       "topics": [
-        "ecuries",
         "pilotes",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:28:12.896396+00:00",
@@ -49,9 +196,7 @@
       "language": "fr",
       "publishedAt": "2026-11-21T06:50:39+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:28:51.631148+00:00",
@@ -86,9 +231,7 @@
       "language": "fr",
       "publishedAt": "2026-11-21T06:09:15+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:29:30.740971+00:00",
@@ -108,9 +251,7 @@
       "language": "en",
       "publishedAt": "2026-11-21T05:54:10+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:30:08.145630+00:00",
@@ -130,8 +271,7 @@
       "language": "fr",
       "publishedAt": "2026-11-21T05:42:28+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "competition"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:30:39.963200+00:00",
@@ -151,8 +291,6 @@
       "language": "fr",
       "publishedAt": "2026-11-21T05:25:02+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
@@ -173,9 +311,7 @@
       "language": "fr",
       "publishedAt": "2026-11-21T05:17:54+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:31:49.448979+00:00",
@@ -195,9 +331,7 @@
       "language": "fr",
       "publishedAt": "2026-11-21T01:42:10+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:32:26.118249+00:00",
@@ -218,8 +352,7 @@
       "publishedAt": "2026-11-21T01:16:54+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-21T07:28:12.228658+00:00",
       "summaryAttemptAt": "2026-11-21T07:33:06.955423+00:00",
@@ -1634,9 +1767,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-12T07:27:40.901447+00:00",
-      "summaryAttemptAt": "2026-11-15T06:53:46.957437+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-11-21T19:39:54.999249+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "aa89501b58c2495a0f3b",
@@ -2490,8 +2623,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-15T19:00:58.670179+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-21T19:39:55.060380+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3377,8 +3510,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-04T06:45:00.593523+00:00",
-      "summaryAttemptAt": "2026-11-15T19:00:58.732624+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-21T19:39:55.101859+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -5231,8 +5364,8 @@
         "voitures"
       ],
       "firstSeenAt": "2026-10-28T13:16:29.017748+00:00",
-      "summaryAttemptAt": "2026-11-15T19:00:58.756665+00:00",
-      "summaryAttempts": 7,
+      "summaryAttemptAt": "2026-11-21T19:39:55.121227+00:00",
+      "summaryAttempts": 8,
       "summaryError": "source_unavailable"
     },
     {
@@ -13480,10 +13613,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 9,
-    "failed": 3,
-    "pending": 89,
-    "checkedAt": "2026-11-21T07:34:14.953129+00:00"
+    "created": 4,
+    "failed": 8,
+    "pending": 93,
+    "checkedAt": "2026-11-21T19:39:55.138723+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
