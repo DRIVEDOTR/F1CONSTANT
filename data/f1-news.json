@@ -1,24 +1,124 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-21T19:33:43.166567+00:00",
+  "collectedAt": "2026-11-22T07:09:56.059368+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-21T19:33:43.166567+00:00"
+      "checkedAt": "2026-11-22T07:09:56.059368+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-11-21T19:33:43.166567+00:00"
+      "count": 48,
+      "checkedAt": "2026-11-22T07:09:56.059368+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "46cea35a3e3117fe008e",
+      "title": "Russell explique son crash alors qu'il tentait le tout pour le tout à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-explique-crash-tentative-gagner-las-vegas/10876727/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T06:44:10+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
+      "summaryAttemptAt": "2026-11-22T07:09:56.840607+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell reconnaît avoir tenté une manœuvre à haut risque à Las Vegas",
+      "summaryFr": "George Russell admet avoir effectué une manœuvre à haut risque lors de son dernier tour au Grand Prix de Las Vegas, dans son effort de décrocher la victoire. Le duel entre Russell et Verstappen a été marqué par des échanges fréquents de tête de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T07:10:35.555038+00:00"
+    },
+    {
+      "id": "c8b48ed8754b13b4489d",
+      "title": "Verstappen wins extraordinary race as Ferraris collide",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqx2ex25pvn9o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T06:27:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
+      "summaryAttemptAt": "2026-11-22T07:10:35.555064+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte une course extraordinaire à Las Vegas",
+      "summaryFr": "Max Verstappen remporte l'essai de Las Vegas après une course sans relâche où les pilotes se sont battus pour le leadership. Aucune collision n'a été signalée entre les Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T07:11:06.951404+00:00"
+    },
+    {
+      "id": "b4ca907d7c789b31c299",
+      "title": "5 choses à retenir du Grand Prix de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/cinq-choses-a-retenir-du-grand-prix-de-las-vegas-2026/10876696/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T06:02:55+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
+      "summaryAttemptAt": "2026-11-22T07:11:06.951431+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La F1 en plein spectacle à Las Vegas",
+      "summaryFr": "Le Grand Prix de Las Vegas a offert une course en yo-yo marquée par des variations d'écarts. L'événement a été salué pour son spectacle artificiel, malgré un manque d'énergie électrique. La course en peloton a marqué le retour d'un format ancien de la saison 2026.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T07:11:44.099903+00:00"
+    },
+    {
+      "id": "2bc1ccfae1579cdfb19e",
+      "title": "Tous les résultats et classements du Grand Prix de Las Vegas F1 2026",
+      "url": "https://fr.motorsport.com/f1/news/grand-prix-las-vegas-2026-resultats-classement/10876690/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T05:49:35+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
+      "summaryAttemptAt": "2026-11-22T07:11:44.099930+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "source_unavailable"
+    },
+    {
+      "id": "0d18158416ae6f4287bb",
+      "title": "Verstappen remporte un Grand Prix de Las Vegas au suspense total !",
+      "url": "https://fr.motorsport.com/f1/news/grand-prix-las-vegas-verstappen-vainqueur-suspense-total/10876685/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T05:40:19+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
+      "summaryAttemptAt": "2026-11-22T07:11:44.200700+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte un Grand Prix de Las Vegas au suspense total !",
+      "summaryFr": "Kimi Antonelli a été sanctionné de cinq places en qualifications pour dépassement de seuil de puissance, ce qui a permis à Max Verstappen d'obtenir la pole position. Le top 5 reste inchangé avec Lando Norris, Isack Hadjar et Arvid Lindblad, malgré une absence de précision mentionnée pour Hadjar.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T07:12:23.758762+00:00"
+    },
     {
       "id": "20db75da7b8e82e1ee7a",
       "title": "Hadjar: \"Nous sommes passés pour des idiots\"",
@@ -43,8 +143,7 @@
       "publishedAt": "2026-11-21T14:18:48+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "voitures"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
       "summaryAttemptAt": "2026-11-21T19:34:33.003802+00:00",
@@ -65,8 +164,7 @@
       "publishedAt": "2026-11-21T11:55:26+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
       "summaryAttemptAt": "2026-11-21T19:35:19.676337+00:00",
@@ -117,8 +215,7 @@
       "language": "en",
       "publishedAt": "2026-11-21T08:13:58+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
       "summaryAttemptAt": "2026-11-21T19:37:42.870090+00:00",
@@ -154,8 +251,7 @@
       "language": "fr",
       "publishedAt": "2026-11-21T07:27:13+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
       "summaryAttemptAt": "2026-11-21T19:39:09.514403+00:00",
@@ -7465,8 +7561,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-13T14:25:50.947353+00:00",
-      "summaryAttemptAt": "2026-11-15T19:02:37.563238+00:00",
-      "summaryAttempts": 15,
+      "summaryAttemptAt": "2026-11-22T07:13:45.600527+00:00",
+      "summaryAttempts": 16,
       "summaryError": "source_unavailable"
     },
     {
@@ -8435,8 +8531,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-08T23:28:33.585133+00:00",
-      "summaryAttemptAt": "2026-11-15T19:02:08.870323+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-11-22T07:13:22.228655+00:00",
+      "summaryAttempts": 18,
       "summaryError": "invalid_length"
     },
     {
@@ -10974,8 +11070,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-24T18:37:29.896120+00:00",
-      "summaryAttemptAt": "2026-11-15T19:00:58.797424+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-22T07:12:23.758786+00:00",
+      "summaryAttempts": 23,
       "summaryError": "unsupported_number"
     },
     {
@@ -11110,8 +11206,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-15T19:01:40.732650+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-22T07:12:58.771847+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -11185,8 +11281,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-23T18:37:25.131118+00:00",
-      "summaryAttemptAt": "2026-11-15T19:01:40.805406+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-22T07:12:58.853153+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -11484,8 +11580,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-22T12:39:18.482909+00:00",
-      "summaryAttemptAt": "2026-11-15T19:01:40.875022+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-22T07:12:58.915704+00:00",
+      "summaryAttempts": 23,
       "summaryError": "invalid_length"
     },
     {
@@ -11519,8 +11615,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-15T19:02:08.785014+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-22T07:13:22.131030+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -13615,8 +13711,8 @@
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
     "created": 4,
     "failed": 8,
-    "pending": 93,
-    "checkedAt": "2026-11-21T19:39:55.138723+00:00"
+    "pending": 94,
+    "checkedAt": "2026-11-22T07:13:45.671187+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
