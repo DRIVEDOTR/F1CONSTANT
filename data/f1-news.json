@@ -1,44 +1,206 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-22T07:09:56.059368+00:00",
+  "collectedAt": "2026-11-22T19:52:49.456541+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-22T07:09:56.059368+00:00"
+      "checkedAt": "2026-11-22T19:52:49.456541+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 48,
-      "checkedAt": "2026-11-22T07:09:56.059368+00:00"
+      "count": 49,
+      "checkedAt": "2026-11-22T19:52:49.456541+00:00"
     }
   ],
   "articles": [
     {
-      "id": "46cea35a3e3117fe008e",
-      "title": "Russell explique son crash alors qu'il tentait le tout pour le tout à Las Vegas",
-      "url": "https://fr.motorsport.com/f1/news/george-russell-explique-crash-tentative-gagner-las-vegas/10876727/",
+      "id": "e5121ffd4822686d2c21",
+      "title": "Haas maintient Rafael Câmara en F1, mettant fin à ses espoirs de titre en F2",
+      "url": "https://fr.motorsport.com/f1/news/haas-maintien-rafael-camara-f1-mettant-fin-espoirs-f2/10877051/",
       "source": "Motorsport.com France",
       "language": "fr",
-      "publishedAt": "2026-11-22T06:44:10+00:00",
+      "publishedAt": "2026-11-22T18:41:54+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:52:50.047807+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Haas conserve Rafael Câmara pour 2027, fin de ses espoirs de titre en F2",
+      "summaryFr": "Rafael Câmara termine la saison avec Haas, au Qatar et à Abu Dhabi, mettant ainsi fin à ses ambitions de titre en F2. Il a été promu remplaçant de Esteban Ocon pour 2027, plus rapidement que prévu suite à une dégradation des relations entre Ocon et l'écurie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:53:37.949730+00:00"
+    },
+    {
+      "id": "f0ace46bf807d47813dd",
+      "title": "'Russell is living rent free in Verstappen's head!'",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cr2klvl8zz8jo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T18:05:40+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:53:37.949754+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell vit gratuitement dans la tête de Verstappen",
+      "summaryFr": "Un clash s'intensifie entre George Russell et Max Verstappen, tant sur le circuit que hors des pistes. Les deux pilotes font l'objet d'un débat sur la rivalité croissante entre eux. Aucune décision officielle n'a été prise concernant les futures courses.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:54:17.328891+00:00"
+    },
+    {
+      "id": "2bf445305c10f17c391e",
+      "title": "'No-one believes they have cleared the air' - Ferrari duo collide again",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/c9772n2kg5d1o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T18:02:42+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:54:17.328913+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Aucun ne croit que Hamilton et Leclerc aient clarifié leurs tensions",
+      "summaryFr": "Les invités du podcast Chequered Flag estiment que les pilotes de Ferrari, Lewis Hamilton et Charles Leclerc, n'ont pas véritablement clarifié leurs tensions après un nouveau contact. Aucun des deux ne semble avoir résolu leur situation. Le duo de pilotes reste en conflit.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:54:58.583430+00:00"
+    },
+    {
+      "id": "56650f6a9474b7ff6d48",
+      "title": "L'aspect de la course où Verstappen a \"pris de vitesse\" Mercedes et laissé Red Bull sans voix",
+      "url": "https://fr.motorsport.com/f1/news/aspect-course-verstappen-pris-de-vitesse-mercedes-laisse-sans-voix-red-bull/10876991/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T15:22:39+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:54:58.583453+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen remporte sa quatrième victoire en six Grands Prix à Las Vegas",
+      "summaryFr": "Max Verstappen remporte sa quatrième victoire en six Grands Prix sur un circuit énergétiquement peu exigeant. Red Bull Ford Powertrains continue d'encourager des difficultés sur ce type de tracé en début d'année.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:55:44.363873+00:00"
+    },
+    {
+      "id": "7e1a6e1e4c38949dfed1",
+      "title": "How to follow Qatar Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjzx912pyekdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T11:57:12+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:55:44.363895+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "ca44f242494e69e58f70",
+      "title": "Hamilton : \"L'état d'esprit de Charles Leclerc nous a coûté beaucoup de points aujourd'hui\"",
+      "url": "https://fr.motorsport.com/f1/news/lewis-hamilton-charles-leclercs-etat-esprit-coute-beaucoup-points/10876914/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T11:46:10+00:00",
       "topics": [
         "pilotes",
         "competition"
       ],
-      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
-      "summaryAttemptAt": "2026-11-22T07:09:56.840607+00:00",
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:56:13.088101+00:00",
       "summaryAttempts": 1,
-      "titleFr": "Russell reconnaît avoir tenté une manœuvre à haut risque à Las Vegas",
-      "summaryFr": "George Russell admet avoir effectué une manœuvre à haut risque lors de son dernier tour au Grand Prix de Las Vegas, dans son effort de décrocher la victoire. Le duel entre Russell et Verstappen a été marqué par des échanges fréquents de tête de course.",
+      "titleFr": "Hamilton accuse Leclerc d'avoir coûté des points à cause de son état d'esprit",
+      "summaryFr": "Lewis Hamilton a suggéré que l'état d'esprit de Charles Leclerc avait provoqué un accrochage lors du Grand Prix de Las Vegas. Les deux pilotes se trouvaient à sixième et septième place au 37e tour, à deux secondes de Max Verstappen, lorsque Leclerc a tenté une manœuvre d'entrée.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-11-22T07:10:35.555038+00:00"
+      "summaryAt": "2026-11-22T19:57:01.600152+00:00"
+    },
+    {
+      "id": "997f9c8239a13257a9de",
+      "title": "Verstappen a constant amid chaos as he says Russell is 'so far below my level'",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T11:07:32+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:57:01.600175+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen en tête malgré le chaos à Las Vegas",
+      "summaryFr": "Max Verstappen a dominé le Grand Prix de Las Vegas, malgré un spectacle chaotique. Il a affirmé que George Russell était 'très en dessous de mon niveau'.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:57:38.894843+00:00"
+    },
+    {
+      "id": "0fd0124d9e03534054e5",
+      "title": "Les tops et les flops d'un Grand Prix de Las Vegas complètement fou",
+      "url": "https://fr.motorsport.com/f1/news/tops-flops-grand-prix-las-vegas-2026/10876897/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T10:56:16+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:57:38.894871+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Un Grand Prix de Las Vegas marqué par des changements de leaders fréquents",
+      "summaryFr": "Le Grand Prix de Las Vegas a connu 35 changements de leader durant la course, avec des pilotes en quête de positionnement optimal pour franchir la ligne d'arrivée en tête. L'événement a ressemblé à une version urbaine des 500 Miles d'Indianapolis, marquée par une forte intensité et une grande fluidité des courses.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:58:24.893444+00:00"
+    },
+    {
+      "id": "1cf07475ca6ccf2806a3",
+      "title": "Verstappen dézingue la saison 2026 de Russell : \"Un désastre complet\"",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-dezingue-saison-2026-russell-desastre-complet/10876887/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T10:25:57+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:58:24.893467+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen accuse Russell d'erreur médiatique après les essais de Las Vegas",
+      "summaryFr": "Un différend entre Max Verstappen et George Russell émerge après les essais libres de Las Vegas. Le pilote Red Bull a déclaré que l'incident médiatique avait été dépassé, sans préciser les détails. Aucune information sur les performances ou les composants des voitures n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:59:10.695842+00:00"
     },
     {
       "id": "c8b48ed8754b13b4489d",
@@ -46,11 +208,10 @@
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqx2ex25pvn9o",
       "source": "BBC Sport",
       "language": "en",
-      "publishedAt": "2026-11-22T06:27:06+00:00",
+      "publishedAt": "2026-11-22T09:49:15+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
       "summaryAttemptAt": "2026-11-22T07:10:35.555064+00:00",
@@ -61,6 +222,138 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-22T07:11:06.951404+00:00"
+    },
+    {
+      "id": "e0bf44ac95cdf9bad302",
+      "title": "Verstappen's superb racecraft & Russell's costly mistake - driver ratings",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c83vg92x21vzo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T09:35:05+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:59:10.695862+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen et Russell : évaluation des performances au Grand Prix de Las Vegas",
+      "summaryFr": "Harry Benjamin, commentateur de BBC Radio 5 Live, évalue les performances des pilotes lors du Grand Prix de Las Vegas. Verstappen est salué pour son excellence en course, tandis qu'une erreur coûteuse à Russell est soulignée. Aucune information sur les équipes, les voitures ou la compétition n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T19:59:52.465499+00:00"
+    },
+    {
+      "id": "b7337c7652a51307c936",
+      "title": "Hadjar et Pérez pénalisés après le Grand Prix de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/hadjar-et-perez-penalises-grand-prix-las-vegas/10876871/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T09:25:18+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:59:52.465521+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar et Pérez pénalisés après le Grand Prix de Las Vegas",
+      "summaryFr": "Isack Hadjar reçoit une pénalité de 10 secondes pour avoir roulé trop lentement lors de l'intervention de la voiture de sécurité. Sergio Pérez est également pénalisé suite à un accrochage au 19e tour. Le groupe propulseur et les pneus n'ont pas été touchés par les incidents.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T20:00:38.563840+00:00"
+    },
+    {
+      "id": "3e8b12fb635fadfe409b",
+      "title": "Hamilton-Leclerc collision completely unacceptable, says Ferrari boss",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T09:07:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T20:00:38.563862+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Une collision entre Hamilton et Leclerc jugée inacceptable par le patron de Ferrari",
+      "summaryFr": "Les pilotes Lewis Hamilton et Charles Leclerc font l'objet d'un nouveau désaccord sur leur capacité à s'écarter sans collision lors d'un sprint à Las Vegas. Le patron de Ferrari qualifie l'incident de totalement inacceptable.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T20:01:17.425202+00:00"
+    },
+    {
+      "id": "5013e7baebd1c6edb660",
+      "title": "Vasseur exaspéré par \"l'escalade des tensions\" entre Hamilton et Leclerc chez Ferrari",
+      "url": "https://fr.motorsport.com/f1/news/vasseur-exaspere-escalade-tensions-hamilton-leclerc/10876854/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T08:53:01+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+    },
+    {
+      "id": "7fb315972ceb5aba45d0",
+      "title": "La revanche cinglante de Verstappen sur Russell : \"Il est très loin de mon niveau\"",
+      "url": "https://fr.motorsport.com/f1/news/revanche-cinglante-de-verstappen-sur-russell-karma-niveau-las-vegas/10876810/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T07:57:41+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+    },
+    {
+      "id": "39382b4d8ba333aa044d",
+      "title": "Leclerc reconnaît une situation \"inacceptable\" après un nouvel incident avec Hamilton",
+      "url": "https://fr.motorsport.com/f1/news/leclerc-reaction-accrochage-hamilton-las-vegas/10876792/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T07:48:15+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+    },
+    {
+      "id": "060ba72538d5579ebd52",
+      "title": "\"Mon erreur a été de lever le pied\" : l'étrange dernier tour d'Antonelli à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/kimi-antonelli-erreur-lever-pied-dernier-tour-las-vegas/10876776/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T07:23:26+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+    },
+    {
+      "id": "46cea35a3e3117fe008e",
+      "title": "Russell explique son crash alors qu'il tentait le tout pour le tout à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/george-russell-explique-crash-tentative-gagner-las-vegas/10876727/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T06:44:10+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
+      "summaryAttemptAt": "2026-11-22T07:09:56.840607+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Russell reconnaît avoir tenté une manœuvre à haut risque à Las Vegas",
+      "summaryFr": "George Russell admet avoir effectué une manœuvre à haut risque lors de son dernier tour au Grand Prix de Las Vegas, dans son effort de décrocher la victoire. Le duel entre Russell et Verstappen a été marqué par des échanges fréquents de tête de course.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-22T07:10:35.555038+00:00"
     },
     {
       "id": "b4ca907d7c789b31c299",
@@ -105,9 +398,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T05:40:19+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T07:09:56.059368+00:00",
       "summaryAttemptAt": "2026-11-22T07:11:44.200700+00:00",
@@ -13709,10 +14000,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 4,
-    "failed": 8,
-    "pending": 94,
-    "checkedAt": "2026-11-22T07:13:45.671187+00:00"
+    "created": 11,
+    "failed": 1,
+    "pending": 99,
+    "checkedAt": "2026-11-22T20:01:17.425438+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
