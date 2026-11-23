@@ -1,24 +1,88 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-22T19:52:49.456541+00:00",
+  "collectedAt": "2026-11-23T07:56:02.240091+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-22T19:52:49.456541+00:00"
+      "checkedAt": "2026-11-23T07:56:02.240091+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-22T19:52:49.456541+00:00"
+      "checkedAt": "2026-11-23T07:56:02.240091+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "f497fa5d4ace8ffcf3d1",
+      "title": "\"J'ai bien aimé\" : Stella défend le coup de gueule de Piastri à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/stella-defend-coup-de-gueule-piastri-las-vegas/10877100/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T07:26:39+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
+      "summaryAttemptAt": "2026-11-23T07:56:02.871456+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri défend son podium à Las Vegas malgré la pénalité",
+      "summaryFr": "Oscar Piastri termine troisième à Las Vegas, malgré une pénalité pour utilisation de composants moteurs au-delà du quota. Le pilote McLaren affirme avoir bien aimé son résultat, malgré la difficulté de la séance de qualifications. Le duo de pilotes de McLaren continue à courir avec une performance contrastée.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T07:56:49.406462+00:00"
+    },
+    {
+      "id": "dc359a0ae1f07a623978",
+      "title": "La F1 devrait réduire le nombre d'équipes clientes, alors que des détails clés sur 2030 émergent",
+      "url": "https://fr.motorsport.com/f1/news/f1-devrait-reduire-nombre-equipes-clientes-details-cles-2030-emergent/10877063/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-22T20:50:17+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
+      "summaryAttemptAt": "2026-11-23T07:56:49.406492+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "F1 devrait réduire à deux les équipes clientes par motoriste à partir de 2030",
+      "summaryFr": "La F1 prévoit de limiter à deux les équipes fournies par chaque motoriste à partir de 2030. Cela soulève des questions sur le statut des trois équipes clientes actuelles de Mercedes. La décision a été annoncée lors d'un événement à Las Vegas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T07:57:35.272629+00:00"
+    },
+    {
+      "id": "05149cea3a33b96376c6",
+      "title": "Camara to continue with Haas for final two races",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-22T19:51:49+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
+      "summaryAttemptAt": "2026-11-23T07:57:35.272659+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Camara poursuivra avec Haas pour les deux derniers Grands Prix",
+      "summaryFr": "Rafael Camara restera au sein de l'équipe Haas pour les deux derniers rendez-vous de la saison. Aucune information sur les performances ou les évolutions techniques n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T07:58:11.537645+00:00"
+    },
     {
       "id": "e5121ffd4822686d2c21",
       "title": "Haas maintient Rafael Câmara en F1, mettant fin à ses espoirs de titre en F2",
@@ -27,7 +91,6 @@
       "language": "fr",
       "publishedAt": "2026-11-22T18:41:54+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
@@ -68,7 +131,6 @@
       "language": "en",
       "publishedAt": "2026-11-22T18:02:42+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
@@ -90,8 +152,7 @@
       "publishedAt": "2026-11-22T15:22:39+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-22T19:54:58.583453+00:00",
@@ -126,8 +187,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T11:46:10+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-22T19:56:13.088101+00:00",
@@ -147,9 +207,7 @@
       "language": "en",
       "publishedAt": "2026-11-22T11:07:32+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-22T19:57:01.600175+00:00",
@@ -189,8 +247,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T10:25:57+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-22T19:58:24.893467+00:00",
@@ -251,9 +308,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T09:25:18+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-22T19:59:52.465521+00:00",
@@ -297,7 +352,15 @@
         "pilotes",
         "ecuries"
       ],
-      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-23T07:58:11.537674+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Vasseur condamne le contact entre Leclerc et Hamilton à Las Vegas",
+      "summaryFr": "Frédéric Vasseur, directeur de Ferrari, qualifie le contact entre Charles Leclerc et Lewis Hamilton à Las Vegas de \"manque de respect envers l'équipe\". Il annonce des réunions de crise, trois semaines après le précédent clash à Mexico.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T07:58:54.171275+00:00"
     },
     {
       "id": "7fb315972ceb5aba45d0",
@@ -307,9 +370,18 @@
       "language": "fr",
       "publishedAt": "2026-11-22T07:57:41+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "competition"
       ],
-      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-23T07:58:54.171303+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Verstappen rétablit son avantage après confrontation avec Russell",
+      "summaryFr": "Max Verstappen a remporté le Grand Prix de Las Vegas, après avoir répondu aux critiques de George Russell. L'incident survenu lors des EL3 a été répété, avec Verstappen ayant dépassé Russell en dérogeant à un accord tacite. Aucune information sur les performances aérodynamiques ou les réglages du groupe propulseur n'est fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T07:59:41.098423+00:00"
     },
     {
       "id": "39382b4d8ba333aa044d",
@@ -319,9 +391,18 @@
       "language": "fr",
       "publishedAt": "2026-11-22T07:48:15+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "ecuries"
       ],
-      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-23T07:59:41.098451+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Leclerc reconnaît une situation \"inacceptable\" après un accrochage avec Hamilton",
+      "summaryFr": "Charles Leclerc a reçu une pénalité de 10 secondes pour un accrochage évitable avec Lewis Hamilton lors du Grand Prix de Las Vegas. Le directeur d'équipe, Frédéric Vasseur, a exprimé ses remontrances, qui ont résonné chez Ferrari.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T08:00:25.594348+00:00"
     },
     {
       "id": "060ba72538d5579ebd52",
@@ -331,9 +412,18 @@
       "language": "fr",
       "publishedAt": "2026-11-22T07:23:26+00:00",
       "topics": [
-        "pilotes"
+        "pilotes",
+        "competition"
       ],
-      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00"
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-23T08:00:25.594376+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli : \"Mon erreur a été de lever le pied\"",
+      "summaryFr": "Kimi Antonelli a déclaré avoir commis une erreur lors du dernier tour du Grand Prix de Las Vegas, ce qui lui a coûté une chance de remporter la victoire. Il partait de la sixième position après une pénalité pour changement de groupe propulseur. Il était le seul pilote du top 10 à avoir choisi les pneus médiums.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-23T08:01:11.420855+00:00"
     },
     {
       "id": "46cea35a3e3117fe008e",
@@ -2008,8 +2098,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
-      "summaryAttemptAt": "2026-11-16T06:54:47.798228+00:00",
-      "summaryAttempts": 2,
+      "summaryAttemptAt": "2026-11-23T08:01:36.595815+00:00",
+      "summaryAttempts": 3,
       "summaryError": "unsupported_number"
     },
     {
@@ -2023,9 +2113,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
-      "summaryAttemptAt": "2026-11-16T06:55:22.249847+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-23T08:02:09.873497+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "4fb8856bb57c6597d208",
@@ -2099,9 +2189,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-12T20:11:20.982009+00:00",
-      "summaryAttemptAt": "2026-11-16T06:56:09.445830+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "unsupported_number"
+      "summaryAttemptAt": "2026-11-23T08:02:09.987900+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "0aa01238ce89a300c50d",
@@ -3975,8 +4065,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-16T06:54:18.598837+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-23T08:01:11.420891+00:00",
+      "summaryAttempts": 5,
       "summaryError": "invalid_length"
     },
     {
@@ -11921,8 +12011,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-16T06:56:56.103678+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-23T08:02:10.088421+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -14000,10 +14090,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 11,
-    "failed": 1,
-    "pending": 99,
-    "checkedAt": "2026-11-22T20:01:17.425438+00:00"
+    "created": 7,
+    "failed": 5,
+    "pending": 95,
+    "checkedAt": "2026-11-23T08:02:10.205825+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
