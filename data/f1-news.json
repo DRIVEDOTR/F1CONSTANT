@@ -1,24 +1,155 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-23T07:56:02.240091+00:00",
+  "collectedAt": "2026-11-24T00:07:27.407641+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-23T07:56:02.240091+00:00"
+      "checkedAt": "2026-11-24T00:07:27.407641+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-23T07:56:02.240091+00:00"
+      "checkedAt": "2026-11-24T00:07:27.407641+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "7428a9cc803023826a7c",
+      "title": "Max Verstappen envisage les 24 Heures de Daytona dès 2027",
+      "url": "https://fr.motorsport.com/f1/news/max-verstappen-envisage-24h-daytona-des-2027/10877165/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T17:54:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:07:27.931796+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Max Verstappen envisage une participation aux Rolex 24 en 2027",
+      "summaryFr": "Max Verstappen a visité Daytona pour des activités de contenu avec Red Bull. Cette visite soulève des rumeurs sur une possible participation aux Rolex 24 en 2027. Aucune décision officielle n'a été prise.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T00:08:13.630337+00:00"
+    },
+    {
+      "id": "6139e2644b42bc145fac",
+      "title": "Le programme du Grand Prix du Qatar F1 2026 : dates, horaires et infos",
+      "url": "https://fr.motorsport.com/f1/news/gp-qatar-2026-dates-horaires-infos-programme/10877189/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T16:00:03+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:08:13.630365+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Programme du Grand Prix du Qatar F1 2026 : dates, horaires et infos",
+      "summaryFr": "Le Grand Prix du Qatar, 22e manche de la saison, se déroule sur le circuit de Losail. En raison du décalage horaire de deux heures, les séances se déroulent en milieu ou en fin d'après-midi en heure locale. Le GP est présenté comme semi-nocturne.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T00:09:01.549002+00:00"
+    },
+    {
+      "id": "3cc45bff0d1247589579",
+      "title": "Hamilton sidéré par le manque de vitesse de pointe de Ferrari à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/hamilton-sidere-manque-vitesse-pointe-ferrari-las-vegas/10877234/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T14:18:30+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:09:01.549027+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "5c0c12dc17eed97176ec",
+      "title": "Verstappen fait confiance à la F1, mais préférerait rester chez lui",
+      "url": "https://fr.motorsport.com/f1/news/verstappen-confiance-securite-f1-qatar-abu-dhabi/10877205/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T12:59:37+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:09:55.267461+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "F1 engage sa saison 2026 au Moyen-Orient, sans précision sur les décisions en cas de dégradation",
+      "summaryFr": "La F1 affirme qu'elle poursuivra sa saison 2026 au Moyen-Orient après avoir confirmé qu'aucun plan B n'était nécessaire. Elle cite le week-end du MotoGP au Qatar comme exemple pour montrer que les deux derniers Grands Prix seront organisés, sans précision sur les conditions de dégradation.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T00:10:44.567893+00:00"
+    },
+    {
+      "id": "3f3fbe183bb704681305",
+      "title": "Ferrari ne croit pas à des règles écrites pour gérer Hamilton et Leclerc",
+      "url": "https://fr.motorsport.com/f1/news/ferrari-vasseur-croit-pas-regles-ecrites-gerer-hamilton-leclerc/10877160/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T12:21:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:10:44.567920+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "d6e67b385c1b95672917",
+      "title": "Colton Herta met fin prématurément à son calvaire en F2",
+      "url": "https://fr.motorsport.com/fia-f2/news/colton-herta-met-fin-prematurement-calvaire-f2/10877138/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T09:44:06+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:11:31.839188+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "ee9feb24ca9ab2ed0c59",
+      "title": "Pourquoi le contrat de Bearman chez Haas pour 2027 n'est toujours pas signé",
+      "url": "https://fr.motorsport.com/f1/news/pourquoi-contrat-bearman-haas-2027-toujours-pas-signe/10877121/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-23T09:06:19+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
+      "summaryAttemptAt": "2026-11-24T00:12:20.877572+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Le contrat de Bearman chez Haas pour 2027 reste non signé",
+      "summaryFr": "Oliver Bearman est le seul pilote du plateau de Haas sans contrat pour 2027. L'annonce de Rafael Câmara comme coéquipier en début d'année n'a pas été suivie d'un accord officiel. La situation reste floue et sans précision.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T00:13:06.432064+00:00"
+    },
     {
       "id": "f497fa5d4ace8ffcf3d1",
       "title": "\"J'ai bien aimé\" : Stella défend le coup de gueule de Piastri à Las Vegas",
@@ -27,9 +158,7 @@
       "language": "fr",
       "publishedAt": "2026-11-23T07:26:39+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
       "summaryAttemptAt": "2026-11-23T07:56:02.871456+00:00",
@@ -43,7 +172,7 @@
     },
     {
       "id": "dc359a0ae1f07a623978",
-      "title": "La F1 devrait réduire le nombre d'équipes clientes, alors que des détails clés sur 2030 émergent",
+      "title": "La F1 devrait réduire le nombre d'équipes clientes, alors que des détails sur 2030 émergent",
       "url": "https://fr.motorsport.com/f1/news/f1-devrait-reduire-nombre-equipes-clientes-details-cles-2030-emergent/10877063/",
       "source": "Motorsport.com France",
       "language": "fr",
@@ -53,14 +182,14 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
-      "summaryAttemptAt": "2026-11-23T07:56:49.406492+00:00",
+      "summaryAttemptAt": "2026-11-24T00:13:06.432095+00:00",
       "summaryAttempts": 1,
-      "titleFr": "F1 devrait réduire à deux les équipes clientes par motoriste à partir de 2030",
-      "summaryFr": "La F1 prévoit de limiter à deux les équipes fournies par chaque motoriste à partir de 2030. Cela soulève des questions sur le statut des trois équipes clientes actuelles de Mercedes. La décision a été annoncée lors d'un événement à Las Vegas.",
+      "titleFr": "F1 réduirait à deux les équipes clientes par motoriste à partir de 2030",
+      "summaryFr": "La F1 prévoit de limiter à deux les équipes fournies par chaque motoriste à partir de 2030, ce qui soulève des questions sur le statut des trois équipes clientes actuelles de Mercedes. L'annonce a été faite lors d'un meeting à Las Vegas, où la FIA a confirmé un soutien unanime pour avancer l'entrée en vigueur des nouvelles réglementations.",
       "summaryMethod": "automatic-local",
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
-      "summaryAt": "2026-11-23T07:57:35.272629+00:00"
+      "summaryAt": "2026-11-24T00:14:03.062506+00:00"
     },
     {
       "id": "05149cea3a33b96376c6",
@@ -70,7 +199,6 @@
       "language": "en",
       "publishedAt": "2026-11-22T19:51:49+00:00",
       "topics": [
-        "pilotes",
         "ecuries"
       ],
       "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
@@ -370,8 +498,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T07:57:41+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-23T07:58:54.171303+00:00",
@@ -391,8 +518,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T07:48:15+00:00",
       "topics": [
-        "pilotes",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-23T07:59:41.098451+00:00",
@@ -412,8 +538,7 @@
       "language": "fr",
       "publishedAt": "2026-11-22T07:23:26+00:00",
       "topics": [
-        "pilotes",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
       "summaryAttemptAt": "2026-11-23T08:00:25.594376+00:00",
@@ -2900,9 +3025,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-08T13:44:59.085711+00:00",
-      "summaryAttemptAt": "2026-11-16T06:56:56.150556+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "unsupported_number"
+      "summaryAttemptAt": "2026-11-24T00:14:03.062538+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "a5a1a114f481c1013d85",
@@ -12026,8 +12151,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T18:37:54.146234+00:00",
-      "summaryAttemptAt": "2026-11-16T06:57:39.666981+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-24T00:14:03.116567+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -12042,8 +12167,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-16T06:57:39.729620+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-24T00:14:03.137125+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -12058,8 +12183,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-16T06:57:39.750708+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-24T00:14:03.165278+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -14090,10 +14215,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 7,
-    "failed": 5,
-    "pending": 95,
-    "checkedAt": "2026-11-23T08:02:10.205825+00:00"
+    "created": 5,
+    "failed": 7,
+    "pending": 98,
+    "checkedAt": "2026-11-24T00:14:03.186024+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
