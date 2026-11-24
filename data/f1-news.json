@@ -1,24 +1,104 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-24T10:09:00.979296+00:00",
+  "collectedAt": "2026-11-24T22:38:38.587450+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-24T10:09:00.979296+00:00"
+      "checkedAt": "2026-11-24T22:38:38.587450+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-24T10:09:00.979296+00:00"
+      "checkedAt": "2026-11-24T22:38:38.587450+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "25a4358403248c129df5",
+      "title": "L'heure du choix approche pour Colton Herta après le refus de Cadillac pour 2027",
+      "url": "https://fr.motorsport.com/f1/news/heure-choix-colton-herta-apres-refus-cadillac-2028/10877540/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-24T18:53:26+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-24T22:38:38.587450+00:00",
+      "summaryAttemptAt": "2026-11-24T22:38:39.158128+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Colton Herta face à un choix crucial après le refus de Cadillac pour 2027",
+      "summaryFr": "La décision de Cadillac de garder Valtteri Bottas et Sergio Perez soulève des doutes sur l'avenir de Colton Herta. Le choix de continuité pour l'équipe de la 11e équipe met en lumière l'incertitude autour de l'avenir du pilote américain. Aucune confirmation officielle sur le statut de Herta pour 2027.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T22:39:23.813648+00:00"
+    },
+    {
+      "id": "c5e749d56da056ec1a05",
+      "title": "Le problème qui a privé Pierre Gasly d'une possible \"victoire\" au GP de Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/probleme-prive-pierre-gasly-possible-victoire-gp-las-vegas/10877510/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-24T16:06:23+00:00",
+      "topics": [
+        "pilotes",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-24T22:38:38.587450+00:00",
+      "summaryAttemptAt": "2026-11-24T22:39:23.813677+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Problème de refroidissement empêche Pierre Gasly de remporter le GP de Las Vegas",
+      "summaryFr": "Pierre Gasly estime avoir pu remporter le GP de Las Vegas s'il n'avait pas été touché par un problème de refroidissement. Parti de la huitième place, il terminait cinquième, après avoir occupé la troisième place après 31 tours.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T22:40:03.267411+00:00"
+    },
+    {
+      "id": "2af0f0d317bc9725111c",
+      "title": "Ce que Flavio Briatore retient de McLaren après le \"désastre\" Fernando Alonso",
+      "url": "https://fr.motorsport.com/f1/news/flavio-briatore-retient-mclaren-apres-desastre-fernando-alonso/10876008/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-24T11:31:59+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-24T22:38:38.587450+00:00",
+      "summaryAttemptAt": "2026-11-24T22:40:03.267440+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "copied_passage"
+    },
+    {
+      "id": "0b69577a7cbc6fbaf416",
+      "title": "Hadjar frustré : ce qui s'est vraiment passé à la radio chez Red Bull à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/isack-hadjar-frustre-vraiment-passe-radio-chez-red-bull-las-vegas/10877387/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-24T10:20:33+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-24T22:38:38.587450+00:00",
+      "summaryAttemptAt": "2026-11-24T22:40:47.007282+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hadjar frustré après une course dominée par Verstappen",
+      "summaryFr": "Isack Hadjar a débuté la course du Grand Prix de Las Vegas du quatrième rang. Dès le quatrième tour, il occupait la deuxième place, derrière son coéquipier Max Verstappen. La course a été marquée par une forte compétition entre les deux pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T22:41:26.438105+00:00"
+    },
     {
       "id": "334741e6b6f4a349095c",
       "title": "Piastri évoque ses projets de management après sa séparation avec Mark Webber",
@@ -1756,9 +1836,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-17T21:08:34.746401+00:00",
-      "summaryAttemptAt": "2026-11-17T21:08:35.583252+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "TimeoutExpired"
+      "summaryAttemptAt": "2026-11-24T22:41:50.280160+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "9d6dfe3362310ba08967",
@@ -2161,9 +2241,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-13T19:54:35.795339+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.893029+00:00",
-      "summaryAttempts": 2,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-11-24T22:41:26.482826+00:00",
+      "summaryAttempts": 3,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "fac6f73b8ebb1cbe5011",
@@ -3977,8 +4057,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-05T10:14:41.036565+00:00",
-      "summaryAttemptAt": "2026-11-17T08:13:24.063573+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-24T22:41:50.266891+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -7346,8 +7426,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-20T11:53:22.128116+00:00",
-      "summaryAttemptAt": "2026-11-17T08:13:00.523559+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-11-24T22:41:26.509532+00:00",
+      "summaryAttempts": 13,
       "summaryError": "invalid_length"
     },
     {
@@ -7554,8 +7634,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-18T04:49:03.617944+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.808821+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-24T22:41:26.455703+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -7693,8 +7773,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.874113+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-11-24T22:41:26.469415+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -7728,8 +7808,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-16T11:41:01.657698+00:00",
-      "summaryAttemptAt": "2026-11-17T08:13:00.472158+00:00",
-      "summaryAttempts": 14,
+      "summaryAttemptAt": "2026-11-24T22:41:26.496258+00:00",
+      "summaryAttempts": 15,
       "summaryError": "source_unavailable"
     },
     {
@@ -10190,8 +10270,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-02T06:44:23.694624+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.749103+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-24T22:41:26.438138+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -14252,10 +14332,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 2,
-    "failed": 10,
-    "pending": 98,
-    "checkedAt": "2026-11-24T10:11:12.048342+00:00"
+    "created": 3,
+    "failed": 9,
+    "pending": 99,
+    "checkedAt": "2026-11-24T22:41:50.292734+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
