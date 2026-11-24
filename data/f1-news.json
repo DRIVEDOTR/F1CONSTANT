@@ -1,24 +1,65 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-24T00:07:27.407641+00:00",
+  "collectedAt": "2026-11-24T10:09:00.979296+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-24T00:07:27.407641+00:00"
+      "checkedAt": "2026-11-24T10:09:00.979296+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-24T00:07:27.407641+00:00"
+      "checkedAt": "2026-11-24T10:09:00.979296+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "334741e6b6f4a349095c",
+      "title": "Piastri évoque ses projets de management après sa séparation avec Mark Webber",
+      "url": "https://fr.motorsport.com/f1/news/oscar-piastri-evoque-projets-management-apres-separation-mark-webber/10877356/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-24T08:27:57+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-24T10:09:00.979296+00:00",
+      "summaryAttemptAt": "2026-11-24T10:09:01.698959+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Piastri précise que son projet de management reste à définir après la séparation avec Mark Webber",
+      "summaryFr": "Piastri affirme que sa future structure de management n'est pas encore définie après la fin de son partenariat avec Ann et Mark Webber. Le 9 novembre, les deux parties ont annoncé \"d'un commun accord\" la fin de leur collaboration. Aucune information sur les projets futurs n'a été fournie.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T10:09:46.421857+00:00"
+    },
+    {
+      "id": "a891acc5543222bc9b7c",
+      "title": "Is Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw30gq2633ljo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-24T08:10:15+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-24T10:09:00.979296+00:00",
+      "summaryAttemptAt": "2026-11-24T10:09:46.421887+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hamilton et Leclerc : leur partenariat à Ferrari durable ?",
+      "summaryFr": "Une rumeur circule sur la possibilité d'un partenariat entre Hamilton et Leclerc à Ferrari. Cette association reste une simple hypothèse sans confirmation officielle. Aucune écurie n'a encore annoncé de changement de duo de pilotes.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-24T10:10:22.890560+00:00"
+    },
     {
       "id": "7428a9cc803023826a7c",
       "title": "Max Verstappen envisage les 24 Heures de Daytona dès 2027",
@@ -27,9 +68,7 @@
       "language": "fr",
       "publishedAt": "2026-11-23T17:54:13+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
       "summaryAttemptAt": "2026-11-24T00:07:27.931796+00:00",
@@ -49,7 +88,6 @@
       "language": "fr",
       "publishedAt": "2026-11-23T16:00:03+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
@@ -86,7 +124,7 @@
       "language": "fr",
       "publishedAt": "2026-11-23T12:59:37+00:00",
       "topics": [
-        "competition"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-24T00:07:27.407641+00:00",
       "summaryAttemptAt": "2026-11-24T00:09:55.267461+00:00",
@@ -178,7 +216,6 @@
       "language": "fr",
       "publishedAt": "2026-11-22T20:50:17+00:00",
       "topics": [
-        "ecuries",
         "competition"
       ],
       "firstSeenAt": "2026-11-23T07:56:02.240091+00:00",
@@ -821,8 +858,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
-      "summaryAttemptAt": "2026-11-16T22:26:39.707538+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-24T10:10:22.996209+00:00",
+      "summaryAttempts": 2,
       "summaryError": "invalid_length"
     },
     {
@@ -1827,9 +1864,9 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-16T22:23:43.815359+00:00",
-      "summaryAttemptAt": "2026-11-16T22:24:23.484841+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "invalid_length"
+      "summaryAttemptAt": "2026-11-24T10:10:22.964359+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "945885e420593f977e77",
@@ -2807,9 +2844,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-08T22:18:30.396013+00:00",
-      "summaryAttemptAt": "2026-11-16T22:28:17.854392+00:00",
-      "summaryAttempts": 3,
-      "summaryError": "unsupported_number"
+      "summaryAttemptAt": "2026-11-24T10:10:47.284212+00:00",
+      "summaryAttempts": 4,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "1be5eeacdb439b8f6fe8",
@@ -3955,8 +3992,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-05T07:04:29.585428+00:00",
-      "summaryAttemptAt": "2026-11-16T06:57:39.817991+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-24T10:10:22.890588+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -5326,8 +5363,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-31T21:45:47.958537+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.703978+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-24T10:11:11.973530+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -10406,8 +10443,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-28T06:45:17.976817+00:00",
-      "summaryAttemptAt": "2026-11-16T22:28:58.019994+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-24T10:10:47.419816+00:00",
+      "summaryAttempts": 23,
       "summaryError": "invalid_length"
     },
     {
@@ -10421,8 +10458,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-30T18:41:19.518325+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.678020+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-24T10:11:11.944031+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -10538,8 +10575,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-09-30T12:47:09.437001+00:00",
-      "summaryAttemptAt": "2026-11-17T08:12:32.630489+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-24T10:11:11.923291+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -12198,8 +12235,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T06:42:22.401303+00:00",
-      "summaryAttemptAt": "2026-11-16T22:28:17.814912+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-24T10:10:47.257632+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -12213,8 +12250,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-09-20T12:37:40.629709+00:00",
-      "summaryAttemptAt": "2026-11-16T22:28:57.989077+00:00",
-      "summaryAttempts": 22,
+      "summaryAttemptAt": "2026-11-24T10:10:47.369969+00:00",
+      "summaryAttempts": 23,
       "summaryError": "source_unavailable"
     },
     {
@@ -14215,10 +14252,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 5,
-    "failed": 7,
+    "created": 2,
+    "failed": 10,
     "pending": 98,
-    "checkedAt": "2026-11-24T00:14:03.186024+00:00"
+    "checkedAt": "2026-11-24T10:11:12.048342+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
