@@ -1,24 +1,103 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-25T08:54:33.344737+00:00",
+  "collectedAt": "2026-11-25T21:52:06.381863+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-25T08:54:33.344737+00:00"
+      "checkedAt": "2026-11-25T21:52:06.381863+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-25T08:54:33.344737+00:00"
+      "checkedAt": "2026-11-25T21:52:06.381863+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "20b3c126e1a0174f21c6",
+      "title": "Williams exceeded F1 cost cap by £627,000",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cxj05mv79z0do",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-25T17:37:34+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-25T21:52:06.381863+00:00",
+      "summaryAttemptAt": "2026-11-25T21:52:06.935301+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "unsupported_number"
+    },
+    {
+      "id": "76f54012979843c05644",
+      "title": "Williams et Alpine épinglées pour non-respect du plafond budgétaire 2025",
+      "url": "https://fr.motorsport.com/f1/news/williams-alpine-epinglee-non-respect-plafond-budgetaire-2025/10877751/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-25T16:51:53+00:00",
+      "topics": [
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-25T21:52:06.381863+00:00",
+      "summaryAttemptAt": "2026-11-25T21:52:42.413769+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Williams et Alpine sanctionnés pour dépassement du plafond budgétaire 2025",
+      "summaryFr": "Les écuries Williams et Alpine ont été retenues pour non-respect du plafond budgétaire 2025. Williams a reçu une sanction sportive, Alpine une amende. La FIA a confirmé le dépassement de 627 000 euros.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-25T21:53:21.419834+00:00"
+    },
+    {
+      "id": "f4496b9e63a52c1ffdc4",
+      "title": "Zak Brown écarte l'idée d'un programme moteur McLaren en 2030",
+      "url": "https://fr.motorsport.com/f1/news/zak-brown-ecarte-idee-programme-moteur-2030/10877565/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-25T10:40:19+00:00",
+      "topics": [
+        "ecuries",
+        "pilotes",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-25T21:52:06.381863+00:00",
+      "summaryAttemptAt": "2026-11-25T21:53:21.419858+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Zak Brown écarte un programme moteur pour McLaren en 2030",
+      "summaryFr": "Zak Brown a déclaré que McLaren ne développera pas un groupe propulseur interne en 2030. La marque reste satisfaite de son partenariat avec Mercedes, qui lui a permis de remporter deux titres constructeurs et un titre pilotes entre 2024 et 2025.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-25T21:54:01.861356+00:00"
+    },
+    {
+      "id": "93d3ca3eb41811a483e2",
+      "title": "Alonso: \"Sur certains circuits...nous perdons plus de deux secondes\"",
+      "url": "https://fr.motorsport.com/f1/news/fernando-alonso-certains-circuits-nous-perdons-deux-secondes/10877615/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-25T09:47:36+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "voitures"
+      ],
+      "firstSeenAt": "2026-11-25T21:52:06.381863+00:00",
+      "summaryAttemptAt": "2026-11-25T21:54:01.861382+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso : Honda perdrait des secondes sur certains circuits",
+      "summaryFr": "Fernando Alonso estime que le groupe propulseur Honda souffre d'un retard important, notamment en termes de puissance et de fiabilité. Il affirme que Aston Martin ne peut pas être compétitif avec ce moteur, malgré une optimisme pour l'avenir.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-25T21:54:40.131548+00:00"
+    },
     {
       "id": "25a4358403248c129df5",
       "title": "L'heure du choix approche pour Colton Herta après le refus de Cadillac pour 2027",
@@ -3927,8 +4006,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
-      "summaryAttemptAt": "2026-11-18T07:44:59.595388+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-25T21:54:40.131575+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -3983,8 +4062,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-05T20:09:05.428326+00:00",
-      "summaryAttemptAt": "2026-11-18T07:44:59.707107+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-25T21:54:40.192299+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -5266,8 +5345,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-26T05:03:07.440215+00:00",
-      "summaryAttemptAt": "2026-11-18T07:45:49.962028+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-25T21:55:28.069015+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -6642,8 +6721,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-11-18T07:45:25.435403+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-25T21:55:04.461030+00:00",
+      "summaryAttempts": 14,
       "summaryError": "invalid_length"
     },
     {
@@ -6843,8 +6922,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-24T04:50:01.576942+00:00",
-      "summaryAttemptAt": "2026-11-18T07:44:59.829614+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-25T21:54:40.320493+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -7484,8 +7563,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-19T13:42:51.200383+00:00",
-      "summaryAttemptAt": "2026-11-18T07:45:25.356605+00:00",
-      "summaryAttempts": 13,
+      "summaryAttemptAt": "2026-11-25T21:55:04.423170+00:00",
+      "summaryAttempts": 14,
       "summaryError": "source_unavailable"
     },
     {
@@ -9581,8 +9660,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-06T00:11:57.759289+00:00",
-      "summaryAttemptAt": "2026-11-18T07:44:59.931548+00:00",
-      "summaryAttempts": 19,
+      "summaryAttemptAt": "2026-11-25T21:54:40.422523+00:00",
+      "summaryAttempts": 20,
       "summaryError": "invalid_length"
     },
     {
@@ -10430,8 +10509,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-01T12:45:10.444987+00:00",
-      "summaryAttemptAt": "2026-11-18T07:44:59.912648+00:00",
-      "summaryAttempts": 21,
+      "summaryAttemptAt": "2026-11-25T21:54:40.357208+00:00",
+      "summaryAttempts": 22,
       "summaryError": "source_unavailable"
     },
     {
@@ -14334,10 +14413,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
-    "pending": 98,
-    "checkedAt": "2026-11-25T08:55:54.853278+00:00"
+    "created": 3,
+    "failed": 9,
+    "pending": 99,
+    "checkedAt": "2026-11-25T21:55:51.997007+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
