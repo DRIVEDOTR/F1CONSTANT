@@ -1,24 +1,64 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-25T21:52:06.381863+00:00",
+  "collectedAt": "2026-11-26T08:40:04.125290+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-25T21:52:06.381863+00:00"
+      "checkedAt": "2026-11-26T08:40:04.125290+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 49,
-      "checkedAt": "2026-11-25T21:52:06.381863+00:00"
+      "checkedAt": "2026-11-26T08:40:04.125290+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "e04b4166712707d45de8",
+      "title": "Andrew Benson Q&A: Send us your questions",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-26T08:21:52+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
+      "titleFr": "Vos questions F1 à Andrew Benson",
+      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
+      "summaryScope": "introduction",
+      "summaryMethod": "prepared",
+      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
+      "authorName": "BBC Sport"
+    },
+    {
+      "id": "cf77d64b4212719b463c",
+      "title": "5 choses à suivre au Grand Prix du Qatar de Formule 1",
+      "url": "https://fr.motorsport.com/f1/news/gp-qatar-f1-2026-5-choses-a-suivre/10877733/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-26T07:25:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-26T08:40:04.125290+00:00",
+      "summaryAttemptAt": "2026-11-26T08:40:04.516244+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Cinq éléments à suivre au Grand Prix du Qatar",
+      "summaryFr": "Malgré l'attribution des titres pilotes et constructeurs à Kimi Antonelli et Mercedes, le Grand Prix du Qatar reste un point clé. Max Verstappen est mentionné dans le contexte, mais les détails sont incomplets. La compétition continue à offrir des opportunités de surprise.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-26T08:40:34.408558+00:00"
+    },
     {
       "id": "20b3c126e1a0174f21c6",
       "title": "Williams exceeded F1 cost cap by £627,000",
@@ -63,7 +103,6 @@
       "publishedAt": "2026-11-25T10:40:19+00:00",
       "topics": [
         "ecuries",
-        "pilotes",
         "voitures"
       ],
       "firstSeenAt": "2026-11-25T21:52:06.381863+00:00",
@@ -84,9 +123,7 @@
       "language": "fr",
       "publishedAt": "2026-11-25T09:47:36+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "voitures"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-25T21:52:06.381863+00:00",
       "summaryAttemptAt": "2026-11-25T21:54:01.861382+00:00",
@@ -1382,24 +1419,6 @@
       "summaryAt": "2026-11-20T07:36:04.571135+00:00"
     },
     {
-      "id": "e04b4166712707d45de8",
-      "title": "Andrew Benson Q&A: Send us your questions",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg3y15zje8o",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-20T04:09:21+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-09-19T16:27:22.241264+00:00",
-      "titleFr": "Vos questions F1 à Andrew Benson",
-      "summaryFr": "La BBC invite ses lecteurs à interroger son correspondant Andrew Benson. Cette rubrique organise un échange hebdomadaire autour des sujets de la saison.",
-      "summaryScope": "introduction",
-      "summaryMethod": "prepared",
-      "summaryAt": "2026-09-20T08:26:06.899606+00:00",
-      "authorName": "BBC Sport"
-    },
-    {
       "id": "d38b35233e3f9e42ba39",
       "title": "Cadillac repousse le moteur GM d'un an et attendra le V8",
       "url": "https://fr.motorsport.com/f1/news/cadillac-repousse-moteur-gm-attendra-v8/10875808/",
@@ -1877,9 +1896,9 @@
         "voitures"
       ],
       "firstSeenAt": "2026-11-18T20:45:13.093017+00:00",
-      "summaryAttemptAt": "2026-11-18T20:47:15.179732+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-26T08:40:53.197708+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "bc4262c64e1cc6dd4366",
@@ -3704,8 +3723,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-06T19:35:21.812943+00:00",
-      "summaryAttemptAt": "2026-11-18T20:49:15.126144+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-26T08:41:30.422168+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -5012,8 +5031,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-11-02T06:30:07.990742+00:00",
-      "summaryAttemptAt": "2026-11-18T20:49:15.113086+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-26T08:41:30.375030+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -6215,8 +6234,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T22:26:47.033876+00:00",
-      "summaryAttemptAt": "2026-11-18T20:48:52.024487+00:00",
-      "summaryAttempts": 8,
+      "summaryAttemptAt": "2026-11-26T08:41:11.272550+00:00",
+      "summaryAttempts": 9,
       "summaryError": "source_unavailable"
     },
     {
@@ -6292,8 +6311,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-27T12:29:43.721461+00:00",
-      "summaryAttemptAt": "2026-11-18T20:48:52.036625+00:00",
-      "summaryAttempts": 9,
+      "summaryAttemptAt": "2026-11-26T08:41:11.383151+00:00",
+      "summaryAttempts": 10,
       "summaryError": "invalid_length"
     },
     {
@@ -7450,8 +7469,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-21T12:05:08.112386+00:00",
-      "summaryAttemptAt": "2026-11-18T20:48:52.012551+00:00",
-      "summaryAttempts": 12,
+      "summaryAttemptAt": "2026-11-26T08:41:11.138713+00:00",
+      "summaryAttempts": 13,
       "summaryError": "source_unavailable"
     },
     {
@@ -8700,8 +8719,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-04T21:41:40.776729+00:00",
-      "summaryAttemptAt": "2026-11-18T20:48:28.515333+00:00",
-      "summaryAttempts": 18,
+      "summaryAttemptAt": "2026-11-26T08:40:53.286378+00:00",
+      "summaryAttempts": 19,
       "summaryError": "invalid_length"
     },
     {
@@ -8937,8 +8956,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-10T12:45:59.713481+00:00",
-      "summaryAttemptAt": "2026-11-18T20:48:51.995889+00:00",
-      "summaryAttempts": 17,
+      "summaryAttemptAt": "2026-11-26T08:41:11.054924+00:00",
+      "summaryAttempts": 18,
       "summaryError": "source_unavailable"
     },
     {
@@ -10180,8 +10199,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-11-18T07:46:39.020613+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-26T08:40:52.992701+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -10195,8 +10214,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-03T16:10:52.366584+00:00",
-      "summaryAttemptAt": "2026-11-18T07:46:39.070304+00:00",
-      "summaryAttempts": 20,
+      "summaryAttemptAt": "2026-11-26T08:40:53.071730+00:00",
+      "summaryAttempts": 21,
       "summaryError": "source_unavailable"
     },
     {
@@ -11615,8 +11634,8 @@
         "competition"
       ],
       "firstSeenAt": "2026-09-21T12:36:52.398333+00:00",
-      "summaryAttemptAt": "2026-11-18T07:46:14.486012+00:00",
-      "summaryAttempts": 23,
+      "summaryAttemptAt": "2026-11-26T08:40:34.408586+00:00",
+      "summaryAttempts": 24,
       "summaryError": "invalid_length"
     },
     {
@@ -14413,10 +14432,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 3,
-    "failed": 9,
+    "created": 1,
+    "failed": 11,
     "pending": 99,
-    "checkedAt": "2026-11-25T21:55:51.997007+00:00"
+    "checkedAt": "2026-11-26T08:41:30.533115+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
