@@ -1,24 +1,212 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-27T08:51:41.604524+00:00",
+  "collectedAt": "2026-11-27T21:29:29.464676+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-27T08:51:41.604524+00:00"
+      "checkedAt": "2026-11-27T21:29:29.464676+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
-      "count": 49,
-      "checkedAt": "2026-11-27T08:51:41.604524+00:00"
+      "count": 48,
+      "checkedAt": "2026-11-27T21:29:29.464676+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "91e669fe50654b882f43",
+      "title": "Mercedes set pace in eventful Qatar second practice",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqpv903y40jko",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-27T19:50:06+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:29:30.127687+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli prend l'avantage en deuxième séance au Qatar",
+      "summaryFr": "Kimi Antonelli établit le rythme en deuxième séance de pratique au Grand Prix de Qatar, devant son coéquipier George Russell. La séance est marquée par des perturbations.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:30:11.475181+00:00"
+    },
+    {
+      "id": "7e1a6e1e4c38949dfed1",
+      "title": "How to follow Qatar Grand Prix on the BBC",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjzx912pyekdo",
+      "source": "BBC Sport",
+      "language": "en",
+      "publishedAt": "2026-11-27T19:05:27+00:00",
+      "topics": [
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
+      "summaryAttemptAt": "2026-11-22T19:55:44.363895+00:00",
+      "summaryAttempts": 1,
+      "summaryError": "invalid_length"
+    },
+    {
+      "id": "6ddde370a10109cd51d9",
+      "title": "EL2 - Mercedes toujours devant, Gasly provoque un drapeau rouge",
+      "url": "https://fr.motorsport.com/f1/news/el2-gp-qatar-gasly-drapeau-rouge-mercedes-devant/10878373/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T18:20:13+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:30:11.475222+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Kimi Antonelli leader au Qatari, deux drapeaux rouges en séance d'essais",
+      "summaryFr": "Kimi Antonelli a dominé la deuxième séance d'essais libres au Grand Prix du Qatar, interrompue par deux drapeaux rouges. Les conditions plus fraîches en soirée ont permis une séance plus représentative pour les qualifications samedi.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:30:58.066087+00:00"
+    },
+    {
+      "id": "417bfec989f4be257d59",
+      "title": "L'appel d'Audi contre la décision sur Tsunoda à Monza a été rejeté",
+      "url": "https://fr.motorsport.com/f1/news/appel-audi-gp-italie-2026-rejete/10878360/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T17:55:45+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:30:58.066115+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "L'appel d'Audi contre la décision sur Tsunoda à Monza rejeté",
+      "summaryFr": "Plus de deux mois après le Grand Prix d'Italie, le classement a été définitivement confirmé. Audi estimait que Yuki Tsunoda aurait dû être pénalisé pour une possible infraction lors du restart, mais son appel a été rejeté.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:31:44.401667+00:00"
+    },
+    {
+      "id": "f93f32aebb10e94c1e39",
+      "title": "La FIA confirme un gel des moteurs et encadre les essais avant le retour des V8",
+      "url": "https://fr.motorsport.com/f1/news/fia-confirms-gel-moteurs-avant-retour-v8/10878335/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T17:16:03+00:00",
+      "topics": [
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:31:44.401695+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "La FIA confirme un gel des moteurs à partir de mi-saison 2028",
+      "summaryFr": "La FIA annonce un gel des travaux sur les groupes propulseurs à partir de mi-saison 2028. Nikolas Tombazis précise que cette mesure vise à éviter les travaux simultanés sur deux générations de moteurs.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:32:30.651492+00:00"
+    },
+    {
+      "id": "48faca74a7cbf63c102e",
+      "title": "EL1 - Antonelli et Mercedes déjà en forme à Losail",
+      "url": "https://fr.motorsport.com/f1/news/el1-gp-qatar-antonelli-mercedes-en-forme/10878267/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T14:39:34+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:32:30.651521+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Antonelli et Mercedes en forme à Losail",
+      "summaryFr": "Kimi Antonelli a dominé les premiers essais libres du Grand Prix du Qatar avec Mercedes, devançant George Russell. Les pilotes ont dû faire face aux difficultés du circuit de Losail, une semaine après la course de Las Vegas.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:33:14.621737+00:00"
+    },
+    {
+      "id": "bb64e9de7cfe2e9d3849",
+      "title": "Carlos Sainz explique sa curieuse idée pour le DRS en F1 à partir de 2030",
+      "url": "https://fr.motorsport.com/f1/news/carlos-sainz-explique-idee-curieuse-drs-2030/10878149/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T11:51:32+00:00",
+      "topics": [
+        "pilotes"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:33:14.621763+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Carlos Sainz propose une idée sur le DRS en 2030 pour la F1",
+      "summaryFr": "Carlos Sainz évoque une idée sur le DRS en 2030, dans un contexte où la F1 prévoit un retour aux moteurs V8. Ce projet reste une rumeur, sans validation officielle.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:34:00.162912+00:00"
+    },
+    {
+      "id": "b9933edcd5ca1c939325",
+      "title": "Honda ne trouve aucun problème sur le \"moteur cassé\" d'Alonso à Las Vegas",
+      "url": "https://fr.motorsport.com/f1/news/honda-trouve-aucun-probleme-moteur-casse-alonso-aston-martin-las-vegas/10878123/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T11:41:21+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:34:00.162942+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Alonso annonce un \"moteur cassé\" après le GP de Las Vegas",
+      "summaryFr": "Fernando Alonso a indiqué lors du dernier tour de Las Vegas qu'il avait un problème avec son groupe propulseur. Il a bloqué ses roues avant d'aller aux stands. L'équipe n'a pas précisé la nature exacte du défaut.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:34:45.954391+00:00"
+    },
+    {
+      "id": "7e0ec5af73527957ccc1",
+      "title": "Quand les pilotes répondent à un Q.C.M. pour débattre des décisions des commissaires",
+      "url": "https://fr.motorsport.com/f1/news/pilotes-quiz-debattre-decisions-commissaires/10878167/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-27T10:55:34+00:00",
+      "topics": [
+        "pilotes",
+        "competition",
+        "ecuries"
+      ],
+      "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
+      "summaryAttemptAt": "2026-11-27T21:34:45.954426+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Les pilotes répondent à un Q.C.M. pour débattre des décisions des commissaires",
+      "summaryFr": "Une minorité de pilotes s'exprime régulièrement sur les décisions des commissaires, tandis que d'autres choisissent de ne pas s'y impliquer. La FIA a noté ce phénomène et en a tiré des conséquences dans ses décisions.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-27T21:35:34.086801+00:00"
+    },
     {
       "id": "6139e2644b42bc145fac",
       "title": "Le programme du Grand Prix du Qatar F1 2026 : dates, horaires et infos",
@@ -195,21 +383,6 @@
       "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
       "summaryScope": "introduction",
       "summaryAt": "2026-11-26T21:50:39.551340+00:00"
-    },
-    {
-      "id": "7e1a6e1e4c38949dfed1",
-      "title": "How to follow Qatar Grand Prix on the BBC",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjzx912pyekdo",
-      "source": "BBC Sport",
-      "language": "en",
-      "publishedAt": "2026-11-26T10:15:25+00:00",
-      "topics": [
-        "competition"
-      ],
-      "firstSeenAt": "2026-11-22T19:52:49.456541+00:00",
-      "summaryAttemptAt": "2026-11-22T19:55:44.363895+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "invalid_length"
     },
     {
       "id": "d5b38833e83d489d6c4e",
@@ -4619,8 +4792,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-20T20:40:25.747907+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-27T21:35:34.229287+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -5898,8 +6071,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-20T20:40:25.663138+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-27T21:35:34.086828+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -5933,8 +6106,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-30T22:31:54.659813+00:00",
-      "summaryAttemptAt": "2026-11-20T20:40:25.691943+00:00",
-      "summaryAttempts": 6,
+      "summaryAttemptAt": "2026-11-27T21:35:34.147673+00:00",
+      "summaryAttempts": 7,
       "summaryError": "source_unavailable"
     },
     {
@@ -6861,8 +7034,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-10-25T11:49:49.532622+00:00",
-      "summaryAttemptAt": "2026-11-20T20:40:25.720830+00:00",
-      "summaryAttempts": 10,
+      "summaryAttemptAt": "2026-11-27T21:35:34.210150+00:00",
+      "summaryAttempts": 11,
       "summaryError": "source_unavailable"
     },
     {
@@ -14629,10 +14802,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 1,
-    "failed": 11,
+    "created": 8,
+    "failed": 4,
     "pending": 100,
-    "checkedAt": "2026-11-27T08:53:56.382891+00:00"
+    "checkedAt": "2026-11-27T21:35:34.316644+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
