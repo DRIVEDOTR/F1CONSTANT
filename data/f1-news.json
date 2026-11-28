@@ -1,24 +1,68 @@
 {
   "version": 2,
   "startedAt": "2026-09-19T16:27:22.241264+00:00",
-  "collectedAt": "2026-11-27T21:29:29.464676+00:00",
+  "collectedAt": "2026-11-28T08:10:15.979738+00:00",
   "sources": [
     {
       "name": "Motorsport.com France",
       "url": "https://fr.motorsport.com/rss/f1/news/",
       "ok": true,
       "count": 50,
-      "checkedAt": "2026-11-27T21:29:29.464676+00:00"
+      "checkedAt": "2026-11-28T08:10:15.979738+00:00"
     },
     {
       "name": "BBC Sport",
       "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
       "ok": true,
       "count": 48,
-      "checkedAt": "2026-11-27T21:29:29.464676+00:00"
+      "checkedAt": "2026-11-28T08:10:15.979738+00:00"
     }
   ],
   "articles": [
+    {
+      "id": "28c9e3aad581f0f842f2",
+      "title": "Hankook devrait concurrencer Pirelli pour le prochain appel d'offres en F1",
+      "url": "https://fr.motorsport.com/f1/news/hankook-concurrencer-pirelli-manufacturier-unique-f1/10878495/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-28T08:00:41+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-28T08:10:15.979738+00:00",
+      "summaryAttemptAt": "2026-11-28T08:10:16.900303+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Hankook pourrait concurrencer Pirelli pour le contrat de pneus en F1",
+      "summaryFr": "Hankook serait un nouveau candidat sérieux pour le prochain appel d'offres de fourniture des pneus en Formule 1. Pirelli, actuel fournisseur depuis 2011, aurait connu une période de faibles performances. La concurrence pour le contrat reste ouverte.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-28T08:11:04.512456+00:00"
+    },
+    {
+      "id": "b05d73a6d9c64f71e67d",
+      "title": "Lando Norris : \"Mercedes est à un autre niveau\" au Qatar",
+      "url": "https://fr.motorsport.com/f1/news/lando-norris-mercedes-autre-niveau-qatar/10878485/",
+      "source": "Motorsport.com France",
+      "language": "fr",
+      "publishedAt": "2026-11-28T07:07:30+00:00",
+      "topics": [
+        "pilotes",
+        "ecuries",
+        "competition"
+      ],
+      "firstSeenAt": "2026-11-28T08:10:15.979738+00:00",
+      "summaryAttemptAt": "2026-11-28T08:11:04.512485+00:00",
+      "summaryAttempts": 1,
+      "titleFr": "Norris : \"Mercedes à un autre niveau\" au Qatar",
+      "summaryFr": "Les essais libres du vendredi au Grand Prix du Qatar ont vu un doublé des Mercedes avec Kimi Antonelli et George Russell. Aucune autre écurie n'a pu rivaliser avec leur rythme. Russell a enregistré un retard de demi-seconde sur Antonelli lors des EL1.",
+      "summaryMethod": "automatic-local",
+      "summaryModel": "Qwen3-4B-Instruct-2507 / Q4_K_M",
+      "summaryScope": "introduction",
+      "summaryAt": "2026-11-28T08:11:48.588419+00:00"
+    },
     {
       "id": "91e669fe50654b882f43",
       "title": "Mercedes set pace in eventful Qatar second practice",
@@ -27,9 +71,7 @@
       "language": "en",
       "publishedAt": "2026-11-27T19:50:06+00:00",
       "topics": [
-        "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:29:30.127687+00:00",
@@ -65,8 +107,7 @@
       "publishedAt": "2026-11-27T18:20:13+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:30:11.475222+00:00",
@@ -87,8 +128,7 @@
       "publishedAt": "2026-11-27T17:55:45+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:30:58.066115+00:00",
@@ -108,8 +148,7 @@
       "language": "fr",
       "publishedAt": "2026-11-27T17:16:03+00:00",
       "topics": [
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:31:44.401695+00:00",
@@ -130,8 +169,7 @@
       "publishedAt": "2026-11-27T14:39:34+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "ecuries"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:32:30.651521+00:00",
@@ -172,8 +210,7 @@
       "publishedAt": "2026-11-27T11:41:21+00:00",
       "topics": [
         "pilotes",
-        "ecuries",
-        "competition"
+        "voitures"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:34:00.162942+00:00",
@@ -193,9 +230,7 @@
       "language": "fr",
       "publishedAt": "2026-11-27T10:55:34+00:00",
       "topics": [
-        "pilotes",
-        "competition",
-        "ecuries"
+        "pilotes"
       ],
       "firstSeenAt": "2026-11-27T21:29:29.464676+00:00",
       "summaryAttemptAt": "2026-11-27T21:34:45.954426+00:00",
@@ -1256,8 +1291,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
-      "summaryAttemptAt": "2026-11-21T19:33:43.630164+00:00",
-      "summaryAttempts": 1,
+      "summaryAttemptAt": "2026-11-28T08:12:30.327548+00:00",
+      "summaryAttempts": 2,
       "summaryError": "unsupported_number"
     },
     {
@@ -1313,9 +1348,9 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
-      "summaryAttemptAt": "2026-11-21T19:36:04.734753+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-28T08:13:17.351473+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "885ef88e1e1087a6be76",
@@ -1329,9 +1364,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
-      "summaryAttemptAt": "2026-11-21T19:36:56.026979+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-28T08:13:17.416887+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "e38f63848190a7a04fc7",
@@ -1365,9 +1400,9 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-21T19:33:43.166567+00:00",
-      "summaryAttemptAt": "2026-11-21T19:38:23.141259+00:00",
-      "summaryAttempts": 1,
-      "summaryError": "copied_passage"
+      "summaryAttemptAt": "2026-11-28T08:13:17.524489+00:00",
+      "summaryAttempts": 2,
+      "summaryError": "source_unavailable"
     },
     {
       "id": "218fc0cadfa34c26466f",
@@ -2956,8 +2991,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-12T07:27:40.901447+00:00",
-      "summaryAttemptAt": "2026-11-21T19:39:54.999249+00:00",
-      "summaryAttempts": 3,
+      "summaryAttemptAt": "2026-11-28T08:13:17.551869+00:00",
+      "summaryAttempts": 4,
       "summaryError": "source_unavailable"
     },
     {
@@ -3702,8 +3737,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-21T07:33:40.456516+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-28T08:11:48.689815+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -3737,8 +3772,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-21T07:33:40.514281+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-28T08:11:48.774214+00:00",
+      "summaryAttempts": 5,
       "summaryError": "unsupported_number"
     },
     {
@@ -3812,8 +3847,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-07T22:05:59.925054+00:00",
-      "summaryAttemptAt": "2026-11-21T19:39:55.060380+00:00",
-      "summaryAttempts": 4,
+      "summaryAttemptAt": "2026-11-28T08:13:17.576325+00:00",
+      "summaryAttempts": 5,
       "summaryError": "source_unavailable"
     },
     {
@@ -4827,8 +4862,8 @@
         "pilotes"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-20T20:40:25.790312+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-28T08:11:48.588448+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -4925,8 +4960,8 @@
         "ecuries"
       ],
       "firstSeenAt": "2026-11-03T19:40:29.251985+00:00",
-      "summaryAttemptAt": "2026-11-21T07:33:40.385473+00:00",
-      "summaryAttempts": 5,
+      "summaryAttemptAt": "2026-11-28T08:11:48.637007+00:00",
+      "summaryAttempts": 6,
       "summaryError": "source_unavailable"
     },
     {
@@ -14802,10 +14837,10 @@
   "summaryStatus": {
     "mode": "partial",
     "model": "Qwen3-4B-Instruct-2507 / Q4_K_M",
-    "created": 8,
-    "failed": 4,
+    "created": 2,
+    "failed": 10,
     "pending": 100,
-    "checkedAt": "2026-11-27T21:35:34.316644+00:00"
+    "checkedAt": "2026-11-28T08:13:17.621654+00:00"
   },
   "historyCoverage": {
     "from": "2026-01-06",
